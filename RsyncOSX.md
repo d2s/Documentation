@@ -14,7 +14,7 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 </ul>
 
 <h3>How to use RsyncOSX and important notes</h3>
-Please read the "<a href="https://rsyncosx.blogspot.no/2016/08/how-to-use-rsyncosx.html" target="_blank">How to use RsyncOSX</a>" for RsyncOSX and important information about using RsyncOSX. Rsync is a very powerful tool. If not used properly, files and directories might be deleted.
+Please read the "<a href="https://github.com/rsyncOSX/Documentation/blob/master/HowtoUseRsyncOSX.md" target="_blank">How to use RsyncOSX</a>" for RsyncOSX and important information about using RsyncOSX. Rsync is a very powerful tool. If not used properly, files and directories might be deleted.
 
 <h3>Download link and install</h3>
 
