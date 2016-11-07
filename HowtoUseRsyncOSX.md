@@ -25,10 +25,11 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 
 But dont panic? What about<b> revisions and deleted</b> files? In the "parameters to rsync" there is presented a solution to save changed and deleted files in a selected backup location.
 
-<h3> Where do RsyncOSX save configuration files?</h3>
+<h3> Where does RsyncOSX save configuration files?</h3>
+
 RsyncOSX configuration file, log file, scheduled tasks file and userconfiguration are plain XML-files (<a href="https://en.wikipedia.org/wiki/Property_list" target="_blank">property list files</a>).  Configuration files (backup and restore task configurations and schedule data) are saved in:
 <ul>
-<li><code>~/Documents/Rsync/</code><code>MacID</code><code>/configRsync.plist</code></li>
+<li><code>~/Documents/Rsync/MacID/configRsync.plist</code></li>
 <ul>
 <li><code><b>~/</b></code> is user home directory</li>
 <li><code>MacID</code> is the Mac Serial Number and is automatically created by RsyncOSX</li>
@@ -37,7 +38,7 @@ RsyncOSX configuration file, log file, scheduled tasks file and userconfiguratio
 <div>
 When <i>profile</i> is used:</div>
 <ul>
-<li><code>~/Documents/Rsync/</code><code>MacID</code><code>/profile/configRsync.plist</code></li>
+<li><code>~/Documents/Rsync/MacID/profile/configRsync.plist</code></li>
 <ul>
 <li><code>profile</code> is the profile identification</li>
 </ul>
@@ -45,7 +46,7 @@ When <i>profile</i> is used:</div>
 
 <h4>Why use RsyncOSX?</h4>
 
-There is only one simple answer to that and the answer is <b><a href="https://en.wikipedia.org/wiki/Rsync" target="_blank">rsync</a></b>. Rsync is a rock solid, well proven, secure, fast, reliable and wide accessibility across platforms command line tool. RsyncOSX is just a GUI for executing  rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use many configurations.
+There is only one simple answer to the question and it is <b><a href="https://en.wikipedia.org/wiki/Rsync" target="_blank">rsync</a></b>. Rsync is a rock solid, well proven, secure, fast, reliable and wide accessibility across platforms command line tool. RsyncOSX is just a GUI for executing  rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
 
 <div>
 The following features are implemented in RsyncOSX:<br />
@@ -96,7 +97,7 @@ Any user just looking for an easy to use backup tool is advised to use other and
 
 <h3>The main opening view</h3>
 
-The main opening screen is below. All configurations to execute are listed in table. From this screen are all actions regarding configurations performed. All actions are presented below. The documentation is presented in sequence of how to add new configurations into RsyncOSX.
+The main opening screen is below. All configurations to execute are listed in table. From this screen all actions regarding configurations is executed. The documentation is presented in sequence of how to add and use new configurations into RsyncOSX.
 
 There are two labels on top of table : Profile and Double click: YES. Configurations can be saved in user selected profiles. The profile in use is shown in label. Double click:YES (or NO) either allow or dont allow executing single tasks by double click on row. Disable/enable in Configuration.
 
@@ -132,8 +133,7 @@ If "Single file" is ticked on, RsyncOSX adds backup og single file only. No rest
 </tbody></table>
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://1.bp.blogspot.com/-0qO_rSeuBKA/WAmhh79NoVI/AAAAAAAAL5E/eIDabOVSaWUSDf7GnvcgB79fdNpNNksZwCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B08.52.01.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"></a><br /></div>
-<a href="https://1.bp.blogspot.com/-0qO_rSeuBKA/WAmhh79NoVI/AAAAAAAAL5E/eIDabOVSaWUSDf7GnvcgB79fdNpNNksZwCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B08.52.01.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"></a><br />
-<br />
+<a href="https://1.bp.blogspot.com/-0qO_rSeuBKA/WAmhh79NoVI/AAAAAAAAL5E/eIDabOVSaWUSDf7GnvcgB79fdNpNNksZwCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B08.52.01.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"></a>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-c2w2h5xX9ag/WAmhh0ImdxI/AAAAAAAAL5I/oMN2h-FxbQU6cQbQVj3O4VERrnnpfqeLgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B08.52.31.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="366" src="https://3.bp.blogspot.com/-c2w2h5xX9ag/WAmhh0ImdxI/AAAAAAAAL5I/oMN2h-FxbQU6cQbQVj3O4VERrnnpfqeLgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B08.52.31.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">Adding local catalogs by GUI</td></tr>
@@ -260,7 +260,7 @@ Only backup tasks can be set for batch. All tasks marked for batch is presented 
 
 <h3>Schedule task</h3>
 
-By selecting a row and choose schedule applies a scheduled backup to a task. There are four(three) choices for schedules :<br />
+By selecting a row and choose schedule applies a scheduled backup to a task. There are four(three) choices for schedules :
 <ul>
 <li><b>Once</b></li>
 <ul>
@@ -280,14 +280,10 @@ By selecting a row and choose schedule applies a scheduled backup to a task. The
 <li>stop or delete scheduled tasks</li>
 </ul>
 </ul>
-</div>
-</div>
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://3.bp.blogspot.com/-pJYPTGFb4vY/WAmhkSC5fhI/AAAAAAAAL50/Wn0PKn2m2bsi2t0aKIiD_K8M0z92BPZrQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.23.45.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://3.bp.blogspot.com/-pJYPTGFb4vY/WAmhkSC5fhI/AAAAAAAAL50/Wn0PKn2m2bsi2t0aKIiD_K8M0z92BPZrQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.23.45.png" width="640" /></a></div>
-<br />
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://4.bp.blogspot.com/-qPey9NI5Wnk/WAmhkX5ckcI/AAAAAAAAL54/kwZaACuWAgsNq6cuWOB7m8WTMaVO4-cRQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.05.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://4.bp.blogspot.com/-qPey9NI5Wnk/WAmhkX5ckcI/AAAAAAAAL54/kwZaACuWAgsNq6cuWOB7m8WTMaVO4-cRQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.05.png" width="640" /></a></div>
-<br />
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://2.bp.blogspot.com/-3W2nahamOLs/WAmhkY4mz8I/AAAAAAAAL58/gx3onllf-2siECKAcKu4aXzCbHAZhhPSgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.13.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-3W2nahamOLs/WAmhkY4mz8I/AAAAAAAAL58/gx3onllf-2siECKAcKu4aXzCbHAZhhPSgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.13.png" width="640" /></a></div>
 <h4>
