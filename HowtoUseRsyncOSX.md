@@ -1,10 +1,10 @@
-<h3>How to use RsyncOSX</h3>
+<h2>How to use RsyncOSX</h2>
 
 This page is how to use RsyncOSX. It starts with the main view and is a walkthrough of adding a configuration and how to use it.
 
 <b>This page is under construction.</b> It will be under construction for some time. All screens in RsyncOSX is shown below. Information about each screen is "work in progress".
 
-<h3>Some important notes about rsync and RsyncOSX</h3>
+<h2>Important notes about rsync and RsyncOSX</h2>
 
 RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 <ul>
@@ -25,7 +25,7 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 
 But dont panic? What about<b> revisions and deleted</b> files? In the "parameters to rsync" there is presented a solution to save changed and deleted files in a selected backup location.
 
-<h3> Where does RsyncOSX save configuration files?</h3>
+<h2> Where does RsyncOSX save configuration files?</h2>
 
 RsyncOSX configuration file, log file, scheduled tasks file and userconfiguration are plain XML-files (<a href="https://en.wikipedia.org/wiki/Property_list" target="_blank">property list files</a>).  Configuration files (backup and restore task configurations and schedule data) are saved in:
 <ul>
@@ -44,7 +44,7 @@ When <i>profile</i> is used:</div>
 </ul>
 </ul>
 
-<h4>Why use RsyncOSX?</h4>
+<h2>Why use RsyncOSX?</h2>
 
 There is only one simple answer to the question and it is <b><a href="https://en.wikipedia.org/wiki/Rsync" target="_blank">rsync</a></b>. Rsync is a rock solid, well proven, secure, fast, reliable and wide accessibility across platforms command line tool. RsyncOSX is just a GUI for executing  rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
 
@@ -84,7 +84,7 @@ The following features are implemented in RsyncOSX:<br />
 </ul>
 </ul>
 
-<h4>RsyncOSX is not suitable to all users</h4>
+<h2>RsyncOSX is not suitable to all users</h2>
 
 The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to <i>low cost remote server</i> and assist me to keep my <i>two Macbook desktops in sync</i>. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private/public key based ssh password-less logins. Some basic understanding of the command-line tool rsync is also recommended.
 
@@ -95,7 +95,7 @@ Any user just looking for an easy to use backup tool is advised to use other and
 <li>you are able to <a href="https://github.com/rsyncOSX/Documentation/blob/master/PasswordlessLogin.md" target="_blank">setup a ssh password-less login</a> between the Macbook desktop and the remote server</li>
 </ul>
 
-<h3>The main opening view</h3>
+<h2>The main opening view</h2>
 
 The main opening screen is below. All configurations to execute are listed in table. From this screen all actions regarding configurations is executed. The documentation is presented in sequence of how to add and use new configurations into RsyncOSX.
 
@@ -120,7 +120,7 @@ Selecting the "Default" button selects the default profile.  Double click on a p
 <tr><td class="tr-caption" style="text-align: center;">Selecting profile</td></tr>
 </tbody></table>
 
-<h3>Add configuration</h3>
+<h2>Add configuration</h2>
 
 Adding configurations is easy. One configuration require as minimum only "Local catalog" and "Remote catalog". And they cannot be equal. After entering information about a configuration selecting the Add button adds it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent store when choosing another tab (as Execute or other).
 
@@ -159,7 +159,7 @@ Both the "backup" part and "restore" part is added when saving new configuration
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://4.bp.blogspot.com/-EeBIBxlJE0s/WAmhiWeeGDI/AAAAAAAAL5Q/__WJIgbs2bYVcqqLby79vgC4niFvkGy2gCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.16.46.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://4.bp.blogspot.com/-EeBIBxlJE0s/WAmhiWeeGDI/AAAAAAAAL5Q/__WJIgbs2bYVcqqLby79vgC4niFvkGy2gCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.16.46.png" width="640" /></a></div>
 
-<h3>Executing added configuration</h3>
+<h2>Executing added configuration</h2>
 
 In main view (which is the opening view) tasks can be executed as <b>single</b>- and/or <b>batch</b> tasks. Execute single tasks requires selecting the Execute button twice : one for estimation run and the second for executing the real task. For Batch execution, see below.
 
@@ -190,7 +190,7 @@ There are some status fields in the view :
 </tbody></table>
 <span style="font-weight: normal;">Both "backup" and "restore" path is set when saving configuration.</span><br />
 
-<h4> Parameters to rsync</h4>
+<h2> Parameters to rsync</h2>
 
 <a href="https://github.com/rsyncOSX/Documentation/blob/master/RsyncParameters.md" target="_blank">Here</a> are details about parameters to rsync. The parameters in picture below instructs rsync to save changed files in catalog ../backup (relativ to destination catalog) and suffix the backup file with timestamps. The above is enabled or disabled by select or deselect the "backup" button. The user might change the backup catalog. Default is ../backup.
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
@@ -208,7 +208,7 @@ The screen below is a listing of some of files moved to the backup directory and
 <tr><td class="tr-caption" style="text-align: center;">Changed files are moved to backup catalog and renamed with date and time as suffix</td></tr>
 </tbody></table>
 
-<h3>User configuration</h3>
+<h2>User configuration</h2>
 
 There are only a few parameters to choose in user configuration. The two most important are :</div>
 <div>
@@ -222,11 +222,9 @@ There are only a few parameters to choose in user configuration. The two most im
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://2.bp.blogspot.com/-h7b8RpZ9lc4/WBQqLxmCMyI/AAAAAAAAL7U/mhef5atFxcITHPg0Z1OnNmU7bmXuzfbigCLcB/s1600/Screen%2BShot%2B2016-10-29%2Bat%2B06.48.11.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-h7b8RpZ9lc4/WBQqLxmCMyI/AAAAAAAAL7U/mhef5atFxcITHPg0Z1OnNmU7bmXuzfbigCLcB/s640/Screen%2BShot%2B2016-10-29%2Bat%2B06.48.11.png" width="640" /></a></div>
 
-<h3>Execute single tasks</h3>
+<h2>Execute single tasks</h2>
 
-Execute single tasks is a <b>two step</b> operation, one for <b>estimation</b> (dry-run) and one for the <b>real task</b>. If the Information button is ticked on a popup view is automatically presented after both tasks.<br />
-<br />
-Single tasks can be executed either by selecting the Execute button or (if enabled) double click on the selected task. Both methods is a two step operation.<br />
+Execute single tasks is a <b>two step</b> operation, one for <b>estimation</b> (dry-run) and one for the <b>real task</b>. If the Information button is ticked on a popup view is automatically presented after both tasks.Single tasks can be executed either by selecting the Execute button or (if enabled) double click on the selected task. Both methods is a two step operation.<br />
 <div class="separator" style="clear: both; text-align: center;">
 </div>
 <br /></div>
@@ -235,7 +233,7 @@ Single tasks can be executed either by selecting the Execute button or (if enabl
 <div>
 The process info is updated when either a estimation task is executing or if a scheduled task is executing. There are five numbers in bottom page. Only version 3.x counts the number of remote directories. The numbers are files to be transferred and remote numbers. </div>
 
-<h4>Estimating</h4>
+<h3>Estimating</h3>
 
 The actual rsync command to be executed is shown below right corner in view. It is only the estimation command which is shown. You might copy the command and paste it into a terminal for execution. You have to delete the --dry-run parameter to execute the real task.
 
@@ -246,19 +244,19 @@ If you dont want to do a two step task chose Execute batch task (se below).</div
 </tbody></table>
 Next task shows what the next task is. It shows three status : Estimate, Execute or Abort. If Abort is pressed any executing task is aborted.<br />
 
-<h4>Executing</h4>
+<h3>Executing</h3>
 
 After estimate run is completed and result is checked, a real run is executed by selecting the Execute button again. If you select another row after estimation a new estimation run must be completed. </div>
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://4.bp.blogspot.com/-UxuIHn1pinM/WAmhjiJG6vI/AAAAAAAAL5o/285zrZW9RW0G_5Pg8odaL6ekIiKLeavNQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.22.14.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://4.bp.blogspot.com/-UxuIHn1pinM/WAmhjiJG6vI/AAAAAAAAL5o/285zrZW9RW0G_5Pg8odaL6ekIiKLeavNQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.22.14.png" width="640" /></a></div>
 
-<h3>Execute batch tasks </h3>
+<h2>Execute batch tasks </h2>
 
 Only backup tasks can be set for batch. All tasks marked for batch is presented in screen for batchtask. Choosing Execute executes all tasks in one go, both the estimation run and real run. The screen is updated as the process of execution is going forward.</div>
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://3.bp.blogspot.com/-BUlrOHueogY/WAmhjz0rQPI/AAAAAAAAL5w/yD21ybRDyGEoeY5ygEmV9f6H2etj5OqbwCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.22.39.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://3.bp.blogspot.com/-BUlrOHueogY/WAmhjz0rQPI/AAAAAAAAL5w/yD21ybRDyGEoeY5ygEmV9f6H2etj5OqbwCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.22.39.png" width="640" /></a></div>
 
-<h3>Schedule task</h3>
+<h2>Schedule task</h2>
 
 By selecting a row and choose schedule applies a scheduled backup to a task. There are four(three) choices for schedules :
 <ul>
@@ -286,12 +284,12 @@ By selecting a row and choose schedule applies a scheduled backup to a task. The
 <a href="https://4.bp.blogspot.com/-qPey9NI5Wnk/WAmhkX5ckcI/AAAAAAAAL54/kwZaACuWAgsNq6cuWOB7m8WTMaVO4-cRQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.05.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://4.bp.blogspot.com/-qPey9NI5Wnk/WAmhkX5ckcI/AAAAAAAAL54/kwZaACuWAgsNq6cuWOB7m8WTMaVO4-cRQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.05.png" width="640" /></a></div>
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://2.bp.blogspot.com/-3W2nahamOLs/WAmhkY4mz8I/AAAAAAAAL58/gx3onllf-2siECKAcKu4aXzCbHAZhhPSgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.13.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-3W2nahamOLs/WAmhkY4mz8I/AAAAAAAAL58/gx3onllf-2siECKAcKu4aXzCbHAZhhPSgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.13.png" width="640" /></a></div>
-<h4>
- Stopping a scheduled task</h4>
+<h3>
+ Stopping a scheduled task</h3>
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://2.bp.blogspot.com/-3CKoR1TM0Yg/WAmhkxhhCYI/AAAAAAAAL6A/PK3o5esw6Kkf8ChF2NXY6DeuyoMy3qaowCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.25.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-3CKoR1TM0Yg/WAmhkxhhCYI/AAAAAAAAL6A/PK3o5esw6Kkf8ChF2NXY6DeuyoMy3qaowCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.25.png" width="640" /></a></div>
 
-<h3>Copy single files or catalogs</h3>
+<h2>Copy single files or catalogs</h2>
 
 Copy file and volume enables the user to select single file or catalogs for restore to a given local storage. The source for copy is the selected row in Execute view. Pressing select starts the job to collect data about which files are stored on remote server.</div>
 <div class="separator" style="clear: both; text-align: center;">
