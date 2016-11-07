@@ -2,12 +2,11 @@
 
 This page is how to use RsyncOSX. It starts with the main view and is a walkthrough of adding a configuration and how to use it.
 
-<b>This page is under construction. </b>It will be under construction for some time. All screens in RsyncOSX is shown below. Information about each screen is "work in progress".<br />
+<b>This page is under construction.</b> It will be under construction for some time. All screens in RsyncOSX is shown below. Information about each screen is "work in progress".
 
-<h3>
-Some notes about rsync and RsyncOSX</h3>
+<h3>Some important notes about rsync and RsyncOSX</h3>
 
-RsyncOSX is a GUI for the rsync command-line tool. The main uses are:<br />
+RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 <ul>
 <li>backup (and restore) local files on Mac to remote servers connected to Internet or local network</li>
 <ul>
@@ -19,20 +18,15 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:<br />
 </ul>
 </ul>
 <div>
-<i>source</i> : the local volume to be copied </div>
-<div>
-<i>destination</i> : the remote location where source files and catalogs are copied</div>
-<div>
-<br /></div>
-<div>
-<b>Warning</b>: default parameters for rsync is to <b>synchronize</b> the <b>source</b> and <b>destination</b>. Doing a "restore" will <b>delete</b> all files in the source which are not in the destination. The main objective to RsyncOSX is to keep any <b>source</b> directory and <b>destination </b>(backup) directory <b>in sync</b>. When a source directory is backed up, the destination is 100% in sync with source in the moment the backup task is completed. There are <b>no revisions</b> of files in the backup in <b>default RsyncOSX</b>. Old files in the backup are either replaced with new ones or deleted if so is true in source.<br />
-<br />
-What about<b> revisions and deleted</b> files? In the "parameters to rsync" there is presented a solution to save changed and deleted files in a selected backup location.
+<i>source</i>: the local volume to be copied</br>
+<i>destination</i>: the remote location where source files and catalogs are copied
+
+<b>Warning</b>: default parameters for rsync is to <b>synchronize</b> the <b>source</b> and <b>destination</b>. A "restore" will <b>delete</b> all files in the source which are not in the destination. The main objective to RsyncOSX is to keep the <b>source</b> directory and <b>destination </b>(backup) directory <b>in sync</b>. When a source directory is backed up, the destination is 100% in sync with source in the moment the backup task is completed. There are <b>no revisions</b> of files in the backup in <b>default RsyncOSX</b>. Old files in the backup are either replaced with new ones or deleted if so is true in source.
+
+But dont panic? What about<b> revisions and deleted</b> files? In the "parameters to rsync" there is presented a solution to save changed and deleted files in a selected backup location.
 
 <h3> Where do RsyncOSX save configuration files?</h3>
-RsyncOSX configuration file, log file, scheduled tasks file and userconfiguration are plain XML-files (<a href="https://en.wikipedia.org/wiki/Property_list" target="_blank">property list files</a>).  Configuration files (backup and restore task configurations and schedule data) are saved in:<br />
-<br />
-<div>
+RsyncOSX configuration file, log file, scheduled tasks file and userconfiguration are plain XML-files (<a href="https://en.wikipedia.org/wiki/Property_list" target="_blank">property list files</a>).  Configuration files (backup and restore task configurations and schedule data) are saved in:
 <ul>
 <li><code>~/Documents/Rsync/</code><code>MacID</code><code>/configRsync.plist</code></li>
 <ul>
@@ -41,18 +35,18 @@ RsyncOSX configuration file, log file, scheduled tasks file and userconfiguratio
 </ul>
 </ul>
 <div>
-When profiles are used:</div>
+When <i>profile</i> is used:</div>
 <ul>
 <li><code>~/Documents/Rsync/</code><code>MacID</code><code>/profile/configRsync.plist</code></li>
 <ul>
-<li>if <code>profile</code> are used</li>
+<li><code>profile</code> is the profile identification</li>
 </ul>
 </ul>
 
 <h4>Why use RsyncOSX?</h4>
-There is only one simple answer to that and the answer is <b><a href="https://en.wikipedia.org/wiki/Rsync" target="_blank">rsync</a></b>. Rsync is a rock solid, well proven, secure, fast, reliable and wide accessibility across platforms command line tool. RsyncOSX is just a GUI for executing  rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use many configurations.</div>
-<div>
-<br /></div>
+
+There is only one simple answer to that and the answer is <b><a href="https://en.wikipedia.org/wiki/Rsync" target="_blank">rsync</a></b>. Rsync is a rock solid, well proven, secure, fast, reliable and wide accessibility across platforms command line tool. RsyncOSX is just a GUI for executing  rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use many configurations.
+
 <div>
 The following features are implemented in RsyncOSX:<br />
 <ul>
@@ -89,8 +83,7 @@ The following features are implemented in RsyncOSX:<br />
 </ul>
 </ul>
 
-<h4>
-RsyncOSX is not suitable to all users</h4>
+<h4>RsyncOSX is not suitable to all users</h4>
 
 The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to <i>low cost remote server</i> and assist me to keep my <i>two Macbook desktops in sync</i>. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private/public key based ssh password-less logins. Some basic understanding of the command-line tool rsync is also recommended.
 
@@ -100,7 +93,6 @@ Any user just looking for an easy to use backup tool is advised to use other and
 <li>you have some knowledge about running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS</li>
 <li>you are able to <a href="https://rsyncosx.blogspot.no/2016/03/remote-servers-ssh-and-passwordless.html" target="_blank">setup a ssh password-less login</a> between the Macbook desktop and the remote server</li>
 </ul>
-
 
 <h3>The main opening view</h3>
 
@@ -133,7 +125,7 @@ Adding configurations is easy. One configuration require as minimum only "Local 
 
 Select "Local catalog" either by "drag and drop", by enter text directly or by GUI (press the folder icon).  For "Remote catalogs" only drag and drop or GUI for local volumes. For remote server catalogs enter by text only.
 
-If "Single file" is ticked on, RsyncOSX adds backup og single file only. No restore part is added, use Copy files for search and restore.</div>
+If "Single file" is ticked on, RsyncOSX adds backup og single file only. No restore part is added, use Copy files for search and restore.
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><img border="0" height="336" src="https://1.bp.blogspot.com/-0qO_rSeuBKA/WAmhh79NoVI/AAAAAAAAL5E/eIDabOVSaWUSDf7GnvcgB79fdNpNNksZwCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B08.52.01.png" style="margin-left: auto; margin-right: auto;" width="640" /></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">The Add view - selecting Folder icon presents a GUI for local catalogs</td></tr>
@@ -146,8 +138,7 @@ If "Single file" is ticked on, RsyncOSX adds backup og single file only. No rest
 <tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-c2w2h5xX9ag/WAmhh0ImdxI/AAAAAAAAL5I/oMN2h-FxbQU6cQbQVj3O4VERrnnpfqeLgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B08.52.31.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="366" src="https://3.bp.blogspot.com/-c2w2h5xX9ag/WAmhh0ImdxI/AAAAAAAAL5I/oMN2h-FxbQU6cQbQVj3O4VERrnnpfqeLgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B08.52.31.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">Adding local catalogs by GUI</td></tr>
 </tbody></table>
-The screen below is all information about my configuration for a virtual FreeBSD instance running on my Macbook Pro.<br />
-<br />
+The screen below is all information about my configuration for a virtual FreeBSD instance running on my Macbook Pro.
 <ul>
 <li><b>Local catalog</b>: - path for my RsyncOSX src (as an example)</li>
 <li><b>Remote catalog</b>: - ~/src/RsyncOSX is the home catalog for user thomas (the ~ is expanded as the home catalog with full path by the remote operating system), the remote catalog might also be added by full path (/home/thomas/src/RsyncOSX)</li>
@@ -156,33 +147,32 @@ The screen below is all information about my configuration for a virtual FreeBSD
 <li><b>ssh port</b>: - if ssh communicates through other than standard port 22 it must be set here. In Virtualbox I have set up a port forwarding through port 3022 -&gt; Virtualbox port 22.</li>
 <li><b>rsync daemon</b>: - setting this puts a double colon :: in address parameter to rsync. It forces rsync to use the rsync daemon remote which takes some more setup. I am not using it myself.</li>
 </ul>
-<br />
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="https://2.bp.blogspot.com/-gi2FYh-_LBY/WAmhiEf5ZrI/AAAAAAAAL5M/q592yuxR-QIxu9c2ES9RctnCHQClwlowgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.16.23.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://2.bp.blogspot.com/-gi2FYh-_LBY/WAmhiEf5ZrI/AAAAAAAAL5M/q592yuxR-QIxu9c2ES9RctnCHQClwlowgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.16.23.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">Information about configuration for a Virtual machine</td></tr>
 </tbody></table>
-Select the Add button when finish and configuration are added to RsyncOSX. Any changes to added configurations from the Execute screen.<br />
-<br />
-RsyncOSX adds the "/" character to both local and remote volume.<br />
-<br />
+Select the Add button when finish and configuration are added to RsyncOSX. Any changes to added configurations from the Execute screen.
+
+RsyncOSX adds the "/" character to both local and remote volume.
+
 Both the "backup" part and "restore" part is added when saving new configurations.<br />
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://4.bp.blogspot.com/-EeBIBxlJE0s/WAmhiWeeGDI/AAAAAAAAL5Q/__WJIgbs2bYVcqqLby79vgC4niFvkGy2gCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.16.46.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://4.bp.blogspot.com/-EeBIBxlJE0s/WAmhiWeeGDI/AAAAAAAAL5Q/__WJIgbs2bYVcqqLby79vgC4niFvkGy2gCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.16.46.png" width="640" /></a></div>
 
 <h3>Executing added configuration</h3>
 
-In main view (which is the opening view) tasks can be executed as <b>single</b>- and/or <b>batch</b> tasks. Execute single tasks requires selecting the Execute button twice : one for estimation run and the second for executing the real task. For Batch execution, see below.</div>
-<br />
-There are three options for editing after selecting a task in row :<br />
+In main view (which is the opening view) tasks can be executed as <b>single</b>- and/or <b>batch</b> tasks. Execute single tasks requires selecting the Execute button twice : one for estimation run and the second for executing the real task. For Batch execution, see below.
+
+There are three options for editing after selecting a task in row :
 <ul>
 <li><b>Edit task</b></li>
 <li><b>Parameters</b> (to rsync)</li>
 <li><b>Delete task</b></li>
 </ul>
 <div>
-For Parameters see below. After selecting a row choosing one of the above pops up a new view according to selection. Selecting Edit task for editing basic information about task. Selecting Delete task deletes the selected row (task).<br />
-<br />
-There are some status fields in the view :<br />
+For Parameters see below. After selecting a row choosing one of the above pops up a new view according to selection. Selecting Edit task for editing basic information about task. Selecting Delete task deletes the selected row (task).
+
+There are some status fields in the view :
 <ul>
 <li><b>Estimate</b> - text is either "Estimate" or "Execute" - valid for single tasks only</li>
 <ul>
@@ -193,8 +183,7 @@ There are some status fields in the view :<br />
 <li><b>Information</b> - if checked a drop down view is presented after each run - valid for single tasks only</li>
 <li><b>Estimating</b> - a progress bar shows when a --dry-run (or estimate) is executing </li>
 </ul>
-</div>
-</div>
+
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="https://2.bp.blogspot.com/-PslDJNhqRdc/WAmhihscUDI/AAAAAAAAL5U/CXCxco5tfPQNYCWgZUQfp5odxVLGe_wpQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.14.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://2.bp.blogspot.com/-PslDJNhqRdc/WAmhihscUDI/AAAAAAAAL5U/CXCxco5tfPQNYCWgZUQfp5odxVLGe_wpQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.14.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">Selecting a configuration for actions </td></tr>
@@ -203,9 +192,7 @@ There are some status fields in the view :<br />
 
 <h4> Parameters to rsync</h4>
 
-<a href="https://github.com/rsyncOSX/Documentation/blob/master/RsyncParameters.md" target="_blank">Here</a> are details about parameters to rsync. The parameters in picture below instructs rsync to save changed files in catalog ../backup (relativ to destination catalog) and suffix the backup file with timestamps. The above is enabled or disabled by select or deselect the "backup" button. The user might change the backup catalog. Default is ../backup.</div>
-<div>
-<br /></div>
+<a href="https://github.com/rsyncOSX/Documentation/blob/master/RsyncParameters.md" target="_blank">Here</a> are details about parameters to rsync. The parameters in picture below instructs rsync to save changed files in catalog ../backup (relativ to destination catalog) and suffix the backup file with timestamps. The above is enabled or disabled by select or deselect the "backup" button. The user might change the backup catalog. Default is ../backup.
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-mFUGksTyUAA/WAmhilxPsnI/AAAAAAAAL5Y/s9lXbqBNRnkCTS1WPyjHmafFJAyNYF8qACLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.32.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://1.bp.blogspot.com/-mFUGksTyUAA/WAmhilxPsnI/AAAAAAAAL5Y/s9lXbqBNRnkCTS1WPyjHmafFJAyNYF8qACLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.32.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">Either set preselected parameters or your own parameters</td></tr>
@@ -222,6 +209,7 @@ The screen below is a listing of some of files moved to the backup directory and
 </tbody></table>
 
 <h3>User configuration</h3>
+
 There are only a few parameters to choose in user configuration. The two most important are :</div>
 <div>
 <ul>
@@ -233,11 +221,6 @@ There are only a few parameters to choose in user configuration. The two most im
 </div>
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://2.bp.blogspot.com/-h7b8RpZ9lc4/WBQqLxmCMyI/AAAAAAAAL7U/mhef5atFxcITHPg0Z1OnNmU7bmXuzfbigCLcB/s1600/Screen%2BShot%2B2016-10-29%2Bat%2B06.48.11.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-h7b8RpZ9lc4/WBQqLxmCMyI/AAAAAAAAL7U/mhef5atFxcITHPg0Z1OnNmU7bmXuzfbigCLcB/s640/Screen%2BShot%2B2016-10-29%2Bat%2B06.48.11.png" width="640" /></a></div>
-<div>
-<br /></div>
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
 
 <h3>Execute single tasks</h3>
 
@@ -277,13 +260,7 @@ Only backup tasks can be set for batch. All tasks marked for batch is presented 
 
 <h3>Schedule task</h3>
 
-By selecting a row and choose schedule applies a scheduled backup to a task.</div>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-There are four(three) choices for schedules :<br />
+By selecting a row and choose schedule applies a scheduled backup to a task. There are four(three) choices for schedules :<br />
 <ul>
 <li><b>Once</b></li>
 <ul>
@@ -329,11 +306,3 @@ Copy file and volume enables the user to select single file or catalogs for rest
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://1.bp.blogspot.com/-ULO1IkYC_rc/WAmhlpXWq0I/AAAAAAAAL6Q/SjCXaRf_Io4YW_O_hl1LDK4Zvl99ZPBPgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B10.17.59.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://1.bp.blogspot.com/-ULO1IkYC_rc/WAmhlpXWq0I/AAAAAAAAL6Q/SjCXaRf_Io4YW_O_hl1LDK4Zvl99ZPBPgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B10.17.59.png" width="640" /></a></div>
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<br />
-<style type="text/css">
-p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Menlo; color: #000000; background-color: #ffffff}
-span.s1 {font-variant-ligatures: no-common-ligatures}
-</style>
