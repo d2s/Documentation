@@ -29,7 +29,7 @@ But dont panic? What about<b> revisions and deleted</b> files? In the "parameter
 <h2> Where does RsyncOSX save configuration files?</h2>
 
 RsyncOSX configuration file, log file, scheduled tasks file and userconfiguration are plain XML-files (<a href="https://en.wikipedia.org/wiki/Property_list" target="_blank">property list files</a>).  Configuration files (backup and restore task configurations and schedule data) are saved in:
-
+</cr>
 <ul>
 <li><code>~/Documents/Rsync/MacID/configRsync.plist</code></li>
 <ul>
@@ -52,6 +52,7 @@ There is only one simple answer to the question and it is <b><a href="https://en
 
 
 The following features are implemented in RsyncOSX:
+</cr>
 <ul>
 <li>execute <b>single</b> tasks</li>
 <ul>
