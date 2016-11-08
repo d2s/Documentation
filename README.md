@@ -1,11 +1,15 @@
 # Documentation
-The following are documents about RsyncOSX. The first document is plain how to get and install RsyncOSX. The second document is some information what RsyncOSX is and how to use the application. Please read the second document before using the application.
+The following are documents about RsyncOSX. The first document is how to get and install RsyncOSX. The second document is some information what RsyncOSX is and how to use the application. Please read the second document before using the application.
 <ul><li> 
 Getting and installing <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncOSX.md" target="_blank">RsyncOSX</a>.
 </li></ul>
-<ul>
-<ul><li> Some information about what
+<ul><li> Important information about what
 <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/HowtoUseRsyncOSX.md" target="_blank"> RsyncOSX</a> is.
+</li></ul>
+<ul>
+
+<ul><li> Adding
+<a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/AddConfigurations.md" target="_blank"> configurations</a>.
 </li></ul>
 <ul><li> Executing of
 <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/SingleTask.md" target="_blank"> single tasks</a>.

@@ -25,7 +25,7 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 
 But dont panic? What about<b> revisions and deleted</b> files? In the "parameters to rsync" there is presented a solution to save changed and deleted files in a selected backup location.
 
-<h2> Where does RsyncOSX save configuration files?</h2>
+<h2>Where does RsyncOSX save configuration files?</h2>
 
 RsyncOSX configuration file, log file, scheduled tasks file and userconfiguration are plain XML-files (<a href="https://en.wikipedia.org/wiki/Property_list" target="_blank">property list files</a>).  Configuration files (backup and restore task configurations and schedule data) are saved in:</br>
 </br>
