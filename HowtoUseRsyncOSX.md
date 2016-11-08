@@ -49,8 +49,8 @@ When <i>profile</i> is used:</div>
 
 There is only one simple answer to the question and it is <b><a href="https://en.wikipedia.org/wiki/Rsync" target="_blank">rsync</a></b>. Rsync is a rock solid, well proven, secure, fast, reliable and wide accessibility across platforms command line tool. RsyncOSX is just a GUI for executing  rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
 
-<div>
-The following features are implemented in RsyncOSX:<br />
+
+The following features are implemented in RsyncOSX:
 <ul>
 <li>execute <b>single</b> tasks</li>
 <ul>
@@ -89,11 +89,12 @@ The following features are implemented in RsyncOSX:<br />
 
 The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to <i>low cost remote server</i> and assist me to keep my <i>two Macbook desktops in sync</i>. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private/public key based ssh password-less logins. Some basic understanding of the command-line tool rsync is also recommended.
 
-Any user just looking for an easy to use backup tool is advised to use other and probably more suitable tools than RsyncOSX. To fully understand and use RsyncOSX I recommend the following:<br />
+Any user just looking for an easy to use backup tool is advised to use other and probably more suitable tools than RsyncOSX. To fully understand and use RsyncOSX I recommend the following:
+
 <ul>
 <li>you have some understanding of the command-line tool rsync</li>
 <li>you have some knowledge about running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS</li>
-<li>you are able to <a href="https://github.com/rsyncOSX/Documentation/blob/master/PasswordlessLogin.md" target="_blank">setup a ssh password-less login</a> between the Macbook desktop and the remote server</li>
+<li>you are able to <a href="https://github.com/rsyncOSX/Documentation/blob/master/PasswordlessLogin.md" target="_blank">setup a ssh password-less login</a> between the Mac and remote server</li>
 </ul>
 
 <h2>The main opening view</h2>
@@ -106,16 +107,12 @@ There are two labels on top of table : Profile and Double click: YES. Configurat
 <tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-9e82zjXi_q4/WBQnQ425ysI/AAAAAAAAL7E/t--57C8ZzPMIgcRn02YTnrWx8jAv35oXgCLcB/s1600/Screen%2BShot%2B2016-10-29%2Bat%2B06.35.31.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://3.bp.blogspot.com/-9e82zjXi_q4/WBQnQ425ysI/AAAAAAAAL7E/t--57C8ZzPMIgcRn02YTnrWx8jAv35oXgCLcB/s640/Screen%2BShot%2B2016-10-29%2Bat%2B06.35.31.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">The main view of RsyncOSX</td></tr>
 </tbody></table>
-RsyncOSX uses profiles. If not used all configurations are saved in the default profile. Which profile in use is labeled on left top of table.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-In the profiles menu there are two options:<br />
+RsyncOSX uses profiles. If not used all configurations are saved in the default profile. Which profile in use is labeled on left top of table.In the profiles menu there are two options:
 <ul>
 <li>new profile (name of new profile must be set in "New profile name:")</li>
 <li>delete profile</li>
 </ul>
-Selecting the "Default" button selects the default profile.  Double click on a profile name selects the profile.<br />
+Selecting the "Default" button selects the default profile.  Double click on a profile name selects the profile.
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-ZI3Wb7tQd5o/WBQnQ-ibGHI/AAAAAAAAL7A/XG1Du4gcLi8Pi3dlZNzzSCJOEFoMiZ_KQCLcB/s1600/Screen%2BShot%2B2016-10-29%2Bat%2B06.35.46.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://1.bp.blogspot.com/-ZI3Wb7tQd5o/WBQnQ-ibGHI/AAAAAAAAL7A/XG1Du4gcLi8Pi3dlZNzzSCJOEFoMiZ_KQCLcB/s640/Screen%2BShot%2B2016-10-29%2Bat%2B06.35.46.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">Selecting profile</td></tr>
@@ -170,7 +167,7 @@ There are three options for editing after selecting a task in row :
 <li><b>Parameters</b> (to rsync)</li>
 <li><b>Delete task</b></li>
 </ul>
-<div>
+
 For Parameters see below. After selecting a row choosing one of the above pops up a new view according to selection. Selecting Edit task for editing basic information about task. Selecting Delete task deletes the selected row (task).
 
 There are some status fields in the view :
@@ -189,11 +186,11 @@ There are some status fields in the view :
 <tr><td style="text-align: center;"><a href="https://2.bp.blogspot.com/-PslDJNhqRdc/WAmhihscUDI/AAAAAAAAL5U/CXCxco5tfPQNYCWgZUQfp5odxVLGe_wpQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.14.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://2.bp.blogspot.com/-PslDJNhqRdc/WAmhihscUDI/AAAAAAAAL5U/CXCxco5tfPQNYCWgZUQfp5odxVLGe_wpQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.14.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">Selecting a configuration for actions </td></tr>
 </tbody></table>
-<span style="font-weight: normal;">Both "backup" and "restore" path is set when saving configuration.</span><br />
+<span style="font-weight: normal;">Both "backup" and "restore" path is set when saving configuration.</span>
 
 <h2> Parameters to rsync</h2>
 
-<a href="https://github.com/rsyncOSX/Documentation/blob/master/RsyncParameters.md" target="_blank">Here</a> are details about parameters to rsync. The parameters in picture below instructs rsync to save changed files in catalog ../backup (relativ to destination catalog) and suffix the backup file with timestamps. The above is enabled or disabled by select or deselect the "backup" button. The user might change the backup catalog. Default is ../backup.
+<a href="https://github.com/rsyncOSX/Documentation/blob/master/RsyncParameters.md" target="_blank">Here</a> is details about parameters to rsync. The parameters in picture below instructs rsync to save changed files in catalog ../backup (relativ to destination catalog) and suffix the backup file with timestamps. The above is enabled or disabled by select or deselect the "backup" button. The user might change the backup catalog. Default is ../backup.
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-mFUGksTyUAA/WAmhilxPsnI/AAAAAAAAL5Y/s9lXbqBNRnkCTS1WPyjHmafFJAyNYF8qACLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.32.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://1.bp.blogspot.com/-mFUGksTyUAA/WAmhilxPsnI/AAAAAAAAL5Y/s9lXbqBNRnkCTS1WPyjHmafFJAyNYF8qACLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.32.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">Either set preselected parameters or your own parameters</td></tr>
@@ -211,15 +208,12 @@ The screen below is a listing of some of files moved to the backup directory and
 
 <h2>User configuration</h2>
 
-There are only a few parameters to choose in user configuration. The two most important are :</div>
-<div>
+There are only a few parameters to choose in user configuration. The three options are :
 <ul>
 <li>another version of rsync</li>
 <li>detailed logging on or off</li>
 <li>allow double click to execute single tasks</li>
 </ul>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://2.bp.blogspot.com/-h7b8RpZ9lc4/WBQqLxmCMyI/AAAAAAAAL7U/mhef5atFxcITHPg0Z1OnNmU7bmXuzfbigCLcB/s1600/Screen%2BShot%2B2016-10-29%2Bat%2B06.48.11.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-h7b8RpZ9lc4/WBQqLxmCMyI/AAAAAAAAL7U/mhef5atFxcITHPg0Z1OnNmU7bmXuzfbigCLcB/s640/Screen%2BShot%2B2016-10-29%2Bat%2B06.48.11.png" width="640" /></a></div>
 
