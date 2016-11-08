@@ -1,10 +1,8 @@
 <h2>Rsync parameters</h2>
  
-Rsync has a ton of possible parameters. RsyncOSX implements standard parameters which are working fine for simple backup and restore tasks. The actual parameters used in tasks is depended upon executing rsync over network connection or not. Which parameters to use is computed during startup of application by reading the configuration file.<br />
-<br />
-<br />
-RsyncOSX does also facilitate user selected parameters. User selected parameters are stored by each task.<br />
-<br />
+Rsync has a ton of possible parameters. RsyncOSX implements standard parameters which are working fine for simple backup and restore tasks. The actual parameters used in tasks is depended upon executing rsync over network connection or not. Which parameters to use is computed during startup of application by reading the configuration file.
+
+RsyncOSX does also facilitate user selected parameters. User selected parameters are stored by each task.
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-srgKvwoP9I8/WBwsnVzdkKI/AAAAAAAAL78/mM567JKI5QoM6HJVGFxhJGatJ1EzMw2jQCLcB/s1600/Screen%2BShot%2B2016-11-04%2Bat%2B07.35.43.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://3.bp.blogspot.com/-srgKvwoP9I8/WBwsnVzdkKI/AAAAAAAAL78/mM567JKI5QoM6HJVGFxhJGatJ1EzMw2jQCLcB/s640/Screen%2BShot%2B2016-11-04%2Bat%2B07.35.43.png" width="640" /></a></td></tr>
 <tr><td class="tr-caption" style="text-align: center;">The menu for adding parameters to rsync (by task)</td></tr>
@@ -47,8 +45,8 @@ The following parameters is for networked tasks only.
 </ul>
 
 <h2>Details about the sample parameters</h2>
-The website LibreByte has done an article about rsync and "<a href="http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/" target="_blank">14 Pratical examples of the rsync command</a>". One of the examples is instructing rsync to store backups of files in a backup folder and rename old files by a date suffix.<br />
-<br />
+The website LibreByte has done an article about rsync and "<a href="http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/" target="_blank">14 Pratical examples of the rsync command</a>". One of the examples is instructing rsync to store backups of files in a backup folder and rename old files by a date suffix.
+
 The first parameters (of five parameters) in figure are for excluding some files (the file <code>exclude-list.txt</code> is only one line with <code>*.pdf</code> which instructs rsync to omit all files with suffix pdf).
 The parameters are (in the correct order to work and no (important) white spaces). The only white space is between date and + sign <code>$(date +...)</code> in third parameter.</div>
 <div>
