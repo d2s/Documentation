@@ -27,7 +27,9 @@ But dont panic? What about<b> revisions and deleted</b> files? In the "parameter
 
 <h2> Where does RsyncOSX save configuration files?</h2>
 
-RsyncOSX configuration file, log file, scheduled tasks file and userconfiguration are plain XML-files (<a href="https://en.wikipedia.org/wiki/Property_list" target="_blank">property list files</a>).  Configuration files (backup and restore task configurations and schedule data) are saved in:
+RsyncOSX configuration file, log file, scheduled tasks file and userconfiguration are plain XML-files (<a href="https://en.wikipedia.org/wiki/Property_list" target="_blank">property list files</a>).  Configuration files (backup and restore task configurations and schedule data) are saved in:</br>
+</br>
+
 <ul>
 <li><code>~/Documents/Rsync/MacID/configRsync.plist</code></li>
 <ul>
@@ -48,7 +50,9 @@ When <i>profile</i> is used:</div>
 
 There is only one simple answer to the question and it is <b><a href="https://en.wikipedia.org/wiki/Rsync" target="_blank">rsync</a></b>. Rsync is a rock solid, well proven, secure, fast, reliable and wide accessibility across platforms command line tool. RsyncOSX is just a GUI for executing  rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
 
-The following features are implemented in RsyncOSX:
+The following features are implemented in RsyncOSX:</br>
+</br>
+
 <ul>
 <li>execute <b>single</b> tasks</li>
 <ul>
@@ -87,7 +91,9 @@ The following features are implemented in RsyncOSX:
 
 The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to <i>low cost remote server</i> and assist me to keep my <i>two Macbook desktops in sync</i>. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private/public key based ssh password-less logins. Some basic understanding of the command-line tool rsync is also recommended.
 
-Any user just looking for an easy to use backup tool is advised to use other and probably more suitable tools than RsyncOSX. To fully understand and use RsyncOSX I recommend the following:
+Any user just looking for an easy to use backup tool is advised to use other and probably more suitable tools than RsyncOSX. To fully understand and use RsyncOSX I recommend the following:</br>
+</br>
+
 
 <ul>
 <li>you have some understanding of the command-line tool rsync</li>
