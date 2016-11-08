@@ -1,28 +1,31 @@
 # Documentation
 The following is documentation of RsyncOSX:
 <ul><li> 
-General overview of <a href="https://github.com/rsyncOSX/Documentation/blob/master/RsyncOSX.md" target="_blank">RsyncOSX</a>
+General overview of <a href="https://github.com/rsyncOSX/Documentation/blob/master/RsyncOSX.md" target="_blank">RsyncOSX</a>.
 </li></ul>
 
 
 <ul>
-<ul><li> Some information about what is
-<a href="https://github.com/rsyncOSX/Documentation/blob/master/HowtoUseRsyncOSX.md" target="_blank"> RsyncOSX</a>
+<ul><li> Some information about what
+<a href="https://github.com/rsyncOSX/Documentation/blob/master/HowtoUseRsyncOSX.md" target="_blank"> RsyncOSX</a> is.
 </li></ul>
 <ul><li> Executing of
-<a href="https://github.com/rsyncOSX/Documentation/blob/master/SingleTask.md" target="_blank"> single tasks</a>
+<a href="https://github.com/rsyncOSX/Documentation/blob/master/SingleTask.md" target="_blank"> single tasks</a>.
 </li></ul>
 <ul><li> Executing of
-<a href="https://github.com/rsyncOSX/Documentation/blob/master/BatchTask.md" target="_blank"> batch tasks</a>
+<a href="https://github.com/rsyncOSX/Documentation/blob/master/BatchTask.md" target="_blank"> batch tasks</a>.
 </li></ul>
 <ul><li> Scheduling of
-<a href="https://github.com/rsyncOSX/Documentation/blob/master/ScheduleTasks.md" target="_blank"> tasks</a>
+<a href="https://github.com/rsyncOSX/Documentation/blob/master/ScheduleTasks.md" target="_blank"> tasks</a>.
+</li></ul>
+<ul><li> Restore of
+<a href="https://github.com/rsyncOSX/Documentation/blob/master/RestoreSingleFiles.md" target="_blank"> single files or catalogs</a>.
 </li></ul>
 <ul><li> Parameters to
-<a href="https://github.com/rsyncOSX/Documentation/blob/master/Parameters.md" target="_blank"> rsync</a>
+<a href="https://github.com/rsyncOSX/Documentation/blob/master/Parameters.md" target="_blank"> rsync</a>.
 </li></ul>
 <ul><li> Some info about
-<a href="https://github.com/rsyncOSX/Documentation/blob/master/UserConfiguration.md" target="_blank"> user configuration</a>
+<a href="https://github.com/rsyncOSX/Documentation/blob/master/UserConfiguration.md" target="_blank"> user configuration</a>.
 </li></ul>
 </ul>
 
@@ -40,6 +43,6 @@ My <a href="https://github.com/rsyncOSX/Documentation/blob/master/DIYNAS.md" tar
 The <a href="https://github.com/rsyncOSX/Documentation/blob/master/Idea.md" target="_blank">idea</a> behind RsyncOSX.
 </li></ul>
 <ul><li>
-The <a href="https://github.com/rsyncOSX/Documentation/blob/master/Changelog.md" target="_blank">Changelog</a>
+The <a href="https://github.com/rsyncOSX/Documentation/blob/master/Changelog.md" target="_blank">Changelog</a>.
 </li></ul>
 
