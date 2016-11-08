@@ -98,7 +98,7 @@ Any user just looking for an easy to use backup tool is advised to use other and
 <ul>
 <li>you have some understanding of the command-line tool rsync</li>
 <li>you have some knowledge about running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS</li>
-<li>you are able to <a href="https://github.com/rsyncOSX/Documentation/blob/master/PasswordlessLogin.md" target="_blank">setup a ssh password-less login</a> between the Mac and remote server</li>
+<li>you are able to <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md" target="_blank">setup a ssh password-less login</a> between the Mac and remote server</li>
 </ul>
 
 <h2>The main opening view</h2>
