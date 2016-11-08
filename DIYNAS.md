@@ -1,4 +1,6 @@
 
+<h2>My DIY NAS</h2>
+
 This page is just a short resume about my DIY (do it yourself) <a href="https://en.wikipedia.org/wiki/Network-attached_storage" target="_blank">NAS</a>. I do not spend much time building or maintaining my NAS. The main purpose of my NAS is:<br />
 <ul>
 <li>for storing backup of my files</li>
@@ -7,12 +9,14 @@ This page is just a short resume about my DIY (do it yourself) <a href="https://
 
 My knowledge about computer hardware is very limited. The actual hardware in the NAS is more or less selected by advices from the supplier of hardware. The most important objective was to get hardware which was supported by the OS. And the form factor of the cabinet also narrows the possibilities. The hardware in my NAS is probably not the best solution. But it works and that is for me the most important.<br />
 
-<h3>Replace Oracle Solaris as NAS SW?</h3>
+<h2>Replace Oracle Solaris as NAS SW?</h2>
+
 I have only used the trial version of Oracle Solaris 11.3. There are no updates and bugfixes for the trial version. Receiving updates and bugfixes cost money. That is the main reason for choosing other OS for my NAS. There are two options : either go for a special NAS SW ( as NAS4Free or FreeNAS) or use stock OS (as FreeBSD 11 or Ubuntu 16.10).
 
-After some testing of <a href="https://www.freebsd.org/" target="_blank">FreeBSD 11</a>, <a href="http://www.nas4free.org/" target="_blank">NAS4free</a> and <a href="http://www.freenas.org/" target="_blank">FreeNAS</a>&nbsp;I have decided to go for NAS4free. I did not try Ubuntu 16.10. The decision to go for NAS4free is not scientific. I have two requirements for my NAS : ZFS and minimal effort to setup and use. And of course stability. There are also other NAS solutions but they are not built around ZFS.
+After some testing of <a href="https://www.freebsd.org/" target="_blank">FreeBSD 11</a>, <a href="http://www.nas4free.org/" target="_blank">NAS4free</a> and <a href="http://www.freenas.org/" target="_blank">FreeNAS</a> I have decided to go for NAS4free. I did not try Ubuntu 16.10. The decision to go for NAS4free is not scientific. I have two requirements for my NAS : ZFS and minimal effort to setup and use. And of course stability. There are also other NAS solutions but they are not built around ZFS.
 
-<h3>So, why NAS4free?</h3>
+<h2>So, why NAS4free?</h2>
+
 ZFS was developed by Sun Microsystems as part of OpenSolaris. <a href="http://open-zfs.org/wiki/Main_Page" target="_blank">OpenZFS</a> is now the main developer of the open source ZFS used in FreeBSD and Linux.
 
 I downloaded FreeNAS nightly build. FreeNAS did not boot properly on my hardware. I have read a lot of positive reviews of FreeNAS. Sorry it did not boot properly on my NAS and I dropped any further tests.
@@ -27,11 +31,11 @@ I have installed the latest beta of NAS4free (Beta 11.0.0.3.3110) which is based
 
 My NAS4Free based NAS is now setup to do the following:
 
-<li>Mounted a mirrored zpool used for backup by using RsyncOSX. To use RsyncOSX (or rsync) I enabled ssh and rsync on the server (by using the GUI). I added a user (thomas) and enabled <a href="https://rsyncosx.blogspot.no/2016/03/remote-servers-ssh-and-passwordless.html" target="_blank">passwordless login</a>.&nbsp;</li>
+<li>Mounted a mirrored zpool used for backup by using RsyncOSX. To use RsyncOSX (or rsync) I enabled ssh and rsync on the server (by using the GUI). I added a user (thomas) and enabled <a href="https://rsyncosx.blogspot.no/2016/03/remote-servers-ssh-and-passwordless.html" target="_blank">passwordless login</a>. </li>
 <li>Shared out a SMB filesystem.</li>
 
 
-<h3>The NAS</h3>
+<h2>The NAS</h2>
 
 I have replaced my old NAS with new hardware. The only piece from my old NAS to keep is a Intel RAID controller. All other HW is replaced (not the storage). My old NAS from 2010 was installed in an old and heavy server cabinet. Both cabinet and hardware were ready for an upgrade. My old NAS worked well and I hesitated before I decided to upgrade. An upgrade of the hardware can quickly become a challenge if the OS does not include drivers for new hardware.
 
@@ -48,7 +52,7 @@ The above was before the server crash 15 October 2016.
 
 Now the NAS OS is NAS4Free. I am quite pleased to replace Oracle Solaris as OS with NAS4Free. NAS4Free is free software and it is under continuously development. The WebGUI is intuitive, nice and easy to use. It took med just a couple of minutes to format two drives, create a new mirrored zpool, create a new user and mount 1 TB of disk to use as backup for RsyncOSX.
 
-Total disk in NAS is 6 <a href="https://en.wikipedia.org/wiki/Terabyte" target="_blank">Terrabyte</a>&nbsp;setup as mirror. My NAS is sharing out 3 TB.
+Total disk in NAS is 6 <a href="https://en.wikipedia.org/wiki/Terabyte" target="_blank">Terrabyte</a> setup as mirror. My NAS is sharing out 3 TB.
 
 The hardware of my 2016 NAS are :
 <ol>
@@ -65,7 +69,7 @@ The hardware of my 2016 NAS are :
 <li>Two WD Desktop Green 2TB SATA 6Gb/s, (SATA 3.0), IntelliPower, 64MB, 3.5" (bought in 2012) - one disk HW failed and replaced in 2013 without any loss of data</li>
 </ol>
 
-<h3> Setup of NAS - ZFS filesystem</h3>
+<h2> Setup of NAS - ZFS filesystem</h2>
 
 The server has 3 Terrabyte (TB) of storage. The storage is setup as a ZFS filesystem and all disks (four disks altogether, two disks of 2TB each and two disks of 1TB each) are all setup as a ZFS mirror. That is the two 2TB disks are mirroring each other as well as the two 1TB disks. If one disk fails ZFS is automatically restoring (by ZFS scrub) the failing disk. If one disk fails (by HW) and must be replaced ZFS has functionality for unmounting failed disk, mount a new one and put the new one into mirrored pool again.
 

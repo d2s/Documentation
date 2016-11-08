@@ -1,62 +1,33 @@
-<h3> Changelog </h3>
+<h2> Changelog </h2>
  
-The main objective now is to get the application as stable as possible. Clean up of code and bugfixes are always an issue. I am using the application on a daily basis and it evolves during my own use. Any suggestions for new features, changed features and bug reports are more than welcome.<br />
-<br />
-<h3>
-Source code&nbsp;</h3>
-<div>
-<br /></div>
-<div>
+The main objective now is to get the application as stable as possible. Clean up of code and bugfixes are always an issue. I am using the application on a daily basis and it evolves during my own use. Any suggestions for new features, changed features and bug reports are more than welcome.
+
+<h2> Source code </h2>
 Why release the code? Why not? The code is NOT example of neither writing decent Swift code, OO-development or applying the MVC-pattern. It all started as a project to learn Swift and I am still learning, every day. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.</div>
 <div>
 <ul>
 <li><a href="https://github.com/rsyncOSX/Version3.x/tree/master" target="_blank">master</a> for released version on github</li>
 </ul>
-<div>
-<h3>
-</h3>
-<h3>
-</h3>
-<h3>
-</h3>
-<h3>
-Comments about use of RsyncOSX</h3>
-</div>
-<div>
-<br /></div>
-<div>
-RsyncOSX is downloaded about 5,000 times from Macupdate and probably some times directly from this blog. I have no clue about how many uses RsyncOSX on a regularly basis and information about bugs discovered by users (I expect other users discovers bugs as well). There are no request for adding features, removing features as well.</div>
-<div>
-<br /></div>
-<div>
-I would very much appreciate any comments from users about whatever regarding use of RsyncOSX, e-mails about bugs and suggestion for new features. Please drop me an e-mail on&nbsp;</div>
-<div>
+
+<h2>Comments about use of RsyncOSX</h2>
+RsyncOSX is downloaded about 5,000 times from Macupdate and probably some times directly from this blog. I have no clue about how many uses RsyncOSX on a regularly basis and information about bugs discovered by users (I expect other users discovers bugs as well). There are no request for adding features, removing features as well.
+
+I would very much appreciate any comments from users about whatever regarding use of RsyncOSX, e-mails about bugs and suggestion for new features. Please drop me an e-mail on
 <ul>
-<li>thomas.tilbakemelding@gmail.com&nbsp;</li>
+<li>thomas.tilbakemelding@gmail.com </li>
 <li>or add a comment on this page (will not be published)</li>
 </ul>
-The e-mail is for reading only. I will NOT share any e-mails nor e-mail adresses sent to this address. And I will NOT spam, only read. Any feedback will be a motivation for me to continue develop RsyncOSX.<br />
-<br />
-<h3>
-Version 3.5.5</h3>
-<div>
+The e-mail is for reading only. I will NOT share any e-mails nor e-mail adresses sent to this address. And I will NOT spam, only read. Any feedback will be a motivation for me to continue develop RsyncOSX.
+
+<h2>Version 3.5.5</h2>
 <ul>
 <li>new image updated <b>5 November 2016</b> : if selecting new profile before background check for connection is completed RsyncOSX might crash, fix is done and new image is uploaded. Background check is executed when main view loads and remote servers not responding is marked red.</li>
 <li>released 3 November 2016</li>
 <li>fixed a couple of bugs in automatic dismiss of popup views (when scheduled backups are running and in main view a popup informs of backup)</li>
 <li>some minor refactor of code</li>
 </ul>
-</div>
-<h3>
-</h3>
-<div>
-<ul>
-</ul>
-</div>
-<h3>
-</h3>
-<h3>
-Version 3.5.1</h3>
+
+<h2>Version 3.5.1</h2>
 </div>
 <div>
 <ul>
@@ -66,11 +37,11 @@ Version 3.5.1</h3>
 <li>relased 30 October 2016</li>
 <li>fixed a bug in version 3.5.0 deleting/stopping schedules causing a nil pointer exeption and crash</li>
 <ul>
-<li>bug was "introduced" when compiling RsyncOSX with latest release version 8.1 of Xcode&nbsp;</li>
+<li>bug was "introduced" when compiling RsyncOSX with latest release version 8.1 of Xcode </li>
 </ul>
 <li>notify new versions of RsyncOSX by delegate</li>
 <li>mainly a maintenance release, some bigger internal changes and some GUI tweaks</li>
-<li>RsyncOSX is more stable than ever&nbsp;</li>
+<li>RsyncOSX is more stable than ever </li>
 <ul>
 <li>replaced states by work queu (using states get complex even with a few states)</li>
 <li>I am learning Swift every day and <a href="https://en.wikipedia.org/wiki/Code_refactoring" target="_blank">refactor code</a> is important</li>
@@ -89,8 +60,8 @@ Version 3.5.1</h3>
 </ul>
 </ul>
 </div>
-<h3>
-Version 3.4.1</h3>
+<h2>
+Version 3.4.1</h2>
 <div>
 <ul>
 <li>released 20 October 2016</li>
@@ -98,24 +69,24 @@ Version 3.4.1</h3>
 <li>there was an issue with Copy files (search and copy single files or catalogs) - if you experience any problems with copy files in version 3.4.1 please update to last image of version 3.4.1</li>
 </ul>
 </div>
-<h3>
-Version 3.4.0</h3>
+<h2>
+Version 3.4.0</h2>
 <div>
 <ul>
 <li>released 19 October 2016</li>
-<li>added profiles - select profiles from the File meny, profiles is just new catalogs for storing configurations and schedules files.&nbsp;</li>
+<li>added profiles - select profiles from the File meny, profiles is just new catalogs for storing configurations and schedules files. </li>
 <li>backup of single files in Add view, only backup part is added for single files, use Copy Files to search and restore single files</li>
 <li>some minor internal cleanup and fixes, adjusted Copy Files view</li>
 <li>added abort in Copy Files (terminates search process)</li>
 <li>in logs view selecting row selects logs for selected remote server</li>
-<li>removed testmode in RsyncOSX &nbsp;- replaced by profiles</li>
+<li>removed testmode in RsyncOSX  - replaced by profiles</li>
 <li>userconfiguration available from Main tab, Add tab and Schedule tab</li>
 <li>in main tab when rsync is changed in userconfiguration, if row is selected rsync command in view is updated</li>
 <li>counting of files and directories from rsync output is more robust, only version 3.x of rsync counting directories remote</li>
 </ul>
 </div>
-<h3>
-Version 3.3.0</h3>
+<h2>
+Version 3.3.0</h2>
 <div>
 <ul>
 <li>released 6 October 2016</li>
@@ -128,7 +99,7 @@ Version 3.3.0</h3>
 </ul>
 <li>fixed a memory leak in scheduling of tasks</li>
 <ul>
-<li>after the last release 4 Oct 2016 it seems that there are no memory leaks (at &nbsp;least the graphic memory debugger in Xcode reports no leaks as well as the Xcode instrument Memory Leaks)</li>
+<li>after the last release 4 Oct 2016 it seems that there are no memory leaks (at  least the graphic memory debugger in Xcode reports no leaks as well as the Xcode instrument Memory Leaks)</li>
 </ul>
 </ul>
 </div>
@@ -157,11 +128,11 @@ Version 3.3.0</h3>
 <tr><td class="tr-caption" style="text-align: center;">Logs from both stock version of rsync and version 3.2.1 of rsync</td></tr>
 </tbody></table>
 <br />
-<h3>
-Version 3.1.5</h3>
+<h2>
+Version 3.1.5</h2>
 <div>
 <ul>
-<li>please see the&nbsp;<a href="https://rsyncosx.blogspot.no/2016/08/rsyncosx-version-3-alfa.html" target="_blank">notes</a>&nbsp;about version 3.1.5</li>
+<li>please see the <a href="https://rsyncosx.blogspot.no/2016/08/rsyncosx-version-3-alfa.html" target="_blank">notes</a> about version 3.1.5</li>
 <li>released 24 Sept 2016</li>
 <ul>
 <li>image is updated 26 Sept 2016 (fixed a few minor glitches)</li>
@@ -173,8 +144,8 @@ Version 3.1.5</h3>
 <li>hopefully no more releases for some time after this release</li>
 </ul>
 </div>
-<h3>
-Version 3.1.0</h3>
+<h2>
+Version 3.1.0</h2>
 <div>
 <ul>
 <li>updated 22 Sept (released 20 Sept 2016)</li>
@@ -184,8 +155,8 @@ Version 3.1.0</h3>
 </ul>
 </div>
 <div>
-<h3>
-Version 3.0.5</h3>
+<h2>
+Version 3.0.5</h2>
 <div>
 <ul>
 <li>updated 15 Sept 2016</li>
@@ -206,8 +177,8 @@ Version 3.0.5</h3>
 </tbody></table>
 </div>
 </div>
-<h3>
-Version 3.0&nbsp;</h3>
+<h2>
+Version 3.0 </h2>
 <ul>
 <li>built on macOS 10.12 GM by Xcode 8 GM (GM = "gold master")</li>
 <li>supports macOS 10.11 and macOS 10.12</li>
@@ -234,26 +205,26 @@ What is <b>NOT</b> implemented in version 3.0</div>
 <li>will come in version 3.1.0</li>
 </ul>
 </ul>
-<h3>
-Version 2.0.0 (French)</h3>
+<h2>
+Version 2.0.0 (French)</h2>
 </div>
 <div>
 <div>
 <ul>
-<li>released 10&nbsp;Sept 2016 for:</li>
+<li>released 10 Sept 2016 for:</li>
 <ul>
 <li>macOS El Capitan (OS X 10.11) and macOS Sierra (OS X 10.12)</li>
 </ul>
 <li>French version only</li>
 <ul>
-<li>the French version is translated by&nbsp;Hervé Turri (tweeter @hturri)&nbsp;from&nbsp;Lyon, France</li>
+<li>the French version is translated by Hervé Turri (tweeter @hturri) from Lyon, France</li>
 </ul>
-<li>converted to Swift 3.0 &nbsp;and built by Xcode 8 GM</li>
+<li>converted to Swift 3.0  and built by Xcode 8 GM</li>
 <ul>
 </ul>
 </ul>
-<h3>
-Version 1.7.0</h3>
+<h2>
+Version 1.7.0</h2>
 <div>
 <ul>
 <li>released 28 July 2016</li>
@@ -266,8 +237,8 @@ Version 1.7.0</h3>
 </ul>
 </div>
 <div>
-<h3>
-Version 1.5.0</h3>
+<h2>
+Version 1.5.0</h2>
 <div>
 <ul>
 <li>released 9 July 2016</li>
@@ -275,7 +246,7 @@ Version 1.5.0</h3>
 <li>cleanup of code (by this also fixed some bugs) and bugfixes</li>
 <li>added new Configuration</li>
 <li>added more info about tasks in some windows</li>
-<li>a version for OSX 10.10 is available for <a href="https://rsyncosx.blogspot.no/2016/05/version-for-testing.html" target="_blank">test</a>&nbsp;(if would be happy if anyone testing the 10.10 compiled version can verify its working or not)</li>
+<li>a version for OSX 10.10 is available for <a href="https://rsyncosx.blogspot.no/2016/05/version-for-testing.html" target="_blank">test</a> (if would be happy if anyone testing the 10.10 compiled version can verify its working or not)</li>
 </ul>
 </div>
 <br />
@@ -287,8 +258,8 @@ Version 1.5.0</h3>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://4.bp.blogspot.com/-ed5s0CiFJyM/V4C8qAXixYI/AAAAAAAALq8/Wvi1CG8HHdUBJMRKhuUE1dZQCJS-tOLLwCLcB/s1600/Screen%2BShot%2B2016-07-09%2Bat%2B10.46.40.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="348" src="https://4.bp.blogspot.com/-ed5s0CiFJyM/V4C8qAXixYI/AAAAAAAALq8/Wvi1CG8HHdUBJMRKhuUE1dZQCJS-tOLLwCLcB/s640/Screen%2BShot%2B2016-07-09%2Bat%2B10.46.40.png" width="640" /></a></div>
-<h3>
-Version 1.3.5</h3>
+<h2>
+Version 1.3.5</h2>
 <div>
 <ul>
 <li>released 1 July 2016</li>
@@ -297,11 +268,11 @@ Version 1.3.5</h3>
 <li>new application icon</li>
 <li>set level of logging results of tasks (detailed logging on/off) in Configuration menu</li>
 <li>set optional versions of rsync and optional paths in Configuration menu</li>
-<li>cleaned up code&nbsp;</li>
+<li>cleaned up code </li>
 </ul>
 </div>
-<h3>
-Version 1.3.0</h3>
+<h2>
+Version 1.3.0</h2>
 </div>
 </div>
 <div>
@@ -311,8 +282,8 @@ Version 1.3.0</h3>
 <li>minor bugfixes</li>
 </ul>
 </div>
-<h3>
-Version 1.2.5</h3>
+<h2>
+Version 1.2.5</h2>
 <div class="p1">
 </div>
 <ul>
@@ -328,7 +299,7 @@ Version 1.2.5</h3>
 <li>in later version (after 1.2.5) will include user can add parameters to include in dropdown menu (user added parameters will be stored to permanent store and loaded during startup)</li>
 </ul>
 <li>more tooltips (some tooltips are in version 1.2.1 already)</li>
-<li>always bugfixes...&nbsp;</li>
+<li>always bugfixes... </li>
 </ul>
 <br />
 <a href="https://4.bp.blogspot.com/-6fLvLnWFFe8/V1pn5LLdPTI/AAAAAAAALeM/8L7XEM86pswagojAOpigVvI8glxI0AIigCLcB/s1600/Screen%2BShot%2B2016-06-09%2Bat%2B19.39.15.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="316" src="https://4.bp.blogspot.com/-6fLvLnWFFe8/V1pn5LLdPTI/AAAAAAAALeM/8L7XEM86pswagojAOpigVvI8glxI0AIigCLcB/s640/Screen%2BShot%2B2016-06-09%2Bat%2B19.39.15.png" width="640" /></a></div>
@@ -344,12 +315,12 @@ Version 1.2.5</h3>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 </div>
-<h3>
-</h3>
-<h3>
-</h3>
-<h3>
-Version 1.2.1</h3>
+<h2>
+</h2>
+<h2>
+</h2>
+<h2>
+Version 1.2.1</h2>
 <div>
 <ul>
 <li>version 1.2.1 released 3 June 2016</li>
@@ -359,8 +330,8 @@ Version 1.2.1</h3>
 </ul>
 </ul>
 </div>
-<h3>
-Version 1.2.0</h3>
+<h2>
+Version 1.2.0</h2>
 <div>
 <ul>
 <li>version 1.2.0 image was updated 29 May 2016</li>
@@ -370,8 +341,8 @@ Version 1.2.0</h3>
 </ul>
 </ul>
 </div>
-<h3>
-Version 1.2.0</h3>
+<h2>
+Version 1.2.0</h2>
 <div>
 <ul>
 <li>version 1.2.0 released 28 May 2016</li>
@@ -382,8 +353,8 @@ Version 1.2.0</h3>
 </ul>
 </div>
 <div>
-<h3>
-Version 1.1.2</h3>
+<h2>
+Version 1.1.2</h2>
 </div>
 <div>
 <ul>
@@ -392,14 +363,14 @@ Version 1.1.2</h3>
 <li>added functionality for preventing change of schedule or configuration when a scheduled task is running</li>
 </ul>
 <li>version 1.1.2 released 25 May 2016</li>
-<li>notification (in main window) &nbsp;when scheduled task is running</li>
+<li>notification (in main window)  when scheduled task is running</li>
 <li>fixed bug with hidden key</li>
 <li>and as always fighting bugs...</li>
 </ul>
 </div>
 <div>
-<h3>
-Version 1.1.1</h3>
+<h2>
+Version 1.1.1</h2>
 </div>
 <div>
 <ul>
@@ -409,21 +380,21 @@ Version 1.1.1</h3>
 </div>
 <div>
 <div>
-<h3>
-Version 1.1.0&nbsp;</h3>
+<h2>
+Version 1.1.0 </h2>
 </div>
 <div>
 <ul>
 <li>version 1.1.0 is released 22 May 2016</li>
 <li>implemented scheduled backups</li>
-<li>more logging about executed tasks&nbsp;</li>
+<li>more logging about executed tasks </li>
 <li>more bugfixing</li>
 </ul>
 </div>
 </div>
 <div>
-<h3>
-Version 1.0.21</h3>
+<h2>
+Version 1.0.21</h2>
 </div>
 <div>
 <ul>
@@ -433,29 +404,29 @@ Version 1.0.21</h3>
 </ul>
 </div>
 <div>
-<h3>
-Version 1.0.19 beta</h3>
+<h2>
+Version 1.0.19 beta</h2>
 </div>
 <div>
 <ul>
-<li>version 1.0.19 beta&nbsp;is released 27 April 2016</li>
+<li>version 1.0.19 beta is released 27 April 2016</li>
 <li>fixed bug which caused application to hang</li>
 </ul>
 </div>
 <div>
-<h3>
-Version 1.0.18 beta</h3>
+<h2>
+Version 1.0.18 beta</h2>
 </div>
 </div>
 <div>
 <ul>
-<li>version 1.0.18 beta&nbsp;is released 26 April 2016</li>
+<li>version 1.0.18 beta is released 26 April 2016</li>
 <li>if new ssh-port in parameters to rsync (other than standard port 22), new port is also required in startup of application (forgot it)</li>
 </ul>
 </div>
 <div>
-<h3>
-Version 1.0.17 beta</h3>
+<h2>
+Version 1.0.17 beta</h2>
 </div>
 <div>
 <ul>
@@ -466,16 +437,16 @@ Version 1.0.17 beta</h3>
 </ul>
 </div>
 <div>
-<h3>
-Version 1.0.16 beta</h3>
+<h2>
+Version 1.0.16 beta</h2>
 <div>
 <ul>
 <li>version 1.0.16 beta is released 24 April 2016</li>
 <li>fixed a bug reading timestamps on server after copy from remote server</li>
 </ul>
 </div>
-<h3>
-Version 1.0.15 beta</h3>
+<h2>
+Version 1.0.15 beta</h2>
 <div>
 <ul>
 <li>version 1.0.15 beta is released 23 April 2016</li>
@@ -483,8 +454,8 @@ Version 1.0.15 beta</h3>
 <li>bug fixes</li>
 </ul>
 </div>
-<h3>
-Version 1.0.14 beta</h3>
+<h2>
+Version 1.0.14 beta</h2>
 <div>
 <ul>
 <li>version 1.0.14 beta is released 19 April 2016</li>
@@ -503,11 +474,11 @@ Version 1.0.14 beta</h3>
 <li>any added user params will be shown in the main view for executing tasks</li>
 </ul>
 </div>
-<h3>
-Version 0.7 and 0.75 beta</h3>
+<h2>
+Version 0.7 and 0.75 beta</h2>
 <ul>
 <li>version 0.7 beta released 1 April 2016 (and updated 12 April 2016 - bugfixes)</li>
-<li>new functionality to verify/check that local files needs to be "restored" before commencing any work on local Mac. This functionality is helpful when working on several Mac desktops.&nbsp;</li>
+<li>new functionality to verify/check that local files needs to be "restored" before commencing any work on local Mac. This functionality is helpful when working on several Mac desktops. </li>
 <li>more cleanup and bugfixes from version 0.7 to 0.75</li>
 <li>more "precise" calculation (informal only) of files to be transferred (dont calculate directories)</li>
 <ul>
@@ -515,10 +486,10 @@ Version 0.7 and 0.75 beta</h3>
 </ul>
 </ul>
 <div>
-<h3>
-</h3>
-<h3>
-Version 0.65 beta</h3>
+<h2>
+</h2>
+<h2>
+Version 0.65 beta</h2>
 <div>
 <ul>
 <li>released 18 March 2016</li>
@@ -531,17 +502,17 @@ Version 0.65 beta</h3>
 </div>
 <div class="separator" style="clear: both; text-align: center;">
 </div>
-<h3>
-</h3>
-<h3>
-Version 0.6 beta</h3>
-<h3>
+<h2>
+</h2>
+<h2>
+Version 0.6 beta</h2>
+<h2>
 <ul style="font-size: medium; font-weight: normal;">
 <li>released 16 March 2016</li>
 <li>changed functionality for adding/deleting tasks for batch run</li>
 <li>cleaning of code and general bugfixes</li>
 </ul>
-</h3>
+</h2>
 <div>
 <div class="separator" style="clear: both; text-align: center;">
 </div>
@@ -549,10 +520,10 @@ Version 0.6 beta</h3>
 </ul>
 </div>
 <div>
-<h3>
-</h3>
-<h3>
-Version 0.5 beta</h3>
+<h2>
+</h2>
+<h2>
+Version 0.5 beta</h2>
 <ul>
 <li>initial listing 14 March 2016, released on MacUpdate as well</li>
 </ul>
