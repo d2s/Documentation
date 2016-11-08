@@ -1,4 +1,4 @@
-<h2> Changelog </h2>
+<h2> ChangeLog </h2>
  
 The main objective now is to get the application as stable as possible. Clean up of code and bugfixes are always an issue. I am using the application on a daily basis and it evolves during my own use. Any suggestions for new features, changed features and bug reports are more than welcome.
 
