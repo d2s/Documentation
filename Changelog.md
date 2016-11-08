@@ -153,7 +153,7 @@ What is <b>NOT</b> implemented in version 3.0
 </ul>
 
 <h2>Changelog before version 3.0.0</h2>
-Changelog before version 3.0.0 is deleted. The inital release was 14 March 2016 and code is rewritten since the initial release. 
+Changelog prior to version 3.0.0 is deleted. The inital release was 14 March 2016 and code is rewritten since the initial release. 
 
 <h2>Version 0.5 beta</h2>
 <ul>
