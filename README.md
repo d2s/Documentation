@@ -1,9 +1,9 @@
-# Documentation
-The following are documents about RsyncOSX. The first document is how to get and install RsyncOSX. The second document is some information what RsyncOSX is and how to use the application. Please read the second document before using the application.
+# RsyncOSX documentation
+The following are documents about RsyncOSX. The <b>first</b> document is how to get and install RsyncOSX. The <b>second</b> document is some information what RsyncOSX is and how to use the application. Please read the <b>second</b> document before using the application.
 <ul><li> 
-Getting and installing <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncOSX.md" target="_blank">RsyncOSX</a>.
+Getting and installing (1) <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncOSX.md" target="_blank">RsyncOSX</a>.
 </li></ul>
-<ul><li> Important information about what
+<ul><li> Important information about what (2)
 <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/HowtoUseRsyncOSX.md" target="_blank"> RsyncOSX</a> is.
 </li></ul>
 <ul>
@@ -30,6 +30,10 @@ Getting and installing <a href="https://github.com/rsyncOSX/Documentation/blob/m
 <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/UserConfiguration.md" target="_blank"> user configuration</a>.
 </li></ul>
 </ul>
+
+<h3>Other documents</h3>
+
+There are a few other documents in contex of RsyncOSX. To enable remote storage of backups please read enable passwordless logins. Rsync utilizes parameters. RsyncOSX enables passing userselected parameters to rsync.
 
 <ul><li>
 How to enable <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md" target="_blank">passwordless logins</a>.
