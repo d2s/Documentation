@@ -32,11 +32,10 @@ The application is signed with my Apple Developer ID certificate.
 
 <h2>Password-less logins</h2>
 
-Backup to remote servers require ssh password-less logins (by ssh-keygen and ssh public and private key). RsyncOSX uses configuration files specific for each Mac desktop.
-
-Here is how to <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md" target="_blank">setup</a> password-less logins.
+Backup to remote servers require ssh password-less logins (by ssh-keygen and ssh public and private key). Here is how to <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md" target="_blank">setup</a> password-less logins.
 
 <h2>Idea behind RsyncOSX</h2>
+
 I have two Macbooks, one is used primarily at work and the other is my private. Data is backed up to server at home and to one offsite servers. Both Macbooks and all backup locations are kept in sync. I am using my private Macbook for Pictures (I have about 100 GB of raw picture files). Whenever I have added new picture files or done some work on pictures, changes are backup up on all servers and then restored on my Macbook used at work.
 
 Some more details about the <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/Idea.md" target="_blank">idea</a> for RsyncOSX.

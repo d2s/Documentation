@@ -23,7 +23,7 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 <b>Warning</b>: default parameters for rsync is to <b>synchronize</b> the <b>source</b> and <b>destination</b>. A "restore" will <b>delete</b> all files in the source which are not in the destination. The main objective to RsyncOSX is to keep the <b>source</b> directory and <b>destination </b>(backup) directory <b>in sync</b>. When a source directory is backed up, the destination is 100% in sync with source in the moment the backup task is completed. There are <b>no revisions</b> of files in the backup in <b>default RsyncOSX</b>. Old files in the backup are either replaced with new ones or deleted if so is true in source.</br>
 </br>
 
-But dont panic? What about<b> revisions and deleted</b> files? In the "parameters to rsync" there is presented a solution to save changed and deleted files in a selected backup location.
+But dont panic? What about<b> revisions and deleted</b> files? In the <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/Parameters.md" target="_blank">parameters to rsync</a> there is presented a solution to save changed and deleted files in a selected backup location.
 
 <h2>Where does RsyncOSX save configuration files?</h2>
 
@@ -48,7 +48,7 @@ When <i>profile</i> is used:</div>
 
 <h2>Why use RsyncOSX?</h2>
 
-There is only one simple answer to the question and it is <b><a href="https://en.wikipedia.org/wiki/Rsync" target="_blank">rsync</a></b>. Rsync is a rock solid, well proven, secure, fast, reliable and wide accessibility across platforms command line tool. RsyncOSX is just a GUI for executing  rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
+There is only one simple answer to the question and it is <a href="https://en.wikipedia.org/wiki/Rsync" target="_blank">rsync command line tool</a>. Rsync is a rock solid, well proven, secure, fast, reliable and wide accessibility across platforms command line tool. RsyncOSX is just a GUI for executing  rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
 
 The following features are implemented in RsyncOSX:</br>
 </br>
