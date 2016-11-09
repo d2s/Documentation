@@ -34,11 +34,11 @@ RsyncOSX configuration file, log file, scheduled tasks file and userconfiguratio
 <li><code>~/Documents/Rsync/MacID/configRsync.plist</code></li>
 <ul>
 <li><code><b>~/</b></code> is user home directory</li>
-<li><code>MacID</code> is the Mac Serial Number and is automatically created by RsyncOSX</li>
+<li><code>MacID</code> is the Mac Serial Number and is automatically set by RsyncOSX</li>
 </ul>
 </ul>
-<div>
-When <i>profile</i> is used:</div>
+When <i>profile</i> is used:</br>
+</br>
 <ul>
 <li><code>~/Documents/Rsync/MacID/profile/configRsync.plist</code></li>
 <ul>
@@ -48,7 +48,7 @@ When <i>profile</i> is used:</div>
 
 <h2>Why use RsyncOSX?</h2>
 
-There is only one simple answer to the question and it is <a href="https://en.wikipedia.org/wiki/Rsync" target="_blank">rsync command line tool</a>. Rsync is a rock solid, well proven, secure, fast, reliable and wide accessibility across platforms command line tool. RsyncOSX is just a GUI for executing  rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
+There is only one simple answer to the question and it is "<a href="https://en.wikipedia.org/wiki/Rsync" target="_blank">rsync</a>". Rsync is a rock solid, well proven, secure, fast, reliable and wide accessibility across platforms command line tool. RsyncOSX is just a GUI for executing  rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
 
 The following features are implemented in RsyncOSX:</br>
 </br>
