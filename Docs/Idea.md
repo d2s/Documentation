@@ -12,3 +12,9 @@ That said, I am also using Apples iCloud, but that is most for sharing files bet
 As mentioned rsync is available on most server operating systems. Tools like Apple Time Machine require Apple Airport (and maybe Apple Filing Transport protocol AFP) and is a propearitare backup solution. I am using two Macbooks and stores backups on two remote servers. Both Macbooks and servers are synchronized. When I have updated or created a new files on one Macbook I have to update my two remote backup servers and after that update my second Macbook. If one remote server fails or I am doing something wrong most likely one remote server is always updated.
 
 The challenge is to keep my two Macbooks and two backup locations updated and in sync. RsyncOSX does not automate the above, but it supports me doing it. And now I am able to either backup or restore by just a couple of mouse clicks.<br />
+
+<a href="https://1.bp.blogspot.com/-HXJd4gxFSv4/V5296rU5ogI/AAAAAAAALwA/bcWuJ8nnipISjDrFeuCLCI7Xoo9EguS2gCLcB/s1600/WhatIsRsyncOSX.001.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="480" src="https://1.bp.blogspot.com/-HXJd4gxFSv4/V5296rU5ogI/AAAAAAAALwA/bcWuJ8nnipISjDrFeuCLCI7Xoo9EguS2gCLcB/s640/WhatIsRsyncOSX.001.jpeg" width="640" /></a>
+
+The figure above shows how I am keeping my two MacBooks and three backup locations in sync. After saving new pictures on my MacBook nr 2 I do a backup (by using batchmode in RsyncOSX) to all three remote locations. 
+
+From MacBook nr 1 I do a restore from one of the remote locations. 
