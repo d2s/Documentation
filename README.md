@@ -3,8 +3,8 @@ The following are documents about RsyncOSX. The <b>first</b> document is how to 
 <ul><li> 
 Getting and installing (1) <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncOSX.md" target="_blank">RsyncOSX</a>.
 </li></ul>
-<ul><li> Important information about what (2)
-<a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/HowtoUseRsyncOSX.md" target="_blank"> RsyncOSX</a> is.
+<ul><li> Important (2)
+<a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/HowtoUseRsyncOSX.md" target="_blank"> information </a> about what RsyncOSX is.
 </li></ul>
 <ul>
 
