@@ -53,6 +53,6 @@ The parameters are (in the correct order to work and no (important) white spaces
 <ul>
 <li><code>--backup</code></li>
 <li><code>--backup-dir=../backup</code></li>
-<li><code>--suffix=\_$(date +%Y-%m-%d.%H.%M)</code></li>
+<li><code>--suffix=_$(date +%Y-%m-%d.%H.%M)</code></li>
 </ul>
 The three last parameters creates a new directory <code>../backup</code> relative to the destination directory (<code>~/Documents/backup</code>). Any updated documents in source instructs rsync to move the old document in destination to backup folder and add a date + time suffix to the file (<code>filename_2016-06-14.10.31</code>) before copying the updated document from source to destination.
