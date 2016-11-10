@@ -6,7 +6,7 @@ Select "Local catalog" either by "drag and drop", by enter text directly or by G
 
 <h3>Single file</h3>
 
-If "Single file" is ticked on, RsyncOSX adds backup og single file only. No restore part is added, use Copy files for search and restore.
+If "Single file" is on, RsyncOSX adds backup of single file only. No restore part is added, use Copy files for search and restore.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><img border="0" height="336" src="https://1.bp.blogspot.com/-0qO_rSeuBKA/WAmhh79NoVI/AAAAAAAAL5E/eIDabOVSaWUSDf7GnvcgB79fdNpNNksZwCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B08.52.01.png" style="margin-left: auto; margin-right: auto;" width="640" /></td></tr>
