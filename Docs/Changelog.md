@@ -22,6 +22,7 @@ The e-mail is for reading only. I will NOT share any e-mails nor e-mail adresses
 
 <h2>Version 3.5.5</h2>
 <ul>
+<li>new image updated <b>10 November 2016</b> : some minor GUI tweaks and automatic dismiss after 10 seconds in some of the views</li>
 <li>new image updated <b>5 November 2016</b> : if selecting new profile before background check for connection is completed RsyncOSX might crash, fix is done and new image is uploaded. Background check is executed when main view loads and remote servers not responding is marked red.</li>
 <li>released 3 November 2016</li>
 <li>fixed a couple of bugs in automatic dismiss of popup views (when scheduled backups are running and in main view a popup informs of backup)</li>
