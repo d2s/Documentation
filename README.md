@@ -21,7 +21,7 @@ Getting and installing (1) <a href="https://github.com/rsyncOSX/Documentation/bl
 <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/ScheduleTasks.md" target="_blank"> tasks</a>.
 </li></ul>
 <ul><li> Restore of
-<a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/RestoreSingleFiles.md" target="_blank"> single files or catalogs</a>.
+<a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/CopySingleFiles.md" target="_blank"> single files or catalogs</a>.
 </li></ul>
 <ul><li> Parameters to
 <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/Parameters.md" target="_blank"> rsync</a>.
