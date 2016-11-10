@@ -20,25 +20,46 @@ By selecting a row and choose schedule applies a scheduled backup to a task. The
 <li>stop or delete scheduled tasks</li>
 </ul>
 </ul>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-pJYPTGFb4vY/WAmhkSC5fhI/AAAAAAAAL50/Wn0PKn2m2bsi2t0aKIiD_K8M0z92BPZrQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.23.45.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://3.bp.blogspot.com/-pJYPTGFb4vY/WAmhkSC5fhI/AAAAAAAAL50/Wn0PKn2m2bsi2t0aKIiD_K8M0z92BPZrQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.23.45.png" width="640" /></a></div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://4.bp.blogspot.com/-qPey9NI5Wnk/WAmhkX5ckcI/AAAAAAAAL54/kwZaACuWAgsNq6cuWOB7m8WTMaVO4-cRQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.05.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://4.bp.blogspot.com/-qPey9NI5Wnk/WAmhkX5ckcI/AAAAAAAAL54/kwZaACuWAgsNq6cuWOB7m8WTMaVO4-cRQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.05.png" width="640" /></a></div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-3W2nahamOLs/WAmhkY4mz8I/AAAAAAAAL58/gx3onllf-2siECKAcKu4aXzCbHAZhhPSgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.13.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-3W2nahamOLs/WAmhkY4mz8I/AAAAAAAAL58/gx3onllf-2siECKAcKu4aXzCbHAZhhPSgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.13.png" width="640" /></a></div>
-<h3>
- Stopping a scheduled task</h3>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-3CKoR1TM0Yg/WAmhkxhhCYI/AAAAAAAAL6A/PK3o5esw6Kkf8ChF2NXY6DeuyoMy3qaowCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.25.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-3CKoR1TM0Yg/WAmhkxhhCYI/AAAAAAAAL6A/PK3o5esw6Kkf8ChF2NXY6DeuyoMy3qaowCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.25.png" width="640" /></a></div>
 
-<h2>Copy single files or catalogs</h2>
+Select task (row), set the start date and time and select the schedule (once, daily or weekly) to set up a schedule of backup. Every time RsyncOSX starts, the schedule is computed. Every time a change in any schedule the schedule is computed. The schedule is a stack of tasks. The top most element is the first task to be executed. RsyncOSX keeps track of the first task only (in time). Rest of the scheduled operations remains on stack until popped of the stack.
 
-Copy file and volume enables the user to select single file or catalogs for restore to a given local storage. The source for copy is the selected row in Execute view. Pressing select starts the job to collect data about which files are stored on remote server.</div>
+The stack is a reference only to a configuration (by a hidden key). The user can change anything regarding the task up to the moment the task is executed by schedule. If the task is deleted RsyncOSX cancel the schedule, computes the stack again and starts tracing in time next scheduled task.
+
+When the first scheduled task is <b>completed</b>, RsyncOSX checks the next top element of stack. If start date and time is in the future RsyncOSX tracks task in time. 
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr><td style="text-align: center;">
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-MmuYXOeNzXI/WAmhlPLl-_I/AAAAAAAAL6I/ekY2PnOzXygOnt6d2RTA7vXaDF7s5QulgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B10.17.44.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://1.bp.blogspot.com/-MmuYXOeNzXI/WAmhlPLl-_I/AAAAAAAAL6I/ekY2PnOzXygOnt6d2RTA7vXaDF7s5QulgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B10.17.44.png" width="640" /></a></div>
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://4.bp.blogspot.com/-fa_pRhIrlm8/WAmhlBXviEI/AAAAAAAAL6E/LNDfv5YUhMEjjrKihppR38TrjBxy4OXmQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B10.17.53.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://4.bp.blogspot.com/-fa_pRhIrlm8/WAmhlBXviEI/AAAAAAAAL6E/LNDfv5YUhMEjjrKihppR38TrjBxy4OXmQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B10.17.53.png" width="640" /></a></div>
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-ULO1IkYC_rc/WAmhlpXWq0I/AAAAAAAAL6Q/SjCXaRf_Io4YW_O_hl1LDK4Zvl99ZPBPgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B10.17.59.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://1.bp.blogspot.com/-ULO1IkYC_rc/WAmhlpXWq0I/AAAAAAAAL6Q/SjCXaRf_Io4YW_O_hl1LDK4Zvl99ZPBPgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B10.17.59.png" width="640" /></a></div>
+<a href="https://3.bp.blogspot.com/-pJYPTGFb4vY/WAmhkSC5fhI/AAAAAAAAL50/Wn0PKn2m2bsi2t0aKIiD_K8M0z92BPZrQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.23.45.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://3.bp.blogspot.com/-pJYPTGFb4vY/WAmhkSC5fhI/AAAAAAAAL50/Wn0PKn2m2bsi2t0aKIiD_K8M0z92BPZrQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.23.45.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Select task for scheduling.</td></tr>
+</tbody>
+</table>
+Schedule <b>once</b> is selected to execute about in one hour. Remote serverthe local volume to be backed up is shown.
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr><td style="text-align: center;">
+<a href="https://4.bp.blogspot.com/-qPey9NI5Wnk/WAmhkX5ckcI/AAAAAAAAL54/kwZaACuWAgsNq6cuWOB7m8WTMaVO4-cRQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.05.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://4.bp.blogspot.com/-qPey9NI5Wnk/WAmhkX5ckcI/AAAAAAAAL54/kwZaACuWAgsNq6cuWOB7m8WTMaVO4-cRQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.05.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Schedule is created and time for next schedule is displayed.</td></tr>
+</tbody>
+</table>
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr><td style="text-align: center;">
+<a href="https://2.bp.blogspot.com/-3W2nahamOLs/WAmhkY4mz8I/AAAAAAAAL58/gx3onllf-2siECKAcKu4aXzCbHAZhhPSgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.13.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-3W2nahamOLs/WAmhkY4mz8I/AAAAAAAAL58/gx3onllf-2siECKAcKu4aXzCbHAZhhPSgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.13.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">In the Execute view a number behind task displays how many times task will be executed by schedule.</td></tr>
+</tbody>
+</table>
+
+<h3> Stopping a scheduled task</h3>
+
+Select row and then <b>details</b>. Either stop or delete task. If a task is deleted all logs regarding the task is deleted.
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
+<tbody>
+<tr><td style="text-align: center;">
+<a href="https://2.bp.blogspot.com/-3CKoR1TM0Yg/WAmhkxhhCYI/AAAAAAAAL6A/PK3o5esw6Kkf8ChF2NXY6DeuyoMy3qaowCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.25.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-3CKoR1TM0Yg/WAmhkxhhCYI/AAAAAAAAL6A/PK3o5esw6Kkf8ChF2NXY6DeuyoMy3qaowCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.25.png" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Stopping and deleting tasks (and logs).</td></tr>
+</tbody>
+</table>
