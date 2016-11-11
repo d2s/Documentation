@@ -24,6 +24,7 @@ The e-mail is for reading only. I will NOT share any e-mails nor e-mail adresses
 <ul>
 <li>logs part is changed, text search for <b>remote server</b>, <b>local catalog</b> or <b>executed date/time</b></li>
 <li>code is committed to branch <b>version-3.6.0</b> </li>
+<li>released as <a href="https://github.com/rsyncOSX/Version3.x/releases" target="_blank"> release candidate</a> </li></li>
 </ul>
 
 <h2>Version 3.5.5</h2>
