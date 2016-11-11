@@ -20,6 +20,12 @@ I would very much appreciate any comments from users about whatever regarding us
 </ul>
 The e-mail is for reading only. I will NOT share any e-mails nor e-mail adresses sent to this address. And I will NOT spam, only read. Any feedback will be a motivation for me to continue develop RsyncOSX.
 
+<h2>coming in Version 3.6.0 </h2>
+<ul>
+<li>logs part is changed, text search for <b>remote server</b>, <b>local catalog</b> or <b>executed date/time</b></li>
+<li>code is committed to branch <b>version-3.6.0</b> </li>
+</ul>
+
 <h2>Version 3.5.5</h2>
 <ul>
 <li>new image updated <b>10 November 2016</b> : some minor GUI tweaks and automatic dismiss after 10 seconds in some of the views</li>
