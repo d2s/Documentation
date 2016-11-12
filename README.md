@@ -23,6 +23,8 @@ Getting and installing (1) <a href="https://github.com/rsyncOSX/Documentation/bl
 <ul><li> Restore of
 <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/CopySingleFiles.md" target="_blank"> single files or catalogs</a>.
 </li></ul>
+<ul><li><a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/Logging.md" target="_blank"> Logging</a> execution of tasks</li>
+</ul>
 <ul><li> Parameters to
 <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/Parameters.md" target="_blank"> rsync</a>.
 </li></ul>

@@ -22,7 +22,7 @@ The e-mail is for reading only. I will NOT share any e-mails nor e-mail adresses
 
 <h2>Version 3.6.0 rc </h2>
 <ul>
-<li>logs part is changed, text search for <b>remote server</b>, <b>local catalog</b> or <b>executed date/time</b></li>
+<li><a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/Logging.md" target="_blank">logs part</a>  is changed, text search for <b>remote server</b>, <b>local catalog</b> or <b>executed date/time</b></li>
 <li>code is committed to both <b>master</b> and branch <b>version-3.6.0</b> </li>
 <li>released as <a href="https://github.com/rsyncOSX/Version3.x/releases" target="_blank"> release candidate</a> (updated 12 November 2016)</li>
 <li>there is a bug in deleting ssh-port - fixed in v3.6.0 rc</li>
