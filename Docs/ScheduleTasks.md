@@ -1,31 +1,22 @@
-<h2>Schedule task</h2>
+## Schedule task
 
 By selecting a row and choose schedule applies a scheduled backup to a task. There are four(three) choices for schedules :
-<ul>
-<li><b>Once</b></li>
-<ul>
-<li>is executed once at date and time given</li>
-</ul>
-<li><b>Daily</b></li>
-<ul>
-<li>is executed every 24-hour and stops at given date and time</li>
-<li>first backup in 24-hour</li>
-</ul>
-<li><b>Weekly</b></li>
-<ul>
-<li>as for daily, but every 7 days</li>
-</ul>
-<li><b>Details</b></li>
-<ul>
-<li>stop or delete scheduled tasks</li>
-</ul>
-</ul>
+
+- **Once**
+	- is executed once at date and time given
+- **Daily**
+	- is executed every 24-hour and stops at given date and time
+first backup in 24-hour
+- **Weekly**
+	- as for daily, but every 7 days
+- **Details**
+	- stop or delete scheduled tasks
 
 Select task (row), set the start date and time and select the schedule (once, daily or weekly) to set up a schedule of backup. Every time RsyncOSX starts, the schedule is computed. Every time a change in any schedule the schedule is computed. The schedule is a stack of tasks. The top most element is the first task to be executed. RsyncOSX keeps track of the first task only (in time). Rest of the scheduled operations remains on stack until popped of the stack.
 
 The stack is a reference only to a configuration (by a hidden key). The user can change anything regarding the task up to the moment the task is executed by schedule. If the task is deleted RsyncOSX cancel the schedule, computes the stack again and starts tracing in time next scheduled task.
 
-When the first scheduled task is <b>completed</b>, RsyncOSX checks the next top element of stack. If start date and time is in the future RsyncOSX tracks task in time. 
+When the first scheduled task is **completed**, RsyncOSX checks the next top element of stack. If start date and time is in the future RsyncOSX tracks task in time. 
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
@@ -35,7 +26,7 @@ When the first scheduled task is <b>completed</b>, RsyncOSX checks the next top 
 <tr><td class="tr-caption" style="text-align: center;">Select task for scheduling.</td></tr>
 </tbody>
 </table>
-Schedule <b>once</b> is selected to execute about in one hour. Remote serverthe local volume to be backed up is shown.
+Schedule **once** is selected to execute about in one hour. Remote serverthe local volume to be backed up is shown.
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
 <tr><td style="text-align: center;">
@@ -52,9 +43,9 @@ Schedule <b>once</b> is selected to execute about in one hour. Remote serverthe 
 </tbody>
 </table>
 
-<h3> Stopping a scheduled task</h3>
+### Stopping a scheduled task
 
-Select row and then <b>details</b>. Either stop or delete task. If a task is deleted all logs regarding the task is deleted.
+Select row and then **details**. Either stop or delete task. If a task is deleted all logs regarding the task is deleted.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
