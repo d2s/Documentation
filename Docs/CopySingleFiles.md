@@ -1,6 +1,6 @@
-<h2>Copy single files or catalogs</h2>
+## Copy single files or catalogs
 
-Copy file and volume enables the user to select single file or catalogs for restore to a given local storage. The <b>source</b> for copy is the selected row in Execute view. Pressing select button starts the job to collect list of files and catalogs stored on remote server.
+Copy file and volume enables the user to select single file or catalogs for restore to a given local storage. The **source** for copy is the selected row in Execute view. Pressing select button starts the job to collect list of files and catalogs stored on remote server.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
@@ -19,7 +19,8 @@ Copy file and volume enables the user to select single file or catalogs for rest
 </tbody>
 </table>
 
-After selecting file or cataog to restore and the restore point is set, Estimate and Execute the restore. 
+
+After selecting file or cataog to restore and the restore point is set, Estimate and Execute the restore.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>

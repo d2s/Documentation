@@ -1,6 +1,7 @@
-<h2>Execute tasks in batch </h2>
+## Execute tasks in batch
 
-Only <b>backup</b> tasks can be set for execution in batch. All tasks marked for batch is presented in screen for batchtask. Choosing Execute executes all tasks in <b>one go</b>, both the estimation run and real run. The screen is updated as the process of execution is going forward. After all tasks are completed the view closes automtically in 10 seconds (if not closed before). Selecting the Abort button (the Close button becomes Abort button when Execution is selected) aborts any remaining tasks. 
+Only **backup** tasks can be set for execution in batch. All tasks marked for batch is presented in screen for batchtask. Choosing Execute executes all tasks in **one go**, both the estimation run and real run. The screen is updated as the process of execution is going forward. After all tasks are completed the view closes automtically in 10 seconds (if not closed before). Selecting the Abort button (the Close button becomes Abort button when Execution is selected) aborts any remaining tasks.
+
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
@@ -9,5 +10,3 @@ Only <b>backup</b> tasks can be set for execution in batch. All tasks marked for
 <tr><td class="tr-caption" style="text-align: center;">Select Execute button to execute tasks marked for batch.</td></tr>
 </tbody>
 </table>
-</div>
-<div>
