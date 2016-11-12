@@ -26,10 +26,6 @@
 </ul>
 =======
 The following are documents about RsyncOSX. The **first** document is how to get and install RsyncOSX. The **second** document is some information what RsyncOSX is and how to use the application. Please read the **second** document before using the application.
->>>>>>> pr/7
-=======
-The following are documents about RsyncOSX. The **first** document is how to get and install RsyncOSX. The **second** document is some information what RsyncOSX is and how to use the application. Please read the **second** document before using the application.
->>>>>>> pr/7
 
 - Getting and installing (1) [RsyncOSX](https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncOSX.md).
 - Important (2) [information](https://github.com/rsyncOSX/Documentation/blob/master/Docs/HowtoUseRsyncOSX.md) about what RsyncOSX is.
