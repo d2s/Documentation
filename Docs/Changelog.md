@@ -3,6 +3,7 @@
 The main objective now is to get the application as stable as possible. Clean up of code and bugfixes are always an issue. I am using the application on a daily basis and it evolves during my own use. Any suggestions for new features, changed features and bug reports are more than welcome.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h2> Source code </h2>
 Why release the code? Why not? The code is NOT example of neither writing decent Swift code, OO-development or applying the MVC-pattern. It all started as a project to learn Swift and I am still learning, every day. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.</div>
 <div>
@@ -171,6 +172,8 @@ Changelog prior to version 3.0.0 is deleted. The inital release was 14 March 201
 <li>initial listing 14 March 2016, released on MacUpdate as well</li>
 </ul>
 =======
+=======
+>>>>>>> pr/7
 
 ## Source code
 
@@ -309,4 +312,7 @@ Changelog prior to version 3.0.0 is deleted. The inital release was 14 March 201
 ## Version 0.5 beta
 
 - initial listing 14 March 2016, released on MacUpdate as well
+<<<<<<< HEAD
+>>>>>>> pr/7
+=======
 >>>>>>> pr/7

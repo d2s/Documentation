@@ -1,6 +1,7 @@
 # RsyncOSX documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <ul><li> Adding
 <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/AddConfigurations.md" target="_blank"> configurations</a>.
 </li></ul>
@@ -25,6 +26,9 @@
 <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/UserConfiguration.md" target="_blank"> user configuration</a>.
 </li></ul>
 </ul>
+=======
+The following are documents about RsyncOSX. The **first** document is how to get and install RsyncOSX. The **second** document is some information what RsyncOSX is and how to use the application. Please read the **second** document before using the application.
+>>>>>>> pr/7
 =======
 The following are documents about RsyncOSX. The **first** document is how to get and install RsyncOSX. The **second** document is some information what RsyncOSX is and how to use the application. Please read the **second** document before using the application.
 >>>>>>> pr/7
