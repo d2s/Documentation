@@ -12,8 +12,8 @@ Why release the code? Why not? The code is NOT example of neither writing decent
 <h2>Comments about use of RsyncOSX</h2>
 RsyncOSX is downloaded about 5,000 times from Macupdate and probably some times directly from this blog. I have no clue about how many uses RsyncOSX on a regularly basis and information about bugs discovered by users (I expect other users discovers bugs as well). There are no request for adding features, removing features as well.
 
-I would very much appreciate any comments from users about whatever regarding use of RsyncOSX, e-mails about bugs and suggestion for new features. Please drop me an e-mail on 
-</br>
+I would very much appreciate any comments from users about whatever regarding use of RsyncOSX, e-mails about bugs and suggestion for new features. Please drop me an e-mail on </br >
+
 <ul>
 <li>thomas.tilbakemelding@gmail.com </li>
 <li>or add an <a href="https://github.com/rsyncOSX/Version3.x/issues" target="_blank"> Issue </a> </li>
