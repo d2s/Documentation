@@ -1,11 +1,11 @@
-<h2>User configuration</h2>
+## User configuration
 
 There are only a few parameters to choose in user configuration. The three options are :
-<ul>
-<li>another version of rsync</li>
-<li>detailed logging on or off</li>
-<li>allow double click to execute single tasks</li>
-</ul>
+ 
+ - another version of rsync 
+ - detailed logging on or off 
+ - allow double click to execute single tasks 
+ 
 If the user selectes another version of rsync, RsyncOSX does check if there is a rsync in path set by user. If there is not found a rsync in path RsyncOSX will not execute any tasks. The red configurations is only because I have not started my VirtualBox FreeBSD instance and RsyncOSX does not receive any answer (check is done automatically)
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
@@ -16,7 +16,7 @@ If the user selectes another version of rsync, RsyncOSX does check if there is a
 </tbody>
 </table>
 
-<h3>No rsync i path</h3>
+## No rsync i path
 
 The views below is what happens if a not valid rsync path is set. First of a error is presented in bottom of user configuration.
 
