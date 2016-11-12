@@ -15,7 +15,7 @@ RsyncOSX is downloaded about 5,000 times from Macupdate and probably some times 
 I would very much appreciate any comments from users about whatever regarding use of RsyncOSX, e-mails about bugs and suggestion for new features. Please drop me an e-mail on 
 <ul>
 <li>thomas.tilbakemelding@gmail.com </li>
-<li>or add an <a https://github.com/rsyncOSX/Version3.x/issues" target="_blank"> Issue </a> </li>
+<li>or add an <a href="https://github.com/rsyncOSX/Version3.x/issues" target="_blank"> Issue </a> </li>
 </ul>
 The e-mail is for reading only. I will NOT share any e-mails nor e-mail adresses sent to this address. And I will NOT spam, only read. Any feedback will be a motivation for me to continue develop RsyncOSX.
 
