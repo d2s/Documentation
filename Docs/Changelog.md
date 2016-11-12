@@ -12,19 +12,18 @@ Why release the code? Why not? The code is NOT example of neither writing decent
 <h2>Comments about use of RsyncOSX</h2>
 RsyncOSX is downloaded about 5,000 times from Macupdate and probably some times directly from this blog. I have no clue about how many uses RsyncOSX on a regularly basis and information about bugs discovered by users (I expect other users discovers bugs as well). There are no request for adding features, removing features as well.
 
-I would very much appreciate any comments from users about whatever regarding use of RsyncOSX, e-mails about bugs and suggestion for new features. Please drop me an e-mail on </br>
-</br>
+I would very much appreciate any comments from users about whatever regarding use of RsyncOSX, e-mails about bugs and suggestion for new features. Please drop me an e-mail on 
 <ul>
 <li>thomas.tilbakemelding@gmail.com </li>
-<li>or add a comment on this page (will not be published)</li>
+<li>or add an <a https://github.com/rsyncOSX/Version3.x/issues" target="_blank"> Issue </a> </li>
 </ul>
 The e-mail is for reading only. I will NOT share any e-mails nor e-mail adresses sent to this address. And I will NOT spam, only read. Any feedback will be a motivation for me to continue develop RsyncOSX.
 
-<h2>coming in Version 3.6.0 </h2>
+<h2>Version 3.6.0 rc </h2>
 <ul>
 <li>logs part is changed, text search for <b>remote server</b>, <b>local catalog</b> or <b>executed date/time</b></li>
-<li>code is committed to branch <b>version-3.6.0</b> </li>
-<li>released as <a href="https://github.com/rsyncOSX/Version3.x/releases" target="_blank"> release candidate</a> </li></li>
+<li>code is committed to both <b>master</b> and branch <b>version-3.6.0</b> </li>
+<li>released as <a href="https://github.com/rsyncOSX/Version3.x/releases" target="_blank"> release candidate</a> (updated 12 November 2016)</li>
 </ul>
 
 <h2>Version 3.5.5</h2>
