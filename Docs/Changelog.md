@@ -1,171 +1,142 @@
-<h2> Changelog </h2>
- 
+## Changelog
+
 The main objective now is to get the application as stable as possible. Clean up of code and bugfixes are always an issue. I am using the application on a daily basis and it evolves during my own use. Any suggestions for new features, changed features and bug reports are more than welcome.
 
-<h2> Source code </h2>
-Why release the code? Why not? The code is NOT example of neither writing decent Swift code, OO-development or applying the MVC-pattern. It all started as a project to learn Swift and I am still learning, every day. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.</div>
-<div>
-<ul>
-<li><a href="https://github.com/rsyncOSX/Version3.x/tree/master" target="_blank">master</a> for released version on github</li>
-</ul>
 
-<h2>Comments about use of RsyncOSX</h2>
-RsyncOSX is downloaded about 5,000 times from Macupdate and probably some times directly from this blog. I have no clue about how many uses RsyncOSX on a regularly basis and information about bugs discovered by users (I expect other users discovers bugs as well). There are no request for adding features, removing features as well.
+## Source code
 
-I would very much appreciate any comments from users about whatever regarding use of RsyncOSX, e-mails about bugs and suggestion for new features. Please drop me an e-mail on </br >
-</br >
-<ul>
-<li>thomas.tilbakemelding@gmail.com </li>
-<li>or add an <a href="https://github.com/rsyncOSX/Version3.x/issues" target="_blank"> Issue </a> </li>
-</ul>
-The e-mail is for reading only. I will NOT share any e-mails nor e-mail adresses sent to this address. And I will NOT spam, only read. Any feedback will be a motivation for me to continue develop RsyncOSX.
+Why release the code? Why not? The code is NOT example of neither writing decent Swift code, OO-development or applying the MVC-pattern. It all started as a project to learn Swift and I am still learning, every day. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
 
-<h2>Version 3.6.0 rc </h2>
-<ul>
-<li>logs part is changed, text search for <b>remote server</b>, <b>local catalog</b> or <b>executed date/time</b></li>
-<li>code is committed to both <b>master</b> and branch <b>version-3.6.0</b> </li>
-<li>released as <a href="https://github.com/rsyncOSX/Version3.x/releases" target="_blank"> release candidate</a> (updated 12 November 2016)</li>
-<li>there is a bug in deleting ssh-port - fixed in v3.6.0 rc</li>
-</ul>
+- [master](https://github.com/rsyncOSX/Version3.x/tree/master) for released version on github
 
-<h2>Version 3.5.5</h2>
-<ul>
-<li>new image updated <b>10 November 2016</b> : some minor GUI tweaks and automatic dismiss after 10 seconds in some of the views</li>
-<li>new image updated <b>5 November 2016</b> : if selecting new profile before background check for connection is completed RsyncOSX might crash, fix is done and new image is uploaded. Background check is executed when main view loads and remote servers not responding is marked red.</li>
-<li>released 3 November 2016</li>
-<li>fixed a couple of bugs in automatic dismiss of popup views (when scheduled backups are running and in main view a popup informs of backup)</li>
-<li>some minor refactor of code</li>
-</ul>
 
-<h2>Version 3.5.1</h2>
-<ul>
-<li>new image updated <b>2 November 2016</b> : added check for optional version and path of rsync</li>
-<li>new image updated <b>1 November 2016</b> : "moved" GUI updates in background (Scheduled operations) to main thread - making RsyncOSX unstable if not - throwing "CoreAnimation: warning, deleted thread with uncommitted CATransaction" if not</li>
-<li><b>caution</b> : a bug in Scheduled jobs caused version 3.5.1 released 30 October 2016 to crash - a new image of version 3.5.1 uploaded late 30 October 2016.</li>
-<li>relased 30 October 2016</li>
-<li>fixed a bug in version 3.5.0 deleting/stopping schedules causing a nil pointer exeption and crash</li>
-<ul>
-<li>bug was "introduced" when compiling RsyncOSX with latest release version 8.1 of Xcode </li>
-</ul>
-<li>notify new versions of RsyncOSX by delegate</li>
-<li>mainly a maintenance release, some bigger internal changes and some GUI tweaks</li>
-<li>RsyncOSX is more stable than ever </li>
-<ul>
-<li>replaced states by work queu (using states get complex even with a few states)</li>
-<li>I am learning Swift every day and <a href="https://en.wikipedia.org/wiki/Code_refactoring" target="_blank">refactor code</a> is important</li>
-<ul>
-</ul>
-</ul>
-<li>code (<a href="https://github.com/rsyncOSX/Version3.x/tree/master" target="_blank">master</a>) at Github is updated with last commits</li>
-<li>added double click for executing single task and select profile</li>
-<ul>
-<li>double click first time executes a dry run, another double click after dryrun executes the real task</li>
-<li>enable/disable double click in userconfiguration</li>
-</ul>
-</ul>
-</div>
+## Comments about use of RsyncOSX
 
-<h2>Version 3.4.1</h2>
+RsyncOSX is downloaded about 5,000 times from Macupdate and probably some times directly from this blog. I have no clue about how many uses RsyncOSX on a regularly basis and information about bugs discovered by users (I expect other users discovers bugs as well). There are no request for adding features, removing features as well. I would very much appreciate any comments from users about whatever regarding use of RsyncOSX, e-mails about bugs and suggestion for new features. Please drop me an e-mail on
 
-<ul>
-<li>released 20 October 2016</li>
-<li>copy and paste was by mistake not in 3.4.0 - now it is...</li>
-<li>there was an issue with Copy files (search and copy single files or catalogs) - if you experience any problems with copy files in version 3.4.1 please update to last image of version 3.4.1</li>
-</ul>
-<h2> Version 3.4.0</h2>
-<ul>
-<li>released 19 October 2016</li>
-<li>added profiles - select profiles from the File meny, profiles is just new catalogs for storing configurations and schedules files. </li>
-<li>backup of single files in Add view, only backup part is added for single files, use Copy Files to search and restore single files</li>
-<li>some minor internal cleanup and fixes, adjusted Copy Files view</li>
-<li>added abort in Copy Files (terminates search process)</li>
-<li>in logs view selecting row selects logs for selected remote server</li>
-<li>removed testmode in RsyncOSX  - replaced by profiles</li>
-<li>userconfiguration available from Main tab, Add tab and Schedule tab</li>
-<li>in main tab when rsync is changed in userconfiguration, if row is selected rsync command in view is updated</li>
-<li>counting of files and directories from rsync output is more robust, only version 3.x of rsync counting directories remote</li>
-</ul>
-<h2>Version 3.3.0</h2>
+- thomas.tilbakemelding@gmail.com
+- or add an [Issue](https://github.com/rsyncOSX/Version3.x/issues)
 
-<ul>
-<li>released 6 October 2016</li>
-<li>capture of more precise info about files, tested on both stock version on rsync and 3.1.2 of rsync (only version 3.x counts directories)</li>
-<li>fixed a bug not saving path for other version of rsync</li>
-<li>added backup in rsync parameters</li>
-<ul>
-<li>changed files are moved to backup location (default ../backup) and appended a timestamp before updated files are transferred from source to destination</li>
-<li>usefull when saving versions of e.g. documents</li>
-</ul>
-<li>fixed a memory leak in scheduling of tasks</li>
-<ul>
-<li>after the last release 4 Oct 2016 it seems that there are no memory leaks (at  least the graphic memory debugger in Xcode reports no leaks as well as the Xcode instrument Memory Leaks)</li>
-</ul>
-</ul>
+The e-mail is for reading only. I will NOT share any e-mails nor e-mail addresses sent to this address. And I will NOT spam, only read. Any feedback will be a motivation for me to continue develop RsyncOSX.
 
-<h2>Version 3.1.5</h2>
 
-<ul>
-<li>released 24 Sept 2016</li>
-<ul>
-<li>image is updated 26 Sept 2016 (fixed a few minor glitches)</li>
-</ul>
-<li>added detailed logging</li>
-<ul>
-<li>logging switch on/off in Configuration</li>
-</ul>
-<li>hopefully no more releases for some time after this release</li>
-</ul>
+## Version 3.6.0 rc
 
-<h2>Version 3.1.0</h2>
+- logs part is changed, text search for **remote server**, **local catalog** or **executed date/time**
+- code is committed to both **master** and branch **version-3.6.0**
+- released as [release candidate](https://github.com/rsyncOSX/Version3.x/releases) (updated 12 November 2016)
+- there is a bug in deleting ssh-port - fixed in v3.6.0 rc
 
-<ul>
-<li>updated 22 Sept (released 20 Sept 2016)</li>
-<li>scheduling of tasks</li>
-<li>added (22 Sept 2016) adding local volumes by graphical window or drag and drop from Finder</li>
-<li>a few minor bugfixes (22 Sept 2016)</li>
-</ul>
 
-<h2>Version 3.0.5</h2>
+## Version 3.5.5
 
-<ul>
-<li>updated 15 Sept 2016</li>
-<li>copy of single files or catalogs from remote storage</li>
-<ul>
-<li>doing a restore requiere to press the Estimate button twice, once for a --dry-run (estimate) and the the real run (execute)</li>
-</ul>
-<li>some visual enhancements</li>
-<li>Scheduling of tasks is <b>not yet</b> included in this version (will be in version 3.1.0)</li>
-<ul>
-<li>tasks might be scheduled in version 3.0.5 but not executed</li>
-</ul>
-</ul>
+- new image updated **10 November 2016** : some minor GUI tweaks and automatic dismiss after 10 seconds in some of the views
+- new image updated **5 November 2016** : if selecting new profile before background check for connection is completed RsyncOSX might crash, fix is done and new image is uploaded. Background check is executed when main view loads and remote servers not responding is marked red.
+- released 3 November 2016
+- fixed a couple of bugs in automatic dismiss of popup views (when scheduled backups are running and in main view a popup informs of backup)
+- some minor refactor of code
 
-<h2>Version 3.0.0 </h2>
-<ul>
-<li>built on macOS 10.12 GM by Xcode 8 GM (GM = "gold master")</li>
-<li>supports macOS 10.11 and macOS 10.12</li>
-</ul>
-What is <b>NOT</b> implemented in version 3.0
-<ul>
-<li>no execution of Scheduled task, but scheduled task may be added, stopped and deleted</li>
-<ul>
-<li>the code for execution of scheduled tas has to be revised and tested</li>
-<li>will come in version 3.1.0</li>
-</ul>
-<li>no copy of single files or catalogs from remote servers</li>
-<ul>
-<li>will come in version 3.1.0</li>
-</ul>
-<li>no detailed logging</li>
-<ul>
-<li>will come in version 3.1.0</li>
-</ul>
-</ul>
 
-<h2>Changelog before version 3.0.0</h2>
-Changelog prior to version 3.0.0 is deleted. The inital release was 14 March 2016 and code is rewritten since the initial release. 
+## Version 3.5.1
 
-<h2>Version 0.5 beta</h2>
-<ul>
-<li>initial listing 14 March 2016, released on MacUpdate as well</li>
-</ul>
+- new image updated **2 November 2016** : added check for optional version and path of rsync
+- new image updated **1 November 2016** : "moved" GUI updates in background (Scheduled operations) to main thread - making RsyncOSX unstable if not - throwing "CoreAnimation: warning, deleted thread with uncommitted CATransaction" if not
+- **caution** : a bug in Scheduled jobs caused version 3.5.1 released 30 October 2016 to crash - a new image of version 3.5.1 uploaded late 30 October 2016.
+- relased 30 October 2016
+- fixed a bug in version 3.5.0 deleting/stopping schedules causing a nil pointer exeption and crash
+  - bug was "introduced" when compiling RsyncOSX with latest release version 8.1 of Xcode
+- notify new versions of RsyncOSX by delegate
+- mainly a maintenance release, some bigger internal changes and some GUI tweaks
+- RsyncOSX is more stable than ever
+  - replaced states by work queu (using states get complex even with a few states)
+  - I am learning Swift every day and [refactor code](https://en.wikipedia.org/wiki/Code_refactoring) is important
+- code ([master](https://github.com/rsyncOSX/Version3.x/tree/master)) at Github is updated with last commits
+- added double click for executing single task and select profile
+  - double click first time executes a dry run, another double click after dryrun executes the real task
+  - enable/disable double click in userconfiguration
+
+
+## Version 3.4.1
+
+- released 20 October 2016
+- copy and paste was by mistake not in 3.4.0 - now it is...
+- there was an issue with Copy files (search and copy single files or catalogs) - if you experience any problems with copy files in version 3.4.1 please update to last image of version 3.4.1
+
+
+## Version 3.4.0
+
+- released 19 October 2016
+- added profiles - select profiles from the File meny, profiles is just new catalogs for storing configurations and schedules files.
+- backup of single files in Add view, only backup part is added for single files, use Copy Files to search and restore single files
+- some minor internal cleanup and fixes, adjusted Copy Files view
+- added abort in Copy Files (terminates search process)
+- in logs view selecting row selects logs for selected remote server
+- removed testmode in RsyncOSX - replaced by profiles
+- userconfiguration available from Main tab, Add tab and Schedule tab
+- in main tab when rsync is changed in userconfiguration, if row is selected rsync command in view is updated
+- counting of files and directories from rsync output is more robust, only version 3.x of rsync counting directories remote
+
+
+## Version 3.3.0
+
+- released 6 October 2016
+- capture of more precise info about files, tested on both stock version on rsync and 3.1.2 of rsync (only version 3.x counts directories)
+- fixed a bug not saving path for other version of rsync
+- added backup in rsync parameters
+  - changed files are moved to backup location (default ../backup) and appended a timestamp before updated files are transferred from source to destination
+  - usefull when saving versions of e.g. documents
+- fixed a memory leak in scheduling of tasks
+  - after the last release 4 Oct 2016 it seems that there are no memory leaks (at least the graphic memory debugger in Xcode reports no leaks as well as the Xcode instrument Memory Leaks)
+
+
+## Version 3.1.5
+
+- released 24 Sept 2016
+  - image is updated 26 Sept 2016 (fixed a few minor glitches)
+- added detailed logging
+  - logging switch on/off in Configuration
+- hopefully no more releases for some time after this release
+
+
+## Version 3.1.0
+
+- updated 22 Sept (released 20 Sept 2016)
+- scheduling of tasks
+- added (22 Sept 2016) adding local volumes by graphical window or drag and drop from Finder
+- a few minor bugfixes (22 Sept 2016)
+
+
+## Version 3.0.5
+
+- updated 15 Sept 2016
+- copy of single files or catalogs from remote storage
+  - doing a restore requiere to press the Estimate button twice, once for a --dry-run (estimate) and the the real run (execute)
+- some visual enhancements
+- Scheduling of tasks is **not yet** included in this version (will be in version 3.1.0)
+  - tasks might be scheduled in version 3.0.5 but not executed
+
+
+## Version 3.0.0
+
+- built on macOS 10.12 GM by Xcode 8 GM (GM = "gold master")
+- supports macOS 10.11 and macOS 10.12
+
+What is **NOT** implemented in version 3.0
+
+- no execution of Scheduled task, but scheduled task may be added, stopped and deleted
+  - the code for execution of scheduled tas has to be revised and tested
+  - will come in version 3.1.0
+- no copy of single files or catalogs from remote servers
+  - will come in version 3.1.0
+- no detailed logging
+  - will come in version 3.1.0
+
+
+## Changelog before version 3.0.0
+
+Changelog prior to version 3.0.0 is deleted. The inital release was 14 March 2016 and code is rewritten since the initial release.
+
+
+## Version 0.5 beta
+
+- initial listing 14 March 2016, released on MacUpdate as well
