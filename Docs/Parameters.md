@@ -1,4 +1,4 @@
-<h2> Parameters to rsync</h2>
+## Parameters to rsync
 
 The parameters in picture below instructs rsync to save changed files in catalog ../backup (relativ to destination catalog) and suffix the backup file with timestamps. The above is enabled or disabled by select or deselect the "backup" button. The user might change the backup catalog. Default is ../backup.
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
