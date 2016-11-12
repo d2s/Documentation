@@ -1,61 +1,61 @@
-<h2>Passwordless logins</h2>
+## Passwordless logins
  
  
-Backup to offsite or remote backup locations (servers) requires some more setup. By using rsync from command-line it prompts for login ID and password. There is, as far as I know, no solution for passing login credentials to rsync command-line tool by parameter. But ssh has possibility to enable <b>passwordless</b> logins by using ssh generated private and public key-pair. 
+Backup to offsite or remote backup locations (servers) requires some more setup. By using rsync from command-line it prompts for login ID and password. There is, as far as I know, no solution for passing login credentials to rsync command-line tool by parameter. But ssh has possibility to enable **passwordless** logins by using ssh generated private and public key-pair. 
 
-Using <a href="https://wiki.archlinux.org/index.php/SSH_keys" target="_blank">ssh-keys</a> is in general considered more safe than standard password solutions (single factor authentication). Ssh-keys is based upon <a href="https://en.wikipedia.org/wiki/Public-key_cryptography" target="_blank">public-key cryptography.</a>
+Using [ssh-keys](https://wiki.archlinux.org/index.php/SSH_keys" target="_blank) is in general considered more safe than standard password solutions (single factor authentication). Ssh-keys is based upon [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography).
 
 To enable passwordless login by using ssh you must use ssh-keygen to create a private and public key-pair. For my second Macbook I also create a private and public key by ssh-keygen. The second public key is appended to both remote servers file authorized_keys. That is it.
 
-<h2>Step by step procedure</h2>
+## Step by step procedure
 
 If the server is set up listening for ssh on other ports than standard port 22 use <code>ssh -p port</code> to use another port. In RsyncOSX there is in parameters setting possible to set another ssh port if required. The <code>Mac$</code> is a abbrivation for the terminal prompt.
 
-<b>Step 1</b> : create a ssh-keypair on your Mac (from the terminal window) and just press Enter every time ssh-keygen ask for input (three times). 
+**Step 1** : create a ssh-keypair on your Mac (from the terminal window) and just press Enter every time ssh-keygen ask for input (three times). 
 
 <code>Mac$ ssh-­keygen -­t rsa</code>
 
 See <i>comment on ssh-keygen</i> below (about RSA or DSA based crypto).
 
-<b>Step 2</b> : login to your server and create a .ssh directory in your home catalog. The instructions below are three commands, first login, then cd and then mkdir.
+**Step 2** : login to your server and create a .ssh directory in your home catalog. The instructions below are three commands, first login, then cd and then mkdir.
 
 <code>Mac$ ssh user@server.com; cd; mkdir .ssh; exit;</code>
 
-<b>Step 3</b> : copy through ssh the public key from the Mac .ssh directory to the server.
+**Step 3** : copy through ssh the public key from the Mac .ssh directory to the server.
 
 <code>Mac$ cat ~/.ssh/id\_rsa.pub | ssh user@server.com "cat .ssh/authorized_keys"</code>
 
-<b>Step 4</b> : login in to user@server.com and set the correct permissions for the .ssh catalog and authorized_keys file.
+**Step 4** : login in to user@server.com and set the correct permissions for the .ssh catalog and authorized_keys file.
 
 <code>Mac$ ssh user@server.com; cd; chmod 700 .ssh; chmod 600 .ssh/authorized_keys</code>
 
-<b>Step 5</b> : test login from Mac, password is not required.
+**Step 5** : test login from Mac, password is not required.
 
 <code>Mac$ ssh user@server.com</code>
 
-If you have two or more servers repeat <b>step 2 - step 5</b>. If you have two Macbooks and two servers (which I have) repeat step1 - step 5 for the second Macbook as well.
+If you have two or more servers repeat **step 2 - step 5**. If you have two Macbooks and two servers (which I have) repeat step1 - step 5 for the second Macbook as well.
 
-<h3>Comment on ssh-keygen</h3>
+### Comment on ssh-keygen
 
-My knowledge of crypto is very limited. The parameter <b>-t rsa</b> creates one key-pair based on <a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)" target="_blank">RSA</a>. It might be that your server require a key-pair based on <a href="https://en.wikipedia.org/wiki/Digital_Signature_Algorithm" target="_blank">DSA</a>. The following steps creates a key-pair based on DSA (parameter <b>-t dsa</b>):
+My knowledge of crypto is very limited. The parameter **-t rsa** creates one key-pair based on <a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)" target="_blank">RSA</a>. It might be that your server require a key-pair based on <a href="https://en.wikipedia.org/wiki/Digital_Signature_Algorithm" target="_blank">DSA</a>. The following steps creates a key-pair based on DSA (parameter **-t dsa**):
 
-<b>Step 1</b>&nbsp;: create a ssh-keypair on your Mac (from the terminal window) and just press Enter every time ssh-keygen ask for input (three times).
+**Step 1**&nbsp;: create a ssh-keypair on your Mac (from the terminal window) and just press Enter every time ssh-keygen ask for input (three times).
 
 <code>Mac$ ssh-­keygen -­t dsa</code>
 
-<b>Step 2</b>: login to your server and create a .ssh directory in your home catalog. The instructions below are three commands, first login, then cd and then mkdir.
+**Step 2**: login to your server and create a .ssh directory in your home catalog. The instructions below are three commands, first login, then cd and then mkdir.
 
 <code>Mac$ ssh user@server.com; cd; mkdir .ssh; exit;</code>
 
-<b>Step 3</b>&nbsp;: copy through ssh the public key from the Mac .ssh directory to the server.
+**Step 3**&nbsp;: copy through ssh the public key from the Mac .ssh directory to the server.
 
 <code>Mac$ cat ~/.ssh/id_dsa.pub | ssh user@server.com "cat .ssh/authorized\_keys2"</code>
 
-<b>Step 4</b>: login in to user@server.com and set the correct permissions for the .ssh catalog and authorized_keys2 file.
+**Step 4**: login in to user@server.com and set the correct permissions for the .ssh catalog and authorized_keys2 file.
 
 <code>Mac$ ssh user@server.com; cd; chmod 700 .ssh; chmod 600 .ssh/authorized\_keys2; exit;</code>
 
-<b>Step 5</b>&nbsp;: test login from Mac, password is not required.
+**Step 5**&nbsp;: test login from Mac, password is not required.
 
 <code>Mac$ ssh user@server.com</code><br />
 
