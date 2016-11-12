@@ -1,7 +1,5 @@
 # RsyncOSX documentation
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 <ul><li> Adding
 <a href="https://github.com/rsyncOSX/Documentation/blob/master/Docs/AddConfigurations.md" target="_blank"> configurations</a>.
 </li></ul>
