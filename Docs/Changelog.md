@@ -26,6 +26,7 @@ The e-mail is for reading only. I will NOT share any e-mails nor e-mail addresse
 - code is committed to both **master** and branch **version-3.6.0**
 - released as [release candidate](https://github.com/rsyncOSX/Version3.x/releases) (updated **13 November 2016**)
 - there is a bug in deleting ssh-port - fixed in v3.6.0 rc
+- there is a bug in enabling Profiles menu when RsyncOSX is started on a Mac for the first time (Profiles menu is not enabled), fix is done and new version 3.6.0 rc is uploaded
 
 
 ## Version 3.5.5
