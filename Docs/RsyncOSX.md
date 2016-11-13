@@ -1,12 +1,12 @@
 
-## RsyncOSX
+## Install RsyncOSX
 
 RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 
-- backup (and restore) local files on Mac to remote servers connected to Internet or local network
+- **backup** (and restore) of local files on Mac to **remote servers** connected to **Internet** or **local network**
 	- the above is why I wrote RsyncOSX to use myself
 - backup (and restore) local files on Mac to local storage (attached disks)
-	- if this is <i>the only use</i> there might be <i>other tools</i> more useful than RsyncOSX
+	- if this is *the only use* there might be *other tools* more useful than RsyncOSX
 
 ## Download link and install
 
@@ -24,10 +24,10 @@ The application is signed with my Apple Developer ID certificate.
 
 ## Password-less logins
 
-Backup to remote servers require ssh password-less logins (by ssh-keygen and ssh public and private key). Here is how to [setup password-less](https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md) logins.
+Backup to **remote servers** require ssh password-less logins (by ssh-keygen and ssh public and private keys). Here is how to [setup password-less](https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md) logins.
 
 ## Idea behind RsyncOSX
 
-I have two Macbooks, one is used primarily at work and the other is my private. Data is backed up to server at home and to one offsite servers. Both Macbooks and all backup locations are kept in sync. I am using my private Macbook for Pictures (I have about 100 GB of raw picture files). Whenever I have added new picture files or done some work on pictures, changes are backup up on all servers and then restored on my Macbook used at work.
+I have two MacBooks, one is used primarily at work and the other is my private. Data is backed up to server (NAS) at home and to one offsite servers. Both MacBooks and all backup locations are kept in sync. I am using my private MacBook for Pictures (I have about 100 GB of raw picture files). Whenever I have added new picture files or done some work on pictures, changes are backup up on all servers and then restored on my MacBook used at work. The rsync command-line tool is one of the best tools around for backup and synchronizing storage. A GUI ontop of rsync might hide all the details about parameters to rsync and make rsync execute the correct actions.
 
 Some more details about the [idea](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Idea.md) for RsyncOSX.
