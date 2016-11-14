@@ -10,10 +10,10 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 
 ## Download link and install
 
-RsyncOSX is released in version 3.5.5 (updated 10 November 2016).
+RsyncOSX is released in version 3.5.5 (updated 14 November 2016).
 
 - [download](https://dl.dropboxusercontent.com/u/52503631/RsyncOSX.dmg) latest version of RsyncOSX
-- shasum :a4fe7568f4ae4503619833624bafa812206ce08c
+- shasum :d234328d16e4cd328a3a02b7e637b851583e184b
 - see the [Changelog](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Changelog.md) for info
 
 <code>/usr/bin/shasum ~/PathToDownload/RsyncOSX.dmg</code> to verify hash
