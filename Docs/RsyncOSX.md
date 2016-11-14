@@ -8,6 +8,10 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 - backup (and restore) local files on Mac to local storage (attached disks)
 	- if this is *the only use* there might be *other tools* more useful than RsyncOSX
 
+## YouTube video
+
+I have uploaded a short (about 4 minutes) [YouTube video of RsyncOSX](https://www.youtube.com/watch?v=ty1r7yvgExo) : "Downloading RsyncOSX, installing, first time configuration and using RsyncOSX for the first time. Backup (as demo) of about 120 MB of data and 4000 files to a VirtualBox FreeBSD machine."
+
 ## Download link and install
 
 RsyncOSX is released in version 3.5.5 (updated 14 November 2016).
