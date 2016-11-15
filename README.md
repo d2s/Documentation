@@ -13,9 +13,13 @@ The following are documents about RsyncOSX. The **first** document is how to get
   - Parameters to [rsync](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Parameters.md).
   - Some info about [user configuration](https://github.com/rsyncOSX/Documentation/blob/master/Docs/UserConfiguration.md).
 
-### Other documents
+## YouTube
 
-There are a few other documents in contex of RsyncOSX. To enable remote storage of backups please read **howto enable passwordless logins**. Rsync utilizes parameters. RsyncOSX enables passing userselected parameters to rsync.
+I have uploaded a short (about 4 minutes) [YouTube video of RsyncOSX](https://www.youtube.com/watch?v=ty1r7yvgExo) : "Downloading RsyncOSX, installing, first time configuration and using RsyncOSX for the first time. Backup (as demo) of about 120 MB of data and 4000 files to a VirtualBox FreeBSD machine."
+
+## Other documents
+
+There are a few other documents in context of RsyncOSX. To enable remote storage of backups please read **how to enable passwordless logins**. Rsync utilises parameters. RsyncOSX enables passing user selected parameters to rsync.
 
 - How to enable [passwordless logins](https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md).
 - Some more info about [parameters to rsync](https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncParameters.md).

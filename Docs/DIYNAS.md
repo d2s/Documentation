@@ -5,19 +5,19 @@ This page is just a short resume about my DIY (do it yourself) [NAS](https://en.
 - for storing backup of my files
 - and share out disk (by SMB/CIFS and AFP)
 
-My knowledge about computer hardware is very limited. The actual hardware in the NAS is more or less selected by advices from the supplier of hardware. The most important objective was to get hardware which was supported by the OS. And the form factor of the cabinet also narrows the possibilities. The hardware in my NAS is probably not the best solution. But it works and that is for me the most important. For me, backup is very important. And backup to several locations.
+My knowledge about computer hardware is very limited. The actual hardware in the NAS is more or less selected by advices from the supplier of hardware. The most important objective was to get hardware which was supported by the OS. And the form factor of the cabinet also narrows the possibilities. The hardware in my NAS is probably not the best solution. But it works and that is for me the most important. For me, backup is very important. And do backup to several locations.
 
 
 ## Encrypt sensitive information
 
-I am also aware of not storing personal and sensitive information at remote locations. There are several solutions for that problem. One is creating a secure folder or volume. Any OS supports this today. A second solution is to encrypt files containing personal and sensitive information (as tax reports). I am encrypting files by using [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard). I also encrypts files containing sensitive information in case my MacBook is compromized (which is not likly to happen due to precautions).
+I am also aware of not storing personal and sensitive information at remote locations. There are several solutions for that problem. One is creating a secure folder or volume. Any OS supports this today. A second solution is to encrypt files containing personal and sensitive information (as tax reports). I am encrypting files by using [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard). I also encrypts files containing sensitive information in case my MacBook is compromised (which is not likely to happen due to precautions).
 
 I have not tested rsync on encrypted folders or volumes. I am quite sure it works, but I do not know how effective rsync is when there are changes within the encrypted folder or volume.
 
 
 ## Replace Oracle Solaris as NAS SW?
 
-I have only used the trial version of Oracle Solaris 11.3\. There are no updates and bugfixes for the trial version. Receiving updates and bugfixes cost money. That is the main reason for choosing other OS for my NAS. There are two options : either go for a special NAS SW ( as NAS4Free or FreeNAS) or use stock OS (as FreeBSD 11 or Ubuntu 16.10).
+I have only used the trial version of Oracle Solaris 11.3\. There are no updates and bug fixes for the trial version. Receiving updates and bug fixes cost money. That is the main reason for choosing other OS for my NAS. There are two options : either go for a special NAS SW ( as NAS4Free or FreeNAS) or use stock OS (as FreeBSD 11 or Ubuntu 16.10).
 
 After some testing of [FreeBSD 11](https://www.freebsd.org/), [NAS4free](http://www.nas4free.org/) and [FreeNAS](http://www.freenas.org/) I have decided to go for NAS4free. I did not try Ubuntu 16.10\. The decision to go for NAS4free is not scientific. I have two requirements for my NAS : ZFS and minimal effort to setup and use. And of course stability. There are also other NAS solutions but they are not built around ZFS.
 
@@ -44,7 +44,7 @@ My NAS4Free based NAS is now setup to do the following:
 
 ## The NAS
 
-I have replaced my old NAS with new hardware. The only piece from my old NAS to keep is a Intel RAID controller. All other HW is replaced (not the storage). My old NAS from 2010 was installed in an old and heavy server cabinet. Both cabinet and hardware were ready for an upgrade. My old NAS worked well and I hesitated before I decided to upgrade. An upgrade of the hardware can quickly become a challenge if the OS does not include drivers for new hardware.
+I have replaced my old NAS with new hardware. The only piece from my old NAS to keep is an Intel RAID controller. All other HW is replaced (not the storage). My old NAS from 2010 was installed in an old and heavy server cabinet. Both cabinet and hardware were ready for an upgrade. My old NAS worked well and I hesitated before I decided to upgrade. An upgrade of the hardware can quickly become a challenge if the OS does not include drivers for new hardware.
 
 Why keep the RAID controller? First of all it is supported by Oracle Solaris and NAS4Free (FreeBSD). The motherboard has only four SATA ports. I have (including the boot disk) seven SATA disks. The RAID controller has 8-ports and all disks except the boot disk, is connected to the RAID controller. The controller is discontinued but it stills works.
 
@@ -59,7 +59,7 @@ The above was before the server crash 15 October 2016.
 
 Now the NAS OS is NAS4Free. I am quite pleased to replace Oracle Solaris as OS with NAS4Free. NAS4Free is free software and it is under continuously development. The WebGUI is intuitive, nice and easy to use. It took med just a couple of minutes to format two drives, create a new mirrored zpool, create a new user and mount 1 TB of disk to use as backup for RsyncOSX.
 
-Total disk in NAS is 6 [Terrabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror. My NAS is sharing out 3 TB.
+Total disk in NAS is 6 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror. My NAS is sharing out 3 TB.
 
 The hardware of my 2016 NAS are:
 
@@ -68,20 +68,20 @@ The hardware of my 2016 NAS are:
 3.  [Intel RAID Controller SASUC8I 8P, SAS/SATA](http://www.newegg.com/Product/Product.aspx?Item=N82E16816117157) RAID 0/1/1E/10E, PCIe x8 (2x int. mini-SAS SFF-8087) (the 8-port controller is from 2011 and still working)
 4.  [MSI H110I](https://www.msi.com/Motherboard/H110I-PRO.html#hero-overview) Pro, Socket-1151 motherboard
 5.  [Intel Core i5-6400](http://ark.intel.com/products/88185/Intel-Core-i5-6400-Processor-6M-Cache-up-to-3_30-GHz), Socket-LGA1151 processor
-  - using the Intel Core i5 as CPU in NAS is probably a overkill
+  - using the Intel Core i5 as CPU in NAS is probably an overkill
 6.  Kingston ValueRAM DDR4 2133MHz 16GB
-7.  Two WD Red 1TB NAS Harddrive, SATA 6Gb/s (SATA 3.0), 64MB, 3.5", 24x7 reliability, IntelliPower (bought in 2014)
+7.  Two WD Red 1TB NAS Hard drive, SATA 6Gb/s (SATA 3.0), 64MB, 3.5", 24x7 reliability, IntelliPower (bought in 2014)
 8.  Two WD Desktop Green 2TB SATA 6Gb/s, (SATA 3.0), IntelliPower, 64MB, 3.5" (bought in 2012)
   - one disk HW failed and replaced in 2013 without any loss of data
 
 
 ## Setup of NAS - ZFS filesystem
 
-The server has 3 Terrabyte (TB) of storage. The storage is setup as a ZFS filesystem and all disks (four disks altogether, two disks of 2TB each and two disks of 1TB each) are all setup as a ZFS mirror. That is the two 2TB disks are mirroring each other as well as the two 1TB disks. If one disk fails ZFS is automatically restoring (by ZFS scrub) the failing disk. If one disk fails (by HW) and must be replaced ZFS has functionality for unmounting failed disk, mount a new one and put the new one into mirrored pool again.
+The server has 3 Terabyte (TB) of storage. The storage is setup as a ZFS filesystem and all disks (four disks altogether, two disks of 2TB each and two disks of 1TB each) are all setup as a ZFS mirror. That is the two 2TB disks are mirroring each other as well as the two 1TB disks. If one disk fails ZFS is automatically restoring (by ZFS scrub) the failing disk. If one disk fails (by HW) and must be replaced ZFS has functionality for unmounting failed disk, mount a new one and put the new one into mirrored pool again.
 
-ZFS is a very cool and robust filesystem. You can manage ZFS filesystems by command-line, but there are some very good GUI around for that as well. I have for some years used the free version of [napp-it](http://napp-it.org/). After replacing Oracle Solaris as OS I cannot use napp-it. NAS4free includes its own webbased GUI.
+ZFS is a very cool and robust filesystem. You can manage ZFS filesystems by command-line, but there are some very good GUI around for that as well. I have for some years used the free version of [napp-it](http://napp-it.org/). After replacing Oracle Solaris as OS I cannot use napp-it. NAS4free includes its own web based GUI.
 
-So it is easy and cheap to setup a backup server based on Linux or other server OS and rsync. There is an open source project [Netatalk](http://netatalk.sourceforge.net/) Apple Filing Protocol ([AFP](https://en.wikipedia.org/wiki/Apple_Filing_Protocol)) fileserver. Some years ago I testet Apple Time Machine and Netatalk on a Solaris 11 server. It worked for some time, but also failed. I dont know stable Netatalk and Apple Time Machine is now. But for me rsync is the best solution. And for backups to remote servers outside my house (by Internet connection) rsync is most likely the best tool to use. By using rsync I backup all data on my Macs. A complete reinstallation of a Macbook is done by a fresh install of OS X and then restore all data by rsync. Safe and reliable.
+So it is easy and cheap to setup a backup server based on Linux or other server OS and rsync. There is an open source project [Netatalk](http://netatalk.sourceforge.net/) Apple Filing Protocol ([AFP](https://en.wikipedia.org/wiki/Apple_Filing_Protocol)) fileserver. Some years ago I testet Apple Time Machine and Netatalk on a Solaris 11 server. It worked for some time, but also failed. I dont know stable Netatalk and Apple Time Machine is now. But for me rsync is the best solution. And for backups to remote servers outside my house (by Internet connection) rsync is most likely the best tool to use. By using rsync I backup all data on my Macs. A complete reinstallation of a MacBook is done by a fresh install of OS X and then restore all data by rsync. Safe and reliable.
 
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://1.bp.blogspot.com/-HXJd4gxFSv4/V5296rU5ogI/AAAAAAAALwA/bcWuJ8nnipISjDrFeuCLCI7Xoo9EguS2gCLcB/s1600/WhatIsRsyncOSX.001.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="480" src="https://1.bp.blogspot.com/-HXJd4gxFSv4/V5296rU5ogI/AAAAAAAALwA/bcWuJ8nnipISjDrFeuCLCI7Xoo9EguS2gCLcB/s640/WhatIsRsyncOSX.001.jpeg" width="640" /></a>

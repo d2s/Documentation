@@ -12,20 +12,20 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 - backup (and restore) local files on Mac to local storage (attached disks)
   - if this is _the only use_ there might be _other tools_ more useful than RsyncOSX
 
+**Warning**: default parameters for rsync is to **synchronise** the **source** and **destination**. A "restore" will **delete** all files in the source which are not in the destination. The main objective to RsyncOSX is to keep the **source** directory and **destination** (backup) directory **in sync**. When a source directory is backed up, the destination is 100% in sync with source in the moment the backup task is completed. There are **no revisions** of files in the backup in **default RsyncOSX**. Old files in the backup are either replaced with new ones or deleted if so is true in source.
+
 - _source_: the local volume to be copied
 - _destination_: the remote location where source files and catalogs are copied
 
-**Warning**: default parameters for rsync is to **synchronize** the **source** and **destination**. A "restore" will **delete** all files in the source which are not in the destination. The main objective to RsyncOSX is to keep the **source** directory and **destination** (backup) directory **in sync**. When a source directory is backed up, the destination is 100% in sync with source in the moment the backup task is completed. There are **no revisions** of files in the backup in **default RsyncOSX**. Old files in the backup are either replaced with new ones or deleted if so is true in source.
-
-But dont panic? What about **revisions and deleted** files? In the [parameters to rsync](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Parameters.md) there is presented a solution to save changed and deleted files in a selected backup location.
+What about **revisions and deleted** files? In the [parameters to rsync](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Parameters.md) there is presented a solution by parameters to rsync, to save changed and deleted files in a selected backup location.
 
 
 ## Where does RsyncOSX save configuration files?
 
-RsyncOSX configuration file, log file, scheduled tasks file and userconfiguration are plain XML-files ([property list files](https://en.wikipedia.org/wiki/Property_list)). Configuration files (backup and restore task configurations and schedule data) are saved in:
+RsyncOSX configuration file, log file, scheduled tasks file and user configuration are plain XML-files ([property list files](https://en.wikipedia.org/wiki/Property_list)). Configuration files (backup and restore task configurations and schedule data) are saved in:
 
 - `~/Documents/Rsync/MacID/configRsync.plist`
-  - `**~/**` is user home directory
+  - `~/` is user home directory
   - `MacID` is the Mac Serial Number and is automatically set by RsyncOSX
 
 When _profile_ is used:
@@ -36,7 +36,7 @@ When _profile_ is used:
 
 ## Why use RsyncOSX?
 
-There is only one simple answer to the question and it is "[rsync](https://en.wikipedia.org/wiki/Rsync)". Rsync is a rock solid, well proven, secure, fast, reliable and wide accessibility across platforms command line tool. RsyncOSX is just a GUI for executing rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
+There is only one simple answer to the question and the answer is "[rsync](https://en.wikipedia.org/wiki/Rsync)". Rsync is a _rock solid_, _well proven_, _secure_, _fast_, _reliable_ and _wide accessibility_ across platforms command line tool. RsyncOSX is just a GUI for executing rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
 
 The following features are implemented in RsyncOSX:
 
@@ -64,7 +64,7 @@ The following features are implemented in RsyncOSX:
 
 ## RsyncOSX is not suitable to all users
 
-The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to _low cost remote server_ and assist me to keep my _two Macbook desktops in sync_. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private/public key based ssh password-less logins. Some basic understanding of the command-line tool rsync is also recommended.
+The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to _low cost remote server_ and assist me to keep my _two MacBook desktops in sync_. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private/public key based ssh password-less logins. Some basic understanding of the command-line tool rsync is also recommended.
 
 Any user just looking for an easy to use backup tool is advised to use other and probably more suitable tools than RsyncOSX. To fully understand and use RsyncOSX I recommend the following:
 
