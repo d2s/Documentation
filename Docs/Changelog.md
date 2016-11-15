@@ -1,33 +1,32 @@
 ## Changelog
 
-The main objective now is to get the application as stable as possible. Clean up of code and bugfixes are always an issue. I am using the application on a daily basis and it evolves during my own use. Any suggestions for new features, changed features and bug reports are more than welcome.
+The main objective now is to get the application as stable as possible. Clean up of code and bug fixes are always an issue. I am using the application on a daily basis and it evolves during my own use. Any suggestions for new features, changed features and bug reports are more than welcome.
 
 
 ## Source code
 
-Why release the code? Why not? The code is NOT example of neither writing decent Swift code, OO-development or applying the MVC-pattern. It all started as a project to learn Swift and I am still learning, every day. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
+Why release the code? Why not? The code is **not** example of neither writing decent Swift code, OO-development or applying the MVC-pattern. It all started as a project to learn Swift and I am still learning, every day. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
 
-- [master](https://github.com/rsyncOSX/Version3.x/tree/master) for released version on github
+- [master](https://github.com/rsyncOSX/Version3.x/tree/master) for released version on GitHub
 
 
 ## Comments about use of RsyncOSX
 
-RsyncOSX is downloaded about 5,000 times from Macupdate and probably some times directly from this blog. I have no clue about how many uses RsyncOSX on a regularly basis and information about bugs discovered by users (I expect other users discovers bugs as well). There are no request for adding features, removing features as well. I would very much appreciate any comments from users about whatever regarding use of RsyncOSX, e-mails about bugs and suggestion for new features. Please drop me an e-mail on
+RsyncOSX is downloaded more than 5,500 times from Macupdate and probably some times directly from this blog. I have no clue about how many uses RsyncOSX on a regularly basis and information about bugs discovered by users (I expect other users discovers bugs as well). There are no request for adding features, removing features as well. I would very much appreciate any comments from users about whatever regarding use of RsyncOSX, e-mails about bugs and suggestion for new features. Please drop me an e-mail on
 
 - thomas.tilbakemelding@gmail.com
 - or add an [Issue](https://github.com/rsyncOSX/Version3.x/issues)
 
-The e-mail is for reading only. I will NOT share any e-mails nor e-mail addresses sent to this address. And I will NOT spam, only read. Any feedback will be a motivation for me to continue develop RsyncOSX.
+The e-mail is for reading only. I will **not share** nor **spam** any e-mails nor e-mail addresses sent to this address. Any feedback will be a motivation for me to continue develop RsyncOSX.
 
 
-## Version 3.6.1 rc
+## Version 3.6.1
 
-- version 3.6.0 rc was merged into master and new branch **v3.6.1 rc** created from **master**, version 3.6.1 will be released as soon it is considered stable (feature freeze)
-- new image of latetest code is uploaded as [Version 3.6.0 release candidate](https://github.com/rsyncOSX/Version3.x/releases/tag/v3.6.0rc)
+- released 15 November 2016
 - [logs part](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Logging.md) is changed, text search for **remote server**, **local catalog** or **executed date/time**
 - there is a bug in deleting ssh-port - **fixed**
 - there is a bug in enabling Profiles menu when RsyncOSX is started on a Mac for the first time (Profiles menu is not enabled) - **fixed**
-- sometimes output from rsync is set to **nil** (in RsyncOSX), doing a unwrap of nil value causes RsyncOSX to crash - **fixed**
+- sometimes output from rsync is set to **nil** (in RsyncOSX), doing an unwrap of nil value causes RsyncOSX to crash - **fixed**
 
 
 ## Version 3.5.5
@@ -44,18 +43,18 @@ The e-mail is for reading only. I will NOT share any e-mails nor e-mail addresse
 - new image updated **2 November 2016** : added check for optional version and path of rsync
 - new image updated **1 November 2016** : "moved" GUI updates in background (Scheduled operations) to main thread - making RsyncOSX unstable if not - throwing "CoreAnimation: warning, deleted thread with uncommitted CATransaction" if not
 - **caution** : a bug in Scheduled jobs caused version 3.5.1 released 30 October 2016 to crash - a new image of version 3.5.1 uploaded late 30 October 2016.
-- relased 30 October 2016
-- fixed a bug in version 3.5.0 deleting/stopping schedules causing a nil pointer exeption and crash
+- released 30 October 2016
+- fixed a bug in version 3.5.0 deleting/stopping schedules causing a nil pointer exception and crash
   - bug was "introduced" when compiling RsyncOSX with latest release version 8.1 of Xcode
 - notify new versions of RsyncOSX by delegate
 - mainly a maintenance release, some bigger internal changes and some GUI tweaks
 - RsyncOSX is more stable than ever
-  - replaced states by work queu (using states get complex even with a few states)
+  - replaced states by work queue (using states get complex even with a few states)
   - I am learning Swift every day and [refactor code](https://en.wikipedia.org/wiki/Code_refactoring) is important
 - code ([master](https://github.com/rsyncOSX/Version3.x/tree/master)) at Github is updated with last commits
 - added double click for executing single task and select profile
   - double click first time executes a dry run, another double click after dryrun executes the real task
-  - enable/disable double click in userconfiguration
+  - enable/disable double click in user configuration
 
 
 ## Version 3.4.1
@@ -73,9 +72,9 @@ The e-mail is for reading only. I will NOT share any e-mails nor e-mail addresse
 - some minor internal cleanup and fixes, adjusted Copy Files view
 - added abort in Copy Files (terminates search process)
 - in logs view selecting row selects logs for selected remote server
-- removed testmode in RsyncOSX - replaced by profiles
-- userconfiguration available from Main tab, Add tab and Schedule tab
-- in main tab when rsync is changed in userconfiguration, if row is selected rsync command in view is updated
+- removed test mode in RsyncOSX - replaced by profiles
+- user configuration available from Main tab, Add tab and Schedule tab
+- in main tab when rsync is changed in user configuration, if row is selected rsync command in view is updated
 - counting of files and directories from rsync output is more robust, only version 3.x of rsync counting directories remote
 
 
@@ -86,7 +85,7 @@ The e-mail is for reading only. I will NOT share any e-mails nor e-mail addresse
 - fixed a bug not saving path for other version of rsync
 - added backup in rsync parameters
   - changed files are moved to backup location (default ../backup) and appended a timestamp before updated files are transferred from source to destination
-  - usefull when saving versions of e.g. documents
+  - useful when saving versions of e.g. documents
 - fixed a memory leak in scheduling of tasks
   - after the last release 4 Oct 2016 it seems that there are no memory leaks (at least the graphic memory debugger in Xcode reports no leaks as well as the Xcode instrument Memory Leaks)
 
@@ -105,14 +104,14 @@ The e-mail is for reading only. I will NOT share any e-mails nor e-mail addresse
 - updated 22 Sept (released 20 Sept 2016)
 - scheduling of tasks
 - added (22 Sept 2016) adding local volumes by graphical window or drag and drop from Finder
-- a few minor bugfixes (22 Sept 2016)
+- a few minor bug fixes (22 Sept 2016)
 
 
 ## Version 3.0.5
 
 - updated 15 Sept 2016
 - copy of single files or catalogs from remote storage
-  - doing a restore requiere to press the Estimate button twice, once for a --dry-run (estimate) and the the real run (execute)
+  - doing a restore require to press the Estimate button twice, once for a -- dry-run (estimate) and the the real run (execute)
 - some visual enhancements
 - Scheduling of tasks is **not yet** included in this version (will be in version 3.1.0)
   - tasks might be scheduled in version 3.0.5 but not executed
@@ -136,7 +135,7 @@ What is **NOT** implemented in version 3.0
 
 ## Changelog prior version 3.0.0
 
-Changelog prior to version 3.0.0 is deleted. The inital release was 14 March 2016 and code is rewritten since the initial release.
+Changelog prior to version 3.0.0 is deleted. The initial release was 14 March 2016 and code is rewritten since the initial release.
 
 
 ## Version 0.5 beta

@@ -3,7 +3,7 @@
 
 RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 
-- **backup** (and restore) of local files on Mac to **remote servers** connected to **Internet** or **local network**
+- **backup** (and restore) of local files on Mac to **remote servers** connected to **Internet** or **local network** 
 	- the above is why I wrote RsyncOSX to use myself
 - backup (and restore) local files on Mac to local storage (attached disks)
 	- if this is *the only use* there might be *other tools* more useful than RsyncOSX
@@ -14,10 +14,10 @@ I have uploaded a short (about 4 minutes) [YouTube video of RsyncOSX](https://ww
 
 ## Download link and install
 
-RsyncOSX is released in version 3.5.5 (updated 14 November 2016).
+RsyncOSX is released in version 3.6.1 (updated 15 November 2016).
 
 - [download](https://dl.dropboxusercontent.com/u/52503631/RsyncOSX.dmg) latest version of RsyncOSX
-- shasum :d234328d16e4cd328a3a02b7e637b851583e184b
+- shasum : d1afb5b52d78a146c8c9ce7f6c1aca1d4aa12b1f
 - see the [Changelog](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Changelog.md) for info
 
 <code>/usr/bin/shasum ~/PathToDownload/RsyncOSX.dmg</code> to verify hash
