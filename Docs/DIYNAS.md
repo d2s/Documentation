@@ -1,6 +1,6 @@
 ## My DIY NAS
 
-This page is a short resume about my DIY (do it yourself) [NAS](https://en.wikipedia.org/wiki/Network-attached_storage). For some time I have wanted to upgrade the old NAS (from 2010). A server crash in October 2016 forced me to upgrade, both the OS and HW platform. But an upgrade of the hardware can quickly become a challenge if the OS does not include drivers for new hardware.
+This page is a short resume about my DIY (do it yourself) [NAS](https://en.wikipedia.org/wiki/Network-attached_storage). For some time I have wanted to upgrade the old NAS (from 2010). A server crash in October 2016 forced me to upgrade, both the OS and HW platform. But an upgrade of the hardware can quickly become a challenge if the OS does not support the hardware.
 
 I do not spend much time building or maintaining my NAS. The main purpose of my NAS is:
 
