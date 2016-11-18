@@ -1,36 +1,40 @@
 ## My DIY NAS
 
-This page is a short resume about my DIY (do it yourself) [NAS](https://en.wikipedia.org/wiki/Network-attached_storage). For some time I have wanted to upgrade the old NAS (from 2010). A server crash in October 2016 forced me to upgrade, both the OS and HW platform. But an upgrade of the hardware can quickly become a challenge if the OS does not support the hardware.
+This page is a short resume about my DIY (do it yourself) [NAS](https://en.wikipedia.org/wiki/Network-attached_storage). For some time I have wanted to upgrade the old NAS (from 2010). A server crash in October 2016 forced me to commence an upgrade both the OS and HW platform. Upgrade of the hardware can quickly become a challenge if the OS does not support the hardware. And some of the OS I tried out did not support my HW.
 
-I do not spend much time building or maintaining my NAS. The main purpose of my NAS is:
+I do not spend much time building or maintaining my NAS. The main purposes of my NAS are:
 
 - storing backup of my files
-- and share out disk (by SMB/CIFS and AFP)
+- and share out disk (by SMB/CIFS and/or AFP)
 
-My knowledge about computer hardware is very limited. The hardware in new NAS is more or less selected by advices from the computer store. The most important objective is to get hardware which is supported by the OS. The form factor of the cabinet also narrows the possibilities. The hardware in my NAS is probably not the best solution. But it works (finally). For me, backup is very important. And do backup to several locations.
+My knowledge about computer hardware is very limited. The hardware in new NAS is more or less selected by advices from the computer store. The most important objective is to get hardware which is supported by the OS. The form factor of the motherboard also narrows the possibilities. I want a small NAS and decided to go for a [mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard.  The hardware in my NAS is probably not the best solution. But it works (finally).
 
+For me, backup is very important. And do backup to several locations and keep the backup in the different locations synchronised. Not loosing data is the obvious reason for doing backup. There are several ways to "loose" data. Disk crash is one. Highjacking by ransomware another. A **restore** of data is a cheap solution if either of the them occurs.
 
 ## Encrypt sensitive information
 
-I am also aware of not storing personal and sensitive information at remote locations. There are several solutions for that problem. One is creating a secure folder or volume. More or less any OS supports [encrypted file systems](https://en.wikipedia.org/wiki/Filesystem-level_encryption) today. Another solution is to encrypt files containing personal and sensitive information (as tax reports). I am encrypting files by using [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard). I also encrypt files containing sensitive information in case my MacBook is highjacked or compromised (hopefully not likely to happen due to precautions).
+I am also observant of not storing personal and sensitive information at remote locations. There are several solutions to encrypt data. One is creating a secure folder or volume. Almost all OS supports [encrypted file systems](https://en.wikipedia.org/wiki/Filesystem-level_encryption) today. Another is to encrypt files containing personal and sensitive information (as tax reports). I am using the last one and encrypt files by using [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard). I also encrypt files containing sensitive information in case my MacBook is **compromised** (hopefully not likely to happen due to precautions).
 
 I have **not** tested rsync on encrypted folders or volumes. I am quite sure it works, but I do not know how effective rsync is when there are changes within the encrypted folder or volume.
 
 
 ## Replace Oracle Solaris as NAS SW?
 
-Until recently I have only used the trial version of Oracle Solaris 11.3. There are no updates and bug fixes for the trial version. Receiving updates and bug fixes cost money. That is the main reason for choosing other OS for my NAS. There are two options : either go for a special NAS SW (as NAS4Free or FreeNAS) or use stock OS (as FreeBSD 11 or Ubuntu 16.10).
+Until recently I have only used the trial version of Oracle Solaris 11.3. There are no updates and bug fixes for the trial version. Receiving updates and bug fixes cost money. There are several options for installing NAS by using free and open source SW. That is the main reason for choosing other OS for my NAS. There are two options :
 
-After some testing of [FreeBSD 11](https://www.freebsd.org/), [NAS4free](http://www.nas4free.org/) and [FreeNAS](http://www.freenas.org/) I have decided to go for NAS4free. I did not try Ubuntu 16.10\. The decision to go for NAS4free is not scientific. I have two requirements for my NAS : ZFS and minimal effort to setup and use. And of course stability. There are also other NAS solutions but they are not built around ZFS.
+- either go for a special NAS SW (as NAS4Free or FreeNAS) 
+- or use stock OS (as FreeBSD 11 or Ubuntu 16.10).
+
+After some testing of [FreeBSD 11](https://www.freebsd.org/), [NAS4free](http://www.nas4free.org/) and [FreeNAS](http://www.freenas.org/) I have decided to go for NAS4free. I did not try Ubuntu 16.10\. The decision to go for NAS4free is not scientific. I have two requirements for my NAS : ZFS and minimal effort to setup and use. And of course stability. There are other NAS solutions but they do not support ZFS.
 
 ### Other OS options
 
-Other possible OS options are:
+Other possible OS options supporting ZFS are:
 
 - [OmniOS](https://omnios.omniti.com/) (recommended by [napp-it.org](http://napp-it.org/))
 - [OpenIndiana Hipster](http://www.openindiana.org/) 
 
-Both OS booted into single user mode (due to not sufficient HW driver support). Any further testing stopped due to missing driver support.
+Both OS booted into single user mode (due to missing support of HW). And that was an effective stop of further testing.
 
 ## Why NAS4free?
 
