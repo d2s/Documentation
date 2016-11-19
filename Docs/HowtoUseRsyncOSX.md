@@ -1,8 +1,3 @@
-## How to use RsyncOSX
-
-This page is how to use RsyncOSX. It starts with the main view and is a walkthrough of adding a configuration and how to use it. **This pages are under construction.** It will be under construction for some time.
-
-
 ## Important notes about rsync and RsyncOSX
 
 RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
@@ -49,7 +44,7 @@ The following features are implemented in RsyncOSX:
   - if you want tasks to be executed in one go mark them for batch
 - adding **new tasks** either by drag and drop (for local volumes) or by GUI
 - **user configuration**
-  - the user can select another version of rsync
+  - the user can select other versions of rsync
 - **abort** single- and batch tasks
 - **rsync parameters**
   - the user can add parameters to rsync
@@ -64,20 +59,20 @@ The following features are implemented in RsyncOSX:
 
 ## RsyncOSX is not suitable to all users
 
-The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to _low cost remote server_ and assist me to keep my _two MacBook desktops in sync_. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private/public key based ssh password-less logins. Some basic understanding of the command-line tool rsync is also recommended.
+The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to _low cost remote server_ and assist me to keep my _two MacBook desktops in sync_. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private/public key based ssh password-less login. Some basic understanding of the command-line tool rsync is also recommended.
 
 Any user just looking for an easy to use backup tool is advised to use other and probably more suitable tools than RsyncOSX. To fully understand and use RsyncOSX I recommend the following:
 
 - you have some understanding of the command-line tool rsync
 - you have some knowledge about running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS
-- you are able to [setup a ssh password-less login](https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md) between the Mac and remote server
+- you are able to [setup a ssh password-less login](https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md) between the Mac and the remote server
 
 
 ## The main opening view
 
-The main opening screen is below. All configurations to execute are listed in table. From this screen all actions regarding configurations is executed. The documentation is presented in sequence of how to add and use new configurations into RsyncOSX.
+The main opening screen is below. All configurations to execute are listed in table. From this screen all actions (edit configurations, adding rsync parameters, delete configurations) regarding configurations is executed.
 
-There are two labels on top of table : Profile and Double click: YES. Configurations can be saved in user selected profiles. The profile in use is shown in label. Double click:YES (or NO) either allow or dont allow executing single tasks by double click on row. Disable/enable in Configuration.
+There are two labels on top of table : **Profile** and **Double click: YES**. Configurations can be saved in user selected profiles. The profile in use is shown in label. Double click:YES (or NO) either allow or dont allow executing single tasks by double click on row. Disable/enable in Configuration.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-9e82zjXi_q4/WBQnQ425ysI/AAAAAAAAL7E/t--57C8ZzPMIgcRn02YTnrWx8jAv35oXgCLcB/s1600/Screen%2BShot%2B2016-10-29%2Bat%2B06.35.31.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://3.bp.blogspot.com/-9e82zjXi_q4/WBQnQ425ysI/AAAAAAAAL7E/t--57C8ZzPMIgcRn02YTnrWx8jAv35oXgCLcB/s640/Screen%2BShot%2B2016-10-29%2Bat%2B06.35.31.png" width="640" /></a></td></tr>
@@ -92,7 +87,7 @@ RsyncOSX uses profiles. If not used all configurations are saved in the default 
 - new profile (name of new profile must be set in "New profile name:")
 - delete profile
 
-Selecting the "Default" button selects the default profile. Double click on a profile name selects the profile.
+Selecting the "Default" button selects the default profile. Double click on a profile name to select the profile.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-ZI3Wb7tQd5o/WBQnQ-ibGHI/AAAAAAAAL7A/XG1Du4gcLi8Pi3dlZNzzSCJOEFoMiZ_KQCLcB/s1600/Screen%2BShot%2B2016-10-29%2Bat%2B06.35.46.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://1.bp.blogspot.com/-ZI3Wb7tQd5o/WBQnQ-ibGHI/AAAAAAAAL7A/XG1Du4gcLi8Pi3dlZNzzSCJOEFoMiZ_KQCLcB/s640/Screen%2BShot%2B2016-10-29%2Bat%2B06.35.46.png" width="640" /></a></td></tr>
