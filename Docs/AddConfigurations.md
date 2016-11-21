@@ -35,13 +35,13 @@ Local catalog and Remote catalog (if not on remote server) is added either by us
 
 The screen below is all information about my configuration for a virtual FreeBSD instance running on my Macbook Pro.
 
-- **Local catalog**: - `path for my RsyncOSX src` (as an example)
-- **Remote catalog**: - `~/src/RsyncOSX` is the home catalog for user thomas (the ~ is expanded as the home catalog with full path by the remote operating system), the remote catalog might also be added by full path (/home/thomas/src/RsyncOSX)
+- **Local catalog**: - `/Users/rsyncosx/RsyncOSX/src` - src catalog RsyncOSX
+- **Remote catalog**: - `~/src/RsyncOSX` - the home catalog for user thomas. The `~` is expanded as the home catalog with full path by the remote operating system. The remote catalog might also be added by full path (`/home/thomas/src/RsyncOSX`)
 - **Remote username**: - `thomas`
-- **Remote server**: - either name or IP-adress, `127.0.0.1` is the IP-adress for the virtual FreeBSD instance
-- **ssh port**: - if ssh communicates through other than standard port 22 it must be set here. In Virtualbox I have set up a port forwarding through port `3022` -> Virtualbox port 22.
-- **ID** informal tag for the configuration
-- **rsync daemon**: - setting this puts a double colon :: in address parameter to rsync. It forces rsync to use the rsync daemon remote which takes some more setup. I am not using it myself.
+- **Remote server**: - `127.0.0.1` either name or IP-adress, `127.0.0.1` the IP-adress for the virtual FreeBSD instance
+- **ssh port**: - `3022` if ssh communicates through other than standard port 22 it must be set here. In Virtualbox I have set up a port forwarding through port `3022` -> Virtualbox port 22.
+- **ID** `informal tag` for the configuration
+- **rsync daemon**: - setting this puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote which takes some more setup. I am not using it myself.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
