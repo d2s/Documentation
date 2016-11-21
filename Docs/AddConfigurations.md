@@ -47,19 +47,19 @@ The screen below is all information about my configuration for a virtual FreeBSD
 <tbody>
 <tr><td style="text-align: center;">
 <a href="https://2.bp.blogspot.com/-gi2FYh-_LBY/WAmhiEf5ZrI/AAAAAAAAL5M/q592yuxR-QIxu9c2ES9RctnCHQClwlowgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.16.23.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://2.bp.blogspot.com/-gi2FYh-_LBY/WAmhiEf5ZrI/AAAAAAAAL5M/q592yuxR-QIxu9c2ES9RctnCHQClwlowgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.16.23.png" width="640" /></a></td></tr>
-<tr><td class="tr-caption" style="text-align: center;">Information about configuration for a Virtual machine</td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Configuration for backup to a Virtual machine executing on my Mac</td></tr>
 </tbody>
 </table>
 
 
 ### The Add button
 
-Select the Add button when completed and configurations are added to RsyncOSX. RsyncOSX adds a `/` character to both local and remote volume. Both the **backup** and **restore** part are added when saving new configurations. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the main view (Execute tab).
+Select the `Add` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume (if the `Single file` is not on). Both the **backup** and **restore** part are added when saving new configurations. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the main view (Execute tab).
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
 <tr><td style="text-align: center;">
 <a href="https://4.bp.blogspot.com/-EeBIBxlJE0s/WAmhiWeeGDI/AAAAAAAAL5Q/__WJIgbs2bYVcqqLby79vgC4niFvkGy2gCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.16.46.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://4.bp.blogspot.com/-EeBIBxlJE0s/WAmhiWeeGDI/AAAAAAAAL5Q/__WJIgbs2bYVcqqLby79vgC4niFvkGy2gCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.16.46.png" width="640" /></a></td></tr>
-<tr><td class="tr-caption" style="text-align: center;">Select the Add button to add configurations. Any changes to configurations from Execute view.</td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Select the Add button to add configurations</td></tr>
 </tbody>
 </table>
