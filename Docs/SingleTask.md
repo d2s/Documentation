@@ -9,13 +9,13 @@ There are three options for editing after selecting a task in row :
 - **Delete task**
 
 
-For Parameters see below. After selecting a row choosing one of the above pops up a new view according to selection. Selecting Edit task for editing basic information about task. Selecting Delete task deletes the selected row (task).
+For Parameters see below. After selecting a row choosing one of the above pops up a new view according to selection. Select `Edit` task to editing basic information about task. Select `Delete` task to delete the selected row (task).
 
-There are some status fields in the view :
+There are _some status_ fields in the view :
 
-- **Estimate** - text is either "Estimate" or "Execute" - valid for single tasks only
-	- "Estimate" - selecting Execute does a --dry-run
-	- "Execute" - selecting Execute does the real job (backup or restore)
+- **Estimate** - text is either _Estimate_ or _Execute_ - valid for single tasks only
+	- "Estimate" - select `Execute` or a double click om row does a --dry-run
+	- "Execute" - select `Execute` or a double click on row  does the real job (backup or restore)
 - **Scheduled job** - a progress bar shows when a scheduled job is executing
 - **Information** - if checked a drop down view is presented after each run - valid for single tasks only
 - **Estimating** - a progress bar shows when a --dry-run (or estimate) is executing 
@@ -24,12 +24,12 @@ Both "backup" and "restore" path is set when saving configuration.
 
 ## Execute single tasks
 
-Execute single tasks is a **two step** operation, one for **estimation** (dry-run) and one for the **real task**. If the Information button is ticked on a popup view is automatically presented after both tasks.Single tasks can be executed either by selecting the Execute button or (if enabled) double click on the selected task. Both methods is a two step operation.
+Execute single tasks is a **two step** operation, one for **estimation** (dry-run) and one for the **real task**. If the `Information` button is ticked on a popup view is automatically presented after both tasks.Single tasks can be executed either by selecting the `Execute` button or a (if enabled) double click on the selected task. Both methods is a two step operation.
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
 <tr><td style="text-align: center;">
 <a href="https://2.bp.blogspot.com/-LTOFBw_xhOE/WAmhj5hGMVI/AAAAAAAAL6Y/xXWeO9_fF9QKvWEcTfntmIbYRS_ONI-bwCEw/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.22.32.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-LTOFBw_xhOE/WAmhj5hGMVI/AAAAAAAAL6Y/xXWeO9_fF9QKvWEcTfntmIbYRS_ONI-bwCEw/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.22.32.png" width="640" /></a></td></tr>
-<tr><td class="tr-caption" style="text-align: center;">Select and double click to  estimate (or select the Execute button).</td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Select and double click to  estimate (or select the `Execute` button).</td></tr>
 </tbody>
 </table>
 </div>
