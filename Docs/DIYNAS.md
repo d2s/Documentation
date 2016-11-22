@@ -48,7 +48,7 @@ I dropped testing of Ubuntu 16.10 due to reasons as for FreeBSD 11.
 
 I installed **NAS4free** and imported zpools created in FreeBSD. After installation I used about *one hour* to get it up and running. The GUI in NAS4free is easy, intuitive and nice to use. The current stable version of NAS4Free is based upon FreeBSD 10.3 and last release of NAS4Free was Oct 2016.
 
-I have installed the latest beta of NAS4free (Beta 11.0.0.3.3110) which is based on FreeBSD 11 (11.0-RELEASE-p3).
+I have installed the latest release of NAS4free (version 11.0.0.4.3252 released 20 nov 2016) which is based on FreeBSD 11 (11.0-RELEASE-p3).
 
 My NAS4Free based NAS is now setup to do the following:
 
