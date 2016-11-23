@@ -14,10 +14,10 @@ I have uploaded a short (about 4 minutes) [YouTube video of RsyncOSX](https://ww
 
 ## Download link and install
 
-RsyncOSX is released in version 3.6.1 (updated 15 November 2016).
+RsyncOSX is released in version 3.6.5 (updated 23 November 2016).
 
 - [download](https://dl.dropboxusercontent.com/u/52503631/RsyncOSX.dmg) latest version of RsyncOSX
-- shasum : d1afb5b52d78a146c8c9ce7f6c1aca1d4aa12b1f
+- shasum : fbe75fbb18e78afce17f67f6828c14724f306627
 - see the [Changelog](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Changelog.md) for info
 
 <code>/usr/bin/shasum ~/PathToDownload/RsyncOSX.dmg</code> to verify hash

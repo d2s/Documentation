@@ -19,13 +19,15 @@ RsyncOSX is downloaded more than 5,500 times from Macupdate and probably some ti
 
 The e-mail is for reading only. I will **not share** nor **spam** any e-mails or e-mail addresses sent to this address.
 
-## Version 3.6.5 release candidate
-- release candidate (is updated now and then when bugs are discovered)
-- updated **20 November 2016**
+## Version 3.6.5
+
+- released 23 November 2016
+	- this will be the last release for some time (this year)
+	- there are not any known issues or request for new features
+	- I will continue develop RsyncOSX in 2017, there are some internal parts which should be refactored
 - new About view (links to docs, changelog and check for new versions)
 - fixed a bug in Edit configurations (reset values when new configuration is loaded)
 - some minor cleanup of code
-- download [release candidate](https://github.com/rsyncOSX/Version3.x/releases)
 
 ## Version 3.6.1
 
