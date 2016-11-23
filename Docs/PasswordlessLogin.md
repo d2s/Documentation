@@ -49,11 +49,11 @@ My knowledge of crypto is very limited. The parameter **-t rsa** creates one key
 
 **Step 3**;: copy through ssh the public key from the Mac `.ssh` directory to the server.
 
-`Mac$ cat ~/.ssh/id_dsa.pub | ssh user@server.com "cat .ssh/authorized\_keys2"`
+`Mac$ cat ~/.ssh/id_dsa.pub | ssh user@server.com "cat .ssh/authorized_keys2"`
 
 **Step 4**: login in to `user@server.com` and set the correct permissions for the `.ssh` catalog and `authorized_keys2` file.
 
-`Mac$ ssh user@server.com; cd; chmod 700 .ssh; chmod 600 .ssh/authorized\_keys2; exit;`
+`Mac$ ssh user@server.com; cd; chmod 700 .ssh; chmod 600 .ssh/authorized_keys2; exit;`
 
 **Step 5**: test login from Mac, password is not required.
 
