@@ -1,6 +1,6 @@
 ## Parameters to rsync
 
-The parameters in picture (below) instructs rsync to save changed files in catalog `../backup` (relativ to destination catalog) and **suffix** the backup file with timestamps. The above is enabled or disabled by select or deselect the `backup` button. The user might change the backup catalog. Default is `../backup`.
+The parameters in picture (below) instructs rsync to save changed files in catalog `../backup` (relativ to destination catalog) and **suffix** the backup file with timestamps. The above is enabled or disabled by select the `backup` button. The user might change the backup catalog. The backup catalog can either be absolute path or relative path. Default backup catalog is `../backup`.
 
 Rsync utilises a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
@@ -9,20 +9,25 @@ Rsync utilises a ton of parameters. RsyncOSX has only presented a few. Parameter
 - `parameter` 
 	- (sample `--stats`, `--dry-run`) 
 
+### RsyncOSX passing parameters to rsync
+
 The user can set own parameters by using `select` in dropdown menu. Preset parameters are:
 
 - `select` - user selected parameter
 	- RsyncOSX passes whatever set by user to rsync, parameters must be either `parameter=value` or `parameter`
 - `--stats` - produces some more statistics
-	- is forced on in dry-ryn to collect info about run
-- `--backup` - instructs rsync to do backup of changed files
-- `--backup-dir` - where to store changed or deleted files before rsync synhronise source and destination
+	- parameter is forced on in dry-ryn to collect info about run
+- `--backup` - instructs rsync to backup changed files
+- `--backup-dir` - where to store changed or deleted files before rsync syncronise source and destination
 - `--exclude-from` - path to file which stores file patterns to **exclude** from rsync backup
 - `--include-from` - path to file which store file patterns to **include** from rsync backup 
 - `--files-from` - path to file which store what to backup
 - `--max-size` - set max size of files to backup
-- `--suffix` - set suffix on files 
-- `delete` - delete the parameter 
+	- sample `--max-size=5MB` 
+- `--suffix` - set suffix on files
+	- sample `_$(date +%Y-%m-%d.%H.%M)` see last picture for result
+- `delete` - delete the parameter
+	- deletes the parameter when `OK` button is selected 
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-mFUGksTyUAA/WAmhilxPsnI/AAAAAAAAL5Y/s9lXbqBNRnkCTS1WPyjHmafFJAyNYF8qACLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.32.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://1.bp.blogspot.com/-mFUGksTyUAA/WAmhilxPsnI/AAAAAAAAL5Y/s9lXbqBNRnkCTS1WPyjHmafFJAyNYF8qACLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.32.png" width="640" /></a></td></tr>
