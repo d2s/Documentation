@@ -13,6 +13,7 @@ The following are documents about RsyncOSX. The **first** document is how to get
   - Parameters to [rsync](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Parameters.md).
   - Some info about [user configuration](https://github.com/rsyncOSX/Documentation/blob/master/Docs/UserConfiguration.md).
 - The [RsyncOSX Changelog](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Changelog.md).
+- Some more info about standard [parameters to rsync](https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncParameters.md).
 
 ## YouTube
 
@@ -23,6 +24,5 @@ I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www
 There are a few other documents in context of RsyncOSX. To enable remote storage of backups please read **how to enable passwordless logins**. Rsync utilises parameters. RsyncOSX can send extra (set by user) parameters to rsync.
 
 - How to enable [passwordless logins](https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md) (required for using RsyncOSX with remote servers).
-- Some more info about [parameters to rsync](https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncParameters.md).
 - My [DIY NAS](https://github.com/rsyncOSX/Documentation/blob/master/Docs/DIYNAS.md).
 - The [idea](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Idea.md) behind RsyncOSX.

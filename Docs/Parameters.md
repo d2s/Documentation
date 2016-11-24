@@ -2,6 +2,8 @@
 
 The parameters in picture (below) instructs rsync to save changed files in catalog `../backup` (relativ to destination catalog) and **suffix** the backup file with timestamps. The above is enabled or disabled by select the `backup` button. The user might change the backup catalog. The backup catalog can either be absolute path or relative path. Default backup catalog is `../backup`.
 
+See also the [standard parameters](https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncParameters.md) to rsync.
+
 Rsync utilises a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
 - `parameter=value` 
