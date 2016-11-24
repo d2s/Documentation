@@ -2,11 +2,11 @@
 
 Detailed logging in RsyncOSX might be switched on/off in userconfiguration. It is only <b>backup</b> tasks which are logged. All logdata is by default listed in table within Logs view (sorted by date). Logdata can be <i>filtered</i> by textsearch in:
 
-<ul>
-<li>Server (remote server)</li>
-<li>Catalog (local catalog)</li>
-<li>Date</li>
-</ul>
+
+- **Server** (remote server)
+- **Catalog** (local catalog)
+- **Date**
+
 
 If a row is selected logdate is filtered by one of the three above depended upon which radiobutton is on. 
 
@@ -38,6 +38,7 @@ If a row is selected logdata is filtered by server name (full name or IP-adress)
 <tr><td class="tr-caption" style="text-align: center;">Remote file or catalog is selected and restore point is set.</td></tr>
 </tbody>
 </table>
+
 To list all logdata again press the cancel within search field.
 
 ### Catalog
