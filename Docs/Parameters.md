@@ -1,11 +1,20 @@
 ## Parameters to rsync
 
-The parameters in picture instructs rsync to save changed files in catalog `../backup` (relativ to destination catalog) and suffix the backup file with timestamps. The above is enabled or disabled by select or deselect the `backup` button. The user might change the backup catalog. Default is `../backup`.
+The parameters in picture (below) instructs rsync to save changed files in catalog `../backup` (relativ to destination catalog) and **suffix** the backup file with timestamps. The above is enabled or disabled by select or deselect the `backup` button. The user might change the backup catalog. Default is `../backup`.
 
-To set own parameters use `select`. Preset parameters are:
+Rsync utilises a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
-- `select` - user selected parameter, RsyncOSX passes whatever set by user to rsync
-- `--stats` - produces some more statistics (is forced on in dry-ryn to collect info about run)
+- `parameter=value` 
+	- (sample `--exclude-from=/Volumes/Users/thomas/Pictures/exclude-list.txt`)
+- `parameter` 
+	- (sample `--stats`, `--dry-run`) 
+
+The user can set own parameters by using `select` in dropdown menu. Preset parameters are:
+
+- `select` - user selected parameter
+	- RsyncOSX passes whatever set by user to rsync, parameters must be either `parameter=value` or `parameter`
+- `--stats` - produces some more statistics
+	- is forced on in dry-ryn to collect info about run
 - `--backup` - instructs rsync to do backup of changed files
 - `--backup-dir` - where to store changed or deleted files before rsync synhronise source and destination
 - `--exclude-from` - path to file which stores file patterns to **exclude** from rsync backup
