@@ -1,29 +1,21 @@
 ## Changelog
 
-The main objective now is to get the application as stable as possible. Clean up of code and bug fixes are always an issue. I am using the application on a daily basis and it evolves during my own use. Any suggestions for new features, changed features and bug reports are more than welcome.
-
-
-## Source code
-
-Why release the code? Why not? The code is **not** example of neither writing decent Swift code, OO-development or applying the MVC-pattern. It all started as a project to learn Swift and I am still learning, every day. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
-
-- [master](https://github.com/rsyncOSX/Version3.x/tree/master) for released version on GitHub
-
-
-## Comments about use of RsyncOSX
-
-RsyncOSX is downloaded more than 5,500 times from Macupdate and probably some times directly from this blog. I have no clue about how many uses RsyncOSX on a regularly basis and information about bugs discovered by users (I expect other users discovers bugs as well). There are no request for adding features, removing features as well. I would very much appreciate any comments from users about whatever regarding use of RsyncOSX, e-mails about bugs and suggestion for new features. Please drop me an e-mail on
+I am using the application on a daily basis and it evolves during my own use. Any suggestions for new _features_, _changed features_ and _bug reports_ are more than welcome. Please drop me an e-mail on
 
 - thomas.tilbakemelding@gmail.com
 - or add an [Issue](https://github.com/rsyncOSX/Version3.x/issues)
 
 The e-mail is for reading only. I will **not share** nor **spam** any e-mails or e-mail addresses sent to this address.
 
+## Source code
+
+The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn Swift and I am still learning, every day. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
+
 ## Version 3.6.5
 
-- released 23 November 2016
-	- this will be the last release for some time (this year)
-	- there are not any known issues or request for new features
+- released **23 November 2016**
+	- this will be the last release for some time (most likly last release this year)
+	- there are no known issues or request for new features
 	- I will continue develop RsyncOSX in 2017, there are some internal parts which should be refactored
 - new About view (links to docs, changelog and check for new versions)
 - fixed a bug in Edit configurations (reset values when new configuration is loaded)
