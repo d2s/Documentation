@@ -23,7 +23,7 @@ See _comment on ssh-keygen_ below (about RSA or DSA based crypto).
 
 **Step 3** : copy through ssh the public key from the Mac `.ssh` directory to the server.
 
-`Mac$ cat ~/.ssh/id\_rsa.pub | ssh user@server.com "cat .ssh/authorized_keys"`
+`Mac$ cat ~/.ssh/id_rsa.pub | ssh user@server.com "cat .ssh/authorized_keys"`
 
 **Step 4** : login in to `user@server.com` and set the correct permissions for the `.ssh` catalog and `authorized_keys` file.
 
@@ -57,5 +57,5 @@ My knowledge of crypto is very limited. The parameter **-t rsa** creates one key
 
 **Step 5**: test login from Mac, password is not required.
 
-`Mac$ ssh user@server.com`<br />
+`Mac$ ssh user@server.com`
 
