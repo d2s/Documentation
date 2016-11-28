@@ -1,12 +1,15 @@
 ## User configuration
 
-There are only a few parameters to choose in user configuration. The three options are :
+There are only a few parameters to choose in user configuration. The three parameters are:
  
- - another version of rsync 
+ - another version of rsync
+ 	- any version of rsync should work, but only version _rsync  version 3.1.2  protocol version 31_ and _rsync  version 2.6.9  protocol version 29_ is tested and verified. 
  - detailed logging on or off 
- - allow double click to execute single tasks 
+ 	- if detailed logging is **on** all _backup_ tasks are logged, if **off** only last date for task is updated in Execute view
+ - allow double click to execute single tasks
+ 	- if **on** any single task might be executed by double click on a row
  
-If the user selectes another version of rsync, RsyncOSX does check if there is a rsync in path set by user. If there is not found a rsync in path RsyncOSX will not execute any tasks. The red configurations is only because I have not started my VirtualBox FreeBSD instance and RsyncOSX does not receive any answer (check is done automatically)
+If the user selectes another version of rsync, RsyncOSX does check if there is a rsync in path set by user. If there is no rsync in path RsyncOSX will not execute any tasks. The red _configurations_ (rows in table) is only because I have not started my VirtualBox FreeBSD instance and RsyncOSX does not receive any answer (check is done automatically)
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
@@ -16,7 +19,7 @@ If the user selectes another version of rsync, RsyncOSX does check if there is a
 </tbody>
 </table>
 
-## No rsync i path
+### No rsync i path
 
 The views below is what happens if a not valid rsync path is set. First of a error is presented in bottom of user configuration.
 
