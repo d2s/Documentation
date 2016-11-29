@@ -7,14 +7,16 @@ See also the [standard parameters](https://github.com/rsyncOSX/Documentation/blo
 Rsync utilises a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
 - `parameter=value` 
-	- (sample `--exclude-from=/Volumes/Users/thomas/Pictures/exclude-list.txt`)
+	- sample `--exclude-from=/Volumes/Users/thomas/Pictures/exclude-list.txt`
 - `parameter` 
-	- (sample `--stats`, `--dry-run`) 
+	- sample `--stats`, `--dry-run`
 
-I am using RsyncOSX to backup my Pictures catalog - about 100GB of raw picture files. I am also using Adobe Lightroom for organising my Pictures catalog. Adobe Lightroom creates preview of pictures in `Lightroom/Lightroom Catalog Previews.lrdata` catalog. I do not want to backup any previews, only the picture files and Lightroom settings and library catalog. 
+I am using RsyncOSX to backup my Pictures catalog - about 100GB of raw picture files. I am also using Adobe Lightroom for organising my Pictures. Adobe Lightroom creates preview of pictures in `Lightroom/Lightroom Catalog Previews.lrdata` catalog. I do not want to backup any previews, only the picture files, Lightroom settings and Lightroom library catalog. 
 
 - create a .txt file with the following line `Lightroom/Lightroom Catalog Previews.lrdata`, save the file with name `exclude-list.txt` in the `Pictures` catalog
 - pass the following parameter `--exclude-from=/Volumes/Users/thomas/Pictures/exclude-list.txt` to rsync from the parameter view within RsyncOSX
+
+And that is it. Rsync excludes whatever found in the `--exclude-from` file (including file patterns).
 
 ### RsyncOSX passing parameters to rsync
 
