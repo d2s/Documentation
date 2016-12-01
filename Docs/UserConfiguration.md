@@ -3,7 +3,7 @@
 There are only a few parameters to choose in user configuration. The three parameters are:
  
  - another version of rsync
- 	- any version of rsync should work, but only version _rsync  version 3.1.2  protocol version 31_ and _rsync  version 2.6.9  protocol version 29_ is tested and verified. 
+ 	- any version of rsync should work, but only _rsync  version 3.1.2  protocol version 31_ and _rsync  version 2.6.9  protocol version 29_ is tested and verified. 
  - detailed logging on or off 
  	- if detailed logging is **on** all _backup_ tasks are logged, if **off** only last date for task is updated in Execute view
  - allow double click to execute single tasks
