@@ -1,13 +1,13 @@
 ## Copy single files or catalogs
 
-Copy file and volume enables the user to select single file or catalogs for restore to a given local storage. The **source** for copy is the selected row in Execute view. Pressing select button starts the job to collect list of files and catalogs stored on remote server.
+Copy file and volume enables the user to select single file or catalogs for restore to a selected local storage. The _source_ for copy is the _selected row in Execute view_. Pressing `select` button starts the job to collect list of files and catalogs stored on remote server.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
 <tr><td style="text-align: center;">
 <a href="https://1.bp.blogspot.com/-MmuYXOeNzXI/WAmhlPLl-_I/AAAAAAAAL6I/ekY2PnOzXygOnt6d2RTA7vXaDF7s5QulgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B10.17.44.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://1.bp.blogspot.com/-MmuYXOeNzXI/WAmhlPLl-_I/AAAAAAAAL6I/ekY2PnOzXygOnt6d2RTA7vXaDF7s5QulgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B10.17.44.png" width="640" /></a>
 </td></tr>
-<tr><td class="tr-caption" style="text-align: center;">Select button is pressed and RsyncOSX is getting list of files and folders from remote server.</td></tr>
+<tr><td class="tr-caption" style="text-align: center;">List of files and folders stored at remote server.</td></tr>
 </tbody>
 </table>
 
@@ -20,7 +20,7 @@ Copy file and volume enables the user to select single file or catalogs for rest
 </table>
 
 
-After selecting file or cataog to restore and the restore point is set, Estimate and Execute the restore.
+After selecting file or catalog to restore and the restore point is set, `Estimate` and `Execute` the restore. To restore a file or catalog is a two step task, first Estimate and then Execute.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
 <tbody>
