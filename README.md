@@ -15,6 +15,10 @@ The following are documents about RsyncOSX. The **first** document is how to get
 - The [RsyncOSX Changelog](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Changelog.md).
 - Some more info about standard [parameters to rsync](https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncParameters.md).
 
+## Issues
+
+Any issues about RsyncOSX is listed [here](https://github.com/rsyncOSX/Version3.x/issues).
+
 ## YouTube
 
 I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www.youtube.com/watch?v=ty1r7yvgExo) : "Downloading RsyncOSX, installing, first time configuration and using RsyncOSX for the first time. Backup (as demo) of about 120 MB of data and 4000 files to a VirtualBox FreeBSD machine."
