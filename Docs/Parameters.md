@@ -34,7 +34,7 @@ The user can set own parameters by using `select` in dropdown menu. Preset param
 - `--max-size` - set max size of files to backup
 	- sample `--max-size=5MB` 
 - `--suffix` - set suffix on files
-	- sample `_$(date +%Y-%m-%d.%H.%M)` see last picture for result
+	- sample <code>--suffix= _\`date +'%Y-%m-%d.%H.%M'`</code> see last picture for result
 - `delete` - delete the parameter
 	- deletes the parameter when `OK` button is selected 
 
