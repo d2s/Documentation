@@ -17,6 +17,7 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 - split `--backup` parameter and `--suffix` in parameter view
 - refactor of code for rsync parameters and logging
 - speed of sorting and filter logs improved
+- added display both `--dry-run` and `real run` of rsync command in main view
 
 ## Version 3.6.5
 
