@@ -6,9 +6,9 @@ See also the [standard parameters](https://github.com/rsyncOSX/Documentation/blo
 
 Rsync utilises a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
-- `parameter=value` 
+- `--parameter=value` 
 	- sample `--exclude-from=/Volumes/Users/thomas/Pictures/exclude-list.txt`
-- `parameter` 
+- `--parameter` 
 	- sample `--stats`, `--dry-run`
 
 I am using RsyncOSX to backup my Pictures catalog - about 100GB of raw picture files. I am also using Adobe Lightroom for organising my Pictures. Adobe Lightroom creates preview of pictures in `Lightroom/Lightroom Catalog Previews.lrdata` catalog. I do not want to backup any previews, only the picture files, Lightroom settings and Lightroom library catalog. 
@@ -20,10 +20,10 @@ And that is it. Rsync excludes whatever found in the `--exclude-from` file (incl
 
 ### RsyncOSX passing parameters to rsync
 
-The user can set own parameters by using `select` in dropdown menu. Preset parameters are:
+The user can set own parameters by using `user` in dropdown menu. Preset parameters are:
 
-- `select` - user selected parameter
-	- RsyncOSX passes whatever set by user to rsync, parameters must be either `parameter=value` or `parameter`
+- `user` - _user selected_ parameter
+	- RsyncOSX passes whatever set by user to rsync, parameters must be either `--parameter=value` or `--parameter`
 - `--stats` - produces some more statistics
 	- parameter is forced on in dry-ryn to collect info about run
 - `--backup` - instructs rsync to backup changed files
@@ -36,7 +36,8 @@ The user can set own parameters by using `select` in dropdown menu. Preset param
 - `--suffix` - set suffix on files
 	- sample <code>--suffix= _\`date +'%Y-%m-%d.%H.%M'`</code> see last picture for result
 - `delete` - delete the parameter
-	- deletes the parameter when `OK` button is selected 
+	- deletes the parameter when `OK` button is selected
+	- or just delete the `value` string
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-mFUGksTyUAA/WAmhilxPsnI/AAAAAAAAL5Y/s9lXbqBNRnkCTS1WPyjHmafFJAyNYF8qACLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.32.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://1.bp.blogspot.com/-mFUGksTyUAA/WAmhilxPsnI/AAAAAAAAL5Y/s9lXbqBNRnkCTS1WPyjHmafFJAyNYF8qACLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.32.png" width="640" /></a></td></tr>
