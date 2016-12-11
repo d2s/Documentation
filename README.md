@@ -2,18 +2,18 @@
 
 The following are documents about RsyncOSX. The **first** document is how to get and install RsyncOSX. The **second** document is some information what RsyncOSX is and how to use the application. Please read the **second** document before using the application.
 
-- Getting and installing (#1) [RsyncOSX](https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncOSX.md).
-- Important (#2) [information](https://github.com/rsyncOSX/Documentation/blob/master/Docs/HowtoUseRsyncOSX.md) about what RsyncOSX is.
-  - Adding [configurations](https://github.com/rsyncOSX/Documentation/blob/master/Docs/AddConfigurations.md) (backup and restore).
-  - Executing of [single tasks](https://github.com/rsyncOSX/Documentation/blob/master/Docs/SingleTask.md) (configurations).
-  - Executing of [batch tasks](https://github.com/rsyncOSX/Documentation/blob/master/Docs/BatchTask.md).
-  - Scheduling of [tasks](https://github.com/rsyncOSX/Documentation/blob/master/Docs/ScheduleTasks.md).
-  - Restore of [single files or catalogs](https://github.com/rsyncOSX/Documentation/blob/master/Docs/CopySingleFiles.md).
-  - [Logging](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Logging.md) execution of tasks.
-  - Parameters to [rsync](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Parameters.md).
-  - Some info about [user configuration](https://github.com/rsyncOSX/Documentation/blob/master/Docs/UserConfiguration.md).
-- The [RsyncOSX Changelog](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Changelog.md).
-- Some more info about standard [parameters to rsync](https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncParameters.md).
+- Getting and installing (#1) [RsyncOSX](https://github.com/rsyncOSX/Documentation/blob/master/docs/RsyncOSX.md).
+- Important (#2) [information](https://github.com/rsyncOSX/Documentation/blob/master/docs/HowtoUseRsyncOSX.md) about what RsyncOSX is.
+  - Adding [configurations](https://github.com/rsyncOSX/Documentation/blob/master/docs/AddConfigurations.md) (backup and restore).
+  - Executing of [single tasks](https://github.com/rsyncOSX/Documentation/blob/master/docs/SingleTask.md) (configurations).
+  - Executing of [batch tasks](https://github.com/rsyncOSX/Documentation/blob/master/docs/BatchTask.md).
+  - Scheduling of [tasks](https://github.com/rsyncOSX/Documentation/blob/master/docs/ScheduleTasks.md).
+  - Restore of [single files or catalogs](https://github.com/rsyncOSX/Documentation/blob/master/docs/CopySingleFiles.md).
+  - [Logging](https://github.com/rsyncOSX/Documentation/blob/master/docs/Logging.md) execution of tasks.
+  - Parameters to [rsync](https://github.com/rsyncOSX/Documentation/blob/master/docs/Parameters.md).
+  - Some info about [user configuration](https://github.com/rsyncOSX/Documentation/blob/master/docs/UserConfiguration.md).
+- The [RsyncOSX Changelog](https://github.com/rsyncOSX/Documentation/blob/master/docs/Changelog.md).
+- Some more info about standard [parameters to rsync](https://github.com/rsyncOSX/Documentation/blob/master/docs/RsyncParameters.md).
 
 ## Issues
 
@@ -27,6 +27,6 @@ I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www
 
 There are a few other documents in context of RsyncOSX. To enable remote storage of backups please read **how to enable passwordless logins**. Rsync utilises parameters. RsyncOSX can send extra (set by user) parameters to rsync.
 
-- How to enable [passwordless logins](https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md) (required for using RsyncOSX with remote servers).
-- My [DIY NAS](https://github.com/rsyncOSX/Documentation/blob/master/Docs/DIYNAS.md).
-- The [idea](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Idea.md) behind RsyncOSX.
+- How to enable [passwordless logins](https://github.com/rsyncOSX/Documentation/blob/master/docs/PasswordlessLogin.md) (required for using RsyncOSX with remote servers).
+- My [DIY NAS](https://github.com/rsyncOSX/Documentation/blob/master/docs/DIYNAS.md).
+- The [idea](https://github.com/rsyncOSX/Documentation/blob/master/docs/Idea.md) behind RsyncOSX.
