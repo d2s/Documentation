@@ -26,9 +26,9 @@ To install the application copy it to Desktop or any other folder in your home c
 
 The application is signed with my Apple Developer ID certificate.
 
-## Password-less logins
+## Passwordless logins and remote servers
 
-Backup to **remote servers** require ssh password-less logins (by ssh-keygen and ssh public and private keys). Here is how to [setup password-less](https://github.com/rsyncOSX/Documentation/blob/master/docs/PasswordlessLogin.md) logins.
+Backup to _remote servers_ require ssh _passwordless_ logins (by ssh-keygen and ssh public and private keys). Here is how to [setup password-less](https://github.com/rsyncOSX/Documentation/blob/master/docs/PasswordlessLogin.md) logins.
 
 ## Idea behind RsyncOSX
 
