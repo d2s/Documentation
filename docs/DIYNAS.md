@@ -46,15 +46,18 @@ I downloaded **FreeNAS** nightly build. FreeNAS did not boot properly on my hard
 
 I dropped testing of Ubuntu 16.10 due to reasons as for FreeBSD 11.
 
-I installed **NAS4free** and imported zpools created in FreeBSD. After installation I used about *one hour* to get it up and running. The GUI in NAS4free is easy, intuitive and nice to use. The current stable version of NAS4Free is based upon FreeBSD 10.3 and last release of NAS4Free was Oct 2016.
+### Installed version of Nas4free
 
-I have installed the latest release of NAS4free (version 11.0.0.4.3252 released 20 nov 2016) which is based on FreeBSD 11 (11.0-RELEASE-p3).
+I installed **NAS4free** and imported zpools created in FreeBSD. After installation I used about *one hour* to get it up and running. The GUI in NAS4free is easy, intuitive and nice to use. 
+
+I have installed release 11.0.0.4 - Sayyadina (revision 3330) of NAS4free which is based on FreeBSD 11.0-RELEASE-p5. The version was released **10 December 2016**.
+
+The NAS has been operating perfectly for at least a couple of months. There has been two upgrades of _firmware_ without any problems during these two months. I am not using any extensions and I am not _abusing_ the NAS. So far only positive experience with NAS4free. And my experince is not based upon any scientific work.
 
 My NAS4Free based NAS is now setup to do the following:
 
 - Mounted a mirrored zpool used for backup by using RsyncOSX. To use RsyncOSX (or rsync) I enabled ssh and rsync on the server (by using the GUI). I added a user (thomas) and enabled [passwordless login](https://github.com/rsyncOSX/Documentation/blob/master/PasswordlessLogin.md).
 - Shared out a SMB filesystem.
-
 
 ## The NAS
 
