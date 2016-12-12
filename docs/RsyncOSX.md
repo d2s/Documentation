@@ -14,13 +14,13 @@ I have uploaded a short (about 4 minutes) [YouTube video of RsyncOSX](https://ww
 
 ## Download link and install
 
-RsyncOSX is released in version 3.6.5 (updated 23 November 2016).
+RsyncOSX is released in version 3.7.1 (released 10 December 2016).
 
 - [download](https://dl.dropboxusercontent.com/u/52503631/RsyncOSX.dmg) latest version of RsyncOSX
-- shasum : fbe75fbb18e78afce17f67f6828c14724f306627
-- see the [Changelog](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Changelog.md) for info
+- shasum : abb28f88871e65cbe750c47f9f9378c9bbcdaa8c
+- see the [Changelog](https://github.com/rsyncOSX/Documentation/blob/master/docs/Changelog.md) for info
 
-<code>/usr/bin/shasum ~/PathToDownload/RsyncOSX.dmg</code> to verify hash
+`/usr/bin/shasum ~/PathToDownload/RsyncOSX.dmg` to verify hash
 
 To install the application copy it to Desktop or any other folder in your home catalog. The application is installed and used at your own risk and developer accepts no responsibility for any errors, omissions or loss of data by using the application.
 
@@ -28,10 +28,10 @@ The application is signed with my Apple Developer ID certificate.
 
 ## Password-less logins
 
-Backup to **remote servers** require ssh password-less logins (by ssh-keygen and ssh public and private keys). Here is how to [setup password-less](https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md) logins.
+Backup to **remote servers** require ssh password-less logins (by ssh-keygen and ssh public and private keys). Here is how to [setup password-less](https://github.com/rsyncOSX/Documentation/blob/master/docs/PasswordlessLogin.md) logins.
 
 ## Idea behind RsyncOSX
 
 I have two MacBooks, one is used primarily at work and the other is my private. Data is backed up to server (NAS) at home and to one offsite servers. Both MacBooks and all backup locations are kept in sync. I am using my private MacBook for Pictures (I have about 100 GB of raw picture files). Whenever I have added new picture files or done some work on pictures, changes are backup up on all servers and then restored on my MacBook used at work. The rsync command-line tool is one of the best tools around for backup and synchronizing storage. A GUI ontop of rsync might hide all the details about parameters to rsync and make rsync execute the correct actions.
 
-Some more details about the [idea](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Idea.md) for RsyncOSX.
+Some more details about the [idea](https://github.com/rsyncOSX/Documentation/blob/master/docs/Idea.md) for RsyncOSX.
