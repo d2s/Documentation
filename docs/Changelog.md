@@ -12,6 +12,7 @@ The e-mail is for reading only. I will **not share** nor **spam** any e-mails or
 The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day. I am not a professional developer, this is for fun only. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
 
 ## Version 3.7.1
+- updated **12 December 2016**, compiled with new version 8.2 of Xcode released 12 December 2016
 - released **10 December 2016**
 - fixed a bug `--suffix` parameter used together with `--backup` parameter to set date and time suffix (e.g `changed-file_2016-12-10.15.25`) of changed or deleted files in backup directory
 - split `--backup` parameter and `--suffix` in parameter view
