@@ -14,7 +14,7 @@ I have uploaded a short (about 4 minutes) [YouTube video of RsyncOSX](https://ww
 
 ## Download link and install
 
-RsyncOSX is released in version 3.7.1 (updated 12 December 2016 du to new version 8.2 of Xcode).
+RsyncOSX is released in version 3.7.1 (updated 13 December 2016 du to new version 8.2 of Xcode).
 
 - [download](https://dl.dropboxusercontent.com/u/52503631/RsyncOSX.dmg) latest version of RsyncOSX
 - shasum : d6620da51a5a3c3a8d78a44e80eecc5e5a73d2c2
