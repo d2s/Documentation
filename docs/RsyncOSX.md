@@ -10,14 +10,14 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 
 ## YouTube video
 
-I have uploaded a short (about 4 minutes) [YouTube video of RsyncOSX](https://www.youtube.com/watch?v=ty1r7yvgExo) : "Downloading RsyncOSX, installing, first time configuration and using RsyncOSX for the first time. Backup (as demo) of about 120 MB of data and 4000 files to a VirtualBox FreeBSD machine."
+I have uploaded a short (about 5 minutes) [YouTube video of RsyncOSX](https://www.youtube.com/watch?v=ty1r7yvgExo) : "Downloading RsyncOSX, installing, first time configuration and using RsyncOSX for the first time. Backup (as demo) of about 120 MB of data and 4000 files to a VirtualBox FreeBSD machine."
 
 ## Download link and install
 
-RsyncOSX is released in version 3.7.2
+RsyncOSX is released in version 3.7.7
 
 - [download](https://dl.dropboxusercontent.com/u/52503631/RsyncOSX.dmg) latest version of RsyncOSX
-- shasum : b1e4619d6348842ae917672b711f626db9adbc4e
+- shasum : abcd22f573e7ba1b41631b3f938a965ab264cdd9
 - see the [Changelog](https://github.com/rsyncOSX/Documentation/blob/master/docs/Changelog.md) for info
 
 `/usr/bin/shasum ~/PathToDownload/RsyncOSX.dmg` to verify hash
