@@ -22,7 +22,7 @@ RsyncOSX is released in version 3.7.7
 
 `/usr/bin/shasum ~/PathToDownload/RsyncOSX.dmg` to verify hash
 
-To install the application copy it to Desktop or any other folder in your home catalog. The application is installed and used at your own risk and developer accepts no responsibility for any errors, omissions or loss of data by using the application.
+To **install** RsyncOSX open the downloaded `RsyncOSX.dmg` file and copy the `RsyncOSX.app` to Desktop or any other folder in your home catalog. The application is installed and used at your own risk and developer accepts no responsibility for any errors, omissions or loss of data by using the application.
 
 The application is signed with my Apple Developer ID certificate.
 
