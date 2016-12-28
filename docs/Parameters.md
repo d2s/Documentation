@@ -35,7 +35,7 @@ The user can set own parameters by using `user` in dropdown menu. Preset paramet
 	- sample `--max-size=5MB` 
 - `--suffix` - set suffix on files
 	- sample <code>--suffix= _\`date +'%Y-%m-%d.%H.%M'`</code> see last picture for result
-		- I have experienced some variations regarding the suffix. Some OS will not set the correct suffix using the above. If so is true use `--suffix= _$(date +%Y-%m-%d.%H.%M)` instead.
+	- I have experienced some variations regarding the suffix. Some OS will not set the correct suffix using the above. If so is true use `--suffix= _$(date +%Y-%m-%d.%H.%M)` instead. You just hav to try and see what works 
 - `delete` - delete the parameter
 	- deletes the parameter when `OK` button is selected
 	- or just delete the `value` string
