@@ -2,7 +2,7 @@
 
 The parameters in picture (below) instructs rsync to save changed files in catalog `../backup` (relativ to destination catalog) and **suffix** the backup file with timestamps. The above is enabled or disabled by select the `backup` button. The user might change the backup catalog. The backup catalog can either be absolute path or relative path. Default backup catalog is `../backup`.
 
-See also the [standard parameters](https://github.com/rsyncOSX/Documentation/blob/master/Docs/RsyncParameters.md) to rsync.
+See also the [standard parameters](https://github.com/rsyncOSX/Documentation/blob/master/docs/RsyncParameters.md) to rsync.
 
 Rsync utilises a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
@@ -35,6 +35,7 @@ The user can set own parameters by using `user` in dropdown menu. Preset paramet
 	- sample `--max-size=5MB` 
 - `--suffix` - set suffix on files
 	- sample <code>--suffix= _\`date +'%Y-%m-%d.%H.%M'`</code> see last picture for result
+		- I have experienced some variations regarding the suffix. Some OS will not set the correct suffix using the above. If so is true use `--suffix= _$(date +%Y-%m-%d.%H.%M)` instead.
 - `delete` - delete the parameter
 	- deletes the parameter when `OK` button is selected
 	- or just delete the `value` string
