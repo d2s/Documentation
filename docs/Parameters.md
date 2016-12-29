@@ -32,10 +32,10 @@ The user can set own parameters by using `user` in dropdown menu. Preset paramet
 - `--include-from` - path to file which store file patterns to **include** from rsync backup 
 - `--files-from` - path to file which store what to backup
 - `--max-size` - set max size of files to backup
-	- sample `--max-size=5MB` 
-- `--suffix` - set suffix on files
+	- sample `--max-size=5MB` , files with size bigger than 5 megabyte (MB) are omitted
+- `--suffix` - set suffix on files, suffix can be set on files together with the `--backup`parameter. One suffix might rename files which are either deleted or replaced newer files with a trailing date and time stamp.
 	- sample <code>--suffix= _\`date +'%Y-%m-%d.%H.%M'`</code> see last picture for result
-	- I have experienced some variations regarding the suffix. Some OS will not set the correct suffix using the above. If so is true use `--suffix= _$(date +%Y-%m-%d.%H.%M)` instead. You just hav to try and see what works 
+	- I have experienced some variations regarding the suffix. If you want to use suffix you might try an alternative suffix if the above is not working as expected. If so is true use `--suffix= _$(date +%Y-%m-%d.%H.%M)` instead. You just have to try and see what works 
 - `delete` - delete the parameter
 	- deletes the parameter when `OK` button is selected
 	- or just delete the `value` string
