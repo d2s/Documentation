@@ -1,14 +1,17 @@
 ## Logging
 
-Detailed logging in RsyncOSX might be switched on/off in userconfiguration. It is only **backup** tasks which are logged. All logdata is by default listed in table within Logs view (sorted by date). Logdata can be _filtered_ by textsearch in:
+Detailed logging in RsyncOSX might be switched on/off in userconfiguration. Only **backup** tasks are logged. All logdata is by default listed in table within Logs view (sorted by date). Logdata can be _filtered_ by textsearch in:
 
 
 - **Server** (remote server)
 - **Catalog** (local catalog)
 - **Date**
 
+There are two ways to filter logdata by search field. If a row is selected logdate is filtered by one of the three subjects depended upon which radiobutton is on. 
 
-If a row is selected logdate is filtered by one of the three above depended upon which radiobutton is on. 
+If no row is selected, text can be entered in search field and by selecting one of the radiobuttons logdata is filtered by matching text and subject by radiobutton. 
+
+Cancel search field reloads all loggdata. 
 
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
