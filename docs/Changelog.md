@@ -11,8 +11,8 @@ The e-mail is for reading only. I will **not share** nor **spam** any e-mails or
 
 The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day. I am not a professional developer, this is for fun only. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
 
-## Version 3.9.0 pre release
-- new image uploaded 13 January 2017
+## Version 3.9.1
+- released 19 January 2017
 - added a few tweaks regarding radiobuttons in main view and deselect row after delete actions
 - moved Add button new configurations into tab view and added some more checks when adding new configurations
 
