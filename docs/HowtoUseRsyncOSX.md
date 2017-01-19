@@ -20,7 +20,7 @@ RsyncOSX configuration file, log file, scheduled tasks file and user configurati
 
 - `~/Documents/Rsync/MacID/configRsync.plist`
   - `~/` is user home directory
-  - `MacID` is the Mac Serial Number and is automatically set by RsyncOSX
+  - `MacID` is the Mac serial number and is automatically set by RsyncOSX
 
 If _profile_ is used:
 
@@ -34,11 +34,11 @@ There is only one simple answer to the question and the answer is [rsync](https:
 The following features are implemented in RsyncOSX:
 
 - execute **single** tasks
-  - estimation run is required before the real task is executed
-  - by pressing the Execute button **after** the estimation progress indicator has stopped executes the real task
+  - an *estimation* run is required before the real task is executed (an estimation run is executed by the setting the `--dry-run` parameter to rsync)
+  - either by a double click on row or by pressing the Execute button **after** the estimation progress indicator has stopped executes the real task
   - if another row (task) is selected after estimation is done a new estimation run is required
 - execute **batch** tasks
-  - batch tasks are executed automatically until all completed
+  - batch tasks are automatically executed until all are completed (the estimate run and execute run are executed in one go)
   - if you want tasks to be executed in one go mark them for batch
 - adding **new tasks** either by drag and drop (for local volumes) or by GUI
 - **user configuration**
@@ -46,9 +46,11 @@ The following features are implemented in RsyncOSX:
 - **abort** single- and batch tasks
 - **rsync parameters**
   - the user can add parameters to rsync
+  - there are predefined parameters for saving old files in a backup directory
 - **enable** saving backups of changed or deleted files (in rsync parameters)
 - **delete** and **edit** configurations
 - store configurations in **profiles**
+	- as many profiles as wanted
 - **copy of single files or volumes** from remote storage
 - **scheduling of tasks**
 - **detailed logging**
@@ -85,7 +87,7 @@ RsyncOSX uses profiles. If not used all configurations are saved in the default 
 - new profile (name of new profile must be set in `New profile name`)
 - delete profile
 
-Selecting the `Default` button selects the default profile. Double click on a profile name to select the profile.
+Selecting the `Default` button selects the default profile. **Double click** on a profile name to select the profile.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
 <tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-ZI3Wb7tQd5o/WBQnQ-ibGHI/AAAAAAAAL7A/XG1Du4gcLi8Pi3dlZNzzSCJOEFoMiZ_KQCLcB/s1600/Screen%2BShot%2B2016-10-29%2Bat%2B06.35.46.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://1.bp.blogspot.com/-ZI3Wb7tQd5o/WBQnQ-ibGHI/AAAAAAAAL7A/XG1Du4gcLi8Pi3dlZNzzSCJOEFoMiZ_KQCLcB/s640/Screen%2BShot%2B2016-10-29%2Bat%2B06.35.46.png" width="640" /></a></td></tr>
