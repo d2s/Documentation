@@ -20,6 +20,11 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 	- number of logs in each schedule
 	- manual execution of tasks are logged under start date `1 Jan 1900 00:00`
 
+![Shedules](/Documentation/docs/screenshots/3.9.5rc/screen2.png)
+
+![Logs](/Documentation/docs/screenshots/3.9.5rc/screen1.png)
+
+
 ## Version 3.9.1
 - released 19 January 2017
 - added a few tweaks regarding radiobuttons in main view and deselect row after delete actions
