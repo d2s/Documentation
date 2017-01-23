@@ -24,11 +24,11 @@ Local catalog and Remote catalog (if not on remote server) is added either by us
 The screen below is all information about my configuration for a virtual FreeBSD instance running on my Macbook Pro.
 
 - **Local catalog**: - `/Volumes/Home/thomas/Documents/Xcode/` - src catalog RsyncOSX
-- **Remote catalog**: - `~/backup/Documents/Xcode/` - the home catalog for user thomas. The `~` is expanded as the home catalog with full path by the remote operating system. The remote catalog might also be added by full path (`/home/thomas/src/RsyncOSX`)
+- **Remote catalog**: - `~/backup/Documents/Xcode/` - the backup catalog for user thomas. The `~` is expanded as the home catalog with full path by the remote operating system. The remote catalog might also be added by full path (`/home/thomas/backup/Documents/Xcode/`)
 - **Remote username**: - `thomas`
 - **Remote server**: - `10.0.0.58` either name or IP-adress
 - **ssh port**: - if ssh communicates through other than standard port 22 it must be set here. As an example in Virtualbox I have set up a port forwarding through port `3022` -> Virtualbox port 22.
-- **ID** `informal tag` for the configuration
+- **ID**: - `informal tag` for the configuration
 - **rsync daemon**: - setting this puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote which takes some more setup. I am not using it myself.
 
 ![Add configuration](screenshots/master/add/add3.png)
