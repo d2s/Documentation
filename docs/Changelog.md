@@ -14,6 +14,7 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 ## Version 3.9.5 release candidate
 
 - I am not adding any major new functionality to RsyncOSX, only minor enhancements.
+- I will continue to add minor enhancements for some time before releasing a new version, the release candidate will be updated from time to time
 - the focus on in this release canditate are to make logs more informal and stable
 - logs are now sorted with most recent log on top (first row in table)
 - active schedules are marked red
