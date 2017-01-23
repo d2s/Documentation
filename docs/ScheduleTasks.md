@@ -18,45 +18,19 @@ The stack is a reference only to a configuration (by a hidden key). The user can
 
 When the first scheduled task is _completed_, RsyncOSX checks the next top element of stack. If start date and time is in the future RsyncOSX tracks task in time. 
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-<tr><td style="text-align: center;">
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-pJYPTGFb4vY/WAmhkSC5fhI/AAAAAAAAL50/Wn0PKn2m2bsi2t0aKIiD_K8M0z92BPZrQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.23.45.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://3.bp.blogspot.com/-pJYPTGFb4vY/WAmhkSC5fhI/AAAAAAAAL50/Wn0PKn2m2bsi2t0aKIiD_K8M0z92BPZrQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.23.45.png" width="640" /></a></td></tr>
-<tr><td class="tr-caption" style="text-align: center;">Select task for scheduling.</td></tr>
-</tbody>
-</table>
+![Select task](screenshots/master/scheduling/schedule1.png)
 
-Schedule _once_ is selected to execute about in one hour. 
+Schedule _daily_ is selected. First scheduled backup is in about 24 hours and next after that is in two days.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-<tr><td style="text-align: center;">
-<a href="https://4.bp.blogspot.com/-qPey9NI5Wnk/WAmhkX5ckcI/AAAAAAAAL54/kwZaACuWAgsNq6cuWOB7m8WTMaVO4-cRQCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.05.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://4.bp.blogspot.com/-qPey9NI5Wnk/WAmhkX5ckcI/AAAAAAAAL54/kwZaACuWAgsNq6cuWOB7m8WTMaVO4-cRQCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.05.png" width="640" /></a></td></tr>
-<tr><td class="tr-caption" style="text-align: center;">Schedule is created and time for next schedule is displayed.</td></tr>
-</tbody>
-</table>
+![Select task](screenshots/master/scheduling/schedule2.png)
 
-RsyncOSX gets info about remote sever and local path.
+RsyncOSX gets info about remote sever and local path. In the Execute view a number behind task displays how many times task will be executed by schedule.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-<tr><td style="text-align: center;">
-<a href="https://2.bp.blogspot.com/-3W2nahamOLs/WAmhkY4mz8I/AAAAAAAAL58/gx3onllf-2siECKAcKu4aXzCbHAZhhPSgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.13.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-3W2nahamOLs/WAmhkY4mz8I/AAAAAAAAL58/gx3onllf-2siECKAcKu4aXzCbHAZhhPSgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.13.png" width="640" /></a></td></tr>
-<tr><td class="tr-caption" style="text-align: center;">Number of tasks executed by schedule.</td></tr>
-</tbody>
-</table>
+![Select task](screenshots/master/scheduling/schedule3.png)
 
-In the Execute view a number behind task displays how many times task will be executed by schedule.
 
 ### Stopping a scheduled task
 
-Select row and then **details**. Either stop or delete task. If a task is deleted all logs regarding the task is deleted.
+Select row and then **details**. Either stop or delete task. If a task is deleted all logs regarding the task is deleted. The number `Logs` is how many log items there are in each schedule. Schedule with starddate `01 Jan 1900 00:00` is manually executed tasks.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;">
-<tbody>
-<tr><td style="text-align: center;">
-<a href="https://2.bp.blogspot.com/-3CKoR1TM0Yg/WAmhkxhhCYI/AAAAAAAAL6A/PK3o5esw6Kkf8ChF2NXY6DeuyoMy3qaowCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.25.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="336" src="https://2.bp.blogspot.com/-3CKoR1TM0Yg/WAmhkxhhCYI/AAAAAAAAL6A/PK3o5esw6Kkf8ChF2NXY6DeuyoMy3qaowCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.24.25.png" width="640" /></a></td></tr>
-<tr><td class="tr-caption" style="text-align: center;">Stopping and deleting tasks (and logs).</td></tr>
-</tbody>
-</table>
+![Select task](screenshots/master/scheduling/schedule4.png)
