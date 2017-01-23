@@ -1,11 +1,8 @@
 ## Changelog
 
-I am using the application on a daily basis and it evolves during my own use. Any suggestions for new _features_, _changed features_ and _bug reports_ are more than welcome. Please drop me an e-mail on
+I am using the application on a daily basis and it evolves during my own use. Any suggestions for new _features_, _changed features_ and _bug reports_ are more than welcome. 
 
-- thomas.tilbakemelding@gmail.com
-- or add an [Issue](https://github.com/rsyncOSX/Version3.x/issues)
-
-The e-mail is for reading only. I will **not share** nor **spam** any e-mails or e-mail addresses sent to this address.
+Please add an [Issue](https://github.com/rsyncOSX/Version3.x/issues) regarding any requests or bugs.
 
 ## Source code
 
