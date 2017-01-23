@@ -9,7 +9,7 @@ By selecting a row and choose schedule applies a scheduled backup to a task. The
 first backup starts in 24-hour
 - Weekly
 	- as for daily, but _every 7 day_
-- Details
+- Stop and/or delete schedules
 	- stop or delete scheduled tasks
 
 Select task (row), set the start date and time and select the schedule (once, daily or weekly) to set up a schedule of backup. Every time RsyncOSX starts, the schedule is computed. Every time a change in any schedule the schedule is computed. The schedule is a stack of tasks. The top most element is the first task to be executed. RsyncOSX keeps track of the first task only (in time). Rest of the scheduled operations remains on stack until popped of the stack.
@@ -18,19 +18,19 @@ The stack is a reference only to a configuration (by a hidden key). The user can
 
 When the first scheduled task is _completed_, RsyncOSX checks the next top element of stack. If start date and time is in the future RsyncOSX tracks task in time. 
 
-![Select task](screenshots/master/scheduling/schedule1.png)
+![Schedule](screenshots/master/scheduling/schedule1.png)
 
-Schedule _daily_ is selected. First scheduled backup is in about 24 hours and next after that is in two days.
+In example the schedule _daily_ is selected. First scheduled backup is in about 24 hours and next after that in two days. The schedule is choosen to stop after the six days.
 
-![Select task](screenshots/master/scheduling/schedule2.png)
+![Schedule](screenshots/master/scheduling/schedule2.png)
 
 RsyncOSX gets info about remote sever and local path. In the Execute view a number behind task displays how many times task will be executed by schedule.
 
-![Select task](screenshots/master/scheduling/schedule3.png)
+![Schedule](screenshots/master/scheduling/schedule3.png)
 
 
 ### Stopping a scheduled task
 
-Select row and then **details**. Either stop or delete task. If a task is deleted all logs regarding the task is deleted. The number `Logs` is how many log items there are in each schedule. Schedule with starddate `01 Jan 1900 00:00` is manually executed tasks.
+Select row and then **Stop and/or delete schedules**. Either stop or delete task. If a task is deleted all logs regarding the task is deleted. The number `Logs` is how many log items there is in each schedule. Schedule with starddate `01 Jan 1900 00:00` is manually executed tasks. Schedules are sorted with most recent schedule on top.
 
-![Select task](screenshots/master/scheduling/schedule4.png)
+![Schedule](screenshots/master/scheduling/schedule4.png)
