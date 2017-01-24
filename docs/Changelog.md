@@ -17,6 +17,7 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 - active schedules are marked red
 	- number of logs in each schedule
 	- manual execution of tasks are logged under start date `1 Jan 1900 00:00`
+- dates are forced to "en_US" localisation to prevent RsyncOSX from crashing if the preferred language of macOS is other than english (e.g. Norwegian)
 
 ![Shedules](screenshots/3.9.5rc/screen2.png)
 
