@@ -6,10 +6,8 @@ RsyncOSX does also facilitate user selected parameters. User selected parameters
 
 The parameters in picture are explained below.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
-<tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-srgKvwoP9I8/WBwsnVzdkKI/AAAAAAAAL78/mM567JKI5QoM6HJVGFxhJGatJ1EzMw2jQCLcB/s1600/Screen%2BShot%2B2016-11-04%2Bat%2B07.35.43.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://3.bp.blogspot.com/-srgKvwoP9I8/WBwsnVzdkKI/AAAAAAAAL78/mM567JKI5QoM6HJVGFxhJGatJ1EzMw2jQCLcB/s640/Screen%2BShot%2B2016-11-04%2Bat%2B07.35.43.png" width="640" /></a></td></tr>
-<tr><td class="tr-caption" style="text-align: center;">The menu for adding parameters to rsync (by task)</td></tr>
-</tbody></table>
+![New configurations](screenshots/master/rsync/rsync4.png)
+
 
 ## Standard parameters all tasks
 
