@@ -24,10 +24,10 @@ Local catalog and Remote catalog (if not on remote server) is added either by us
 The screen below is all information about my configuration for a virtual FreeBSD instance running on my Macbook Pro.
 
 - **Local catalog**: - `/Volumes/Home/thomas/Documents/Xcode/` - src catalog RsyncOSX
-- **Remote catalog**: - `~/backup/Documents/Xcode/` - the backup catalog for user thomas. The `~` is expanded as the home catalog with full path by the remote operating system. The remote catalog might also be added by full path (`/home/thomas/backup/Documents/Xcode/`)
-- **Remote username**: - `thomas`
+- **Remote catalog**: - `~/backup/Documents/Xcode/` - the backup catalog for user thomas. The `~` is expanded as the home catalog with full path by the remote operating system. The remote catalog might also be added by full path `/home/thomas/backup/Documents/Xcode/`
+- **Remote username**: - `thomas`, username remote server
 - **Remote server**: - `10.0.0.58` either name or IP-adress
-- **ssh port**: - if ssh communicates through other than standard port 22 it must be set here. As an example in Virtualbox I have set up a port forwarding through port `3022` -> Virtualbox port 22.
+- **ssh port**: - if ssh communicates through other than standard `port 22` it must be set here. As an example in Virtualbox I have set up a port forwarding through `port 3022` -> Virtualbox `port 22`.
 - **ID**: - `informal tag` for the configuration
 - **rsync daemon**: - setting this puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote which takes some more setup. I am not using it myself.
 
@@ -37,6 +37,8 @@ The screen below is all information about my configuration for a virtual FreeBSD
 ### The Add button
 
 Select the `Add` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume (if the `Single file` is not on). Both the **backup** and **restore** part are added when saving new configurations. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the main view (Execute tab).
+
+If `Single file` is ticked on no trailing character `/` is added and only backup task is added.
 
 ![Configurations added](screenshots/master/add/add4.png)
 

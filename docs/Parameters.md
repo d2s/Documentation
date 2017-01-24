@@ -40,21 +40,14 @@ The user can set own parameters by using `user` in dropdown menu. Preset paramet
 	- deletes the parameter when `OK` button is selected
 	- or just delete the `value` string
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
-<tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-mFUGksTyUAA/WAmhilxPsnI/AAAAAAAAL5Y/s9lXbqBNRnkCTS1WPyjHmafFJAyNYF8qACLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.32.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://1.bp.blogspot.com/-mFUGksTyUAA/WAmhilxPsnI/AAAAAAAAL5Y/s9lXbqBNRnkCTS1WPyjHmafFJAyNYF8qACLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.17.32.png" width="640" /></a></td></tr>
-<tr><td class="tr-caption" style="text-align: center;">Either set preselected parameters or your own parameters</td></tr>
-</tbody></table>
+![New configurations](screenshots/master/rsync/rsync1.png)
+
 
 If the backup directory is not created rsync automatically creates it. The `../backup` is a catalog relative to the destination catalog. The user can specify any catalog as backup catalog.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
-<tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-rAioO-XrAm4/WAmhjC1UD6I/AAAAAAAAL5c/hx8vydOMgTY1dppLCd2SCQyspBca7HgsgCLcB/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B09.18.09.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="336" src="https://1.bp.blogspot.com/-rAioO-XrAm4/WAmhjC1UD6I/AAAAAAAAL5c/hx8vydOMgTY1dppLCd2SCQyspBca7HgsgCLcB/s640/Screen%2BShot%2B2016-10-20%2Bat%2B09.18.09.png" width="640" /></a></td></tr>
-<tr><td class="tr-caption" style="text-align: center;">After selecting the "backup" parameter three new parameters are added to rsync task</td></tr>
-</tbody></table>
+![New configurations](screenshots/master/rsync/rsync2.png)
 
-The screen below is a listing of some of files moved to the backup directory and renamed before new files are transferred from source to destination.<br />
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
-<tr><td style="text-align: center;"><a href="https://2.bp.blogspot.com/-3PGnAGBlXlU/WAmhlm9ispI/AAAAAAAAL6Y/6tGAo1yevaM9uGCgMUGSCq3-J-0xyZqYACEw/s1600/Screen%2BShot%2B2016-10-20%2Bat%2B10.29.41.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="448" src="https://2.bp.blogspot.com/-3PGnAGBlXlU/WAmhlm9ispI/AAAAAAAAL6Y/6tGAo1yevaM9uGCgMUGSCq3-J-0xyZqYACEw/s640/Screen%2BShot%2B2016-10-20%2Bat%2B10.29.41.png" width="640" /></a></td></tr>
-<tr><td class="tr-caption" style="text-align: center;">Changed files are moved to backup catalog and renamed with date and time as suffix</td></tr>
-</tbody></table>
+The screen below is a listing of some of files moved to the backup directory and renamed before new files are transferred from source to destination.
+
+![New configurations](screenshots/master/rsync/rsync3.png)
