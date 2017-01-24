@@ -12,7 +12,7 @@ As mentioned rsync is available on most server operating systems. Tools like App
 
 The challenge is to keep my two MacBooks and two backup locations updated and in sync. RsyncOSX does not automate the above, but it supports me doing it. And now I am able to either backup or restore by just a couple of mouse clicks.
 
-<a href="https://1.bp.blogspot.com/-HXJd4gxFSv4/V5296rU5ogI/AAAAAAAALwA/bcWuJ8nnipISjDrFeuCLCI7Xoo9EguS2gCLcB/s1600/WhatIsRsyncOSX.001.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="480" src="https://1.bp.blogspot.com/-HXJd4gxFSv4/V5296rU5ogI/AAAAAAAALwA/bcWuJ8nnipISjDrFeuCLCI7Xoo9EguS2gCLcB/s640/WhatIsRsyncOSX.001.jpeg" width="640" /></a>
+![New configurations](screenshots/master/nas/nas1.jpeg)
 
 The figure above shows how I am keeping my two MacBooks and three backup locations in sync. After saving new pictures on my MacBook number 2, I do a backup (by using batch mode in RsyncOSX) to all three remote locations. 
 

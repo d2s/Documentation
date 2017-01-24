@@ -50,7 +50,7 @@ I dropped testing of Ubuntu 16.10 due to reasons as for FreeBSD 11.
 
 I installed **NAS4free** and imported zpools created in FreeBSD. After installation I used about *one hour* to get it up and running. The GUI in NAS4free is easy, intuitive and nice to use. 
 
-I have installed release 11.0.0.4 - Sayyadina (revision 3330) of NAS4free which is based on FreeBSD 11.0-RELEASE-p5. The version was released **10 December 2016**.
+I have installed release 11.0.0.4 - revision 3460 of NAS4free which is based on FreeBSD 11.0-RELEASE-p7. The version was released **17 January 2017**.
 
 The NAS has been operating perfectly for at least a couple of months. There has been two upgrades of _firmware_ without any problems during these two months. I am not using any extensions and I am not _abusing_ the NAS. So far only positive experience with NAS4free. And my experince is not based upon any scientific work.
 
@@ -63,11 +63,7 @@ My NAS4Free based NAS is now setup to do the following:
 
 The only piece from my old NAS to keep is an Intel RAID controller. All other HW is replaced (not the storage). Why keep the RAID controller? First of all it is supported by most OS. The motherboard has only four SATA ports. I have (including the boot disk) seven SATA disks. The RAID controller has 8-ports and all disks except the boot disk, is connected to the RAID controller. The controller is discontinued but it stills works.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
-<tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-BWVk5GOBXiU/V4Cv0O6GoVI/AAAAAAAALqk/I233yb6_lPIYsPK2BjX1ajNSupJLAvfQQCLcB/s1600/Small%2B%25281%2Bof%2B12%2529.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="267" src="https://3.bp.blogspot.com/-BWVk5GOBXiU/V4Cv0O6GoVI/AAAAAAAALqk/I233yb6_lPIYsPK2BjX1ajNSupJLAvfQQCLcB/s320/Small%2B%25281%2Bof%2B12%2529.jpg" width="320" /></a></td></tr>
-<tr><td class="tr-caption" style="text-align: center;">Fractal Design Cabinet</td></tr>
-</tbody></table>
-
+![New configurations](screenshots/master/nas/nas2.jpg)
 
 I am quite pleased to replace Oracle Solaris as OS with NAS4Free. NAS4Free is free software and it is under continuously development. The WebGUI is intuitive, nice and easy to use. It took med just a couple of minutes to format two drives, create a new mirrored zpool, create a new user and mount 1 TB of disk to use as backup for RsyncOSX.
 
@@ -93,5 +89,5 @@ The server has 3 Terabyte (TB) of storage. The storage is setup as a ZFS filesys
 
 It is easy and cheap to setup a backup server based on Linux or other server OS and rsync. There is an open source project [Netatalk](http://netatalk.sourceforge.net/) Apple Filing Protocol ([AFP](https://en.wikipedia.org/wiki/Apple_Filing_Protocol)) fileserver. Some years ago I testet Apple Time Machine and Netatalk on a Solaris 11 server. It worked for some time, but also failed. I dont know stable Netatalk and Apple Time Machine is now. But for me rsync is the best solution. And for backups to remote servers outside my house (by Internet connection) rsync is most likely the best tool to use. By using rsync I backup all data on my Macs. A complete reinstallation of a MacBook is done by a fresh install of OS X and then restore all data by rsync. Safe and reliable.
 
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-HXJd4gxFSv4/V5296rU5ogI/AAAAAAAALwA/bcWuJ8nnipISjDrFeuCLCI7Xoo9EguS2gCLcB/s1600/WhatIsRsyncOSX.001.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="480" src="https://1.bp.blogspot.com/-HXJd4gxFSv4/V5296rU5ogI/AAAAAAAALwA/bcWuJ8nnipISjDrFeuCLCI7Xoo9EguS2gCLcB/s640/WhatIsRsyncOSX.001.jpeg" width="640" /></a>
+![New configurations](screenshots/master/nas/nas1.jpeg)
+
