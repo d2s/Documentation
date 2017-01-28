@@ -8,10 +8,10 @@ Please add an [Issue](https://github.com/rsyncOSX/Version3.x/issues) regarding a
 
 The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day. I am not a professional developer, this is for fun only. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
 
-## Version 3.9.5 release candidate
+## Version 3.9.5
 
+- released 28 January 2017
 - I´m not adding any major new functionality to RsyncOSX, only minor enhancements.
-- I will continue to add minor enhancements for some time before releasing a new version, the release candidate will be updated from time to time
 - the focus in this release candidate is to make logs more informal and stable
 - logs are now sorted with most recent log on top (first row in table)
 - active schedules are marked red
