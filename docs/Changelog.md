@@ -10,9 +10,9 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 
 ## Version 3.9.5
 
-Version 3.9.5 might **crash** for some user. This is due too localised string representation of dates in logs. RsyncOSX only accepts `en_US` format of dates in logs. Comparing and sorting other localised string representation of dates causes a crash.
+Version 3.9.5 might **crash** for some user. This is due to localised string representation of dates in logs. RsyncOSX only accepts `en_US` format of dates in logs. Comparing and sorting other localised string representation of dates causes a crash.
 
-If RsyncOSX crash during startup please delete the schedule and logfile `~/Documents/Rsync/MacID/scheduleRsync.plist`
+If RsyncOSX crash during startup please delete the schedule and logfile: `Documents/Rsync/MacID/scheduleRsync.plist` (deleting this file only deletes any schedule and logs).
 
 
 - released 28 January 2017
