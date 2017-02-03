@@ -14,6 +14,8 @@ Sometimes rsync throws errors and does not execute as expected. Single task is i
 
 RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notfied, error is marked (in red) and work queue is reset if option in user config is set. To test enter a not valid user name for a remote server.
 
+See [releases](https://github.com/rsyncOSX/Version3.x/releases) for download.
+
 ![Shedules](screenshots/3.9.6rc/config.png)
 ![Logs](screenshots/3.9.6rc/error.png)
 
