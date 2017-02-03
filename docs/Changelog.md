@@ -8,6 +8,15 @@ Please add an [Issue](https://github.com/rsyncOSX/Version3.x/issues) regarding a
 
 The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day. I am not a professional developer, this is for fun only. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
 
+## Version 3.9.6 rc
+
+Sometimes rsync throws errors and does not execute as expected. Single task is implemented as queue of work (`estimate`, `execute` and `done`). If `estimate` or `execute` failes (by some reason) the user has to be made aware of situation and fix it. 
+
+RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notfied, error is marked (in red) and work queue is reset if option in user config is set. To test enter a not valid user name for a remote server.
+
+![Shedules](screenshots/3.9.6rc/config.png)
+![Logs](screenshots/3.9.6rc/error.png)
+
 ## Version 3.9.5
 
 Version 3.9.5 might **crash** for some user. This is due to localised string representation of dates in logs. RsyncOSX only accepts `en_US` format of dates in logs. Comparing and sorting other localised string representation of dates causes a crash.
@@ -25,7 +34,6 @@ If RsyncOSX crash during startup please delete the schedule and logfile: `Docume
 - dates are forced to "en_US" localisation to prevent RsyncOSX from crashing if the preferred language of macOS is other than english (e.g. Norwegian)
 
 ![Shedules](screenshots/3.9.5rc/screen2.png)
-
 ![Logs](screenshots/3.9.5rc/screen1.png)
 
 
