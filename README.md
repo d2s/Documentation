@@ -46,7 +46,7 @@ I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www
 
 ## Other documents
 
-There are a few other documents in context of RsyncOSX. To enable remote storage of backups please read **how to enable passwordless logins**. Rsync utilises parameters. RsyncOSX can send extra (set by user) parameters to rsync.
+There are a few other documents in context of RsyncOSX. To enable remote storage of backups please read how to [enable passwordless logins](https://github.com/rsyncOSX/Documentation/blob/master/docs/PasswordlessLogin.md). Rsync utilises parameters. RsyncOSX can send extra (set by user) parameters to rsync.
 
 
 - My [DIY NAS](https://github.com/rsyncOSX/Documentation/blob/master/docs/DIYNAS.md).
