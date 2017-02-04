@@ -4,8 +4,8 @@ In main view (which is the opening view) tasks can be executed as **single**- an
 
 There are three options for editing after selecting a task in row :
 
-- **Edit task**
-- **Parameters** (to rsync)
+- **Edit task** (see below)
+- **Parameters** (to rsync, see [parameters](https://github.com/rsyncOSX/Documentation/blob/master/docs/Parameters.md))
 - **Delete task**
 
 
@@ -40,5 +40,12 @@ The actual rsync command to be executed is shown below right corner in view. It 
 *Next task* shows what the next task is. It shows three status : *Estimate*, *Execute* or *Abort*. If Abort is pressed any executing task is aborted. After estimate run is completed and result is checked, a real run is executed by selecting the Execute button again. If you select another row after estimation a new estimation run must be completed.
 
 ![Execute](screenshots/master/singletask/execute.png)
+
+### Edit task
+
+To edit a task select row (task) and choose edit. Either `Close`to disgard changes or `OK` to save.
+
+![Execute](screenshots/master/singletask/edit.png)
+
 
 

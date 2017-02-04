@@ -12,7 +12,9 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 
 Sometimes rsync throws errors and does not execute as expected. Single task is implemented as queue of work (`estimate`, `execute` and `done`). If `estimate` or `execute` failes (by some reason) the user has to be made aware of situation and fix it. 
 
-RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notfied, error is marked (in red) and work queue is reset if option in user config is set. To test enter a not valid user name for a remote server.
+RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notfied, error is marked (in red) and work queue is reset if option in userconfig (see below) is set. To test enter a not valid user name for a remote server ([edit task](https://github.com/rsyncOSX/Documentation/blob/master/docs/SingleTask.md) in main view.
+
+Also added reporting any fileerrors (in profile) to main view.
 
 See [releases](https://github.com/rsyncOSX/Version3.x/releases) for download.
 
