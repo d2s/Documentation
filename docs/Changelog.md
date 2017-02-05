@@ -14,7 +14,10 @@ Sometimes rsync throws errors and does not execute as expected. Single task is i
 
 RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notfied, error is marked (in red) and work queue is reset if option in userconfig (see below) is set. To test enter a not valid user name for a remote server ([edit task](https://github.com/rsyncOSX/Documentation/blob/master/docs/SingleTask.md) in main view.
 
-Also added reporting any fileerrors (in profile) to main view.
+Other changes:
+
+* Also added reporting any fileerrors (in profile) to main view.
+* There is also fixed a minor bug in Profiles.
 
 See [releases](https://github.com/rsyncOSX/Version3.x/releases) for download.
 
