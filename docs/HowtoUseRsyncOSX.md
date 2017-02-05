@@ -14,18 +14,6 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 
 What about **revisions and deleted** files? In the [parameters to rsync](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Parameters.md) there is presented a solution by parameters to rsync, to save changed and deleted files in a selected backup location.
 
-## Where does RsyncOSX save configuration files?
-
-RsyncOSX configuration file, log file, scheduled tasks file and user configuration are plain XML-files ([property list files](https://en.wikipedia.org/wiki/Property_list)). Configuration files (backup and restore task configurations and schedule data) are saved in:
-
-- `~/Documents/Rsync/MacID/configRsync.plist`
-  - `~/` is user home directory
-  - `MacID` is the Mac serial number and is automatically set by RsyncOSX
-
-If _profile_ is used:
-
-- `~/Documents/Rsync/MacID/profile/configRsync.plist`
-  - `profile` is the profile identification
 
 ## Why use RsyncOSX?
 
@@ -87,3 +75,22 @@ RsyncOSX uses profiles. If not used all configurations are saved in the default 
 Selecting the `Default` button selects the default profile. **Double click** on a profile name to select the profile.
 
 ![Main view](screenshots/master/profile.png)
+
+### Logging
+
+RsyncOSX is logging all tasks. The user can choose in userconfiguration, to disable or enable detailed logging. Detailed logging is on as default. In log view all tasks with date, number of files and size transferred is logged. In the main view date and time for last execution is set.
+
+![Main view](screenshots/master/log.png)
+
+## RsyncOSX configuration files
+
+RsyncOSX configuration file, log file, scheduled tasks file and user configuration are plain XML-files ([property list files](https://en.wikipedia.org/wiki/Property_list)). Configuration files (backup and restore task configurations and schedule data) are saved in:
+
+- `~/Documents/Rsync/MacID/configRsync.plist`
+  - `~/` is user home directory
+  - `MacID` is the Mac serial number and is automatically set by RsyncOSX
+
+If _profile_ is used:
+
+- `~/Documents/Rsync/MacID/profile/configRsync.plist`
+  - `profile` is the profile identification
