@@ -28,10 +28,10 @@ The application is signed with my Apple Developer ID certificate.
 
 ## Passwordless logins and remote servers
 
-Backup to _remote servers_ require ssh _passwordless_ logins (by ssh-keygen and ssh public and private keys). Here is how to [setup passwordless](https://github.com/rsyncOSX/Documentation/blob/master/docs/PasswordlessLogin.md) logins.
+Backup to _remote servers_ require ssh _passwordless_ logins (by ssh-keygen and ssh public and private keys). Here is how to [setup passwordless](PasswordlessLogin.md) logins.
 
 ## Idea behind RsyncOSX
 
 I have two MacBooks, one is used primarily at work and the other is my private. Data is backed up to server (NAS) at home and to one offsite servers. Both MacBooks and all backup locations are kept in sync. I am using my private MacBook for Pictures (I have about 100 GB of raw picture files). Whenever I have added new picture files or done some work on pictures, changes are backup up on all servers and then restored on my MacBook used at work. The rsync command-line tool is one of the best tools around for backup and synchronizing storage. A GUI ontop of rsync might hide all the details about parameters to rsync and make rsync execute the correct actions.
 
-Some more details about the [idea](https://github.com/rsyncOSX/Documentation/blob/master/docs/Idea.md) for RsyncOSX.
+Some more details about the [idea](Idea.md) for RsyncOSX.
