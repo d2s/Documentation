@@ -8,7 +8,7 @@ Please add an [Issue](https://github.com/rsyncOSX/Version3.x/issues) regarding a
 
 The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day. I am not a professional developer, this is for fun only. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
 
-## Version 3.9.6 rc
+## Version 3.9.7
 
 Sometimes rsync throws errors and does not execute as expected. Single task is implemented as queue of work (`estimate`, `execute` and `done`). If `estimate` or `execute` failes (by some reason) the user has to be made aware of situation and fix it. 
 
@@ -16,9 +16,9 @@ RsyncOSX checks output from rsync for string *rsync error:*. If found main view 
 
 Other changes:
 
-* Updated 24 February 2017
-* Also added reporting any fileerrors (in profile) to main view.
-* There is also fixed a minor bug in Profiles.
+- Added reporting any file errors (in profile) to main view. 
+- There is also fixed a minor bug in Profiles.
+- In About menu reference to GitHub Pages about Changelog and Documentation of RsyncOSX
 
 See [releases](https://github.com/rsyncOSX/Version3.x/releases) for download.
 
