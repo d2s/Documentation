@@ -1,4 +1,4 @@
-## Changelog
+# Changelog
 
 I am using the application on a daily basis and it evolves during my own use. Any suggestions for new _features_, _changed features_ and _bug reports_ are more than welcome. 
 
