@@ -16,6 +16,8 @@ RsyncOSX checks output from rsync for string *rsync error:*. If found main view 
 
 Other changes:
 
+- released 2 March 2017
+- some refactor and several cleanup of code
 - Added reporting any file errors (in profile) to main view. 
 - There is also fixed a minor bug in Profiles.
 - In About menu reference to GitHub Pages about Changelog and Documentation of RsyncOSX
