@@ -1,5 +1,9 @@
 # RsyncOSX
 
+#### GitHub pages
+
+The RsyncOSX [documentation](https://rsyncosx.github.io/Documentation/) is also avaliable as GitHub pages.
+
 The following are documents about RsyncOSX. The _first_ document is how to get and install RsyncOSX. The _second_ document is some information what RsyncOSX is and how to use the application. Please read the _second_ document before using the application.
 
 - Getting and installing (#1) [RsyncOSX](docs/RsyncOSX.md).
