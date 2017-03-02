@@ -12,7 +12,7 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 - _source_: the local volume to be copied
 - _destination_: the remote location where source files and catalogs are copied
 
-What about **revisions and deleted** files? In the [parameters to rsync](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Parameters.md) there is presented a solution by parameters to rsync, to save changed and deleted files in a selected backup location.
+What about **revisions and deleted** files? In the [parameters to rsync](Parameters.md) there is presented a solution by parameters to rsync, to save changed and deleted files in a selected backup location.
 
 
 ## Why use RsyncOSX?
@@ -53,7 +53,7 @@ Any user just looking for an easy to use backup tool is advised to use other and
 
 - you have some understanding of the command-line tool rsync
 - you have some knowledge about running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS
-- you are able to [setup a ssh password-less login](https://github.com/rsyncOSX/Documentation/blob/master/Docs/PasswordlessLogin.md) between the Mac and the remote server
+- you are able to [setup a ssh password-less login](PasswordlessLogin.md) between the Mac and the remote server
 
 
 ## The main opening view
