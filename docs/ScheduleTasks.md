@@ -33,4 +33,9 @@ RsyncOSX gets info about remote sever and local path. In the Execute view a numb
 
 Select row and then **Stop and/or delete schedules**. Either stop or delete task. If a task is deleted all logs regarding the task is deleted. The number `Logs` is how many log items there is in each schedule. Schedule with starddate `01 Jan 1900 00:00` is manually executed tasks. Schedules are sorted with most recent schedule on top.
 
-![Schedule](screenshots/master/scheduling/schedule4.png)
+![Schedule](screenshots/master/scheduling/schedule6.png)
+
+Logs are sorted with most recent ontop.
+
+![Schedule](screenshots/master/scheduling/schedule5.png)
+

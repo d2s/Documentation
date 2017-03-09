@@ -94,3 +94,10 @@ If _profile_ is used:
 
 - `~/Documents/Rsync/MacID/profile/configRsync.plist`
   - `profile` is the profile identification
+
+## Rsync errors
+
+Sometimes rsync throws errors. RsyncOSX does a simple check in output if there are any occurence of the prashe `rsync error:`. If found RsyncOSX resets the work queue. This is *not* a advanced error handling.
+
+![Main view](screenshots/master/error.png)
+![Main view](screenshots/master/config.png)
