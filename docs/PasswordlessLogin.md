@@ -25,9 +25,13 @@ See _comment on ssh-keygen_ below (about RSA or DSA based crypto).
 
 `Mac$ cat ~/.ssh/id_rsa.pub | ssh user@server.com "cat .ssh/authorized_keys"`
 
+or
+
+`scp .ssh/id_rsa.pub ssh user@server.com:.ssh/authorized_keys`
+
 **Step 4** : login in to `user@server.com` and set the correct permissions for the `.ssh` catalog and `authorized_keys` file.
 
-`Mac$ ssh user@server.com` ` cd` ` chmod 700 .ssh` ` chmod 600 .ssh/authorized_keys`
+`Mac$ ssh user@server.com` `cd` `chmod 700 .ssh` `chmod 600 .ssh/authorized_keys`
 
 **Step 5** : test login from Mac, password is not required.
 
@@ -45,15 +49,19 @@ My knowledge of crypto is very limited. The parameter **-t rsa** creates one key
 
 **Step 2**: login to your server and create a `.ssh` directory in your home catalog. The instructions are **four commands**, first `login`, then `cd` then `mkdir` and `exit`.
 
-`Mac$ ssh user@server.com` ` cd` ` mkdir .ssh` ` exit`
+`Mac$ ssh user@server.com` `cd` `mkdir .ssh` `exit`
 
-**Step 3**` `: copy through ssh the public key from the Mac `.ssh` directory to the server.
+**Step 3** copy through ssh the public key from the Mac `.ssh` directory to the server.
 
-`Mac$ cat ~/.ssh/id_dsa.pub | ssh user@server.com "cat .ssh/authorized_keys2"`
+`Mac$ cat ~/.ssh/id_dsa.pub | ssh user@server.com "cat .ssh/authorized_keys2"` 
+
+or
+
+`scp .ssh/id_dsa.pub ssh user@server.com:.ssh/authorized_keys2`
 
 **Step 4**: login in to `user@server.com` and set the correct permissions for the `.ssh` catalog and `authorized_keys2` file.
 
-`Mac$ ssh user@server.com` ` cd` ` chmod 700 .ssh` ` chmod 600 .ssh/authorized_keys2` ` exit`
+`Mac$ ssh user@server.com` `cd` `chmod 700 .ssh` `chmod 600 .ssh/authorized_keys2` `exit`
 
 **Step 5**: test login from Mac, password is not required.
 
