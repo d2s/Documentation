@@ -25,9 +25,9 @@ See _comment on ssh-keygen_ below (about RSA or DSA based crypto).
 
 `Mac$ cat ~/.ssh/id_rsa.pub | ssh user@server.com "cat .ssh/authorized_keys"`
 
-or
+or use secure copy
 
-`scp .ssh/id_rsa.pub ssh user@server.com:.ssh/authorized_keys`
+`Mac$ scp ~/.ssh/id_rsa.pub ssh user@server.com:.ssh/authorized_keys`
 
 **Step 4** : login in to `user@server.com` and set the correct permissions for the `.ssh` catalog and `authorized_keys` file.
 
@@ -55,9 +55,9 @@ My knowledge of crypto is very limited. The parameter **-t rsa** creates one key
 
 `Mac$ cat ~/.ssh/id_dsa.pub | ssh user@server.com "cat .ssh/authorized_keys2"` 
 
-or
+or use secure copy
 
-`scp .ssh/id_dsa.pub ssh user@server.com:.ssh/authorized_keys2`
+`Mac$ scp ~/scp .ssh/id_dsa.pub ssh user@server.com:.ssh/authorized_keys2`
 
 **Step 4**: login in to `user@server.com` and set the correct permissions for the `.ssh` catalog and `authorized_keys2` file.
 
