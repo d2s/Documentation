@@ -1,5 +1,7 @@
 ## My DIY NAS
 
+Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
+
 This page is a short resume about my DIY (do it yourself) [NAS](https://en.wikipedia.org/wiki/Network-attached_storage). For some time I have wanted to upgrade the old NAS (from 2010). A server crash in October 2016 forced me to commence an upgrade both the OS and HW platform. Upgrade of the hardware can quickly become a challenge if the OS does not support the hardware. And some of the OS I tried out did not support my HW.
 
 I do not spend much time building or maintaining my NAS. The main purposes of my NAS are:

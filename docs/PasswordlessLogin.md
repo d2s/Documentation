@@ -1,5 +1,6 @@
 ## Passwordless logins
- 
+
+Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
  
 Backup to offsite or remote backup locations (servers) requires some more setup. By using rsync from command-line it prompts for login ID and password. There is, as far as I know, no solution for passing login credentials to rsync command-line tool by parameter. But ssh has possibility to enable **passwordless** logins by using ssh generated private and public key-pair. 
 

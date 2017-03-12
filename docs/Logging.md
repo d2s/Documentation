@@ -1,5 +1,7 @@
 ## Logging
 
+Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
+
 Detailed logging in RsyncOSX might be switched on/off in userconfiguration. Only **backup** tasks are logged. All logdata is by default listed in table within Logs view (sorted by date). Logdata can be _filtered_ by textsearch in:
 
 

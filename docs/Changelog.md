@@ -1,5 +1,7 @@
 # Changelog
 
+Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
+
 I am using the application on a daily basis and it evolves during my own use. Any suggestions for new _features_, _changed features_ and _bug reports_ are more than welcome. 
 
 Please add an [Issue](https://github.com/rsyncOSX/Version3.x/issues) regarding any requests or bugs.

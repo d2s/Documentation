@@ -1,4 +1,6 @@
 ## Idea behind RsyncOSX
+
+Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
  
 First of all I needed a project as a start for learning Swift and Xcode.
 

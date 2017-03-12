@@ -1,5 +1,7 @@
 ## User configuration
 
+Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
+
 There are only a few parameters to choose in user configuration. The three parameters are:
  
  - another version of rsync

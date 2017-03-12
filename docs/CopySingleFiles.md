@@ -1,5 +1,7 @@
 ## Copy single files or catalogs
 
+Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
+
 Copy file and volume enables the user to select single file or catalogs for restore to a selected local storage. The _source_ for copy is either _selected row in Execute view_ or if selecting `Select` button drop down list of all backup locations. 
 
 * button is labeled `Select` if no location is selected in main view, pressing select pops up a list of backup locations

@@ -1,5 +1,7 @@
 ## Schedule task
 
+Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
+
 By selecting a row and choose schedule applies a scheduled backup to a task. There are four(three) choices for schedules :
 
 - Once

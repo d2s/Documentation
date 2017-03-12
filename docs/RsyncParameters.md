@@ -1,4 +1,6 @@
 ## Rsync parameters
+
+Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
  
 RsyncOSX implements standard parameters which are working fine for simple backup and restore tasks. The actual parameters used in tasks is depended upon executing rsync over _network connection_ or not. Which _standard_ parameters to use is computed during startup of application by reading the configuration file.
 
