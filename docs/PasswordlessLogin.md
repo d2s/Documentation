@@ -24,7 +24,7 @@ See _comment on ssh-keygen_ below (about RSA or DSA based crypto).
 
 **Step 3** : copy through ssh the public key from the Mac `.ssh` directory to the server.
 
-`Mac$ cat ~/.ssh/id_rsa.pub | ssh user@server.com "cat .ssh/authorized_keys"`
+`Mac$ cat ~/.ssh/id_rsa.pub | ssh user@server.com > "cat .ssh/authorized_keys"`
 
 or use secure copy
 
@@ -54,7 +54,7 @@ My knowledge of crypto is very limited. The parameter **-t rsa** creates one key
 
 **Step 3** copy through ssh the public key from the Mac `.ssh` directory to the server.
 
-`Mac$ cat ~/.ssh/id_dsa.pub | ssh user@server.com "cat .ssh/authorized_keys2"` 
+`Mac$ cat ~/.ssh/id_dsa.pub | ssh user@server.com "cat > .ssh/authorized_keys2"` 
 
 or use secure copy
 
