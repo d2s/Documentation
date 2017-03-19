@@ -10,11 +10,24 @@ Please add an [Issue](https://github.com/rsyncOSX/Version3.x/issues) regarding a
 
 The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day. I am not a professional developer, this is for fun only. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
 
+## Version 4.1.0
+
+* released 19 March 2017
+* fixed one bug in parameters to rsync (causing RsyncOSX to crash)
+* new help function - opens relevant html page in browser
+* added new info using rsync version 3.1.2 (number of new and deleted files)
+
+![](screenshots/4.1.0/new.png)
+![](screenshots/4.1.0/help.png)
+
 ## Version 4.0.0
 
 * released 8 March 2017
 * new application icon by Forrest Walter (this is the primary reason why releasing a new version)
-* added new functionality in `Copy files` (will update documents soon)
+* added new functionality in `Copy files` - double click on source get filelist from remote server
+
+![](screenshots/4.0.0/copy.png)
+
 
 ## Version 3.9.7
 

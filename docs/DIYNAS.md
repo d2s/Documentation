@@ -20,43 +20,46 @@ I am also observant of not storing personal and sensitive information unsecured 
 I have **not** tested rsync on encrypted folders or volumes. I am quite sure it works, but I do not know how effective rsync is when there are changes within the encrypted folder or volume.
 
 
-## Replace Oracle Solaris as NAS SW?
+## Setup of NAS
 
-Until recently I have only used the trial version of Oracle Solaris 11.3. There are no updates and bug fixes for the trial version. Receiving updates and bug fixes cost money. There are several options for installing NAS by using free and open source SW. That is the main reason for choosing other OS for my NAS. There are two options :
+Until October 2016 I have only used the trial version of Oracle Solaris 11.3 and [Napp-it](https://www.napp-it.org/) as NAS. I have been using trial verison of Solaris with Napp-it for years. It was stable until a HW failure caused a breakdown of NAS. There is one major drawback by using trial version of Solaris. There are no updates and bug fixes. Receiving updates and bug fixes cost money. 
 
-- either go for a special NAS SW (as NAS4Free or FreeNAS) 
-- or use stock OS (as FreeBSD 11 or Ubuntu 16.10).
+### Opensource based NAS
 
-After some testing of [FreeBSD 11](https://www.freebsd.org/), [NAS4free](http://www.nas4free.org/) and [FreeNAS](http://www.freenas.org/) I have decided to go for NAS4free. I did not try Ubuntu 16.10\. The decision to go for NAS4free is not scientific. I have two requirements for my NAS : ZFS and minimal effort to setup and use. And of course stability. There are other NAS solutions but they do not support ZFS.
+There are several options for installing NAS by using free and opensource SW. That was the main reason for choosing other OS for my NAS. There are two options:
+
+- either go for a special NAS SW (as NAS4Free, FreeNAS or Openmediavolt) 
+- or use stock OS (as FreeBSD 11 or Ubuntu 16.10).  
+
+[FreeBSD 11](https://www.freebsd.org/) was installed and booted fine. I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There was to much tweaking and installing of various ports to get it up and running as NAS and sharing out filesystems. Creating and mounting zpools by command line using the correct parameters is not trivial. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
+
+[Openmediavolt](http://www.openmediavault.org/) is not an option for me due to no native support for ZFS. There is support for ZFS by installing a plugin.
+
+I also dropped testing of Ubuntu 16.10 due to reasons as for FreeBSD 11.
+
+I have two requirements for my NAS : ZFS and minimal effort to setup and use. And of course stability. For me there are only two solutions:
+
+- [NAS4free](http://www.nas4free.org/)
+- [FreeNAS](http://www.freenas.org/)
+
+Both are based on FreeBSD 11. 
 
 ### Other OS options
 
-Other possible OS options supporting ZFS are:
+Other possible OS supporting ZFS are:
 
 - [OmniOS](https://omnios.omniti.com/) (recommended by [napp-it.org](http://napp-it.org/))
-- [OpenIndiana Hipster](http://www.openindiana.org/) 
+- [OpenIndiana Hipster](http://www.openindiana.org/)
 
 Both OS booted into single user mode (due to missing support of HW). And that was an effective stop of further testing.
 
-## Why NAS4free?
+## Why FreeNAS Corral
 
 [ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux.
 
-I downloaded **FreeNAS** nightly build. FreeNAS did not boot properly on my hardware. I have read a lot of positive reviews of FreeNAS. Sorry it did not boot properly on my NAS and I dropped any further tests.
+FreeNAS has released a new version FreeNAS Corral. For some time I have used NAS4Free. The latest update of NAS4Free caused me some troubles and a week ago I got a newsletter about FreeNAS Corral. So i decidede to install FreeNAS.
 
-**FreeBSD 11** was installed and booted fine. I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There was to much tweaking and installing of various ports to get it up and running as NAS and sharing out filesystems. Creating and mounting zpools by command line using the correct parameters is not trivial. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
-
-I dropped testing of Ubuntu 16.10 due to reasons as for FreeBSD 11.
-
-### Installed version of Nas4free
-
-I installed **NAS4free** and imported zpools created in FreeBSD. After installation I used about *one hour* to get it up and running. The GUI in NAS4free is easy, intuitive and nice to use. 
-
-I have installed release 11.0.0.4 - revision 3460 of NAS4free which is based on FreeBSD 11.0-RELEASE-p7. The version was released **17 January 2017**.
-
-The NAS has been operating perfectly for at least a couple of months. There has been two upgrades of _firmware_ without any problems during these two months. I am not using any extensions and I am not _abusing_ the NAS. So far only positive experience with NAS4free. And my experince is not based upon any scientific work.
-
-My NAS4Free based NAS is now setup to do the following:
+My FreeNAS based NAS is now setup to do the following:
 
 - Mounted a mirrored zpool used for backup by using RsyncOSX. To use RsyncOSX (or rsync) I enabled ssh and rsync on the server (by using the GUI). I added a user (thomas) and enabled [passwordless login](https://github.com/rsyncOSX/Documentation/blob/master/PasswordlessLogin.md).
 - Shared out a SMB filesystem.
