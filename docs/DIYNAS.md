@@ -26,25 +26,22 @@ Until October 2016 I have only used the trial version of Oracle Solaris 11.3 and
 
 ### Opensource based NAS
 
-There are several options for installing NAS by using free and opensource SW. That was the main reason for choosing other OS for my NAS. There are two options:
+There are several options for installing NAS by using free and opensource based solutions. That was the main reason for choosing other OS for my NAS. There are two options:
 
 - either go for a special NAS SW (as NAS4Free, FreeNAS or Openmediavolt) 
 - or use stock OS (as FreeBSD 11 or Ubuntu 16.10).  
 
-[FreeBSD 11](https://www.freebsd.org/) was installed and booted fine. I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There was to much tweaking and installing of various ports to get it up and running as NAS and sharing out filesystems. Creating and mounting zpools by command line using the correct parameters is not trivial. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
+### FreeBSD 11 or Ubuntu 16.10
 
-[Openmediavolt](http://www.openmediavault.org/) is not an option for me due to no native support for ZFS. There is support for ZFS by installing a plugin.
+[FreeBSD 11](https://www.freebsd.org/) was installed and booted fine. I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There was to much tweaking and installing of various ports to get it up and running as NAS and sharing out filesystems. Creating and mounting zpools by command line using the correct parameters is not trivial. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
 
 I also dropped testing of Ubuntu 16.10 due to reasons as for FreeBSD 11.
 
-I have two requirements for my NAS : ZFS and minimal effort to setup and use. And of course stability. For me there are only two solutions:
+### Openmediavolt
 
-- [NAS4free](http://www.nas4free.org/)
-- [FreeNAS](http://www.freenas.org/)
+[Openmediavolt](http://www.openmediavault.org/) is not an option for me due to no native support for ZFS. There is support for ZFS by installing a plugin.
 
-Both are based on FreeBSD 11. 
-
-### Other OS options
+### OmniOS and OpenIndiana
 
 Other possible OS supporting ZFS are:
 
@@ -53,16 +50,31 @@ Other possible OS supporting ZFS are:
 
 Both OS booted into single user mode (due to missing support of HW). And that was an effective stop of further testing.
 
-## Why FreeNAS Corral
+## FreeNAS Corral
+
+I have the following requirements for my NAS:
+
+- [ZFS](https://en.wikipedia.org/wiki/ZFS), a very robust filesystem
+- minimal effort to setup and use
+- stability
+- ssh and rsync
+
+The above narrows down two options:
+
+- [NAS4free](http://www.nas4free.org/) or
+- [FreeNAS](http://www.freenas.org/)
+
+Both are based on FreeBSD 11. 
 
 [ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux.
 
-FreeNAS has released a new version FreeNAS Corral. For some time I have used NAS4Free. The latest update of NAS4Free caused me some troubles and a week ago I got a newsletter about FreeNAS Corral. So i decidede to install FreeNAS.
+FreeNAS has released a new version *FreeNAS Corral*. For some time I have used NAS4Free. The latest update of NAS4Free caused me some troubles and a week ago I got a newsletter about FreeNAS Corral. So i decidede to install FreeNAS.
 
 My FreeNAS based NAS is now setup to do the following:
 
 - Mounted a mirrored zpool used for backup by using RsyncOSX. To use RsyncOSX (or rsync) I enabled ssh and rsync on the server (by using the GUI). I added a user (thomas) and enabled [passwordless login](https://github.com/rsyncOSX/Documentation/blob/master/PasswordlessLogin.md).
-- Shared out a SMB filesystem.
+- Shared out a SMB and AFP filesystem.
+- Accepts rsync over ssh
 
 ## The NAS
 
