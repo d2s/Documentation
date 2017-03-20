@@ -15,7 +15,8 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 * released 19 March 2017
 * fixed one bug in parameters to rsync (causing RsyncOSX to crash)
 * new help function - opens relevant html page in browser
-* added new info using rsync version 3.1.2 (number of new and deleted files)
+* added new info using rsync version 3.1.2 (number of *new* and *delete* files)
+	* see [user configuration](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html) how set other version of rsync
 
 ![](screenshots/4.1.0/new.png)
 ![](screenshots/4.1.0/help.png)
