@@ -64,7 +64,9 @@ All configurations to execute are listed in table. From this screen all actions 
 
 There are two labels on top of table : **Profile** and **Double click: YES**. Configurations can be saved in user selected profiles. The profile in use is shown in label `Profile : name`. `Double click:YES` (or NO) either allow or dont allow executing single tasks by double click on row. Disable or enable in Configuration.
 
-![Main view](screenshots/master/main.png)
+**Important**: Information about *new:* and *delete:* files and remote number of directories are only avaliable if version 3.x of rsync is used.
+
+![Main view](screenshots/master/main1.png)
 
 
 ### Profiles
