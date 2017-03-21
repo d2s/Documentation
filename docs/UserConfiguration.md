@@ -11,7 +11,7 @@ There are only a few parameters to choose in user configuration. The three param
  - allow double click to execute single tasks
  	- if **on** any single task might be executed by double click on a row
 - allow rsync error to reset work queue
-	- RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notfied, error is marked (in red) and work queue is reset if option in userconfig (see below) is set. To test enter a not valid user name for a remote server ([edit task](https://github.com/rsyncOSX/Documentation/blob/master/docs/SingleTask.md) in main view)
+	- RsyncOSX checks output from rsync for string `rsync error:`. If found main view is notfied, error is marked (in red) and work queue is reset if option in userconfig is set. To test enter a not valid user name for a remote server ([edit task](SingleTask.md) in main view)
  
 If the user selectes another version of rsync, RsyncOSX does check if there is a rsync in path set by user. If there is no rsync in path RsyncOSX will not execute any tasks. The red _configurations_ (rows in table) is only because I have not started my VirtualBox FreeBSD instance and RsyncOSX does not receive any answer (check is done automatically)
 
