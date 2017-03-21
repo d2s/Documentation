@@ -16,7 +16,7 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 * fixed one bug in parameters to rsync (causing RsyncOSX to crash)
 * new help function - opens relevant html page in browser
 * added new info using rsync version 3.1.2 (number of *new* and *delete* files)
-	* see [user configuration](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html) how set other version of rsync
+	* see [user configuration](UserConfiguration.md) how set other version of rsync
 
 ![](screenshots/4.1.0/new.png)
 ![](screenshots/4.1.0/help.png)
@@ -25,7 +25,7 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 
 * released 8 March 2017
 * new application icon by Forrest Walter (this is the primary reason why releasing a new version)
-* added new functionality in `Copy files` - double click on source get filelist from remote server
+* added new functionality in `Copy files` - double click on source get list of files from remote server
 
 ![](screenshots/4.0.0/copy.png)
 
@@ -34,7 +34,7 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 
 Sometimes rsync throws errors and does not execute as expected. Single task is implemented as queue of work (`estimate`, `execute` and `done`). If `estimate` or `execute` failes (by some reason) the user has to be made aware of situation and fix it. 
 
-RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notfied, error is marked (in red) and work queue is reset if option in userconfig (see below) is set. To test enter a not valid user name for a remote server ([edit task](https://github.com/rsyncOSX/Documentation/blob/master/docs/SingleTask.md) in main view).
+RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notfied, error is marked (in red) and work queue is reset if option in userconfig (see below) is set. To test enter a not valid user name for a remote server ([edit task](SingleTask.md) in main view).
 
 Other changes:
 
@@ -79,7 +79,7 @@ If RsyncOSX crash during startup please delete the schedule and logfile: `Docume
 After releasing this version I will not release new versions for some time. I have to focus on my new job (start 2 January 2017) for some time. I will continue to develop RsyncOSX in the future, but the number of new releases will drop compared to 2016. 
 
 - fixed bug in profiles
-- added an alternative suffix (in [parameters](https://github.com/rsyncOSX/Documentation/blob/master/docs/Parameters.md) to rsync)
+- added an alternative suffix (in [parameters](Parameters.md) to rsync)
 - added delete log rows in log view
 - even more cleanup of code
 
@@ -123,7 +123,7 @@ After releasing this version I will not release new versions for some time. I ha
 ## Version 3.6.1
 
 - released 15 November 2016
-- [logs part](https://github.com/rsyncOSX/Documentation/blob/master/Docs/Logging.md) is changed, text search for **remote server**, **local catalog** or **executed date/time**
+- [logs part](Logging.md) is changed, text search for **remote server**, **local catalog** or **executed date/time**
 - there is a bug in deleting ssh-port - **fixed**
 - there is a bug in enabling Profiles menu when RsyncOSX is started on a Mac for the first time (Profiles menu is not enabled) - **fixed**
 - sometimes output from rsync is set to **nil** (in RsyncOSX), doing an unwrap of nil value causes RsyncOSX to crash - **fixed**
