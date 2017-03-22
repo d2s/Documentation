@@ -11,7 +11,13 @@ I do not spend much time building or maintaining my NAS. The main purposes of my
 
 My knowledge about computer hardware is very limited. The hardware in new NAS is more or less selected by advices from the computer store. The most important objective is to get hardware which is supported by the OS. The form factor of the motherboard also narrows the possibilities. I want a small NAS and decided to go for a [mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard.  The hardware in my NAS is probably not the best solution. But it works (finally).
 
+### Why backup
+
 For me, backup is very important. And do backup to several locations and keep the backups in the different locations synchronised. Not loosing data is the obvious reason for doing backup. There are several ways to "loose" data. Disk crash is one. Highjacking by ransomware another. A **restore** of data is a cheap solution if either of the them occurs.
+
+### Backup by using rsync
+
+The rsync utility is avaliiable on most OS plattforms. It has been around for some time and it is rock solid and very effective. See also [How to Use RsyncOSX](HowtoUseRsyncOSX.md) about rsync and RsyncOSX.
 
 ## Encrypt sensitive information
 
@@ -22,18 +28,18 @@ I have **not** tested rsync on encrypted folders or volumes. I am quite sure it 
 
 ## Setup of NAS
 
-Until October 2016 I have only used the trial version of Oracle Solaris 11.3 and [Napp-it](https://www.napp-it.org/) as NAS. I have been using trial verison of Solaris with Napp-it for years. It was stable until a HW failure caused a breakdown of NAS. There is one major drawback by using trial version of Solaris. There are no updates and bug fixes. Receiving updates and bug fixes cost money. 
+Until October 2016 I have only used the trial version of Oracle Solaris 11.3 and [napp-it](https://www.napp-it.org/) as NAS. I have been using trial verison of Solaris and napp-it for years. It was stable until a HW failure caused a breakdown of NAS. There is one major drawback by using trial version of Solaris. There are no updates and bug fixes. Receiving updates and bug fixes cost money. 
 
-### Opensource based NAS
+### Opensourced based NAS
 
-There are several options for installing NAS by using free and opensource based solutions. That was the main reason for choosing other OS for my NAS. There are two options:
+There are several options for installing NAS by using free and opensourced based solutions. That was the main reason for choosing other OS for my NAS. There are two options:
 
 - either go for a special NAS SW (as NAS4Free, FreeNAS or Openmediavolt) 
 - or use stock OS (as FreeBSD 11 or Ubuntu 16.10).  
 
 ### FreeBSD 11 or Ubuntu 16.10
 
-[FreeBSD 11](https://www.freebsd.org/) was installed and booted fine. I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There was to much tweaking and installing of various ports to get it up and running as NAS and sharing out filesystems. Creating and mounting zpools by command line using the correct parameters is not trivial. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
+Before going testing a NAS SW I tried out [FreeBSD 11](https://www.freebsd.org/). FreeBSD was installed and booted fine on my new hardware. I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There was to much tweaking and installing of various ports to get it up and running as NAS and sharing out filesystems. Creating and mounting zpools by command line using the correct parameters is not trivial. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
 
 I also dropped testing of Ubuntu 16.10 due to reasons as for FreeBSD 11.
 
@@ -68,15 +74,15 @@ Both are based on FreeBSD 11.
 
 [ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux.
 
-FreeNAS has released a new version *FreeNAS Corral*. For some time I have used NAS4Free. The latest update of NAS4Free caused me some troubles and a week ago I got a newsletter about FreeNAS Corral. So i decidede to install FreeNAS.
+FreeNAS has released a new version *FreeNAS Corral*. For some time I have used NAS4Free. The latest update of NAS4Free caused me some troubles and a week ago (March 2017). I got a newsletter about FreeNAS Corral. So i decidede to install FreeNAS.
 
 My FreeNAS based NAS is now setup to do the following:
 
-- Mounted a mirrored zpool used for backup by using RsyncOSX. To use RsyncOSX (or rsync) I enabled ssh and rsync on the server (by using the GUI). I added a user (thomas) and enabled [passwordless login](https://github.com/rsyncOSX/Documentation/blob/master/PasswordlessLogin.md).
-- Shared out a SMB and AFP filesystem.
+- Mounted a mirrored zpool used for backup by using RsyncOSX. To use RsyncOSX (or rsync) I enabled ssh and rsync on the server (by using the GUI). I added a user (thomas) and enabled [passwordless login](PasswordlessLogin.md).
+- sharing out a SMB and AFP filesystem.
 - Accepts rsync over ssh
 
-## The NAS
+## The NAS (HW)
 
 The only piece from my old NAS to keep is an Intel RAID controller. All other HW is replaced (not the storage). Why keep the RAID controller? First of all it is supported by most OS. The motherboard has only four SATA ports. I have (including the boot disk) seven SATA disks. The RAID controller has 8-ports and all disks except the boot disk, is connected to the RAID controller. The controller is discontinued but it stills works.
 
