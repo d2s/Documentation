@@ -56,7 +56,7 @@ Other possible OS supporting ZFS are:
 
 Both OS booted into single user mode (due to missing support of HW). And that was an effective stop of further testing.
 
-## FreeNAS Corral
+## FreeNAS Corral (and NAS4Free)
 
 I have the following requirements for my NAS:
 
@@ -74,9 +74,12 @@ Both are based on FreeBSD 11.
 
 [ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux.
 
-FreeNAS has released a new version *FreeNAS Corral*. For some time I have used NAS4Free. The latest update of NAS4Free caused me some troubles and a week ago (March 2017). I got a newsletter about FreeNAS Corral. So i decidede to install FreeNAS.
+For some time (about 6 months) I have used NAS4Free. Release 11.0.0.4.4040 of NAS4Free caused me some troubles. Ssh connections was broken and after upgrading I was not able to connect to the server by `ssh`. Without `ssh` RsyncOSX does not work. There is also an issue about ssh and NAS4Free. From time to time the NAS4Free server did not accept `ssh` connections. Ssh was not broken prior to release of 11.0.0.4.4040, but there were some unresolved issues.    
 
-My FreeNAS based NAS is now setup to do the following:
+I got a newsletter about *FreeNAS Corral*. So i decidede to install FreeNAS. I was tempted by info in newsletter to try it out. 
+
+
+My *FreeNAS Corral* based NAS is now setup to do the following:
 
 - Mounted a mirrored zpool used for backup by using RsyncOSX. To use RsyncOSX (or rsync) I enabled ssh and rsync on the server (by using the GUI). I added a user (thomas) and enabled [passwordless login](PasswordlessLogin.md).
 - sharing out a SMB and AFP filesystem.
