@@ -7,7 +7,7 @@ In main view (which is the opening view) tasks can be executed as **single**- an
 There are three options for editing after selecting a task in row :
 
 - **Edit task** (see below)
-- **Parameters** (to rsync, see [parameters](https://github.com/rsyncOSX/Documentation/blob/master/docs/Parameters.md))
+- **Parameters** (to rsync, see [parameters](Parameters.md))
 - **Delete task**
 
 
