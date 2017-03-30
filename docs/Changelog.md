@@ -10,6 +10,17 @@ Please add an [Issue](https://github.com/rsyncOSX/Version3.x/issues) regarding a
 
 The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day. I am not a professional developer, this is for fun only. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
 
+## Version 4.1.5rc
+
+The rc will be updated from time to time, next release 4.2.0 due in some time (dont know when)
+
+* released 30 March 2017
+* compiled with new release of Xcode (version 8.3)
+* enhanced the batchwork part
+* fixed a minor bug in checking for rsync error
+
+![](screenshots/4.1.5rc/batch.png)
+
 ## Version 4.1.0
 
 * released 19 March 2017
