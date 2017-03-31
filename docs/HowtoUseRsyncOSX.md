@@ -4,15 +4,15 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 
-- backup (and restore) local files on Mac to remote servers connected to Internet or local network
+> - backup (and restore) local files on Mac to remote servers connected to Internet or local network
   - the above is why I wrote RsyncOSX to use myself
-- backup (and restore) local files on Mac to local storage (attached disks)
+> - backup (and restore) local files on Mac to local storage (attached disks)
   - if this is _the only use_ there might be _other tools_ more useful than RsyncOSX
 
 **Warning**: default parameters for rsync is to **synchronise** the **source** and **destination**. A "restore" will **delete** all files in the source which are not in the destination. The main objective to RsyncOSX is to keep the **source** directory and **destination** (backup) directory **in sync**. When a source directory is backed up, the destination is 100% in sync with source in the moment the backup task is completed. There are **no revisions** of files in the backup in **default RsyncOSX**. Old files in the backup are either replaced with new ones or deleted if so is true in source.
 
-- _source_: the local volume to be copied
-- _destination_: the remote location where source files and catalogs are copied
+> - _source_: the local volume to be copied
+> - _destination_: the remote location where source files and catalogs are copied
 
 What about **revisions and deleted** files? In the [parameters to rsync](Parameters.md) there is presented a solution by parameters to rsync, to save changed and deleted files in a selected backup location.
 

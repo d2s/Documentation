@@ -4,33 +4,33 @@
 
 Before installing and using RsyncOSX there are some important information to read and understand. 
 
-- Getting and installing (#1) [RsyncOSX](docs/RsyncOSX.md).
-- Important (#2) [information](docs/HowtoUseRsyncOSX.md) about what RsyncOSX is.
+> - Getting and installing (#1) [RsyncOSX](docs/RsyncOSX.md).
+> - Important (#2) [information](docs/HowtoUseRsyncOSX.md) about what RsyncOSX is.
 
 ### Using RsyncOSX
 
 The following are documents about RsyncOSX. The _first_ document is how to get and install RsyncOSX. The _second_ document is some information what RsyncOSX is and how to use the application. Please read the _second_ document before using the application.
 
-- Adding [configurations](docs/AddConfigurations.md) (backup and restore).
-- Executing of [single tasks](docs/SingleTask.md) (configurations).
-- Executing of [batch tasks](docs/BatchTask.md).
-- Scheduling of [tasks](docs/ScheduleTasks.md).
-- Restore of [single files or catalogs](docs/CopySingleFiles.md).
-- [Logging](docs/Logging.md) execution of tasks.
-- Some info about [user configuration](docs/UserConfiguration.md).
+> - Adding [configurations](docs/AddConfigurations.md) (backup and restore).
+> - Executing of [single tasks](docs/SingleTask.md) (configurations).
+> - Executing of [batch tasks](docs/BatchTask.md).
+> - Scheduling of [tasks](docs/ScheduleTasks.md).
+> - Restore of [single files or catalogs](docs/CopySingleFiles.md).
+> - [Logging](docs/Logging.md) execution of tasks.
+> - Some info about [user configuration](docs/UserConfiguration.md).
 
 ### Passwordless logins
 
 Using RsyncOSX for backup to remote servers requiere to setup ssh passwordless login:
 
-- How to enable [passwordless logins](docs/PasswordlessLogin.md).
+> - How to enable [passwordless logins](docs/PasswordlessLogin.md).
 
 ### Parameters to rsync
 
 There are a couple of other important information about using RsyncOSX (and rsync):
 
-- Parameters to [rsync](docs/Parameters.md).
-- Some more info about standard [parameters to rsync](docs/RsyncParameters.md).
+> - Parameters to [rsync](docs/Parameters.md).
+> - Some more info about standard [parameters to rsync](docs/RsyncParameters.md).
 
 ## Changelog
 
@@ -56,5 +56,5 @@ I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www
 There are a few other documents in context of RsyncOSX. To enable remote storage of backups please read how to [enable passwordless logins](docs/PasswordlessLogin.md). Rsync utilises parameters. RsyncOSX can send extra (set by user) parameters to rsync.
 
 
-- My [DIY NAS](docs/DIYNAS.md).
-- The [idea](docs/Idea.md) behind RsyncOSX.
+> - My [DIY NAS](docs/DIYNAS.md).
+> - The [idea](docs/Idea.md) behind RsyncOSX.

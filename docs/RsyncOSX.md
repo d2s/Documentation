@@ -18,9 +18,9 @@ I have uploaded a short (about 5 minutes) [YouTube video of RsyncOSX](https://ww
 
 RsyncOSX is released in version 4.1.0
 
-- [download](https://github.com/rsyncOSX/RsyncOSX/releases/download/v4.1.0/RsyncOSX.dmg) latest version of RsyncOSX
-- shasum : 575ab49ce4bb3797181d8cc60fcf315ed7031ab9
-- see the [Changelog](Changelog.md) for info
+> - [download](https://github.com/rsyncOSX/RsyncOSX/releases/download/v4.1.0/RsyncOSX.dmg) latest version of RsyncOSX
+> - shasum : 575ab49ce4bb3797181d8cc60fcf315ed7031ab9
+> - see the [Changelog](Changelog.md) for info
 
 `/usr/bin/shasum ~/PathToDownload/RsyncOSX.dmg` to verify hash
 
