@@ -18,6 +18,7 @@ The rc will be updated from time to time, next release 4.2.0 due in some time (d
 * compiled with new release of Xcode (version 8.3)
 * enhanced the batchwork part
 * fixed a minor bug in checking for rsync error
+* [download](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v4.1.5rc) release candidate
 
 ![](screenshots/4.1.5rc/batch.png)
 
