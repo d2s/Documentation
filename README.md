@@ -34,7 +34,7 @@ There are a couple of other important information about using RsyncOSX (and rsyn
 
 ### My NAS setup
 
-I have setup up my own [NAS](docs/DIYNAS.md). My NAS SW is now running FreeNAS Corral. I am doing backups by using RsyncOSX and sharing out disk by AFP and SMB.
+I have setup up my own [NAS](docs/DIYNAS.md). My NAS SW is now FreeNAS Corral. I am doing backups by using RsyncOSX and sharing out disk by AFP and SMB.
 
 
 ## Changelog
