@@ -91,7 +91,7 @@ The only piece from my old NAS to keep is an Intel RAID controller. All other HW
 
 ![New configurations](screenshots/master/nas/nas2.jpg)
 
-I am quite pleased to replace Oracle Solaris as OS with NAS4Free. NAS4Free is free software and it is under continuously development. The WebGUI is intuitive, nice and easy to use. It took med just a couple of minutes to format two drives, create a new mirrored zpool, create a new user and mount 1 TB of disk to use as backup for RsyncOSX.
+I am quite pleased to replace Oracle Solaris as OS with *FreeNAS Corral*. FreeNAS Corral is free software and it is under continuously development. The WebGUI is intuitive, nice and easy to use. It took med just a couple of minutes to format two drives, create a new mirrored zpool, create a new user and mount 1 TB of disk to use as backup for RsyncOSX.
 
 Total disk in NAS is 6 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror. My NAS is sharing out 3 TB.
 

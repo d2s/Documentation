@@ -32,6 +32,11 @@ There are a couple of other important information about using RsyncOSX (and rsyn
 > - Parameters to [rsync](docs/Parameters.md).
 > - Some more info about standard [parameters to rsync](docs/RsyncParameters.md).
 
+### My NAS setup
+
+I have setup up my own [NAS](docs/DIYNAS.md). My NAS SW is now running FreeNAS Corral. I am doing backups by using RsyncOSX and sharing out disk by AFP and SMB.
+
+
 ## Changelog
 
 The RsyncOSX [changelog](docs/Changelog.md).
