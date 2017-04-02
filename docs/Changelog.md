@@ -14,7 +14,7 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 
 The rc will be updated from time to time, next release 4.2.0 due in some time (dont know when)
 
-* released 30 March 2017
+* updated 2 April 2017
 * compiled with new release of Xcode (version 8.3)
 * enhanced the batchwork part
 * fixed a minor bug in checking for rsync error
