@@ -56,6 +56,12 @@ In RsyncOSX select [RsyncOSX configuration](docs/UserConfiguration.md) and set p
 
 I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www.youtube.com/watch?v=ty1r7yvgExo) : "Downloading RsyncOSX, installing, first time configuration and using RsyncOSX for the first time. Backup (as demo) of about 120 MB of data and 4000 files to a VirtualBox FreeBSD machine."
 
+## MacUpdate
+
+RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516/rsyncosx) as well. The application is downloaded about 8000 times from MacUpdate (all versions, April 2017). RsyncOSX does also inform users about new releases and link to download new version. 
+
+To be honest, I have **no idea** how many users of RsyncOSX there is.
+
 ## Other documents
 
 There are a few other documents in context of RsyncOSX. To enable remote storage of backups please read how to [enable passwordless logins](docs/PasswordlessLogin.md). Rsync utilises parameters. RsyncOSX can send extra (set by user) parameters to rsync.
