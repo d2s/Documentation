@@ -14,10 +14,13 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 
 The rc will be updated from time to time, next release 4.2.0 due in some time (dont know when)
 
-* updated 2 April 2017
+* updated 6 April 2017
 * compiled with new release of Xcode (version 8.3)
 * enhanced the batchwork part
-* fixed a minor bug in checking for rsync error
+* fixed a couple of minor bugs
+* some cleanup in code
+* there is an issue when RsyncOSX counts files to be transferred in *batchmode*, the issue does not introduce any faults (informal only)
+* there is also an issue when RsyncOSX is logging, sometimes RsyncOSX does log 0 files and not the actual number of files and size of transfer (informal only)
 * [download](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v4.1.5rc) release candidate
 
 ![](screenshots/4.1.5rc/batch.png)
