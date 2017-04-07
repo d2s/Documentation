@@ -2,14 +2,14 @@
 
 ### Installing and important info
 
-Before installing and using RsyncOSX there are some important information to read and understand. 
+Before installing and using RsyncOSX there are some important information to read and understand. The _first_ document is how to get and install RsyncOSX. The _second_ document is some information what RsyncOSX is and how to use the application. Please read the _second_ document before using the application.
 
 > - Getting and installing (#1) [RsyncOSX](docs/RsyncOSX.md).
 > - Important (#2) [information](docs/HowtoUseRsyncOSX.md) about what RsyncOSX is.
 
 ### Using RsyncOSX
 
-The following are documents about RsyncOSX. The _first_ document is how to get and install RsyncOSX. The _second_ document is some information what RsyncOSX is and how to use the application. Please read the _second_ document before using the application.
+The following are documents about using RsyncOSX.
 
 > - Adding [configurations](docs/AddConfigurations.md) (backup and restore).
 > - Executing of [single tasks](docs/SingleTask.md) (configurations).
@@ -21,7 +21,7 @@ The following are documents about RsyncOSX. The _first_ document is how to get a
 
 ### Passwordless logins
 
-Using RsyncOSX for backup to remote servers requiere to setup ssh passwordless login:
+Using RsyncOSX for backup to remote servers requiere to setup ssh passwordless login. What is ssh passwordless login? By using ssh private and public keypair, login to remote servers without password is enabled.
 
 > - How to enable [passwordless logins](docs/PasswordlessLogin.md).
 
