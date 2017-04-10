@@ -10,18 +10,16 @@ Please add an [Issue](https://github.com/rsyncOSX/Version3.x/issues) regarding a
 
 The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day. I am not a professional developer, this is for fun only. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
 
-## Version 4.1.5rc
+## Version 4.2.0
 
-The rc will be updated from time to time, next release 4.2.0 due in some time (dont know when)
-
-* updated 6 April 2017
-* compiled with new release of Xcode (version 8.3)
+* released 10 April 2017
+* compiled with new release of Xcode (version 8.3.1)
 * enhanced the batchwork part
 * fixed a couple of minor bugs
 * some cleanup in code
+* reorganized Help
 * there is an issue when RsyncOSX counts files to be transferred in *batchmode*, the issue does not introduce any faults (informal only)
 * there is also an issue when RsyncOSX is logging, sometimes RsyncOSX does log 0 files and not the actual number of files and size of transfer (informal only)
-* [download](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v4.1.5rc) release candidate
 
 ![](screenshots/4.1.5rc/batch.png)
 
