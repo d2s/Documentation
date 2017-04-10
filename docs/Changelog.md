@@ -32,7 +32,7 @@ The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** exampl
 	* see [user configuration](UserConfiguration.md) how set other version of rsync
 
 ![](screenshots/4.1.0/new.png)
-![](screenshots/4.1.0/help.png)
+
 
 ## Version 4.0.0
 
