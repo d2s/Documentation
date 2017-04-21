@@ -36,7 +36,7 @@ The following parameters are for _networked_ tasks only. A networked task is a t
 
 ## Details about the sample parameters
 
-The website LibreByte has written an article [14 Pratical examples of the rsync command] (http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/). One of the examples is instructing rsync to store backups of files in a backup folder and rename old files by a date suffix.
+The website LibreByte has written an article [14 Pratical examples of the rsync command](http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/). One of the examples is instructing rsync to store backups of files in a backup folder and rename old files by a date suffix.
 
 The first parameters (of four parameters) in figure are for excluding some files (the file `exclude-list.txt` is only one line with `*.pdf` which instructs rsync to omit all files with suffix pdf).
 The parameters are: 
