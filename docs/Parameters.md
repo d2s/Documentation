@@ -18,11 +18,7 @@ Rsync utilises a ton of parameters. RsyncOSX has only presented a few. Parameter
 - `--parameter` 
 	- sample `--stats`, `--dry-run`
 
-## Sample user selected rsync parameters
-
-And that is it. Rsync excludes whatever found in the `--exclude-from` file (including file patterns).
-
-### RsyncOSX passing userselected parameters to rsync
+## RsyncOSX passing userselected parameters to rsync
 
 The user can set own parameters by using `user` in dropdown menu. Preset parameters are:
 
@@ -44,7 +40,7 @@ The user can set own parameters by using `user` in dropdown menu. Preset paramet
 	- deletes the parameter when `OK` button is selected
 	- or just delete the `value` string
 
-### Backup of my 5GB Documents catalog
+## Sample backup of my 5GB Documents catalog
 
 I am doing regular backups of my Documents catalog. The source code for RsyncOSX is stored in the Documents catalog and `git` is creating a `.git` directory in all catalogs where git is used. I want rsync not to transfer the `.git` directories and `.DS_Store` files created by MacOS.
 
@@ -65,7 +61,7 @@ The screen below is a listing of some of files moved to the backup directory and
 
 ![New configurations](screenshots/master/rsync/rsync3.png)
 
-### Backup of my 100GB Picture catalog
+## Sample backup of my 100GB Picture catalog
 
 I am using RsyncOSX to backup my Pictures catalog - about 100GB of raw picture files. I am also using Adobe Lightroom for organising my Pictures. Adobe Lightroom creates preview of pictures in `Lightroom/Lightroom Catalog Previews.lrdata` catalog. I do not want to backup any previews, only the picture files, Lightroom settings and Lightroom library catalog. 
 
@@ -73,4 +69,6 @@ I am using RsyncOSX to backup my Pictures catalog - about 100GB of raw picture f
 - pass the following parameter `--exclude-from=/Volumes/Users/thomas/Pictures/exclude-list.txt` to rsync from the parameter view within RsyncOSX
 
 ![New configurations](screenshots/master/rsync/rsync6.png)
+
+And that is it. Rsync excludes whatever found in the `--exclude-from` file (including file patterns).
 
