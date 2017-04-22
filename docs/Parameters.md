@@ -27,6 +27,7 @@ The user can set own parameters by using `user` in dropdown menu. Preset paramet
 - `--stats` - produces some more statistics
 	- parameter is forced on in dry-ryn to collect info about run
 - `--backup` - instructs rsync to backup changed files
+	- remember rsync is set to synchronize the source and destination folder (see [how to use RsyncOSX](HowtoUseRsyncOSX.md)), by setting this parameter instructs rsync to store changed files
 - `--backup-dir` - where to store changed or deleted files before rsync syncronise source and destination
 - `--exclude-from` - path to file which stores file patterns to **exclude** from rsync backup
 - `--include-from` - path to file which store file patterns to **include** from rsync backup 
@@ -57,7 +58,7 @@ If the backup directory is not created rsync automatically creates it. The `../b
 ![New configurations](screenshots/master/rsync/rsync2.png)
 
 
-The screen below is a listing of some of files moved to the backup directory and renamed before new files are transferred from source to destination.
+The screen below is a listing of some of files moved to the backup directory and renamed before new files are transferred from source to destination. My NAS is based on FreeNAS Coral (FreeBSD) and backup of changed files is in catalog `../bacckup_Documents`.
 
 ![New configurations](screenshots/master/rsync/rsync3.png)
 
