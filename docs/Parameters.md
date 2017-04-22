@@ -52,7 +52,7 @@ The `exclude-list.txt` file includes the two lines below to omit all `.git` dire
 
 ![New configurations](screenshots/master/rsync/rsync5.png)
 
-If the backup directory is not created rsync automatically creates it. The `../backup_Documents` is a catalog relative to the destination catalog. The user can specify any catalog as backup catalog.
+If the backup directory is not created rsync automatically creates it. The `../backup_Documents` is a catalog relative to the destination catalog. The user can specify any catalog as backup catalog. A view of the actual rsync command executed is shown in right bottom of screen. The command can be copied and pasted into a terminal for execution as well. 
 
 ![New configurations](screenshots/master/rsync/rsync2.png)
 
