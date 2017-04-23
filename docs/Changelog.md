@@ -4,11 +4,30 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 I am using the application on a daily basis and it evolves during my own use. Any suggestions for new _features_, _changed features_ and _bug reports_ are more than welcome. 
 
-Please add an [Issue](https://github.com/rsyncOSX/Version3.x/issues) regarding any requests or bugs.
+Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs.
 
 ## Source code
 
-The [code](https://github.com/rsyncOSX/Version3.x/tree/master) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day. I am not a professional developer, this is for fun only. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
+The [code](https://github.com/rsyncOSX/RsyncOSX) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day. I am not a professional developer, this is for fun only. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
+
+## Version 4.2.5
+
+Next release (version 4.3.0?) will probably include some functionality for assisting creation to setup [passwordless logins](PasswordlessLogin.md). Dont know when it will be released. Summer is coming and further development of RsyncOSX will be slowed down during summer.
+
+* released 23 Apr 2017
+* minor bugfixes and cleanup of code
+* compiled with new release of Xcode (version 8.3.2)
+* adjusted the parameters to rsync
+* adjusted the schedule
+
+![](screenshots/4.2.5/parameter.png)
+![](screenshots/4.2.5/mainview.png)
+
+In the paramater to rsync, if `backup` option is seleceted RsyncOSX adds the directory to the backup catalog (for saving changed and deleted files). Choose either suffix for FreeBSD or Linux. Neither of them works on **local backup** macOS (have to test more). But, if you copy and paste the FreeBSD suffix in a terminal window it works on macOS (it adds the correct timestamp to the changed files in the backup directory). 
+
+![](screenshots/4.2.5/schedule.png)
+
+The schedule now informs if a scheduled backup plan is to short ahead. A weekly backup must be at least seven days ahead of current date and time.
 
 ## Version 4.2.0
 
