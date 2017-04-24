@@ -16,7 +16,7 @@ If **Single file** is *on*, RsyncOSX adds backup of single file only. No restore
 
 ### Local and remote catalogs
 
-Local catalog and Remote catalog (if not on remote server) is added either by using *drag and drop* from filemanager or *by GUI* (select the icon) or *by text* only. If enter by text please rember to add the full path. Remote catalogs is entered either by full paths or use the `~` character to expand remote user home catalog (if remote backup catalog is in users home catalog somewhere). See sample configuration below.
+Local catalog and Remote catalog (if not on remote server) is added either by using *drag and drop* from filemanager or *by GUI* (select the icon) or *by text* only. If enter by text please remember to add the full path. Remote catalogs is entered either by full paths or use the `~` character to expand remote user home catalog (if remote backup catalog is in users home catalog somewhere). See sample configuration below.
 
 ![Select](screenshots/master/add/add2.png)
 
@@ -47,5 +47,3 @@ If `Single file` is ticked on no trailing character `/` is added and only backup
 Go back to Execute tab and there are two new rows, one for **backup** task and one for **restore** task.
 
 ![Backup and restore](screenshots/master/add/add5.png)
-
-
