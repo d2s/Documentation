@@ -70,7 +70,7 @@ The above narrows down two options:
 - [NAS4free](http://www.nas4free.org/) or
 - [FreeNAS](http://www.freenas.org/)
 
-Both are based on FreeBSD 11.
+Both are based on FreeBSD. NAS4Free on FreeBSD 11.x and FreeNAS on FreeBSD 10.x.
 
 [ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux.
 
