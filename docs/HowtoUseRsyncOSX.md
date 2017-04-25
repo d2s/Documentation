@@ -9,7 +9,7 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 > - backup (and restore) local files on Mac to local storage (attached disks)
   - if this is _the only use_ there might be _other tools_ more useful than RsyncOSX
 
-**Warning**: default parameters for rsync is to **synchronise** the **source** and **destination**. A "restore" will **delete** all files in the source which are not in the destination. The main objective to RsyncOSX is to keep the **source** directory and **destination** (backup) directory **in sync**. When a source directory is backed up, the destination is 100% in sync with source in the moment the backup task is completed. There are **no revisions** of files in the backup in **default RsyncOSX**. Old files in the backup are either replaced with new ones or deleted if so is true in source.
+**Warning**: default parameters for rsync is to **synchronize** the **source** and **destination**. A "restore" will **delete** all files in the source which are not in the destination. The main objective to RsyncOSX is to keep the **source** directory and **destination** (backup) directory **in sync**. When a source directory is backed up, the destination is 100% in sync with source in the moment the backup task is completed. There are **no revisions** of files in the backup in **default RsyncOSX**. Old files in the backup are either replaced with new ones or deleted if so is true in source.
 
 > - _source_: the local volume to be copied
 > - _destination_: the remote location where source files and catalogs are copied
@@ -62,9 +62,9 @@ Any user just looking for an easy to use backup tool is advised to use other and
 
 All configurations to execute are listed in table. From this screen all actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed.
 
-There are two labels on top of table : **Profile** and **Double click: YES**. Configurations can be saved in user selected profiles. The profile in use is shown in label `Profile : name`. `Double click:YES` (or NO) either allow or dont allow executing single tasks by double click on row. Disable or enable in Configuration.
+There are two labels on top of table : **Profile** and **Double click: YES**. Configurations can be saved in user selected profiles. The profile in use is shown in label `Profile : name`. `Double click:YES` (or NO) either allow or don't allow executing single tasks by double click on row. Disable or enable in Configuration.
 
-**Important**: Information about *new:* and *delete:* files and remote number of directories are only avaliable if version 3.x of rsync is used.
+**Important**: Information about *new:* and *delete:* files and remote number of directories are only available if version 3.x of rsync is used.
 
 ![Main view](screenshots/master/main1.png)
 
@@ -82,7 +82,7 @@ Selecting the `Default` button selects the default profile. **Double click** on 
 
 ### Logging
 
-RsyncOSX is logging all tasks. The user can choose in userconfiguration, to disable or enable detailed logging. Detailed logging is on as default. In log view all tasks with date, number of files and size transferred is logged. In the main view date and time for last execution is set.
+RsyncOSX is logging all tasks. The user can choose in user configuration, to disable or enable detailed logging. Detailed logging is on as default. In log view all tasks with date, number of files and size transferred is logged. In the main view date and time for last execution is set.
 
 ![Main view](screenshots/master/log.png)
 
@@ -101,7 +101,7 @@ If _profile_ is used:
 
 ## Rsync errors
 
-Sometimes rsync throws errors. RsyncOSX does a simple check in output if there are any occurence of the prashe `rsync error:`. If found RsyncOSX resets the work queue. This is *not* a advanced error handling.
+Sometimes rsync throws errors. RsyncOSX does a simple check in output if there are any occurrence of the prashe `rsync error:`. If found RsyncOSX resets the work queue. This is *not* a advanced error handling.
 
 ![Main view](screenshots/master/error.png)
 ![Main view](screenshots/master/config.png)

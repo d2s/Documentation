@@ -16,11 +16,11 @@ For Parameters see below. After selecting a row choosing one of the above pops u
 There are _some status_ fields in the view :
 
 - **Estimate** - text is either _Estimate_ or _Execute_ - valid for single tasks only
-	- "Estimate" - select `Execute` or a double click om row does a --dry-run
+	- "Estimate" - select `Execute` or a double click on row does a --dry-run
 	- "Execute" - select `Execute` or a double click on row  does the real job (backup or restore)
 - **Scheduled job** - a progress bar shows when a scheduled job is executing
 - **Information** - if checked a drop down view is presented after each run - valid for single tasks only
-- **Estimating** - a progress bar shows when a --dry-run (or estimate) is executing 
+- **Estimating** - a progress bar shows when a --dry-run (or estimate) is executing
 
 Both "backup" and "restore" path is set when saving configuration.
 
@@ -45,9 +45,6 @@ The actual rsync command to be executed is shown below right corner in view. It 
 
 ### Edit task
 
-To edit a task select row (task) and choose edit. Either `Close`to disgard changes or `OK` to save.
+To edit a task select row (task) and choose edit. Either `Close`to discard changes or `OK` to save.
 
 ![Execute](screenshots/master/singletask/edit.png)
-
-
-

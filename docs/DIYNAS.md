@@ -13,11 +13,11 @@ My knowledge about computer hardware is very limited. The hardware in new NAS is
 
 ### Why backup
 
-For me, backup is very important. And do backup to several locations and keep the backups in the different locations synchronised. Not loosing data is the obvious reason for doing backup. There are several ways to "loose" data. Disk crash is one. Highjacking by ransomware another. A **restore** of data is a cheap solution if either of the them occurs.
+For me, backup is very important. And do backup to several locations and keep the backups in the different locations synchronized. Not loosing data is the obvious reason for doing backup. There are several ways to "loose" data. Disk crash is one. Highjacking by ransomware another. A **restore** of data is a cheap solution if either of the them occurs.
 
 ### Backup by using rsync
 
-The rsync utility is avaliiable on most OS plattforms. It has been around for some time and it is rock solid and very effective. See also [How to Use RsyncOSX](HowtoUseRsyncOSX.md) about rsync and RsyncOSX.
+The rsync utility is available on most OS platforms. It has been around for some time and it is rock solid and very effective. See also [How to Use RsyncOSX](HowtoUseRsyncOSX.md) about rsync and RsyncOSX.
 
 ## Encrypt sensitive information
 
@@ -28,13 +28,13 @@ I have **not** tested rsync on encrypted folders or volumes. I am quite sure it 
 
 ## Setup of NAS
 
-Until October 2016 I have only used the trial version of Oracle Solaris 11.3 and [napp-it](https://www.napp-it.org/) as NAS. I have been using trial verison of Solaris and napp-it for years. It was stable until a HW failure caused a breakdown of NAS. There is one major drawback by using trial version of Solaris. There are no updates and bug fixes. Receiving updates and bug fixes cost money. 
+Until October 2016 I have only used the trial version of Oracle Solaris 11.3 and [napp-it](https://www.napp-it.org/) as NAS. I have been using trial version of Solaris and napp-it for years. It was stable until a HW failure caused a breakdown of NAS. There is one major drawback by using trial version of Solaris. There are no updates and bug fixes. Receiving updates and bug fixes cost money.
 
 ### Opensourced based NAS
 
-There are several options for installing NAS by using free and opensourced based solutions. That was the main reason for choosing other OS for my NAS. There are two options:
+There are several options for installing NAS by using free and open sourced based solutions. That was the main reason for choosing other OS for my NAS. There are two options:
 
-- either go for a special NAS SW (as NAS4Free, FreeNAS or Openmediavolt) 
+- either go for a special NAS SW (as NAS4Free, FreeNAS or Openmediavolt)
 - or use stock OS (as FreeBSD 11 or Ubuntu 16.10).  
 
 ### FreeBSD 11 or Ubuntu 16.10
@@ -70,13 +70,13 @@ The above narrows down two options:
 - [NAS4free](http://www.nas4free.org/) or
 - [FreeNAS](http://www.freenas.org/)
 
-Both are based on FreeBSD 11. 
+Both are based on FreeBSD 11.
 
 [ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux.
 
 For some time (about 6 months) I have used NAS4Free. Release 11.0.0.4.4040 of NAS4Free caused me some troubles. Ssh connections was broken and after upgrading I was not able to connect to the server by `ssh`. Without `ssh` RsyncOSX does not work. There is also an issue about ssh and NAS4Free. From time to time the NAS4Free server did not accept `ssh` connections. Ssh was not broken prior to release of 11.0.0.4.4040, but there were some unresolved issues.    
 
-I got a newsletter about *FreeNAS Corral*. So i decidede to install FreeNAS. I was tempted by info in newsletter to try it out. 
+I got a newsletter about *FreeNAS Corral*. So i decided to install FreeNAS. I was tempted by info in newsletter to try it out.
 
 
 My *FreeNAS Corral* based NAS is now setup to do the following:
@@ -113,7 +113,6 @@ The hardware of my 2016 NAS are:
 
 The server has 3 Terabyte (TB) of storage. The storage is setup as a ZFS filesystem and all disks (four disks altogether, two disks of 2TB each and two disks of 1TB each) are all setup as a ZFS mirror. That is the two 2TB disks are mirroring each other as well as the two 1TB disks. If one disk fails ZFS is automatically restoring (by ZFS scrub) the failing disk. If one disk fails (by HW) and must be replaced ZFS has functionality for unmounting failed disk, mount a new one and put the new one into mirrored pool again.
 
-It is easy and cheap to setup a backup server based on Linux or other server OS and rsync. There is an open source project [Netatalk](http://netatalk.sourceforge.net/) Apple Filing Protocol ([AFP](https://en.wikipedia.org/wiki/Apple_Filing_Protocol)) fileserver. Some years ago I testet Apple Time Machine and Netatalk on a Solaris 11 server. It worked for some time, but also failed. I dont know stable Netatalk and Apple Time Machine is now. But for me rsync is the best solution. And for backups to remote servers outside my house (by Internet connection) rsync is most likely the best tool to use. By using rsync I backup all data on my Macs. A complete reinstallation of a MacBook is done by a fresh install of OS X and then restore all data by rsync. Safe and reliable.
+It is easy and cheap to setup a backup server based on Linux or other server OS and rsync. There is an open source project [Netatalk](http://netatalk.sourceforge.net/) Apple Filing Protocol ([AFP](https://en.wikipedia.org/wiki/Apple_Filing_Protocol)) fileserver. Some years ago I tested Apple Time Machine and Netatalk on a Solaris 11 server. It worked for some time, but also failed. I don't know stable Netatalk and Apple Time Machine is now. But for me rsync is the best solution. And for backups to remote servers outside my house (by Internet connection) rsync is most likely the best tool to use. By using rsync I backup all data on my Macs. A complete reinstallation of a MacBook is done by a fresh install of OS X and then restore all data by rsync. Safe and reliable.
 
 ![New configurations](screenshots/master/nas/nas1.jpeg)
-

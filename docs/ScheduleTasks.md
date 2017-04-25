@@ -18,11 +18,11 @@ Select task (row), set the start date and time and select the schedule (once, da
 
 The stack is a reference only to a configuration (by a hidden key). The user can change anything regarding the task up to the moment the task is executed by schedule. If the task is deleted RsyncOSX cancel the schedule, computes the stack again and starts tracing in time next scheduled task.
 
-When the first scheduled task is _completed_, RsyncOSX checks the next top element of stack. If start date and time is in the future RsyncOSX tracks task in time. 
+When the first scheduled task is _completed_, RsyncOSX checks the next top element of stack. If start date and time is in the future RsyncOSX tracks task in time.
 
 ![Schedule](screenshots/master/scheduling/schedule1.png)
 
-In example the schedule _daily_ is selected. First scheduled backup is in about 24 hours and next after that in two days. The schedule is choosen to stop after the six days.
+In example the schedule _daily_ is selected. First scheduled backup is in about 24 hours and next after that in two days. The schedule is set to stop after the six days.
 
 ![Schedule](screenshots/master/scheduling/schedule2.png)
 
@@ -37,7 +37,6 @@ Select row and then **Stop and/or delete schedules**. Either stop or delete task
 
 ![Schedule](screenshots/master/scheduling/schedule6.png)
 
-Logs are sorted with most recent ontop.
+Logs are sorted with most recent on top.
 
 ![Schedule](screenshots/master/scheduling/schedule5.png)
-

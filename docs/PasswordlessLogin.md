@@ -1,8 +1,8 @@
 ## Passwordless logins
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
- 
-Backup to offsite or remote backup locations (servers) requires some more setup. By using rsync from command-line it prompts for login ID and password. There is, as far as I know, no solution for passing login credentials to rsync command-line tool by parameter. But ssh has possibility to enable **passwordless** logins by using ssh generated private and public key-pair. 
+
+Backup to offsite or remote backup locations (servers) requires some more setup. By using rsync from command-line it prompts for login ID and password. There is, as far as I know, no solution for passing login credentials to rsync command-line tool by parameter. But ssh has possibility to enable **passwordless** logins by using ssh generated private and public key-pair.
 
 Using [ssh-keys](https://wiki.archlinux.org/index.php/SSH_keys) is in general considered more safe than standard password solutions (single factor authentication). Ssh-keys is based upon [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography).
 
@@ -10,9 +10,9 @@ To enable passwordless login by using ssh you must use `ssh-keygen` to create a 
 
 ## Step by step procedure
 
-If the server is set up listening for ssh on other ports than standard port 22 use `ssh -p port` to use another port. In RsyncOSX there is in parameters setting possible to set another ssh port if required. The `Mac$` is a abbrivation for the terminal prompt.
+If the server is set up listening for ssh on other ports than standard port 22 use `ssh -p port` to use another port. In RsyncOSX there is in parameters setting possible to set another ssh port if required. The `Mac$` is a abbreviation for the terminal prompt.
 
-**Step 1** : create a ssh-keypair on your Mac (from the terminal window) and just press Enter every time `ssh-keygen` ask for input (three times). 
+**Step 1** : create a ssh-keypair on your Mac (from the terminal window) and just press Enter every time `ssh-keygen` ask for input (three times).
 
 `Mac$ ssh-­keygen -­t rsa`
 
@@ -34,7 +34,7 @@ or use secure copy
 
 * (1) `ssh user@server.com`
 * (2) `cd`
-* (3) `chmod 700 .ssh` 
+* (3) `chmod 700 .ssh`
 * (4) `chmod 600 .ssh/authorized_keys`
 * (5) `exit`
 
@@ -42,7 +42,7 @@ or use secure copy
 
 `Mac$ ssh user@server.com`
 
-If you have two or more servers repeat **step 2 - step 5**. If you have two Macbooks and two servers (which I have) repeat step1 - step 5 for the second Macbook as well.
+If you have two or more servers repeat **step 2 - step 5**. If you have two Macbooks and two servers (which I have) repeat step1 - step 5 for the second MacBook as well.
 
 ### Comment on ssh-keygen
 
@@ -58,7 +58,7 @@ My knowledge of crypto is very limited. The parameter **-t rsa** creates one key
 
 **Step 3** copy through ssh the public key from the Mac `.ssh` directory to the server.
 
-`Mac$ cat ~/.ssh/id_dsa.pub | ssh user@server.com "cat > .ssh/authorized_keys2"` 
+`Mac$ cat ~/.ssh/id_dsa.pub | ssh user@server.com "cat > .ssh/authorized_keys2"`
 
 or use secure copy
 
@@ -68,11 +68,10 @@ or use secure copy
 
 * (1) `ssh user@server.com`
 * (2) `cd`
-* (3) `chmod 700 .ssh` 
+* (3) `chmod 700 .ssh`
 * (4) `chmod 600 .ssh/authorized_keys2`
 * (5) `exit`
 
 **Step 5**: test login from Mac, password is not required.
 
 `Mac$ ssh user@server.com`
-

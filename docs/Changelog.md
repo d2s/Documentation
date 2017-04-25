@@ -2,7 +2,7 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-I am using the application on a daily basis and it evolves during my own use. Any suggestions for new _features_, _changed features_ and _bug reports_ are more than welcome. 
+I am using the application on a daily basis and it evolves during my own use. Any suggestions for new _features_, _changed features_ and _bug reports_ are more than welcome.
 
 Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs.
 
@@ -12,7 +12,7 @@ The [code](https://github.com/rsyncOSX/RsyncOSX) is **not** example of neither w
 
 ## Version 4.2.5
 
-Next release (version 4.3.0?) will probably include some functionality for assisting creation to setup [passwordless logins](PasswordlessLogin.md). Dont know when it will be released. Summer is coming and further development of RsyncOSX will be slowed down during summer.
+Next release (version 4.3.0?) will probably include some functionality for assisting creation to setup [passwordless logins](PasswordlessLogin.md). Don't know when it will be released. Summer is coming and further development of RsyncOSX will be slowed down during summer.
 
 * released 23 Apr 2017
 * minor bugfixes and cleanup of code
@@ -23,7 +23,7 @@ Next release (version 4.3.0?) will probably include some functionality for assis
 ![](screenshots/4.2.5/parameter.png)
 ![](screenshots/4.2.5/mainview.png)
 
-In the paramater to rsync, if `backup` option is seleceted RsyncOSX adds the directory to the backup catalog (for saving changed and deleted files). Choose either suffix for FreeBSD or Linux. Neither of them works on **local backup** macOS (have to test more). But, if you copy and paste the FreeBSD suffix in a terminal window it works on macOS (it adds the correct timestamp to the changed files in the backup directory). 
+In the parameter to rsync, if `backup` option is selected RsyncOSX adds the directory to the backup catalog (for saving changed and deleted files). Choose either suffix for FreeBSD or Linux. Neither of them works on **local backup** macOS (have to test more). But, if you copy and paste the FreeBSD suffix in a terminal window it works on macOS (it adds the correct timestamp to the changed files in the backup directory).
 
 ![](screenshots/4.2.5/schedule.png)
 
@@ -64,15 +64,15 @@ The schedule now informs if a scheduled backup plan is to short ahead. A weekly 
 
 ## Version 3.9.7
 
-Sometimes rsync throws errors and does not execute as expected. Single task is implemented as queue of work (`estimate`, `execute` and `done`). If `estimate` or `execute` failes (by some reason) the user has to be made aware of situation and fix it. 
+Sometimes rsync throws errors and does not execute as expected. Single task is implemented as queue of work (`estimate`, `execute` and `done`). If `estimate` or `execute` fails (by some reason) the user has to be made aware of situation and fix it.
 
-RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notfied, error is marked (in red) and work queue is reset if option in userconfig (see below) is set. To test enter a not valid user name for a remote server ([edit task](SingleTask.md) in main view).
+RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notified, error is marked (in red) and work queue is reset if option in userconfig (see below) is set. To test enter a not valid user name for a remote server ([edit task](SingleTask.md) in main view).
 
 Other changes:
 
 - released 2 March 2017
 - some refactor and several cleanup of code
-- Added reporting any file errors (in profile) to main view. 
+- Added reporting any file errors (in profile) to main view.
 - There is also fixed a minor bug in Profiles.
 - In About menu reference to GitHub Pages about Changelog and Documentation of RsyncOSX
 
@@ -83,9 +83,9 @@ See [releases](https://github.com/rsyncOSX/Version3.x/releases) for download.
 
 ## Version 3.9.5
 
-Version 3.9.5 might **crash** for some user. This is due to localised string representation of dates in logs. RsyncOSX only accepts `en_US` format of dates in logs. Comparing and sorting other localised string representation of dates causes a crash.
+Version 3.9.5 might **crash** for some user. This is due to localized string representation of dates in logs. RsyncOSX only accepts `en_US` format of dates in logs. Comparing and sorting other localized string representation of dates causes a crash.
 
-If RsyncOSX crash during startup please delete the schedule and logfile: `Documents/Rsync/MacID/scheduleRsync.plist` (deleting this file only deletes any schedule and logs).
+If RsyncOSX crash during startup please delete the schedule and loggfile: `Documents/Rsync/MacID/scheduleRsync.plist` (deleting this file only deletes any schedule and logs).
 
 
 - released 28 January 2017
@@ -95,7 +95,7 @@ If RsyncOSX crash during startup please delete the schedule and logfile: `Docume
 - active schedules are marked red
 	- number of logs in each schedule
 	- manual execution of tasks are logged under start date `1 Jan 1900 00:00`
-- dates are forced to "en_US" localisation to prevent RsyncOSX from crashing if the preferred language of macOS is other than english (e.g. Norwegian)
+- dates are forced to "en_US" localization to prevent RsyncOSX from crashing if the preferred language of macOS is other than english (e.g. Norwegian)
 
 ![Shedules](screenshots/3.9.5rc/screen2.png)
 ![Logs](screenshots/3.9.5rc/screen1.png)
@@ -103,12 +103,12 @@ If RsyncOSX crash during startup please delete the schedule and logfile: `Docume
 
 ## Version 3.9.1
 - released 19 January 2017
-- added a few tweaks regarding radiobuttons in main view and deselect row after delete actions
+- added a few tweaks regarding radio buttons in main view and deselect row after delete actions
 - moved Add button new configurations into tab view and added some more checks when adding new configurations
 - In Sch
 
 ## Version 3.8.6
-After releasing this version I will not release new versions for some time. I have to focus on my new job (start 2 January 2017) for some time. I will continue to develop RsyncOSX in the future, but the number of new releases will drop compared to 2016. 
+After releasing this version I will not release new versions for some time. I have to focus on my new job (start 2 January 2017) for some time. I will continue to develop RsyncOSX in the future, but the number of new releases will drop compared to 2016.
 
 - fixed bug in profiles
 - added an alternative suffix (in [parameters](Parameters.md) to rsync)
@@ -126,7 +126,7 @@ After releasing this version I will not release new versions for some time. I ha
 - compiled with latest version 8.2.1 of Xcode
 - the are several parts of code which is refactored
 	- cleaned up external references (in About and NewVersion)
-	- added guard statements to make code safer 
+	- added guard statements to make code safer
 	- fixed a bug in Main.storyboard referring to a non existing class
 	- refactor of computing parameters to rsync
 
@@ -145,7 +145,7 @@ After releasing this version I will not release new versions for some time. I ha
 ## Version 3.6.5
 
 - released **23 November 2016**
-	- this will be the last release for some time (most likly last release this year)
+	- this will be the last release for some time (most likely last release this year)
 	- there are no known issues or request for new features
 	- I will continue develop RsyncOSX in 2017, there are some internal parts which should be refactored
 - new About view (links to docs, changelog and check for new versions)
@@ -199,7 +199,7 @@ After releasing this version I will not release new versions for some time. I ha
 ## Version 3.4.0
 
 - released 19 October 2016
-- added profiles - select profiles from the File meny, profiles is just new catalogs for storing configurations and schedules files.
+- added profiles - select profiles from the File menu, profiles is just new catalogs for storing configurations and schedules files.
 - backup of single files in Add view, only backup part is added for single files, use Copy Files to search and restore single files
 - some minor internal cleanup and fixes, adjusted Copy Files view
 - added abort in Copy Files (terminates search process)
