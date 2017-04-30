@@ -56,11 +56,11 @@ In RsyncOSX select [RsyncOSX configuration](docs/UserConfiguration.md) and set p
 
 I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www.youtube.com/watch?v=ty1r7yvgExo) : "Downloading RsyncOSX, installing, first time configuration and using RsyncOSX for the first time. Backup (as demo) of about 120 MB of data and 4000 files to a VirtualBox FreeBSD machine."
 
-## MacUpdate
+## MacUpdate and Softpedia
 
-RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516/rsyncosx) as well. The application is downloaded about 8000 times from MacUpdate (all versions, April 2017). RsyncOSX does also inform users about new releases and link to download new version. 
+RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516/rsyncosx) and linked for download on [Softpedia](http://mac.softpedia.com/get/Internet-Utilities/RsyncOSX.shtml) as well. The application is downloaded about 8300 times from MacUpdate and 2000 times from Softpedia (all versions, May 2017). RsyncOSX does also inform users about new releases and link to download new version. 
 
-To be honest, I have **no idea** how many users of RsyncOSX there is.
+To be honest, I have **no idea** how many users of RsyncOSX there are. And I am very happy that some users find it useful.
 
 ## Other documents
 
