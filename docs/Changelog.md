@@ -12,7 +12,7 @@ The [code](https://github.com/rsyncOSX/RsyncOSX) is **not** example of neither w
 
 ## Version 4.2.5
 
-Next release (version 4.3.0?) will probably include some functionality for assisting creation to setup [passwordless logins](PasswordlessLogin.md). Don't know when it will be released. Summer is coming and further development of RsyncOSX will be slowed down during summer.
+**Next** release (version 4.3.0) will probably include some functionality for assisting setup of [passwordless logins](PasswordlessLogin.md). Don't know when it will be released. Summer is coming and further development of RsyncOSX will be slowed down during summer. I am currently working on this release now and (slowly) progressing...
 
 * released 23 Apr 2017
 * minor bugfixes and cleanup of code
