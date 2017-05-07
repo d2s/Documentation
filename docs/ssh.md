@@ -4,4 +4,6 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 Will be updated...
 
-![Estimate](screenshots/master/ssh/ssh.png)
+![ssh](screenshots/master/ssh/ssh.png)
+![ssh](screenshots/master/ssh/ssh2.png)
+![ssh](screenshots/master/ssh/ssh3.png)
