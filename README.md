@@ -25,7 +25,7 @@ Using RsyncOSX for backup to remote servers requiere to setup ssh passwordless l
 
 > - How to enable [passwordless logins](docs/PasswordlessLogin.md).
 
-From version 4.3.0 RsyncOSX can assist in setting up [passwordless](ssh.md) logins. 
+From version 4.3.0 RsyncOSX can assist in setting up [passwordless](docs/ssh.md) logins. 
 
 ### Parameters to rsync
 
