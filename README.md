@@ -25,6 +25,8 @@ Using RsyncOSX for backup to remote servers requiere to setup ssh passwordless l
 
 > - How to enable [passwordless logins](docs/PasswordlessLogin.md).
 
+From version 4.3.0 RsyncOSX can assist in setting up [passwordless](ssh.md) logins. 
+
 ### Parameters to rsync
 
 There are a couple of other important information about using RsyncOSX (and rsync):
@@ -58,7 +60,7 @@ I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www
 
 ## MacUpdate and Softpedia
 
-RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516/rsyncosx) and linked for download on [Softpedia](http://mac.softpedia.com/get/Internet-Utilities/RsyncOSX.shtml) as well. The application is downloaded about 8300 times from MacUpdate and 2000 times from Softpedia (all versions, May 2017). RsyncOSX does also inform users about new releases and link to download new version. 
+RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516/rsyncosx) and linked for download on [Softpedia](http://mac.softpedia.com/get/Internet-Utilities/RsyncOSX.shtml) as well. The application is downloaded about 8300 times from MacUpdate and 2000 times from Softpedia (all versions, May 2017). RsyncOSX does also inform users about new releases and link to download new version.
 
 To be honest, I have **no idea** how many users of RsyncOSX there are. And I am very happy that some users find it useful.
 
