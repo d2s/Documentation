@@ -30,7 +30,7 @@ The application is signed with my Apple Developer ID certificate.
 
 ## Passwordless logins and remote servers
 
-Backup to _remote servers_ require ssh _passwordless_ logins (by ssh-keygen and ssh public and private keys). Here is how to [setup passwordless](PasswordlessLogin.md) logins.
+Backup to _remote servers_ require ssh _passwordless_ logins (by ssh-keygen and ssh public and private keys). Here is how to [setup passwordless](PasswordlessLogin.md) logins. From version 4.3.0 RsyncOSX can assist in setting up [passwordless](ssh.md) logins. 
 
 ## Idea behind RsyncOSX
 

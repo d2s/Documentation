@@ -90,21 +90,20 @@ The only piece from my old NAS to keep is an Intel RAID controller. All other HW
 
 ![New configurations](screenshots/master/nas/nas2.jpg)
 
-I am quite pleased to replace Oracle Solaris as OS with *FreeNAS Corral*. FreeNAS Corral is free software and it is under continuously development. The WebGUI is intuitive, nice and easy to use. It took med just a couple of minutes to format two drives, create a new mirrored zpool, create a new user and mount 1 TB of disk to use as backup for RsyncOSX.
+I am quite pleased to replace Oracle Solaris as OS with *FreeNAS*. FreeNAS is free software and it is under continuously development. The WebGUI is intuitive, nice and easy to use. It took med just a couple of minutes to format two drives, create a new mirrored zpool, create a new user and mount 1 TB of disk to use as backup for RsyncOSX.
 
 Total disk in NAS is 6 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror. My NAS is sharing out 3 TB.
 
-The hardware of my 2016 NAS are:
+The hardware of my 2017 NAS are:
 
 1.  Fractal Design Node [304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black)
 2.  Fractal Design Integra M 450W PSU
-3.  [Intel RAID Controller SASUC8I 8P, SAS/SATA](http://www.newegg.com/Product/Product.aspx?Item=N82E16816117157) RAID 0/1/1E/10E, PCIe x8 (2x int. mini-SAS SFF-8087) (the 8-port controller is from 2011 and still working)
-4.  [MSI H110I](https://www.msi.com/Motherboard/H110I-PRO.html#hero-overview) Pro, Socket-1151 motherboard
-5.  [Intel Core i5-6400](http://ark.intel.com/products/88185/Intel-Core-i5-6400-Processor-6M-Cache-up-to-3_30-GHz), Socket-LGA1151 processor
+3.  [MSI H110I](https://www.msi.com/Motherboard/H110I-PRO.html#hero-overview) Pro, Socket-1151 motherboard
+4.  [Intel Core i5-6400](http://ark.intel.com/products/88185/Intel-Core-i5-6400-Processor-6M-Cache-up-to-3_30-GHz), Socket-LGA1151 processor
   - using the Intel Core i5 as CPU in NAS is probably an overkill
-6.  Kingston ValueRAM DDR4 2133MHz 16GB
-7.  Two WD Red 1TB NAS Hard drive, SATA 6Gb/s (SATA 3.0), 64MB, 3.5", 24x7 reliability, IntelliPower (bought in 2014)
-8.  Two WD Desktop Green 2TB SATA 6Gb/s, (SATA 3.0), IntelliPower, 64MB, 3.5" (bought in 2012)
+5.  Kingston ValueRAM DDR4 2133MHz 16GB
+6.  Two WD Red 1TB NAS Hard drive, SATA 6Gb/s (SATA 3.0), 64MB, 3.5", 24x7 reliability, IntelliPower (bought in 2014)
+7.  Two WD Desktop Green 2TB SATA 6Gb/s, (SATA 3.0), IntelliPower, 64MB, 3.5" (bought in 2012)
   - one disk HW failed and replaced in 2013 without any loss of data
 
 

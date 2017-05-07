@@ -6,20 +6,17 @@ Adding configurations is easy. A configuration require minimum **Local catalog**
 
 Select **Local catalog** either by *drag and drop*, by *enter text* directly or by *GUI* (press the folder icon). For **Remote catalogs** only drag and drop or GUI for local volumes. For remote server catalogs enter by text only.
 
-
 ### Single file
 
 If **Single file** is *on*, RsyncOSX adds backup of single file only. No restore part is added, use Copy files for search and restore.
 
 ![New configurations](screenshots/master/add/add1.png)
 
-
 ### Local and remote catalogs
 
 Local catalog and Remote catalog (if not on remote server) is added either by using *drag and drop* from filemanager or *by GUI* (select the icon) or *by text* only. If enter by text please remember to add the full path. Remote catalogs is entered either by full paths or use the `~` character to expand remote user home catalog (if remote backup catalog is in users home catalog somewhere). See sample configuration below.
 
 ![Select](screenshots/master/add/add2.png)
-
 
 ### Sample configuration
 
@@ -34,7 +31,6 @@ The screen below is all information about my configuration for a virtual FreeBSD
 - **rsync daemon**: setting this puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote which takes some more setup. I am not using it myself.
 
 ![Add configuration](screenshots/master/add/add3.png)
-
 
 ### The Add button
 
