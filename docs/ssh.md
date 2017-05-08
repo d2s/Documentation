@@ -12,7 +12,9 @@ Below is the main view. There are no local public ssh keys found and keys might 
 
 * Rsa public key found (if file `~/.ssh/id_rsa.pub` exists)
 * Dsa public key found (if file `~/.ssh/id_dsa.pub` exists)
-* `Create keys`, either rsa or dsa based (by `ssh-keygen`)  
+* `Create keys`, either rsa or dsa based (by `ssh-keygen`)
+
+Which key to create and use is for you to decide. I am using the rsa based key only. 
 
 ### Remote server
 
@@ -31,6 +33,18 @@ Choosing a `rsa` based key and select `Create keys`. Local keys are created by `
 
 ![ssh](screenshots/master/ssh/ssh2.png)
 
-Next step is to manually create a remote `.ssh` catalog and `scp` (secure copy) the public key to remote host.
+### Transfer public key to remote server
+
+Next step is to manually create a remote `.ssh` catalog and `scp` (secure copy) the public key to remote server.
+
+* `Scp rsa` - copy and paste command
+  * the command `/usr/bin/scp /Volumes/Home/thomas/.ssh/id_rsa.pub thomas@10.0.0.58:.ssh/authorized_keys` copy the rsa public key `~/.ssh/id_rsa.pub` to remote server as file `~/.ssh/authorized_keys`
+* `Scp dsa` - copy and paste command
+  * the command `/usr/bin/scp /Volumes/Home/thomas/.ssh/id_dsa.pub thomas@10.0.0.58:.ssh/authorized_keys2` copy the dsa public key `~/.ssh/id_dsa.pub` to remote server as file `~/.ssh/authorized_keys2`
+
+After public key(s) are copied it is important to set correct permissions on remote files.
+
+* `Check rsa` - selecting button set correct mode on file and catalog (see [passwordless](PasswordlessLogin.md) login) and executes a remote `ls -al` to list file with permissions
+* `Check dsa` - as above but for the dsa public key
 
 ![ssh](screenshots/master/ssh/ssh3.png)
