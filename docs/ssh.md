@@ -10,11 +10,11 @@ This `ssh` part of RsyncOSX is a kind of experimental. The objective is to assis
 
 Below is the main view. There are no local public ssh keys found and keys might be created. Either choose a `rsa` or `dsa` based private and public key pair or both (once a time).
 
-* Rsa public key found (if file `~/.ssh/id_rsa.pub` exists)
-* Dsa public key found (if file `~/.ssh/id_dsa.pub` exists)
+* `Rsa public key found` (if file `~/.ssh/id_rsa.pub` exists)
+* `Dsa public key found` (if file `~/.ssh/id_dsa.pub` exists)
 * `Create keys`, either rsa or dsa based (by `ssh-keygen`)
 
-Which key to create and use is for you to decide. I am using the rsa based key only. 
+Which key to create and use is for you to decide. I am using the rsa based key only.
 
 ### Remote server
 
