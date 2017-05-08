@@ -12,13 +12,10 @@ The [code](https://github.com/rsyncOSX/RsyncOSX) is **not** example of neither w
 
 ## Version 4.3.0
 
-6 May 2017
-
-**Not yet released** - work in progress. Setup of passwordless logins requires some paste of commands in a terminal window (before public `rsa` or `dsa` key is copied to remote server). Still working on view to assist setting up.
-
-Version 4.3.0 also includes a couple of bugfixes when released.
-
-![](screenshots/4.3.0/ssh.png)
+* released 8 May 2017
+* assist in setup of [passwordless logins](PasswordlessLogin.md)
+	* see [doc](ssh.md) - documentation in progress
+* couple of bugfixes
 
 ## Version 4.2.5
 
