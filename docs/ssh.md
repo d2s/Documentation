@@ -2,6 +2,8 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
+(This page is under construction - to be updated)
+
 This `ssh` part of RsyncOSX is a kind of experimental. The objective is to assist setting up [passwordless](PasswordlessLogin.md) logins. Ssh does not provide any possibilities to pass password as parameter. Some actions therefore require a terminal window for copy/paste commands for password prompt and execution of task.
 
 ### Local ssh keys
