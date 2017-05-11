@@ -2,13 +2,11 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-(This page is under construction - to be updated)
-
-This `ssh` part of RsyncOSX is a kind of experimental. The objective is to assist setting up [passwordless](PasswordlessLogin.md) logins. Ssh does not provide any possibilities to pass password as parameter. Some actions therefore require a terminal window for copy/paste commands for password prompt and execution of task.
+This `ssh` part of RsyncOSX is a kind of experimental. The objective is to assist setting up [passwordless](PasswordlessLogin.md) logins. Ssh does not provide any possibilities to pass password as parameter. Some actions to setup passwordless logins therefore require a terminal window for copy/paste commands for password prompt and execution of task.
 
 ### Local ssh keys
 
-Below is the main view. There are no local public ssh keys found and keys might be created. Either choose a `rsa` or `dsa` based private and public key pair or both (once a time).
+Below is the main view. There are **no local** public ssh keys found and keys might be created. Either choose a `rsa` or `dsa` based private and public key pair or both (once a time).
 
 * `Rsa public key found` (if file `~/.ssh/id_rsa.pub` exists)
 * `Dsa public key found` (if file `~/.ssh/id_dsa.pub` exists)
@@ -29,7 +27,7 @@ After local private and public ssh key pair is created choosing `Remote server` 
 
 ### Create local ssh keys
 
-Choosing a `rsa` based key and select `Create keys`. Local keys are created by `ssh-keygen` and saved in `.ssh` local catalog.
+Choosing a `rsa` based key and select `Create keys`. Local keys are created by `ssh-keygen` and saved in `.ssh` local catalog. The output shows information from the `ssh-keygen` tool. If creation of local key is OK the output should be something like in view. And the `Rsa public key found` should be ticked on. Likewise for a `dsa` based key.
 
 ![ssh](screenshots/master/ssh/ssh2.png)
 
@@ -42,9 +40,11 @@ Next step is to manually create a remote `.ssh` catalog and `scp` (secure copy) 
 * `Scp dsa` - copy and paste command
   * the command `/usr/bin/scp /Volumes/Home/thomas/.ssh/id_dsa.pub thomas@10.0.0.58:.ssh/authorized_keys2` copy the dsa public key `~/.ssh/id_dsa.pub` to remote server as file `~/.ssh/authorized_keys2`
 
-After public key(s) are copied it is important to set correct permissions on remote files.
+After public key(s) are copied it is important to set correct permissions on remote public key files.
 
 * `Check rsa` - selecting button set correct mode on file and catalog (see [passwordless](PasswordlessLogin.md) login) and executes a remote `ls -al` to list file with permissions
 * `Check dsa` - as above but for the dsa public key
 
 ![ssh](screenshots/master/ssh/ssh3.png)
+
+`chmod 600` means owner can read and write file. `chmod 700` means owner can read, write and execute
