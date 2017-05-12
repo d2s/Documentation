@@ -19,7 +19,7 @@ I have uploaded a short (about 5 minutes) [YouTube video of RsyncOSX](https://ww
 RsyncOSX is released in version 4.3.0
 
 > - [download](https://github.com/rsyncOSX/RsyncOSX/releases/download/v4.3.0/RsyncOSX.dmg) latest version of RsyncOSX
-> - shasum : d518fe4bf840d1f098e71ba9e4111152041fb81c
+> - shasum : 04c841ee2ae3bff6d90a9e4871ecec1806e9b269
 > - see the [Changelog](Changelog.md) for info
 
 `/usr/bin/shasum ~/PathToDownload/RsyncOSX.dmg` to verify hash
