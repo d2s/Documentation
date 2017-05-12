@@ -84,7 +84,18 @@ My *FreeNAS* based NAS is now setup to do the following:
 - sharing out a SMB and AFP filesystem.
 - Accepts rsync over ssh
 
+## Setup of NAS - ZFS filesystem
+
+The server has 3 Terabyte (TB) of storage. The storage is setup as a ZFS filesystem and all disks (four disks altogether, two disks of 2TB each and two disks of 1TB each) are all setup as a ZFS mirror. That is the two 2TB disks are mirroring each other as well as the two 1TB disks. If one disk fails ZFS is automatically restoring (by ZFS scrub) the failing disk. If one disk fails (by HW) and must be replaced ZFS has functionality for unmounting failed disk, mount a new one and put the new one into mirrored pool again.
+
+It is easy and cheap to setup a backup server based on Linux or other server OS and rsync. There is an open source project [Netatalk](http://netatalk.sourceforge.net/) Apple Filing Protocol ([AFP](https://en.wikipedia.org/wiki/Apple_Filing_Protocol)) fileserver. Some years ago I tested Apple Time Machine and Netatalk on a Solaris 11 server. It worked for some time, but also failed. I don't know stable Netatalk and Apple Time Machine is now. But for me rsync is the best solution. And for backups to remote servers outside my house (by Internet connection) rsync is most likely the best tool to use. By using rsync I backup all data on my Macs. A complete reinstallation of a MacBook is done by a fresh install of OS X and then restore all data by rsync. Safe and reliable.
+
+![New configurations](screenshots/master/nas/nas1.jpeg)
+
 ## The NAS (HW)
+
+**NB : May 2017, Please be advised that my NAS HW is under revision and to be replaced. I will update this pages after new HW is installed and up and running. New HW is based upon HW recommended by the FreeNAS team.**
+
 
 The only piece from my old NAS to keep is an Intel RAID controller. All other HW is replaced (not the storage). Why keep the RAID controller? First of all it is supported by most OS. The motherboard has only four SATA ports. I have (including the boot disk) seven SATA disks. The RAID controller has 8-ports and all disks except the boot disk, is connected to the RAID controller. The controller is discontinued but it stills works.
 
@@ -105,12 +116,3 @@ The hardware of my 2017 NAS are:
 6.  Two WD Red 1TB NAS Hard drive, SATA 6Gb/s (SATA 3.0), 64MB, 3.5", 24x7 reliability, IntelliPower (bought in 2014)
 7.  Two WD Desktop Green 2TB SATA 6Gb/s, (SATA 3.0), IntelliPower, 64MB, 3.5" (bought in 2012)
   - one disk HW failed and replaced in 2013 without any loss of data
-
-
-## Setup of NAS - ZFS filesystem
-
-The server has 3 Terabyte (TB) of storage. The storage is setup as a ZFS filesystem and all disks (four disks altogether, two disks of 2TB each and two disks of 1TB each) are all setup as a ZFS mirror. That is the two 2TB disks are mirroring each other as well as the two 1TB disks. If one disk fails ZFS is automatically restoring (by ZFS scrub) the failing disk. If one disk fails (by HW) and must be replaced ZFS has functionality for unmounting failed disk, mount a new one and put the new one into mirrored pool again.
-
-It is easy and cheap to setup a backup server based on Linux or other server OS and rsync. There is an open source project [Netatalk](http://netatalk.sourceforge.net/) Apple Filing Protocol ([AFP](https://en.wikipedia.org/wiki/Apple_Filing_Protocol)) fileserver. Some years ago I tested Apple Time Machine and Netatalk on a Solaris 11 server. It worked for some time, but also failed. I don't know stable Netatalk and Apple Time Machine is now. But for me rsync is the best solution. And for backups to remote servers outside my house (by Internet connection) rsync is most likely the best tool to use. By using rsync I backup all data on my Macs. A complete reinstallation of a MacBook is done by a fresh install of OS X and then restore all data by rsync. Safe and reliable.
-
-![New configurations](screenshots/master/nas/nas1.jpeg)
