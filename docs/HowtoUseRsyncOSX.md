@@ -71,12 +71,16 @@ There are two labels on top of table : **Profile** and **Double click: YES**. Co
 
 ### Profiles
 
-RsyncOSX uses profiles. If not used all configurations are saved in the default profile. Which profile in use is labeled on left top of table.In the profiles menu there are two options:
+RsyncOSX uses profiles. If not used all configurations are saved in the default profile. Which profile in use is labeled on left top of table.
 
-- new profile (name of new profile must be set in `New profile name`)
-- delete profile
+**Double click** on a profile name to select a profile.
 
-Selecting the `Default` button selects the default profile. **Double click** on a profile name to select the profile.
+In the profiles menu there are two options:
+
+- `New` profile. Name of new profile must be set in `New profile name`) before New button is selected.
+- `Delete` profile. Select profile to be deleted in list of profiles and select `Delete` button to delete.
+
+Selecting the `Default` button selects the default profile.
 
 ![Main view](screenshots/master/profile.png)
 

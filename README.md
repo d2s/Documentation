@@ -24,8 +24,7 @@ The following are documents about using RsyncOSX.
 Using RsyncOSX for backup to remote servers requiere to setup ssh passwordless login. What is ssh passwordless login? By using ssh private and public keypair, login to remote servers without password is enabled.
 
 > - How to enable [passwordless logins](docs/PasswordlessLogin.md).
-
-From version 4.3.0 RsyncOSX can assist in setting up [passwordless](docs/ssh.md) logins. 
+> - Or use RsyncOSX to assist setting up [passwordless](docs/ssh.md) logins.
 
 ### Parameters to rsync
 
