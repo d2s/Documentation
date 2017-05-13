@@ -77,7 +77,7 @@ RsyncOSX uses profiles. If not used all configurations are saved in the default 
 
 In the profiles menu there are two options:
 
-- `New` profile. Name of new profile must be set in `New profile name`) before New button is selected.
+- `New` profile. Name of new profile must be set in `New profile name` before `New` button is selected.
 - `Delete` profile. Select profile to be deleted in list of profiles and select `Delete` button to delete.
 
 Selecting the `Default` button selects the default profile.
