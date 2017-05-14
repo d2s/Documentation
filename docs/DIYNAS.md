@@ -94,18 +94,14 @@ It is easy and cheap to setup a backup server based on Linux or other server OS 
 
 ## The NAS (HW)
 
-**NB : May 2017, Please be advised that my NAS HW is under revision and to be replaced. I will update this pages after new HW is installed and up and running. New HW is based upon HW recommended by the FreeNAS team.**
-
-
-The only piece from my old NAS to keep is an Intel RAID controller. All other HW is replaced (not the storage). Why keep the RAID controller? First of all it is supported by most OS. The motherboard has only four SATA ports. I have (including the boot disk) seven SATA disks. The RAID controller has 8-ports and all disks except the boot disk, is connected to the RAID controller. The controller is discontinued but it stills works.
+*Important : May 2017, Please be advised that my NAS HW is under revision and to be replaced. I will update this pages after new HW is installed and up and running. New HW will be based upon [recommandations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team. For the moment I am back on stock FreeBSD 11. Imported zpools created in FreeNAS. The plan now is to spend some time to get the correct HW pieces for FreeNAS box.*
 
 ![New configurations](screenshots/master/nas/nas2.jpg)
 
-I am quite pleased to replace Oracle Solaris as OS with *FreeNAS*. FreeNAS is free software and it is under continuously development. The WebGUI is intuitive, nice and easy to use. It took med just a couple of minutes to format two drives, create a new mirrored zpool, create a new user and mount 1 TB of disk to use as backup for RsyncOSX.
 
-Total disk in NAS is 6 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror. My NAS is sharing out 3 TB.
+Total disk in NAS is 2 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror. My NAS is sharing out 3 TB.
 
-The hardware of my 2017 NAS are:
+The hardware of my 2017 NAS are (will be replaced):
 
 1.  Fractal Design Node [304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black)
 2.  Fractal Design Integra M 450W PSU
@@ -114,5 +110,3 @@ The hardware of my 2017 NAS are:
   - using the Intel Core i5 as CPU in NAS is probably an overkill
 5.  Kingston ValueRAM DDR4 2133MHz 16GB
 6.  Two WD Red 1TB NAS Hard drive, SATA 6Gb/s (SATA 3.0), 64MB, 3.5", 24x7 reliability, IntelliPower (bought in 2014)
-7.  Two WD Desktop Green 2TB SATA 6Gb/s, (SATA 3.0), IntelliPower, 64MB, 3.5" (bought in 2012)
-  - one disk HW failed and replaced in 2013 without any loss of data
