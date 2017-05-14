@@ -11,6 +11,7 @@ Before installing and using RsyncOSX there are some important information to rea
 
 The following are documents about using RsyncOSX.
 
+> - Short [intro](docs/Intro.md) to RsyncOSX
 > - Adding [configurations](docs/AddConfigurations.md) (backup and restore).
 > - Executing of [single tasks](docs/SingleTask.md) (configurations).
 > - Executing of [batch tasks](docs/BatchTask.md).
