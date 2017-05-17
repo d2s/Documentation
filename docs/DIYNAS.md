@@ -2,14 +2,16 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-This page is a short resume about my DIY (do it yourself) [NAS](https://en.wikipedia.org/wiki/Network-attached_storage). For some time I have wanted to upgrade the old NAS (from 2010). A server crash in October 2016 forced me to commence an upgrade both the OS and HW platform. Upgrade of the hardware can quickly become a challenge if the OS does not support the hardware. And some of the OS I tried out did not support my HW.
+This page is a short resume about my DIY (do it yourself) [NAS](https://en.wikipedia.org/wiki/Network-attached_storage). For some time I have wanted to upgrade the old NAS (from 2010). A server crash in October 2016 forced me to commence an upgrade of both the OS and HW platform. Upgrade of the hardware can quickly become a challenge if the OS does not support the hardware. And some of the OS I tried out did not support my HW.
 
 I do not spend much time building or maintaining my NAS. The main purposes of my NAS are:
 
 - storing backup of my files
 - and share out disk (by SMB/CIFS and/or AFP)
 
-My knowledge about computer hardware is very limited. The hardware in new NAS is more or less selected by advices from the computer store. The most important objective is to get hardware which is supported by the OS. The form factor of the motherboard also narrows the possibilities. I want a small NAS and decided to go for a [mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard.  The hardware in my NAS is probably not the best solution. But it works (finally).
+My knowledge about computer hardware is very limited. The hardware in new NAS is more or less selected by advices from the computer store. The most important objective is to get hardware which is supported by the OS. The form factor of the motherboard also narrows the possibilities. I want a small NAS and decided to go for a [mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard.  The hardware in my NAS is probably not the best solution. 
+
+**May 2017: there has been some (probably) HW issues regarding my NAS. Please see last section in this page.**
 
 ### Why backup
 
@@ -21,7 +23,7 @@ The rsync utility is available on most OS platforms. It has been around for some
 
 ## Encrypt sensitive information
 
-I am also observant of not storing personal and sensitive information unsecured at off site locations. There are several solutions to encrypt data. One is creating a secure folder or volume. Almost all OS supports [encrypted file systems](https://en.wikipedia.org/wiki/Filesystem-level_encryption) today. Another is to encrypt files containing personal and sensitive information (as tax reports). I am using the last one and encrypt files by using [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard). I also encrypt files containing sensitive information in case my MacBook is **compromised** (hopefully not likely to happen due to precautions).
+I am also observant of not storing personal and sensitive information unsecured at off site locations. There are several solutions to encrypt data. One is creating a secure folder or volume. Almost all OS supports [encrypted file systems](https://en.wikipedia.org/wiki/Filesystem-level_encryption) today. Another solution is to encrypt files containing personal and sensitive information (as tax reports). I am encrypting files by using [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard). I also encrypt files containing sensitive information in case my MacBook is **compromised** (hopefully not likely to happen due to precautions).
 
 I have **not** tested rsync on encrypted folders or volumes. I am quite sure it works, but I do not know how effective rsync is when there are changes within the encrypted folder or volume.
 
@@ -37,7 +39,7 @@ There are several options for installing NAS by using free and open sourced base
 - either go for a special NAS SW (as NAS4Free, FreeNAS or Openmediavolt)
 - or use stock OS (as FreeBSD 11 or Ubuntu 16.10).  
 
-### FreeBSD 11 or Ubuntu 16.10
+### FreeBSD 11 or Ubuntu 16.10 (or 17.04)
 
 Before going testing a NAS SW I tried out [FreeBSD 11](https://www.freebsd.org/). FreeBSD was installed and booted fine on my new hardware. I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There was to much tweaking and installing of various ports to get it up and running as NAS and sharing out filesystems. Creating and mounting zpools by command line using the correct parameters is not trivial. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
 
@@ -70,13 +72,13 @@ The above narrows down two options:
 - [NAS4free](http://www.nas4free.org/) or
 - [FreeNAS](http://www.freenas.org/)
 
-Both are based on FreeBSD. NAS4Free on FreeBSD 11.x and FreeNAS on FreeBSD 10.x.
+NAS4Free on FreeBSD 11.x as well as FreeNAS11-RC1. I believe FreeNAS11 is due to be released in June 2017.
 
 [ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux.
 
 For some time (about 6 months) I have used NAS4Free. Release 11.0.0.4.4040 of NAS4Free caused me some troubles. Ssh connections was broken and after upgrading I was not able to connect to the server by `ssh`. Without `ssh` RsyncOSX does not work. There is also an issue about ssh and NAS4Free. From time to time the NAS4Free server did not accept `ssh` connections. Ssh was not broken prior to release of 11.0.0.4.4040, but there were some unresolved issues.    
 
-I got a newsletter about *FreeNAS*. So i decided to install FreeNAS. I was tempted by info in newsletter to try it out.
+Time to test FreeNAS.
 
 My *FreeNAS* based NAS is now setup to do the following:
 
@@ -94,12 +96,16 @@ It is easy and cheap to setup a backup server based on Linux or other server OS 
 
 ## The NAS (HW)
 
-*Important : May 2017, Please be advised that my NAS HW is under revision and to be replaced. I will update this pages after new HW is installed and up and running. New HW will be based upon [recommandations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team. For the moment I am back on stock FreeBSD 11. Imported zpools created in FreeNAS. The plan now is to spend some time to get the correct HW pieces for FreeNAS box.*
+Important : May 2017, Please be advised that my NAS HW is under revision and to be replaced. I will update this pages after new HW is installed and up and running. New HW will be based upon [recommandations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team. For the moment I am back on stock FreeBSD 11. Imported zpools created in FreeNAS. 
+
+My FreeNAS started dying after 2-3 days operation a couple of weeks ago. No traces why, just dropped network connections and a reboot was the only way to get it up and running again. As I understand the HW in my NAS is not compliant to HW [recommandations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/). But, so far, stock FreeBSD 11 is running OK.  
+
+The plan now is to spend some time to get the correct HW pieces for FreeNAS box. Until then I am only using mye FreeBSD 11 server as backup server (by using RsyncOSX).
 
 ![New configurations](screenshots/master/nas/nas2.jpg)
 
 
-Total disk in NAS is 2 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror. My NAS is sharing out 3 TB.
+Total disk in NAS is 2 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror. My NAS is sharing out 1 TB.
 
 The hardware of my 2017 NAS are (will be replaced):
 
