@@ -58,7 +58,7 @@ If the backup directory is not created rsync automatically creates it. The `../b
 ![New configurations](screenshots/master/rsync/rsync2.png)
 
 
-The screen below is a listing of some of files moved to the backup directory and renamed before new files are transferred from source to destination. My NAS is based on FreeNAS Coral (FreeBSD) and backup of changed files is in catalog `../backup_Documents`.
+The screen below is a listing of some of files moved to the backup directory and renamed before new files are transferred from source to destination. My NAS is based on FreeNAS (FreeBSD) and backup of changed files is in catalog `../backup_Documents`.
 
 ![New configurations](screenshots/master/rsync/rsync3.png)
 
