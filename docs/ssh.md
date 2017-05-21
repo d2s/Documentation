@@ -18,6 +18,11 @@ Which key to create and use is for you to decide. I am using the rsa based key o
 
 After local private and public ssh key pair is created choosing `Remote server` to select which remote server to setup. It is required to [add](AddConfigurations.md) configuration before setting up passwordless logins.
 
+In version 4.3.0 double click on row to select remote server. This is fixed in coming versions. Either double click or select a row and `OK` button.
+
+![ssh](screenshots/master/ssh/ssh4.png)
+
+
 * `Ssh directory` - copy and paste command in Terminal.app to create remote `~/.ssh` catalog
 * `Scp rsa` - copy and paste command in Terminal.app to secure copy public rsa key.
 * `Scp dsa` - copy and paste command in Terminal.app to secure copy public dsa key
