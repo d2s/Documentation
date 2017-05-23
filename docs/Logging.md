@@ -14,6 +14,8 @@ If no row is selected, text can be entered in search field and by selecting one 
 
 All loggdata is by default listed in table.
 
+**Issue about logging:** if only a few and small files (in size) is transferred it is most likely thats logs shows 0 only. The rsync command is executed by a [Process](https://developer.apple.com/reference/foundation/process) object. There are methods to monitor when executed task terminates and when the task ouputs data (to console). The logging in RsyncOSX is triggered by a `process termination` notification (see [processCmd.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/processCmd.swift)). Normally all output data is monitored before `process termination` is observed. Sometimes, when transferring a few and small files,  a `process termination` is observed before output data is monitored. Hence no data to log.
+
 ![Schedule](screenshots/master/logging/log1.png)
 
 ### Server
