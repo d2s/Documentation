@@ -10,6 +10,27 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 The [code](https://github.com/rsyncOSX/RsyncOSX) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day. I am not a professional developer, this is for fun only. Coding is an art and to be really good at coding requires years of experience. My experience of coding is far from that ;-) But I am happy to share the code with anyone interested. Sharing of code is in my opinion the best way to get quality.
 
+## Version 4.3.5 release candidate
+
+Probably a few more enhancements will be added before release. This rc is my daily driver.
+
+* [Download rc](https://github.com/rsyncOSX/RsyncOSX/releases/download/v4.3.5rc/RsyncOSX.dmg)
+* updated 26 May 2017
+* Added Abort when real task is executing
+* Refactor of Copy Single files/directory
+	* in userconfig set temporary restore catalog (for single files or directory)
+	* display size remote files
+	* double click on row to get remote filelist
+	* double click on row to restore files or directory to temporary (local) catalog
+* Clean up of other parts of code
+
+![](screenshots/4.3.5/abort.png)
+![](screenshots/4.3.5/config.png)
+![](screenshots/4.3.5/remote.png)
+![](screenshots/4.3.5/filelist.png)
+![](screenshots/4.3.5/doubleclick.png)
+![](screenshots/4.3.5/finished.png)
+
 ## Version 4.3.0
 
 * released 8 May 2017
