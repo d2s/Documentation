@@ -1,10 +1,10 @@
 # RsyncOSX
 
-## Source code
+## The RsyncOSX code
 
 The [code](https://github.com/rsyncOSX/RsyncOSX) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day. I am not a professional developer, this is for fun only.
 
-May 2017: What is my experience after about a year into my Swift project? Writing code is fun and addicting. But I experience the code I am writing is a kind of "brute force". From time to time I am reading blogs about coding Swift and I understand there are a lot to learn. But I am not going down that path. I am not a professional programmer, my project is for fun only. And I need a backup tool based upon rsync. From time to time I refactor the code, and I will continue adding minor enhancements and refactor code. That is it...
+**May 2017**: What is my experience after about a year into my Swift project? Writing code is fun and addicting. But I experience the code I am writing is a kind of "brute force". From time to time I am reading blogs about coding Swift and I understand there are a lot to learn. But I am not going down that path. I am not a professional programmer, my project is for fun only. And I need a backup tool based upon rsync. From time to time I refactor the code, and I will continue adding minor enhancements and refactor code. That is it...
 
 ### Installing and important info
 
