@@ -11,7 +11,8 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 Probably a few more enhancements will be added before release. This rc is my daily driver.
 
 * [Download rc](https://github.com/rsyncOSX/RsyncOSX/releases/download/v4.3.5rc/RsyncOSX.dmg)
-* updated 26 May 2017
+* updated 30 May 2017
+* Seems like the [logging](Logging.md) problem is solved () in 30 May 2017 update 
 * Added Abort when real task is executing
 * Refactor of Copy Single files/directory
 	* in userconfig set temporary restore catalog (for single files or directory)
