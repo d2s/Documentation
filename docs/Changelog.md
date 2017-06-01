@@ -12,7 +12,7 @@ Probably a few more enhancements will be added before release. This rc is my dai
 
 * [Download rc](https://github.com/rsyncOSX/RsyncOSX/releases/download/v4.3.5rc/RsyncOSX.dmg)
 * updated 30 May 2017
-* Seems like the [logging](Logging.md) problem is solved () in 30 May 2017 update 
+* Seems like the [logging](Logging.md) problem is partly solved in 30 May 2017 update 
 * Added Abort when real task is executing
 * Refactor of Copy Single files/directory
 	* in userconfig set temporary restore catalog (for single files or directory)
