@@ -77,11 +77,13 @@ The above narrows down two options:
 
 NAS4Free on FreeBSD 11.x as well as FreeNAS11-RC1. I believe FreeNAS11 is due to be released in June 2017.
 
-[ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux.
+[ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux (and other OS as well).
 
 For some time (about 6 months) I have used NAS4Free. Release 11.0.0.4.4040 of NAS4Free caused me some troubles. Ssh connections was broken and after upgrading I was not able to connect to the server by `ssh`. Without `ssh` RsyncOSX does not work. There is also an issue about ssh and NAS4Free. From time to time the NAS4Free server did not accept `ssh` connections. Ssh was not broken prior to release of 11.0.0.4.4040, but there were some unresolved issues.    
 
-Time to test FreeNAS.
+### Time to test FreeNAS
+
+Due to some issues in NAS4Free and my HW I decided to test FreeNAS.
 
 My *FreeNAS* based NAS is now setup to do the following:
 
@@ -99,7 +101,7 @@ It is easy and cheap to setup a backup server based on Linux or other server OS 
 
 ## The NAS (HW)
 
-Important : May 2017, Please be advised that my NAS HW is under revision and to be replaced. I will update this pages after new HW is installed and up and running. New HW will be based upon [recommandations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team. For the moment I am back on stock FreeBSD 11. Imported zpools created in FreeNAS.
+**Important : May 2017** Please be advised that my NAS HW is under revision and to be replaced. I will update this pages after new HW is installed and up and running. New HW will be based upon [recommandations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team. For the moment I am back on stock FreeBSD 11. Imported zpools created in FreeNAS.
 
 My FreeNAS started dying after 2-3 days operation a couple of weeks ago. No traces why, just dropped network connections and a reboot was the only way to get it up and running again. As I understand the HW in my NAS is not compliant to HW [recommandations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/). But, so far, stock FreeBSD 11 is running OK.  
 
