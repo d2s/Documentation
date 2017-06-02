@@ -13,6 +13,9 @@ My knowledge about computer hardware is very limited. The hardware in new NAS is
 
 **May 2017: there has been some (probably) HW issues regarding my NAS. Please see last section in this page.**
 
+Choosing the correct HW as NAS is not an easy task. I have spend some time googling around, reading HW-guides and checking for availability of HW. My advise is use some time before buying HW.
+
+
 ### Why backup
 
 For me, backup is very important. And do backup to several locations and keep the backups in the different locations synchronized. Not loosing data is the obvious reason for doing backup. There are several ways to "loose" data. Disk crash is one. Highjacking by ransomware another. A **restore** of data is a cheap solution if either of the them occurs.
