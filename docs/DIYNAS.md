@@ -9,7 +9,7 @@ I do not spend much time building or maintaining my NAS. The main purposes of my
 - storing backup of my files
 - and share out disk (by SMB/CIFS and/or AFP)
 
-My knowledge about computer hardware is very limited. The hardware in new NAS is more or less selected by advices from the computer store. The most important objective is to get hardware which is supported by the OS. The form factor of the motherboard also narrows the possibilities. I want a small NAS and decided to go for a [mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard.  The hardware in my NAS is probably not the best solution. 
+My knowledge about computer hardware is very limited. The hardware in new NAS is more or less selected by advices from the computer store. The most important objective is to get hardware which is supported by the OS. The form factor of the motherboard also narrows the possibilities. I want a small NAS and decided to go for a [mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard.  The hardware in my NAS is probably not the best solution.
 
 **May 2017: there has been some (probably) HW issues regarding my NAS. Please see last section in this page.**
 
@@ -96,14 +96,21 @@ It is easy and cheap to setup a backup server based on Linux or other server OS 
 
 ## The NAS (HW)
 
-Important : May 2017, Please be advised that my NAS HW is under revision and to be replaced. I will update this pages after new HW is installed and up and running. New HW will be based upon [recommandations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team. For the moment I am back on stock FreeBSD 11. Imported zpools created in FreeNAS. 
+Important : May 2017, Please be advised that my NAS HW is under revision and to be replaced. I will update this pages after new HW is installed and up and running. New HW will be based upon [recommandations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team. For the moment I am back on stock FreeBSD 11. Imported zpools created in FreeNAS.
 
 My FreeNAS started dying after 2-3 days operation a couple of weeks ago. No traces why, just dropped network connections and a reboot was the only way to get it up and running again. As I understand the HW in my NAS is not compliant to HW [recommandations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/). But, so far, stock FreeBSD 11 is running OK.  
 
 The plan now is to spend some time to get the correct HW pieces for FreeNAS box. Until then I am only using mye FreeBSD 11 server as backup server (by using RsyncOSX).
 
-![New configurations](screenshots/master/nas/nas2.jpg)
+### New HW for NAS.
 
+I am will replave the HW in my [Fractal Design Node 304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black). The following new pieces are ordered:
+
+- [ASRock E3C226D2I MB](http://www.asrockrack.com/general/productdetail.asp?Model=E3C226D2I#Specifications)
+- [Intel® Pentium® Processor G3258](https://ark.intel.com/products/82723/Intel-Pentium-Processor-G3258-3M-Cache-3_20-GHz)
+- [ValueRAM for ASRock Server Board E3C226D2I](http://www.kingston.com/us/memory/search?devicetype=7&mfr=ASR&line=Server%20Board&model=86498)
+
+### Old NAS - NAS is now running FreeBSD 11 until HW is replaced
 
 Total disk in NAS is 2 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror. My NAS is sharing out 1 TB.
 
