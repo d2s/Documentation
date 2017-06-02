@@ -124,6 +124,5 @@ Total disk in NAS is 2 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup 
 -  Fractal Design [Integra M 450W PSU](http://www.fractal-design.com/home/product/power-supplies/integra-m/integra-m-450w)
 -  [MSI H110I](https://www.msi.com/Motherboard/H110I-PRO.html#hero-overview) Pro, Socket-1151 motherboard
 -  [Intel Core i5-6400](http://ark.intel.com/products/88185/Intel-Core-i5-6400-Processor-6M-Cache-up-to-3_30-GHz), Socket-LGA1151 processor
-  - using the Intel Core i5 as CPU in NAS is probably an overkill
 -  Kingston ValueRAM DDR4 2133MHz 16GB
 -  Two WD Red 1TB NAS Hard drive, SATA 6Gb/s (SATA 3.0), 64MB, 3.5", 24x7 reliability, IntelliPower (bought in 2014)
