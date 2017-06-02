@@ -110,16 +110,18 @@ I am will replave the HW in my [Fractal Design Node 304 Mini-ITX Black](http://w
 - [Intel® Pentium® Processor G3258](https://ark.intel.com/products/82723/Intel-Pentium-Processor-G3258-3M-Cache-3_20-GHz)
 - [ValueRAM for ASRock Server Board E3C226D2I](http://www.kingston.com/us/memory/search?devicetype=7&mfr=ASR&line=Server%20Board&model=86498)
 
-### Old NAS - NAS is now running FreeBSD 11 until HW is replaced
+NAS will be setup using [ECC memory](https://en.wikipedia.org/wiki/ECC_memory). 
+
+### Old NAS
+
+NAS is now running FreeBSD 11 until HW is replaced.
 
 Total disk in NAS is 2 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror. My NAS is sharing out 1 TB.
 
-The hardware of my 2017 NAS are (will be replaced):
-
-1.  Fractal Design Node [304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black)
-2.  Fractal Design Integra M 450W PSU
-3.  [MSI H110I](https://www.msi.com/Motherboard/H110I-PRO.html#hero-overview) Pro, Socket-1151 motherboard
-4.  [Intel Core i5-6400](http://ark.intel.com/products/88185/Intel-Core-i5-6400-Processor-6M-Cache-up-to-3_30-GHz), Socket-LGA1151 processor
+-  Fractal Design Node [304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black)
+-  Fractal Design Integra M 450W PSU
+-  [MSI H110I](https://www.msi.com/Motherboard/H110I-PRO.html#hero-overview) Pro, Socket-1151 motherboard
+-  [Intel Core i5-6400](http://ark.intel.com/products/88185/Intel-Core-i5-6400-Processor-6M-Cache-up-to-3_30-GHz), Socket-LGA1151 processor
   - using the Intel Core i5 as CPU in NAS is probably an overkill
-5.  Kingston ValueRAM DDR4 2133MHz 16GB
-6.  Two WD Red 1TB NAS Hard drive, SATA 6Gb/s (SATA 3.0), 64MB, 3.5", 24x7 reliability, IntelliPower (bought in 2014)
+-  Kingston ValueRAM DDR4 2133MHz 16GB
+-  Two WD Red 1TB NAS Hard drive, SATA 6Gb/s (SATA 3.0), 64MB, 3.5", 24x7 reliability, IntelliPower (bought in 2014)
