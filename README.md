@@ -26,7 +26,6 @@ The following are documents about using RsyncOSX.
 > - Scheduling of [tasks](docs/ScheduleTasks.md).
 > - Restore of [single files or catalogs](docs/CopySingleFiles.md).
 > - [Logging](docs/Logging.md) execution of tasks.
-> 	- There is a minor issue regarding logging, see [Logging](docs/Logging.md) for details
 > - Some info about [user configuration](docs/UserConfiguration.md).
 
 ### Passwordless logins

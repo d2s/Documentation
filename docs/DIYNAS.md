@@ -25,7 +25,7 @@ The rsync utility is available on most OS platforms. It has been around for some
 
 I am also observant of not storing personal and sensitive information unsecured at off site locations. There are several solutions to encrypt data. One is creating a secure folder or volume. Almost all OS supports [encrypted file systems](https://en.wikipedia.org/wiki/Filesystem-level_encryption) today. Another solution is to encrypt files containing personal and sensitive information (as tax reports). I am encrypting files by using [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard). I also encrypt files containing sensitive information in case my MacBook is **compromised** (hopefully not likely to happen due to precautions).
 
-I have **not** tested rsync on encrypted folders or volumes. I am quite sure it works, but I do not know how effective rsync is when there are changes within the encrypted folder or volume.
+I have **not** tested rsync on encrypted folders or volumes. I am sure it works, but I do not know how effective rsync is when there are changes within the encrypted folder or volume.
 
 
 ## Setup of NAS
@@ -41,7 +41,7 @@ There are several options for installing NAS by using free and open sourced base
 
 ### FreeBSD 11 or Ubuntu 16.10 (or 17.04)
 
-Before going testing a NAS SW I tried out [FreeBSD 11](https://www.freebsd.org/). FreeBSD was installed and booted fine on my new hardware. I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There was to much tweaking and installing of various ports to get it up and running as NAS and sharing out filesystems. Creating and mounting zpools by command line using the correct parameters is not trivial. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
+Before going testing a NAS SW I tried out [FreeBSD 11](https://www.freebsd.org/). FreeBSD was installed and booted fine on new hardware. I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There were to much tweaking and installing of various FreeBSD ports to get it up and running as NAS and sharing out filesystems. Creating and mounting zfs filesystems by command line using the correct parameters is a non trivial task. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
 
 I also dropped testing of Ubuntu 16.10 due to reasons as for FreeBSD 11.
 
@@ -104,13 +104,15 @@ The plan now is to spend some time to get the correct HW pieces for FreeNAS box.
 
 ### New HW for NAS.
 
-I am will replave the HW in my [Fractal Design Node 304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black). The following new pieces are ordered:
+I am will replace the HW in my [Fractal Design Node 304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black). The following new pieces are ordered:
 
 - [ASRock E3C226D2I MB](http://www.asrockrack.com/general/productdetail.asp?Model=E3C226D2I#Specifications)
 - [Intel® Pentium® Processor G3258](https://ark.intel.com/products/82723/Intel-Pentium-Processor-G3258-3M-Cache-3_20-GHz)
 - [ValueRAM for ASRock Server Board E3C226D2I](http://www.kingston.com/us/memory/search?devicetype=7&mfr=ASR&line=Server%20Board&model=86498)
+- Two WD Red 1TB NAS Hard drives (existing, discontinued)
+- Two [WD Red 2TB](https://www.amazon.com/Red-2TB-Hard-Disk-Drive/dp/B008JJLZ7G) NAS Hard drives (buy new ones)
 
-NAS will be setup using [ECC memory](https://en.wikipedia.org/wiki/ECC_memory). 
+NAS will be setup using [ECC memory](https://en.wikipedia.org/wiki/ECC_memory).
 
 ### Old NAS
 
@@ -119,7 +121,7 @@ NAS is now running FreeBSD 11 until HW is replaced.
 Total disk in NAS is 2 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror. My NAS is sharing out 1 TB.
 
 -  Fractal Design Node [304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black)
--  Fractal Design Integra M 450W PSU
+-  Fractal Design [Integra M 450W PSU](http://www.fractal-design.com/home/product/power-supplies/integra-m/integra-m-450w)
 -  [MSI H110I](https://www.msi.com/Motherboard/H110I-PRO.html#hero-overview) Pro, Socket-1151 motherboard
 -  [Intel Core i5-6400](http://ark.intel.com/products/88185/Intel-Core-i5-6400-Processor-6M-Cache-up-to-3_30-GHz), Socket-LGA1151 processor
   - using the Intel Core i5 as CPU in NAS is probably an overkill
