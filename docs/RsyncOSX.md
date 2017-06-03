@@ -18,7 +18,7 @@ I have uploaded a short (about 5 minutes) [YouTube video of RsyncOSX](https://ww
 
 RsyncOSX is released in version 4.3.0
 
-> -- new release candidate (version 4.3.5 rc) - see [Changelog](https://rsyncosx.github.io/Documentation/docs/Changelog.html) for download
+> - new release candidate (version 4.3.5 rc) - see [Changelog](https://rsyncosx.github.io/Documentation/docs/Changelog.html) for download
 > - [download](https://github.com/rsyncOSX/RsyncOSX/releases/download/v4.3.0/RsyncOSX.dmg) latest version of RsyncOSX
 > - shasum : 04c841ee2ae3bff6d90a9e4871ecec1806e9b269
 > - see the [Changelog](Changelog.md) for info
