@@ -8,7 +8,7 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 ## Version 4.4.x (macOS 10.13 (High Sierra), Xcode 9 and Swift 4)
 
-RsyncOSX is converted to Swift 4.x (beta), compiled with Xcode 9 (beta) and tested on macOS 10.13 (beta released to developers). I have one MacBook Pro which is installed with latest developer beta of macOS 10.13 (High Sierra). An updated version of RsyncOSX will be released as soon as Apple releases macOS 10.13 and Xcode 9.   
+RsyncOSX is converted to Swift 4.x (beta), compiled with Xcode 9 (beta) and tested on macOS 10.13 (beta released to developers). I have one MacBook Pro which is installed with latest developer beta of macOS 10.13 (High Sierra). An updated version of RsyncOSX will be released as soon as Apple releases macOS 10.13 and Xcode 9. RsyncOSX will be compiled with support for macOS 10.11 - macOS 10.13.    
 
 ## Version 4.3.5 release candidate
 
