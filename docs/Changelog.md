@@ -6,13 +6,18 @@ I am using the application on a daily basis and it evolves during my own use. An
 
 Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs.
 
+## Version 4.4.x (macOS 10.13 (High Sierra), Xcode 9 and Swift 4)
+
+RsyncOSX is converted to Swift 4.x (beta), compiled with Xcode 9 (beta) and tested on macOS 10.13 (beta released to developers). I have one MacBook Pro which is installed with latest developer beta of macOS 10.13 (High Sierra). An updated version of RsyncOSX will be released as soon as Apple releases macOS 10.13 and Xcode 9.   
+
 ## Version 4.3.5 release candidate
 
 Probably a few more enhancements will be added before release. This rc is my daily driver.
 
 * [Download rc](https://github.com/rsyncOSX/RsyncOSX/releases/download/v4.3.5rc/RsyncOSX.dmg)
-* updated 30 May 2017
-* Seems like the [logging](Logging.md) problem is partly solved in 30 May 2017 update 
+* updated **7 June 2017**
+	* compiled with Xcode 8.3.3 (which was released June 2017)
+* Seems like the [logging](Logging.md) problem is partly solved in 30 May 2017 update
 * Added Abort when real task is executing
 * Refactor of Copy Single files/directory
 	* in userconfig set temporary restore catalog (for single files or directory)
