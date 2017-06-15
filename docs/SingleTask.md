@@ -41,7 +41,10 @@ The actual rsync command to be executed is shown below right corner in view. It 
 
 *Next task* shows what the next task is. It shows three status : *Estimate*, *Execute* or *Abort*. If Abort is pressed any executing task is aborted. After estimate run is completed and result is checked, a real run is executed by selecting the Execute button again. If you select another row after estimation a new estimation run must be completed.
 
-![Execute](screenshots/master/singletask/execute.png)
+Selecting `Abort`aborts the current task.
+
+![](screenshots/4.3.5/abort.png)
+
 
 ### Edit task
 
