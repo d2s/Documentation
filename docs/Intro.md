@@ -7,6 +7,12 @@ There are two labels on top of table : **Profile** and **Double click: YES**. Co
 
 **Important**: Information about *new:* and *delete:* files and remote number of directories are only available if version 3.x of rsync is used.
 
+The red rows indicates no connection to remote server. RsyncOSX does a **background** check (informal only) for remote servers at startup. The server `10.0.0.58` is a local NAS server and if RsyncOSX does not find server outside my home.
+
+![Main view](screenshots/master/main.png)
+
+A double click on a row executes the task. A drop down view presents result of task after rsync terminates. A backup is normally a two step task, first a `--dry-run` and then the real task. Tasks might be marked for batch for execution in one go (all tasks marked for batch).
+
 ![Main view](screenshots/master/main1.png)
 
 
