@@ -49,4 +49,4 @@ If _profile_ is used:
 Sometimes rsync throws errors. RsyncOSX does a simple check in output if there are any occurrence of the prashe `rsync error:`. If found RsyncOSX resets the work queue. This is *not* a advanced error handling.
 
 ![Main view](screenshots/master/error.png)
-![Main view](screenshots/master/config.png)
+![](screenshots/4.3.5/config.png)
