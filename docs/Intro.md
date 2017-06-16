@@ -7,7 +7,7 @@ There are two labels on top of table : **Profile** and **Double click: YES**. Co
 
 **Important**: Information about *new:* and *delete:* files and remote number of directories are only available if version 3.x of rsync is used.
 
-The red rows indicates no connection to remote server. RsyncOSX does a **background** check (informal only) for remote servers at startup. The server `10.0.0.58` is a local NAS server and if RsyncOSX does not find server outside my home.
+The red rows indicates no connection to remote server. RsyncOSX does a **background** check (informal only) for remote servers at startup. The server `10.0.0.58` is a local NAS server and RsyncOSX does not find `10.0.0.58` outside my home and marks configurations red in table view.
 
 ![Main view](screenshots/master/main.png)
 
