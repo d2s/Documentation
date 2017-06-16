@@ -4,9 +4,13 @@
 
 The [code](https://github.com/rsyncOSX/RsyncOSX) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day.
 
-**May 2017**: What is my experience after about a year into my Swift project? Writing code is fun and addicting. But I experience that parts of the code I am writing is a kind of "brute force". From time to time I am reading blogs and other resources about coding in Swift. Some ideas I do pick up, some I don´t understand and others again are like this is how I should have done it. And I am a kind of OK with that. I am not a professional programmer. The project is for fun only.
+What is my experience after about a year into my Swift project? Writing swift code is fun and addicting. But I experience from time to time some of the code I am writing is a kind of "brute force". I am reading blogs and other resources about coding in Swift. Some ideas I do pick up, some I don´t understand and others again are like this is how I should have done it. I'm not a professional or full-time programmer and it means I have to accept that the parts of the code in RsyncOSX could have been better and more efficient. The RsyncOSX project is for fun only.
 
-But, I will continue to refactor code whenever I have got some ideas reading other code. I will continue adding minor enhancements to RsyncOSX (at least for some time). And I use RsyncOSX every day myself.
+I will continue to refactor code whenever I have got some ideas reading other code. I will continue adding minor enhancements to RsyncOSX (at least for some time). And I use RsyncOSX every day myself.
+
+### Changelog
+
+The RsyncOSX [changelog](docs/Changelog.md).
 
 ### Installing and important info
 
@@ -43,19 +47,15 @@ There are a couple of other important information about using RsyncOSX (and rsyn
 > - Some more info about standard [parameters to rsync](docs/RsyncParameters.md).
 
 
-#### Apple App Store
+### Apple App Store
 
 Why is RsyncOSX not on Apple App Store? Well, it has been. The App Store version of RsyncOSX was dropped because of restrictions executing RsyncOSX in [Apples sandbox technology](https://developer.apple.com/library/content/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html). Executing applications in a sandbox environment restricts RsyncOSX (rsync) from using a ssh-tunnel. Ssh is not allowed reading certificates for passwordless logins when rsync is forked from RsyncOSX. There might be a solution for it, but I dont want to spend time investigating how.
 
 
-### My NAS setup
+## My NAS setup
 
 I have setup up my own [NAS](docs/DIYNAS.md). I am doing backups by using RsyncOSX and sharing out disk by AFP and SMB.
 
-
-## Changelog
-
-The RsyncOSX [changelog](docs/Changelog.md).
 
 ## Rsync
 
@@ -74,7 +74,7 @@ I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www
 
 ## MacUpdate and Softpedia
 
-RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516/rsyncosx) and linked for download on [Softpedia](http://mac.softpedia.com/get/Internet-Utilities/RsyncOSX.shtml) as well. The application is downloaded about 8300 times from MacUpdate and 2000 times from Softpedia (all versions, May 2017). RsyncOSX does also inform users about new releases and link to download new version.
+RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516/rsyncosx) and linked for download on [Softpedia](http://mac.softpedia.com/get/Internet-Utilities/RsyncOSX.shtml) as well. The application is downloaded about 8900 times from MacUpdate and 2200 times from Softpedia (all versions, June 2017). RsyncOSX does also inform users about new releases and link to download new version.
 
 To be honest, I have **no idea** how many users of RsyncOSX there are. And I am very happy that some users find it useful.
 
