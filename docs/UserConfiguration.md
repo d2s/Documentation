@@ -2,7 +2,7 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-There are only a few parameters to choose in user configuration. The three parameters are:
+There are only a few parameters to choose in user configuration. The parameters are:
 
  - another version of rsync
  	- any version of rsync should work, but only _rsync  version 3.1.2  protocol version 31_ and _rsync  version 2.6.9  protocol version 29_ is tested and verified.
@@ -12,10 +12,12 @@ There are only a few parameters to choose in user configuration. The three param
  	- if **on** any single task might be executed by double click on a row
 - allow rsync error to reset work queue
 	- RsyncOSX checks output from rsync for string `rsync error:`. If found main view is notified, error is marked (in red) and work queue is reset if option in user config is set. To test enter a not valid user name for a remote server ([edit task](SingleTask.md) in main view)
+- temporary path restore
+  - preset path for restoring single files or volumes
 
 If the user selects another version of rsync, RsyncOSX does check if there is a rsync in path set by user. If there is no rsync in path RsyncOSX will not execute any tasks. The red _configurations_ (rows in table) is only because I have not started my VirtualBox FreeBSD instance and RsyncOSX does not receive any answer (check is done automatically)
 
-![](screenshots/master/userconfig/user.png)
+![](screenshots/4.3.5/config.png)
 
 ### No rsync i path
 
