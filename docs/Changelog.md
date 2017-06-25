@@ -20,6 +20,8 @@ I am currently working on a rewrite of separating out the tasks object (single a
 
 I don´t know when version 4.4.5 will be released. I need some time to test it.
 
+* a rc of next version is [released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v4.4.5).
+
 
 ## Version 4.4.0
 
