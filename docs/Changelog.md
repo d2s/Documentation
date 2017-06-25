@@ -6,9 +6,16 @@ I am using the application on a daily basis and it evolves during my own use. An
 
 Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs.
 
-## Version 4.4.x (macOS 10.13 (High Sierra), Xcode 9 and Swift 4)
+## Version 4.5.x (macOS 10.13 (High Sierra), Xcode 9 and Swift 4)
 
-RsyncOSX is converted to Swift 4.x (beta), compiled with Xcode 9 (beta) and tested on macOS 10.13 (beta released to developers). I have one MacBook Pro which is installed with latest developer beta of macOS 10.13 (High Sierra). An updated version of RsyncOSX will be released as soon as Apple releases macOS 10.13 and Xcode 9. RsyncOSX will be compiled with support for macOS 10.11 - macOS 10.13.    
+RsyncOSX is converted to Swift 4.x (beta), compiled with Xcode 9 (beta) and tested on macOS 10.13 (beta released to developers). I have one MacBook Pro which is installed with latest developer beta of macOS 10.13 (High Sierra). An updated version of RsyncOSX will be released as soon as Apple releases macOS 10.13 and Xcode 9. RsyncOSX will be compiled with support for macOS 10.11 - macOS 10.13.
+
+## Version 4.4.5
+
+I am currently working on a rewrite of separating out the tasks object (single and batch tasks) from the mainView. This reduces the complexity and size of the main view, and it separates the view and model. The [master](https://github.com/rsyncOSX/RsyncOSX) is updated with new code. There are also a bug in Schedule which is fixed. A new version is not released yet. Still there are bugs to be smoked out. I discover most of the bugs by using the application myself on a daily basis.
+
+I don´t know when version 4.4.5 will be released. I need some time to test it.
+
 
 ## Version 4.4.0
 
