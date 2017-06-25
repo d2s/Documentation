@@ -8,11 +8,15 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 ## Version 4.5.x (macOS 10.13 (High Sierra), Xcode 9 and Swift 4)
 
-RsyncOSX is converted to Swift 4.x (beta), compiled with Xcode 9 (beta) and tested on macOS 10.13 (beta released to developers). I have one MacBook Pro which is installed with latest developer beta of macOS 10.13 (High Sierra). An updated version of RsyncOSX will be released as soon as Apple releases macOS 10.13 and Xcode 9. RsyncOSX will be compiled with support for macOS 10.11 - macOS 10.13.
+Apple has released betas of macOS, Xcode and Swift. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand.
+
+The [code](https://github.com/rsyncOSX/RsyncOSX/tree/Xcode9_Swift4) is converted to Swift 4, compiled with Xcode 9 and tested on macOS 10.13. I have one MacBook Pro which is installed with latest developer beta of macOS 10.13 (High Sierra). An updated version of RsyncOSX will be released as soon as Apple releases macOS 10.13 and Xcode 9. RsyncOSX will be compiled with support for macOS 10.11 - macOS 10.13.
 
 ## Version 4.4.5
 
-I am currently working on a rewrite of separating out the tasks object (single and batch tasks) from the mainView. This reduces the complexity and size of the main view, and it separates the view and model. The [master](https://github.com/rsyncOSX/RsyncOSX) is updated with new code. There are also a bug in Schedule which is fixed. A new version is not released yet. Still there are bugs to be smoked out. I discover most of the bugs by using the application myself on a daily basis.
+The main view (source) in RsyncOSX was (is?) to big and tight [coupled](https://en.wikipedia.org/wiki/Loose_coupling) with the model for executing tasks.
+
+I am currently working on a rewrite of separating out the tasks object (single and batch tasks) from the main view. This reduces the complexity and size, and it separates the view and model. The [master](https://github.com/rsyncOSX/RsyncOSX) is updated with new code. There are also a bug in Schedule which is fixed. A new version is not released yet. Still there are bugs to be smoked out. I discover most of the bugs by using the application myself on a daily basis.
 
 I don´t know when version 4.4.5 will be released. I need some time to test it.
 
