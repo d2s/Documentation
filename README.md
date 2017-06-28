@@ -52,6 +52,11 @@ There are a couple of other important information about using RsyncOSX (and rsyn
 Why is RsyncOSX not on Apple App Store? Well, it has been. The App Store version of RsyncOSX was dropped because of restrictions executing RsyncOSX in [Apples sandbox technology](https://developer.apple.com/library/content/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html). Executing applications in a sandbox environment restricts RsyncOSX (rsync) from using a ssh-tunnel. Ssh is not allowed reading certificates for passwordless logins when rsync is forked from RsyncOSX. There might be a solution for it, but I dont want to spend time investigating how.
 
 
+## Documentation of source
+
+I have commenced [documentation of source](docs/source/source.md).
+
+
 ## My NAS setup
 
 I have setup up my own [NAS](docs/DIYNAS.md). I am doing backups by using RsyncOSX and sharing out disk by AFP and SMB.
