@@ -31,4 +31,8 @@ This is a kind of brute force. No code needed for partly update and it secures a
 
 ## Schedules and log data
 
-TBC.
+Schedules and logdata is saved and loaded in separate data structure. [Schedules](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift) are linked to [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) by `hiddenID=Int`. All logs are saved in separate file. Manually executed tasks are stamped with date (US-format) "01 Jan 1900 00:00".
+
+A log record is constructed by number of files, size of transferred files in time (`58 files : 5.04 MB in 2.50 seconds`) as reported from rsync. The output from rsync is investigated and all numbers are copied from the rsync output. Every record are linked to its parent bye the function `computeKey` and used when records are deleted.
+
+The object [SharingManagerSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/SharingManagerSchedule.swift) holds all data and operations working on Schedule data. 
