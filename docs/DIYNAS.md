@@ -11,8 +11,6 @@ I do not spend much time building or maintaining my NAS. The main purposes of my
 
 My knowledge about computer hardware is very limited. The hardware in new NAS is more or less selected by advices from the computer store. The most important objective is to get hardware which is supported by the OS. The form factor of the motherboard also narrows the possibilities. I want a small NAS and decided to go for a [mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard.  The hardware in my NAS is probably not the best solution.
 
-**May 2017: there has been some (probably) HW issues regarding my NAS. Please see last section in this page.**
-
 Choosing the correct HW as NAS is not an easy task. I have spend some time googling around, reading HW-guides and checking for availability of HW. My advise is use some time before buying HW.
 
 
@@ -29,7 +27,6 @@ The rsync utility is available on most OS platforms. It has been around for some
 I am also observant of not storing personal and sensitive information unsecured at off site locations. There are several solutions to encrypt data. One is creating a secure folder or volume. Almost all OS supports [encrypted file systems](https://en.wikipedia.org/wiki/Filesystem-level_encryption) today. Another solution is to encrypt files containing personal and sensitive information (as tax reports). I am encrypting files by using [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard). I also encrypt files containing sensitive information in case my MacBook is **compromised** (hopefully not likely to happen due to precautions).
 
 I have **not** tested rsync on encrypted folders or volumes. I am sure it works, but I do not know how effective rsync is when there are changes within the encrypted folder or volume.
-
 
 ## Setup of NAS
 
@@ -75,7 +72,7 @@ The above narrows down two options:
 - [NAS4free](http://www.nas4free.org/) or
 - [FreeNAS](http://www.freenas.org/)
 
-NAS4Free on FreeBSD 11.x as well as FreeNAS11-RC1. I believe FreeNAS11 is due to be released in June 2017.
+Both NAS4Free and FreeNAS 11 is built on FreeBSD 11.x. FreeNAS11 was [released](https://forums.freenas.org/index.php?threads/freenas-11-0-released.55327/) in June 2017.
 
 [ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux (and other OS as well).
 
@@ -101,33 +98,32 @@ It is easy and cheap to setup a backup server based on Linux or other server OS 
 
 ## The NAS (HW)
 
-**Important : May 2017** Please be advised that my NAS HW is under revision and to be replaced. I will update this pages after new HW is installed and up and running. New HW will be based upon [recommandations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team. For the moment I am back on stock FreeBSD 11. Imported zpools created in FreeNAS.
+**Important : July 2017** New HW is installed in NAS.
 
-My FreeNAS started dying after 2-3 days operation a couple of weeks ago. No traces why, just dropped network connections and a reboot was the only way to get it up and running again. As I understand the HW in my NAS is not compliant to HW [recommandations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/). But, so far, stock FreeBSD 11 is running OK.  
+**Important : May 2017** Please be advised that my NAS HW is under revision and to be replaced. I will update this pages after new HW is installed and up and running. New HW will be based upon [recommendations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team. For the moment I am back on stock FreeBSD 11. Imported zpools created in FreeNAS.
+
+My FreeNAS started dying after 2-3 days operation a couple of weeks ago. No traces why, just dropped network connections and a reboot was the only way to get it up and running again. As I understand the HW in my NAS is not compliant to HW [recommendations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/). But, so far, stock FreeBSD 11 is running OK.  
 
 The plan now is to spend some time to get the correct HW pieces for FreeNAS box. Until then I am only using mye FreeBSD 11 server as backup server (by using RsyncOSX).
 
 ### New HW for NAS.
 
-I am will replace the HW in my [Fractal Design Node 304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black). The following new pieces are ordered:
+June 2017 I ditched the old NAS HW and installed new HW components. My NAS is build by the following components. The components in NAS is server components and a bit more expensive than desktop components.
 
-- [ASRock E3C226D2I MB](http://www.asrockrack.com/general/productdetail.asp?Model=E3C226D2I#Specifications)
+- [Fractal Design Node 304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black) - compact chassis which max 6 3.5 inch HD drives
+- Fractal Design [Integra M 450W PSU](http://www.fractal-design.com/home/product/power-supplies/integra-m/integra-m-450w)
+- [ASRock E3C226D2I MB](http://www.asrockrack.com/general/productdetail.asp?Model=E3C226D2I#Specifications) - server motherboard
 - [Intel® Pentium® Processor G3258](https://ark.intel.com/products/82723/Intel-Pentium-Processor-G3258-3M-Cache-3_20-GHz)
-- [ValueRAM for ASRock Server Board E3C226D2I](http://www.kingston.com/us/memory/search?devicetype=7&mfr=ASR&line=Server%20Board&model=86498)
+- [KVR16E11/8 ValueRAM for ASRock Server Board E3C226D2I](http://www.kingston.com/us/memory/search?devicetype=7&mfr=ASR&line=Server%20Board&model=86498) - ECC server memory
 - Two WD Red 1TB NAS Hard drives (existing, discontinued)
 - Two [WD Red 2TB](https://www.amazon.com/Red-2TB-Hard-Disk-Drive/dp/B008JJLZ7G) NAS Hard drives (buy new ones)
 
-NAS will be setup using [ECC memory](https://en.wikipedia.org/wiki/ECC_memory).
+NAS is setup by using [ECC memory](https://en.wikipedia.org/wiki/ECC_memory). Total disk in NAS is 6 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror, sharing out 3 TB.
 
 ### Old NAS
 
-NAS is now running FreeBSD 11 until HW is replaced.
+Old NAS was running FreeBSD 11. The HW in old NAS was not compatible with FreeNAS, but it ran without any problems for about 4 weeks with FreeBSD.  If you are setting up a NAS yourself choose the right HW. It might be some more expensive, but it saves you for troubles later on.
 
-Total disk in NAS is 2 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror. My NAS is sharing out 1 TB.
-
--  Fractal Design Node [304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black)
--  Fractal Design [Integra M 450W PSU](http://www.fractal-design.com/home/product/power-supplies/integra-m/integra-m-450w)
 -  [MSI H110I](https://www.msi.com/Motherboard/H110I-PRO.html#hero-overview) Pro, Socket-1151 motherboard
 -  [Intel Core i5-6400](http://ark.intel.com/products/88185/Intel-Core-i5-6400-Processor-6M-Cache-up-to-3_30-GHz), Socket-LGA1151 processor
 -  Kingston ValueRAM DDR4 2133MHz 16GB
--  Two WD Red 1TB NAS Hard drive, SATA 6Gb/s (SATA 3.0), 64MB, 3.5", 24x7 reliability, IntelliPower (bought in 2014)
