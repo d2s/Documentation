@@ -11,12 +11,12 @@ I do not spend much time building or maintaining my NAS. The main purposes of my
 
 My knowledge about computer hardware is very limited. The most important objective is to get hardware which is supported by the OS or NAS SW. The form factor of the motherboard also narrows the possibilities. I want a small NAS and decided to go for a [mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard.  
 
-Choosing the correct HW as NAS is not an easy task. I have spend some time googling around, reading HW-guides and checking for availability of HW. My advise is use some time before buying HW.
+To choose the correct HW as NAS is not an easy task. I have spend some time googling, reading HW-guides and checking for availability of HW. My advise is use some time before buying HW. My local supplier used about four weeks to get the HW I ordered. And it seems like most HW pushers are more focused on desktop computers and MS Windows than dedicated server HW. Not much help to get in other words.
 
 
 ### Why backup
 
-For me, backup is very important. And do backup to several locations and keep the backups in the different locations synchronized. Not loosing data is the obvious reason for doing backup. There are several ways to "loose" data. Disk crash is one. Highjacking by ransomware another. A **restore** of data is a cheap solution if either of the them occurs.
+For me, backup is very important. Do backup to several locations and keep the backups in the different locations synchronized. Not loosing data is the obvious reason for doing backup. There are several ways to “loose” data. HW or disk crash is one. Highjacking by ransomware another. A **restore** of data is a cheap solution if either of the them occurs.
 
 ### Backup by using rsync
 
@@ -24,7 +24,7 @@ The rsync utility is available on most OS platforms. It has been around for some
 
 ## Encrypt sensitive information
 
-I am also observant of not storing personal and sensitive information unsecured at off site locations. There are several solutions to encrypt data. One is creating a secure folder or volume. Almost all OS supports [encrypted file systems](https://en.wikipedia.org/wiki/Filesystem-level_encryption) today. Another solution is to encrypt files containing personal and sensitive information (as tax reports). I am encrypting files by using [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard). I also encrypt files containing sensitive information in case my MacBook is **compromised** (hopefully not likely to happen due to precautions).
+I am also observant of not storing personal and sensitive information not encrypted at remote locations. There are several solutions to encrypt data. One is creating a secure folder or volume. Almost all OS supports [encrypted file systems](https://en.wikipedia.org/wiki/Filesystem-level_encryption) today. Another solution is to encrypt files containing personal and sensitive information (as tax reports). I am encrypting files by using [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard). I also encrypt files containing sensitive information in case my MacBook is **compromised** (hopefully not likely to happen due to precautions).
 
 I have **not** tested rsync on encrypted folders or volumes. I am sure it works, but I do not know how effective rsync is when there are changes within the encrypted folder or volume.
 
@@ -72,11 +72,11 @@ The above narrows down two options:
 - [NAS4free](http://www.nas4free.org/) or
 - [FreeNAS](http://www.freenas.org/)
 
-Both NAS4Free and FreeNAS 11 is built on FreeBSD 11.x. FreeNAS11 was [released](https://forums.freenas.org/index.php?threads/freenas-11-0-released.55327/) in June 2017.
+Both NAS4Free and FreeNAS 11 is built on FreeBSD 11.x. FreeNAS 11 was [released](https://forums.freenas.org/index.php?threads/freenas-11-0-released.55327/) in June 2017.
 
 [ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux (and other OS as well).
 
-For some time (about 6 months) I have used NAS4Free. Release 11.0.0.4.4040 of NAS4Free caused me some troubles. Ssh connections was broken and after upgrading I was not able to connect to the server by `ssh`. Without `ssh` RsyncOSX does not work. There is also an issue about ssh and NAS4Free. From time to time the NAS4Free server did not accept `ssh` connections. Ssh was not broken prior to release of 11.0.0.4.4040, but there were some unresolved issues.    
+For some time (about 6 months) I have used NAS4Free. Release 11.0.0.4.4040 of NAS4Free caused me some troubles. Ssh connections was broken and after upgrading I was not able to connect to the server by `ssh`. Without `ssh` RsyncOSX does not work. There is also an issue about ssh and NAS4Free. From time to time the NAS4Free server did not accept `ssh` connections. Ssh was not broken prior to release of 11.0.0.4.4040, and I did not manage to resolve the issues.    
 
 ### Time to test FreeNAS
 
@@ -92,7 +92,7 @@ My *FreeNAS* based NAS is now setup to do the following:
 
 The server has 3 Terabyte (TB) of storage. The storage is setup as a ZFS filesystem and all disks (four disks altogether, two disks of 2TB each and two disks of 1TB each) are all setup as a ZFS mirror. That is the two 2TB disks are mirroring each other as well as the two 1TB disks. If one disk fails ZFS is automatically restoring (by ZFS scrub) the failing disk. If one disk fails (by HW) and must be replaced ZFS has functionality for unmounting failed disk, mount a new one and put the new one into mirrored pool again.
 
-It is easy and cheap to setup a backup server based on Linux or other server OS and rsync. There is an open source project [Netatalk](http://netatalk.sourceforge.net/) Apple Filing Protocol ([AFP](https://en.wikipedia.org/wiki/Apple_Filing_Protocol)) fileserver. Some years ago I tested Apple Time Machine and Netatalk on a Solaris 11 server. It worked for some time, but also failed. I don't know stable Netatalk and Apple Time Machine is now. But for me rsync is the best solution. And for backups to remote servers outside my house (by Internet connection) rsync is most likely the best tool to use. By using rsync I backup all data on my Macs. A complete reinstallation of a MacBook is done by a fresh install of OS X and then restore all data by rsync. Safe and reliable.
+It is easy and cheap to setup a backup server based on Linux or other server OS and rsync. There is an open source project [Netatalk](http://netatalk.sourceforge.net/) Apple Filing Protocol ([AFP](https://en.wikipedia.org/wiki/Apple_Filing_Protocol)) fileserver. Some years ago I tested Apple Time Machine and Netatalk on a Solaris 11 server. It worked for some time, but also failed. I don't know how stable Netatalk and Apple Time Machine is now. But for me rsync is the best solution. And for backups to remote servers outside my house (by Internet connection) rsync is most likely the best tool to use. By using rsync I backup all data on my Macs. A complete reinstallation of a MacBook is done by a fresh install of OS X and then restore all data by rsync. Safe and reliable.
 
 ![New configurations](screenshots/master/nas/nas1.jpeg)
 
