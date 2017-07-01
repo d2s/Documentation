@@ -9,7 +9,7 @@ I do not spend much time building or maintaining my NAS. The main purposes of my
 - storing backup of my files
 - and share out disk (by SMB/CIFS and/or AFP)
 
-My knowledge about computer hardware is very limited. The hardware in new NAS is more or less selected by advices from the computer store. The most important objective is to get hardware which is supported by the OS. The form factor of the motherboard also narrows the possibilities. I want a small NAS and decided to go for a [mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard.  The hardware in my NAS is probably not the best solution.
+My knowledge about computer hardware is very limited. The most important objective is to get hardware which is supported by the OS or NAS SW. The form factor of the motherboard also narrows the possibilities. I want a small NAS and decided to go for a [mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard.  
 
 Choosing the correct HW as NAS is not an easy task. I have spend some time googling around, reading HW-guides and checking for availability of HW. My advise is use some time before buying HW.
 
@@ -41,7 +41,7 @@ There are several options for installing NAS by using free and open sourced base
 
 ### FreeBSD 11 or Ubuntu 16.10 (or 17.04)
 
-Before going testing a NAS SW I tried out [FreeBSD 11](https://www.freebsd.org/). FreeBSD was installed and booted fine on new hardware. I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There were to much tweaking and installing of various FreeBSD ports to get it up and running as NAS and sharing out filesystems. Creating and mounting zfs filesystems by command line using the correct parameters is a non trivial task. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
+Before testing a dedicated NAS SW I tried out [FreeBSD 11](https://www.freebsd.org/). I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There were to much tweaking and installing of various FreeBSD ports to get it up and running as NAS and sharing out filesystems. Creating and mounting ZFS filesystems by command line using the correct parameters is a non trivial task. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
 
 I also dropped testing of Ubuntu 16.10 due to reasons as for FreeBSD 11.
 
@@ -56,13 +56,13 @@ Other possible OS supporting ZFS are:
 - [OmniOS](https://omnios.omniti.com/) (recommended by [napp-it.org](http://napp-it.org/))
 - [OpenIndiana Hipster](http://www.openindiana.org/)
 
-Both OS booted into single user mode (due to missing support of HW). And that was an effective stop of further testing.
+Both OS booted into single user mode (due to missing support of (old) HW). And that was an effective stop of further testing.
 
 ## FreeNAS (and NAS4Free)
 
 I have the following requirements for my NAS:
 
-- [ZFS](https://en.wikipedia.org/wiki/ZFS), a very robust filesystem
+- [ZFS](https://en.wikipedia.org/wiki/ZFS) which is a very robust filesystem
 - minimal effort to setup and use
 - stability
 - ssh and rsync
@@ -80,7 +80,7 @@ For some time (about 6 months) I have used NAS4Free. Release 11.0.0.4.4040 of NA
 
 ### Time to test FreeNAS
 
-Due to some issues in NAS4Free and my HW I decided to test FreeNAS.
+Due to some issues regarding NAS4Free I decided to test FreeNAS.
 
 My *FreeNAS* based NAS is now setup to do the following:
 
