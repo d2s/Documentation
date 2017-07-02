@@ -45,7 +45,7 @@ This is also a kind of brute force method. It is effective and there is no need 
 
 ### Scheduled backups
 
-The object [ScheduleSortedAndExpanded.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleSortedAndExpanded.swift) reads the schedules, expands scheduled tasks, sorts them by date and time and saves the result on a stack. The object is created every time a schedule is changed and read from permanent store is performed. A `daily` task which is set to kick of at 12:00 o'clock for å period of time is one record only in schedule. If this period is from mid June to mid July it is scheduled to start about 30 times during this period. When the sorted and expanded object is created only scheduled tasks with start date in future are put on stack. The first task is the first element on stack.
+The object [ScheduleSortedAndExpanded.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleSortedAndExpanded.swift) reads the schedules, expands scheduled tasks, sorts them by date and time and creates a result stack. The object is created every time a schedule is changed and a read from permanent store is performed. A `daily` task which is set to kick of at 12:00 o'clock for å period of time is one record only in schedule. If this period is from mid June to mid July it is scheduled to start about 30 times during this period. When the sorted and expanded object is created only scheduled tasks with start date in future are put on stack. The first task is the first element on stack.
 
 The scheduled task (record on stack) holds three attributes (as a `NSDictionary`) -  the `hiddenID`, which is key to task, time to start and schedule either `once`, `daily` or `monthly`.
 
@@ -55,7 +55,7 @@ If the user deletes a task any scheduled operations are deleted as well.
 
 When a scheduled task is executing the user is not allowed to manually execute a task. RsyncOSX does also notify in view when a scheduled task is executing.
 
-A scheduled task is object of type [Operation](https://developer.apple.com/documentation/foundation/operation). When the time is due for scheduled task to execute RsyncOSX creates an [OperationQueue](https://developer.apple.com/documentation/foundation/operationqueue) and appends the [operation object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/executeTask.swift) to the [queue object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperation.swift). The queue object checks that all required conditions are met before executing the `main()` method in Operation object. 
+A scheduled task is object of type [Operation](https://developer.apple.com/documentation/foundation/operation). When the time is due for scheduled task to execute RsyncOSX creates an [OperationQueue](https://developer.apple.com/documentation/foundation/operationqueue) and appends the [operation object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/executeTask.swift) to the [queue object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperation.swift). The queue object checks that all required conditions are met before executing the `main()` method in Operation object.
 
 ## Reading and writing data to permanent store
 
