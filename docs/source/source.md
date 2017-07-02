@@ -6,7 +6,7 @@ First will the data (model) and some of the methods operating on the data be doc
 
 # High Level design
 
-The views has no knowledge about the models or data stored about configurations, schedules and logdata. All data presented in RsyncOSX are mostly table data. Presenting table data utilizes the `NSTableViewDelegate`. All data which are stored to permanent store are saved as xml-files ([plist](https://en.wikipedia.org/wiki/Property_list) files). RsyncOSX does **not** utilize the Core Data because the data about `configurations`, `schedules` and `logs` are simple and there is no need for a complex datamodel.
+The views has no knowledge about the models or data stored about configurations, schedules and logdata. All data presented in RsyncOSX are mostly table data. Presenting table data utilizes the `NSTableViewDelegate`. All data which are saved to permanent store are saved as xml-files ([plist](https://en.wikipedia.org/wiki/Property_list) files). RsyncOSX does **not** utilize the Core Data because the data about `configurations`, `schedules` and `logs` are simple and there is no need for a complex datamodel.
 
 ## Configurations (tasks)
 
@@ -31,15 +31,15 @@ This is a kind of brute force. No code needed for partly update and it secures a
 
 ## Schedules and log data
 
-Schedules and log data are saved and loaded in separate data structure. [Schedules](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift) are linked to [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) by `hiddenID=Int`. All schedules and logs are saved in separate file. Manually executed task is stamped with date (US-format) `01 Jan 1900 00:00`". Record of scheduled backups are stamped with date for execution, example `01 Jun 2017 22:35` and type of schedule, either `once`, `daily` or `monthly`. Manually executed task is of type `manuel`.
+Schedules and log data are loaded into a separate data structure. [Schedules](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift) are linked to [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) by `hiddenID=Int`. Schedules and logs are also saved in a separate XML-file (plist). Manually executed task is stamped with date (US-format) `01 Jan 1900 00:00`". Record of scheduled backups are stamped with date for execution, example `01 Jun 2017 22:35` and type of schedule, either `once`, `daily` or `monthly`. Manually executed task is of type `manuel`.
 
 A log record is constructed by number of files, size of transferred files in time (`58 files : 5.04 MB in 2.50 seconds`) as reported from rsync. The output from rsync is checked and all numbers are copied from the rsync output. Every log record is linked to its parent bye the function `computeKey` and used when records are deleted.
 
-A log record is appended to the schedule record as a `NSMutableDictionary`.
+A **log record* is appended to the **schedule record** as a `NSMutableDictionary`.
 
 The object [SharingManagerSchedule.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/SharingManagerSchedule.swift) holds all data and operations working on Schedule data. The object [ScheduleWriteLoggData.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleWriteLoggData.swift) takes care of adding and deleting log records. As for configurations changes are applied to structure in memory and then saved to permanent store.
 
-If a **schedule record** is marked for deleting a delete flag is set on the record. The schedules are marked dirty and a write operation is performed. All **log records** connected to the deleted schedule are also deleted. Schedule data in memory is wiped and reloaded from permanent store into memory. Single log records might be deleted as well. The log record is removed in memory, schedules are marked dirty and write operation is performed.
+If a **schedule record** is marked for delete a delete flag is set on the record. When saved all records marked for delete are omitted. The schedules are marked dirty and a write operation is performed. All **log records** connected to the deleted schedule are also deleted. Schedule data in memory is wiped and reloaded from permanent store into memory. Single log records might be deleted as well. The log record is removed in memory, schedules are marked dirty and write operation is performed.
 
 This is also a kind of brute force method. It is effective and there is no need to handle changes to data structure loaded in memory. Wipe memory, reread from permanent store and reload data into memory. If a refresh of table data is performed in view after a delete of a record the refresh will cause a nil pointer exception if not explicit taken care of. The actual number of records to refresh is `N-1` and the delegate method `numberOfRows` still think number of rows are `N`. A reread of data and then force a refresh of current table view solve the problem.
 
