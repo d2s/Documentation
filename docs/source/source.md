@@ -31,11 +31,17 @@ This is a kind of brute force. No code needed for partly update and it secures a
 
 ## Schedules and log data
 
-Schedules and logdata are saved and loaded in separate data structure. [Schedules](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift) are linked to [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) by `hiddenID=Int`. All logs are saved in separate file. Manually executed tasks are stamped with date (US-format) `01 Jan 1900 00:00`". Record of scheduled backups are stamped with date for execution, example `01 Jun 2017 22:35`.
+Schedules and log data are saved and loaded in separate data structure. [Schedules](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift) are linked to [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) by `hiddenID=Int`. All schedules and logs are saved in separate file. Manually executed task is stamped with date (US-format) `01 Jan 1900 00:00`". Record of scheduled backups are stamped with date for execution, example `01 Jun 2017 22:35` and type of schedule, either `once`, `daily` or `monthly`. Manually executed task is of type `manuel`.
 
-A log record is constructed by number of files, size of transferred files in time (`58 files : 5.04 MB in 2.50 seconds`) as reported from rsync. The output from rsync is investigated and all numbers are copied from the rsync output. Every record are linked to its parent bye the function `computeKey` and used when records are deleted.
+A log record is constructed by number of files, size of transferred files in time (`58 files : 5.04 MB in 2.50 seconds`) as reported from rsync. The output from rsync is checked and all numbers are copied from the rsync output. Every log record is linked to its parent bye the function `computeKey` and used when records are deleted.
 
-The object [SharingManagerSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/SharingManagerSchedule.swift) holds all data and operations working on Schedule data.
+A log record is appended to the schedule record as a `NSMutableDictionary`.
+
+The object [SharingManagerSchedule.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/SharingManagerSchedule.swift) holds all data and operations working on Schedule data. The object [ScheduleWriteLoggData.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleWriteLoggData.swift) takes care of adding and deleting log records. As for configurations changes are applied to structure in memory and then saved to permanent store.
+
+If a **schedule record** is marked for deleting a delete flag is set on the record. The schedules are marked dirty and a write operation is performed. Any **log records** connected to the deleted schedule is also deleted. Schedule data in memory is wiped and a new reloaded into memory. Single log records might be deleted as well. The log record is removed in memory, schedules are marked dirty and write operation is performed.
+
+This is also a kind of brute force method. It is effective and there is no need to handle changes to data structure loaded in memory. Wipe memory and read and reload data. If a refresh of table data is performed in view after a delete of a record the refresh will cause a nil pointer exception if not explicit taken care of. The actual number of records to refresh is `N-1` and the delegate method `numberOfRows` still think number of rows are `N`. A reread of data and then force a refresh of current table view solve the problem. 
 
 ### Scheduled backups
 
