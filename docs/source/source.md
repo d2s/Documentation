@@ -45,8 +45,16 @@ This is also a kind of brute force method. It is effective and there is no need 
 
 ### Scheduled backups
 
-TBD.
+The object [ScheduleSortedAndExpanded.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleSortedAndExpanded.swift) reads the schedules, expands scheduled tasks, sorts them by date and time and saves the result on a stack. The object is created every time a schedule is changed and read from permanent store is performed. A `daily` task which is set to kick of at 12:00 o'clock for å period of time is one record only in schedule. If this period is from mid June to mid July it is scheduled to start about 30 times during this period. When the sorted and expanded object is created only scheduled tasks with start date in future are put on stack. The first task is the first element on stack.
+
+The scheduled task (record on stack) holds three attributes (as a `NSDictionary`) -  the `hiddenID`, which is key to task, time to start and schedule either `once`, `daily` or `monthly`.
+
+If the object `ScheduleSortedAndExpanded.swift` is not nil there is scheduled tasks. RsyncOSX pops off the first element of stack, calculates the number of seconds to start and creates a [Timer](https://developer.apple.com/documentation/foundation/timer) object. The timer object is set to wait for number of seconds and when time is due kick off the scheduled task. When the scheduled task is completed the next task on top of stack is popped off. Another timer object is created and waits for å number of seconds. And so forth.
+
+If the user deletes a task any scheduled operations are deleted as well.
+
+When a scheduled task is executing the user is not allowed to manually execute a task. RsyncOSX does also notify in view when a scheduled task is executing. 
 
 ## Reading and writing data to permanent store
 
-RsyncOSX holds all data i memory as a [Singelton](https://en.wikipedia.org/wiki/Singleton_pattern) object. When data is loaded from permanent store all arguments are computed. The object [readwritefiles.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/readwritefiles.swift) decides if data should be read from memory or permanent store. All data (configurations, schedules and logs, user config) is read from permanent store utilizing the [NSDictionary](https://developer.apple.com/documentation/foundation/nsdictionary) foundation class. The singelton class saves the state of data is dirty or not. If not dirty RsyncOSX get the data from memory, if dirty a reread of data is forced before RsyncOSX get data from memory. By this data is only read from permanent store if there has been a change in data. 
+RsyncOSX holds all data i memory as a [Singelton](https://en.wikipedia.org/wiki/Singleton_pattern) object. When data is loaded from permanent store all arguments are computed. The object [readwritefiles.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/readwritefiles.swift) decides if data should be read from memory or permanent store. All data (configurations, schedules and logs, user config) is read from permanent store utilizing the [NSDictionary](https://developer.apple.com/documentation/foundation/nsdictionary) foundation class. The singelton class saves the state of data is dirty or not. If not dirty RsyncOSX get the data from memory, if dirty a reread of data is forced before RsyncOSX get data from memory. By this data is only read from permanent store if there has been a change in data.
