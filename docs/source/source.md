@@ -35,7 +35,7 @@ Schedules and log data are loaded into a separate data structure. [Schedules](ht
 
 A log record is constructed by number of files, size of transferred files in time (`58 files : 5.04 MB in 2.50 seconds`) as reported from rsync. The output from rsync is checked and all numbers are copied from the rsync output. Every log record is linked to its parent bye the function `computeKey` and used when records are deleted.
 
-A **log record* is appended to the **schedule record** as a `NSMutableDictionary`.
+A **log record** is appended to the **schedule record** as a `NSMutableDictionary`.
 
 The object [SharingManagerSchedule.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/SharingManagerSchedule.swift) holds all data and operations working on Schedule data. The object [ScheduleWriteLoggData.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleWriteLoggData.swift) takes care of adding and deleting log records. As for configurations changes are applied to structure in memory and then saved to permanent store.
 
