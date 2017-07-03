@@ -14,15 +14,12 @@ The [code](https://github.com/rsyncOSX/RsyncOSX/tree/Xcode9_Swift4) is converted
 
 One of the most exiting (in my opinion) features about macOS 10.13 is the new [Apple File System](https://en.wikipedia.org/wiki/Apple_File_System) (APFS).
 
-## Version 4.4.5
+## Version 4.4.6
 
-The main view (source) in RsyncOSX was (is?) to big and tight [coupled](https://en.wikipedia.org/wiki/Loose_coupling) with the model for executing tasks.
-
-I am currently working on a rewrite of separating out the tasks object (single and batch tasks) from the main view. This reduces the complexity and size, and it separates the view and model. The [master](https://github.com/rsyncOSX/RsyncOSX) is updated with new code. There are also a bug in Schedule which is fixed. A new version is not released yet. Still there are bugs to be smoked out. I discover most of the bugs by using the application myself on a daily basis.
-
-I don´t know when version 4.4.5 will be released. I need some time to test it.
-
-* [download](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v4.4.5) the rc of version 4.4.5
+* released 3 July 2017
+* rewrite of code for executing single and batch tasks, reduces the complexity and size of code and it separates the view and model
+* fixed a bug in Schedules some other minor bugs
+* removed test for TCP connections remote servers to a button in main view (no automatic check for connections)
 
 
 ## Version 4.4.0

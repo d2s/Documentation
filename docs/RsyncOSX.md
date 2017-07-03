@@ -16,10 +16,10 @@ I have uploaded a short (about 5 minutes) [YouTube video of RsyncOSX](https://ww
 
 ## Download link and install
 
-RsyncOSX is released in version 4.4.0
+RsyncOSX is released in version 4.4.6
 
-> - [download](https://github.com/rsyncOSX/RsyncOSX/releases/download/v4.4.0/RsyncOSX.dmg) latest version of RsyncOSX
-> - shasum : 6386b90a11d00979c2d83c41a4646ae40e6178ea
+> - [download](https://github.com/rsyncOSX/RsyncOSX/releases/download/v4.4.6/RsyncOSX.dmg) latest version of RsyncOSX
+> - shasum : 7c01be7791b94fd4fbc69186ec5e24586025ffb1
 > - see the [Changelog](Changelog.md) for info
 
 `/usr/bin/shasum ~/PathToDownload/RsyncOSX.dmg` to verify hash
