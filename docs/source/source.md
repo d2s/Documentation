@@ -32,9 +32,9 @@ This is a kind of brute force. No code needed for partly update and it secures a
 
 ## Schedules and log data
 
-Schedules and log data are loaded into a separate data structure. [Schedules](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift) are linked to [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) by `hiddenID=Int`. Schedules and logs are also saved in a separate XML-file (plist). Manually executed task is stamped with date (US-format) `01 Jan 1900 00:00`". Record of scheduled backups are stamped with date for execution, example `01 Jun 2017 22:35` and type of schedule, either `once`, `daily` or `monthly`. Manually executed task is of type `manuel`.
+Schedule including log data is loaded into a separate data structure. [configurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift) is linked to [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) by `hiddenID=Int`. Schedules including **log records** are saved in a separate XML-file (plist). Manually executed task is stamped with date (US-format) `01 Jan 1900 00:00` in the main struct. Manually executed task is of type `manuel`. All **log records** for manually executed tasks are appended to this struct. Record of scheduled backups are stamped with date for execution, example `01 Jun 2017 22:35` and type of schedule, either `once`, `daily` or `monthly`. All **log records** of scheduled runs are appended to this struct.
 
-A log record is constructed by number of files, size of transferred files in time (`58 files : 5.04 MB in 2.50 seconds`) as reported from rsync. The output from rsync is checked and all numbers are copied from the rsync output. Every log record is linked to its parent bye the function `computeKey` and used when records are deleted.
+A **log record** is constructed by number of files, size of transferred files in time (`58 files : 5.04 MB in 2.50 seconds`) as reported from rsync. The output from rsync is checked and all numbers are copied from the rsync output. Every log record is linked to its parent bye the function `computeKey` and used when records are deleted.
 
 A **log record** is appended to the **schedule record** as a `NSMutableDictionary`.
 
