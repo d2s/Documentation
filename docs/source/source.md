@@ -23,9 +23,10 @@ All changes to configurations (edit, delete, new, parameters to rsync) is a thre
 - any changes to configurations are updated in memory (to the `Array<configuration>`)
   - [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) is a struct holding all attributes for one configuration
   - the `Array<NSMutableDictionary>` is computed and read-only after loaded in memory
-- after an update the configuration in memory configurations are saved to permanent store
-- the configurations in memory are wiped out and loaded into memory from the permanent store to compute any new values due to changes
-  - a new and computed `Array<NSMutableDictionary>` is loaded
+- after a change of [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) in memory, the changed configuration in memory is saved to permanent store
+- all configurations in memory are wiped out and loaded into memory from the permanent store to compute any new values due to changes
+  - a new, computed and read only `Array<NSMutableDictionary>` is loaded
+  - a refresh of present tableView is executed to update table in view
 
 This is a kind of brute force. No code needed for partly update and it secures a 100% correct and updated configuration in memory at all time. Saving, wiping memory and reading configurations is done in matter of milliseconds.
 
