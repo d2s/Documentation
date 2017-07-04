@@ -11,6 +11,11 @@ The red rows indicates no connection to remote server. RsyncOSX does a **backgro
 
 ![Main view](screenshots/master/main.png)
 
+From version 4.4.6 the background check for TCP-connections is removed as an automatic check. Pressing the TCP-button executes the check and marks configurations not available (no contact wit remote server) red.
+
+![Main view](screenshots/master/tcp.png)
+
+
 A double click on a row executes the task. A drop down view presents result of task after rsync terminates. A backup is normally a two step task, first a `--dry-run` and then the real task. Tasks might be marked for batch for execution in one go (all tasks marked for batch).
 
 ![Main view](screenshots/master/main1.png)
