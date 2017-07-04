@@ -30,11 +30,11 @@ All changes to configurations (edit, delete, new, parameters to rsync) is a thre
 
 This is a kind of brute force. No code needed for partly update and it secures a 100% correct and updated configuration in memory at all time. Saving, wiping memory and reading configurations is done in matter of milliseconds.
 
-## Schedules and log data
+## Schedules and log records
 
-Schedule including log data is loaded into a separate data structure. [configurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift) is linked to [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) by `hiddenID=Int`. Schedules including **log records** are saved in a separate XML-file (plist).
+Schedules including **log records** are loaded into separate data structure. [configurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift) or schedules, is linked to [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) by `hiddenID=Int`. Schedules including *log records* are saved in a separate XML-file (plist).
 
-Manually executed task is stamped with `dateStart` (US-format) `01 Jan 1900 00:00` in the main struct. Manually executed `schedule` is of type `manuel`. All **log records** for manually executed tasks are appended to this struct. Record of scheduled backups are stamped with `dateStart` for execution, example `01 Jun 2017 22:35` and type of `schedule`, either `once`, `daily` or `monthly`. All **log records** of scheduled runs are appended to this struct.
+Manually executed task is stamped with `dateStart` (US-format) `01 Jan 1900 00:00` in the struct for schedule ([configurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift) or schedules, is linked to [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift)). Manually executed `schedule` is of type `manuel`. All log records for manually executed tasks are appended to this struct. Record of scheduled backups are stamped with `dateStart` for execution, example `01 Jun 2017 22:35` and type of `schedule`, either `once`, `daily` or `monthly`. All log records of scheduled runs are appended to this struct.
 
 The above is used to group log records e.g in [table view](https://rsyncosx.github.io/Documentation/docs/ScheduleTasks.html) (see screen dump number four).
 
