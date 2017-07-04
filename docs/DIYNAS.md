@@ -98,17 +98,13 @@ It is easy and cheap to setup a backup server based on Linux or other server OS 
 
 ## The NAS (HW)
 
-**Important : July 2017** New HW is installed in NAS.
+**July 2017** New HW is installed in NAS.
 
-Important : May 2017 Please be advised that my NAS HW is under revision and to be replaced. I will update this pages after new HW is installed and up and running. New HW will be based upon [recommendations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team. For the moment I am back on stock FreeBSD 11. Imported zpools created in FreeNAS.
+New HW in NAS is based upon [recommendations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team.
 
-My FreeNAS started dying after 2-3 days operation a couple of weeks ago. No traces why, just dropped network connections and a reboot was the only way to get it up and running again. As I understand the HW in my NAS is not compliant to HW [recommendations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/). But, so far, stock FreeBSD 11 is running OK.  
-
-The plan now is to spend some time to get the correct HW pieces for FreeNAS box. Until then I am only using mye FreeBSD 11 server as backup server (by using RsyncOSX).
+The **old** NAS HW which was running FreeNAS started dying after 2-3 days operation. No traces why, just dropped network connections and a reboot was the only way to get it up and running again. As I understand the HW in my NAS is not compliant to HW
 
 ### New HW for NAS.
-
-[Nerd Monkey](http://www.nerd-monkey.com/test-6-nas__expert_for_up_to_6_drives_with_ecc_memory_aes_ni_and_ipmi) wrote an article utilizing the ASRock E3C226D2I MB and Kingston KVR16E11/8 ValueRAM, equal MB and memory as my new NAS HW.
 
 June 2017 I ditched the old NAS HW and installed new HW components. My NAS is build by the following components. The components in NAS is server components and a bit more expensive than desktop components.
 
@@ -121,6 +117,8 @@ June 2017 I ditched the old NAS HW and installed new HW components. My NAS is bu
 - Two [WD Red 2TB](https://www.amazon.com/Red-2TB-Hard-Disk-Drive/dp/B008JJLZ7G) NAS Hard drives (buy new ones)
 
 NAS is setup by using [ECC memory](https://en.wikipedia.org/wiki/ECC_memory). Total disk in NAS is 6 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror, sharing out 3 TB.
+
+[Nerd Monkey](http://www.nerd-monkey.com/test-6-nas__expert_for_up_to_6_drives_with_ecc_memory_aes_ni_and_ipmi) wrote an article utilizing the ASRock E3C226D2I MB and Kingston KVR16E11/8 ValueRAM, equal MB and memory as my new NAS HW.
 
 ### Old NAS
 
