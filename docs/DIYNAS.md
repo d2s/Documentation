@@ -102,7 +102,7 @@ It is easy and cheap to setup a backup server based on Linux or other server OS 
 
 New HW in NAS is based upon [recommendations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team.
 
-The **old** NAS HW which was running FreeNAS started dying after 2-3 days operation. No traces why, just dropped network connections and a reboot was the only way to get it up and running again. As I understand the HW in my NAS is not compliant to HW
+The **old** NAS HW which was running FreeNAS started dying after 2-3 days operation. No traces why, just dropped network connections and a reboot was the only way to get it up and running again. As I understand the HW in my NAS is not compliant to HW recommendations, kind of "dodgy" HW as a FreeNAS forum member commented.
 
 ### New HW for NAS.
 
