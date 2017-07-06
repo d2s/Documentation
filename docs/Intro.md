@@ -44,16 +44,20 @@ RsyncOSX is logging all tasks. The user can choose in user configuration, to dis
 
 ## RsyncOSX configuration files
 
-RsyncOSX configuration file, log file, scheduled tasks file and user configuration are plain XML-files ([property list files](https://en.wikipedia.org/wiki/Property_list)). Configuration files (backup and restore task configurations and schedule data) are saved in:
+RsyncOSX configuration file, scheduled tasks which also includes log records and user configuration are plain XML-files ([property list files](https://en.wikipedia.org/wiki/Property_list)). Files are saved in:
 
-- `~/Documents/Rsync/MacID/configRsync.plist`
+- `~/Documents/Rsync/MacID/configRsync.plist` - configurations
   - `~/` is user home directory
   - `MacID` is the Mac serial number and is automatically set by RsyncOSX
+- `~/Documents/Rsync/MacID/scheduleRsync.plist` - scheduled tasks including log records
+- `~/Documents/Rsync/MacID/config.plist` - user config
 
 If _profile_ is used:
 
 - `~/Documents/Rsync/MacID/profile/configRsync.plist`
-  - `profile` is the profile identification
+- `~/Documents/Rsync/MacID/profile/scheduleRsync.plist`
+  - `profile` is the profile name
+- `~/Documents/Rsync/MacID/config.plist` - user config
 
 ## Rsync errors
 
