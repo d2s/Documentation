@@ -8,7 +8,7 @@ First will the data (model) and some of the methods operating on the data be doc
 
 The views has no knowledge about the models or data stored about configurations, schedules and logdata. All data presented in RsyncOSX are mostly table data. Presenting table data utilizes the `NSTableViewDelegate`. All data which are saved to permanent store are saved as xml-files ([plist](https://en.wikipedia.org/wiki/Property_list) files). RsyncOSX does **not** utilize the Core Data because the data about `configurations`, `schedules` and `logs` are simple and there is no need for a complex datamodel.
 
-All data is kept in memory (utilizing singelton objects) during lifetime of RsyncOSX. The main reason for this approach is all views in RsyncOSX is guaranteed correct and updated data any time. When data is changed, in any view or by any operation, the singelton objects make sure that changes are saved to permanent store and loaded into memory again before any other operations is performed. 
+All data is kept in memory (utilizing singelton objects) during lifetime of RsyncOSX. The main reason for this approach is all views in RsyncOSX is guaranteed correct and updated data any time. When data is changed, in any view or by any operation, the singelton objects make sure that changes are saved to permanent store and loaded into memory again before any other operations is performed.
 
 ## Configurations
 
@@ -16,7 +16,7 @@ Documentation of [configurations](configs/configuration.md).
 
 ## Scheduled tasks and log records
 
-Documentation of [scheduled tasks](configs/configurationSchedule.md).
+Documentation of [scheduled tasks and log records](configs/configurationSchedule.md).
 
 
 ## Reading and writing data to permanent store
