@@ -1,6 +1,8 @@
 
 ## The main opening view
 
+Make **sure** you have read the [important](docs/HowtoUseRsyncOSX.md) info before start using RsyncOSX (and rsync).
+
 All configurations to execute are listed in table. From this screen all actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed.
 
 There are two labels on top of table : **Profile** and **Double click: YES**. Configurations can be saved in user selected profiles. The profile in use is shown in label `Profile : name`. `Double click:YES` (or NO) either allow or don't allow executing single tasks by double click on row. Disable or enable in Configuration.
