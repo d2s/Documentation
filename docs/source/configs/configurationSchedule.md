@@ -1,4 +1,4 @@
-## Schedules and log records
+### Schedules and log records
 
 Schedules including log records are loaded into separate data structure. [configurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift) or schedules, is linked to [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) by `hiddenID=Int`. Schedules including *log records* are saved in a separate XML-file (plist).
 

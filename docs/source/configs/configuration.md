@@ -1,4 +1,4 @@
-## Configurations (tasks)
+### Configurations (tasks)
 
 The configurations are read from the permanent store and kept in memory during RsyncOSX lifetime. Each record (one task) are read from permanent store as a `NSDictionary` item and loaded into an `Array<configuration>`. A [configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) is a struct holding all data about one task.
 
