@@ -10,7 +10,7 @@ A log record is constructed by number of files, size of transferred files in tim
 
 A log record is appended to the schedule record as a `NSMutableDictionary`.
 
-The object [SharingManagerSchedule.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/SharingManagerSchedule.swift) holds all data and operations working on Schedule data. The object [ScheduleWriteLoggData.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleWriteLoggData.swift) takes care of adding and deleting log records. As for configurations changes are applied to structure in memory and then saved to permanent store.
+The singelton object [SharingManagerSchedule.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/SharingManagerSchedule.swift) holds all data and operations working on Schedule data. The object [ScheduleWriteLoggData.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleWriteLoggData.swift) takes care of adding and deleting log records. As for configurations changes are applied to structure in memory and then saved to permanent store.
 
 If a schedule record is marked for delete a delete flag is set on the record. When saved all records marked for delete are omitted. The schedules are marked dirty and a write operation is performed. All log records connected to the deleted schedule are also deleted. Schedule data in memory is wiped and reloaded from permanent store into memory. Single log records might be deleted as well. The log record is removed in memory, schedules are marked dirty and write operation is performed.
 
