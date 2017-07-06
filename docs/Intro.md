@@ -1,7 +1,7 @@
 
 ## The main opening view
 
-Make **sure** you have read the [important](docs/HowtoUseRsyncOSX.md) info before start using RsyncOSX (and rsync).
+Make **sure** you have read the [important](HowtoUseRsyncOSX.md) info before start using RsyncOSX (and rsync).
 
 All configurations to execute are listed in table. From this screen all actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed.
 
