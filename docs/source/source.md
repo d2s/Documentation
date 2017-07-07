@@ -18,11 +18,13 @@ Documentation of [configurations](configs/configuration.md).
 
 ## Scheduled tasks and log records
 
-All log records are stored in a Schedule record. For one task it might be several schedule records depended upon type of schedule and start of scheduled task. Only backup tasks can be scheduled, not restore task. The type of schedules are `manual`,`once`, `daily` and `monthly`. If Schedules is not used, only manually executed tasks, one Schedule record is created with type `manual`. All log records for this task is added to this record.
+All log records are stored in a Schedule record. For one task it might be several schedule records depended upon type of schedule and start of scheduled task. Only backup tasks can be scheduled, not restore task. The type of schedules are `manual`,`once`, `daily` and `monthly`. If Schedules is not used meaning only manually executed tasks, one Schedule record is created with type `manual`. All log records for this manually executed tasks are added to this record.
 
 Documentation of [scheduled tasks and log records](configs/configurationSchedule.md).
 
 
 ## Reading and writing data to permanent store
+
+One object takes care of reading and writing data to permanent store. The object is also responsible to either read or write data utilizing profiles.
 
 Documentation of [reading and writing](configs/readwrite.md).
