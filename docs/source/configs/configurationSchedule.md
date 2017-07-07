@@ -1,10 +1,12 @@
 ### Schedules and log records
 
-Schedules including log records are loaded into a separate data structure. Schedules and log records  ([configurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift)) is linked to [configurations](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) by `hiddenID=Int`. Schedules including *log records* are saved in a separate XML-file (plist).
+Schedules including log records are loaded into a separate data structure. Schedules and log records  ([configurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift)) are linked to [configurations](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configuration.swift) by `hiddenID=Int`. Schedules including *log records* are saved in a separate XML-file (plist).
 
-Manually executed task is stamped with `dateStart` (US-format) `01 Jan 1900 00:00` in the struct for schedule ([configurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift)). Manually executed `schedule` is of type `manuel`. All log records for manually executed tasks are appended to this struct record. Records of scheduled backups are stamped with `dateStart` for execution, example `01 Jun 2017 22:35` and type of `schedule`, either `once`, `daily` or `monthly`. All log records of scheduled runs are appended to this struct record. And log records are linked to its schedule by a computed key.
+Manually executed task is stamped with `dateStart = 01 Jan 1900 00:00` (US-format) in the struct for schedule ([configurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/configurationSchedule.swift)). Manually executed `schedule` is of type `manuel`. All log records for manually executed tasks are appended to this struct record. Records of scheduled backups are stamped with `dateStart` for execution, example `01 Jun 2017 22:35` and type of `schedule`, either `once`, `daily` or `monthly`. All log records of scheduled runs are appended to this struct record. And log records are linked to its schedule by a computed key.
 
-The above is used to group log records e.g in [table view](https://rsyncosx.github.io/Documentation/docs/ScheduleTasks.html) (see screen dump number four).
+The above is used to group log records e.g in [table view](https://rsyncosx.github.io/Documentation/docs/ScheduleTasks.html).
+
+![Main view](../../screenshots/master/scheduling/schedule4.png)
 
 A log record is constructed by number of files, size of transferred files in time (`58 files : 5.04 MB in 2.50 seconds`) as reported from rsync. The output from rsync is checked and all numbers are copied from the rsync output. Every log record is linked to its parent schedule by the function `computeKey`.
 
