@@ -12,7 +12,7 @@ All data is kept in memory (utilizing singelton objects) during lifetime of Rsyn
 
 ## Configurations
 
-A configuration holds required data about all tasks including all parameters for rsync including user selected parameters. Adding a task results in two new records, one for backup and for restore. All configurations are stored in memory in an Array of configurations in order loaded from permanent store. Last date for execution is also stored in configuration.
+A configuration holds required data about all tasks including all parameters for rsync and user selected parameters. Adding a task results in two new records, one for backup and for restore. All configurations are stored in memory in an Array of configurations in order loaded from permanent store. Last timestamp for execution is also stored in configuration.
 
 Documentation of [configurations](configs/configuration.md).
 
