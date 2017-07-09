@@ -1,7 +1,9 @@
 
 ## The main opening view
 
-Make **sure** you have read the [important](HowtoUseRsyncOSX.md) info before start using RsyncOSX (and rsync).
+Make sure you understand the basics how rsync works before using RsyncOSX (and rsync). See below:
+
+**Warning**: default parameters for rsync is to **synchronize** the **source** and **destination**. A "restore" will **delete** all files in the source which are not in the destination. The main objective to RsyncOSX is to keep **source** directory and **destination** (backup) directory **synchronized**. When a source directory is backed up, the destination is 100% synchronized with the source in the moment the backup task is completed. There are **no revisions** of files in the backup in **default RsyncOSX**. Old files in the backup are either replaced with new ones or deleted if so is true in source.
 
 All configurations to execute are listed in table. From this screen all actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed.
 

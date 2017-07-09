@@ -9,13 +9,14 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 > - backup (and restore) local files on Mac to local storage (attached disks)
   - if this is _the only use_ there might be _other tools_ more useful than RsyncOSX
 
-**Warning**: default parameters for rsync is to **synchronize** the **source** and **destination**. A "restore" will **delete** all files in the source which are not in the destination. The main objective to RsyncOSX is to keep the **source** directory and **destination** (backup) directory **in sync**. When a source directory is backed up, the destination is 100% in sync with source in the moment the backup task is completed. There are **no revisions** of files in the backup in **default RsyncOSX**. Old files in the backup are either replaced with new ones or deleted if so is true in source.
+Make sure you understand the basics how rsync works before using RsyncOSX (and rsync). See below:
+
+**Warning**: default parameters for rsync is to **synchronize** the **source** and **destination**. A "restore" will **delete** all files in the source which are not in the destination. The main objective to RsyncOSX is to keep **source** directory and **destination** (backup) directory **synchronized**. When a source directory is backed up, the destination is 100% synchronized with the source in the moment the backup task is completed. There are **no revisions** of files in the backup in **default RsyncOSX**. Old files in the backup are either replaced with new ones or deleted if so is true in source.
 
 > - _source_: the local volume to be copied
 > - _destination_: the remote location where source files and catalogs are copied
 
 What about **revisions and deleted** files? In the [parameters to rsync](Parameters.md) there is presented a solution by parameters to rsync, to save changed and deleted files in a selected backup location.
-
 
 ## Why use RsyncOSX?
 
@@ -31,21 +32,20 @@ The following features are implemented in RsyncOSX:
   - batch tasks are automatically executed until all are completed (the estimate run and execute run are executed in one go)
   - if you want tasks to be executed in one go mark them for batch
 - adding **new tasks** either by drag and drop (for local volumes) or by GUI
-- **user configuration**
-  - the user can select other versions of rsync
-- **abort** single- and batch tasks
-- **rsync parameters**
+- single- and batch tasks might be **aborted** any time
+- choose **other version** of rsync in **user configuration**
+- user defined **rsync parameters**
   - the user can add parameters to rsync
   - there are predefined parameters for saving old files in a backup directory
-- **enable** saving backups of changed or deleted files (in rsync parameters)
+- **enable** save backups of changed or deleted files (by using rsync parameters)
 - **delete** and **edit** configurations
-- store configurations in **profiles**
+- manage backup tasks in **profiles**
 	- as many profiles as wanted
 - **copy of single files or volumes** from remote storage
 - **scheduling of tasks**
-- **detailed logging**
+  - daily, weekly or monthly schedules
+- **detailed logging** of tasks
   - switch on/off
-
 
 ## RsyncOSX is not suitable to all users
 
