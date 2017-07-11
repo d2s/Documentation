@@ -6,13 +6,13 @@ First will the data model and some of the methods operating on the data be docum
 
 # Data model
 
-The views has no knowledge about the models or data stored about configurations, schedules and logdata. Data presented in RsyncOSX are mostly table data. Presenting table data in all views utilizes the `NSTableViewDelegate`. All data which are saved to permanent store are saved as xml-files ([plist](https://en.wikipedia.org/wiki/Property_list) files). RsyncOSX does not utilize the Core Data because the data about `configurations`, `schedules` and `logs` are simple and there is no need for a complex datamodel.
+The views has no knowledge about the models or data stored about configurations, schedules and logdata. Data presented in RsyncOSX are mostly table data. Presenting table data in all views utilizes the `NSTableViewDelegate`. All data which are saved to permanent storage are saved as xml-files ([plist](https://en.wikipedia.org/wiki/Property_list) files). RsyncOSX does not utilize the Core Data because the data about `configurations`, `schedules` and `logs` are simple and there is no need for a complex datamodel.
 
-All data is kept in memory (utilizing singelton objects) during lifetime of RsyncOSX. The main reason for this approach is that all views in RsyncOSX is guaranteed correct and updated data any time. When data is changed, in any view or by any operation, the singelton objects saves data to permanent store and make sure saved data is loaded into memory again before any other operations is performed.
+All data is kept in memory (utilizing singelton objects) during lifetime of RsyncOSX. The main reason for this approach is that all views in RsyncOSX is guaranteed correct and updated data any time. When data is changed, in any view or by any operation, the singelton objects saves data to permanent storage and make sure saved data is loaded into memory again before any other operations is performed.
 
 ## Configurations
 
-A configuration holds required data about all tasks including all parameters for rsync and user selected parameters. Adding a task results in two new records, one for backup and for restore. All configurations are stored in memory in an Array of configurations in order loaded from permanent store. Last timestamp for execution is also stored in configuration.
+A configuration holds required data about all tasks including all parameters for rsync and user selected parameters. Adding a task results in two new records, one for backup and for restore. All configurations are stored in memory in an Array of configurations in order loaded from permanent storage. Last timestamp for execution is also stored in configuration.
 
 Documentation of [configurations](configs/configuration.md).
 
@@ -23,8 +23,8 @@ All log records are stored in a Schedule record. For one task it might be severa
 Documentation of [scheduled tasks and log records](configs/configurationSchedule.md).
 
 
-## Reading and writing data to permanent store
+## Reading and writing data to permanent storage
 
-One object takes care of reading and writing data to permanent store. The object is also responsible to either read or write data utilizing profiles.
+One object takes care of reading and writing data to permanent storage. The object is also responsible to either read or write data utilizing profiles.
 
 Documentation of [reading and writing](configs/readwrite.md).
