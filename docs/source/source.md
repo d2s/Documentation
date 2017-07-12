@@ -28,3 +28,9 @@ Documentation of [scheduled tasks and log records](configs/configurationSchedule
 One object takes care of reading and writing data to permanent storage. The object is also responsible to either read or write data utilizing profiles.
 
 Documentation of [reading and writing](configs/readwrite.md).
+
+# Parameters to rsync
+
+Rsync utilizes a ton of parameters. RsyncOSX let the user pass any parameter to rsync. A few rsync parameters are predefined, both mandatory and user selected. Documentation of which rsync parameters are mandatory and predefined is [here](../Parameters.md).
+
+Documentation of [rsync parameters in RsyncOSX](parameters/parameters.md).
