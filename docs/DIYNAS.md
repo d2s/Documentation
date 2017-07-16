@@ -46,6 +46,7 @@ I have the following requirements for my NAS:
 
 [ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux (and other OS as well).
 
+
 ### FreeBSD 11 or Ubuntu 16.10 (or 17.04)
 
 Before testing a dedicated NAS SW I tried out [FreeBSD 11](https://www.freebsd.org/). I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There were to much tweaking and installing of various FreeBSD ports to get it up and running as NAS and sharing out filesystems. Creating and mounting ZFS filesystems by command line using the correct parameters is a non trivial task. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
@@ -120,7 +121,7 @@ NAS is setup by using [ECC memory](https://en.wikipedia.org/wiki/ECC_memory). To
 
 [Nerd Monkey](http://www.nerd-monkey.com/test-6-nas__expert_for_up_to_6_drives_with_ecc_memory_aes_ni_and_ipmi) wrote an article utilizing the ASRock E3C226D2I MB and Kingston KVR16E11/8 ValueRAM, equal MB and memory as my new NAS HW.
 
-[Here](https://blog.brianmoses.net/2017/07/my-thoughts-after-upgrading-to-freenas-11.html?mkt_tok=eyJpIjoiWm1FMU1tTTBNVEV4TlRrNSIsInQiOiJnT0pjVStjTSs2MnJGQzU3dnl2czh5NWV3QllLT1dGU0wwV1NEbm5DNUFvS2JNNFQxeWw3dWc3Z0ZTaTZpNnpMdWdheXBma3FsUWlGZ3RoeVlnT2F0TitrY2lweEhETDNTdDBQd20rdmg4bzlZdElZWWlaXC9OXC81ZDVRbk5ncHJxIn0%3D#disqus_thread) another interesting story about FreeNAS 11. 
+[Here](https://blog.brianmoses.net/2017/07/my-thoughts-after-upgrading-to-freenas-11.html?mkt_tok=eyJpIjoiWm1FMU1tTTBNVEV4TlRrNSIsInQiOiJnT0pjVStjTSs2MnJGQzU3dnl2czh5NWV3QllLT1dGU0wwV1NEbm5DNUFvS2JNNFQxeWw3dWc3Z0ZTaTZpNnpMdWdheXBma3FsUWlGZ3RoeVlnT2F0TitrY2lweEhETDNTdDBQd20rdmg4bzlZdElZWWlaXC9OXC81ZDVRbk5ncHJxIn0%3D#disqus_thread) another interesting story about FreeNAS 11.
 
 ### Old NAS
 
