@@ -89,14 +89,6 @@ My *FreeNAS* based NAS is now setup to do the following:
 - sharing out a SMB and AFP filesystem.
 - Accepts rsync over ssh
 
-## Setup of NAS - ZFS filesystem
-
-The server has 3 Terabyte (TB) of storage. The storage is setup as a ZFS filesystem and all disks (four disks altogether, two disks of 2TB each and two disks of 1TB each) are all setup as a ZFS mirror. That is the two 2TB disks are mirroring each other as well as the two 1TB disks. If one disk fails ZFS is automatically restoring (by ZFS scrub) the failing disk. If one disk fails (by HW) and must be replaced ZFS has functionality for unmounting failed disk, mount a new one and put the new one into mirrored pool again.
-
-It is easy and cheap to setup a backup server based on Linux or other server OS and rsync. There is an open source project [Netatalk](http://netatalk.sourceforge.net/) Apple Filing Protocol ([AFP](https://en.wikipedia.org/wiki/Apple_Filing_Protocol)) fileserver. Some years ago I tested Apple Time Machine and Netatalk on a Solaris 11 server. It worked for some time, but also failed. I don't know how stable Netatalk and Apple Time Machine is now. But for me rsync is the best solution. And for backups to remote servers outside my house (by Internet connection) rsync is most likely the best tool to use. By using rsync I backup all data on my Macs. A complete reinstallation of a MacBook is done by a fresh install of OS X and then restore all data by rsync. Safe and reliable.
-
-![New configurations](screenshots/master/nas/nas1.jpeg)
-
 ## The NAS (HW)
 
 **July 2017** New HW is installed in NAS.
@@ -122,6 +114,14 @@ NAS is setup by using [ECC memory](https://en.wikipedia.org/wiki/ECC_memory). To
 [Nerd Monkey](http://www.nerd-monkey.com/test-6-nas__expert_for_up_to_6_drives_with_ecc_memory_aes_ni_and_ipmi) wrote an article utilizing the ASRock E3C226D2I MB and Kingston KVR16E11/8 ValueRAM, equal MB and memory as my new NAS HW.
 
 [Here](https://blog.brianmoses.net/2017/07/my-thoughts-after-upgrading-to-freenas-11.html?mkt_tok=eyJpIjoiWm1FMU1tTTBNVEV4TlRrNSIsInQiOiJnT0pjVStjTSs2MnJGQzU3dnl2czh5NWV3QllLT1dGU0wwV1NEbm5DNUFvS2JNNFQxeWw3dWc3Z0ZTaTZpNnpMdWdheXBma3FsUWlGZ3RoeVlnT2F0TitrY2lweEhETDNTdDBQd20rdmg4bzlZdElZWWlaXC9OXC81ZDVRbk5ncHJxIn0%3D#disqus_thread) another interesting story about FreeNAS 11.
+
+### Setup of NAS - ZFS filesystem
+
+The server has 3 Terabyte (TB) of storage. The storage is setup as a ZFS filesystem and all disks (four disks altogether, two disks of 2TB each and two disks of 1TB each) are all setup as a ZFS mirror. That is the two 2TB disks are mirroring each other as well as the two 1TB disks. If one disk fails ZFS is automatically restoring (by ZFS scrub) the failing disk. If one disk fails (by HW) and must be replaced ZFS has functionality for unmounting failed disk, mount a new one and put the new one into mirrored pool again.
+
+It is easy and cheap to setup a backup server based on Linux or other server OS and rsync. There is an open source project [Netatalk](http://netatalk.sourceforge.net/) Apple Filing Protocol ([AFP](https://en.wikipedia.org/wiki/Apple_Filing_Protocol)) fileserver. Some years ago I tested Apple Time Machine and Netatalk on a Solaris 11 server. It worked for some time, but also failed. I don't know how stable Netatalk and Apple Time Machine is now. But for me rsync is the best solution. And for backups to remote servers outside my house (by Internet connection) rsync is most likely the best tool to use. By using rsync I backup all data on my Macs. A complete reinstallation of a MacBook is done by a fresh install of OS X and then restore all data by rsync. Safe and reliable.
+
+![New configurations](screenshots/master/nas/nas1.jpeg)
 
 ### Old NAS
 
