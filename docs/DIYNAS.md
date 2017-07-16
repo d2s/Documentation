@@ -28,37 +28,14 @@ I am also observant of not storing personal and sensitive information not encryp
 
 I have **not** tested rsync on encrypted folders or volumes. I am sure it works, but I do not know how effective rsync is when there are changes within the encrypted folder or volume.
 
-## Setup of NAS
+## Which NAS SW to use
 
 Until October 2016 I have only used the trial version of Oracle Solaris 11.3 and [napp-it](https://www.napp-it.org/) as NAS. I have been using trial version of Solaris and napp-it for years. It was stable until a HW failure caused a breakdown of NAS. There is one major drawback by using trial version of Solaris. There are no updates and bug fixes. Receiving updates and bug fixes cost money.
 
-### Opensourced based NAS
-
 There are several options for installing NAS by using free and open sourced based solutions. That was the main reason for choosing other OS for my NAS. There are two options:
 
-- either go for a special NAS SW (as NAS4Free, FreeNAS or Openmediavolt)
-- or use stock OS (as FreeBSD 11 or Ubuntu 16.10).  
-
-### FreeBSD 11 or Ubuntu 16.10 (or 17.04)
-
-Before testing a dedicated NAS SW I tried out [FreeBSD 11](https://www.freebsd.org/). I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There were to much tweaking and installing of various FreeBSD ports to get it up and running as NAS and sharing out filesystems. Creating and mounting ZFS filesystems by command line using the correct parameters is a non trivial task. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
-
-I also dropped testing of Ubuntu 16.10 due to reasons as for FreeBSD 11.
-
-### Openmediavolt
-
-[Openmediavolt](http://www.openmediavault.org/) is not an option for me due to no native support for ZFS. There is support for ZFS by installing a plugin.
-
-### OmniOS and OpenIndiana
-
-Other possible OS supporting ZFS are:
-
-- [OmniOS](https://omnios.omniti.com/) (recommended by [napp-it.org](http://napp-it.org/))
-- [OpenIndiana Hipster](http://www.openindiana.org/)
-
-Both OS booted into single user mode (due to missing support of (old) HW). And that was an effective stop of further testing.
-
-## FreeNAS (and NAS4Free)
+- either use stock OS (as FreeBSD 11 or Ubuntu 16.10)
+- or go for a special NAS SW (as NAS4Free, FreeNAS or Openmediavolt)
 
 I have the following requirements for my NAS:
 
@@ -67,14 +44,37 @@ I have the following requirements for my NAS:
 - stability
 - ssh and rsync
 
+[ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux (and other OS as well).
+
+### FreeBSD 11 or Ubuntu 16.10 (or 17.04)
+
+Before testing a dedicated NAS SW I tried out [FreeBSD 11](https://www.freebsd.org/). I played around about one day before dropping FreeBSD 11 as well. I dropped FreeBSD for one reason only. There were to much tweaking and installing of various FreeBSD ports to get it up and running as NAS and sharing out filesystems. Creating and mounting ZFS filesystems by command line using the correct parameters is a non trivial task. I also installed Samba (to test sharing [SMB](https://en.wikipedia.org/wiki/Server_Message_Block)). Even more tweaking and I managed to connect to a shared SMB filesystem. I am quite sure I would manage to get my NAS up and running by using FreeBSD 11. But there was to much time to set up and installing.
+
+I also dropped testing of Ubuntu 16.10 due to reasons as for FreeBSD 11.
+
+### OmniOS and OpenIndiana
+
+Other possible OS supporting ZFS are:
+
+- [OmniOS](https://omnios.omniti.com/) (recommended by [napp-it.org](http://napp-it.org/))
+- [OpenIndiana Hipster](http://www.openindiana.org/)
+
+## Dedicated NAS SW
+
+There are several options for dedicated NAS SW.
+
+### Openmediavolt
+
+[Openmediavolt](http://www.openmediavault.org/) is not an option for me due to no native support for ZFS. There is support for ZFS by installing a plugin.
+
+### FreeNAS (and NAS4Free)
+
 The above narrows down two options:
 
 - [NAS4free](http://www.nas4free.org/) or
 - [FreeNAS](http://www.freenas.org/)
 
 Both NAS4Free and FreeNAS 11 is built on FreeBSD 11.x. FreeNAS 11 was [released](https://forums.freenas.org/index.php?threads/freenas-11-0-released.55327/) in June 2017.
-
-[ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux (and other OS as well).
 
 For some time (about 6 months) I have used NAS4Free. Release 11.0.0.4.4040 of NAS4Free caused me some troubles. Ssh connections was broken and after upgrading I was not able to connect to the server by `ssh`. Without `ssh` RsyncOSX does not work. There is also an issue about ssh and NAS4Free. From time to time the NAS4Free server did not accept `ssh` connections. Ssh was not broken prior to release of 11.0.0.4.4040, and I did not manage to resolve the issues.    
 
