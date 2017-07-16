@@ -120,6 +120,8 @@ NAS is setup by using [ECC memory](https://en.wikipedia.org/wiki/ECC_memory). To
 
 [Nerd Monkey](http://www.nerd-monkey.com/test-6-nas__expert_for_up_to_6_drives_with_ecc_memory_aes_ni_and_ipmi) wrote an article utilizing the ASRock E3C226D2I MB and Kingston KVR16E11/8 ValueRAM, equal MB and memory as my new NAS HW.
 
+[Here](https://blog.brianmoses.net/2017/07/my-thoughts-after-upgrading-to-freenas-11.html?mkt_tok=eyJpIjoiWm1FMU1tTTBNVEV4TlRrNSIsInQiOiJnT0pjVStjTSs2MnJGQzU3dnl2czh5NWV3QllLT1dGU0wwV1NEbm5DNUFvS2JNNFQxeWw3dWc3Z0ZTaTZpNnpMdWdheXBma3FsUWlGZ3RoeVlnT2F0TitrY2lweEhETDNTdDBQd20rdmg4bzlZdElZWWlaXC9OXC81ZDVRbk5ncHJxIn0%3D#disqus_thread) another interesting story about FreeNAS 11. 
+
 ### Old NAS
 
 Old NAS was running FreeBSD 11. The HW in old NAS was not compatible with FreeNAS, but it ran without any problems for about 4 weeks with FreeBSD.  If you are setting up a NAS yourself choose the right HW. It might be some more expensive, but it saves you for troubles later on.
