@@ -2,7 +2,7 @@
 
 ## The RsyncOSX code
 
-The [code](https://github.com/rsyncOSX/RsyncOSX) is **not** example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day.
+The [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) is **not** an example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day.
 
 What is my experience after about a year into my Swift project? Writing swift code is fun and addicting. But I experience from time to time some of the code I am writing is a kind of "brute force". I am reading blogs and other resources about coding in Swift. Some ideas I do pick up, some I don´t understand and others again are like this is how I should have done it. I'm not a professional or full-time programmer and it means I have to accept that the parts of the code in RsyncOSX could have been better and more efficient. The RsyncOSX project is for fun only.
 
