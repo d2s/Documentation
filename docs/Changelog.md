@@ -16,6 +16,8 @@ One of the most exiting (in my opinion) features about macOS 10.13 is the new [A
 
 ## Version 4.5.0 - work in progress
 
+New rc updated 15 Aug 2017.
+
 This version is in development. Will be released as soon as Xcode 9 and Swift 4 are released. Release candidate is available.
 
 * using [SwiftLint](https://github.com/realm/SwiftLint) has caused several and major rewrites in parts of code
@@ -24,6 +26,7 @@ This version is in development. Will be released as soon as Xcode 9 and Swift 4 
 * fixed a bug when choosing task for batch, an `execute` of task might accidentally start when select or deselect batch task
 * fixed a bug in discover new version of RsyncOSX
 * there are numerous internal changes and quite a few minor bugfixes
+* refactor filter (search) functions in logs and copy files
 
 
 ## Version 4.4.6
