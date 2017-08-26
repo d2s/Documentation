@@ -16,7 +16,7 @@ One of the most exiting (in my opinion) features about macOS 10.13 is the new [A
 
 ## Version 4.5.0 - work in progress
 
-New rc updated 15 Aug 2017.
+New rc updated 26 Aug 2017.
 
 This version is in development. Will be released as soon as Xcode 9 and Swift 4 are released. Release candidate is available.
 
@@ -27,6 +27,7 @@ This version is in development. Will be released as soon as Xcode 9 and Swift 4 
 * fixed a bug in discover new version of RsyncOSX
 * there are numerous internal changes and quite a few minor bugfixes
 * refactor filter (search) functions in logs and copy files
+* fixed a bug causing RsyncOSX to crash if loading new profile during a test for TCP connections
 
 
 ## Version 4.4.6
