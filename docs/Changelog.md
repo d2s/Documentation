@@ -28,6 +28,7 @@ This version is in development. Will be released as soon as Xcode 9 and Swift 4 
 * there are numerous internal changes and quite a few minor bugfixes
 * refactor filter (search) functions in logs and copy files
 * fixed a bug causing RsyncOSX to crash if loading new profile during a test for TCP connections
+* added paramater `--max-delete=-1` to secure no execution of task if files will be deleted during run (user selected in setting rsync parameters)
 
 
 ## Version 4.4.6
