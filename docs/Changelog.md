@@ -16,9 +16,11 @@ One of the most exiting (in my opinion) features about macOS 10.13 is the new [A
 
 ## Version 4.5.0 - work in progress
 
-New rc updated 26 Aug 2017.
+New rc updated 27 Aug 2017.
 
 This version is in development. Will be released as soon as Xcode 9 and Swift 4 are released. Release candidate is available.
+
+In last rc image there is a rsync-3.2.1.dmg which includes a built version of latest rsync. To install this version of rsync please make a catalog in your home directory (or use /usr/local/bin) and make RsyncOSX aware of using the new rsync in [userconfig](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html).
 
 * using [SwiftLint](https://github.com/realm/SwiftLint) has caused several and major rewrites in parts of code
 	* some of the classes are yet not adapted to SwiftLint rules
@@ -28,7 +30,10 @@ This version is in development. Will be released as soon as Xcode 9 and Swift 4 
 * there are numerous internal changes and quite a few minor bugfixes
 * refactor filter (search) functions in logs and copy files
 * fixed a bug causing RsyncOSX to crash if loading new profile during a test for TCP connections
-* added paramater `--max-delete=-1` to secure no execution of task if files will be deleted during run (user selected in setting rsync parameters)
+* added parameter `--max-delete=-1` to secure no execution of task if files will be deleted during run (user selected in setting rsync parameters)
+
+![](screenshots/4.5.0rc/max-delete.png)
+![](screenshots/4.5.0rc/max-delete-2.png)
 
 
 ## Version 4.4.6
