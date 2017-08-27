@@ -20,7 +20,7 @@ New rc updated 27 Aug 2017.
 
 This version is in development. Will be released as soon as Xcode 9 and Swift 4 are released. Release candidate is available.
 
-In last rc image there is a rsync-3.2.1.dmg which includes a built version of latest rsync. To install this version of rsync please make a catalog in your home directory (or use /usr/local/bin) and make RsyncOSX aware of using the new rsync in [userconfig](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html).
+In last updated rc image (RsyncOSX.dmg) there is a rsync-3.1.2.dmg which includes a built version of latest rsync. To install this version of rsync please make a catalog in your home directory (or use /usr/local/bin) and make RsyncOSX aware of using the new rsync in [userconfig](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html).
 
 * using [SwiftLint](https://github.com/realm/SwiftLint) has caused several and major rewrites in parts of code
 	* some of the classes are yet not adapted to SwiftLint rules
