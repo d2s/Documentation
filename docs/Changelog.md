@@ -14,7 +14,7 @@ The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compil
 
 ## Version 4.6.0 - work in progress
 
-In version 4.5.1, configurations and schedules are kept in memory utilizing singeltons. In version 4.6.0, which will be released after 4.5.1 (due to time for testing and further cleaning of code), singeltons are replaced by dynamic objects. This results in cleaner code, less couplings and less or no more housekeeping. Stateful objects are difficult and increases the complexity.
+In version 4.5.1, configurations and schedules are kept in memory utilizing singeltons. In version 4.6.0, which will be released after 4.5.1 (due to time for testing and further cleaning of code), singeltons are replaced by dynamic objects. This results in cleaner code, less couplings and less or no housekeeping. Stateful objects are difficult and increases complexity in the code.
 
 ## Version 4.5.1 - work in progress
 
