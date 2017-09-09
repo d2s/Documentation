@@ -6,7 +6,7 @@ I am using the application on a daily basis and it evolves during my own use. An
 
 Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs.
 
-## Version 4.5.0 (Xcode 9, Swift 4 and macOS 10.13 High Sierra)
+## Version 4.5.1 (Xcode 9, Swift 4 and macOS 10.13 High Sierra)
 
 Apple has released betas of macOS, Xcode and Swift. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand.
 
@@ -14,9 +14,13 @@ The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compil
 
 One of the most exiting (in my opinion) features about macOS 10.13 is the new [Apple File System](https://en.wikipedia.org/wiki/Apple_File_System) (APFS).
 
-## Version 4.5.0 - work in progress
+## Version 4.6.0
 
-New rc updated 27 Aug 2017.
+In version 4.5.1, configurations and schedules are kept in memory utilizing singeltons. In version 4.6.0, which will be released after 4.5.1 (due to time for testing and further cleaning of code), singeltons are replaced by dynamic objects. This results in cleaner code, less couplings and less or no more housekeeping. Stateful objects are difficult and increases the complexity.
+
+## Version 4.5.1 - work in progress
+
+New rc updated 27 Aug 2017. Version is ready for release as soon as Xcode 9 is released.
 
 This version is in development. Will be released as soon as Xcode 9 and Swift 4 are released. Release candidate is available.
 
