@@ -1,23 +1,13 @@
 # RsyncOSX
 
-## The RsyncOSX code
-
-The [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) is **not** an example of neither writing _decent Swift code_, _OO-development_ or _applying the MVC-pattern_. It all started as a project to learn the _basics_ about Swift and Xcode. And I am still learning, every day.
-
-What is my experience after about a year into my Swift project? Writing swift code is fun and addicting. But I experience from time to time some of the code I am writing is a kind of "brute force". I am reading blogs and other resources about coding in Swift. Some ideas I do pick up, some I don´t understand and others again are like this is how I should have done it. I'm not a professional or full-time programmer and it means I have to accept that the parts of the code in RsyncOSX could have been better and more efficient. The RsyncOSX project is for fun only.
-
-I will continue to refactor code whenever I have got some ideas reading other code. I will continue adding minor enhancements to RsyncOSX (at least for some time). And I use RsyncOSX every day myself.
-
-### Changelog
-
-The RsyncOSX [changelog](docs/Changelog.md).
-
-### Installing and important info
-
 Before installing and using RsyncOSX there are some important information to read and understand. The _first_ document is how to get and install RsyncOSX. The _second_ document is some information what RsyncOSX is and how to use the application. Please read the _second_ document before using the application.
 
 > - Getting and installing (#1) [RsyncOSX](docs/RsyncOSX.md).
 > - Important (#2) [information](docs/HowtoUseRsyncOSX.md) about what RsyncOSX is.
+
+#### Changelog
+
+The RsyncOSX [changelog](docs/Changelog.md).
 
 ### Using RsyncOSX
 
@@ -73,13 +63,15 @@ The default version of `rsync` in macOS is old (version 2.6.9, [protocol](https:
 
 In RsyncOSX select [RsyncOSX configuration](docs/UserConfiguration.md) and set path for optional version of rsync.
 
+From version 4.5.1 (and in last updated rc image (RsyncOSX.dmg)) there is a rsync-3.1.2.dmg which includes a built version of latest rsync. To install this version of rsync please make a catalog in your home directory (or use /usr/local/bin) and make RsyncOSX aware of using the new rsync in [userconfig](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html).
+
 ## YouTube
 
 I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www.youtube.com/watch?v=ty1r7yvgExo) : "Downloading RsyncOSX, installing, first time configuration and using RsyncOSX for the first time. Backup (as demo) of about 120 MB of data and 4000 files to a VirtualBox FreeBSD machine."
 
 ## MacUpdate and Softpedia
 
-RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516/rsyncosx) and linked for download on [Softpedia](http://mac.softpedia.com/get/Internet-Utilities/RsyncOSX.shtml) as well. The application is downloaded about 8900 times from MacUpdate and 2200 times from Softpedia (all versions, June 2017). RsyncOSX does also inform users about new releases and link to download new version.
+RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516/rsyncosx) and linked for download on [Softpedia](http://mac.softpedia.com/get/Internet-Utilities/RsyncOSX.shtml) as well. The application is downloaded about 9400 times from MacUpdate and 2500 times from Softpedia (all versions, Sept 2017). RsyncOSX does also inform users about new releases and link to download new version.
 
 To be honest, I have **no idea** how many users of RsyncOSX there are. And I am very happy that some users find it useful.
 
