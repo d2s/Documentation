@@ -7,7 +7,7 @@ Before installing and using RsyncOSX there are some important information to rea
 
 #### Changelog
 
-The RsyncOSX [changelog](docs/Changelog.md).
+There are two new versions to be released soon (when Xcode 9 is released), version 4.5.1 and 4.6.0. There are numerous internal changes in both versions and several enhancements and bugfixes. The main difference between the two new versions are replacing the two major singeltons with dynamic objects. Please see the the [Changelog](docs/Changelog.md) for details. Version 4.6.0 requiere more testing before it is released.
 
 ### Using RsyncOSX
 
