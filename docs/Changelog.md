@@ -16,12 +16,13 @@ The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compil
 
 In version 4.5.1, configurations and schedules are kept in memory utilizing singeltons. In version 4.6.0, which will be released after 4.5.1 (due to time for testing and further cleaning of code), singeltons are replaced by dynamic objects. This results in cleaner code, less couplings and less or no housekeeping. Stateful objects are difficult and increases complexity in the code.
 
-## Version 4.5.1 - work in progress
+## Version 4.5.1
 
-New rc updated 27 Aug 2017. Version is ready for release as soon as Xcode 9 is released.
+Built with Xcode9 GM
 
-In last updated rc image (RsyncOSX.dmg) there is a rsync-3.1.2.dmg which includes a built version of latest rsync. To install this version of rsync please make a catalog in your home directory (or use /usr/local/bin) and make RsyncOSX aware of using the new rsync in [userconfig](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html).
+There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To install this version of rsync please make a catalog in your home directory (or use /usr/local/bin) and make RsyncOSX aware of using the new rsync in [userconfig](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html).
 
+* released 13 Sept 2017
 * using [SwiftLint](https://github.com/realm/SwiftLint) has caused several and major rewrites in parts of code
 	* some of the classes are yet not adapted to SwiftLint rules
 * code is adapted to Swift 4
