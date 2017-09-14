@@ -6,7 +6,7 @@ I am using the application on a daily basis and it evolves during my own use. An
 
 Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs.
 
-## Version > 4.5.x (Xcode 9, Swift 4 and macOS 10.13 High Sierra)
+## Xcode 9, Swift 4 and macOS 10.13 High Sierra
 
 Apple has released betas of macOS, Xcode and Swift. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand.
 
@@ -18,7 +18,7 @@ In version 4.5.1, configurations and schedules are kept in memory utilizing sing
 
 ## Version 4.5.1
 
-Built with Xcode9 GM
+Built with Xcode9 GM.
 
 There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To install this version of rsync please make a catalog in your home directory (or use /usr/local/bin) and make RsyncOSX aware of using the new rsync in [userconfig](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html).
 

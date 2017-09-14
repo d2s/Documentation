@@ -10,10 +10,11 @@ There are only a few parameters to choose in user configuration. The parameters 
  	- if detailed logging is **on** all _backup_ tasks are logged, if **off** only last date for task is updated in Execute view
  - allow double click to execute single tasks
  	- if **on** any single task might be executed by double click on a row
+  - from version 4.5.1 only way to execute single tasks is double click on row
 - allow rsync error to reset work queue
 	- RsyncOSX checks output from rsync for string `rsync error:`. If found main view is notified, error is marked (in red) and work queue is reset if option in user config is set. To test enter a not valid user name for a remote server ([edit task](SingleTask.md) in main view)
 - temporary path restore
-  - preset path for restoring single files or volumes
+  - preset path for [restoring single files or volumes](CopySingleFiles.md)
 
 If the user selects another version of rsync, RsyncOSX does check if there is a rsync in path set by user. If there is no rsync in path RsyncOSX will not execute any tasks. The red _configurations_ (rows in table) is only because I have not started my VirtualBox FreeBSD instance and RsyncOSX does not receive any answer (check is done automatically)
 
@@ -21,10 +22,10 @@ If the user selects another version of rsync, RsyncOSX does check if there is a 
 
 ### No rsync i path
 
-The views below is what happens if a not valid rsync path is set. First of a error is presented in bottom of user configuration.
+The views below is what happens if a not valid rsync path is set. An error is presented in bottom of user configuration.
 
 ![](screenshots/master/userconfig/user2.png)
 
-If there is a missing rsync in optional path no execution of tasks is allowed (it gives no meaning of executing a task without a rsync).
+If there still is a missing rsync in optional path no execution of tasks is allowed (it gives no meaning of executing a task without a rsync).
 
 ![](screenshots/master/userconfig/user3.png)
