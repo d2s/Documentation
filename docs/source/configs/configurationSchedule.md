@@ -1,6 +1,5 @@
 ### Schedules and log records
 
-Note : In version [4.6.0](https://github.com/rsyncOSX/RsyncOSX/tree/version4.6.0) (to be released after version 4.5.1) all singeltons are replaced by dynamic objects.
 
 Schedules including log records are loaded into a separate data structure. Schedules and log records  [ConfigurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ConfigurationSchedule.swift) are linked to [Configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) by `hiddenID=Int`. Schedules including *log records* are saved in a separate XML-file (plist).
 
