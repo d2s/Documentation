@@ -7,7 +7,7 @@ The object [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/mast
 
 The object [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) is responsible for reading and computing arguments for all tasks.
 
-The object [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) creates an `Array<NSMutableDictionary>` which holds all data about `Configuration` and computed values of arguments. Computed values are **not** saved to permanent storage. They are computed when RsyncOSX starts or a new profile is loaded. The method `getConfigurationsDataSource()` returns the computed `Array<NSMutableDictionary>` and it is the data object which is loaded by the `NSTableViewDelegate` delegate methods into tables. As an example see [ViewControllertabMain.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ViewControllertabMain.swift) and `func tableView(_ tableView: NSTableView, objectValueFor tableColumn: NSTableColumn?, row: Int) -> Any?` how data is loaded into tables.
+The object [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) creates an `Array<NSMutableDictionary>` which holds all data about `Configuration` and computed values of arguments. Computed values are **not** saved to permanent storage. They are computed when RsyncOSX starts or a new profile is loaded. The object holds all data and methods about all tasks and parameters.
 
 ### Changes to configurations
 
@@ -20,4 +20,4 @@ All changes to configurations (edit, delete, new, parameters to rsync) is a thre
 - the object [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) is created and new values are computed
   - a new, computed and read only `Array<NSMutableDictionary>` is loaded
 
-No code needed for partly update and it secures a 100% correct and updated configuration in memory at all time. Saving, wiping memory and reading configurations is done in matter of milliseconds.
+No code needed for partly update and it secures a 100% correct and updated configuration in memory at all time.
