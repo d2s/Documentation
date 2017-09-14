@@ -14,10 +14,8 @@ The object [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/mast
 All changes to configurations (edit, delete, new, parameters to rsync) is a three step operation:
 
 - any changes to configurations are updated in memory (to the `Array<configuration>`)
-  - [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) is a struct holding all attributes for one configuration
-  - the `Array<NSMutableDictionary>` is computed and read-only after loaded in memory
-- after a change of [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) in memory, the changed configuration in memory is saved to permanent storage
+  - [Configuration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) is a struct holding all attributes for one configuration
+- any change in [Configuration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift), a delete or add operation causes a write operation to permanent store of all configurations to permanent storage
 - the object [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) is created and new values are computed
-  - a new, computed and read only `Array<NSMutableDictionary>` is loaded
 
 No code needed for partly update and it secures a 100% correct and updated configuration in memory at all time.
