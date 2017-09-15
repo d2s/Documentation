@@ -1,7 +1,7 @@
 ### Schedules and log records
 
 
-Schedules including log records are loaded into a separate data structure. Schedules and log records  [ConfigurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ConfigurationSchedule.swift) are linked to [Configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) by `hiddenID=Int`. Schedules including *log records* are saved in a separate XML-file (plist).
+Schedules including log records are loaded into a separate data structure. Schedules and log records  [ConfigurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ConfigurationSchedule.swift) are linked to [Configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) by `hiddenID = Int`. Schedules including *log records* are saved in a separate XML-file (plist).
 
 Manually executed task is stamped with `dateStart = 01 Jan 1900 00:00` (US-format) in the struct for schedule ([ConfigurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ConfigurationSchedule.swift)). Manually executed `schedule` is of type `manuel`. All log records for manually executed tasks are appended to this struct record. Records of scheduled backups are stamped with `dateStart` for execution, example `01 Jun 2017 22:35` and type of `schedule`, either `once`, `daily` or `monthly`. All log records of scheduled runs are appended to this struct record. And log records are linked to its schedule by a computed key.
 
@@ -15,9 +15,7 @@ A log record is appended to the schedule record as a `NSMutableDictionary`.
 
 The object [Schedules.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Schedules.swift) holds all data and operations working on Schedule data. The object [ScheduleWriteLoggData.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleWriteLoggData.swift) takes care of adding and deleting log records. As for configurations, changes are applied to structure in memory and then saved to permanent storage.
 
-When a schedule record is marked for delete, a delete flag is set on the record. When schedule data in memory is saved to permanent storage all records marked for delete are omitted. The schedules are marked dirty and a write operation is performed. All log records connected to the deleted schedule are also deleted. Schedule data in memory is wiped and reloaded from permanent storage into memory. Single log records might be deleted as well. The log record is removed in memory, schedules are marked dirty and write operation is performed.
-
-When a schedule record is marked for delete, a delete flag is set on the record. When schedule data in memory is saved to permanent storage all records marked for delete are omitted. The schedules are marked dirty and a write operation is performed. All log records connected to the deleted schedule are also deleted. Schedule data in memory is wiped and reloaded from permanent storage into memory. Single log records might be deleted as well. The log record is removed in memory, schedules are marked dirty and write operation is performed.
+When a schedule record is marked for delete, a delete flag is set on the record. When schedule data in memory is saved to permanent storage all records marked for delete are omitted. As for Configurations object, a write operation is initiated every time there is a change in Schedules. All log records connected to the deleted schedule are also deleted. Single log records might be deleted as well.
 
 ### Scheduled backups
 

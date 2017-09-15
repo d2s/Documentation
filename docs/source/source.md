@@ -4,7 +4,7 @@ This is documentation of the design and code of RsyncOSX. I have just commenced 
 
 First will the data model and some of the methods operating on the data be documented. After that some of the high level details about how RsyncOSX is working. RsyncOSX kicks off the `rsync` utility to do the real work. The `rsync` is executed in a `Process` object. Every time RsyncOSX [executes](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ProcessCmd.swift) a command, RsyncOSX is listening for two notifications `didTerminateNotification` and `NSFileHandleDataAvailable`. Those two notifications kicks of other functions depended upon the state of RsyncOSX.
 
-Further documentation of code is put on hold until Xcode9 and Swift4 are released. There are quite a few changes to code compared to master branch and even more to do. The main reason for refactor code is to make code compliant with [SwiftLint](https://github.com/realm/SwiftLint) guidelines for coding in Swift.
+Further documentation of code is put on hold until Xcode 9 and Swift 4 are released. There are quite a few changes to code compared to master branch and even more to do. The main reason for refactor code is to make code compliant with [SwiftLint](https://github.com/realm/SwiftLint) guidelines for coding in Swift.
 
 # Data model
 
