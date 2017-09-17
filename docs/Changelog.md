@@ -12,13 +12,13 @@ Apple has released betas of macOS, Xcode and Swift. The changes in Swift from ve
 
 The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compiled with Xcode 9 and tested on macOS 10.13. I have one MacBook Pro which is installed with latest developer beta of macOS 10.13 (High Sierra). An updated version of RsyncOSX will be released as soon as Apple releases macOS 10.13 and Xcode 9. RsyncOSX will be compiled with support for macOS 10.11 - macOS 10.13.
 
-## Version 4.6.0 - work in progress
+## Version 4.6.5 - work in progress
 
-In version 4.5.1, configurations and schedules are kept in memory utilizing singeltons. In version 4.6.0, which will be released after 4.5.1 (due to time for testing and further cleaning of code), singeltons are replaced by dynamic objects. This results in cleaner code, less couplings and less or no housekeeping. Stateful objects are difficult and increases complexity in the code.
+In version 4.5.1, configurations and schedules are kept in memory utilizing singeltons. In version 4.6.0, which will be released after 4.5.1 (due to time for testing and further cleaning of code), singeltons are replaced by dynamic objects. This results in cleaner code, less couplings and less housekeeping. Stateful objects are difficult and increases complexity in the code.
 
 ## Version 4.5.1
 
-Built with Xcode9 GM.
+Built with Xcode 9 GM.
 
 There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To install this version of rsync please make a catalog in your home directory (or use /usr/local/bin) and make RsyncOSX aware of using the new rsync in [userconfig](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html).
 
