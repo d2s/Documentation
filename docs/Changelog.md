@@ -14,6 +14,13 @@ Apple has released GM of macOS, Xcode and Swift. The changes in Swift from versi
 
 In version 4.5.1, configurations and schedules are kept in memory utilizing singeltons. In version 4.6.5, which will be released after 4.5.1 (due to time for testing and further cleaning of code), singeltons are replaced by dynamic objects. This results in cleaner code, less couplings and less housekeeping. Stateful objects are difficult and increases complexity in the code.
 
+This version is **not** yet available as a release candidate, will be in October 2017. The release candidate will be built on macOS High Sierra by Xcode 9
+
+* version 4.6.5 is due for some more test, major refactor of code is completed
+* changed how to get list of remote files (in Copy Files) is executed
+* changed how output from rsync is executed and information from output is collected
+* fixed some other minor glitches as well
+
 ## Version 4.5.1
 
 Built with Xcode 9 GM.
