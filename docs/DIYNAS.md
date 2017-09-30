@@ -41,17 +41,17 @@ I have the following requirements for my NAS:
 - stability
 - ssh and rsync
 
-[ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux (and other OS as well). I have some experience of using standard operating systems as NAS SW. Now I wanted to use a dedicated NAS SW.
+[ZFS](https://en.wikipedia.org/wiki/ZFS) is an important part of my NAS. ZFS was developed by Sun Microsystems as part of OpenSolaris. [OpenZFS](http://open-zfs.org/wiki/Main_Page) is now the main developer of the open source ZFS used in FreeBSD and Linux (and other OS as well). The following OS supports ZFS. Linux by a kernel module, the other as the default filesystem.
 
 - [OmniOS](https://omnios.omniti.com/) (recommended by [napp-it.org](http://napp-it.org/))
 - [OpenIndiana Hipster](http://www.openindiana.org/)
 - [FreeBSD](https://www.freebsd.org/)
-- Linux
-- Solaris
+- [Solaris](https://www.oracle.com/solaris/solaris11/index.html)
+- ZFS on [Linux](https://github.com/zfsonlinux/zfs/wiki/FAQ#what-is-zfs-on-linux)
 
 ## Dedicated NAS SW
 
-There are several options for dedicated NAS SW.
+I am using a dedicated NAS SW and there are several options for dedicated NAS SW.
 
 ### Openmediavolt
 
