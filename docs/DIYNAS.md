@@ -74,7 +74,7 @@ My *FreeNAS* based NAS is now setup to do the following:
 - sharing out a SMB and AFP filesystem.
 - Accepts rsync over ssh
 
-The HW in my NAS is based upon [recommendations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team. My NAS is build by the following components. The components in NAS is server components and a bit more expensive than desktop components.
+The HW in my NAS is based upon [recommendations](https://forums.freenas.org/index.php?resources/freenas%C2%AE-quick-hardware-guide.7/) by the FreeNAS team. My NAS is build by the following components. The server components in my NAS are a bit more expensive than desktop components.
 
 - [Fractal Design Node 304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black) - compact chassis which max 6 3.5 inch HD drives
 - Fractal Design [Integra M 450W PSU](http://www.fractal-design.com/home/product/power-supplies/integra-m/integra-m-450w)
