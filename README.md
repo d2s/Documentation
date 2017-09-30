@@ -36,34 +36,32 @@ There are a couple of other important information about using RsyncOSX (and rsyn
 > - Parameters to [rsync](docs/Parameters.md).
 > - Some more info about standard [parameters to rsync](docs/RsyncParameters.md).
 
-
 ### Apple App Store
 
 Why is RsyncOSX not on Apple App Store? Well, it has been. The App Store version of RsyncOSX was dropped because of restrictions executing RsyncOSX in [Apples sandbox technology](https://developer.apple.com/library/content/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html). Executing applications in a sandbox environment restricts RsyncOSX (rsync) from using a ssh-tunnel. Ssh is not allowed reading certificates for passwordless logins when rsync is forked from RsyncOSX. There might be a solution for it, but I dont want to spend time investigating how.
-
 
 ## Documentation of source
 
 I have commenced [documentation of source](docs/source/source.md).
 
-
 ## My NAS setup
 
 I have setup up my own [NAS](docs/DIYNAS.md). I am doing backups by using RsyncOSX and sharing out disk by AFP and SMB.
 
-
 ## Rsync
 
-The default version of `rsync` in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version [2.6.9](https://download.samba.org/pub/rsync/src/rsync-2.6.9-NEWS) was released in nov 2006. The current release of rsync is version [3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) protocol 31 released 21 Dec 2015. There are at least two options to get and install the current version of rsync for use in RsyncOSX:
+In last release image (RsyncOSX.dmg) there is a `rsync-3.1.2.dmg` which includes a built version of latest version of rsync. To install this version of rsync please make a catalog on your mac (e.g. `/usr/local/bin`) and make RsyncOSX aware of using the new rsync in [userconfig](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html). A compiled version of rsync will be included in every coming release of RsyncOSX.
 
+The default version of `rsync` in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version [2.6.9](https://download.samba.org/pub/rsync/src/rsync-2.6.9-NEWS) was released in nov 2006. The current release of rsync is version [3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) protocol 31 released 21 Dec 2015. There are at least three options to get and install the current version of rsync for use in RsyncOSX:
+
+- use the `rsync-3.1.2.dmg` within `RsyncOSX.dmg`to install the latest version of rsync
 - install Xcode and download the rsync [source](https://rsync.samba.org/) from rsync.samba.org
 	- required tools are `gcc` and `make` which are part of Xcode command line tool (you might be able to install Xcode command line tool only by downloading the tools from [Apple Developer page](https://developer.apple.com/))
 	- untar the source archive and use `make` to compile and install, rsync compiles without any issues on macOS
 - install [homebrew](https://en.wikipedia.org/wiki/Homebrew_(package_management_software)) and then install rsync as part of homebrew
 
-In RsyncOSX select [RsyncOSX configuration](docs/UserConfiguration.md) and set path for optional version of rsync.
+In RsyncOSX select [RsyncOSX configuration](https://github.com/rsyncOSX/Documentation/blob/master/docs/UserConfiguration.md) and set path for optional version of rsync.
 
-From version 4.5.1 (and in last updated rc image (RsyncOSX.dmg)) there is a rsync-3.1.2.dmg which includes a built version of latest rsync. To install this version of rsync please make a catalog in your home directory (or use /usr/local/bin) and make RsyncOSX aware of using the new rsync in [userconfig](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html).
 
 ## YouTube
 
