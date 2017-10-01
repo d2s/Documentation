@@ -14,12 +14,19 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 
 In version 4.5.1, configurations and schedules are kept in memory utilizing singeltons. In version 4.6.5, which will be released after 4.5.1 (due to time for testing and further cleaning of code), singeltons are replaced by dynamic objects. This results in cleaner code, less couplings and less housekeeping. Stateful objects are difficult and increases complexity in the code.
 
-This version is **not** yet available as a release candidate, will be in October 2017. The release candidate will be built on macOS High Sierra by Xcode 9
+This version is **not** yet available as a release candidate, will be in **October 2017**. The release candidate will be built on macOS High Sierra by Xcode 9
 
 * version 4.6.5 is due for some more test, major refactor of code is completed
 * changed how to get list of remote files (in Copy Files) is executed
 * changed how output from rsync is executed and information from output is collected
 * fixed some other minor glitches as well
+
+View and delete logg reccords from the main view, stop scheduled tasks.
+![](screenshots/4.6.5rc/loggs.png)
+Change profile from Schedule view.
+![](screenshots/4.6.5rc/profile.png)
+Refactor of saving output from rsync, applies to copy files as well. More efficient. Selects info about 10,000 remote files in less than one second. Info about remote files is utilized by using rsync and is very efficient.
+![](screenshots/4.6.5rc/copyfiles.png)
 
 ## Version 4.5.1
 
