@@ -26,7 +26,7 @@ View and delete log records or stop scheduled tasks from the main view.
 Change profile from Schedule view.
 ![](screenshots/4.6.5rc/profile.png)
 Either double click on row or `⌘L` to view and delete log records or stop scheduled tasks from the schedules view.
-![](screenshots/4.6.5rc/loggs.png)
+![](screenshots/4.6.5rc/loggs2.png)
 Refactor of collecting output from rsync, applies to copy files as well, more efficient. Selects info about 10,000 remote files in less than one second. Info about remote files is utilized by using rsync and it is very efficient.
 ![](screenshots/4.6.5rc/copyfiles.png)
 
