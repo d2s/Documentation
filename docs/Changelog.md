@@ -21,11 +21,13 @@ This version is **not** yet available as a release candidate, will be in **Octob
 * changed how output from rsync is executed and information from output is collected
 * fixed some other minor glitches as well
 
-View and delete log records from the main view, stop scheduled tasks.
+View and delete log records or stop scheduled tasks from the main view.
 ![](screenshots/4.6.5rc/loggs.png)
 Change profile from Schedule view.
 ![](screenshots/4.6.5rc/profile.png)
-Refactor of saving output from rsync, applies to copy files as well. More efficient. Selects info about 10,000 remote files in less than one second. Info about remote files is utilized by using rsync and it is very efficient.
+Either double click on row or `⌘L` to view and delete log records or stop scheduled tasks from the schedules view.
+![](screenshots/4.6.5rc/loggs.png)
+Refactor of collecting output from rsync, applies to copy files as well, more efficient. Selects info about 10,000 remote files in less than one second. Info about remote files is utilized by using rsync and it is very efficient.
 ![](screenshots/4.6.5rc/copyfiles.png)
 
 ## Version 4.5.1
