@@ -19,6 +19,7 @@ This version is **not** yet available as a release candidate, will be in **Octob
 * version 4.6.5 is due for some more test, major refactor of code is completed
 * changed how to get list of remote files (in Copy Files) is executed
 * changed how output from rsync is executed and information from output is collected
+	- in batch mode calling next task after a 0.5 second stop, if not a process termination is observed before output from task is completed
 * fixed some other minor glitches as well
 
 View and delete log records or stop scheduled tasks from the main view.
