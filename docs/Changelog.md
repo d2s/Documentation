@@ -16,10 +16,11 @@ In version 4.5.1, configurations and schedules are kept in memory utilizing sing
 
 This version is **not** yet available as a release candidate, will be in **October 2017**. The release candidate will be built on macOS High Sierra by Xcode 9
 
-* version 4.6.5 is due for some more test, major refactor of code is completed
+* major refactor of several parts in code (eliminating singeltons)
 * changed how to get list of remote files (in Copy Files) is executed
 * changed how output from rsync is executed and information from output is collected
-	- in batch mode calling next task after a 0.5 second stop, if not a process termination is observed before output from task is completed
+	- all the analysis on the output is done after a process termination is observed
+	- in batch mode calling next task after a 0.5 second stop, if not a process termination might be observed before output from task is completed
 * fixed some other minor glitches as well
 
 View and delete log records or stop scheduled tasks from the main view.
