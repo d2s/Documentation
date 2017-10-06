@@ -14,7 +14,7 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 
 In version 4.5.1, configurations and schedules are kept in memory utilizing singeltons. In version 4.6.5 singeltons are replaced by dynamic objects. This results in cleaner code, less couplings and less housekeeping. Stateful objects are difficult and increases complexity in the code.
 
-The release candidate is built on macOS High Sierra by Xcode 9
+The [release candidate](https://github.com/rsyncOSX/RsyncOSX/releases) is built on macOS High Sierra by Xcode 9.
 
 * major refactor of several parts in code (eliminating singeltons)
 * changed how to get list of remote files (in Copy Files)
