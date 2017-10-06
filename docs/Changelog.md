@@ -21,12 +21,12 @@ This version is **not** yet available as a release candidate, will be in **Octob
 * changed how output from rsync executes and information from rsync output is collected
 	- all the analysis on the output is done after a process termination is observed
 	- in batch mode calling next task after a 0.5 second stop, if not a process termination might be observed before output from task is completed
-* fixed a bug in batchview if rsync discover an error, now rsync aborts and close batchview and notifies rsync error
+* fixed a bug in batchview if rsync discover an error, now rsync aborts and close batchview and notifies about the rsync error
 * fixed a bug in setting user selected parameters to rsync (the two first parameters)
 
-View and delete log records or stop scheduled tasks from the main view.
+View and delete log records or stop scheduled tasks (`⌘L`)from the main view.
 ![](screenshots/4.6.5rc/loggs.png)
-Change profile from Schedule view.
+Change profile from Schedule view (`⌘P`).
 ![](screenshots/4.6.5rc/profile.png)
 Either double click on row or `⌘L` to view and delete log records or stop scheduled tasks from the schedules view.
 ![](screenshots/4.6.5rc/loggs2.png)
@@ -35,7 +35,7 @@ Refactor of collecting output from rsync, applies to copy files as well, more ef
 Error handling in batch. As en example just added a parameter which makes rsync produce an error.
 ![](screenshots/4.6.5rc/error1.png)
 ![](screenshots/4.6.5rc/error2.png)
-An error is discovered, batchview closes and rest of batchwork is aborted.
+An error is discovered, batchview closes and batchwork is aborted.
 ![](screenshots/4.6.5rc/error3.png)
 Pressing the Information button informs which error made rsync halt.
 ![](screenshots/4.6.5rc/error4.png)
