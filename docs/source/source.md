@@ -10,7 +10,7 @@ Further documentation of code is put on hold until Xcode 9 and Swift 4 are relea
 
 The views has no knowledge about the models or data stored about configurations, schedules and logdata. Data presented in RsyncOSX are mostly table data. Presenting table data in all views utilizes the `NSTableViewDelegate`. All data which are saved to permanent storage are saved as xml-files ([plist](https://en.wikipedia.org/wiki/Property_list) files). RsyncOSX does not utilize the Core Data because the data about `configurations`, `schedules` and `logs` are simple and there is no need for a complex datamodel.
 
-All data is loaded in memory when default view is loaded or reloaded if a new profile is either selected or created. Prior versions to [4.6.5](https://github.com/rsyncOSX/RsyncOSX/tree/v4.6.5) (which is to be released after version [4.5.1](https://github.com/rsyncOSX/RsyncOSX/tree/version4.5.1)) utilized singeltons for configurations and schedules. In version [4.6.5](https://github.com/rsyncOSX/RsyncOSX/tree/v4.6.5) there is only one singelton, a singelton for storing memory references to the various views and user selected configurations (no states).
+All data is loaded in memory when default view is loaded or if a new profile is either selected or created. There are two main objects which holds the information about configurations and schedules including logdata. The objects lives only during lifetime of RsyncOSX or until a profile is either selected or created. Classes in swift are `by reference` and both objects are created in the main view of RsyncOSX. Other objects utilizing data and methods in objects are by protocol functions getting the reference for the objects.
 
 ## Configurations
 
