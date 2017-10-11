@@ -10,6 +10,24 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand. The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compiled with Xcode 9 and tested on macOS 10.13.
 
+## Version 4.7.1 release candidate
+
+There might be a bug in code for executing batchtasks. There is a one second delay before each execution of task in batch due to the fact that sometimes the process (rsync process) completes and fires a process termination before all output from rsync is completed and captured.
+
+RsyncOSX might crash with the due to some error when dispatching work:
+
+`Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+Exception Type:        EXC_BAD_INSTRUCTION (SIGILL)
+Exception Codes:       0x0000000000000001, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+Termination Signal:    Illegal instruction: 4
+Termination Reason:    Namespace SIGNAL, Code 0x4
+Terminating Process:   exc handler [0]`
+
+I suspect that the function `delayWithSeconds` is causing the problem. The `delayWithSeconds` is calling (`func delayWithSeconds(_ seconds: Double, completion: @escaping () -> Void)`) an `@escaping` closure and the closure is the actual wait (`DispatchQueue.main.asyncAfter(deadline: .now() + seconds)`) and the task (rsync) to execute. In v 4.7.1 the function is replaced with the `DispatchQueue.main.asyncAfter(deadline: .now() + 1) { executeBatch() }`. Hopefully that might solve the problem.
+
+There is a release candidate for version 4.7.1.
+
 ## Version 4.7.0
 
 In version 4.5.1, configurations and schedules are kept in memory utilizing singeltons. In version 4.7.0 singeltons are replaced by dynamic objects. This results in cleaner code, less couplings and less housekeeping. Stateful objects are difficult and increases complexity in the code.
