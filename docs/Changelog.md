@@ -10,11 +10,11 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand. The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compiled with Xcode 9 and tested on macOS 10.13.
 
-## Version 4.7.1 release candidate
+## Version 4.7.1 rc (removed for the moment)
 
 There might be a bug in code for executing batchtasks. There is a one second delay before each execution of task in batch due to the fact that sometimes the process (rsync process) completes and fires a process termination before all output from rsync is completed and captured.
 
-RsyncOSX might crash due to some error when dispatching work (it happens for me a couple of times):
+RsyncOSX might crash due to some error when dispatching work (it has happens for me a couple of times):
 
 `Crashed Thread:        0  Dispatch queue: com.apple.main-thread
 Exception Type:        EXC_BAD_INSTRUCTION (SIGILL)
@@ -26,7 +26,7 @@ Terminating Process:   exc handler [0]`
 
 I suspect that the function `delayWithSeconds` is causing the problem. The `delayWithSeconds` is calling (`func delayWithSeconds(_ seconds: Double, completion: @escaping () -> Void)`) an `@escaping` closure and the closure is the actual wait (`DispatchQueue.main.asyncAfter(deadline: .now() + seconds)`) and the task (rsync) to execute. In v 4.7.1 the function is replaced with the `DispatchQueue.main.asyncAfter(deadline: .now() + 1) { executeBatch() }`. Hopefully that might solve the problem. I suspect it is the `@escaping` closure causing the crashes.
 
-There is a release candidate for version 4.7.1.
+The release candidate for version 4.7.1 is temporary removed, some tests indicates it does not solve the issue...
 
 ## Version 4.7.0
 
