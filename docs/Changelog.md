@@ -12,7 +12,7 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 
 ## Version 4.7.0
 
-*Caution : there is an bug in the batch function, working on a new release*
+*Caution : there is a bug in the batch function, working on a new release.*
 
 In version 4.5.1, configurations and schedules are kept in memory utilizing singeltons. In version 4.7.0 singeltons are replaced by dynamic objects. This results in cleaner code, less couplings and less housekeeping. Stateful objects are difficult and increases complexity in the code.
 
