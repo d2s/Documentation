@@ -15,7 +15,7 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 * released 12 Oct 2017
 * fixed bug in batch function
 
-The Filedialog for selecting directories gives an error selecting files. I have sometimes experienced RsyncOSX to crash after using the Filedialog. I have not resolved why Xcode produces this message. I advise to use drag and drop when selecting directories or files to back up.
+The Filedialog for selecting directories gives an error. Sometimes I have experienced RsyncOSX to crash after using the Filedialog. I have not resolved why Xcode produces this message. I advise to use drag and drop when selecting directories or files to back up.
 
 ![](screenshots/4.6.5rc/bug.png)
 
