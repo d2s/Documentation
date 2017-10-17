@@ -69,7 +69,7 @@ I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www
 
 ## MacUpdate and Softpedia
 
-RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516/rsyncosx) and linked for download on [Softpedia](http://mac.softpedia.com/get/Internet-Utilities/RsyncOSX.shtml) as well. The application is downloaded about 9700 times from MacUpdate and 2500 times from Softpedia (all versions, Sept 2017). RsyncOSX does also inform users about new releases and link to download new version. To be honest, I have **no idea** how many users of RsyncOSX there are. But I am very happy if some users find it useful.
+RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516/rsyncosx) and linked for download on [Softpedia](http://mac.softpedia.com/get/Internet-Utilities/RsyncOSX.shtml) as well. The application is downloaded about 10,000 times from MacUpdate and 2650 times from Softpedia (all versions, Oct 2017). RsyncOSX does also inform users about new releases and link to download new version. To be honest, I have **no idea** how many users of RsyncOSX there are. But I am very happy if some users find it useful.
 
 ## Other documents
 
