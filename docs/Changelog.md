@@ -15,12 +15,6 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 * released 12 Oct 2017
 * fixed bug in batch function
 
-The Filedialog for selecting directories gives an error. Sometimes I have experienced RsyncOSX to crash after using the Filedialog. I have not resolved why Xcode produces this message. I advise to use drag and drop when selecting directories or files to back up.
-
-![](screenshots/4.6.5rc/bug.png)
-
-`FinderSyncCollaborationFileProviderOverride.bundle/Contents/MacOS/FinderSyncCollaborationFileProviderOverride (0x111a92cd8). One of the two will be used. Which one is undefined. 2017-10-14 19:44:36.632000+0200 RsyncOSX[19532:2266790] MessageTracer: Falling back to default whitelist`
-
 ## Version 4.7.0
 
 *Caution : there is a bug in the batch function, working on a new release.*
