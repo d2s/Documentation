@@ -10,6 +10,19 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand. The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compiled with Xcode 9 and tested on macOS 10.13.
 
+## Version 4.8.0 release candidate
+
+* released 21 Oct 2017
+* redesigned the schedules part
+* fixed a major bug in batch mode
+	* if hiding view in batch mode in previous versions of RsyncOSX resets the batch task
+	* there are no risk for damaging files, just restart batch task and rsync continue from where i stopped
+* some other bug fixes as well
+
+The first scheduled task is colored green, both in scheduled view and in main view. In scheduled view time for next scheduled task is shown in table listing.
+![](screenshots/4.8.0rc/schedule1.png)
+![](screenshots/4.8.0rc/schedule2.png)
+
 ## Version 4.7.5
 
 * released 12 Oct 2017
