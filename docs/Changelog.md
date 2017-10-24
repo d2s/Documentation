@@ -18,6 +18,7 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 	- hiding view in batch mode previous versions of RsyncOSX will reset the batch task
 	- there are no risk for damaging files, just restart batch task and rsync(OSX) continues from where it stopped
 * some other bug fixes as well
+* the .dmg file is built on a mounted NOT APFS (SMB mount) filesystem to avoid problems mounting the .dmg file on non APFS disks
 
 There are two methods for scheduling tasks, either `DispatchQueue.main.asyncAfter` or a `Timer` and `OperationQueue`. The `dispatch` method seems to be cleaner in code. Anyway, RsyncOSX supports both methods, choose either of them in userconfig. The default method is the `dispatch`. Don't ask which one is best. I will probably go for the `dispatch` because it is cleaner codewise. Both methods are cancelable, scheduled tasks can be cancelled.
 ![](screenshots/4.8.0rc/dispatch1.png)
