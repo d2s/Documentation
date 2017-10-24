@@ -3,6 +3,8 @@
 
 This page is a short intro to RsyncoSX and a brief walkthrough of the main functions of RsyncOSX. The intro is based on *version 4.8.0* of RsyncOSX (to be released in beginning of Nov 2017). Version 4.8.0 is available for [download](https://github.com/rsyncOSX/RsyncOSX/releases) as a release candidate.
 
+For more details about the various functions of RsyncOSX please see the documentation about each function.
+
 Make sure you understand the basics how rsync works before using RsyncOSX (and rsync). See below:
 
 **Warning**: default parameters for rsync is to **synchronize** the **source** and **destination**. A "restore" will **delete** all files in the source which are not in the destination. The main objective to RsyncOSX is to keep **source** directory and **destination** (backup) directory **synchronized**. When a source directory is backed up, the destination is 100% synchronized with the source in the moment the backup task is completed. There are **no revisions** of files in the backup in **default RsyncOSX**. Old files in the backup are either replaced with new ones or deleted if so is true in source.
@@ -18,7 +20,7 @@ The red rows indicates no connection to remote server. Selecting the TCP-button 
 ![Main view](screenshots/master/main.png)
 Profile *Linux Mint* is selected. Selecting the row indicates a estimate run is next. A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in main view. An estimate run is a `--dry-run` execution of rsync. Tasks can also be executed in one go by selecting the batch button
 ![Main view](screenshots/master/main0.png)
-The result of a estimate run is presented. Next task is *Execute*. Execute is the real run as indicated on left side of RsyncOSX. Selecting a new row resets the tasks.
+The result of a estimate run is presented. Next task is *Execute*. Execute is the real run as indicated on left side in main view RsyncOSX. Selecting a new row resets the tasks.
 ![Main view](screenshots/master/main1.png)
 During a real run a progress bar show the progress of backup or restore task. Any task can be aborted during execution.
 ![Main view](screenshots/master/main2.png)
