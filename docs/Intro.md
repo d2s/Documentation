@@ -78,15 +78,15 @@ By double click on task i schedule view brings up a dialog for stopping and dele
 
 ## Logging
 
-RsyncOSX is logging all tasks. The user can choose in user configuration, to disable or enable detailed logging. Detailed logging is on as default. In log view all tasks with date, number of files and size transferred is logged. In the main view date and time for last execution is set.
+RsyncOSX is logging all tasks. The user can choose in user configuration, to disable or enable detailed logging. Detailed logging is on as default. In log view all tasks with date, number of files and size transferred is logged. In the main view only date and time for last execution is set.
 
 ![Main view](screenshots/master/logg.png)
-Searching (filter) loggs shows loggrecords including the filter.
+Searching (filter) logs shows logrecords by applying the filter.
 ![Main view](screenshots/master/logg1.png)
 
 ## Rsync errors
 
-Sometimes rsync throws errors. RsyncOSX does a simple check in output if there are any occurrence of the prashe `rsync error:`. If found RsyncOSX resets the work queue. This is *not* a advanced error handling.
+Sometimes rsync throws errors. RsyncOSX does a simple check in output if there are any occurrence of the words `rsync error:`. If found RsyncOSX resets the work queue. This is *not* an advanced error handling.
 
 ![Main view](screenshots/master/error.png)
 
