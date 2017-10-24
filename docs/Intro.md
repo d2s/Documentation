@@ -110,6 +110,6 @@ Files and directories can be restored from remote servers. It is easy to search 
 
 ## Ssh
 
-Setting up password less logins is required to backup files to remote servers. RsyncoSX will assist in setting up password less logins.
+Setting up password less logins is required to backup files to remote servers. RsyncoSX can assist in setting up password less logins.
 
 ![Main view](screenshots/master/ssh.png)
