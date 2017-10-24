@@ -64,7 +64,7 @@ If _profile_ is used:
 
 ## Scheduling tasks
 
-Only **backup** tasks can be scheduled. When a task is scheduled RsyncOSX counts down when task is kicked off. The first task is marked green in table and the row `In` shows when task is due for execution.
+Only **backup** tasks can be scheduled. When a task is scheduled RsyncOSX counts down when task is kicked off. The first scheduled task to be executed is marked green in table and the column `In` shows when task is due for execution.
 
 ![Main view](screenshots/master/schedule1.png)
 ![Main view](screenshots/master/schedule2.png)
