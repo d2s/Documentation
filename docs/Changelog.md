@@ -10,26 +10,17 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand. The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compiled with Xcode 9 and tested on macOS 10.13.
 
-*There is an issue with the .dmg file version 4.7.5, the dmg file is not able to mount on macOS not supporting the new APFS. Please use the [release candidate](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v4.8.0rc). A new release is coming soon...*
+## Version 4.8.0
 
-## Version 4.8.0 release candidate
-
-* updated 22 Oct 2017
+* released 25 Oct 2017
 * redesigned the schedules part
 * fixed a major bug in batch mode
 	- hiding view in batch mode previous versions of RsyncOSX will reset the batch task
 	- there are no risk for damaging files, just restart batch task and rsync(OSX) continues from where it stopped
 * some other bug fixes as well
-* the .dmg file is built on a mounted NOT APFS (SMB mount) filesystem to avoid problems mounting the .dmg file on non APFS disks
+* the .dmg file is built on a mounted NOT APFS (SMB mount) filesystem to avoid problems mounting the .dmg file on non APFS systems
 
-There are two methods for scheduling tasks, either `DispatchQueue.main.asyncAfter` or a `Timer` and `OperationQueue`. The `dispatch` method seems to be cleaner in code. Anyway, RsyncOSX supports both methods, choose either of them in userconfig. The default method is the `dispatch`. Don't ask which one is best. I will probably go for the `dispatch` because it is cleaner codewise. Both methods are cancelable, scheduled tasks can be cancelled.
-![](screenshots/4.8.0rc/dispatch1.png)
-![](screenshots/4.8.0rc/dispatch2.png)
-The first scheduled task is colored green, both in scheduled view and in main view. In scheduled view time for next scheduled task is shown in table listing.
-![](screenshots/4.8.0rc/schedule1.png)
-![](screenshots/4.8.0rc/schedule2.png)
-The profile menu is slightly changed. If a there is text in `New profile name`, selecting `OK` creates a new profile. Select profile by double click on profile name.
-![](screenshots/4.8.0rc/profile.png)
+The [intro](https://github.com/rsyncOSX/Documentation/blob/master/docs/Intro.md) page is updated reflecting version 4.8.0.
 
 ## Version 4.7.5
 
