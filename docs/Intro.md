@@ -86,7 +86,7 @@ By double click on task i schedule view brings up a dialog for stopping and dele
 ![Main view](screenshots/master/schedule4.png)
 ![Main view](screenshots/master/schedule5.png)
 
-See [schedules](ScheduleTask.md) for more info.
+See [schedules](ScheduleTasks.md) for more info.
 
 ## Logging
 
