@@ -22,7 +22,6 @@ In version 4.3.0 double click on row to select remote server. This is fixed in c
 
 ![ssh](screenshots/master/ssh/ssh4.png)
 
-
 * `Ssh directory` - copy and paste command in Terminal.app to create remote `~/.ssh` catalog
 * `Scp rsa` - copy and paste command in Terminal.app to secure copy public rsa key.
 * `Scp dsa` - copy and paste command in Terminal.app to secure copy public dsa key
