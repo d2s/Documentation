@@ -2,41 +2,43 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-By selecting a row and choose schedule applies a scheduled backup to a task. There are four(three) choices for schedules :
+By selecting a row and choose schedule applies a scheduled backup to a task. There are three choices for schedules :
 
 - Once
 	- is executed _once_ at date and time given
 - Daily
 	- is executed _every 24-hour_ and stops at given date and time
+	- first task to be excuted in 24-hours
 first backup starts in 24-hour
 - Weekly
 	- as for daily, but _every 7 day_
-- Stop and/or delete schedules
-	- stop or delete scheduled tasks
+	- first task to be executed in 7 days
 
-Select task (row), set the start date and time and select the schedule (once, daily or weekly) to set up a schedule of backup. Every time RsyncOSX starts, the schedule is computed. Every time a change in any schedule the schedule is computed. The schedule is a stack of tasks. The top most element is the first task to be executed. RsyncOSX keeps track of the first task only (in time). Rest of the scheduled operations remains on stack until popped of the stack.
+Select task (row), set the start date and time and select the schedule (once, daily or weekly) to set up a schedule of backup. Every time RsyncOSX starts, the schedule is computed. Every time there is a change in a schedule the schedule is recomputed. The schedule is a stack of tasks. The top most element is the first task to be executed. RsyncOSX keeps track of the first task only. All other scheduled tasks remains on stack until popped of.
 
-The stack is a reference only to a configuration (by a hidden key). The user can change anything regarding the task up to the moment the task is executed by schedule. If the task is deleted RsyncOSX cancel the schedule, computes the stack again and starts tracing in time next scheduled task.
+The stack is a reference only to a configuration (by a hidden key). The user can change anything regarding a configuration up to the moment the task is executed by schedule. If a configuration is deleted all scheduled tasks connected to configuration is deleted as well.
 
-When the first scheduled task is _completed_, RsyncOSX checks the next top element of stack. If start date and time is in the future RsyncOSX tracks task in time.
+When the first scheduled task is _completed_, RsyncOSX checks the next top element of stack.
 
-![Schedule](screenshots/master/scheduling/schedule1.png)
+In example the schedule *once* is selected. First scheduled backup is scheduled in about two minutes.
 
-In example the schedule _daily_ is selected. First scheduled backup is in about 24 hours and next after that in two days. The schedule is set to stop after the six days.
+![Main view](screenshots/master/schedule1.png)
 
-![Schedule](screenshots/master/scheduling/schedule2.png)
+Another task is scheduled as well. The first scheduled to be executed is marked green.
 
-RsyncOSX gets info about remote sever and local path. In the Execute view a number behind task displays how many times task will be executed by schedule.
+![Main view](screenshots/master/schedule2.png)
 
-![Schedule](screenshots/master/scheduling/schedule3.png)
+The number of scheduled tasks is shown in the main view as well. And the first task to be executed is marked green. When the task executes a drop down menu is presented.
 
+![Main view](screenshots/master/schedule3.png)
+![Main view](screenshots/master/schedule8.png)
+
+By deleting the first scheduled tasks makes the next one the first.
 
 ### Stopping a scheduled task
 
-Select row and then **Stop and/or delete schedules**. Either stop or delete task. If a task is deleted all logs regarding the task is deleted. The number `Logs` is how many log items there is in each schedule. Schedule with starddate `01 Jan 1900 00:00` is manually executed tasks. Schedules are sorted with most recent schedule on top.
+Stopping and/or deleting tasks by selecting a row and either shortcut `⌘L` or by menu or double click on row.
 
-![Schedule](screenshots/master/scheduling/schedule6.png)
+![Main view](screenshots/master/schedule4.png)
 
-Logs are sorted with most recent on top.
-
-![Schedule](screenshots/master/scheduling/schedule5.png)
+Either stop or delete task. If a task is deleted all logs regarding the task is deleted. The number `Logs` is how many log items there is in each schedule. Schedule with starddate `01 Jan 1900 00:00` is manually executed tasks. Schedules are sorted with most recent schedule on top.
