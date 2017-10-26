@@ -16,10 +16,11 @@ For Parameters see below. After selecting a row choosing one of the above pops u
 There are _some status_ fields in the view :
 
 - **Next task** - text is either _Estimate_ or _Execute_ - valid for single tasks only
-	- "Estimate" - select `Execute` or a double click on row does a --dry-run (yellow light)
-	- "Execute" - select `Execute` or a double click on row  does the real job, backup or restore (green light)
+	- "Estimate" (yellow light) - a double click on row does a --dry-run
+	- "Execute" (green light) - a double click on row  does the real job, backup or restore
+	- select a new row resets the work queue
 - **Process info**
-	- "Estimating" - a progress circel is shown when a estimation run is running, during a real run a progress bar presents the progress
+	- "Estimating" - a progress circel is shown when an estimation run is executing, during a real run a progress bar presents the progress
 - **Scheduled job** - a progress bar shows when a scheduled job is executing
 
 The TCP-button does a background check of TCP-connections. Red rows after a TCP-check indicates that there are no contact with remote server.
