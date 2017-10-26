@@ -23,19 +23,23 @@ The result of a estimate run is presented. Next task is *Execute*. Execute is th
 During a real run a progress bar show the progress of backup or restore task. Any task can be aborted during execution.
 ![Main view](screenshots/master/main2.png)
 
+See [single task](SingleTask.md) for more info.
+
 ## Batch mode
 
 Tasks can be executed in one go in batch mode.
 
 ![Main view](screenshots/master/batch.png)
 
-See [Batch Task](BatchTask.md) for more info.
+See [batch task](BatchTask.md) for more info.
 
 ## Rsync parameters
 
 The user can pass any parameter to rsync or choose some predefined parameters.
 
 ![Main view](screenshots/master/rsyncparameters.png)
+
+See [rsync parameters](Parameters.md) for more info about user selected parameters and [default parameters](RsyncParameters.md) about default parameters.
 
 ## Profiles
 
@@ -82,6 +86,8 @@ By double click on task i schedule view brings up a dialog for stopping and dele
 ![Main view](screenshots/master/schedule4.png)
 ![Main view](screenshots/master/schedule5.png)
 
+See [schedules](ScheduleTask.md) for more info.
+
 ## Logging
 
 RsyncOSX is logging all tasks. The user can choose in user configuration, to disable or enable detailed logging. Detailed logging is on as default. In log view all tasks with date, number of files and size transferred is logged. In the main view only date and time for last execution is set.
@@ -89,6 +95,8 @@ RsyncOSX is logging all tasks. The user can choose in user configuration, to dis
 ![Main view](screenshots/master/logg.png)
 Searching (filter) logs shows logrecords by applying the filter.
 ![Main view](screenshots/master/logg1.png)
+
+See [logging](Logging.md) for more info.
 
 ## Rsync errors
 
@@ -101,11 +109,15 @@ Sometimes rsync throws errors. RsyncOSX does a simple check in output if there a
 Some configurations can be set on or off by the user.
 ![Main view](screenshots/master/config.png)
 
+See [user configuration](UserConfiguration.md) for more info.
+
 ## Adding configurations
 
 It is easy to add new tasks. RsyncOSX adds both the backup and restore part of task automatically.
 
 ![Main view](screenshots/master/add.png)
+
+See [add configurations](AddConfigurations.md) for more info.
 
 ## Copy files
 
@@ -114,8 +126,13 @@ Files and directories can be restored from remote servers. It is easy to search 
 ![Main view](screenshots/master/copyfiles.png)
 ![Main view](screenshots/master/copyfiles1.png)
 
+See [copy files](CopySingleFiles.md) for more info.
+
+
 ## Ssh
 
 Setting up password less logins is required to backup files to remote servers. RsyncoSX can assist in setting up password less logins.
 
 ![Main view](screenshots/master/ssh.png)
+
+See [ssh](ssh.md) for more info.
