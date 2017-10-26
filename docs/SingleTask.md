@@ -1,4 +1,4 @@
-## Executing configurations
+## Executing single tasks
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
