@@ -1,4 +1,4 @@
-## Add configuration
+## Add configurations
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 

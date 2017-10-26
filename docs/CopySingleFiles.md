@@ -10,7 +10,7 @@ Copy file and volume enables the user to select single file or catalogs for rest
 
 The temporary path for restoring single file or directory can be set in Configuration. The path can be set to any directory or changed to a other directory for one session only.
 
-![](screenshots/4.3.5/config.png)
+![](screenshots/master/config.png)
 
 Pressing `Get files` button starts the job to collect list of files and catalogs stored on remote server. Or job to get files is started by double click on row in list of sources.
 
@@ -22,7 +22,7 @@ All backup locations are presented including backups to local volumes. For local
 
 Double click on row gets list of files from backup location. If single click select `Get files`.
 
-![](screenshots/4.3.5/filelist.png)
+![](screenshots/master/copyfiles1.png)
 
 List of files and folders stored at remote server.
 
