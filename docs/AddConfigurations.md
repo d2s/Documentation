@@ -10,7 +10,7 @@ Select **Local catalog** either by *drag and drop*, by *enter text* directly or 
 
 If **Single file** is *on*, RsyncOSX adds backup of single file only. No restore part is added, use Copy files for search and restore.
 
-![New configurations](screenshots/master/add/add1.png)
+![Main view](screenshots/master/add.png)
 
 ### Local and remote catalogs
 

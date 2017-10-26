@@ -28,8 +28,7 @@ Both "backup" and "restore" path is set when saving configuration.
 
 Execute single tasks is a **two step** operation, one for **estimation** (dry-run) and one for the **real task**. If the `Information` button is ticked on a popup view is automatically presented after both tasks.Single tasks can be executed either by selecting the `Execute` button or a (if enabled) double click on the selected task. Both methods is a two step operation.
 
-![Select task](screenshots/master/singletask/estimate1.png)
-
+![Main view](screenshots/master/main0.png)
 
 The process info is updated when either a estimation task is executing or if a scheduled task is executing. There are five numbers in bottom page. Only version 3.x counts the number of remote directories. The numbers are files to be transferred and remote numbers. </div>
 
@@ -37,14 +36,13 @@ The process info is updated when either a estimation task is executing or if a s
 
 The actual rsync command to be executed is shown below right corner in view. It is only the estimation command which is shown. You might copy the command and paste it into a terminal for execution. You have to delete the --dry-run parameter to execute the real task.
 
-![Estimate](screenshots/master/singletask/estimate2.png)
+![Main view](screenshots/master/main1.png)
 
 *Next task* shows what the next task is. It shows three status : *Estimate*, *Execute* or *Abort*. If Abort is pressed any executing task is aborted. After estimate run is completed and result is checked, a real run is executed by selecting the Execute button again. If you select another row after estimation a new estimation run must be completed.
 
+![Main view](screenshots/master/main2.png)
+
 Selecting `Abort`aborts the current task.
-
-![](screenshots/4.3.5/abort.png)
-
 
 ### Edit task
 

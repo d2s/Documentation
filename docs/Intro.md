@@ -1,9 +1,7 @@
 
 ## The main opening view and a short intro to RsyncOSX
 
-This page is a short intro to RsyncoSX and a brief walkthrough of the main functions of RsyncOSX. The intro is based on *version 4.8.0* of RsyncOSX (to be released in beginning of Nov 2017). Version 4.8.0 is available for [download](https://github.com/rsyncOSX/RsyncOSX/releases) as a release candidate.
-
-For more details about the various functions of RsyncOSX please see the documentation about each function.
+This page is a short intro to RsyncoSX and a brief walkthrough of the main functions of RsyncOSX. The intro is based on *version 4.8.0* of RsyncOSX. For more details about the various functions of RsyncOSX please see the documentation about each function.
 
 Make sure you understand the basics how rsync works before using RsyncOSX (and rsync). See below:
 
@@ -24,6 +22,12 @@ The result of a estimate run is presented. Next task is *Execute*. Execute is th
 ![Main view](screenshots/master/main1.png)
 During a real run a progress bar show the progress of backup or restore task. Any task can be aborted during execution.
 ![Main view](screenshots/master/main2.png)
+
+## Batch mode
+
+Tasks can be executed in one go in batch mode.
+
+![Main view](screenshots/master/batch.png)
 
 ## Rsync parameters
 

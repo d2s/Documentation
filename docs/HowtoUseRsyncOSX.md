@@ -9,7 +9,7 @@ RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
 > - backup (and restore) local files on Mac to local storage (attached disks)
 >   - if this is _the only use_ there might be _other tools_ more useful than RsyncOSX
 
-Make sure you understand the basics how rsync works before using RsyncOSX (and rsync). See below:
+Make sure you understand the basics how rsync works before using RsyncOSX (and rsync).
 
 **Warning**: default parameters for rsync is to **synchronize** the **source** and **destination**. A "restore" will **delete** all files in the source which are not in the destination. The main objective to RsyncOSX is to keep **source** directory and **destination** (backup) directory **synchronized**. When a source directory is backed up, the destination is 100% synchronized with the source in the moment the backup task is completed. There are **no revisions** of files in the backup in **default RsyncOSX**. Old files in the backup are either replaced with new ones or deleted if so is true in source.
 
@@ -32,17 +32,17 @@ The following features are implemented in RsyncOSX:
   - batch tasks are automatically executed until all are completed (the estimate run and execute run are executed in one go)
   - if you want tasks to be executed in one go mark them for batch
 - adding **new tasks** either by drag and drop (for local volumes) or by GUI
-- single- and batch tasks might be **aborted** any time
+- single- and batch tasks might be **aborted** at any time
 - choose **other version** of rsync in **user configuration**
 - user defined **rsync parameters**
   - the user can add parameters to rsync
   - there are predefined parameters for saving old files in a backup directory
-- **enable** save backups of changed or deleted files (by using rsync parameters)
+- **enable** save backups of changed or deleted files (by using rsync parameters, predefined parameter)
 - **delete** and **edit** configurations
 - manage backup tasks in **profiles**
 	- as many profiles as wanted
-- **copy of single files or volumes** from remote storage
-- **scheduling of tasks**
+- **restore of single files or catalogs** from remote storage
+- **scheduling of backup tasks**
   - daily, weekly or monthly schedules
 - **detailed logging** of tasks
   - switch on/off
