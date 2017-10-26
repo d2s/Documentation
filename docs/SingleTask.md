@@ -27,11 +27,11 @@ The TCP-button does a background check of TCP-connections. Red rows after a TCP-
 
 ## Execute single tasks
 
-Execute single tasks is a **two step** operation, one for **estimation** (dry-run) and one for the **real task**. If the `Information` button is ticked on a popup view is automatically presented after both tasks.Single tasks can be executed either by selecting the `Execute` button or a (if enabled) double click on the selected task. Both methods is a two step operation.
+Execute single tasks is a **two step** operation, one for **estimation** (dry-run) and one for the **real task**. A popup view is automatically presented after both tasks. A single task is executed either by **double click** on the selected task/row.
 
 ![Main view](screenshots/master/main0.png)
 
-The process info is updated when either a estimation task is executing or if a scheduled task is executing. There are five numbers in bottom page. Only version 3.x counts the number of remote directories. The numbers are files to be transferred and remote numbers. </div>
+The process info is updated when either a estimation task is executing or if a scheduled task is executing. There are five numbers in bottom page. Only version 3.x counts the number of remote directories. The numbers are files to be transferred and remote numbers.
 
 ### Estimating and Executing
 
@@ -43,7 +43,7 @@ The actual rsync command to be executed is shown below right corner in view. It 
 
 ![Main view](screenshots/master/main2.png)
 
-Selecting `Abort`aborts the current task.
+Selecting `Abort` aborts the current task.
 
 ### Edit task
 
