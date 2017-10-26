@@ -27,7 +27,7 @@ The TCP-button does a background check of TCP-connections. Red rows after a TCP-
 
 ## Execute single tasks
 
-Execute single tasks is a **two step** operation, one for **estimation** (dry-run) and one for the **real task**. A popup view is automatically presented after both tasks. A single task is executed either by **double click** on the selected task/row.
+Execute single tasks is a **two step** operation, one for **estimation** (dry-run) and one for the **real task**. A drop down view is automatically presented after both tasks. A single task is executed by  a **double click** on the selected task/row.
 
 ![Main view](screenshots/master/main0.png)
 
