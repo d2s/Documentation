@@ -28,6 +28,8 @@ List of files and folders stored at remote server.
 
 To restore file or directory to a temporary local directory either `doubleclick` on row or select `estimate`. A doubleclick executes the restore action in one go.
 
+The views below are from a previous version of RsyncOSX. The size of each row is not available in the current version. 
+
 ![](screenshots/4.3.5/doubleclick.png)
 ![](screenshots/4.3.5/finished.png)
 
