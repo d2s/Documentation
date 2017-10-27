@@ -7,3 +7,8 @@ Only **backup** tasks can be set for execution in batch. All tasks marked for ba
 Selecting the `Abort` button (the `Close` button becomes `Abort` button when Execution is selected) aborts any remaining tasks.
 
 ![Main view](screenshots/master/batch.png)
+Batch task during execution. The progress of batch task is updated in table.
+![Main view](screenshots/master/batch/batch2.png)
+A summarized result of batch task and logs view.
+![Main view](screenshots/master/batch/batch3.png)
+![Main view](screenshots/master/batch/batch4.png)
