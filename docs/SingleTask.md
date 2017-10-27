@@ -2,26 +2,25 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-In main view (which is the opening view) tasks can be executed as **single**- and/or **batch** tasks. Execute single tasks requires selecting the Execute button twice : one for **estimation** run and the second for **executing** the real task. If the Information is on a view of output from rsync is presented after each click.
+In main view (which is the opening view) tasks can be executed as **single**- and/or **batch** tasks. Execute single tasks requires a couple of **double clicks** : one for **estimation** run and the second for **executing** the real task. The output from rsync is presented after each run (see below).
 
-There are three options for editing after selecting a task in row :
+There are three options for editing after selecting a task in row:
 
-- **Edit task** (see below)
-- **Parameters** (to rsync, see [parameters](Parameters.md))
-- **Delete task**
-
+- *Edit task* (see below)
+- *Parameters* (to rsync, see [parameters](Parameters.md))
+- *Delete task*
 
 For Parameters see below. After selecting a row choosing one of the above pops up a new view according to selection. Select `Edit` task to editing basic information about task. Select `Delete` task to delete the selected row (task).
 
 There are _some status_ fields in the view :
 
-- **Next task** - text is either _Estimate_ or _Execute_ - valid for single tasks only
+- *Next task* - text is either _Estimate_ or _Execute_ - valid for single tasks only
 	- "Estimate" (yellow light) - a double click on row does a --dry-run
 	- "Execute" (green light) - a double click on row  does the real job, backup or restore
 	- select a new row resets the work queue
-- **Process info**
+- *Process info*
 	- "Estimating" - a progress circel is shown when an estimation run is executing, during a real run a progress bar presents the progress
-- **Scheduled job** - a progress bar shows when a scheduled job is executing
+- *Scheduled job* - a progress bar shows when a scheduled job is executing
 
 The TCP-button does a background check of TCP-connections. Red rows after a TCP-check indicates that there are no contact with remote server.
 
