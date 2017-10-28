@@ -13,6 +13,8 @@ with the source in the moment the backup task is completed. There are no revisio
 files in the backup in default RsyncOSX. Old files in the backup are either replaced with
 new ones or deleted if so is true in source.
 ```
+If you want to save old or deleted files in the destination (the backup) there is a predefined parameter in user selected [parameters](Parameters.md).
+
 All configurations to execute are listed in table. From the main view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed.
 
 Configurations can be saved in user selected **profiles**. The **profile** in use is shown in label `Profile: name`.
