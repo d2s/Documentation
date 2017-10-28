@@ -38,76 +38,59 @@ See [single task](SingleTask.md) for more info.
 ### Batch mode
 
 Tasks can be executed in one go in batch mode.
-
 ![Main view](screenshots/master/batch.png)
-
 See [batch task](BatchTask.md) for more info.
 
 ## Adding configurations
 
 It is easy to add new tasks. RsyncOSX adds both the backup and restore part of task automatically.
-
 ![Main view](screenshots/master/add.png)
-
 See [add configurations](AddConfigurations.md) for more info.
 
 ## Scheduling tasks
 
 Only **backup** tasks can be scheduled. When a task is scheduled RsyncOSX counts down when task is kicked off. The first scheduled task to be executed is marked green in table and the column `In` shows when task is due for execution.
-
 ![Main view](screenshots/master/schedule1.png)
 ![Main view](screenshots/master/schedule2.png)
 When a task is executed a dropdown menu is automatically presented in main view.
 ![Main view](screenshots/master/schedule8.png)
-
 See [schedules](ScheduleTasks.md) for more info.
 
 ## Copy files
 
 Files and directories can be restored from remote servers. It is easy to search for files or directories to restore.
-
 ![Main view](screenshots/master/copyfiles.png)
 ![Main view](screenshots/master/copyfiles1.png)
-
 See [copy files](CopySingleFiles.md) for more info.
 
 ## Logging
 
 RsyncOSX is logging all tasks. The user can choose in user configuration, to disable or enable detailed logging. Detailed logging is on as default. In log view all tasks with date, number of files and size transferred is logged. In the main view only date and time for last execution is set.
-
 ![Main view](screenshots/master/logg.png)
 Searching (filter) logs shows logrecords by applying the filter.
 ![Main view](screenshots/master/logg1.png)
-
 See [logging](Logging.md) for more info.
 
 ## Ssh
 
 Setting up password less logins is required to backup files to remote servers. RsyncoSX can assist in setting up password less logins.
-
 ![Main view](screenshots/master/ssh.png)
-
 See [ssh](ssh.md) for more info.
 
 ## Rsync errors
 
 Sometimes rsync throws errors. RsyncOSX does a simple check in output if there are any occurrence of the words `rsync error:`. If found RsyncOSX resets the work queue. This is *not* an advanced error handling.
-
 ![Main view](screenshots/master/error.png)
-
 ## User configurations
 
 Some configurations can be set on or off by the user.
 ![Main view](screenshots/master/config.png)
-
 See [user configuration](UserConfiguration.md) for more info.
 
 ## Rsync parameters
 
 The user can pass any parameter to rsync or choose some predefined parameters.
-
 ![Main view](screenshots/master/rsyncparameters.png)
-
 See [rsync parameters](Parameters.md) for more info about user selected parameters and [default parameters](RsyncParameters.md) about default parameters.
 
 ## Profiles
@@ -121,7 +104,6 @@ In the profiles menu there are two options:
 - `OK`. Name of new profile must be set in `New profile name` before `OK` button is selected. If `New profile name` is empty the view is closed (not loading a new profile).
 - `Delete` profile. Select profile to be deleted in list of profiles and select `Delete` button to delete.
 - `Default` button selects the default profile.
-
 ![Main view](screenshots/master/profile.png)
 
 ### RsyncOSX configuration files
