@@ -28,9 +28,9 @@ The red rows indicates no connection to remote server. Selecting the TCP-button 
 ![Main view](screenshots/master/main.png)
 Profile *Linux Mint* is selected. Selecting the row indicates a estimate run is next. A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in main view. An estimate run is a `--dry-run` execution of rsync. Tasks can also be executed in one go by selecting the batch button
 ![Main view](screenshots/master/main0.png)
-The result of a estimate run is presented. Next task is *Execute*. Execute is the real run as indicated on left side in main view RsyncOSX. Selecting a new row resets the tasks.
+The result of a estimate run is presented. Next task is *Execute*. Execute is the real run as indicated on left side in main view RsyncOSX. Selecting a new row resets the tasks. The number of files and size of all files is shown in bottom of view.
 ![Main view](screenshots/master/main1.png)
-During a real run a progress bar show the progress of backup or restore task. Any task can be aborted during execution.
+During a real run a progress bar show the progress of backup or restore task. All tasks can be aborted during execution.
 ![Main view](screenshots/master/main2.png)
 
 See [single task](SingleTask.md) for more info.
