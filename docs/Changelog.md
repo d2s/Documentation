@@ -12,7 +12,12 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 
 ## Version 4.8.1 rc
 
-The main focus in the rc is UX-design (user experience). The objective is to make the UX-experience in RsyncOSX as good as possible. 
+The main focus in the rc is UX-design (user experience). The objective is to make the UX-experience in RsyncOSX as good as possible.
+
+Below are some samples of changes to make a better UX-design.
+![](screenshots/4.8.1rc/ux1.png)
+![](screenshots/4.8.1rc/ux2.png)
+![](screenshots/4.8.1rc/ux3.png)
 
 ## Version 4.8.0
 
