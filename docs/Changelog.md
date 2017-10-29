@@ -18,6 +18,7 @@ Below are some samples of changes to make a better UX-design.
 ![](screenshots/4.8.1rc/ux1.png)
 ![](screenshots/4.8.1rc/ux2.png)
 ![](screenshots/4.8.1rc/ux3.png)
+![](screenshots/4.8.1rc/ux4.png)
 
 ## Version 4.8.0
 
