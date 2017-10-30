@@ -1,9 +1,7 @@
 
 ## The main opening view and a short intro to RsyncOSX
 
-This page is a short intro to RsyncoSX and a brief walkthrough of the main functions of RsyncOSX. The intro is based on *version 4.8.0* of RsyncOSX. For more details about the various functions of RsyncOSX please see the documentation about each function.
-
-Make sure you understand the basics about how rsync works before using RsyncOSX (and rsync).
+This page is a short intro to RsyncoSX and a brief walkthrough of the main functions of RsyncOSX. The intro is based on *version 4.8.0* of RsyncOSX. For more details about the various functions of RsyncOSX please see the documentation about each function. Make sure you understand the basics about how rsync works before using RsyncOSX (and rsync).
 ```
 Warning: default parameters for rsync is to synchronize the source and destination. A
 "restore" will delete all files in the source which are not in the destination. The main
@@ -15,11 +13,7 @@ new ones or deleted if so is true in source.
 ```
 If you want to save old or deleted files in the destination (the backup) there is a predefined parameter in user selected [parameters](Parameters.md).
 
-All configurations to execute are listed in table. From the main view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed.
-
-Configurations can be saved in user selected **profiles**. The **profile** in use is shown in label `Profile: name`.
-
-**Important**: Information about *new:* and *delete:* files and remote number of directories are only available if version 3.x of rsync is used.
+All configurations to execute are listed in table. From the main view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed. Configurations can be saved in user selected **profiles**. The **profile** in use is shown in label `Profile: name`. **Information** about *new:*, *delete:* files and *remote number* of directories are only available if version 3.x of rsync is used.
 
 The red rows indicates no connection to remote server. Selecting the TCP-button executes the check and marks configurations not available (no contact with remote server) red. RsyncOSX does a **background** check (informal only) for remote servers. The server `freenas.local` is a local NAS server (FreeNAS) and RsyncOSX does not find `freenas.local` outside my home and marks configurations red in table view.
 
