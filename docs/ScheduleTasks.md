@@ -41,7 +41,8 @@ Either stop or delete task. If a task is deleted all logs regarding the task is 
 Scheduling tasks is either by `dispatch` or `timer`. To be honest I don´t know if there is any difference, but the `dispatch` is cleaner in code. And it is the default method. Both methods executes asynchronously on the main thread when executing.
 * [dispatch task](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperationDispatch.swift)
 * [timer task](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperationTimer.swift)
-My advise is don't change. Both methods works OK. I will probably delete the `timer` method in a later release. 
+
+My advise is don't change. Both methods works OK. I will probably delete the `timer` method in a later release.
 
 ![Main view](screenshots/master/scheduling/dispatch.png)
 ![Main view](screenshots/master/scheduling/timer.png)
