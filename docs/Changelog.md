@@ -10,11 +10,14 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand. The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compiled with Xcode 9 and tested on macOS 10.13.
 
-## Version 4.8.1 rc
+## Version 4.8.1
 
-[The rc](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v4.8.1rc) is updated 4 Nov 2017. I am also still cleaning up code. The RsyncOSX code will be base for another project I have in mind. 
+* released 7 Nov 2017
+* this will be the last release for RsyncOSX for some time
+	- I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org)
+	- the [Changelog](https://rsyncosx.github.io/rcloneosx/) for the new project
 
-The main focus in the rc is UX-design (user experience). The objective is to make the UX-experience in RsyncOSX as good as possible. Below are some samples of changes to make a better UX-design.
+The main focus in the version 4.8.1 is UX-design (user experience). The objective is to make the UX-experience in RsyncOSX as good as possible. Below are some samples of changes to make a better UX-design.
 ![](screenshots/4.8.1rc/ux1.png)
 ![](screenshots/4.8.1rc/ux2.png)
 ![](screenshots/4.8.1rc/ux3.png)
