@@ -15,7 +15,7 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 * released 7 Nov 2017
 * this will be the last release for RsyncOSX for some time
 	- I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org)
-	- the [Changelog](https://rsyncosx.github.io/rcloneosx/) for the new project
+	- the [Changelog](https://rsyncosx.github.io/rcloneosx/docs/RcloneOSX/Changelog.html) for the new project
 
 The main focus in the version 4.8.1 is UX-design (user experience). The objective is to make the UX-experience in RsyncOSX as good as possible. Below are some samples of changes to make a better UX-design.
 ![](screenshots/4.8.1rc/ux1.png)
