@@ -9,6 +9,10 @@ Before installing and using RsyncOSX there are some important information to rea
 
 Please see the the [Changelog](docs/Changelog.md) for details about releases.
 
+### RcloneOSX
+
+A [project](https://rsyncosx.github.io/rcloneosx/) to adapt RsyncOSX to utilize [rclone](https://rclone.org).
+
 ### Using RsyncOSX
 
 The following are documents about using RsyncOSX.
