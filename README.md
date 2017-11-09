@@ -11,7 +11,9 @@ Please see the the [Changelog](docs/Changelog.md) for details about releases.
 
 ### RcloneOSX
 
-A [project](https://rsyncosx.github.io/rcloneosx/) to adapt RsyncOSX to utilize [rclone](https://rclone.org).
+I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). See the [Changelog](https://rsyncosx.github.io/rcloneosx/docs/RcloneOSX/Changelog.html) for the new project.
+
+A alfa version 0.0.1 is released for testing only.
 
 ### Using RsyncOSX
 
