@@ -5,15 +5,15 @@ Before installing and using RsyncOSX there are some important information to rea
 > - Getting and installing (#1) [RsyncOSX](docs/RsyncOSX.md).
 > - Important (#2) [information](docs/HowtoUseRsyncOSX.md) about what RsyncOSX is.
 
-#### Changelog
+#### Changelog RsyncOSX
 
 Please see the the [Changelog](docs/Changelog.md) for details about releases.
 
-### RcloneOSX
+#### A new project RcloneOSX
 
-I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). See the [Changelog](https://rsyncosx.github.io/rcloneosx/docs/RcloneOSX/Changelog.html) for the new project.
+I have commenced a **new project**, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). The new project utilizes `rclone` command utililty for backup of files to cloud services as Dropbox and Micrsoft Onedrive.
 
-A alfa version 0.0.1 is released for testing only.
+See the [Changelog](docs/RcloneOSX/Changelog.md) for the new project.
 
 ### Using RsyncOSX
 
