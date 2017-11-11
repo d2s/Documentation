@@ -8,9 +8,7 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 ## RcloneOSX
 
-I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). See the [Changelog](https://rsyncosx.github.io/rcloneosx/docs/RcloneOSX/Changelog.html) for the new project.
-
-A alfa version 0.0.1 is released for testing only.
+I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). See the [Changelog](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Changelog.html) for the new project.
 
 ## Xcode 9, Swift 4 and macOS 10.13 High Sierra
 
