@@ -14,9 +14,7 @@ All configurations to execute are listed in table. From the main view most actio
 
 ![Main view](Screenshots/main.png)
 A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in main view. An estimate run is a `--dry-run` execution of rclone. Tasks can also be executed in one go by selecting the batch button
-The result of a estimate run is presented. Next task is *Execute*. *Execute* is the real run as indicated on left side in main view rcloneOSX. Selecting a new row resets the tasks.
-
-The pictures show a transfer of about 350MB of data to Google Drive in about 3 1/2 hours.
+The result of a estimate run is presented. Next task is *Execute*. *Execute* is the real run as indicated on left side in main view rcloneOSX. Selecting a new row resets the tasks. The pictures show a transfer of about 310 MB of data to Google Drive in about 3 1/2 hours.
 ![Main view](Screenshots/executing.png)
 During a real run a progress bar show the progress of backup or restore task. All tasks can be aborted during execution.
 ![Main view](Screenshots/finished.png)
@@ -33,7 +31,7 @@ It is easy to add new tasks. RcloneOSX shows only (dynamically) added cloud serv
 
 ## Scheduling tasks
 
-Only **backup** tasks can be scheduled. When a task is scheduled rcloneOSX counts down when task is kicked off. The first scheduled task to be executed is marked green in table and the column `In` shows when task is due for execution.
+Only **backup** tasks can be scheduled. When a task is scheduled RcloneOSX counts down when task is kicked off. The first scheduled task to be executed is marked green in table and the column `In` shows when task is due for execution.
 ![Main view](Screenshots/schedule.png)
 When a task is executed a dropdown menu is automatically presented in main view.
 
