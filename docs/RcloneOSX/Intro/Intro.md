@@ -12,36 +12,35 @@ All configurations to execute are listed in table. From the main view most actio
 
 ## Executing single tasks
 
-![Main view](screenshots/main.png)
+![Main view](Screenshots/main.png)
 A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in main view. An estimate run is a `--dry-run` execution of rclone. Tasks can also be executed in one go by selecting the batch button
 The result of a estimate run is presented. Next task is *Execute*. *Execute* is the real run as indicated on left side in main view rcloneOSX. Selecting a new row resets the tasks.
 
 The pictures show a transfer of about 350MB of data to Google Drive in about 3 1/2 hours.
-![Main view](screenshots/executing.png)
+![Main view](Screenshots/executing.png)
 During a real run a progress bar show the progress of backup or restore task. All tasks can be aborted during execution.
-![Main view](screenshots/finished.png)
+![Main view](Screenshots/finished.png)
 
 ### Batch mode
 
 Tasks can be executed in one go in batch mode.
-![Main view](screenshots/batch.png)
+![Main view](Screenshots/batch.png)
 
 ## Adding configurations
 
 It is easy to add new tasks. RcloneOSX shows only (dynamically) added cloud services in rclone config file.
-![Main view](screenshots/add.png)
-See [add configurations](AddConfigurations.md) for more info.
+![Main view](Screenshots/add.png)
 
 ## Scheduling tasks
 
 Only **backup** tasks can be scheduled. When a task is scheduled rcloneOSX counts down when task is kicked off. The first scheduled task to be executed is marked green in table and the column `In` shows when task is due for execution.
-![Main view](screenshots/schedule.png)
+![Main view](Screenshots/schedule.png)
 When a task is executed a dropdown menu is automatically presented in main view.
 
 ## Logging
 
 RcloneOSX is logging all tasks. The user can choose in user configuration, to disable or enable detailed logging. Detailed logging is on as default. In log view all tasks with date, number of files and size transferred is logged. In the main view only date and time for last execution is set.
-![Main view](screenshots/logs.png)
+![Main view](Screenshots/logs.png)
 Searching (filter) logs shows logrecords by applying the filter.
 
 ## Rclone errors
@@ -51,7 +50,7 @@ Sometimes rclone throws errors. RcloneOSX does a simple check in output if there
 ## Rclone parameters
 
 The user can pass any parameter to rclone or choose some predefined parameters.
-![Main view](screenshots/parameters.png)
+![Main view](Screenshots/parameters.png)
 
 ## Profiles
 
@@ -64,7 +63,7 @@ In the profiles menu there are two options:
 - `OK`. Name of new profile must be set in `New profile name` before `OK` button is selected. If `New profile name` is empty the view is closed (not loading a new profile).
 - `Delete` profile. Select profile to be deleted in list of profiles and select `Delete` button to delete.
 - `Default` button selects the default profile.
-![Main view](screenshots/profile.png)
+![Main view](Screenshots/profile.png)
 
 ### RcloneOSX configuration files
 
