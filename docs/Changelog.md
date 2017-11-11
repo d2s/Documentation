@@ -38,7 +38,7 @@ The main focus in the version 4.8.1 is UX-design (user experience). The objectiv
 * some other bug fixes as well
 * the .dmg file is built on a mounted NOT APFS (SMB mount) filesystem to avoid problems mounting the .dmg file on non APFS systems
 
-The [intro](https://github.com/rsyncOSX/Documentation/blob/master/docs/Intro.md) page is updated reflecting version 4.8.0.
+The [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) page is updated reflecting version 4.8.0.
 
 ## Version 4.7.5
 

@@ -2,6 +2,18 @@
 
 I have commenced a new project adapting RsyncOSX to RcloneOSX. RcloneOSX is, when it is released in version 1.0.0, utilizing the [rclone](https://rclone.org) command line tool for backup/copy files to various number of cloud storage services as Dropbox.
 
+## Version 0.0.3
+
+See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
+
+* released 11 Nov 2017
+* fixed a couple of bugs
+* added command `check`
+* only `sync`and `copy` tasks allowed executing in batch and by schedule
+  - command `move` may cause some unwanted effects when executed, always do a `--dry-run` before executing
+  - executing single tasks is always a two step task, first a `--dry-run` and then the real task after inspecting the result of the `--dry-run` task
+
+
 ## Version 0.0.2
 
 * released 10 Nov 2017
