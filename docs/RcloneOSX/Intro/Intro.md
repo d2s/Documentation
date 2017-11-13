@@ -41,10 +41,6 @@ RcloneOSX is logging all tasks. The user can choose in user configuration, to di
 ![Main view](Screenshots/logs.png)
 Searching (filter) logs shows logrecords by applying the filter.
 
-## Rclone errors
-
-Sometimes rclone throws errors. RcloneOSX does a simple check in output if there are any occurrence of the words `rclone error:`. If found rcloneOSX resets the work queue. This is *not* an advanced error handling.
-
 ## Rclone parameters
 
 The user can pass any parameter to rclone or choose some predefined parameters.
