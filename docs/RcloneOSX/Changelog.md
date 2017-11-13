@@ -9,11 +9,16 @@ See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) t
 ## Next version 0.1.5
 
 * not yet released (will be soon)
-* bugfixes and hopefully some numbers to log after executing tasks
+* bugfixes
 * color rows in main table (`check` task in blue and `move` tasks in red)
-
+* initial statistics and numbers are working
 ![](rc0.1.5/main.png)
 ![](rc0.1.5/add.png)
+Testing batch and logging numbers.
+![](rc0.1.5/batch1.png)
+![](rc0.1.5/batch2.png)
+![](rc0.1.5/batch3.png)
+![](rc0.1.5/batch4.png)
 
 ## Version 0.0.3
 
