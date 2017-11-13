@@ -8,13 +8,14 @@ See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) t
 
 ## Next version 0.1.5
 
-* not yet released (will be soon)
+* released 13 Nov 2017
 * bugfixes
 * color rows in main table (`check` task in blue and `move` tasks in red)
 * initial statistics and numbers are working
+* only tasks `sync`, `copy` and `move` adding logs
 ![](rc0.1.5/main.png)
 ![](rc0.1.5/add.png)
-Testing batch and logging numbers.
+Testing batch and logging numbers. Only tasks `sync` and `copy` allowed for batch (as well as scheduled tasks).
 ![](rc0.1.5/batch1.png)
 ![](rc0.1.5/batch2.png)
 ![](rc0.1.5/batch3.png)
