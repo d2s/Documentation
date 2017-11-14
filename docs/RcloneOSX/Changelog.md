@@ -14,6 +14,7 @@ There are a couple of issues in version 0.1.5:
   - new v0.1.5 with fix was uploaded 14 Nov 2017
 * logging runs, there still seems to be some issues logging runs, some logs reports only number of files not amount of data..
 * and there are some issues not found yet
+* I am working on adjusting the application icon, will be updated in next release (adding a cloud in the icon)
 
 ## Next version 0.1.5
 
