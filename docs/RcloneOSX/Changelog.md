@@ -6,6 +6,14 @@ A short [intro](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Intro/In
 
 See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
+## Issues
+
+There are a couple of issues in version 0.1.5:
+
+* in Add configurations default task is `sync`. Please select another task and then `sync` to add a sync task, bug is fixes in code..
+* logging runs, there still seems to be some issues logging runs, some logs reports only number of files not amount of data..
+* and there are some issues not found yet 
+
 ## Next version 0.1.5
 
 * released 13 Nov 2017
