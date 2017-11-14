@@ -10,9 +10,9 @@ See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) t
 
 There are a couple of issues in version 0.1.5:
 
-* in Add configurations default task is `sync`. Please select another task and then `sync` to add a sync task, bug is fixes in code..
+* in Add configurations default task is `sync`. Please select another task and then `sync` to add a sync task, bug is fixed in code..
 * logging runs, there still seems to be some issues logging runs, some logs reports only number of files not amount of data..
-* and there are some issues not found yet 
+* and there are some issues not found yet
 
 ## Next version 0.1.5
 
