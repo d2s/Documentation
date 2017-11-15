@@ -6,20 +6,14 @@ A short [intro](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Intro/In
 
 See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
-## Issues
+## version 0.2.0
 
-There are a couple of issues in version 0.1.5:
-
-* in Add configurations default task is `sync`. Please select another task and then `sync` to add a sync task, bug is fixed in code..
-  - new v0.1.5 with fix was uploaded 15 Nov 2017
-* logging runs, there still seems to be some issues logging runs, some logs reports only number of files not amount of data..
-* and there are some issues not found yet
+* new app icon and a few more bugfixes...
+* enhancements in batchview
 
 ## Next version 0.1.5
 
-* released 13 Nov 2017 and updated 15 Nov 2017
-  - new app icon and a few more bugfixes...
-* bugfixes
+* released 13 Nov 2017
 * color rows in main table (`check` task in blue and `move` tasks in red)
 * initial statistics and numbers are working
 * only tasks `sync`, `copy` and `move` adding logs
