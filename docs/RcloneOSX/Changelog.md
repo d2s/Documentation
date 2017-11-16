@@ -10,7 +10,7 @@ See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) t
 
 Sometimes there is an issue in logging. The logging part is initiated when the process object, which executes the `rclone` command with appropriate set of arguments, terminates. The process object is during execution listening for output from the `rclone` command and appends all output in a new object. Sometimes a process termination is discovered *before* the last output is received and the logging part is failing reporting only 0. The solution is holding back the action which is fired 1/2 second when a process termination is discovered  (an async escaping closure on the main thread). This secures any remaining output to be collected before logging.
 
-The fix will be released in next version.
+A rc is released fixing the issue.
 
 ## version 0.2.0
 
