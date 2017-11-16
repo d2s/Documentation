@@ -17,13 +17,6 @@ See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) t
 * color rows in main table (`check` task in blue and `move` tasks in red)
 * initial statistics and numbers are working
 * only tasks `sync`, `copy` and `move` adding logs
-![](rc0.1.5/batch1.png)
-![](rc0.1.5/add.png)
-Testing batch and logging numbers. Only tasks `sync` and `copy` allowed for batch (as well as scheduled tasks).
-![](rc0.1.5/batch2.png)
-![](rc0.1.5/batch3.png)
-Tasks are updated with last execution dates.
-![](rc0.1.5/batch4.png)
 
 ## Version 0.0.3
 
