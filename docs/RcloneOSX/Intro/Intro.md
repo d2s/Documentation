@@ -22,7 +22,7 @@ During a real run a progress bar show the progress of backup or restore task. Al
 ### Batch mode
 
 Tasks can be executed in one go in batch mode.
-![](Screenshots/batch1.png)
+![](Screenshots/batch.png)
 Testing batch and logging numbers. Only tasks `sync` and `copy` allowed for batch (as well as scheduled tasks).
 ![](Screenshots/batch2.png)
 ![](Screenshots/batch3.png)
