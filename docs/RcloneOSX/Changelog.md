@@ -12,6 +12,12 @@ Sometimes there is an issue in logging. The logging part is initiated when the p
 
 A [rc](https://github.com/rsyncOSX/rcloneosx/releases) is released fixing the issue.
 
+## version 0.2.5 - coming
+
+In next release (within a few days) version 0.2.5 including functions for restore files will be released.
+![](0.2.5/restore.png)
+![](0.2.5/restore1.png)
+
 ## version 0.2.0
 
 * new app icon and a few more bugfixes...
