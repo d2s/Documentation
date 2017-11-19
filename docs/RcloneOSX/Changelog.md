@@ -6,17 +6,12 @@ A short [intro](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Intro/In
 
 See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
-## Issue in logging (solved)
+## version 0.2.5
 
-Sometimes there is an issue in logging. The logging part is initiated when the process object, which executes the `rclone` command with appropriate set of arguments, terminates. The process object is during execution listening for output from the `rclone` command and appends all output in a new object. Sometimes a process termination is discovered *before* the last output is received and the logging part is failing reporting only 0. The solution is holding back the action which is fired 1/2 second when a process termination is discovered  (an async escaping closure on the main thread). This secures any remaining output to be collected before logging.
-
-A [rc](https://github.com/rsyncOSX/rcloneosx/releases) is released fixing the issue.
-
-## version 0.2.5 - coming
-
-In next release (within a few days) version 0.2.5 including functions for restore files will be released.
-![](0.2.5/restore.png)
-![](0.2.5/restore1.png)
+* released 19 Nov 2017
+* restore files and catalogs from cloud services
+* minor bugfixes
+* problem with logging is *probably* solved
 
 ## version 0.2.0
 
