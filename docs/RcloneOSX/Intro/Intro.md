@@ -34,6 +34,11 @@ Tasks are updated with last execution dates.
 It is easy to add new tasks. RcloneOSX shows only (dynamically) added cloud services in rclone config file.
 ![Main view](Screenshots/add.png)
 
+## Restore files or catalogs
+
+Search and restore files and catalogs in cloud services.
+![Main view](Screenshots/restore.png)
+
 ## Scheduling tasks
 
 Only **backup** tasks can be scheduled. When a task is scheduled RcloneOSX counts down when task is kicked off. The first scheduled task to be executed is marked green in table and the column `In` shows when task is due for execution.
