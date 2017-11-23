@@ -6,6 +6,14 @@ A short [intro](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Intro/In
 
 See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
+## Version 1.0.0 - to be released
+
+- logging result of tasks is fixed
+- added possibility of logging, either minimum or full, output from rsync
+	- the logging to file is default off when starting RcloneOSX, status of logging is not saved in userconfiguration
+- fixed some other minor glitches
+- added number of days since last backup in main view
+
 ## version 0.2.5
 
 * released 19 Nov 2017
