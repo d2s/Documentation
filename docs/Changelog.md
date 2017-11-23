@@ -6,12 +6,6 @@ I am using the application on a daily basis and it evolves during my own use. An
 
 Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs.
 
-## Issue in logging (solved)
-
-Sometimes there is an issue in logging. The logging part is initiated when the process object, which executes the `rsync` command with appropriate set of arguments, terminates. The process object is during execution listening for output from the `rsync` command and appends all output in a new object. Sometimes a process termination is discovered *before* the last output is received and the logging part is failing reporting only 0. The solution is holding back the action which is fired 1/2 second when a process termination is discovered  (an async escaping closure on the main thread). This secures any remaining output to be collected before logging.
-
-A [rc](https://github.com/rsyncOSX/RsyncOSX/releases) is released fixing the issue.
-
 ## RcloneOSX
 
 I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). See the [Changelog](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Changelog.html) for the new project.
@@ -19,6 +13,19 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 ## Xcode 9, Swift 4 and macOS 10.13 High Sierra
 
 Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand. The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compiled with Xcode 9 and tested on macOS 10.13.
+
+## Version 4.8.6
+
+- released 23 Nov 2017
+- logging result after execution of tasks is fixed
+- added possibility of logging, either minimum or full, output from rsync to loggfile in `Documents/rsynclog.txt`
+	- the logging to file is default off when starting RsyncOSX, status of logging is not saved in userconfiguration
+	- the log function appends new logs, be careful not logging all actions
+- fixed some other minor glitches
+- added number of days since last backup in main view
+![](screenshots/4.8.6/main.png)
+![](screenshots/4.8.6/user.png)
+![](screenshots/4.8.6/loggfile.png)
 
 ## Version 4.8.2
 
