@@ -10,7 +10,7 @@ See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) t
 
 - released 24 Nov 2017
 - logging result after execution of tasks is fixed
-- added possibility of logging, either minimum or full, output from rsync to loggfile in `Documents/rcloneog.txt`
+- added possibility of logging, either minimum or full, output from rsync to loggfile in `Documents/rclonelog.txt`
 	- the logging to file is default off when starting RcloneOSX, status of logging is not saved in userconfiguration
 	- the log function appends new logs, be careful not logging all actions
 - fixed some other minor glitches
