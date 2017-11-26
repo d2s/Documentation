@@ -14,9 +14,12 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand. The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compiled with Xcode 9 and tested on macOS 10.13.
 
-## Version 4.9.0 rc
+## Version 4.9.0rc
+
+Tweaking to much in the toolbar area require coding. I prefer using storyboard only for GUI stuff, no coding. E.g putting a progress bar in toolbar area require (as far as I know) coding. 
 
 - new buttons
+![](screenshots/4.9.0rc/rsyncosx2.png)
 ![](screenshots/4.9.0rc/rsyncosx.png)
 
 
