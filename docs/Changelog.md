@@ -16,12 +16,8 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 
 ## Version 4.9.0rc
 
-Tweaking to much in the toolbar area require coding. I prefer using storyboard only for GUI stuff, no coding. E.g putting a progress bar in toolbar area require (as far as I know) coding. I do prefer a clean and simple GUI. Dont know exactly which one I prefer..
+New buttons are implemented. There is a [4.9.0-rc](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v4.9.0-rc) version with new icons (and a couple of other fixes). A new version to be released in some weeks.
 ![](screenshots/4.9.0rc/rsyncosx3.png)
-![](screenshots/4.9.0rc/rsyncosx2.png)
-More colorful icons, dont know if I fancy this kind of icons ..
-![](screenshots/4.9.0rc/rsyncosx.png)
-
 
 ## Version 4.8.6
 
