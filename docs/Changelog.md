@@ -18,6 +18,7 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 
 New buttons are implemented. There is a [4.9.0-rc](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v4.9.0-rc) version with new icons (and a couple of other fixes). A new version to be released in some weeks.
 ![](screenshots/4.9.0rc/rsyncosx3.png)
+![](screenshots/4.9.0rc/buttons.png)
 
 ## Version 4.8.6
 
