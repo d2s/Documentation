@@ -6,10 +6,11 @@ A short [intro](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Intro/In
 
 See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
-## Version 1.1.0 rc
+## Version 1.1.0
 
-New buttons are implemented. There is a [1.1.0-rc](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.1.0-rc) version with new icons (and a couple of other fixes). A new version to be released in some weeks.
-![](1.1.0rc/rcloneosx2.png)
+- released 28 Nov 2017
+- new buttons are implemented
+- fixed a typo and some minor fixes
 
 ## Version 1.0.0
 
