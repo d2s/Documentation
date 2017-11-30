@@ -14,6 +14,12 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand. The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compiled with Xcode 9 and tested on macOS 10.13.
 
+## Issue in version 4.9.0
+
+Sometimes the table in batchview during execution is set to zero, ie it disappears. I am a bit unsure why this is happening and I can not reproduce the error. It is not consistent.
+
+The workaround is close batchview and execute batch again. I am investigating why this happens..
+
 ## Version 4.9.0
 
 - released 28 Nov 2017

@@ -6,6 +6,12 @@ A short [intro](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Intro/In
 
 See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
+## Issue in version 1.1.0
+
+Sometimes the table in batchview during execution is set to zero, ie it disappears. I am a bit unsure why this is happening and I can not reproduce the error. It is not consistent.
+
+The workaround is close batchview and execute batch again. I am investigating why this happens..
+
 ## Version 1.1.0
 
 - released 28 Nov 2017
