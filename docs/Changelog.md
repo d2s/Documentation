@@ -16,9 +16,9 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 
 ## Issue in version 4.9.0
 
-Sometimes the table in batchview during execution is set to zero, ie it disappears. I am a bit unsure why this is happening and I can not reproduce the error. It is not consistent.
+Sometimes the table in batchview during execution is set to zero, ie it disappears after executing first row (task). I am a bit unsure why this is happening and I can not reproduce the error. The error is not consistent.
 
-The workaround is close batchview and execute batch again. I am investigating why this happens..
+The workaround when this happens is to close the batchview and execute batch again. I am investigating why this happens..
 
 ## Version 4.9.0
 
