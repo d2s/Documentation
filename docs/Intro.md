@@ -21,20 +21,19 @@ The red rows indicates no connection to remote server. Selecting the TCP-button 
 
 ## Executing single tasks
 
-![Main view](screenshots/master/main.png)
-Profile *Linux Mint* is selected. Selecting the row indicates a estimate run is next. A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in main view. An estimate run is a `--dry-run` execution of rsync. Tasks can also be executed in one go by selecting the batch button
-![Main view](screenshots/master/main0.png)
-The result of a estimate run is presented. Next task is *Execute*. Execute is the real run as indicated on left side in main view RsyncOSX. Selecting a new row resets the tasks. The number of files and size of all files is shown in bottom of view.
 ![Main view](screenshots/master/main1.png)
-During a real run a progress bar show the progress of backup or restore task. All tasks can be aborted during execution.
+Selecting the row indicates a estimate run is next. A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in main view. An estimate run is a `--dry-run` execution of rsync. Tasks can also be executed in one go by selecting the batch button
 ![Main view](screenshots/master/main2.png)
+The result of a estimate run is presented. Next task is *Execute*. Execute is the real run as indicated on left side in main view RsyncOSX. Selecting a new row resets the tasks. The number of files and size of all files is shown in bottom of view.
+![Main view](screenshots/master/singletask1.png)
+During a real run a progress bar show the progress of backup or restore task. All tasks can be aborted during execution.
 
 See [single task](SingleTask.md) for more info.
 
 ### Batch mode
 
 Tasks can be executed in one go in batch mode.
-![Main view](screenshots/master/batch.png)
+![Main view](screenshots/master/batchexecuting.png)
 See [batch task](BatchTask.md) for more info.
 
 ## Adding configurations
@@ -56,15 +55,14 @@ See [schedules](ScheduleTasks.md) for more info.
 
 Files and directories can be restored from remote servers. It is easy to search for files or directories to restore.
 ![Main view](screenshots/master/copyfiles.png)
-![Main view](screenshots/master/copyfiles1.png)
 See [copy files](CopySingleFiles.md) for more info.
 
 ## Logging
 
 RsyncOSX is logging all tasks. The user can choose in user configuration, to disable or enable detailed logging. Detailed logging is on as default. In log view all tasks with date, number of files and size transferred is logged. In the main view only date and time for last execution is set.
-![Main view](screenshots/master/logg.png)
+![Main view](screenshots/master/logs.png)
 Searching (filter) logs shows logrecords by applying the filter.
-![Main view](screenshots/master/logg1.png)
+![Main view](screenshots/master/logs2.png)
 See [logging](Logging.md) for more info.
 
 ## Ssh
@@ -80,7 +78,7 @@ Sometimes rsync throws errors. RsyncOSX does a simple check in output if there a
 ## User configurations
 
 Some configurations can be set on or off by the user.
-![Main view](screenshots/master/config.png)
+![Main view](screenshots/master/userconfig.png)
 See [user configuration](UserConfiguration.md) for more info.
 
 ## Rsync parameters
