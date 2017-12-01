@@ -6,11 +6,10 @@ A short [intro](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Intro/In
 
 See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
-## Issue in version 1.1.0
+## Version 1.1.1
 
-Sometimes the table in batchview during execution is set to zero, ie it disappears after executing first row (task). I know what causes the error and I will within a short time make a fix for it. Workaround: **select batch again** and **do not select** a row before selecting batch. There is a bug when selecting a row...
-
-The error is smoked out, a new image will be released shortly.
+- released 1 Dec 2017
+- fixed a bug in batchview causing batch not executing properly
 
 ## Version 1.1.0
 

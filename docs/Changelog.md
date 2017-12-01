@@ -14,11 +14,10 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand. The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compiled with Xcode 9 and tested on macOS 10.13.
 
-## Issue in version 4.9.0
+## Version 4.9.1
 
-Sometimes the table in batchview during execution is set to zero, ie it disappears after executing first row (task). I know what causes the error and I will within a short time make a fix for it. Workaround: **select batch again** and **do not select** a row before selecting batch. There is a bug when selecting a row...
-
-The error is smoked out, a new image will be released shortly.
+- released 1 Dec 2017
+- fixed a bug in batchview causing batch not executing properly
 
 ## Version 4.9.0
 
