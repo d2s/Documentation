@@ -8,9 +8,9 @@ See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) t
 
 ## Issue in version 1.1.0
 
-SSometimes the table in batchview during execution is set to zero, ie it disappears after executing first row (task). I know what causes the error and I will within some days make a fix for it. Please use the workaround until a fix is released.
+Sometimes the table in batchview during execution is set to zero, ie it disappears after executing first row (task). I know what causes the error and I will within a short time make a fix for it. Workaround: **select batch again** and **do not select** a row before selecting batch. There is a bug when selecting a row...
 
-The workaround when this happens is to close the batchview and execute batch again. I am investigating why this happens..
+The error is smoked out, a new image will be released shortly.
 
 ## Version 1.1.0
 
