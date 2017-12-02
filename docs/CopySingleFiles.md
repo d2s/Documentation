@@ -9,9 +9,7 @@ Copy file and volume enables the user to select single file or catalogs for rest
 * if `Reset` button is selected button is labeled `Get source`, if selected list of source is listed in drop list
 
 The temporary path for restoring single file or directory can be set in Configuration. The path can be set to any directory or changed to a other directory for one session only.
-
-![](screenshots/master/config.png)
-
+![Main view](screenshots/master/userconfig.png)
 Pressing `Get files` button starts the job to collect list of files and catalogs stored on remote server. Or job to get files is started by double click on row in list of sources.
 
 ![Schedule](screenshots/master/restore/source.png)
@@ -28,7 +26,7 @@ List of files and folders stored at remote server.
 
 To restore file or directory to a temporary local directory either `doubleclick` on row or select `estimate`. A doubleclick executes the restore action in one go.
 
-The views below are from a previous version of RsyncOSX. The size of each row is not available in the current version. 
+The views below are from a previous version of RsyncOSX. The size of each row is not available in the current version.
 
 ![](screenshots/4.3.5/doubleclick.png)
 ![](screenshots/4.3.5/finished.png)

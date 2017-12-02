@@ -73,6 +73,7 @@ See [ssh](ssh.md) for more info.
 
 Sometimes rsync throws errors. RsyncOSX does a simple check in output if there are any occurrence of the words `rsync error:`. If found RsyncOSX resets the work queue. This is *not* an advanced error handling.
 ![Main view](screenshots/master/error.png)
+
 ## User configurations
 
 Some configurations can be set on or off by the user.
