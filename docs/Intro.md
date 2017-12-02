@@ -37,7 +37,7 @@ See [batch task](BatchTask.md) for more info.
 ## Adding configurations
 
 It is easy to add new tasks. RsyncOSX adds both the backup and restore part of task automatically.
-![Main view](screenshots/master/add.png)
+![Main view](screenshots/master/add/add1.png)
 See [add configurations](AddConfigurations.md) for more info.
 
 ## Scheduling tasks
