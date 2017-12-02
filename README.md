@@ -11,7 +11,7 @@ Please see the the [Changelog](docs/Changelog.md) for details about releases.
 
 #### A new project RcloneOSX
 
-I have commenced a **new project**, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). The new project utilizes `rclone` command utililty for backup of files to cloud services as Dropbox and Micrsoft Onedrive. There is a short [intro](docs/RcloneOSX/Intro/Intro.md) to RcloneOSX. See also the [Changelog](docs/RcloneOSX/Changelog.md) for the project. 
+I have commenced a **new project**, the new project [RcloneOSX](https://github.com/rsyncOSX/rcloneosx) is adapting RsyncOSX to utilize [rclone](https://rclone.org). The new project utilizes `rclone` command utililty for backup of files to cloud services as Dropbox and Micrsoft Onedrive. There is a short [intro](docs/RcloneOSX/Intro/Intro.md) to RcloneOSX. See also the [Changelog](docs/RcloneOSX/Changelog.md) for the project. 
 
 ### Using RsyncOSX
 
