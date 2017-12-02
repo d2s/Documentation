@@ -63,4 +63,4 @@ Any user just looking for an easy to use backup tool is advised to use other and
 - you have some knowledge about running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS
 - you are able to [setup a ssh password-less login](PasswordlessLogin.md) between the Mac and the remote server
 
-As short [intro](Intro.md) to RsyncOSX.
+There is a short [intro](Intro.md) to RsyncOSX.
