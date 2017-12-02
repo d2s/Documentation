@@ -1,7 +1,7 @@
 
 ## The main opening view and a short intro to RsyncOSX
 
-This page is a short intro to RsyncoSX and a brief walkthrough of the main functions of RsyncOSX. The intro is based on *version 4.9.1* of RsyncOSX. For more details about the various functions of RsyncOSX please see the documentation about each function. Make sure you understand the basics about how rsync works before using RsyncOSX (and rsync).
+This page is a short intro to RsyncoSX and a brief walkthrough of the main functions of RsyncOSX. The intro is based on functionality in *version 4.9.1* of RsyncOSX. Some of the screenshots are previous versions. For more details about the various functions of RsyncOSX please see the documentation about each function. Make sure you understand the basics about how rsync works before using RsyncOSX (and rsync).
 ```
 Warning: default parameters for rsync is to synchronize the source
 and destination. A "restore" will delete all files in the source which
