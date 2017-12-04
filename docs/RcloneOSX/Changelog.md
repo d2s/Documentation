@@ -6,6 +6,14 @@ A short [intro](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Intro/In
 
 See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
+## Version 4.9.2 release candidate
+
+- will be released as rc within some days
+- focus on GUI single tasks and batch
+![](1.1.5rc/singletask1.png)
+![](1.1.5rc/singletask2.png)
+![](1.1.5rc/batch.png)
+
 ## Version 1.1.1
 
 - released 1 Dec 2017
