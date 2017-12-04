@@ -16,7 +16,8 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 
 ## Version 4.9.2 release candidate
 
-- will be released as rc within some days
+- v4.9.2 rc is released 4 Dec 2017
+	- the rc will be updated from tim to time
 - focus on GUI single tasks and batch
 ![](screenshots/4.9.2rc/singletask1.png)
 ![](screenshots/4.9.2rc/singletask2.png)
