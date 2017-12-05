@@ -18,7 +18,7 @@ If you want to save old or deleted files in the destination (the backup) there i
 All configurations to execute are listed in table. From the main view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed. Configurations can be saved in user selected **profiles**. The **profile** in use is shown in label `Profile: name`. **Information** about *new:*, *delete:* files and *remote number* of directories are only available if version 3.x of rsync is used.
 
 ## Executing single tasks
-The red rows indicates no connection to remote server. Selecting the TCP-button executes the check and marks configurations not available (no contact with remote server) red. RsyncOSX does a **background** check (informal only) for remote servers. The server `freenas.local` is a local NAS server (FreeNAS) and RsyncOSX does not find `freenas.local` outside my home and marks configurations red in table view.
+The <span style="color:red">red rows</span> indicates no connection to remote server. Selecting the TCP-button executes the check and marks configurations not available (no contact with remote server) red. RsyncOSX does a **background** check (informal only) for remote servers. The server `freenas.local` is a local NAS server (FreeNAS) and RsyncOSX does not find `freenas.local` outside my home and marks configurations red in table view.
 ![Main view](screenshots/master/main1.png)
 Selecting the row indicates a estimate run is next. A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in main view. An estimate run is a `--dry-run` execution of rsync. Tasks can also be executed in one go by selecting the batch button
 ![Main view](screenshots/master/main2.png)
@@ -41,10 +41,7 @@ See [add configurations](AddConfigurations.md) for more info.
 ## Scheduling tasks
 
 Only **backup** tasks can be scheduled. When a task is scheduled RsyncOSX counts down when task is kicked off. The first scheduled task to be executed is marked green in table and the column `In` shows when task is due for execution.
-![Main view](screenshots/master/schedule1.png)
-![Main view](screenshots/master/schedule2.png)
-When a task is executed a dropdown menu is automatically presented in main view.
-![Main view](screenshots/master/schedule8.png)
+![Main view](screenshots/master/scheduling/schedule1.png)
 See [schedules](ScheduleTasks.md) for more info.
 
 ## Copy files
@@ -64,7 +61,7 @@ See [logging](Logging.md) for more info.
 ## Ssh
 
 Setting up password less logins is required to backup files to remote servers. RsyncoSX can assist in setting up password less logins.
-![Main view](screenshots/master/ssh.png)
+![Main view](screenshots/master/ssh/ssh.png)
 See [ssh](ssh.md) for more info.
 
 ## Rsync errors
