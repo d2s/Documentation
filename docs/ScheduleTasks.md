@@ -18,9 +18,7 @@ Select task (row), set the start date and time and select the schedule (once, da
 
 The stack is a reference only to a configuration (by a hidden key). The user can change anything regarding a configuration up to the moment the task is executed by schedule. If a configuration is deleted all scheduled tasks connected to configuration is deleted as well.
 
-When the first scheduled task is _completed_, RsyncOSX checks the next top element of stack.
-
-In example the schedule *once* is selected. First scheduled backup is scheduled in about two minutes.
+When the first scheduled task is _completed_, RsyncOSX checks the next top element of stack. In example the schedule *once* is selected. First scheduled backup is scheduled in one hour.
 ![Main view](screenshots/master/scheduling/schedule1.png)
 ![Main view](screenshots/master/scheduling/schedule2.png)
 Another task is scheduled as well. The first scheduled to be executed is marked green.
