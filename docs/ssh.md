@@ -35,9 +35,9 @@ Choosing a `rsa` based key and select `Create keys`. Local keys are created by `
 Next step is to manually create a remote `.ssh` catalog and `scp` (secure copy) the public key to remote server.
 
 * `Scp rsa` - copy and paste command
-  * the command `/usr/bin/scp /Volumes/Home/thomas/.ssh/id_rsa.pub thomas@10.0.0.58:.ssh/authorized_keys` copy the rsa public key `~/.ssh/id_rsa.pub` to remote server as file `~/.ssh/authorized_keys`
+  * the command `/usr/bin/scp /Volumes/Home/thomas/.ssh/id_rsa.pub thomas@freenas.local:.ssh/authorized_keys` copy the rsa public key `~/.ssh/id_rsa.pub` to remote server as file `~/.ssh/authorized_keys`
 * `Scp dsa` - copy and paste command
-  * the command `/usr/bin/scp /Volumes/Home/thomas/.ssh/id_dsa.pub thomas@10.0.0.58:.ssh/authorized_keys2` copy the dsa public key `~/.ssh/id_dsa.pub` to remote server as file `~/.ssh/authorized_keys2`
+  * the command `/usr/bin/scp /Volumes/Home/thomas/.ssh/id_dsa.pub thomas@1freenas.local:.ssh/authorized_keys2` copy the dsa public key `~/.ssh/id_dsa.pub` to remote server as file `~/.ssh/authorized_keys2`
 
 After public key(s) are copied it is important to set correct permissions on remote public key files.
 
