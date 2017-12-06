@@ -15,6 +15,12 @@ Below is the main view. There are **no local** public ssh keys found and keys mi
 Which key to create and use is for you to decide. I am using the rsa based key only.
 ![ssh](screenshots/master/ssh/ssh.png)
 
+### Create local ssh keys
+
+Choosing a `rsa` based key and select `Create keys`. Local keys are created by `ssh-keygen` and saved in `.ssh` local catalog. The output shows information from the `ssh-keygen` tool. If creation of local key is OK the output should be something like in view. And the `Rsa public key found` should be ticked on. Likewise for a `dsa` based key.
+![ssh](screenshots/master/ssh/ssh2.png)
+![ssh](screenshots/master/ssh/ssh3.png)
+
 ### Remote server
 
 After local private and public ssh key pair is created choosing `Remote server` to select which remote server to setup. It is required to [add](AddConfigurations.md) configuration before setting up passwordless logins.
@@ -23,12 +29,6 @@ Either double click or select a row and `OK` button.
 * `Scp rsa` - copy and paste command in Terminal.app to secure copy public rsa key.
 * `Scp dsa` - copy and paste command in Terminal.app to secure copy public dsa key
 ![ssh](screenshots/master/ssh/ssh4.png)
-
-### Create local ssh keys
-
-Choosing a `rsa` based key and select `Create keys`. Local keys are created by `ssh-keygen` and saved in `.ssh` local catalog. The output shows information from the `ssh-keygen` tool. If creation of local key is OK the output should be something like in view. And the `Rsa public key found` should be ticked on. Likewise for a `dsa` based key.
-![ssh](screenshots/master/ssh/ssh2.png)
-![ssh](screenshots/master/ssh/ssh3.png)
 
 ### Transfer public key to remote server
 
