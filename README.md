@@ -2,8 +2,8 @@
 
 Before installing and using RsyncOSX there are some important information to read and understand. The _first_ document is how to get and install RsyncOSX. The _second_ document is some information what RsyncOSX is and how to use the application. Please read the _second_ document before using the application.
 
-> - Getting and installing (#1) [RsyncOSX](docs/RsyncOSX.md).
-> - Important (#2) [information](docs/HowtoUseRsyncOSX.md) about what RsyncOSX is.
+ - Getting and installing (#1) [RsyncOSX](docs/RsyncOSX.md).
+ - Important (#2) [information](docs/HowtoUseRsyncOSX.md) about what RsyncOSX is.
 
 #### Changelog RsyncOSX
 
@@ -11,34 +11,34 @@ Please see the the [Changelog](docs/Changelog.md) for details about releases.
 
 #### A new project RcloneOSX
 
-I have commenced a **new project**, the new project [RcloneOSX](https://github.com/rsyncOSX/rcloneosx) is adapting RsyncOSX to utilize [rclone](https://rclone.org). The new project utilizes `rclone` command utililty for backup of files to cloud services as Dropbox and Micrsoft Onedrive. There is a short [intro](docs/RcloneOSX/Intro/Intro.md) to RcloneOSX. See also the [Changelog](docs/RcloneOSX/Changelog.md) for the project. 
+I have commenced a **new project**, the new project [RcloneOSX](https://github.com/rsyncOSX/rcloneosx) is adapting RsyncOSX to utilize [rclone](https://rclone.org). The new project utilizes `rclone` command utililty for backup of files to cloud services as Dropbox and Micrsoft Onedrive. There is a short [intro](docs/RcloneOSX/Intro/Intro.md) to RcloneOSX. See also the [Changelog](docs/RcloneOSX/Changelog.md) for the project.
 
 ### Using RsyncOSX
 
 The following are documents about using RsyncOSX.
 
-> - Short [intro](docs/Intro.md) to RsyncOSX
-> - Adding [configurations](docs/AddConfigurations.md) (backup and restore).
-> - Executing of [single tasks](docs/SingleTask.md) (configurations).
-> - Executing of [batch tasks](docs/BatchTask.md).
-> - Scheduling of [tasks](docs/ScheduleTasks.md).
-> - Restore of [single files or catalogs](docs/CopySingleFiles.md).
-> - [Logging](docs/Logging.md) execution of tasks.
-> - Some info about [user configuration](docs/UserConfiguration.md).
+- Short [intro](docs/Intro.md) to RsyncOSX
+- Adding [configurations](docs/AddConfigurations.md) (backup and restore).
+- Executing of [single tasks](docs/SingleTask.md) (configurations).
+- Executing of [batch tasks](docs/BatchTask.md).
+- Scheduling of [tasks](docs/ScheduleTasks.md).
+- Restore of [single files or catalogs](docs/CopySingleFiles.md).
+- [Logging](docs/Logging.md) execution of tasks.
+- Some info about [user configuration](docs/UserConfiguration.md).
 
 ### Passwordless logins
 
 Using RsyncOSX for backup to remote servers requiere to setup ssh passwordless login. What is ssh passwordless login? By using ssh private and public keypair, login to remote servers without password is enabled.
 
-> - How to enable [passwordless logins](docs/PasswordlessLogin.md).
-> - Or use RsyncOSX to assist setting up [passwordless](docs/ssh.md) logins.
+- How to enable [passwordless logins](docs/PasswordlessLogin.md).
+- Or use RsyncOSX to assist setting up [passwordless](docs/ssh.md) logins
 
 ### Parameters to rsync
 
 There are a couple of other important information about using RsyncOSX (and rsync):
 
-> - Parameters to [rsync](docs/Parameters.md).
-> - Some more info about standard [parameters to rsync](docs/RsyncParameters.md).
+- Parameters to [rsync](docs/Parameters.md).
+- Some more info about standard [parameters to rsync](docs/RsyncParameters.md).
 
 ### Apple App Store
 
@@ -79,6 +79,5 @@ RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516
 
 There are a few other documents in context of RsyncOSX. To enable remote storage of backups please read how to [enable passwordless logins](docs/PasswordlessLogin.md). Rsync utilises parameters. RsyncOSX can send extra (set by user) parameters to rsync.
 
-
-> - My [DIY NAS](docs/DIYNAS.md).
-> - The [idea](docs/Idea.md) behind RsyncOSX.
+- My [DIY NAS](docs/DIYNAS.md).
+- The [idea](docs/Idea.md) behind RsyncOSX.
