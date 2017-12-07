@@ -16,12 +16,24 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 
 ## Version 4.9.2 release candidate
 
-- v4.9.2 rc is released 4 Dec 2017
+- v4.9.2 rc is updated 7 Dec 2017
 	- the rc will be updated from tim to time
 - focus on GUI single tasks and batch
+- adding several shortcuts
+	- after selecting a row the following shortcuts are effective
+	- `⌘E` - shortcut for edit task
+	- `⌘O` - shortcut for rsync parameters to task
+	- `⌘D` - shortcut for delete task
+	- `⌘R` - shortcut for immediate execute task
+
 ![](screenshots/4.9.2rc/singletask1.png)
 ![](screenshots/4.9.2rc/singletask2.png)
 ![](screenshots/4.9.2rc/batch.png)
+![](screenshots/4.9.2rc/shortcuts2.png)
+
+If shortcut `⌘R` is pressed the backup task is executed immidialaty.
+![](screenshots/4.9.2rc/shortcuts1.png)
+
 
 ## Version 4.9.1
 

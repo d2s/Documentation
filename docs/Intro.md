@@ -53,9 +53,7 @@ See [copy files](CopySingleFiles.md) for more info.
 ## Logging
 
 RsyncOSX is logging all tasks. The user can choose in user configuration, to disable or enable detailed logging. Detailed logging is on as default. In log view all tasks with date, number of files and size transferred is logged. In the main view only date and time for last execution is set.
-![Main view](screenshots/master/logs.png)
-Searching (filter) logs shows logrecords by applying the filter.
-![Main view](screenshots/master/logs2.png)
+![Schedule](screenshots/master/logging/log1.png)
 See [logging](Logging.md) for more info.
 
 ## Ssh
