@@ -13,6 +13,7 @@ The temporary path for restoring single file or directory can be set in Configur
 Pressing `Get files` button starts the job to collect list of files and catalogs stored on remote server. Or job to get files is started by double click on row in list of sources.
 ![Schedule](screenshots/master/restore/source.png)
 ![Schedule](screenshots/master/restore/source1.png)
+![Schedule](screenshots/master/restore/source3.png)
 All backup locations are presented including backups to local volumes. For local volumes it might be better to use Finder in macOS. But it works for local volumes as well.
 
 Double click on row gets list of files from backup location. If single click select `Get files`.
