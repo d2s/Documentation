@@ -6,14 +6,21 @@ A short [intro](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Intro/In
 
 See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
-## Version 1.1.5 release candidate
+## Version 1.1.5
 
-- v1.1.5 rc is released 4 Dec 2017
-	- the rc will be updated from tim to time
+- v1.1.5 is released 8 Dec 2017
 - focus on GUI single tasks and batch
+- adding several shortcuts
+	- after selecting a row the following shortcuts are effective
+	- `⌘E` - shortcut for edit task
+	- `⌘O` - shortcut for rsync parameters to task
+	- `⌘D` - shortcut for delete task
+	- `⌘R` - shortcut for immediate execute task, executing task by shortcut seems to be more effective compared execute by batch and single tasks
+
 ![](1.1.5rc/singletask1.png)
 ![](1.1.5rc/singletask2.png)
 ![](1.1.5rc/batch.png)
+![](1.1.5rc/shortcuts2.png)
 
 ## Version 1.1.1
 
