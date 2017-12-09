@@ -3,15 +3,13 @@
 
 This page is a short intro to RsyncoSX and a brief walkthrough of the main functions of RsyncOSX. The intro is based on functionality in *version 4.9.1* of RsyncOSX. Some of the screenshots are previous versions. For more details about the various functions of RsyncOSX please see the documentation about each function. Make sure you understand the basics about how rsync works before using RsyncOSX (and rsync).
 ```
-Warning: default parameters for rsync is to synchronize the source
-and destination. A "restore" will delete all files in the source which
-are not in the destination. The main objective to RsyncOSX is to keep
-source directory and destination (backup) directory synchronized. When a
-source directory is backed up, the destination is 100% synchronized
-with the source in the moment the backup task is completed. There are
-no revisions of files in the backup in default RsyncOSX. Old files in
-the backup are either replaced with new ones or deleted if so is true in
-source.
+Warning: default parameters for rsync is to synchronize the source and destination.
+A "restore" will delete all files in the source which are not in the destination.
+The main objective to RsyncOSX is to keep source directory and destination (backup)
+directory synchronized. When a source directory is backed up, the destination is 100%
+synchronized with the source in the moment the backup task is completed. There are
+no revisions of files in the backup in default RsyncOSX. Old files in the backup are
+either replaced with new ones or deleted if so is true in source.
 ```
 If you want to save old or deleted files in the destination (the backup) there is a predefined parameter in user selected [parameters](Parameters.md).
 
