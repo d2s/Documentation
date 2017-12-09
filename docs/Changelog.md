@@ -16,7 +16,7 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 
 ## Version 4.9.2 release candidate
 
-- v4.9.2 rc is updated 7 Dec 2017
+- v4.9.2 rc is updated 9 Dec 2017
 	- the rc will be updated from tim to time
 - focus on GUI single tasks and batch
 - adding several shortcuts
@@ -26,11 +26,12 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 	- `⌘D` - shortcut for delete task
 	- `⌘R` - shortcut for immediate execute task
 
+If a task is executed by shortcut `⌘R`, a select of another row during execution will terminate (abort) the current task. Scheduled task also might be aborted by selection the stop symbol.
+
 ![](screenshots/4.9.2rc/singletask1.png)
 ![](screenshots/4.9.2rc/singletask2.png)
 ![](screenshots/4.9.2rc/batch.png)
 ![](screenshots/4.9.2rc/shortcuts2.png)
-
 If shortcut `⌘R` is pressed the backup task is executed immidialaty.
 ![](screenshots/4.9.2rc/shortcuts1.png)
 

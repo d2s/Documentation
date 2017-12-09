@@ -13,9 +13,11 @@ See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) t
 - adding several shortcuts
 	- after selecting a row the following shortcuts are effective
 	- `⌘E` - shortcut for edit task
-	- `⌘O` - shortcut for rsync parameters to task
+	- `⌘O` - shortcut for rclone parameters to task
 	- `⌘D` - shortcut for delete task
 	- `⌘R` - shortcut for immediate execute task, executing task by shortcut seems to be more effective compared execute by batch and single tasks
+
+If a task is executed by shortcut `⌘R`, a select of another row during execution will terminate (abort) the current task. Scheduled task also might be aborted by selection the stop symbol.
 
 ![](1.1.5rc/singletask1.png)
 ![](1.1.5rc/singletask2.png)
