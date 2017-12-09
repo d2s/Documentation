@@ -17,6 +17,19 @@ If you want to save old or deleted files in the destination (the backup) there i
 
 All configurations to execute are listed in table. From the main view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed. Configurations can be saved in user selected **profiles**. The **profile** in use is shown in label `Profile: name`. **Information** about *new:*, *delete:* files and *remote number* of directories are only available if version 3.x of rsync is used.
 
+## How to execute tasks
+
+There are four ways to execute tasks (`backup` tasks only). Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning above).
+- a double click on a row executes first a test run (`--dry-run`), the next double click executes the real task
+  - selecting another row after a `--dry-run` resets the work queue
+- `⌘R` - shortcut for immediate execute task after selecting a row
+  - if a task is executed by shortcut `⌘R`, a select of another row during execution will terminate (abort) the current task
+  - this is only available in version 4.9.2 (released as a rc)
+- mark backup tasks for batch, select the batch button executes all tasks marked for batch in one go
+- schedule a task, scheduled tasks are executed according to date and time, ether once, daily or weekly
+
+All tasks can be aborted during execution.
+
 ## Executing single tasks
 The <span style="color:red">red rows</span> indicates no connection to remote server. Selecting the TCP-button executes the check and marks configurations not available (no contact with remote server) red. RsyncOSX does a **background** check (informal only) for remote servers. The server `freenas.local` is a local NAS server (FreeNAS) and RsyncOSX does not find `freenas.local` outside my home and marks configurations red in table view.
 ![Main view](screenshots/master/main1.png)

@@ -4,11 +4,24 @@
 This page is a short intro to RcloneOSX and a brief walkthrough of the main functions of RcloneOSX.
 
 I have tested the following cloud services (enabled through `rclone config`):
-* Dropbox
-* Microsoft Onedrive
-* Google Drive
+
+- Dropbox
+- Microsoft Onedrive
+- Google Drive
 
 All configurations to execute are listed in table. From the main view most actions (edit configurations, adding parameters to rclone, delete configurations) regarding configurations are executed. Configurations can be saved in user selected **profiles**. The **profile** in use is shown in label `Profile: name`.
+
+## How to execute tasks
+
+There are four ways to execute tasks (`backup` tasks only). Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning above).
+- a double click on a row executes first a test run (`--dry-run`), the next double click executes the real task
+  - selecting another row after a `--dry-run` resets the work queue
+- `⌘R` - shortcut for immediate execute task after selecting a row
+  - if a task is executed by shortcut `⌘R`, a select of another row during execution will terminate (abort) the current task
+- mark backup tasks for batch, select the batch button executes all tasks marked for batch in one go
+- schedule a task, scheduled tasks are executed according to date and time, ether once, daily or weekly
+
+All tasks can be aborted during execution.
 
 ## Executing single tasks
 
