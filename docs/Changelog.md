@@ -16,8 +16,10 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 
 ## Version 4.9.2 release candidate
 
-- v4.9.2 rc is updated 9 Dec 2017
-	- the rc will be updated from tim to time
+Scheduling tasks is disabled in the rc. Schedules might be setup but it is not effective. Parts of the schedules needs refactor. Schedules will be enabled again when this version is released.
+
+- v4.9.2 rc is updated 10 Dec 2017
+	- the rc will be updated from time to time
 - focus on GUI single tasks and batch
 - adding several shortcuts
 	- after selecting a row the following shortcuts are effective

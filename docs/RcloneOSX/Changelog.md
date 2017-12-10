@@ -8,7 +8,9 @@ See also the [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) t
 
 ## Version 1.1.5
 
-- v1.1.5 is released 8 Dec 2017
+Scheduling tasks is disabled in this update. Schedules might be setup but it is not effective. Parts of the schedules needs refactor. Schedules will be enabled again when in next release.
+
+- v1.1.5 is updated 10 Dec 2017
 - focus on GUI single tasks and batch
 - adding several shortcuts
 	- after selecting a row the following shortcuts are effective
