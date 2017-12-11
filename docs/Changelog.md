@@ -18,7 +18,7 @@ Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in 
 
 Scheduling tasks is disabled in the rc. Schedules might be setup but it is not effective. Parts of the schedules needs refactor. Schedules will be enabled again when this version is released.
 
-- v4.9.2 rc is updated 10 Dec 2017
+- v4.9.2 rc is updated 11 Dec 2017
 	- the rc will be updated from time to time
 - focus on GUI single tasks and batch
 - adding several shortcuts
@@ -29,14 +29,15 @@ Scheduling tasks is disabled in the rc. Schedules might be setup but it is not e
 	- `⌘R` - shortcut for immediate execute task
 
 If a task is executed by shortcut `⌘R`, a select of another row during execution will terminate (abort) the current task. Scheduled task also might be aborted by selection the stop symbol.
-
 ![](screenshots/4.9.2rc/singletask1.png)
 ![](screenshots/4.9.2rc/singletask2.png)
 ![](screenshots/4.9.2rc/batch.png)
 ![](screenshots/4.9.2rc/shortcuts2.png)
 If shortcut `⌘R` is pressed the backup task is executed immidialaty.
 ![](screenshots/4.9.2rc/shortcuts1.png)
-
+Scheduling of tasks can be set up but they are **not** kicked off. A green mark is shown on a task if there are active schedules. The schedules view shows details about planned tasks.
+![](screenshots/4.9.2rc/schedule2.png)
+![](screenshots/4.9.2rc/schedule1.png)
 
 ## Version 4.9.1
 
