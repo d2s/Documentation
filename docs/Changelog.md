@@ -10,10 +10,6 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). See the [Changelog](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Changelog.html) for the new project.
 
-## Xcode 9, Swift 4 and macOS 10.13 High Sierra
-
-Apple has released macOS 10.13 High Sierra, Xcode 9 and Swift 4. The changes in Swift from version 3 -> 4 seems to be far less than from version 2 -> 3. [Migrating](https://swift.org/migration-guide/) the RsyncOSX to version 4 of Swift was done more or less by Xcode except from a few corrections by hand. The [code](https://github.com/rsyncOSX/RsyncOSX) is converted to Swift 4, compiled with Xcode 9 and tested on macOS 10.13.
-
 ## Version 4.9.2 release candidate
 
 Scheduling tasks is disabled in the rc. Schedules might be setup but it is not effective. Parts of the schedules needs refactor. Schedules will be enabled again when this version is released.
