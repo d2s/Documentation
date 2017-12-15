@@ -12,9 +12,9 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 ## Version 4.9.2 release candidate
 
-Scheduling tasks is disabled in the rc. Schedules might be setup but it is not effective. Parts of the schedules needs refactor. Schedules will be enabled again when this version is released.
+Scheduling tasks is working in the rc updated 15 Dec .
 
-- v4.9.2 rc is updated 11 Dec 2017
+- v4.9.2 rc is updated 15 Dec 2017
 	- the rc will be updated from time to time
 - focus on GUI single tasks and batch
 - adding several shortcuts
