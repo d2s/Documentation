@@ -14,7 +14,7 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 Scheduling tasks is working in the rc updated 15 Dec .
 
-- v4.9.2 rc is updated 15 Dec 2017
+- v4.9.2 rc is updated 16 Dec 2017
 	- the rc will be updated from time to time
 - focus on GUI single tasks and batch
 - adding several shortcuts
