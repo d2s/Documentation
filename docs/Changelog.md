@@ -10,12 +10,9 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). See the [Changelog](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Changelog.html) for the new project.
 
-## Version 4.9.2 release candidate
+## Version 4.9.2
 
-Scheduling tasks is working in the rc updated 15 Dec .
-
-- v4.9.2 rc is updated 16 Dec 2017
-	- the rc will be updated from time to time
+- v4.9.2 released 17 Dec 2017
 - focus on GUI single tasks and batch
 - adding several shortcuts
 	- after selecting a row the following shortcuts are effective
@@ -23,8 +20,8 @@ Scheduling tasks is working in the rc updated 15 Dec .
 	- `⌘O` - shortcut for rsync parameters to task
 	- `⌘D` - shortcut for delete task
 	- `⌘R` - shortcut for immediate execute task
+	- `⌘A` - Abort task
 
-If a task is executed by shortcut `⌘R`, a select of another row during execution will terminate (abort) the current task. Scheduled task also might be aborted by selection the stop symbol.
 ![](screenshots/4.9.2rc/singletask1.png)
 ![](screenshots/4.9.2rc/singletask2.png)
 ![](screenshots/4.9.2rc/batch.png)
