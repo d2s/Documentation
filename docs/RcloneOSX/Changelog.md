@@ -21,7 +21,9 @@ Scheduling tasks is disabled in this update. Schedules might be setup but it is 
 	- `⌘E` - shortcut for edit task
 	- `⌘O` - shortcut for rclone parameters to task
 	- `⌘D` - shortcut for delete task
-	- `⌘R` - shortcut for immediate execute task, executing task by shortcut seems to be more effective compared execute by batch and single tasks
+	- `⌘R` - shortcut for immediate execute task, executing
+	task by shortcut seems to be more effective compared execute by batch and single tasks
+	- `⌘A` - Abort task
 
 If a task is executed by shortcut `⌘R`, a select of another row during execution will terminate (abort) the current task. Scheduled task also might be aborted by selection the stop symbol.
 
