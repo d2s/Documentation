@@ -28,7 +28,7 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 ![](screenshots/4.9.2rc/shortcuts2.png)
 If shortcut `⌘R` is pressed the backup task is executed immidialaty.
 ![](screenshots/4.9.2rc/shortcuts1.png)
-Scheduling of tasks can be set up but they are **not** kicked off. A green mark is shown on a task if there are active schedules. The schedules view shows details about planned tasks.
+Scheduling of tasks. A green mark is shown on a task if there are active schedules. The schedules view shows details about planned tasks.
 ![](screenshots/4.9.2rc/schedule2.png)
 ![](screenshots/4.9.2rc/schedule1.png)
 
