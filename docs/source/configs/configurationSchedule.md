@@ -29,4 +29,13 @@ If the user deletes a task any scheduled operations are deleted as well.
 
 When a scheduled task is executing the user is not allowed to manually execute a task. RsyncOSX does also notify in view when a scheduled task is executing.
 
-A scheduled task is object of type [Operation](https://developer.apple.com/documentation/foundation/operation). When the time is due for scheduled task to execute RsyncOSX creates an [OperationQueue](https://developer.apple.com/documentation/foundation/operationqueue) and appends the [operation object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ExecuteTask.swift) to the [queue object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperation.swift). The queue object checks that all required conditions are met before executing the `main()` method in Operation object.
+There are two methods for executing scheduled tasks, either by using a `DispatchQueue` or a `OperationQueue`. A [factory](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/OperationFactory.swift) creates the object based on the user settings.
+
+#### DispatchQueue
+
+- [operation object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ExecuteTaskDispatch.swift)
+- [dispatch queue](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperationDispatch.swift)
+
+#### OperationQueue
+
+A scheduled task is object of type [Operation](https://developer.apple.com/documentation/foundation/operation). When the time is due for scheduled task to execute RsyncOSX creates an [OperationQueue](https://developer.apple.com/documentation/foundation/operationqueue) and appends the [operation object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ExecuteTaskTimer.swift) to the [queue object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperationTimer.swift). The queue object checks that all required conditions are met before executing the `main()` method in Operation object.
