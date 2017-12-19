@@ -33,9 +33,12 @@ There are two methods for executing scheduled tasks, either by using a `Dispatch
 
 #### DispatchQueue
 
+[DispatchQueue](https://developer.apple.com/documentation/dispatch/dispatchqueue)
 - [operation object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ExecuteTaskDispatch.swift)
 - [dispatch queue](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperationDispatch.swift)
 
 #### OperationQueue
 
-A scheduled task is object of type [Operation](https://developer.apple.com/documentation/foundation/operation). When the time is due for scheduled task to execute RsyncOSX creates an [OperationQueue](https://developer.apple.com/documentation/foundation/operationqueue) and appends the [operation object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ExecuteTaskTimer.swift) to the [queue object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperationTimer.swift). The queue object checks that all required conditions are met before executing the `main()` method in Operation object.
+[OperationQueue](https://developer.apple.com/documentation/foundation/operationqueue)
+- [operation object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ExecuteTaskTimer.swift)
+- [queue object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperationTimer.swift)
