@@ -8,13 +8,13 @@ The configurations are read from the permanent storage and kept in memory until 
   * the object is also responsible for initiate reading data from permanent store when the object is created
   * the object is also responsible for initiate a write operation after any change in configurations
 
-Every time a configurations are read from permanent store, the rsync arguments are [computed](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/RsyncProcessArguments.swift) and hold by the struct [ArgumentsOneConfiguration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ArgumentsOneConfiguration.swift) in memory. There are four types of arguments which are computed during startup, arguments for `--dry-run` and real run and both arguments for presentation on screen. Each configuration is allocated a uniq computed nonsense key `hiddenID = Int`.
+Every time configurations are read from permanent store, the rsync arguments are [computed](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/RsyncProcessArguments.swift) and the result is stored in memory only by the struct [ArgumentsOneConfiguration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ArgumentsOneConfiguration.swift). There are four types of arguments which are computed during startup, arguments for `--dry-run` and real run and both arguments for presentation on screen. Each configuration is allocated a uniq computed nonsense key `hiddenID = Int`.
 
-The object [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) creates an `Array<NSMutableDictionary>` which holds all data about `Configuration` and computed values of arguments. Computed values are **not** saved to permanent storage. They are computed when RsyncOSX starts or when a new profile is loaded. The object holds all data and methods about all tasks and parameters.
+The class [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) creates an `Array<NSMutableDictionary>` which holds all data about [Configuration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) and computed values of rsync arguments. Computed values are **not** saved to permanent storage. They are computed either when RsyncOSX starts or when a new profile is loaded. Any changes (change, delete, new operations) causes a read from permanent store. The [Configuration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) holds all data and methods about all tasks and parameters.
 
 ### Changes to configurations
 
-Changes to configurations (edit, delete, new, parameters to rsync) is a three step operation:
+Changes to configurations (change, delete, new, parameters to rsync) is a three step operation:
 
 - any change, delete or add operations to configurations are updated in memory (to the `Array<Configuration>`)
   - [Configuration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) is a struct holding all attributes for one task
