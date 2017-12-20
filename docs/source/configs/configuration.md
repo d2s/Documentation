@@ -4,7 +4,7 @@
 The configurations are read from the permanent storage and kept in memory until a new profile is loaded or RsyncOSX quits. Each record (one task) are read from permanent storage as a `NSDictionary` item and loaded into an `Array<Configuration>`.
 
 * the **struct** [Configuration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) holds data about one task
-* the **object** [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) holds all computed data and methods operating on tasks
+* the **class** [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) holds all computed data and methods operating on tasks
   * the object is also responsible for initiate reading data from permanent store when the object is created
   * the object is also responsible for initiate a write operation after any change in configurations
 
