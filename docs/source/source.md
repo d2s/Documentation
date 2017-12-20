@@ -19,7 +19,7 @@ Classes in Swift are *by reference* and both the  `configurations` and `schedule
 
 ## Configurations
 
-The `Configurations` objects holds required data, as an array of `configuration` objects, about all tasks including all parameters for rsync and user selected parameters. Adding a task results in two new `configuration` objects, one for backup and for restore. All `configuration` objects (a struct about one task) are stored in memory in an array of `Configurations` in order loaded from permanent storage. Last timestamp for execution is also stored in the `configuration` object.
+The `Configurations` objects holds required data, as an array of `configuration` objects, about all tasks including all parameters for rsync and user selected parameters. Adding a task results in two new `configuration` objects, one for backup and for restore. All `configuration` objects, which is a struct about one task, are stored in memory in an array of `configuration` objects in order loaded from permanent storage. Last timestamp for execution is also stored in the `configuration` object.
 
 Documentation of [Configurations](configs/configuration.md).
 
