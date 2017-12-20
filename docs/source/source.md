@@ -6,14 +6,16 @@ First will the data model and some of the methods operating on the data be docum
 
 Every time RsyncOSX [executes](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ProcessCmd.swift) a command, RsyncOSX is listening for two notifications `didTerminateNotification` and `NSFileHandleDataAvailable`. Those two notifications kicks of other functions depended upon the state of RsyncOSX.
 
-I am also adapting most of the code to [SwiftLint](https://github.com/realm/SwiftLint) guidelines for code. Most of the classes are compliant and a few are not. The main reason for this is I discovered SwiftLint to late in development. This project commenced because I wanted to learn Swift. And the codebase from start until now is quite different. 
+I am also adapting most of the code to [SwiftLint](https://github.com/realm/SwiftLint) guidelines for code. Most of the classes are compliant and a few are not. The main reason for this is I discovered SwiftLint to late in development. This project commenced because I wanted to learn Swift. And the codebase from beginning until now is quite different.
 
 
 # Data model
 
 The views has no knowledge about the models or data stored about configurations, schedules and logdata. Data presented in RsyncOSX are mostly table data. Presenting table data in all views utilizes the `NSTableViewDelegate`. All data which are saved to permanent storage (`configurations`, `schedules`, `logs` and `userconfig`) are stored as xml-files ([plist](https://en.wikipedia.org/wiki/Property_list) files). RsyncOSX does not utilize the Core Data because the data about `configurations`, `schedules` and `logs` are simple and there is no need for a complex datamodel.
 
-Data is read from permanent store and loaded when RsyncOSX starts and default view is loaded, or if a new profile is either selected or created. There are two main objects which holds the data about `configurations` and `schedules` including logdata. The objects lives during lifetime of RsyncOSX or until a profile is either selected or created. Classes in Swift are *by reference* and both the  `configurations` and `schedules` objects are created in the main view of RsyncOSX. Other objects utilizing data and methods in `configurations` and `schedules` objects are by protocol functions, getting the reference for the objects. The references to  `configurations` and `schedules` are `weak` to avoid strong references and memory leaks.
+Data is read from permanent store and loaded when RsyncOSX either starts or if a new profile is either selected or created. The main view loads and holds the data objects during lifetime of data. There are **two** main objects which holds the data about `configurations` and `schedules` including logdata. The objects lives during lifetime of RsyncOSX or until a profile is either selected or created.
+
+Classes in Swift are *by reference* and both the  `configurations` and `schedules` objects are created in the main view of RsyncOSX. Other objects utilizing data and methods in `configurations` and `schedules` objects are by protocol functions, getting the reference for the data objects. The references to  `configurations` and `schedules` are `weak` to avoid strong references and memory leaks.
 
 ## Configurations
 
