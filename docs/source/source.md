@@ -2,19 +2,24 @@
 
 This is documentation of the design and code of RsyncOSX. I have just commenced the process (June 2017) and it will take time to complete. Why am I doing it? Well, primary for fun but i might learn something from it as well. The design of RsyncOSX is based upon ideas of the [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern. One of the objectives in MVC is to separate the views and models.
 
-First will the data model and some of the methods operating on the data be documented. After that some of the high level details about how RsyncOSX is working. RsyncOSX kicks off the `rsync` utility to do the real work. The `rsync` is executed in a `Process` object. Every time RsyncOSX [executes](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ProcessCmd.swift) a command, RsyncOSX is listening for two notifications `didTerminateNotification` and `NSFileHandleDataAvailable`. Those two notifications kicks of other functions depended upon the state of RsyncOSX.
+First will the data model and some of the methods operating on the data be documented. After that some of the high level details about how RsyncOSX is working. RsyncOSX kicks off the `rsync` utility to do the real work. The `rsync` is executed in a `Process` object.
 
-Further documentation of code is put on hold until Xcode 9 and Swift 4 are released. There are quite a few changes to code compared to master branch and even more to do. The main reason for refactor code is to make code compliant with [SwiftLint](https://github.com/realm/SwiftLint) guidelines for coding in Swift.
+Every time RsyncOSX [executes](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ProcessCmd.swift) a command, RsyncOSX is listening for two notifications `didTerminateNotification` and `NSFileHandleDataAvailable`. Those two notifications kicks of other functions depended upon the state of RsyncOSX.
+
+I am also adapting most of the code to [SwiftLint](https://github.com/realm/SwiftLint) guidelines for code. Most of the classes are compliant and a few are not. The main reason for this is I discovered SwiftLint to late in development. This project commenced because I wanted to learn Swift. And the codebase from beginning until now is quite different.
+
 
 # Data model
 
 The views has no knowledge about the models or data stored about configurations, schedules and logdata. Data presented in RsyncOSX are mostly table data. Presenting table data in all views utilizes the `NSTableViewDelegate`. All data which are saved to permanent storage (`configurations`, `schedules`, `logs` and `userconfig`) are stored as xml-files ([plist](https://en.wikipedia.org/wiki/Property_list) files). RsyncOSX does not utilize the Core Data because the data about `configurations`, `schedules` and `logs` are simple and there is no need for a complex datamodel.
 
-Data is read from permanent store and loaded when RsyncOSX starts and default view is loaded, or if a new profile is either selected or created. There are two main objects which holds the data about `configurations` and `schedules` including logdata. The objects lives during lifetime of RsyncOSX or until a profile is either selected or created. Classes in Swift are *by reference* and both the  `configurations` and `schedules` objects are created in the main view of RsyncOSX. Other objects utilizing data and methods in `configurations` and `schedules` objects are by protocol functions, getting the reference for the objects. The references to  `configurations` and `schedules` are `weak` to avoid strong references and memory leaks.
+Data is read from permanent store and loaded when RsyncOSX either starts or if a new profile is either selected or created. The main view loads and holds the data objects during lifetime of data. There are **two** main objects which holds the data about `configurations` and `schedules` including logdata. The objects lives during lifetime of RsyncOSX or until a profile is either selected or created.
+
+Classes in Swift are *by reference* and both the  `configurations` and `schedules` objects are created in the main view of RsyncOSX. Other objects utilizing data and methods in `configurations` and `schedules` objects are by protocol functions, getting the reference for the data objects. The references to  `configurations` and `schedules` are `weak` to avoid strong references and memory leaks.
 
 ## Configurations
 
-A configuration holds required data about all tasks including all parameters for rsync and user selected parameters. Adding a task results in two new records, one for backup and for restore. All configurations are stored in memory in an Array of Configurations in order loaded from permanent storage. Last timestamp for execution is also stored in configuration.
+The `Configurations` objects holds required data, as an array of `configuration` objects, about all tasks including all parameters for rsync and user selected parameters. Adding a task results in two new `configuration` objects, one for backup and for restore. All `configuration` objects, which is a struct about one task, are stored in memory in an array of `configuration` objects in order loaded from permanent storage. Last timestamp for execution is also stored in the `configuration` object.
 
 Documentation of [Configurations](configs/configuration.md).
 
