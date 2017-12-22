@@ -20,22 +20,27 @@ Classes in Swift are *by reference* and both the  `configurations` and `schedule
 ## Configurations
 
 The class `Configurations` (plural) holds required data, as an `Array<Configuration>`, about all tasks including all parameters for rsync and user selected parameters. Adding a task results in two new `Configuration` objects, one for backup and for restore. All `Configuration` objects, which is a struct about one task, are stored in memory in an `Array<Configuration>` in order loaded from permanent storage. Last timestamp for execution is also stored in the `configuration` object.
+
 - the **struct** [Configuration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) holds data about one task
 - the **class** [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) holds all computed data and methods operating on tasks
+
 Documentation of [Configurations](configs/configuration.md).
 
 ## Scheduled tasks and log records
 
 All log records are stored in a Schedule record. For one task it might be several schedule records depended upon type of schedule and start of scheduled task. Only backup tasks can be scheduled, not restore task. The type of schedules are `manual`,`once`, `daily` and `monthly`. If Schedules is not used meaning only manually executed tasks, one Schedule record is created with type `manual`. All log records for this manually executed tasks are added to this record.
+
 Documentation of [scheduled tasks and log records](configs/configurationSchedule.md).
 
 
 ## Reading and writing data to permanent storage
 
 One object takes care of reading and writing data to permanent storage. The object is also responsible to either read or write data utilizing profiles.
+
 Documentation of [reading and writing](configs/readwrite.md).
 
 # Parameters to rsync
 
 Rsync utilizes a ton of parameters. RsyncOSX let the user pass any parameter to rsync. A few rsync parameters are predefined, both mandatory and user selected. Documentation of which rsync parameters are mandatory and predefined is [here](../Parameters.md).
+
 Documentation of [rsync parameters in RsyncOSX](parameters/parameters.md).
