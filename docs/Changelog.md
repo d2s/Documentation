@@ -10,6 +10,19 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). See the [Changelog](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Changelog.html) for the new project.
 
+## What is coming in version 4.9.5
+
+- a couple of minor bugfixes (logging)
+- new function for quick backups, sort and select which tasks to be executed in one go
+
+![](screenshots/4.9.5/quickbackup.png)
+Select which tasks to be exectued in one go. List is sorted by days since last execution.
+![](screenshots/4.9.5/select.png)
+Sort by remote catalog.
+![](screenshots/4.9.5/remote.png)
+Sort by remote server.
+![](screenshots/4.9.5/server.png)
+
 ## Version 4.9.2
 
 - v4.9.2 released 17 Dec 2017
