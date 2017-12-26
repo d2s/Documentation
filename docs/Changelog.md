@@ -12,6 +12,8 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 ## What is coming in version 4.9.5
 
+Will be released in January 2018. 
+
 - a couple of minor bugfixes (logging)
 - new function for quick backups, sort and select which tasks to be executed in one go
 
@@ -20,6 +22,9 @@ Select which tasks to be executed in one go. List is sorted by selecting the app
 ![](screenshots/4.9.5/select.png)
 After selection choose execute and tasks are executed. When task is completed the row is marked completed with a check flag.
 ![](screenshots/4.9.5/execute.png)
+Filter and select, filter by column.
+![](screenshots/4.9.5/filter.png)
+![](screenshots/4.9.5/filter2.png)
 
 ## Version 4.9.2
 
