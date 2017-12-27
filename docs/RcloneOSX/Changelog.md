@@ -4,6 +4,23 @@ There is a short [intro](https://github.com/rsyncOSX/Documentation/blob/master/d
 
 See also the [intro](https://github.com/rsyncOSX/Documentation/blob/master/docs/Intro.md) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
+## What is coming in version 1.2.5
+
+Will be released in January 2018.
+
+- a couple of minor bugfixes (logging)
+- new function for quick backups, sort and select which tasks to be executed in one go
+
+![](1.2.5/aboutrclone.png)
+![](1.2.5/quickbackup.png)
+Select which tasks to be executed in one go. List is sorted by selecting the appropriate column, by local catalog, remote catalog, remote server or days.
+![](1.2.5/select.png)
+After selection choose execute and tasks are executed. When task is completed the row is marked completed with a check flag.
+![](1.2.5/execute.png)
+Filter and select, filter by column.
+![](1.2.5/filter.png)
+![](1.2.5/log.png)
+
 ## Version 1.2.0
 
 - v1.2.0 released 17 Dec 2017
