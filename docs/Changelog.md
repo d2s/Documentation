@@ -14,12 +14,17 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 Will be released in January 2018.
 
-- a couple of minor bugfixes (logging)
+- a couple of minor bugfixes
+	- in logging
+	- in the ssh-tab for assisting setup of password less logins, when port number in use there is a bug
 - new function for quick backups, sort and select which tasks to be executed in one go
 
 ![](screenshots/4.9.5/aboutrsync.png)
 ![](screenshots/4.9.5/quickbackup.png)
 Select which tasks to be executed in one go. List is sorted by selecting the appropriate column, by local catalog, remote catalog, remote server or days.
+
+In right bottom of view the version number of the `rsync` utilized in RsyncOSX is shown.
+
 ![](screenshots/4.9.5/select.png)
 After selection choose execute and tasks are executed. When task is completed the row is marked completed with a check flag.
 ![](screenshots/4.9.5/execute.png)

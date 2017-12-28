@@ -14,6 +14,9 @@ Will be released in January 2018.
 ![](1.2.5/aboutrclone.png)
 ![](1.2.5/quickbackup.png)
 Select which tasks to be executed in one go. List is sorted by selecting the appropriate column, by local catalog, remote catalog, remote server or days.
+
+In right bottom of view the version number of the `rclone` utilized in RcloneOSX is shown.
+
 ![](1.2.5/select.png)
 After selection choose execute and tasks are executed. When task is completed the row is marked completed with a check flag.
 ![](1.2.5/execute.png)
