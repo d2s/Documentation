@@ -19,7 +19,9 @@ Will be released in January 2018.
 	- in the ssh-tab for assisting setup of password less logins, when port number in use there is a bug, thx to [pierre-fromager](https://github.com/pierre-fromager) reporting the bug
 	- bug in copy files when ssh port in use
 - new function for quick backups, sort and select which tasks to be executed in one go
+- new function for info about backup locations
 
+![](screenshots/4.9.5/remoteinfo.png)
 ![](screenshots/4.9.5/aboutrsync.png)
 
 In right bottom of view the version number of the `rsync` utilized in RsyncOSX is shown.
