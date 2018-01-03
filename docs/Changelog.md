@@ -20,15 +20,15 @@ Will be released in January 2018.
 	- bug in copy files when ssh port in use
 - new function for **quick backups**, sort and select which tasks to be executed in one go
 - new function for **info about backup locations**
-- new function for **doing quick backups** from the **info about backup locations**
+- new function for doing **quick backups** from the **info about backup locations**
 
 ![](screenshots/4.9.5/remoteinfo.png)
 ![](screenshots/4.9.5/aboutrsync.png)
 
-In right bottom of view the version number of the `rsync` utilized in RsyncOSX is shown.
+In right bottom of main view the version number of the `rsync` utilized in RsyncOSX is shown.
 
 ![](screenshots/4.9.5/start.png)
-Select catalogs which should be backed up and close view. If there is a selection the quick backup view will automatically opens.
+Select catalogs which should be backed up and close view. If there is a selection the Quick backup view will automatically opens with preselected tasks.
 ![](screenshots/4.9.5/remote.png)
 There might be preselected catalogs to be backed up from the info view. Select which tasks to be executed in one go. List is sorted by selecting the appropriate column, by local catalog, remote catalog, remote server or days.
 ![](screenshots/4.9.5/quickbackup.png)
