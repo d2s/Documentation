@@ -10,10 +10,9 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). See the [Changelog](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Changelog.html) for the new project.
 
-## What is coming in version 4.9.5
+## Version 4.9.5 release candidate
 
-Will be released in January 2018.
-
+- updated 6 January 2018
 - a couple of minor bugfixes
 	- in logging
 	- in the ssh-tab for assisting setup of password less logins, when port number in use there is a bug, thx to [pierre-fromager](https://github.com/pierre-fromager) reporting the bug
@@ -21,6 +20,7 @@ Will be released in January 2018.
 - new function for **quick backups**, sort and select which tasks to be executed in one go
 - new function for **info about backup locations**
 - new function for doing **quick backups** from the **info about backup locations**
+- in parameter view the rsync parameter `--compress` can be toggled on/off
 
 ![](screenshots/4.9.5/remoteinfo.png)
 ![](screenshots/4.9.5/aboutrsync.png)
