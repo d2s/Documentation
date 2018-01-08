@@ -9,6 +9,7 @@ See also the [intro](https://github.com/rsyncOSX/Documentation/blob/master/docs/
 - updated 6 January 2018
 - a couple of minor bugfixes (logging)
 - new function for quick backups, sort and select which tasks to be executed in one go
+- sort and filter in **quick backups**
 
 ![](1.2.5/aboutrclone.png)
 In right bottom of view the version number of the `rclone` utilized in RcloneOSX is shown.
