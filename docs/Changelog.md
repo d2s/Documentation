@@ -21,6 +21,7 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 - new function for **info about backup locations**
 - new function for doing **quick backups** from the **info about backup locations**
 - in parameter view the rsync parameter `--compress` can be toggled on/off
+- sort and filter in **quick backups** and **info about backup locations**
 
 ![](screenshots/4.9.5/remoteinfo.png)
 ![](screenshots/4.9.5/aboutrsync.png)
