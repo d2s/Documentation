@@ -12,7 +12,7 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 ## Version 4.9.5 release candidate
 
-- updated 6 January 2018
+- updated 8 January 2018
 - a couple of minor bugfixes
 	- in logging
 	- in the ssh-tab for assisting setup of password less logins, when port number in use there is a bug, thx to [pierre-fromager](https://github.com/pierre-fromager) reporting the bug
