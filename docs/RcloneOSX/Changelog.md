@@ -4,9 +4,9 @@ There is a short [intro](https://github.com/rsyncOSX/Documentation/blob/master/d
 
 See also the [intro](https://github.com/rsyncOSX/Documentation/blob/master/docs/Intro.md) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
-## Version 1.2.5 release candidate
+## Version 1.2.6
 
-- updated 8 January 2018
+- released 9 January 2018
 - a couple of minor bugfixes (logging)
 - new function for quick backups, sort and select which tasks to be executed in one go
 - sort and filter in **quick backups**
