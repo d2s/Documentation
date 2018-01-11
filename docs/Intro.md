@@ -17,12 +17,14 @@ All configurations to execute are listed in table. From the main view most actio
 
 ## How to execute tasks
 
-There are four ways to execute tasks (`backup` tasks only). Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning above).
+There are **five** ways to execute tasks (`backup` tasks only). Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning above).
 - a double click on a row executes first a test run (`--dry-run`), the next double click executes the real task
   - selecting another row after a `--dry-run` resets the work queue
+- quick backup
+  - select which tasks to execute in one go, selection is not saved
+  - start with dynamic view of local vs remote storage, selecting tasks to execute automatically opens the quick backup menu with preselected tasks
 - `⌘R` - shortcut for immediate execute task after selecting a row
   - if a task is executed by shortcut `⌘R`, a select of another row during execution will terminate (abort) the current task
-  - this is only available in version 4.9.2 (released as a rc)
 - mark backup tasks for batch, select the batch button executes all tasks marked for batch in one go
 - schedule a task, scheduled tasks are executed according to date and time, ether once, daily or weekly
 
@@ -36,6 +38,11 @@ Selecting the row indicates a estimate run is next. A **double click** on row ex
 The result of a estimate run is presented. Next task is *Execute*. Execute is the real run as indicated on left side in main view RsyncOSX. Selecting a new row resets the tasks. The number of files and size of all files is shown in bottom of view. During a real run a progress bar show the progress of backup or restore task. All tasks can be aborted during execution.
 
 See [single task](SingleTask.md) for more info.
+
+### Quick backup
+
+![Main view](screenshots/master/quickbackup/quick1.png)
+See [quick backup](Quickbackup.md) for more info.
 
 ### Batch mode
 
