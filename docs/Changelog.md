@@ -10,6 +10,15 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). See the [Changelog](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Changelog.html) for the new project.
 
+## Version 4.9.9 release candidate
+
+- updated 15 January 2018
+- enhancements in Quick Backup
+- also working on possibility for snapshots (not included in rc)
+
+![](screenshots/4.9.9rc/quick3.png)
+![](screenshots/4.9.9rc/quick1.png)
+
 ## Version 4.9.6
 
 - released 9 January 2018
