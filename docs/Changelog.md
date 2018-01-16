@@ -14,7 +14,21 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 - updated 15 January 2018
 - enhancements in Quick Backup
-- also working on possibility for snapshots (not included in rc)
+	-	selecting the i-button checks the local catalog with remote storage
+	- select which tasks to be executed and press the play button for executing tasks
+
+I am also working on a snapshot functionality in RsyncOSX. It is not yet included in rc, still have some design to do. The snapshot will be like:
+
+local catalog: Documents/
+
+remote catalog:
+- Documents/01 (or Documents/date) - snapshot 1
+- Documents/02 - snapshot 2
+- .....
+- Documents/NN - snapshot NN (and in sync with local catalog)
+	- Documents/current -> Documents/NN
+
+Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots.
 
 ![](screenshots/4.9.9rc/quick3.png)
 ![](screenshots/4.9.9rc/quick1.png)
