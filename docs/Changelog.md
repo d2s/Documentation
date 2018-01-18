@@ -17,17 +17,17 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 	-	selecting the i-button checks the local catalog with remote storage
 	- select which tasks to be executed and press the play button for executing tasks
 
-I am also working on a **snapshot** functionality in RsyncOSX. It is **not yet** included in rc. Within a week or two I will release a rc with alpha/beta of snapshot. I am doing snapshots now in test, but there are still missing some features and testing before releasing a rc..
-
 ![](screenshots/4.9.9rc/quick3.png)
 ![](screenshots/4.9.9rc/quick1.png)
+
+I am also working on a **snapshot** functionality in RsyncOSX. It is **not yet** included in rc. Within a week or two I will release a rc with alpha/beta of snapshot. I am doing snapshots now in test, but there are still missing some features and testing before releasing a rc..
 
 The snapshot will be like:
 
 local catalog: GitHub/
 
 remote catalog:
-- snapshots/GitHub/01 (or Documents/date) - snapshot 1
+- snapshots/GitHub/01 - snapshot 1
 - snapshots/GitHub/02 - snapshot 2
 - .....
 - snapshots/GitHub/NN - snapshot NN (and in sync with local catalog)
