@@ -1,4 +1,4 @@
-## Execute tasks in Quickbackup
+## Snapshots
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
