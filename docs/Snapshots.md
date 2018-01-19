@@ -38,3 +38,10 @@ The source catalog (`/Volumes/Home/thomas/Documents/`) is **never** touched, onl
 The terminal view shows there are two snapshots on server. When next task is executed there are three catalogs and `current` will point `current -> 3` (automatically set by RsyncOSX).
 
 ![Main view](screenshots/master/snapshots/snapshotroot1.png)
+
+## Search and restore
+
+I have not yet design a search and restore special for snapshots. By using the copy files functionality single files or catalogs can be restored from snapshots.
+
+![Main view](screenshots/master/snapshots/search1.png)
+![Main view](screenshots/master/snapshots/search2.png)
