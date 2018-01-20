@@ -2,15 +2,24 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-**Important**: the snapshot functionality is in beta yet. Use copy files function for restore of single files or catalogs. Snapshot works on attached disks (localhost) and remote hosts.
+**Important 1**: the snapshot functionality is in beta yet. Use copy files function for restore of single files or catalogs. Snapshot works on attached disks (localhost) and remote hosts.
+
+**Important 2**: snapshots is work in progress and for the moment, functions for administration of snapshots are missing.
+
+**Important 3**: standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots. Creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/Documents/1`)
 
 The snapshot will be like:
 
 local catalog:
+
 - `/Volume/home/thomas/Documents/`
 
 remote catalog:
+
+Snapshots are created (by rsync) within the
+
 - `~/snapshots/Documents/1` - snapshot 1
+  - a full sync when snapshot is created
 - `~/snapshots/Documents/2` - snapshot 2
 - .....
 - `~/snapshots/Documents/NN` - snapshot NN
@@ -25,17 +34,16 @@ The source catalog (`/Volumes/Home/thomas/Documents/`) is **never** touched, onl
 ### Create a snapshot task
 
 ![Main view](screenshots/master/snapshots/createtask.png)
-![Main view](screenshots/master/snapshots/readyforbackup.png)
 
 ### Ready for next snapshot
 
-![Main view](screenshots/master/snapshots/snapshottasks.png)
+![Main view](screenshots/master/snapshots/readyforbackup.png)
 
 ### Snapshots on server
 
 The terminal view shows there are two snapshots on server. When next task is executed there are three catalogs and `current` will point `current -> 3` (automatically set by RsyncOSX).
 
-![Main view](screenshots/master/snapshots/snapshotroot1.png)
+![Main view](screenshots/master/snapshots/snapshotroot.png)
 
 ## Search and restore
 
