@@ -41,7 +41,7 @@ The source catalog (`/Volumes/Home/thomas/Documents/`) is **never** touched, onl
 
 ### Snapshots on server
 
-The terminal view shows there are two snapshots on server. When next task is executed there are three catalogs and `current` will point `current -> 3` (automatically set by RsyncOSX).
+The terminal view shows there are two catalogs for snapshots on server.
 
 ![Main view](screenshots/master/snapshots/snapshotroot.png)
 
