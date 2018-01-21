@@ -45,9 +45,12 @@ The terminal view shows there are two catalogs for snapshots on server.
 
 ![Main view](screenshots/master/snapshots/snapshotroot.png)
 
-## Search and restore
+## Logs, search and restore
 
-I have not yet design a search and restore special for snapshots. By using the copy files functionality single files or catalogs can be restored from snapshots.
+I have not yet design a search and restore special for snapshots. By using the copy files functionality single files or catalogs can be restored from snapshots. Logs are marked with snapshot number.
 
-![Main view](screenshots/master/snapshots/search1.png)
-![Main view](screenshots/master/snapshots/search2.png)
+![Main view](screenshots/master/snapshots/copyfiles1.png)
+
+Filter all files in snapshot #2.
+
+![Main view](screenshots/master/snapshots/copyfiles2.png)
