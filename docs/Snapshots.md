@@ -8,6 +8,8 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 **Important 3**: standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots. Creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/Documents/1`)
 
+**Important 4**: The snapshot feature utilizes the `--link-dest` parameter. [Version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) of rsync fixed a bug regarding the parameter. It is recommended utilizing version 3.1.2 or the coming [version 3.1.3](https://download.samba.org/pub/rsync/src-previews/rsync-3.1.3pre1-NEWS) if using the snapshot feature of RsyncOSX.
+
 The snapshot will be like:
 
 local catalog:
