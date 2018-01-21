@@ -14,13 +14,18 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 - updated 21 January 2018
 - beta of [snapshots](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) is included in rc
-	- use snapshot for **test only**
 - enhancements in Quick Backup
 	-	selecting the i-button checks the local catalog with remote storage
 	- select which tasks to be executed and press the play button for executing tasks
 
 ![](screenshots/4.9.9rc/quick3.png)
 ![](screenshots/4.9.9rc/quick1.png)
+
+There is work on a [version 3.1.3](https://download.samba.org/pub/rsync/src-previews/rsync-3.1.3pre1-NEWS) of rsync. I have compiled the v 3.1.3 pre version for test.
+
+![](screenshots/4.9.9rc/rsync1.png)
+![](screenshots/4.9.9rc/rsync2.png)
+
 
 ## Version 4.9.6
 
