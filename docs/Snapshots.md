@@ -2,38 +2,41 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-**Important 1**: the snapshot functionality is in beta yet. Use copy files function for restore of single files or catalogs. Snapshot works on attached disks (localhost) and remote hosts.
+There are a few important notes about the snapshot functionality:
 
-**Important 2**: snapshots is work in progress and for the moment, functions for administration of snapshots are missing.
+- the snapshot functionality is in beta yet. Use copy files function for restore of single files or catalogs, snapshot works on attached disks (localhost) and remote hosts.
+- snapshots is work in progress and for the moment, function for administration of snapshots is yet not implemented
+- standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/Documents/1`)
+- the snapshot feature utilizes the `--link-dest` parameter,  [version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) of rsync fixed a bug regarding the parameter.
+  - it is recommended utilizing [version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) or the coming [version 3.1.3](https://download.samba.org/pub/rsync/src-previews/rsync-3.1.3pre1-NEWS) if using the snapshot feature of RsyncOSX
 
-**Important 3**: standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots. Creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/Documents/1`)
+## How does the snapshots works?
 
-**Important 4**: The snapshot feature utilizes the `--link-dest` parameter. [Version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) of rsync fixed a bug regarding the parameter. It is recommended utilizing version 3.1.2 or the coming [version 3.1.3](https://download.samba.org/pub/rsync/src-previews/rsync-3.1.3pre1-NEWS) if using the snapshot feature of RsyncOSX.
+Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the `--link-dest` parameter of rsync. The parameters for snapshot is:
+`--link-dest=~/snapshots/Documents/N-1 /Volumes/Home/thomas/Documents/ thomas@freenas.local:~/snapshots/Documents/N`
 
-The snapshot will be like:
+The source catalog (`/Volumes/Home/thomas/Documents/`) is **never** touched, only read by rsync.
 
-local catalog:
+Executing snapshots as for standard backup (synchronize) tasks. The snapshot is like:
+
+The local catalog (Documents catalog as sample catalog):
 
 - `/Volume/home/thomas/Documents/`
 
-remote catalog:
-
-Snapshots are created (by rsync) within the
+The snapshot catalogs:
 
 - `~/snapshots/Documents/1` - snapshot 1
   - a full sync when snapshot is created
 - `~/snapshots/Documents/2` - snapshot 2
 - .....
-- `~/snapshots/Documents/NN` - snapshot NN
-  - NN is the latest snapshot
+- `~/snapshots/Documents/N` - snapshot n
+  - n is the latest snapshot
 
-Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is set by using the `--link-dest` parameter of rsync. The parameters for snapshot is:
-
-`--link-dest=~/snapshots/Documents/2 /Volumes/Home/thomas/Documents/ thomas@freenas.local:~/snapshots/Documents/3`
-
-The source catalog (`/Volumes/Home/thomas/Documents/`) is **never** touched, only read by rsync.
+In the sample above the remote catalog `~/snapshots/Documents` is decided to be the root of snapshots.
 
 ### Create a snapshot task
+
+Select the snapshots in optional parameters to utilize snapshots. Only the backup part is created utilizing snapshots.
 
 ![Main view](screenshots/master/snapshots/createtask.png)
 
