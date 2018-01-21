@@ -5,15 +5,15 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 There are a few important notes about the snapshot functionality:
 
 - the snapshot functionality within RsyncOSX is in beta, use copy files function for restore of single files or catalogs, snapshot works on attached disks (localhost) and remote hosts
-- snapshots is work in progress and for the moment, function for administration of snapshots is yet not implemented
+- snapshot is work in progress and for the moment, function for administration of snapshots is yet not implemented
 - standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/Documents/1`)
 - the snapshot feature utilizes the `--link-dest` parameter,  [version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) of rsync fixed a bug regarding the parameter.
   - it is recommended utilizing [version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) or the coming [version 3.1.3](https://download.samba.org/pub/rsync/src-previews/rsync-3.1.3pre1-NEWS) if using the snapshot feature of RsyncOSX
 
 ## How does the snapshots works?
 
-Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the `--link-dest` parameter of rsync. The parameters for snapshot is:
-`--link-dest=~/snapshots/Documents/N-1 /Volumes/Home/thomas/Documents/ thomas@freenas.local:~/snapshots/Documents/N`
+Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the `--link-dest` parameter of rsync. The parameters for snapshot are:
+`--link-dest=~/snapshots/Documents/n-1 /Volumes/Home/thomas/Documents/ thomas@freenas.local:~/snapshots/Documents/n` where **n** is the number of snapshots.
 
 The source catalog (`/Volumes/Home/thomas/Documents/`) is **never** touched, only read by rsync.
 
@@ -41,6 +41,8 @@ Select the snapshots in optional parameters to utilize snapshots. Only the backu
 ![Main view](screenshots/master/snapshots/createtask.png)
 
 ### Ready for next snapshot
+
+The rsync command shows the command to be executed. Important: **do not** copy and paste command for execution within a terminal window. RsyncOSX does some required housekeeping after execution of a snapshot task. 
 
 ![Main view](screenshots/master/snapshots/readyforbackup.png)
 
