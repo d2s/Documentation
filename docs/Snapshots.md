@@ -29,7 +29,7 @@ The snapshot catalogs:
   - a full sync when snapshot is created
 - `~/snapshots/Documents/2` - snapshot 2
 - .....
-- `~/snapshots/Documents/N` - snapshot n
+- `~/snapshots/Documents/n` - snapshot n
   - n is the latest snapshot
 
 In the sample above the remote catalog `~/snapshots/Documents` is decided to be the root of snapshots.
@@ -42,7 +42,7 @@ Select the snapshots in optional parameters to utilize snapshots. Only the backu
 
 ### Ready for next snapshot
 
-The rsync command shows the command to be executed. Important: **do not** copy and paste command for execution within a terminal window. RsyncOSX does some required housekeeping after execution of a snapshot task. 
+The rsync command shows the command to be executed. Important: **do not** copy and paste command for execution within a terminal window. RsyncOSX does some required housekeeping after execution of a snapshot task.
 
 ![Main view](screenshots/master/snapshots/readyforbackup.png)
 
