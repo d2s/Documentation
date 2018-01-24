@@ -46,6 +46,12 @@ The rsync command shows the command to be executed. Important: **do not** copy a
 
 ![Main view](screenshots/master/snapshots/readyforbackup.png)
 
+### Snapshot administration
+
+Informal only yet.
+
+![Main view](screenshots/master/snapshots/snapshotadmin.png)
+
 ### Snapshots on server
 
 The terminal view shows there are two catalogs for snapshots on server.
