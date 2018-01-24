@@ -12,7 +12,8 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 ## Version 4.9.9 release candidate
 
-- updated 21 January 2018
+- updated 24 January 2018
+- commenced work on the snapshot admin, see tab snapshot, informal only yet
 - beta of [snapshots](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) is included in rc
 - enhancements in Quick Backup
 	-	selecting the i-button checks the local catalog with remote storage
