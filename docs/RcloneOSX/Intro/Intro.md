@@ -1,7 +1,7 @@
 
 ## The main opening view and a short intro to RcloneOSX
 
-This page is a short intro to RcloneOSX and a brief walkthrough of the main functions of RcloneOSX.
+This page is a short intro to RcloneOSX and a brief walkthrough of the main functions of RcloneOSX. The intro is based on a early version. There has been updates to the application after the intro was made. See [changelog](../Changelog.md).
 
 I have tested the following cloud services (enabled through `rclone config`):
 
