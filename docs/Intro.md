@@ -15,6 +15,13 @@ If you want to save old or deleted files in the destination (the backup) there i
 
 All configurations to execute are listed in table. From the main view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed. Configurations can be saved in user selected **profiles**. The **profile** in use is shown in label `Profile: name`. **Information** about *new:*, *delete:* files and *remote number* of directories are only available if version 3.x of rsync is used.
 
+## Kind of tasks
+
+In version 4.9.9 (not yet released - only as a release candidate), there are three types of backups:
+- synchronize source and backup locations, any old or deleted files and/or directories in backup locations will be deleted
+- as above, but you might add a parameter to rsync to save changed and/or deleted files in a separate backup locations
+- snapshot tasks, a snapshot of previous synchronize task is stored before a new task is executed, number of snapshots are user defined, copy deleted or previous versions of files from snapshots
+
 ## How to execute tasks
 
 There are **five** ways to execute tasks (`backup` tasks only). Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning above).
@@ -49,6 +56,10 @@ See [quick backup](Quickbackup.md) for more info.
 Tasks can be executed in one go in batch mode.
 ![Main view](screenshots/master/batchexecuting.png)
 See [batch task](BatchTask.md) for more info.
+
+## Snapshot tasks
+
+In development, see [snapshots](Snapshots.md).
 
 ## Adding configurations
 
