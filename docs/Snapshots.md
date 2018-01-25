@@ -13,9 +13,9 @@ There are a few important notes about the snapshot functionality:
 ## How does the snapshots works?
 
 Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the `--link-dest` parameter of rsync. The parameters for snapshot are:
-`--link-dest=~/snapshots/Documents/n-1 /Volumes/Home/thomas/Documents/ thomas@freenas.local:~/snapshots/Documents/n` where **n** is the number of snapshots.
+`--link-dest=~/snapshots/Documents/n-1 /Volumes/Home/thomas/Documents/ thomas@freenas.local:~/snapshots/Documents/n` where **n** is the number of snapshots and `/Volumes/Home/thomas/Documents/` is the source catalog.
 
-The source catalog (`/Volumes/Home/thomas/Documents/`) is **never** touched, only read by rsync.
+The source catalog `/Volumes/Home/thomas/Documents/` is **never** touched, only read by rsync.
 
 Executing snapshots as for standard backup (synchronize) tasks. The snapshot is like:
 
