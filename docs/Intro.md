@@ -17,12 +17,12 @@ All configurations to execute are listed in table. From the main view most actio
 
 ## Kind of tasks
 
-In version 4.9.9 (not yet released - only as a release candidate), there are three types of backups:
+In version 4.9.9 (released as a release candidate for the moment), there are three types of backups:
 - synchronize source and backup locations, any old or deleted files and/or directories in backup locations will be deleted
-- as above, but you might add a parameter to rsync to save changed and/or deleted files in a separate backup locations
-- snapshot tasks, a snapshot of previous synchronize task is stored before a new task is executed, number of snapshots are user defined, copy deleted or previous versions of files from snapshots
+- as above, but you might add a [parameters](Parameters.md) to rsync to save changed and/or deleted files in a separate backup locations
+- [snapshot](Snapshots.md) tasks, a snapshot of previous synchronize task is stored before a new task is executed, number of snapshots are user defined, copy deleted or previous versions of files from snapshots
 
-## How to execute tasks
+## How to execute any kind of task
 
 There are **five** ways to execute tasks (`backup` tasks only). Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning above).
 - a double click on a row executes first a test run (`--dry-run`), the next double click executes the real task
