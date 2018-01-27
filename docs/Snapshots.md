@@ -2,6 +2,8 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
+**Caution** : the snapshot functionality is in alpha and needs more testing and bug fixing. Use for **test** only.
+
 There are a few important notes about the snapshot functionality:
 
 - the snapshot functionality within RsyncOSX is in beta, use copy files function for restore of single files or catalogs, snapshot works on attached disks (localhost) and remote hosts
