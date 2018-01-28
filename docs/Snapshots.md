@@ -2,7 +2,11 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-**Caution** : the snapshot functionality is in alpha and needs more testing and bug fixing. Use for **test** only.
+**Caution, please read this**
+
+- the snapshot functionality is in beta and needs more testing and bug fixing before it is released
+- snapshots works on both local attached disks and remote hosts
+- the administration part (delete snapshots) does only work on remote hosts
 
 There are a few important notes about the snapshot functionality:
 
@@ -50,9 +54,9 @@ The rsync command shows the command to be executed. Important: **do not** copy a
 
 ### Snapshot administration
 
-Informal only yet.
+The administration part supports delete of the oldest snapshots, max 5 at each time.
 
-![Main view](screenshots/master/snapshots/snapshotadmin.png)
+![Main view](screenshots/master/snapshots/delete.png)
 
 ### Snapshots on server
 
