@@ -12,7 +12,7 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 ## Version 4.9.9 release candidate
 
-- updated 24 January 2018
+- updated 28 January 2018
 - commenced work on the snapshot admin, see tab snapshot, informal only yet
 - beta of [snapshots](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) is included in rc
 - enhancements in Quick Backup

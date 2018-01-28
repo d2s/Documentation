@@ -18,26 +18,25 @@ There are a few important notes about the snapshot functionality:
 ## How does the snapshots works?
 
 Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the `--link-dest` parameter of rsync. The parameters for snapshot are:
-`--link-dest=~/snapshots/Documents/n-1 /Volumes/Home/thomas/Documents/ thomas@freenas.local:~/snapshots/Documents/n` where **n** is the number of snapshots and `/Volumes/Home/thomas/Documents/` is the source catalog.
 
-The source catalog `/Volumes/Home/thomas/Documents/` is **never** touched, only read by rsync.
+`--link-dest=~/snapshots/Documents/n-1 /Volumes/Home/thomas/Documents/ thomas@freenas.local:~/snapshots/Documents/n`
 
-Executing snapshots as for standard backup (synchronize) tasks. The snapshot is like:
+where `n` is the number of snapshots and `/Volumes/Home/thomas/Documents/` is the source catalog. The source catalog `/Volumes/Home/thomas/Documents/` is **never** touched, only read by rsync. The snapshot is like:
 
 The local catalog (Documents catalog as sample catalog):
 
 - `/Volume/home/thomas/Documents/`
 
-The snapshot catalogs:
+The snapshot catalogs, the remote catalogs is `~/snapshots/Documents/`. RsyncOSX creates the snapshots within the remote catalog.
 
 - `~/snapshots/Documents/1` - snapshot 1
   - a full sync when snapshot is created
 - `~/snapshots/Documents/2` - snapshot 2
-- .....
+- the next snapshots saves the changed files and makes so called hard links for files not changed
 - `~/snapshots/Documents/n` - snapshot n
   - n is the latest snapshot
 
-In the sample above the remote catalog `~/snapshots/Documents` is decided to be the root of snapshots.
+When the old snapshots are deleted, the filesystem takes care of saving the real files which are hard linked.  In the sample above the remote catalog `~/snapshots/Documents/` is decided to be the root of snapshots.
 
 ### Create a snapshot task
 
@@ -47,13 +46,13 @@ Select the snapshots in optional parameters to utilize snapshots. Only the backu
 
 ### Ready for next snapshot
 
-The rsync command shows the command to be executed. Important: **do not** copy and paste command for execution within a terminal window. RsyncOSX does some required housekeeping after execution of a snapshot task.
+The rsync command shows the command to be executed. Important: **do not** copy and paste command for execution within a terminal window. RsyncOSX saves the number `n` - to the configuration - which is the next snapshot number. The number `n` is used when computing the parameter for rsync and is picked up from the configuration.
 
 ![Main view](screenshots/master/snapshots/readyforbackup.png)
 
 ### Snapshot administration
 
-The administration part supports delete of the oldest snapshots, max 5 at each time.
+The administration part supports delete of the oldest snapshots, max 5 at each time. After a delete the view is updated to reflect the current number of snapshot catalogs.
 
 ![Main view](screenshots/master/snapshots/delete.png)
 
