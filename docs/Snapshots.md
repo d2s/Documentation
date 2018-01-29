@@ -6,7 +6,6 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 - the snapshot functionality is in beta and needs some more testing before it is released
 - snapshots works on both local attached disks and remote hosts
-- the administration part (delete snapshots) does only work on remote hosts yet
 
 There are a few important notes about the snapshot functionality:
 
