@@ -10,6 +10,10 @@ Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any
 
 I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org). See the [Changelog](https://rsyncosx.github.io/Documentation/docs/RcloneOSX/Changelog.html) for the new project.
 
+## New version 3.1.3 of rsync
+
+There is 28 January 2018 released a new version of rsync - [version 3.1.3](https://rsync.samba.org/). I will include a .dmg file with lates release to install in /usr/local/bin as part of the new release 4.9.9 of RsyncOSX. If you plan to utilize the [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
+
 ## Version 4.9.9 release candidate
 
 - updated 28 January 2018
@@ -20,12 +24,6 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 ![](screenshots/4.9.9rc/quick3.png)
 ![](screenshots/4.9.9rc/quick1.png)
-
-There is work on a [version 3.1.3](https://download.samba.org/pub/rsync/src-previews/rsync-3.1.3pre1-NEWS) of rsync. I have compiled the v 3.1.3 pre version for test.
-
-![](screenshots/4.9.9rc/rsync1.png)
-![](screenshots/4.9.9rc/rsync2.png)
-
 
 ## Version 4.9.6
 
