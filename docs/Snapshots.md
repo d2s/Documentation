@@ -2,11 +2,11 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-**Caution, please read this**
+**Caution, please read this:**
 
-- the snapshot functionality is in beta and needs more testing and bug fixing before it is released
+- the snapshot functionality is in beta and needs some more testing before it is released
 - snapshots works on both local attached disks and remote hosts
-- the administration part (delete snapshots) does only work on remote hosts
+- the administration part (delete snapshots) does only work on remote hosts yet
 
 There are a few important notes about the snapshot functionality:
 
@@ -18,17 +18,17 @@ There are a few important notes about the snapshot functionality:
 
 ## How does the snapshots works?
 
-Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the `--link-dest` parameter of rsync. The parameters for snapshot are:
+Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the `--link-dest` parameter of rsync. The parameters for snapshots are:
 
 `--link-dest=~/snapshots/Documents/n-1 /Volumes/Home/thomas/Documents/ thomas@freenas.local:~/snapshots/Documents/n`
 
-where `n` is the number of snapshots and `/Volumes/Home/thomas/Documents/` is the source catalog. The source catalog `/Volumes/Home/thomas/Documents/` is **never** touched, only read by rsync. The snapshot is like:
+where `n` is the number of snapshots and `/Volumes/Home/thomas/Documents/` is the source catalog. The source catalog is **never** touched, only read by rsync.
 
-The local catalog (Documents catalog as sample catalog):
+The local catalog (the Documents catalog as sample catalog) is:
 
 - `/Volume/home/thomas/Documents/`
 
-The snapshot catalogs, the remote catalogs is `~/snapshots/Documents/`. RsyncOSX creates the snapshots within the remote catalog.
+The remote catalogs is `~/snapshots/Documents/` and RsyncOSX creates the snapshots within the remote catalog.
 
 - `~/snapshots/Documents/1` - snapshot 1
   - a full sync when snapshot is created
