@@ -12,7 +12,8 @@ There are a few important notes about the snapshot functionality:
 
 - standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/Documents/1`)
 - the snapshot feature utilizes the `--link-dest` parameter,  [version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) of rsync fixed a bug regarding the parameter.
-  - it is recommended utilizing [version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) or the coming [version 3.1.3](https://download.samba.org/pub/rsync/src-previews/rsync-3.1.3pre1-NEWS) if using the snapshot feature of RsyncOSX
+  - there is released a new version 3.1.3 of rsync 28 January 2018, see [RsyncOSX Readme](https://github.com/rsyncOSX/RsyncOSX) if you want to compile rsync yourself
+  - it is recommended utilizing [version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) or [version 3.1.3](https://download.samba.org/pub/rsync/src/rsync-3.1.3-NEWS) if using the snapshot feature of RsyncOSX
 - use copy files function for restore of single files or catalogs
 
 ## How does the snapshots works?
