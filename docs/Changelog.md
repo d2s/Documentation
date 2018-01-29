@@ -12,7 +12,7 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 ## New version 3.1.3 of rsync
 
-There is 28 January 2018 released a new version of rsync - [version 3.1.3](https://rsync.samba.org/). I will include a .dmg file with lates release to install in /usr/local/bin as part of the new release 4.9.9 of RsyncOSX. If you plan to utilize the [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
+There is 28 January 2018, released a new version of rsync - [version 3.1.3](https://rsync.samba.org/). I will include a .dmg file with latest version of rsync for manually copy in /usr/local/bin as part of the new release 4.9.9 of RsyncOSX. If you plan to utilize the [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
 ## Version 4.9.9 release candidate
 
