@@ -18,7 +18,7 @@ A compiled version of version 3.1.3 of rsync is included in the latest release c
 
 ## Version 4.9.9 release candidate
 
-- updated 29 January 2018
+- updated 30 January 2018
 - [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) is the main new feature in this release, included in rc
 - enhancements in Quick Backup
 	-	selecting the i-button checks and estimates the number of changed files compared to the remote storage
