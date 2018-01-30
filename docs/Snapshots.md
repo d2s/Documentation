@@ -7,7 +7,7 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 - the snapshot functionality is in beta and needs some more testing before it is released
 - snapshots works on both local attached disks and remote hosts
 
-There are a few important notes about the snapshot functionality:
+There are also a few important notes about the snapshot functionality:
 
 - standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/Documents/1`)
 - the snapshot feature utilizes the `--link-dest` parameter,  [version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) of rsync fixed a bug regarding the parameter.
