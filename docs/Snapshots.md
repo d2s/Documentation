@@ -52,7 +52,7 @@ The rsync command shows the command to be executed. Important: **do not** copy a
 
 ### Snapshot administration
 
-The administration part supports delete of the oldest snapshots, max 5 at each time. After a delete the view is updated to reflect the current number of snapshot catalogs.
+The administration part supports delete of the oldest snapshots, max 5 at each time. After a delete the view is updated to reflect the current number of snapshot catalogs. The rows to be deleted are marked red.
 
 ![Main view](screenshots/master/snapshots/delete.png)
 
