@@ -12,17 +12,18 @@ I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.git
 
 ## New version 3.1.3 of rsync
 
-There is 28 January 2018, released a new version of rsync - [version 3.1.3](https://rsync.samba.org/). I will include a .dmg file with latest version of rsync for manually copy in /usr/local/bin as part of the new release 4.9.9 of RsyncOSX. If you plan to utilize the [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
+There is 28 January 2018, released a new version of rsync - [version 3.1.3](https://rsync.samba.org/). I will include a .dmg file with latest version of rsync for manually install as part of the new release 4.9.9 of RsyncOSX. If you plan to utilize the [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
-A compiled version of version 3.1.3 of rsync is included in the latest release candidate.
+A compiled version of version 3.1.3 of rsync is included in the latest release candidate. My advise is to either compile your own version or install by utilizing homebrew.
 
 ## Version 4.9.9 release candidate
 
 - updated 29 January 2018
 - [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) is the main new feature in this release, included in rc
 - enhancements in Quick Backup
-	-	selecting the i-button checks the local catalog with remote storage
-	- select which tasks to be executed and press the play button for executing tasks
+	-	selecting the i-button checks and estimates the number of changed files compared to the remote storage
+	- select which tasks to be executed and press the play button for executing tasks immidialaty
+	- the progress of each task is presented (require an estimate first - the i-button)
 
 ![](screenshots/4.9.9rc/quick3.png)
 ![](screenshots/4.9.9rc/quick1.png)
