@@ -16,7 +16,7 @@ There is 28 January 2018, released a new version of rsync - [version 3.1.3](http
 
 A compiled version of version 3.1.3 of rsync is included in the latest release candidate. My advise is to either compile your own version or install by utilizing homebrew.
 
-## Version 4.9.9 release candidate
+## Version 5.0.0 release candidate
 
 - updated 30 January 2018
 - [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) is the main new feature in this release, included in rc
@@ -24,6 +24,7 @@ A compiled version of version 3.1.3 of rsync is included in the latest release c
 	-	selecting the i-button checks and estimates the number of changed files compared to the remote storage
 	- select which tasks to be executed and press the play button for executing tasks immidialaty
 	- the progress of each task is presented (require an estimate first - the i-button)
+- some minor cleanup in the schedule part
 
 ![](screenshots/4.9.9rc/quick3.png)
 ![](screenshots/4.9.9rc/quick1.png)
