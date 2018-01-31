@@ -2,13 +2,10 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-**Caution, please read this:**
+## Some notes about the snapshot feature
 
-- the snapshot functionality is in beta and needs some more testing before it is released
+The snapshot functionality is new, please read about it before using it.
 - snapshots works on both local attached disks and remote hosts
-
-There are also a few important notes about the snapshot functionality:
-
 - standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/catalogtobackup/1`)
 - the snapshot feature utilizes the `--link-dest` parameter, please use either version 3.1.2 or 3.1.3 of [rsync](https://rsync.samba.org/)
   - [version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) of rsync fixed a bug regarding the `--link-dest` parameter
