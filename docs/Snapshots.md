@@ -9,10 +9,11 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 There are also a few important notes about the snapshot functionality:
 
-- standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/Documents/1`)
-- the snapshot feature utilizes the `--link-dest` parameter,  [version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) of rsync fixed a bug regarding the parameter.
-  - there is released a new version 3.1.3 of rsync 28 January 2018, see [RsyncOSX Readme](https://github.com/rsyncOSX/RsyncOSX) if you want to compile rsync yourself
-  - it is recommended utilizing [version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) or [version 3.1.3](https://download.samba.org/pub/rsync/src/rsync-3.1.3-NEWS) if using the snapshot feature of RsyncOSX
+- standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/catalogtobackup/1`)
+- the snapshot feature utilizes the `--link-dest` parameter, please use either version 3.1.2 or 3.1.3 of [rsync](https://rsync.samba.org/)
+  - [version 3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) of rsync fixed a bug regarding the `--link-dest` parameter
+  - [version 3.1.3](https://download.samba.org/pub/rsync/src/rsync-3.1.3-NEWS) of rsync was released 28 January 2018
+    - see [RsyncOSX Readme](https://github.com/rsyncOSX/RsyncOSX) if you want to compile rsync yourself
 - use copy files function for restore of single files or catalogs
 
 ## How does the snapshots works?
@@ -32,7 +33,7 @@ The remote catalogs is `~/snapshots/Documents/` and RsyncOSX creates the snapsho
 - `~/snapshots/Documents/1` - snapshot 1
   - a full sync when snapshot is created
 - `~/snapshots/Documents/2` - snapshot 2
-- the next snapshots saves the changed files and makes so called hard links for files not changed
+  - the next snapshots saves the changed files and makes so called hard links for files not changed
 - `~/snapshots/Documents/n` - snapshot n
   - n is the latest snapshot
 
