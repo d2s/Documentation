@@ -22,7 +22,7 @@ RsyncOSX is released in version 5.0.0 (1 February 2018)
 - shasum : 12234b1b0b96063db8d75ed4a048db42aa59b211
 - see the [Changelog](Changelog.md) for info
 
-`/usr/bin/shasum ~/PathToDownload/RsyncOSX.dmg` to verify hash
+`/usr/bin/shasum ~/PathToDownload/RsyncOSX.zip` to verify hash
 
 To **install** RsyncOSX open the downloaded `RsyncOSX.zip` file and copy the `RsyncOSX.app` to Desktop or any other folder in your home catalog. The application is installed and used at your own risk and developer accepts no responsibility for any errors, omissions or loss of data by using the application.
 
