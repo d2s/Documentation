@@ -17,7 +17,7 @@ All configurations to execute are listed in table. From the main view most actio
 
 ## Kind of tasks
 
-In version 4.9.9 (released as a release candidate for the moment), there are three types of backups:
+In version 5.0.0 (released as a release candidate for the moment), there are three types of backups:
 - synchronize source and backup locations, any old or deleted files and/or directories in backup locations will be deleted
 - as above, but you might add a [parameters](Parameters.md) to rsync to save changed and/or deleted files in a separate backup locations
 - [snapshot](Snapshots.md) tasks, a snapshot of previous synchronize task is stored before a new task is executed, number of snapshots are user defined, copy deleted or previous versions of files from snapshots

@@ -22,7 +22,7 @@ either replaced with new ones or deleted if so is true in source.
 - _source_: the local volume to be copied
 - _destination_: the remote location where source files and catalogs are copied
 
-What about **revisions and deleted** files? In the [parameters to rsync](Parameters.md) there is presented a solution by parameters to rsync, to save changed and deleted files in a selected backup location.
+What about **revisions and deleted** files? Either use the [snapshot feature](Snapshots.md) or by [backup parameters](Parameters.md) to rsync.
 
 ## Why use RsyncOSX?
 
@@ -34,6 +34,8 @@ The following features are implemented in RsyncOSX:
   - an *estimation* run is required before the real task is executed (an estimation run is executed by the setting the `--dry-run` parameter to rsync)
   - either by a double click on row or by pressing the Execute button **after** the estimation progress indicator has stopped executes the real task
   - if another row (task) is selected after estimation is done a new estimation run is required
+- snapshots
+- quick backups
 - execute **batch** tasks
   - batch tasks are automatically executed until all are completed (the estimate run and execute run are executed in one go)
   - if you want tasks to be executed in one go mark them for batch

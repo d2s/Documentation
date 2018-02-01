@@ -17,14 +17,16 @@ I have commenced a **new project**, the new project [RcloneOSX](https://github.c
 
 The following are documents about using RsyncOSX.
 
-- Short [intro](docs/Intro.md) to RsyncOSX
-- Adding [configurations](docs/AddConfigurations.md) (backup and restore).
-- Executing of [single tasks](docs/SingleTask.md) (configurations).
-- Executing of [batch tasks](docs/BatchTask.md).
-- Scheduling of [tasks](docs/ScheduleTasks.md).
-- Restore of [single files or catalogs](docs/CopySingleFiles.md).
-- [Logging](docs/Logging.md) execution of tasks.
-- Some info about [user configuration](docs/UserConfiguration.md).
+- short [intro](docs/Intro.md) to RsyncOSX
+- adding [configurations](docs/AddConfigurations.md) (backup and restore)
+- executing of [single tasks](docs/SingleTask.md) (configurations)
+- executing of [batch tasks](docs/BatchTask.md)
+- utilizing the [snapshot feature](docs/Snapshots.md)
+- utilizing the [quick backup feature](docs/Quickbackup.md)
+- scheduling of [tasks](docs/ScheduleTasks.md)
+- restore of [single files or catalogs](docs/CopySingleFiles.md)
+- [logging](docs/Logging.md) execution of tasks
+- some info about [user configuration](docs/UserConfiguration.md)
 
 ### Passwordless logins
 
