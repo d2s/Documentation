@@ -16,15 +16,15 @@ I have uploaded a short (about 5 minutes) [YouTube video of RsyncOSX](https://ww
 
 ## Download link and install
 
-RsyncOSX is released in version 4.9.6 (9 Jan 2018)
+RsyncOSX is released in version 5.0.0 (1 February 2018)
 
-- [download](https://github.com/rsyncOSX/RsyncOSX/releases/download/v4.9.6/RsyncOSX.dmg) latest version of RsyncOSX
-- shasum : fd72f85857ea139e66ea75b3a5d11d6962a14bb3
+- [download](https://github.com/rsyncOSX/RsyncOSX/releases/download/v5.0.0/RsyncOSX.zip) latest version of RsyncOSX
+- shasum : 12234b1b0b96063db8d75ed4a048db42aa59b211
 - see the [Changelog](Changelog.md) for info
 
 `/usr/bin/shasum ~/PathToDownload/RsyncOSX.dmg` to verify hash
 
-To **install** RsyncOSX open the downloaded `RsyncOSX.dmg` file and copy the `RsyncOSX.app` to Desktop or any other folder in your home catalog. The application is installed and used at your own risk and developer accepts no responsibility for any errors, omissions or loss of data by using the application.
+To **install** RsyncOSX open the downloaded `RsyncOSX.zip` file and copy the `RsyncOSX.app` to Desktop or any other folder in your home catalog. The application is installed and used at your own risk and developer accepts no responsibility for any errors, omissions or loss of data by using the application.
 
 The application is signed with my Apple Developer ID certificate.
 

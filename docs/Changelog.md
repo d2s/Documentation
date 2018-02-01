@@ -16,9 +16,9 @@ There is 28 January 2018, released a new version of rsync - [version 3.1.3](http
 
 A compiled version of version 3.1.3 of rsync is included in the latest release candidate. My advise is to either compile your own version or install by utilizing homebrew.
 
-## Version 5.0.0 release candidate
+## Version 5.0.0
 
-- released 31 January 2018
+- released 1 February 2018
 - [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) is the main new feature in this release, included in rc
 - enhancements in Quick Backup
 	-	selecting the i-button checks and estimates the number of changed files compared to the remote storage
