@@ -19,7 +19,7 @@ A compiled version of version 3.1.3 of rsync is included in the latest release c
 ## Version 5.0.0
 
 - released 1 February 2018
-- [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) is the main new feature in this release, included in rc
+- [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) is the main new feature in this release
 - enhancements in Quick Backup
 	-	selecting the i-button checks and estimates the number of changed files compared to the remote storage
 	- select which tasks to be executed and press the play button for executing tasks immidialaty
