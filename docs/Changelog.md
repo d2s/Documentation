@@ -16,6 +16,12 @@ There is 28 January 2018, released a new version of rsync - [version 3.1.3](http
 
 A compiled version of version 3.1.3 of rsync is included in the latest release candidate. My advise is to either compile your own version or install by utilizing homebrew.
 
+## What next?
+
+I always looks for improvements and bugs in code. I also try to refactor code when I am learning new stuff about Swift and the refactor is beneficial. The next major enhancements in RsyncOSX will be a menu app to utilize scheduled backups. I don´t know yet when it will be available or how it will function.
+
+I also need some assistance in keeping the documents up to date.
+
 ## Version 5.0.0
 
 - released 1 February 2018
