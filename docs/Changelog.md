@@ -18,7 +18,7 @@ A compiled version of version 3.1.3 of rsync is included in the latest release c
 
 ## What next?
 
-I always looks for improvements and bugs in code. I also try to refactor code when I am learning new stuff about Swift and the refactor is beneficial. The next major enhancements in RsyncOSX will be a menu app to utilize scheduled backups. I don´t know yet when it will be available or how it will function.
+I always looks for improvements and bugs in code. I also try to refactor code when I am learning new stuff about Swift and the refactor is beneficial. The next major enhancements in RsyncOSX will be a [menu app](https://github.com/rsyncOSX/RsyncOSXsched) to utilize scheduled backups. I don´t know yet when it will be available or how it will function.
 
 I also need some assistance in keeping the documents up to date.
 
