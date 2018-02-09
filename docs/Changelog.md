@@ -24,6 +24,8 @@ to execute scheduled backups.
 
 The `menu app`is a stripped down or minimal version of RsyncOSX only capable of executing scheduled tasks. All editing of tasks and schedules are within RsyncOSX.
 
+**Important:** There are some issues regarding how to enter `daily` and `weekly` schedules.  There will be a minor redesign of the schedule part. The changes for all schedules will be to enter a start and type of schedule. The schedule will be active until stopped. This applies to schedules `daily` and `weekly`. Schedule `once` executes once, that is it..
+
 ## Version 5.0.0
 
 - released 1 February 2018
