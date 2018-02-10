@@ -29,6 +29,7 @@ The following are documents about using RsyncOSX.
 - restore of [single files or catalogs](docs/CopySingleFiles.md)
 - [logging](docs/Logging.md) execution of tasks
 - some info about [user configuration](docs/UserConfiguration.md)
+- the [menu app](docs/Menuapp.md)
 
 ### Passwordless logins
 
