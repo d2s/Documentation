@@ -21,3 +21,7 @@ Selecting the `Menuapp` in main view quits RsyncOSX and starts the menu applicat
 ![](screenshots/master/menuapp/sched5.png)
 The status light is green indicating there is an active task waiting for execution.
 ![](screenshots/master/menuapp/sched6.png)
+
+There is a minimal logging in menu app. The log is not saved to disk, it lives only during lifetime of menu app. The menu app logs the major actions within the menu app.
+![](screenshots/master/menuapp/log1.png)
+![](screenshots/master/menuapp/log2.png)
