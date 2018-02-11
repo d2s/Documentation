@@ -12,7 +12,9 @@ There is 28 January 2018, released a new version of rsync - [version 3.1.3](http
 
 A compiled version of version 3.1.3 of rsync is included in the latest release candidate. My advise is to either compile your own version or install by utilizing homebrew.
 
-## Next version
+## Version 5.0.1 release candidate
+
+Updated 11 February 2018
 
 I always looks for improvements and bugs in code. I also try to refactor code when I am learning new stuff about Swift and the refactor is beneficial. The next major enhancements in RsyncOSX is a
 * [menu app](https://github.com/rsyncOSX/RsyncOSXsched)
@@ -20,7 +22,7 @@ to execute scheduled backups.
 
 The `menu app`is a minimal version of RsyncOSX only capable of executing scheduled tasks. All editing of tasks and schedules are within RsyncOSX.
 
-**Important:** There are some issues regarding how to enter `daily` and `weekly` schedules in version 5.0.0 of RsyncOSX. The scheduled part is redesigned in next version. The changes for all schedules will be to enter a start and type of schedule. The schedules will be active until stopped. This applies to schedules `daily` and `weekly`. Schedule `once` executes once, that is it.
+**Important:** There are some issues regarding how to enter `daily` and `weekly` schedules in version 5.0.0 of RsyncOSX. The scheduled part is redesigned in the release candidate. To activate a schedule select start date and time and type of schedule. The schedules are active until *deleted* or *stopped*. Schedule `once` only executes once, `daily` and `weekly` until stopped or deleted.
 
 ## Version 5.0.0
 
