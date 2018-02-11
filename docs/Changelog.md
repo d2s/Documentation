@@ -24,8 +24,6 @@ The `menu app`is a minimal version of RsyncOSX only capable of executing schedul
 
 **Important:** There are some issues regarding how to enter `daily` and `weekly` schedules in version 5.0.0 of RsyncOSX. The scheduled part is redesigned in the release candidate. To activate a schedule select start date and time and type of schedule. The schedules are active until *deleted* or *stopped*. Schedule `once` only executes once, `daily` and `weekly` until stopped or deleted.
 
-For one task
-
 ## Version 5.0.0
 
 - released 1 February 2018
