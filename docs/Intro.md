@@ -18,13 +18,13 @@ All configurations to execute are listed in table. From the main view most actio
 ## Kind of tasks
 
 From version 5.0.0 of RsyncOSX, there are three types of backups:
-- synchronize source and backup locations, any old or deleted files and/or directories in backup locations will be deleted
+- synchronize source and backup location, any old or deleted files/directories in backup location will be deleted
 - as above, but you might add a [parameters](Parameters.md) to rsync to save changed and/or deleted files in a separate backup catalog
 - [snapshot](Snapshots.md) tasks, a snapshot of previous synchronize task is stored before a new task is executed, number of snapshots are user defined, copy deleted or previous versions of files from snapshots
 
 ## How to execute any kind of task
 
-There are **five** ways to execute tasks (`backup` tasks only). Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning above).
+There are **five** ways to execute tasks (`backup` tasks only).
 - a double click on a row executes first a test run (`--dry-run`), the next double click executes the real task
   - selecting another row after a `--dry-run` resets the work queue
 - quick backup
@@ -37,7 +37,10 @@ There are **five** ways to execute tasks (`backup` tasks only). Due to how a `re
 
 All tasks can be aborted during execution.
 
+Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning at top of page).
+
 ## Executing single tasks
+
 The <span style="color:red">red rows</span> indicates no connection to remote server. Selecting the TCP-button executes the check and marks configurations not available (no contact with remote server) red. RsyncOSX does a **background** check (informal only) for remote servers. The server `freenas.local` is a local NAS server (FreeNAS) and RsyncOSX does not find `freenas.local` outside my home and marks configurations red in table view.
 ![Main view](screenshots/master/main1.png)
 Selecting the row indicates a estimate run is next. A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in main view. An estimate run is a `--dry-run` execution of rsync. Tasks can also be executed in one go by selecting the batch button
