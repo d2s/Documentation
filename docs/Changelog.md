@@ -14,7 +14,7 @@ A compiled version of version 3.1.3 of rsync is included in the latest release c
 
 ## Version 5.0.1 release candidate
 
-Updated 11 February 2018
+Updated 19 February 2018
 
 I always looks for improvements and bugs in code. I also try to refactor code when I am learning new stuff about Swift and the refactor is beneficial. The next major enhancements in RsyncOSX is a
 * [menu app](https://github.com/rsyncOSX/RsyncOSXsched)
