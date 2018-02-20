@@ -2,19 +2,17 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-A scheduled task is only active within the profile in use. If you add a scheduled task in one profile and change profile, the schedule will be inactive until profile is loaded again. 
+The schedule part is redesigned in next version 5.0.1 - see [menu app](Menuapp.md).
 
-By selecting a row and choose schedule applies a scheduled backup to a task. There are three choices for schedules :
+A scheduled task is only active within the profile in use. If you add a scheduled task in one profile and change profile, the schedule will be inactive until profile is loaded again.  By selecting a row and choose schedule applies a scheduled backup to a task. There are three choices for schedules :
 
 - Once
 	- is executed _once_ at date and time given
 - Daily
 	- is executed _every 24-hour_ and stops at given date and time
-	- first task to be excuted in 24-hours
 first backup starts in 24-hour
 - Weekly
 	- as for daily, but _every 7 day_
-	- first task to be executed in 7 days
 
 Select task (row), set the start date and time and select the schedule (once, daily or weekly) to set up a schedule of backup. Every time RsyncOSX starts, the schedule is computed. Every time there is a change in a schedule the schedule is recomputed. The schedule is a stack of tasks. The top most element is the first task to be executed. RsyncOSX keeps track of the first task only. All other scheduled tasks remains on stack until popped of.
 
