@@ -6,10 +6,12 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.0.1 release candidate
 
-Updated 19 February 2018
+Updated 21 February 2018
 
 I always looks for improvements and bugs in code. I also try to refactor code when I am learning new stuff about Swift and the refactor is beneficial. The next major enhancements in RsyncOSX is a [menu app](https://github.com/rsyncOSX/RsyncOSXsched)
 to execute scheduled backups. The `menu app`is a minimal version of RsyncOSX only capable of executing scheduled tasks. All editing of tasks and schedules are within RsyncOSX.
+
+Some enhancements added and notifications when scheduled task is completed. 
 
 There are some issues regarding how to enter `daily` and `weekly` schedules in version 5.0.0 of RsyncOSX. The scheduled part is redesigned in the release candidate. To activate a schedule select start date and time and type of schedule. The schedules are active until *deleted* or *stopped*. Schedule `once` only executes once, `daily` and `weekly` until stopped or deleted.
 
