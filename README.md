@@ -2,8 +2,8 @@
 
 Before installing and using RsyncOSX there are some important information to read and understand. The _first_ document is how to get and install RsyncOSX. The _second_ document is some information what RsyncOSX is and how to use the application. Please read the _second_ document before using the application.
 
- - Getting and installing (#1) [RsyncOSX](docs/RsyncOSX.md).
- - Important (#2) [information](docs/HowtoUseRsyncOSX.md) about what RsyncOSX is.
+ - getting and installing (#1) [RsyncOSX](docs/RsyncOSX.md)
+ - important (#2) [information](docs/HowtoUseRsyncOSX.md) about what RsyncOSX is
 
 Utilizing rsync is a filebased sync or backup solution. There is no properitarian solution for archive, you can bail out of RsyncOSX anytime and still have access to all synced and backuped files.  
 
@@ -26,24 +26,24 @@ The following are documents about using RsyncOSX.
 - utilizing the [snapshot feature](docs/Snapshots.md)
 - utilizing the [quick backup feature](docs/Quickbackup.md)
 - scheduling of [tasks](docs/ScheduleTasks.md)
+  - the [menu app](docs/Menuapp.md) - minimal menu app version for executing scheduled tasks
 - restore of [single files or catalogs](docs/CopySingleFiles.md)
 - [logging](docs/Logging.md) execution of tasks
 - some info about [user configuration](docs/UserConfiguration.md)
-- the [menu app](docs/Menuapp.md)
 
 ### Passwordless logins
 
-Using RsyncOSX for backup to remote servers requiere to setup ssh passwordless login. What is ssh passwordless login? By using ssh private and public keypair, login to remote servers without password is enabled.
+Using RsyncOSX for backup to remote servers require to setup ssh passwordless login. What is ssh passwordless login? By using ssh private and public pair of keys enables a more secure method to login to remote servers without password.
 
-- How to enable [passwordless logins](docs/PasswordlessLogin.md).
-- Or use RsyncOSX to assist setting up [passwordless](docs/ssh.md) logins
+- how to use RsyncOSX to assist in setting up [passwordless](docs/ssh.md) logins
+- or enable [passwordless logins](docs/PasswordlessLogin.md) manually
 
 ### Parameters to rsync
 
 There are a couple of other important information about using RsyncOSX (and rsync):
 
-- Parameters to [rsync](docs/Parameters.md).
-- Some more info about standard [parameters to rsync](docs/RsyncParameters.md).
+- parameters to [rsync](docs/Parameters.md)
+- some more info about standard [parameters to rsync](docs/RsyncParameters.md)
 
 ### Apple App Store
 
@@ -74,6 +74,8 @@ In RsyncOSX select [RsyncOSX configuration](https://github.com/rsyncOSX/Document
 
 ## YouTube
 
+The YouTube video of RsyncOSX is an old version. There has been several updates to RsyncOSX since then. But the core functionality of RsyncOSX is demonstrated.
+
 I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www.youtube.com/watch?v=ty1r7yvgExo) : "Downloading RsyncOSX, installing, first time configuration and using RsyncOSX for the first time. Backup (as demo) of about 120 MB of data and 4000 files to a VirtualBox FreeBSD machine."
 
 ## MacUpdate and Softpedia
@@ -84,5 +86,5 @@ RsyncOSX is also released on [MacUpdate](https://www.macupdate.com/app/mac/56516
 
 There are a few other documents in context of RsyncOSX. To enable remote storage of backups please read how to [enable passwordless logins](docs/PasswordlessLogin.md). Rsync utilises parameters. RsyncOSX can send extra (set by user) parameters to rsync.
 
-- My [DIY NAS](docs/DIYNAS.md).
-- The [idea](docs/Idea.md) behind RsyncOSX.
+- my [DIY NAS](docs/DIYNAS.md)
+- the [idea](docs/Idea.md) behind RsyncOSX
