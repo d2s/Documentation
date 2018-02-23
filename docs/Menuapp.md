@@ -13,16 +13,18 @@ A notification is submitted when a scheduled tasks is completed.
 ![](screenshots/master/menuapp/notifications1.png)
 
 Adding scheduled for tasks in RsyncOSX. After adding tasks either keep RsyncOSX running or select main menu and select the menuapp button. If you decide to let RsyncOSX execute the scheduled tasks remember to set the correct settings in user configuration.
-![](screenshots/master/menuapp/sched1.png)
-Double click on row brings up details about schedules and logs for one task.
-![](screenshots/master/menuapp/sched3.png)
-The green and yellow lights in column `Schedule` indicates two scheduled tasks within next hour (green lights) and one more than one hour (yellow light).
-![](screenshots/master/menuapp/sched2.png)
-Selecting the `Menuapp` in main view quits RsyncOSX and starts the menu application. The default profile is selected when it starts. There are no active schedules in the `default` profile. Selecting profile `Snapshots` (the menu app reads any profile created within RsyncOSX) activates any scheduled tasks in profile. Only scheduled tasks in selected profile is activated.
 ![](screenshots/master/menuapp/sched4.png)
+Double click on row brings up details about schedules and logs for one task.
+![](screenshots/master/menuapp/sched1.png)
+The green bullet in column `Schedule` indicates two scheduled tasks within next hour (green lights). Selecting the `Menuapp` in main view quits RsyncOSX and starts the menu application. The default profile is selected when it starts.
+![](screenshots/master/menuapp/sched2.png)
+The status light is green indicates there are active tasks waiting for execution.
 ![](screenshots/master/menuapp/sched5.png)
-The status light is green indicating there is an active task waiting for execution.
+The scheduled tasks are completed.
 ![](screenshots/master/menuapp/sched6.png)
+The menu app logs backups.
+
+### Logging
 
 There is a minimal logging in menu app. The log is not saved to disk, it lives only during lifetime of menu app. The menu app logs the major actions within the menu app.
 ![](screenshots/master/menuapp/log1.png)
