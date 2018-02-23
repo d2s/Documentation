@@ -1,18 +1,18 @@
 ## RsyncOSXsched and menu app
 
-There are some issues regarding how to enter `daily` and `weekly` schedules.  There will be a minor redesign of the schedule part. The changes for all schedules will be to enter a start and type of schedule. The schedule will be active until stopped. This applies to schedules `daily` and `weekly`. Schedule `once` executes once, that is it. The updated release candidate includes a revised schedule.
+Updated 22 Feb 2018: The app is [released](https://github.com/rsyncOSX/RsyncOSX/releases) as release candidate together with RsyncOSX. This is probably the last release candidate before release in beginning of March.
 
-Initial listing v0.0.1, it compiles and executes but still need some more testing before released. This is the menu app (popover) for executing scheduled tasks RsyncOSX. The idea is add scheduled tasks in RsyncOSX, quit RsyncOSX and let the menu app take care of executing the scheduled tasks. Only scheduled tasks from the selected (active) profile is active.
+This is the menu app (popover) for executing scheduled tasks RsyncOSX. The idea is to add scheduled tasks in RsyncOSX, quit RsyncOSX and let the menu app take care of executing the scheduled tasks.
 
-The menu app can be started from RsyncOSX and RsyncOSX can be activated from the menu app. This require paths for both apps to be entered into user configuration.  The paths are used for activating the apps from either within RsyncOSX or RsyncOSXsched. Toggle on/off if scheduled tasks in menu app only.
+Only scheduled tasks from the selected profile is active. In the release candidate there is an option to execute scheduled tasks within the menu app. Technically it is possible to execute scheduled tasks in both RsyncOSX and the menu app. A flag in RsyncOSX indicates where the scheduled tasks is set to be executed. If both RsyncOSX and the menu app is active at the same time only one of them is allowed to executed scheduled tasks.
+
+The menu app can be started from RsyncOSX and RsyncOSX can be activated from the menu app. This require paths for both apps to be entered into userconfiguration.  The paths are used for activating the apps from either within RsyncOSX or RsyncOSXsched.
 ![](screenshots/master/menuapp/sched0.png)
-Adding scheduled for tasks (in profile `Snapshots`) in RsyncOSX. After adding tasks either keep RsyncOSX running or select main menu and select the button `Menuapp`.
-
 A notification is submitted when a scheduled tasks is completed.
 
 ![](screenshots/master/menuapp/notifications1.png)
-![](screenshots/master/menuapp/notifications2.png)
 
+Adding scheduled for tasks in RsyncOSX. After adding tasks either keep RsyncOSX running or select main menu and select the menuapp button. If you decide to let RsyncOSX execute the scheduled tasks remember to set the correct settings in user configuration.
 ![](screenshots/master/menuapp/sched1.png)
 Double click on row brings up details about schedules and logs for one task.
 ![](screenshots/master/menuapp/sched3.png)
