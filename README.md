@@ -5,7 +5,7 @@ Before installing and using RsyncOSX there are some important information to rea
  - getting and installing (#1) [RsyncOSX](docs/RsyncOSX.md)
  - important (#2) [information](docs/HowtoUseRsyncOSX.md) about what RsyncOSX is
 
-Utilizing rsync is a filebased sync or backup solution. There is no properitarian solution for archive, you can bail out of RsyncOSX anytime and still have access to all synced and backuped files.  
+Utilizing rsync is a filebased sync or backup solution. There is no properitarian solution for archive, you can bail out of RsyncOSX anytime and still have access to all synced files.  
 
 #### Changelog RsyncOSX
 
@@ -26,7 +26,7 @@ The following are documents about using RsyncOSX.
 - utilizing the [snapshot feature](docs/Snapshots.md)
 - utilizing the [quick backup feature](docs/Quickbackup.md)
 - scheduling of [tasks](docs/ScheduleTasks.md)
-  - the [menu app](docs/Menuapp.md) - minimal menu app version for executing scheduled tasks
+  - the [menu app](docs/Menuapp.md) - a minimal app for executing scheduled tasks only
 - restore of [single files or catalogs](docs/CopySingleFiles.md)
 - [logging](docs/Logging.md) execution of tasks
 - some info about [user configuration](docs/UserConfiguration.md)
@@ -59,11 +59,11 @@ I have setup up my own [NAS](docs/DIYNAS.md). I am doing backups by using RsyncO
 
 ## Rsync
 
-In last release image (RsyncOSX.dmg) there is a `rsync-3.1.2.dmg` which includes a built version of latest version of rsync. To install this version of rsync please make a catalog on your mac (e.g. `/usr/local/bin`) and make RsyncOSX aware of using the new rsync in [userconfig](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html). A compiled version of rsync will be included in every coming release of RsyncOSX.
+In last release image (RsyncOSX.zip) there is a `rsync-3.1.3.dmg` which includes a built version of latest version of rsync. See the `readme.txt` and make RsyncOSX aware of using the new rsync in [userconfig](https://github.com/rsyncOSX/Documentation/blob/master/docs/UserConfiguration.md).
 
-The default version of `rsync` in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version [2.6.9](https://download.samba.org/pub/rsync/src/rsync-2.6.9-NEWS) was released in nov 2006. The current release of rsync is version [3.1.2](https://download.samba.org/pub/rsync/src/rsync-3.1.2-NEWS) protocol 31 released 21 Dec 2015. There are at least three options to get and install the current version of rsync for use in RsyncOSX:
+The default version of `rsync` in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version [2.6.9](https://download.samba.org/pub/rsync/src/rsync-2.6.9-NEWS) was released in nov 2006. The current release of rsync is version [3.1.3](https://download.samba.org/pub/rsync/src/rsync-3.1.3-NEWS) protocol 31 released 28 January 2018. There are at least three options to get and install the current version of rsync for use in RsyncOSX:
 
-- use the `rsync-3.1.2.dmg` within `RsyncOSX.dmg`to install the latest version of rsync
+- use the `rsync-3.1.3.dmg` within `RsyncOSX.zip`to install the latest version of rsync (from version 5.0.0 of RsyncOSX)
 - install Xcode and download the rsync [source](https://rsync.samba.org/) from rsync.samba.org
 	- required tools are `gcc` and `make` which are part of Xcode command line tool (you might be able to install Xcode command line tool only by downloading the tools from [Apple Developer page](https://developer.apple.com/))
 	- untar the source archive and use `make` to compile and install, rsync compiles without any issues on macOS
