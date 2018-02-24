@@ -23,7 +23,7 @@ All configurations to execute are listed in table. From the main view most actio
 ## Kind of tasks
 
 From version 5.0.0 of RsyncOSX, there are three types of backups:
-- synchronize source and backup location, any old or deleted files/directories in backup location will be deleted
+- *synchronize* source and backup location, any old or deleted files or directories in backup location will be deleted
 - as above, but you might add a [parameters](Parameters.md) to rsync to save changed and/or deleted files in a separate backup catalog
 - [snapshot](Snapshots.md) tasks, a snapshot of previous synchronize task is stored before a new task is executed, number of snapshots are user defined, copy deleted or previous versions of files from snapshots
 
@@ -38,11 +38,11 @@ There are **five** ways to execute tasks (`backup` tasks only).
 - `⌘R` - shortcut for immediate execute task after selecting a row
   - if a task is executed by shortcut `⌘R`, a select of another row during execution will terminate (abort) the current task
 - mark backup tasks for batch, select the batch button executes all tasks marked for batch in one go
-- schedule a task, scheduled tasks are executed according to date and time, ether once, daily or weekly
+- schedule a task, scheduled tasks are executed according to date and time, either once, daily or weekly
 
 All tasks can be aborted during execution.
 
-Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning at top of page).
+Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning at top of page). Files can also be restored by using the [copy single files](CopySingleFiles.md)
 
 ## Executing single tasks
 
@@ -77,9 +77,8 @@ See [add configurations](AddConfigurations.md) for more info.
 
 ## Scheduling tasks
 
-Only **backup** tasks can be scheduled. When a task is scheduled RsyncOSX counts down when task is kicked off. The first scheduled task to be executed is marked green in table and the column `In` shows when task is due for execution.
-![Main view](screenshots/master/scheduling/schedule1.png)
-See [schedules](ScheduleTasks.md) for more info.
+Only **backup** or **snapshot** tasks can be scheduled.
+See [menu app](Menuapp.md) for more info.
 
 ## Copy files
 
