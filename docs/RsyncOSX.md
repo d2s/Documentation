@@ -23,7 +23,7 @@ RsyncOSX is released in version 5.1.1 (27 February 2018)
 - [download zip pkg archive](https://github.com/rsyncOSX/RsyncOSX/releases/download/v5.1.1/RsyncOSXpkg.zip)
 	- unzip and start installer for both apps, the installer copy the apps to the /Application folder
 - shasum zip archive: 1ae9b3bbd3fdc01c77b63f407ac77415f6171991
-- shausm zip pkg archive: dd803eac298fb479a6cbbef5addc4af469c91cc6
+- shasum zip pkg archive: dd803eac298fb479a6cbbef5addc4af469c91cc6
 - see the [Changelog](Changelog.md) for info
 
 `/usr/bin/shasum ~/PathToDownload/RsyncOSX.zip` or `/usr/bin/shasum ~/PathToDownload/RsyncOSXpkg.zip`to verify hash
