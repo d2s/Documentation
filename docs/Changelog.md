@@ -4,16 +4,16 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
-## Version 5.1.0 release candidate
+## Version 5.1.1
 
-Released 22 February 2018
+Released 27 February 2018
 
-The next major enhancements in RsyncOSX is a [menu app](https://github.com/rsyncOSX/RsyncOSXsched)
-to execute scheduled backups. The `menu app`is a minimal version of RsyncOSX only capable of executing scheduled tasks. All editing of tasks and schedules are within RsyncOSX.
-
-Added notifications when scheduled task is completed.
-
-The scheduled part is redesigned in the release candidate. To activate a schedule select start date and time and type of schedule. The schedules are active until *deleted* or *stopped*. Schedule `once` only executes once, `daily` and `weekly` until stopped or deleted.
+- added a [menu app](https://github.com/rsyncOSX/RsyncOSXsched)
+to execute scheduled backups, the `menu app`is a minimal version of RsyncOSX only capable of executing scheduled tasks.
+	- all editing of tasks and schedules are within RsyncOSX
+- added notifications when scheduled task is completed
+- the scheduled part is redesigned in the release candidate, to activate a schedule select start date and time and type of schedule.
+	- the schedules are active until *deleted* or *stopped*. Schedule `once` only executes once, `daily` and `weekly` until stopped or deleted
 
 ## Version 5.0.0
 
