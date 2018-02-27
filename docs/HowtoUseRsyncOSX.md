@@ -2,14 +2,13 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-RsyncOSX is a GUI for the rsync command-line tool. The main uses are:
+RsyncOSX is a GUI for the rsync command-line tool. The main use are:
 
-- backup (and restore) local files on Mac to remote servers connected to Internet or local network
-  - the above is why I wrote RsyncOSX to use myself
+- backup (and restore) local files on your Mac to remote servers connected to Internet or local network
 - backup (and restore) local files on Mac to local storage (attached disks)
-  - if this is _the only use_ there might be _other tools_ more useful than RsyncOSX
+  - if this is *the only use* there might be *other tools* more useful than RsyncOSX
 
-Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
+Why use rsync for backup? See notes below. Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
 ```
 Warning: default parameters for rsync is to synchronize the source and destination.
 A "restore" will delete all files in the source which are not in the destination.
@@ -24,7 +23,7 @@ either replaced with new ones or deleted if so is true in source.
 
 What about **revisions and deleted** files? Either use the [snapshot feature](Snapshots.md) or by [backup parameters](Parameters.md) to rsync.
 
-## Why use RsyncOSX?
+## Why use RsyncOSX (and rsync)?
 
 There is only one simple answer to the question and the answer is [rsync](https://en.wikipedia.org/wiki/Rsync). Rsync is a _rock solid_, _well proven_, _secure_, _fast_, _reliable_ and _wide accessibility_ across platforms command line tool. RsyncOSX is just a GUI for executing rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
 
@@ -34,7 +33,7 @@ The following features are implemented in RsyncOSX:
   - an *estimation* run is required before the real task is executed (an estimation run is executed by the setting the `--dry-run` parameter to rsync)
   - either by a double click on row or by pressing the Execute button **after** the estimation progress indicator has stopped executes the real task
   - if another row (task) is selected after estimation is done a new estimation run is required
-- snapshots
+- snapshot backups
 - quick backups
 - execute **batch** tasks
   - batch tasks are automatically executed until all are completed (the estimate run and execute run are executed in one go)
