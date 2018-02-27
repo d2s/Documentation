@@ -2,16 +2,15 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-The schedule part is redesigned in next version 5.1.1 - see [menu app](Menuapp.md).
+![](screenshots/master/menuapp/menuapp.png)
 
 A scheduled task is only active within the profile in use. If you add a scheduled task in one profile and change profile, the schedule will be inactive until profile is loaded again.  By selecting a row and choose schedule applies a scheduled backup to a task. There are three choices for schedules :
 
-- Once
+- `once`
 	- is executed _once_ at date and time given
-- Daily
-	- is executed _every 24-hour_ and stops at given date and time
-first backup starts in 24-hour
-- Weekly
+- `daily`
+	- is executed _every 24-hour_
+- `weekly`
 	- as for daily, but _every 7 day_
 
 Select task (row), set the start date and time and select the schedule (once, daily or weekly) to set up a schedule of backup. Every time RsyncOSX starts, the schedule is computed. Every time there is a change in a schedule the schedule is recomputed. The schedule is a stack of tasks. The top most element is the first task to be executed. RsyncOSX keeps track of the first task only. All other scheduled tasks remains on stack until popped of.
@@ -20,24 +19,27 @@ The stack is a reference only to a configuration (by a hidden key). The user can
 
 When the first scheduled task is _completed_, RsyncOSX checks the next top element of stack. In example the schedule *once* is selected. First scheduled backup is scheduled in one hour.
 
-The first scheduled task is marked with a red number. The column `Start in` displays (not dynamically) when the first task is about to start. The time is updated every time the view is displayed. The column `Number` shows the number of future schedules.
-![Main view](screenshots/master/scheduling/schedule1.png)
-In the main view the column `Schedule` a yellow or green bullet is presented if there are scheduled tasks. Green bullets when the scheduled task is about to be executed within one hour, yellow otherwise.
-![Main view](screenshots/master/scheduling/schedule2.png)
-The number of scheduled tasks is shown in the main view as well. And the first task to be executed is marked green. When the task executes a drop down menu is presented.
-![Main view](screenshots/master/scheduling/schedule3.png)
-By deleting the first scheduled tasks makes the next one the first.
+From version 5.1.1 of RsyncOSX there is the `menu app` for executing scheduled tasks in RsyncOSX. The idea is to add scheduled tasks in RsyncOSX, quit RsyncOSX and let the menu app take care of executing the scheduled tasks.
 
-### Stopping a scheduled task
+The `menu app` should be started from RsyncOSX. This require paths for both apps to be entered into userconfiguration.  The paths are used for activating the apps from either within RsyncOSX or RsyncOSXsched.
+Adding paths for applications automatically enables, if both apps are found, executing scheduled apps in the `menu app`. To disable delete paths.
 
-Stopping and/or deleting tasks by selecting a row and either shortcut `⌘L` or by menu or double click on row. Either stop or delete task. If a task is deleted all logs regarding the task is deleted. The number `Logs` is how many log items there is in each schedule. Schedule with starddate `01 Jan 1900 00:00` is manually executed tasks. Schedules are sorted with most recent schedule on top.
-![Main view](screenshots/master/scheduling/schedule4.png)
+Only scheduled tasks from the selected profile is active. A flag in RsyncOSX indicates where the scheduled tasks is set to be executed. If both RsyncOSX and the menu app is active at the same time only one of them is allowed to executed scheduled tasks.
+![](screenshots/master/menuapp/sched0.png)
+Both RsyncOSX and the `menu app` submit a notification when a scheduled tasks is completed. A scheduled task is either of type `once`, `daily` or `weekly`.
 
-### Method for scheduling a test
+![](screenshots/master/menuapp/notifications1.png)
 
-Scheduling tasks is either by `dispatch` or `timer`. To be honest I don´t know if there is any difference, but the `dispatch` is cleaner in code. And it is the default method. Both methods executes asynchronously on the main thread when executing.
-* [dispatch task](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperationDispatch.swift)
-* [timer task](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperationTimer.swift)
+Adding scheduled for tasks in RsyncOSX. After adding tasks either keep RsyncOSX running or select main menu and select the menuapp button. If you decide to let RsyncOSX execute the scheduled tasks remember to set the correct settings in user configuration.
+![](screenshots/master/menuapp/sched4.png)
+Double click on row brings up details about schedules and logs for one task.
+![](screenshots/master/menuapp/sched1.png)
+The green light in column `Schedule` indicates a scheduled tasks within next hour (green lights). Selecting the `Menuapp` in main view quits RsyncOSX and starts the menu application. The default profile is selected when it starts.
+![](screenshots/master/menuapp/sched2.png)
+The status light is green indicates there are active tasks waiting for execution.
+![](screenshots/master/menuapp/sched5.png)
 
-My advise is don't change. Both methods works OK. I will probably delete the `timer` method in a later release.
-![Main view](screenshots/master/scheduling/timer.png)
+### Logging
+
+There is a minimal logging in menu app. The log is not saved to disk, it lives only during lifetime of menu app. The menu app logs the major actions within the menu app.
+![](screenshots/master/menuapp/log1.png)
