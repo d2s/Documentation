@@ -26,7 +26,6 @@ The following are documents about using RsyncOSX.
 - utilizing the [snapshot feature](docs/Snapshots.md)
 - utilizing the [quick backup feature](docs/Quickbackup.md)
 - scheduling of [tasks](docs/ScheduleTasks.md)
-  - the [menu app](docs/Menuapp.md) - a minimal app for executing scheduled tasks only
 - restore of [single files or catalogs](docs/CopySingleFiles.md)
 - [logging](docs/Logging.md) execution of tasks
 - some info about [user configuration](docs/UserConfiguration.md)

@@ -18,27 +18,19 @@ I have uploaded a short (about 5 minutes) [YouTube demo of RsyncOSX](https://www
 
 ## Download link and install
 
-RsyncOSX is released in version 5.1.1 (27 February 2018)
+RsyncOSX is released in version 5.1.1 (27 February 2018). There are two methods for install, either copy the apps from dmg files into a selected folder or use the installer files to install in `/Application`folder. 
 
 - [download zip archive](https://github.com/rsyncOSX/RsyncOSX/releases/download/v5.1.1/RsyncOSX.zip)
-	- unzip, open the dmg´s and copy the RsyncOSX.app and RsyncOSXsched.app to a local directory
+	- unzip `RsyncOSX.zip` , open the two dmg´s and copy the `RsyncOSX.app` and `RsyncOSXsched.app` to a local directory
+	- shasum zip archive: 1ae9b3bbd3fdc01c77b63f407ac77415f6171991
+	- `/usr/bin/shasum ~/PathToDownload/RsyncOSX.zip` to verify hash
 - [download zip pkg archive](https://github.com/rsyncOSX/RsyncOSX/releases/download/v5.1.1/RsyncOSXpkg.zip)
-	- unzip and start installer for both apps, the installer copy the apps to the /Application folder
-- shasum zip archive: 1ae9b3bbd3fdc01c77b63f407ac77415f6171991
-- shasum zip pkg archive: dd803eac298fb479a6cbbef5addc4af469c91cc6
+	- unzip `RsyncOSXpkg.zip` and start installer for both apps, the installer copy the apps to the `/Application` folder
+	- shasum zip pkg archive: dd803eac298fb479a6cbbef5addc4af469c91cc6
+	- `/usr/bin/shasum ~/PathToDownload/RsyncOSXpkg.zip` to verify hash
 - see the [Changelog](Changelog.md) for info
 
-`/usr/bin/shasum ~/PathToDownload/RsyncOSX.zip` or `/usr/bin/shasum ~/PathToDownload/RsyncOSXpkg.zip`to verify hash
-
 The application is installed and used at your own risk and developer accepts no responsibility for any errors, omissions or loss of data by using the application. The application is signed with my Apple Developer ID certificate.
-
-#### Install RsyncOSXpkg.zip
-
-To install unzip RsyncOSX unzip the downloaded `RsyncOSXpkg.zip` and execute the two install files. The installer copy the application files in the /Application folder. The installer require admin rights to install in /Application folder.
-
-#### Install RsyncOSX.zip
-
-To install RsyncOSX unzip the downloaded `RsyncOSX.zip` file, copy the `RsyncOSX.app` and `RsyncOSXsched.app` to a folder in your home catalog or any other catalog.
 
 ## Passwordless logins and remote servers
 
