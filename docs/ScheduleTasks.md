@@ -2,7 +2,7 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-The schedule part is redesigned in next version 5.0.1 - see [menu app](Menuapp.md).
+The schedule part is redesigned in next version 5.1.1 - see [menu app](Menuapp.md).
 
 A scheduled task is only active within the profile in use. If you add a scheduled task in one profile and change profile, the schedule will be inactive until profile is loaded again.  By selecting a row and choose schedule applies a scheduled backup to a task. There are three choices for schedules :
 
