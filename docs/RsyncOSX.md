@@ -3,7 +3,7 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-See important info about how to use [RsyncOSX and rsync](HowtoUseRsyncOSX.med). There is also a short [intro](Intro.md) to RsyncOSX.
+See important info about how to use [RsyncOSX and rsync](HowtoUseRsyncOSX.md). There is also a short [intro](Intro.md) to RsyncOSX.
 
 ## Download link and install
 
