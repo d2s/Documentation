@@ -6,7 +6,6 @@ RsyncOSX is a GUI for the rsync command-line tool. The main use are:
 
 - backup (and restore) local files on your Mac to remote servers connected to Internet or local network
 - backup (and restore) local files on Mac to local storage (attached disks)
-  - if this is *the only use* there might be *other tools* more useful than RsyncOSX
 
 Why use rsync for backup? See notes below. Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
 ```
