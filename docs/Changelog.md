@@ -9,11 +9,12 @@ I am using the application on a daily basis and it evolves during my own use. Su
 Released 27 February 2018
 
 - added a [menu app](https://github.com/rsyncOSX/RsyncOSXsched)
-to execute scheduled backups, the `menu app`is a minimal version of RsyncOSX only capable of executing scheduled tasks.
+to execute scheduled backups, the `menu app`is a minimal version of RsyncOSX only capable of executing scheduled tasks
 	- all editing of tasks and schedules are within RsyncOSX
 - added notifications when scheduled task is completed
-- the scheduled part is redesigned in the release candidate, to activate a schedule select start date and time and type of schedule.
-	- the schedules are active until *deleted* or *stopped*. Schedule `once` only executes once, `daily` and `weekly` until stopped or deleted
+- the scheduled part is redesigned, to activate a schedule select start date and time and type of schedule.
+	- the schedules are active until *deleted* or *stopped*
+	- schedule `once` only executes once, `daily` and `weekly` until stopped or deleted
 
 ## Version 5.0.0
 
