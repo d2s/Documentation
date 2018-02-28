@@ -7,13 +7,13 @@ See important info about how to use [RsyncOSX and rsync](HowtoUseRsyncOSX.md). T
 
 ## Download link and install
 
-RsyncOSX is released in version 5.1.1 (27 February 2018). There are two methods for install, either copy the apps from dmg files into a selected folder or use the installer files to install in `/Application`folder.
+RsyncOSX is released in version 5.1.1 (27 February 2018). There are two methods for install, either (1) copy the apps from dmg files into a selected folder or use the (2) installer files to install in `/Application`folder.
 
-- [download zip archive](https://github.com/rsyncOSX/RsyncOSX/releases/download/v5.1.1/RsyncOSX.zip)
+- (1) [download zip archive](https://github.com/rsyncOSX/RsyncOSX/releases/download/v5.1.1/RsyncOSX.zip)
 	- unzip `RsyncOSX.zip` , open the two dmg´s and copy the `RsyncOSX.app` and `RsyncOSXsched.app` to a local directory
 	- shasum zip archive: 1ae9b3bbd3fdc01c77b63f407ac77415f6171991
 	- `/usr/bin/shasum ~/PathToDownload/RsyncOSX.zip` to verify hash
-- [download zip pkg archive](https://github.com/rsyncOSX/RsyncOSX/releases/download/v5.1.1/RsyncOSXpkg.zip)
+- (2) [download zip pkg archive](https://github.com/rsyncOSX/RsyncOSX/releases/download/v5.1.1/RsyncOSXpkg.zip)
 	- unzip `RsyncOSXpkg.zip` and start installer for both apps, the installer copy the apps to the `/Application` folder
 	- shasum zip pkg archive: dd803eac298fb479a6cbbef5addc4af469c91cc6
 	- `/usr/bin/shasum ~/PathToDownload/RsyncOSXpkg.zip` to verify hash

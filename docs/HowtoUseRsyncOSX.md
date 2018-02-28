@@ -17,10 +17,10 @@ synchronized with the source in the moment the backup task is completed. There a
 no revisions of files in the backup in default RsyncOSX. Old files in the backup are
 either replaced with new ones or deleted if so is true in source.
 ```
-- _source_: the local volume to be copied
-- _destination_: the remote location where source files and catalogs are copied
+- **source**: the local volume to be copied
+- **destination**: the remote location where source files and catalogs are copied
 
-What about **revisions and deleted** files? Either use the [snapshot feature](Snapshots.md) or by [backup parameters](Parameters.md) to rsync.
+What about **revisions** or **deleted** files? Either use the [snapshot feature](Snapshots.md) or by [backup parameters](Parameters.md) to rsync.
 
 **Rsync is a file-based synchronization and backup service. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.**
 
@@ -31,36 +31,30 @@ There is only one simple answer to the question and the answer is [rsync](https:
 
 The following features are implemented in RsyncOSX:
 
-- execute **single** tasks
-  - an *estimation* run is required before the real task is executed (an estimation run is executed by the setting the `--dry-run` parameter to rsync)
-  - either by a double click on row or by pressing the Execute button **after** the estimation progress indicator has stopped executes the real task
-  - if another row (task) is selected after estimation is done a new estimation run is required
-- snapshot backups
-- quick backups
-- execute **batch** tasks
-  - batch tasks are automatically executed until all are completed (the estimate run and execute run are executed in one go)
-  - if you want tasks to be executed in one go mark them for batch
-- adding **new tasks** either by drag and drop (for local volumes) or by GUI
-- single- and batch tasks might be **aborted** at any time
-- choose **other version** of rsync in **user configuration**
-- user defined **rsync parameters**
+- do single backup tasks
+- do snapshot backups tasks
+- do quick backups tasks, either single tasks or group of tasks
+- do batch tasks
+- adding new tasks by drag and drop (for local volumes)
+- tasks my be aborted at any time
+- choose other version of rsync in user configuration
+- user defined rsync parameters
   - the user can add parameters to rsync
   - there are predefined parameters for saving old files in a backup directory
-- **enable** save backups of changed or deleted files (by using rsync parameters, predefined parameter)
-- **delete** and **edit** configurations
-- manage backup tasks in **profiles**
-	- as many profiles as wanted
-- **restore of single files or catalogs** from remote storage
-- **scheduling of backup tasks**
+- enable save backups of changed or deleted files (by using rsync parameters, predefined parameter)
+- delete and edit configurations
+- manage backup tasks in profiles
+- restore of single files or catalogs from remote storage
+- scheduling of backup tasks
   - daily, weekly or monthly schedules
-- **detailed logging** of tasks
+- detailed logging of tasks
   - switch on/off
 
 ## RsyncOSX is not suitable to all users
 
-The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to _low cost remote server_ and assist me to keep my _two MacBook desktops in sync_. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private/public key based ssh password-less login. Some basic understanding of the command-line tool rsync is also recommended.
+The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to **low cost remote server** and assist me to keep my **two MacBook desktops in sync**. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private and public ssh keys for password-less logins. Some basic understanding of the command-line tool rsync is also recommended.
 
-Any user just looking for an easy to use backup tool is advised to use other and probably more suitable tools than RsyncOSX. To fully understand and use RsyncOSX I recommend the following:
+To fully understand and use RsyncOSX I recommend the following:
 
 - you have some understanding of the command-line tool rsync
 - you have some knowledge about running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS
