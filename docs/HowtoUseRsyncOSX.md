@@ -7,7 +7,7 @@ RsyncOSX is a GUI for the rsync command-line tool. The main use are:
 - backup (and restore) local files on your Mac to remote servers connected to Internet or local network
 - backup (and restore) local files on Mac to local storage (attached disks)
 
-Why use rsync for backup? See notes below. Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
+Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
 ```
 Warning: default parameters for rsync is to synchronize the source and destination.
 A "restore" will delete all files in the source which are not in the destination.
@@ -21,6 +21,9 @@ either replaced with new ones or deleted if so is true in source.
 - _destination_: the remote location where source files and catalogs are copied
 
 What about **revisions and deleted** files? Either use the [snapshot feature](Snapshots.md) or by [backup parameters](Parameters.md) to rsync.
+
+**Rsync is a file-based synchronization and backup service. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.**
+
 
 ## Why use RsyncOSX (and rsync)?
 
