@@ -36,6 +36,7 @@ Rsync can also set a time stamp as suffix on files. This might be useful if ther
 	- sample suffix <code>--suffix= _$(date +%Y-%m-%d.%H.%M)`</code> (works on Linux)
 
 I have experienced some variations regarding the suffix. If you want to use suffix you might try an alternative suffix if the above is not working as expected. If so is true use  instead. You just have to try and see what works
+![New configurations](screenshots/master/rsync/rsync4.png)
 
 ## RsyncOSX passing userselected parameters to rsync
 
@@ -62,8 +63,6 @@ The user can set own parameters by using `user` in dropdown menu. Preset paramet
 I am doing regular backups of my Documents catalog. The source code for RsyncOSX is stored in the Documents catalog and `git` is creating a `.git` directory in all catalogs where git is used. I want rsync not to transfer the `.git` directories and `.DS_Store` files created by MacOS.
 
 Selecting the `backup` option and `suffix` for FreeBSD sets the three last parameters. The backup directory, which is saving all versions of changed and deleted files, is set to `../backup` + `_Document` catalog as preselected value.
-
-![New configurations](screenshots/master/rsync/rsync4.png)
 
 The `exclude-list.txt` file includes the two lines below to omit all `.git` directories and `.DS_Store` files.
 
