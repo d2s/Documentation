@@ -23,7 +23,6 @@ Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameter
 You can instruct rsync to save changed and deleted files in a separate backup catalog ahead of the change. This feature is utilized by setting the following parameters:
 
 - `--backup` parameter instructs rsync to backup changed files
-	- remember rsync is set to synchronize the source and destination folder (see [how to use RsyncOSX](HowtoUseRsyncOSX.md)), by setting this parameter instructs rsync to store changed files
 - `--backup-dir` parameter where to store changed or deleted files before rsync synchronize source and destination
 
 RsyncOSX does suggest a value for the `--backup-dir` but you might set it to whatever you want.
