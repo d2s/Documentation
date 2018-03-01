@@ -29,7 +29,7 @@ There is only one simple answer to the question and the answer is [rsync](https:
 The following features are implemented in RsyncOSX:
 
 - do single backup tasks, synchronize source and destination (backup)
-- do snapshot backups tasks, previous snapshots are saved to restore old or delted files
+- do snapshot backups tasks, previous snapshots are saved to restore old or deleted files
 - do quick backups tasks, either single tasks or group of tasks, both synchronize and snapshot tasks
 - do batch tasks, both synchronize and snapshot tasks
 - adding new tasks by drag and drop (for local volumes)
