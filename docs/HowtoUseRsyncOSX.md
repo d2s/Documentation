@@ -4,10 +4,10 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 RsyncOSX is a GUI for the rsync command-line tool. The main use are:
 
-- backup (and restore) local files on your Mac to remote servers connected to Internet or local network
-- backup (and restore) local files on Mac to local storage (attached disks)
+- backup and restore of local files on your Mac to remote servers connected to Internet or local network
+- backup and restore local files on Mac to local storage (attached disks)
 
-Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
+Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files. Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
 ```
 Warning: default parameters for rsync is to synchronize the source and destination.
 A "restore" will delete all files in the source which are not in the destination.
@@ -22,19 +22,16 @@ either replaced with new ones or deleted if so is true in source.
 
 What about **revisions** or **deleted** files? Either use the [snapshot feature](Snapshots.md) or by [backup parameters](Parameters.md) to rsync.
 
-**Rsync is a file-based synchronization and backup service. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.**
-
-
 ## Why use RsyncOSX (and rsync)?
 
 There is only one simple answer to the question and the answer is [rsync](https://en.wikipedia.org/wiki/Rsync). Rsync is a _rock solid_, _well proven_, _secure_, _fast_, _reliable_ and _wide accessibility_ across platforms command line tool. RsyncOSX is just a GUI for executing rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
 
 The following features are implemented in RsyncOSX:
 
-- do single backup tasks
-- do snapshot backups tasks
-- do quick backups tasks, either single tasks or group of tasks
-- do batch tasks
+- do single backup tasks, synchronize source and destination (backup)
+- do snapshot backups tasks, previous snapshots are saved to restore old or delted files
+- do quick backups tasks, either single tasks or group of tasks, both synchronize and snapshot tasks
+- do batch tasks, both synchronize and snapshot tasks
 - adding new tasks by drag and drop (for local volumes)
 - tasks my be aborted at any time
 - choose other version of rsync in user configuration
