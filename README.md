@@ -5,7 +5,7 @@ Before installing and using RsyncOSX there are some important information to rea
  - (1) getting and installing [RsyncOSX](docs/RsyncOSX.md)
  - (2) important [information](docs/HowtoUseRsyncOSX.md) about what RsyncOSX is
 
-Utilizing rsync is a filebased sync or backup solution. There is no properitarian solution for archive, you can bail out of RsyncOSX anytime and still have access to all synced files.  
+Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files. Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
 
 #### Changelog RsyncOSX
 
