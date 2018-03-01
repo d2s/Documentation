@@ -14,9 +14,29 @@ The website LibreByte has written an article [14 Practical examples of the rsync
 Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
 - `--parameter=value`
-	- sample `--exclude-from=/Volumes/Users/thomas/Documents/exclude-list.txt`
+	- sample `--exclude-from=/Volumes/home/user/Documents/exclude-list.txt`
 - `--parameter`
 	- sample `--stats`, `--dry-run`
+
+## Saving changed and deleted files in a backup catalog by parameter to rsync
+
+You can instruct rsync to save changed and deleted files in a separate backup catalog ahead of the change. This feature is utilized by setting the following parameters:
+
+- `--backup` parameter instructs rsync to backup changed files
+	- remember rsync is set to synchronize the source and destination folder (see [how to use RsyncOSX](HowtoUseRsyncOSX.md)), by setting this parameter instructs rsync to store changed files
+- `--backup-dir` parameter where to store changed or deleted files before rsync synchronize source and destination
+
+RsyncOSX does suggest a value for the `--backup-dir` but you might set it to whatever you want.
+
+### Setting suffix on saved files
+
+Rsync can also set a time stamp as suffix on files. This might be useful if there is several revisions of files.
+
+- `--suffix` parameter set suffix on files, suffix can be set on files together with the `--backup`parameter. One suffix might rename files which are either deleted or replaced newer files with a trailing date and time stamp.
+	- sample suffix <code>--suffix= _\`date +'%Y-%m-%d.%H.%M'` </code> (works on FreeBSD)
+	- sample suffix <code>--suffix= _$(date +%Y-%m-%d.%H.%M)`</code> (works on Linux)
+
+I have experienced some variations regarding the suffix. If you want to use suffix you might try an alternative suffix if the above is not working as expected. If so is true use  instead. You just have to try and see what works
 
 ## RsyncOSX passing userselected parameters to rsync
 
@@ -34,9 +54,6 @@ The user can set own parameters by using `user` in dropdown menu. Preset paramet
 - `--files-from` - path to file which store what to backup
 - `--max-size` - set max size of files to backup
 	- sample `--max-size=5MB` , files with size bigger than 5 megabyte (MB) are omitted
-- `--suffix` - set suffix on files, suffix can be set on files together with the `--backup`parameter. One suffix might rename files which are either deleted or replaced newer files with a trailing date and time stamp.
-	- sample <code>--suffix= _\`date +'%Y-%m-%d.%H.%M'`</code> see last picture for result
-	- I have experienced some variations regarding the suffix. If you want to use suffix you might try an alternative suffix if the above is not working as expected. If so is true use `--suffix= _$(date +%Y-%m-%d.%H.%M)` instead. You just have to try and see what works
 - `delete` - delete the parameter
 	- deletes the parameter when `OK` button is selected
 	- or just delete the `value` string
