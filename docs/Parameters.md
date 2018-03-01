@@ -22,14 +22,14 @@ Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameter
 
 You can instruct rsync to save changed and deleted files in a separate backup catalog ahead of the change. This feature is utilized by setting the following parameters:
 
-- `--backup` parameter instructs rsync to backup changed files
-- `--backup-dir` parameter where to store changed or deleted files before rsync synchronize source and destination
+- `--backup` parameter instructs rsync to save changed files
+- `--backup-dir` parameter where to save changed or deleted files before rsync synchronize source and destination
 
 RsyncOSX does suggest a value for the `--backup-dir` but you might set it to whatever you want.
 
 ### Setting suffix on saved files
 
-Rsync can also set a time stamp as suffix on files. This might be useful if there is several revisions of files.
+Rsync can also set a time stamp as suffix on files. This might be useful if there are several revisions of files.
 
 - `--suffix` parameter set suffix on files, suffix can be set on files together with the `--backup`parameter. One suffix might rename files which are either deleted or replaced newer files with a trailing date and time stamp.
 	- sample suffix <code>--suffix= _\`date +'%Y-%m-%d.%H.%M'` </code> (works on FreeBSD)
