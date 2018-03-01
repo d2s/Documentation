@@ -2,10 +2,6 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-The parameters in picture (below) instructs rsync to save changed files in catalog `../backup_Directory` (relative to destination catalog) and `suffix` the backup file with timestamps. The above is enabled or disabled by select the `backup` button. The user might change the backup catalog. The backup catalog can either be absolute path or relative path. Default backup catalog is `../backup_Directory`.
-
-See also the [standard parameters](RsyncParameters.md) to rsync.
-
 ## Details about the sample parameters
 
 The website LibreByte has written an article [14 Practical examples of the rsync command](http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/). One of the examples is instructing rsync to store backups of files in a backup folder and rename old files by a date suffix.
@@ -17,6 +13,8 @@ Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameter
 	- sample `--exclude-from=/Volumes/home/user/Documents/exclude-list.txt`
 - `--parameter`
 	- sample `--stats`, `--dry-run`
+
+See also the [standard parameters](RsyncParameters.md) to rsync.
 
 ## Saving changed and deleted files in a backup catalog by parameter to rsync
 
@@ -36,6 +34,9 @@ Rsync can also set a time stamp as suffix on files. This might be useful if ther
 	- sample suffix <code>--suffix= _$(date +%Y-%m-%d.%H.%M)`</code> (works on Linux)
 
 I have experienced some variations regarding the suffix. If you want to use suffix you might try an alternative suffix if the above is not working as expected. If so is true use  instead. You just have to try and see what works
+
+The parameters in picture (below) instructs rsync to save changed files in catalog `../backup_Directory` (relative to destination catalog) and `suffix` the backup file with timestamps. The above is enabled or disabled by select the `backup` button. The user might change the backup catalog. The backup catalog can either be absolute path or relative path. Default backup catalog is `../backup_Directory`.
+![New configurations](screenshots/master/rsync/rsync4.png)
 
 ## RsyncOSX passing userselected parameters to rsync
 
@@ -63,19 +64,11 @@ I am doing regular backups of my Documents catalog. The source code for RsyncOSX
 
 Selecting the `backup` option and `suffix` for FreeBSD sets the three last parameters. The backup directory, which is saving all versions of changed and deleted files, is set to `../backup` + `_Document` catalog as preselected value.
 
-![New configurations](screenshots/master/rsync/rsync4.png)
-
 The `exclude-list.txt` file includes the two lines below to omit all `.git` directories and `.DS_Store` files.
-
 ![New configurations](screenshots/master/rsync/rsync5.png)
-
 If the backup directory is not created rsync automatically creates it. The `../backup_Documents` is a catalog relative to the destination catalog. The user can specify any catalog as backup catalog. A view of the actual rsync command executed is shown in right bottom of screen. The command can be copied and pasted into a terminal for execution as well.
-
 ![New configurations](screenshots/master/rsync/rsync2.png)
-
-
 The screen below is a listing of some of files moved to the backup directory and renamed before new files are transferred from source to destination. My NAS is based on FreeNAS (FreeBSD) and backup of changed files is in catalog `../backup_Documents`.
-
 ![New configurations](screenshots/master/rsync/rsync3.png)
 
 ## Sample backup of my 100GB Picture catalog
@@ -84,7 +77,5 @@ I am using RsyncOSX to backup my Pictures catalog - about 100GB of raw picture f
 
 - create a .txt file with the following line `Lightroom/Lightroom Catalog Previews.lrdata`, save the file with name `exclude-list.txt` in the `Pictures` catalog
 - pass the following parameter `--exclude-from=/Volumes/Users/thomas/Pictures/exclude-list.txt` to rsync from the parameter view within RsyncOSX
-
 ![New configurations](screenshots/master/rsync/rsync6.png)
-
 And that is it. Rsync excludes whatever found in the `--exclude-from` file (including file patterns).
