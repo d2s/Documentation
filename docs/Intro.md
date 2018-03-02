@@ -31,30 +31,37 @@ All tasks can be aborted during execution.
 
 Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning at top of page). Files can also be restored by using the [copy single files](CopySingleFiles.md)
 
-## Executing single tasks
+## Check remote servers
 
 The <span style="color:red">red rows</span> indicates no connection to remote server. Selecting the TCP-button executes the check and marks configurations not available (no contact with remote server) red. RsyncOSX does a **background** check (informal only) for remote servers. The server `freenas.local` is a local NAS server (FreeNAS) and RsyncOSX does not find `freenas.local` outside my home and marks configurations red in table view.
 ![Main view](screenshots/master/main1.png)
-Selecting the row indicates a estimate run is next. A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in main view. An estimate run is a `--dry-run` execution of rsync. Tasks can also be executed in one go by selecting the batch button
-![Main view](screenshots/master/main2.png)
-The result of a estimate run is presented. Next task is *Execute*. Execute is the real run as indicated on left side in main view RsyncOSX. Selecting a new row resets the tasks. The number of files and size of all files is shown in bottom of view. During a real run a progress bar show the progress of backup or restore task. All tasks can be aborted during execution.
 
+## Executing single tasks
+
+Selecting the row indicates a estimate run is next. A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in main view. An *estimate* run is a `--dry-run` execution of rsync. The result of a estimate run is presented. Next task is *Execute*, the real run.
+![Main view](screenshots/master/main2.png)
 See [single task](SingleTask.md) for more info.
 
 ### Quick backup
+
+Quick backup executes backup and snapshot tasks in one go. There is no `--dry-run` ahead of real task. You have to select tasks for quick backup every time. You can also select a row and press `⌘R` (shortcut) for immediate execute task.
 
 ![Main view](screenshots/master/quickbackup/quick1.png)
 See [quick backup](Quickbackup.md) for more info.
 
 ### Batch mode
 
-Tasks can be executed in one go in batch mode.
+Tasks can be executed in one go in batch mode. Tasks are preselected for batch. During batch RsyncOSX executes a a `--dry-run` ahead of real run.
 ![Main view](screenshots/master/batchexecuting.png)
 See [batch task](BatchTask.md) for more info.
 
 ## Snapshot tasks
 
-In development, see [snapshots](Snapshots.md).
+Snapshot tasks is a variant of normal backup tasks. The main difference is that old and deleted files are saved in previous snapshots.
+
+![Main view](screenshots/master/snapshots/readyforbackup.png)
+
+See [snapshots](Snapshots.md).
 
 ## Adding configurations
 
@@ -65,6 +72,7 @@ See [add configurations](AddConfigurations.md) for more info.
 ## Scheduling tasks
 
 Only **backup** or **snapshot** tasks can be scheduled.
+![](screenshots/master/menuapp/sched4.png)
 See [menu app](Menuapp.md) for more info.
 
 ## Copy files
