@@ -45,7 +45,7 @@ Selecting the row indicates a estimate run is next. A **double click** on row ex
 ![Main view](screenshots/master/main2.png)
 See [single task](SingleTask.md) for more info.
 
-### (2) and (3) Quick backup and `⌘R`
+### (2) and (3) Quick backup and ⌘R
 
 Quick backup executes backup and snapshot tasks in one go. There is no `--dry-run` ahead of real task. You have to select tasks for quick backup every time. You can also select a row and press `⌘R` (shortcut) for immediate execute task.
 
