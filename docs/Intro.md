@@ -7,53 +7,62 @@ This page is a short intro to RsyncoSX and a brief walkthrough of the main funct
 
 All configurations to execute are listed in table. From the main view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed. Configurations can be saved in user selected **profiles**. The **profile** in use is shown in label `Profile: name`. **Information** about *new:*, *delete:* files and *remote number* of directories are only available if version 3.x of rsync is used.
 
-## Kind of tasks
+## Type of tasks
 
-From version 5.0.0 of RsyncOSX, there are three types of backups:
-- *synchronize* source and backup location, any old or deleted files or directories in backup location will be deleted
-- as above, but you might add a [parameters](Parameters.md) to rsync to save changed and/or deleted files in a separate backup catalog
+From version 5.0.0 of RsyncOSX, there are three types of how to synchronize source and destination (backup):
+- synchronize source and backup location, any changed and deleted files in backup location will be deleted
+  - this is the standard synchronize task in RsyncOSX, after execution source and destination (backup) is 100% in sync
+- as above, but you might add a [parameters](Parameters.md) to rsync to save changed and deleted files in a separate backup catalog
 - [snapshot](Snapshots.md) tasks, a snapshot of previous synchronize task is stored before a new task is executed, number of snapshots are user defined, copy deleted or previous versions of files from snapshots
 
-## How to execute any kind of task
-
-There are **five** ways to execute tasks (`backup` tasks only).
-- a double click on a row executes first a test run (`--dry-run`), the next double click executes the real task
-  - selecting another row after a `--dry-run` resets the work queue
-- quick backup
-  - select which tasks to execute in one go, selection is not saved
-  - start with dynamic view of local vs remote storage, selecting tasks to execute automatically opens the quick backup menu with preselected tasks
-- `⌘R` - shortcut for immediate execute task after selecting a row
-  - if a task is executed by shortcut `⌘R`, a select of another row during execution will terminate (abort) the current task
-- mark backup tasks for batch, select the batch button executes all tasks marked for batch in one go
-- schedule a task, scheduled tasks are executed according to date and time, either once, daily or weekly
-
-All tasks can be aborted during execution.
-
-Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning at top of page). Files can also be restored by using the [copy single files](CopySingleFiles.md)
+All types of backups
 
 ## Check remote servers
 
 The <span style="color:red">red rows</span> indicates no connection to remote server. Selecting the TCP-button executes the check and marks configurations not available (no contact with remote server) red. RsyncOSX does a **background** check (informal only) for remote servers. The server `freenas.local` is a local NAS server (FreeNAS) and RsyncOSX does not find `freenas.local` outside my home and marks configurations red in table view.
 ![Main view](screenshots/master/main1.png)
 
-## Executing single tasks
+## How to execute any kind of task
+
+There are **five** ways to execute tasks (`backup` tasks only).
+- (1) single task, a double click on a row executes first a test run (`--dry-run`), the next double click executes the real run
+  - selecting another row after a `--dry-run` resets the work queue
+- (2) quick backup
+  - select which tasks to execute in one go, selection is not saved
+  - start with dynamic view of local vs remote storage, selecting tasks to execute automatically opens the quick backup menu with preselected tasks
+- (3) `⌘R` - shortcut for immediate execute task after selecting a row
+  - if a task is executed by shortcut `⌘R`, a select of another row during execution will terminate (abort) the current task
+- (4) mark backup tasks for batch, select the batch button executes all tasks marked for batch in one go
+- (5) schedule a task, scheduled tasks are executed according to date and time, either once, daily or weekly
+
+All tasks can be aborted during execution.
+
+Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning at top of page). Files can also be restored by using the [copy single files](CopySingleFiles.md)
+
+### (1) Single tasks
 
 Selecting the row indicates a estimate run is next. A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in main view. An *estimate* run is a `--dry-run` execution of rsync. The result of a estimate run is presented. Next task is *Execute*, the real run.
 ![Main view](screenshots/master/main2.png)
 See [single task](SingleTask.md) for more info.
 
-### Quick backup
+### (2) and (3) Quick backup and `⌘R`
 
 Quick backup executes backup and snapshot tasks in one go. There is no `--dry-run` ahead of real task. You have to select tasks for quick backup every time. You can also select a row and press `⌘R` (shortcut) for immediate execute task.
 
 ![Main view](screenshots/master/quickbackup/quick1.png)
 See [quick backup](Quickbackup.md) for more info.
 
-### Batch mode
+### (4) Batch mode
 
 Tasks can be executed in one go in batch mode. Tasks are preselected for batch. During batch RsyncOSX executes a a `--dry-run` ahead of real run.
 ![Main view](screenshots/master/batchexecuting.png)
 See [batch task](BatchTask.md) for more info.
+
+### (5) Schedule tasks
+
+Only **backup** or **snapshot** tasks can be scheduled.
+![](screenshots/master/menuapp/sched4.png)
+See [menu app](Menuapp.md) for more info.
 
 ## Snapshot tasks
 
@@ -68,12 +77,6 @@ See [snapshots](Snapshots.md).
 It is easy to add new tasks. RsyncOSX adds both the backup and restore part of task automatically.
 ![Main view](screenshots/master/add/add1.png)
 See [add configurations](AddConfigurations.md) for more info.
-
-## Scheduling tasks
-
-Only **backup** or **snapshot** tasks can be scheduled.
-![](screenshots/master/menuapp/sched4.png)
-See [menu app](Menuapp.md) for more info.
 
 ## Copy files
 
@@ -123,7 +126,7 @@ In the profiles menu there are two options:
 - `Default` button selects the default profile.
 ![Main view](screenshots/master/profile.png)
 
-### RsyncOSX configuration files
+## RsyncOSX configuration files
 
 RsyncOSX configuration file, scheduled tasks which also includes log records and user configuration are plain XML-files ([property list files](https://en.wikipedia.org/wiki/Property_list)). Files are saved in:
 
