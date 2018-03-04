@@ -24,7 +24,7 @@ What about **revisions** or **deleted** files? Either use the [snapshot feature]
 
 ## Why use RsyncOSX (and rsync)?
 
-There is only one simple answer to the question and the answer is [rsync](https://en.wikipedia.org/wiki/Rsync). Rsync is a _rock solid_, _well proven_, _secure_, _fast_, _reliable_ and _wide accessibility_ across platforms command line tool. RsyncOSX is just a GUI for executing rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
+There is only one simple answer to the question and the answer is [rsync](https://en.wikipedia.org/wiki/Rsync). Rsync is a *rock solid*, *well proven*, *secure*, *fast*, *reliable* and *wide accessibility* across platforms command line tool. RsyncOSX is just a GUI for executing rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
 
 The following features are implemented in RsyncOSX:
 
@@ -37,19 +37,16 @@ The following features are implemented in RsyncOSX:
 - choose other version of rsync in user configuration
 - user defined rsync parameters
   - the user can add parameters to rsync
-  - there are predefined parameters for saving old files in a backup directory
-- enable save backups of changed or deleted files (by using rsync parameters, predefined parameter)
-- delete and edit configurations
+- predefined parameters to save backups of changed or deleted files (by using rsync parameters, predefined parameter)
 - manage backup tasks in profiles
-- restore of single files or catalogs from remote storage
+- restore of single files from remote storage
 - scheduling of backup tasks
-  - daily, weekly or monthly schedules
+  - once, daily or weekly schedules
 - detailed logging of tasks
-  - switch on/off
 
 ## RsyncOSX is not suitable to all users
 
-The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to **low cost remote server** and assist me to keep my **two MacBook desktops in sync**. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private and public ssh keys for password-less logins. Some basic understanding of the command-line tool rsync is also recommended.
+The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to *low cost remote server* and assist me to keep my *two MacBook desktops in sync*. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private and public ssh keys for password-less logins. Some basic understanding of the command-line tool rsync is also recommended.
 
 To fully understand and use RsyncOSX I recommend the following:
 
