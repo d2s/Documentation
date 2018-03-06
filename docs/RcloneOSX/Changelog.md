@@ -4,9 +4,14 @@ There is a short [intro](https://github.com/rsyncOSX/Documentation/blob/master/d
 
 See also the [intro](https://github.com/rsyncOSX/Documentation/blob/master/docs/Intro.md) to RsyncOSX for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
-## Version 1.3.0
+## Version 1.3.5
 
-The development of RcloneOSX is put on hold for the moment. The main focus is now on RsyncOSX. 
+- released 6 March 2018
+- refactor schedules
+- cleanup of main view
+- notification when scheduled tasks are completed
+
+## Version 1.3.0
 
 - released 23 January 2018
 - some minor fixes
