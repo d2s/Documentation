@@ -4,6 +4,17 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
+## Next version
+
+I am working on some enhancements in next version. It is not yet a release candidate, but the master repo is updated.
+
+Within the dynamic info view a progress bar informs about the progress.
+![](screenshots/5.2.0/change1.png)
+A new tab `All profiles` presents key info about all profiles. All columns can be sorted in ascending or descending order. When a column is selected apply filter for search within selected column.
+![](screenshots/5.2.0/change2.png)
+`⌘I` collects info about selected task.
+![](screenshots/5.2.0/change3.png)
+
 ## Version 5.1.1
 
 Released 27 February 2018
