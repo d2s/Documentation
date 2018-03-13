@@ -14,6 +14,12 @@ A new tab `All profiles` presents key info about all profiles. All columns can b
 ![](screenshots/5.2.0/change2.png)
 `⌘I` collects info about selected task.
 ![](screenshots/5.2.0/change3.png)
+Sort and filter logs and info about all profiles. Sort ascending, most recent on top.
+![](screenshots/5.2.0/change4.png)
+Filter sort. All columns can be sorted and filtered.
+![](screenshots/5.2.0/change5.png)
+Sort descending, most recent at bottom.
+![](screenshots/5.2.0/change6.png)
 
 ## Version 5.1.1
 
