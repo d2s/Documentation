@@ -4,9 +4,11 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
-## Next version
+## Version 5.2.0 release candidate
 
-I am working on some enhancements in next version. It is not yet a release candidate, but the master repo is updated.
+Released 15 March 2018.
+
+[Zsolt Sándor](https://github.com/graphis) has proposed a new app-icon. The new app-icon is built in the rc. Please [comment](https://github.com/rsyncOSX/RsyncOSX/pull/626) about the new icon if you have any thoughts about it. There are a few enhancements as well in the release candidate.
 
 Within the dynamic info view a progress bar informs about the progress.
 ![](screenshots/5.2.0/change1.png)
