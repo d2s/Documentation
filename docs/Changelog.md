@@ -10,6 +10,8 @@ Released 15 March 2018.
 
 [Zsolt Sándor](https://github.com/graphis) has proposed a new app-icon. The new app-icon is built in the rc. Please [comment](https://github.com/rsyncOSX/RsyncOSX/pull/626) about the new icon if you have any thoughts about it. There are a few enhancements as well in the release candidate.
 
+![](screenshots/5.2.0/appicon.png)
+
 Within the dynamic info view a progress bar informs about the progress.
 ![](screenshots/5.2.0/change1.png)
 A new tab `All profiles` presents key info about all profiles. All columns can be sorted in ascending or descending order. When a column is selected apply filter for search within selected column.
