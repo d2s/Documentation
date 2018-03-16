@@ -12,8 +12,8 @@ Released 15 March 2018.
 
 ![](screenshots/5.2.0/appicon.png)
 
-Within the dynamic info view a progress bar informs about the progress.
-![](screenshots/5.2.0/change1.png)
+Within the dynamic info view a progress bar informs about the progress. There is a `Select` button to select all tasks with changed files compared to backup catalog. 
+![](screenshots/5.2.0/select.png)
 A new tab `All profiles` presents key info about all profiles. All columns can be sorted in ascending or descending order. When a column is selected apply filter for search within selected column.
 ![](screenshots/5.2.0/change2.png)
 `⌘I` collects info about selected task.
