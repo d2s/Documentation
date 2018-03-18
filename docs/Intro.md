@@ -24,9 +24,9 @@ The <span style="color:red">red rows</span> indicates no connection to remote se
 
 ## How to execute any kind of task
 
-There are **five** ways to execute tasks (`backup` tasks only).
+There are **five** ways to execute tasks, `backup` and `snapshot` tasks only:
 - (1) single task, a double click on a row executes first a test run (`--dry-run`), the next double click executes the real run
-  - selecting another row after a `--dry-run` resets the work queue
+  - this is the only way to do a full `restore` a well, restore of single files and catalogs is by [copy single files](CopySingleFiles.md)
 - (2) quick backup
   - select which tasks to execute in one go, selection is not saved
   - start with dynamic view of local vs remote storage, selecting tasks to execute automatically opens the quick backup menu with preselected tasks
