@@ -26,7 +26,6 @@ The <span style="color:red">red rows</span> indicates no connection to remote se
 
 There are **five** ways to execute tasks, `backup` and `snapshot` tasks only:
 - (1) single task, a double click on a row executes first a test run (`--dry-run`), the next double click executes the real run
-  - this is the only way to do a full `restore` a well, restore of single files and catalogs is by [copy single files](CopySingleFiles.md)
 - (2) quick backup
   - select which tasks to execute in one go, selection is not saved
   - start with dynamic view of local vs remote storage, selecting tasks to execute automatically opens the quick backup menu with preselected tasks
@@ -37,7 +36,9 @@ There are **five** ways to execute tasks, `backup` and `snapshot` tasks only:
 
 All tasks can be aborted during execution.
 
-Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning at top of page). Files can also be restored by using the [copy single files](CopySingleFiles.md)
+### Restore files
+
+Due to how a `restore` works, a restore can only be executed by a test run (`--dry-run`) before the real run. Executing a `restore` task might delete local files. Files and catalogs can also be restored by using the [copy single files](CopySingleFiles.md)
 
 ### (1) Single tasks
 
