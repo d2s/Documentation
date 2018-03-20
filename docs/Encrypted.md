@@ -8,5 +8,18 @@ RsyncOSX does not support encrypted backups. It is probably possible to do encry
 
 ## Encrypted backups utilizing rclone
 
+In rclone, add a [encrypted](https://rclone.org/crypt/) remote. In RcloneOSX add source and backup location utilizing the encrypted remote. I have set up rclone to encrypt files, filenames and catalogs by using maximum key length. I have set up RcloneOSX to do encrypted backups of my `Documents` catalog to a catalog `rcloneencrypted`.
+
+The first task is to sync and encrypt backups. The second task is to sync and decrypt the local encrypted backup to a temporary catalog.
+
 ![Main view](screenshots/master/encrypted/rclone.png)
+
+The encrypted catalog `rcloneencrypted` looks like:
+
+![Main view](screenshots/master/encrypted/encrypted.png)
+
+By utilizing RsyncOSX I am syncing the encrypted catalog `rcloneencrypted` to a remote server.
+
 ![Main view](screenshots/master/encrypted/rsyncosx.png)
+
+To restore a file reverse the above process.
