@@ -22,6 +22,10 @@ All types of backups
 The <span style="color:red">red rows</span> indicates no connection to remote server. Selecting the TCP-button executes the check and marks configurations not available (no contact with remote server) red. RsyncOSX does a **background** check (informal only) for remote servers. The server `freenas.local` is a local NAS server (FreeNAS) and RsyncOSX does not find `freenas.local` outside my home and marks configurations red in table view.
 ![Main view](screenshots/master/main1.png)
 
+## Encrypted backups
+
+A simple [procedure](Encrypted.md) by utilizing rclone (RcloneOSX) and rsync (RsyncOSX).
+
 ## How to execute any kind of task
 
 There are **five** ways to execute tasks, `backup` and `snapshot` tasks only:
