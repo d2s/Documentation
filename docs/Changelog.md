@@ -10,7 +10,7 @@ Rsync does not support encrypted backups directly. There is another tool rclone,
 
 ## Version 5.2.0 release candidate
 
-Updated 21 March 2018, this version will be released in beginning of April.
+Updated 22 March 2018, this version will be released in beginning of April. Fixed a couple of nil pointer bugs in last rc.
 
 [Zsolt Sándor](https://github.com/graphis) has proposed a new app-icon. The new app-icon is built in the rc. Please [comment](https://github.com/rsyncOSX/RsyncOSX/pull/626) about the new icon if you have any thoughts about it. There are a few enhancements as well in the release candidate.
 
