@@ -4,22 +4,24 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
-## Next release after v5.2.0 is released
+## Next release after v5.2.1 is released
 
 Rsync does not support encrypted backups directly. There is another tool rclone, which does. I am syncing an [encrypted](Encrypted.md) backup of my Documents catalog to a remote server by utilizing RcloneOSX and RsyncOSX. I am thinking of embedding some parts of RcloneOSX (rclone) within RsyncOSX to enable encrypted backups in "one go".
 
-## Version 5.2.0 release candidate
+## Version 5.2.1
 
-Updated 22 March 2018, this version will be released in beginning of April. Fixed a couple of nil pointer bugs in last rc.
+Released 28 March 2018.
 
-[Zsolt Sándor](https://github.com/graphis) has proposed a new app-icon. The new app-icon is built in the rc. Please [comment](https://github.com/rsyncOSX/RsyncOSX/pull/626) about the new icon if you have any thoughts about it. There are a few enhancements as well in the release candidate.
+The RsyncOSXsched.app is not required to install, it is the [menu app](https://github.com/rsyncOSX/RsyncOSXsched) for scheduled backups.
+
+- new application icon by [Zsolt Sándor](https://github.com/graphis)
+- fixed a bug in schedule
+- some other enhancements, se below..
 
 ![](screenshots/5.2.0/appicon.png)
 
 Within the dynamic info view a progress bar informs about the progress. There is a `Select` button to select all tasks with changed files compared to backup catalog.
 ![](screenshots/5.2.0/change1.png)
-
-Fixed a bug in schedule.
 
 A new tab `All profiles` presents key info about all profiles. All columns can be sorted in ascending or descending order. When a column is selected apply filter for search within selected column.
 ![](screenshots/5.2.0/change2.png)
