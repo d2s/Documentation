@@ -8,6 +8,11 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 Rsync does not support encrypted backups directly. There is another tool rclone, which does. I am syncing an [encrypted](Encrypted.md) backup of my Documents catalog to a remote server by utilizing RcloneOSX and RsyncOSX. I am thinking of embedding some parts of RcloneOSX (rclone) within RsyncOSX to enable encrypted backups in "one go".
 
+![](screenshots/5.3.0/rsyncosx1.png)
+![](screenshots/5.3.0/rsyncosx2.png)
+![](screenshots/5.3.0/rclone1.png)
+![](screenshots/5.3.0/rclone2.png)
+
 ## Version 5.2.1
 
 Released 28 March 2018.
