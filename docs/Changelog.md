@@ -4,9 +4,15 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
-## Next release after v5.2.1 is released
+## Next release v5.3.0
 
-Rsync does not support encrypted backups directly. There is another tool rclone, which does. I am syncing an [encrypted](Encrypted.md) backup of my Documents catalog to a remote server by utilizing RcloneOSX and RsyncOSX. I am thinking of embedding some parts of RcloneOSX (rclone) within RsyncOSX to enable encrypted backups in "one go".
+Rsync does not support encrypted backups directly. There is another tool `rclone` which does. Based upon the code for RsyncOSX I have developed RcloneOSX, which is a GUI utilizing `rclone`. In test I have combined `rclone` and `rsync` by utilizing RcloneOSX and RsyncOSX to synchronize an encrypted backup to remote servers running OS as FreeBSD, Linux, Solaris and so on. RsyncOSX executes the `rclone` and `rsync` command line tool in one go. The administration of the rclone part is done in RcloneOSX.
+
+To setup a encrypted backup in RcloneOSX (`rclone`) and connect the setup in RsyncOSX takes a couple of minutes. After connection is setup in RsyncOSX synchronizing encrypted backups to remote servers is enabled within RsyncOSX.
+![](screenshots/5.3.0/rsyncosx1.png)
+![](screenshots/5.3.0/rsyncosx2.png)
+![](screenshots/5.3.0/rclone1.png)
+![](screenshots/5.3.0/rclone2.png)
 
 ## Version 5.2.1
 
