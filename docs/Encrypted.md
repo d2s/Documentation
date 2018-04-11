@@ -28,14 +28,16 @@ A restore of the local encrypted catalog can be verified with `/usr/local/bin/rc
 
 ### Setup in RcloneOSX
 
-The catalog `/Volumes/Home/thomas/demoEncryptedorg` is the not encrypted source catalog to be backed up. The catalog `/Volumes/Home/thomas/demoEncryptedrclone` is the catalog where rclone is by `rclone config`, to encrypt and store whatever is in the source catalog. 
-
+The catalog `/Volumes/Home/thomas/demoEncryptedorg` is the not encrypted source catalog to be backed up. The catalog `/Volumes/Home/thomas/demoEncryptedrclone` is the catalog where rclone is by `rclone config`, setup to encrypt and store whatever is in the source catalog.
 ![Main view](screenshots/master/encrypted/rclone1.png)
+After setup in RcloneOSX utlizing the cloudservice `demoEncrypted:`, a dry-run is executed to verify the task.
 ![Main view](screenshots/master/encrypted/rclone2.png)
 
 ### Setup in RsyncOSX and connection to RcloneOSX
 
+A task in RsyncOSX is added to sync the encrypted catalog `/Volumes/Home/thomas/demoEncryptedrclone` and synchronize it to a catalog `/mnt/backup2/temp/demoEncryptedserver/` on my freenas.local server at home (as a demo).
 ![Main view](screenshots/master/encrypted/rsync1.png)
+After adding the above backup task, a connection between the RsyncOSX task and RcloneOSX task is required.
 ![Main view](screenshots/master/encrypted/connect1.png)
 ![Main view](screenshots/master/encrypted/connect2.png)
 ![Main view](screenshots/master/encrypted/connect3.png)
