@@ -2,24 +2,49 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-RsyncOSX does not support encrypted backups. It is probably possible to do encrypted backups utilize filesystems as [encfs](https://github.com/vgough/encfs). I have found another solution which require two steps. Until now I have not backup up my Documents catalog on remote servers due to no encryption of backed up data.
+`Rsync` does not support encrypted backups. It is probably possible to do encrypted backups utilize filesystems as [encfs](https://github.com/vgough/encfs). By combining rclone and rsync in RsyncOSX encrypted backups is enabled in a two step operation.
 
 [Rclone](https://github.com/ncw/rclone) is "a rsync for cloud storage" command line tool. I have developed RcloneOSX which is a GUI utilizing rclone. RcloneOSX is a minor version of RsyncOSX, but for simple backups it works.
 
-## Encrypted backups utilizing rclone
+## Encrypted backups utilizing RcloneOSX and RsyncOSX
 
-In rclone, add a [encrypted](https://rclone.org/crypt/) remote. In RcloneOSX add source and backup location utilizing the encrypted remote. I have set up rclone to encrypt files, filenames and catalogs by using maximum encryption key length. I have set up RcloneOSX to do encrypted backups of my `Documents` catalog to a locale catalog `rcloneencrypted` by utilizing the encryption functionality  within rclone. 
+In rclone, add a [encrypted](https://rclone.org/crypt/) remote. The remote encrypted catalog in rclone config is set to `/Volumes/Home/thomas/demoEncryptedrclone`. The cloudservice in rclone config is named `demoEncrypted`. In RcloneOSX add source and backup location utilizing the encrypted remote. I have set up rclone to encrypt files, filenames and catalogs by using maximum encryption key length. I have set up RcloneOSX to do encrypted backups of my `demoEncryptedorg` catalog to a locale catalog `demoEncryptedrclone` by utilizing the encryption functionality  within rclone.
 
-In the view below the first task is to sync and encrypt backups by RcloneOSX. The second task is to sync and decrypt the local encrypted backup to a temporary catalog.
+### How does it work
 
-![Main view](screenshots/master/encrypted/rclone.png)
+RsyncOSX reads the configuration files for RcloneoSX. Within RsyncOSX connect the backup task with RcloneOSX configuration. After connection is set up the task is named `combined`. Execution of a `combined` task first executes the rclone command and then the rsync command. RsyncOSX reads the RcloneOSX config and computes the rclone parameters before executing the rclone command and then the rsync command.
 
-The encrypted catalog `rcloneencrypted` looks like:
+Enable encrypted backups in RsyncOSX require three initial steps:
 
-![Main view](screenshots/master/encrypted/encrypted.png)
+- setup encrypted backup in by `rclone config`
+- setup encrypted backup in RcloneOSX utilizing the encrypted cloudservice setup in `rclone config`
+- setup and connect the encrypted backup within RsyncOSX
 
-By utilizing RsyncOSX I am syncing the encrypted catalog `rcloneencrypted` to a remote server.
+After the above steps are done executing encrypted backups with RsyncOSX is enabled. It is advised to test a restore of the encrypted backup. The mapping in `rclone` can be verified by the following command `rclone ls demoEncrypted: --crypt-show-mapping` (the `demoEncrypted:` is the cloudservice name set up in `rclone`).
 
-![Main view](screenshots/master/encrypted/rsyncosx.png)
+A restore of the local encrypted catalog can be verified with `/usr/local/bin/rclone sync demoEncrypted: /Volumes/Home/thomas/tmp --dry-run --verbose` or by RcloneOSX. The command restores whatever is saved within the encrypted catalog to my tmp catalog in home directory.
 
-To restore a file reverse the above process.
+### Setup in RcloneOSX
+
+![Main view](screenshots/master/encrypted/rclone1.png)
+![Main view](screenshots/master/encrypted/rclone2.png)
+
+### Setup in RsyncOSX and connection to RcloneOSX
+
+![Main view](screenshots/master/encrypted/rsync1.png)
+![Main view](screenshots/master/encrypted/connect1.png)
+![Main view](screenshots/master/encrypted/connect2.png)
+![Main view](screenshots/master/encrypted/connect3.png)
+
+### Catalogs to synchronize
+
+![Main view](screenshots/master/encrypted/result1.png)
+![Main view](screenshots/master/encrypted/result2.png)
+![Main view](screenshots/master/encrypted/result3.png)
+
+### Log
+![Main view](screenshots/master/encrypted/log.png)
+
+### My encrypted Documents catalog
+
+![Main view](screenshots/master/encrypted/documents.png)
