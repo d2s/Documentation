@@ -39,18 +39,13 @@ A task in RsyncOSX is added to sync the encrypted catalog `/Volumes/Home/thomas/
 ![Main view](screenshots/master/encrypted/rsync1.png)
 After adding the above backup task, a connection between the RsyncOSX task and RcloneOSX task is required.
 ![Main view](screenshots/master/encrypted/connect1.png)
+A red row indicates that there is a connection. A combined task is marked `combined`.
 ![Main view](screenshots/master/encrypted/connect2.png)
+Execution of a combined task is done by `⌘R` command after selecting the task.
 ![Main view](screenshots/master/encrypted/connect3.png)
-
-### Catalogs to synchronize
-
-![Main view](screenshots/master/encrypted/result1.png)
-![Main view](screenshots/master/encrypted/result2.png)
-![Main view](screenshots/master/encrypted/result3.png)
-
-### Log
+The rsync part of task is logged.
 ![Main view](screenshots/master/encrypted/log.png)
 
 ### My encrypted Documents catalog
-
+View of how my Documents catalog looks like encrypted.
 ![Main view](screenshots/master/encrypted/documents.png)
