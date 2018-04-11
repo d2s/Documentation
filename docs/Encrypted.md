@@ -24,6 +24,7 @@ RsyncOSX reads the configuration files for RcloneoSX. Within RsyncOSX connect th
 ![Main view](screenshots/master/encrypted/rsync1.png)
 ![Main view](screenshots/master/encrypted/connect1.png)
 ![Main view](screenshots/master/encrypted/connect2.png)
+![Main view](screenshots/master/encrypted/connect3.png)
 
 ### Catalogs to synchronize
 
