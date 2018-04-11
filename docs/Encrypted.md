@@ -22,6 +22,8 @@ Enable encrypted backups in RsyncOSX require three initial steps:
 
 After the above steps are done executing encrypted backups with RsyncOSX is enabled. It is advised to test a restore of the encrypted backup. The mapping in `rclone` can be verified by the following command `rclone ls demoEncrypted: --crypt-show-mapping` (the `demoEncrypted:` is the cloudservice name set up in `rclone`).
 
+A restore of the local encrypted catalog can be verified with `/usr/local/bin/rclone sync demoEncrypted: /Volumes/Home/thomas/tmp --dry-run --verbose` or by RcloneOSX. The command restores whatever is saved within the encrypted catalog to my tmp catalog in home directory.
+
 ### Setup in RcloneOSX
 
 ![Main view](screenshots/master/encrypted/rclone1.png)
