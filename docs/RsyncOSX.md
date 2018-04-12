@@ -7,17 +7,27 @@ See important info about how to use [RsyncOSX and rsync](HowtoUseRsyncOSX.md). T
 
 ## Download link and install
 
-RsyncOSX is released in version 5.1.1 (27 February 2018). There are two methods for install, either (1) copy the apps from dmg files into a selected folder or use the (2) installer files to install in `/Application`folder.
+RsyncOSX is released in version 5.2.1 (28 March 2018). There are two methods for install, either (1) copy the apps from dmg files into a selected folder or use the (2) installer files to install in `/Application`folder. There are four archives, two pkg archives to install in /Application and two dmg files. The pkg files are not signed. It is NOT required to install the RsyncOSXsched.app. RsyncOSXsched.app is for scheduled backups only.
 
-- (1) [download zip archive](https://github.com/rsyncOSX/RsyncOSX/releases/download/v5.1.1/RsyncOSX.zip)
-	- unzip `RsyncOSX.zip` , open the two dmg´s and copy the `RsyncOSX.app` and `RsyncOSXsched.app` to a local directory
-	- shasum zip archive: 1ae9b3bbd3fdc01c77b63f407ac77415f6171991
-	- `/usr/bin/shasum ~/PathToDownload/RsyncOSX.zip` to verify hash
-- (2) [download zip pkg archive](https://github.com/rsyncOSX/RsyncOSX/releases/download/v5.1.1/RsyncOSXpkg.zip)
-	- unzip `RsyncOSXpkg.zip` and start installer for both apps, the installer copy the apps to the `/Application` folder
-	- shasum zip pkg archive: dd803eac298fb479a6cbbef5addc4af469c91cc6
-	- `/usr/bin/shasum ~/PathToDownload/RsyncOSXpkg.zip` to verify hash
-- see the [Changelog](Changelog.md) for info
+See [releases](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.2.1) for downloads.
+
+#### Install RsyncOSX.dmg or  RsyncOSX-5.2.1.pkg
+
+- shasum dmg archive: 0278210fc2b748ce503b953f3bb34190b219d321
+- shasum pkg pkg archive: 0affdcf06f6a680c96e52fb293b39c32c35170fd
+
+To install RsyncOSX open the downloaded `RsyncOSX.dmg` file, copy the RsyncOSX.app to a folder in your home catalog or any other catalog. The installer, `RsyncOSX-5.2.1.pkg`, copy the application files in the /Application folder. The installer require admin rights to install in /Application folder.
+
+#### Install RsyncOSXsched.dmg or RsyncOSXsched-5.2.1.pkg
+
+- shasum dmg archive: 97b9017c2f7b9ef0d24ca15a08a85a7b7590f84f
+- shasum pkg pkg archive: e6567fdbfc25c50437b32f056a50de9fe8828e91
+
+As above.
+
+#### Version 3.1.3 of rsync
+
+See readme.txt within dmg file for how to manually install version rsync 3.1.3.
 
 The application is installed and used at your own risk and developer accepts no responsibility for any errors, omissions or loss of data by using the application. The application is signed with my Apple Developer ID certificate.
 
