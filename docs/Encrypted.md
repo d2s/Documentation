@@ -2,11 +2,11 @@
 
 Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
-`Rsync` does not support encrypted backups by itself. It is probably possible to do encrypted backups utilize filesystems as [encfs](https://github.com/vgough/encfs). [Rclone](https://github.com/ncw/rclone) is "a rsync for cloud storage" command line tool which also supports encrypted backups. By combining rclone and rsync encrypted backups is enabled within RsyncOSX. If your primary object is saving encrypted backups on cloud storage services only there is no need for RsyncOSX. I am saving some personal data on remote servers and encrypts the data before syncing to remote server.
+`Rsync` does not support encrypted backups by itself. It is probably possible to do encrypted backups utilize filesystems as [encfs](https://github.com/vgough/encfs). [Rclone](https://github.com/ncw/rclone) is "a rsync for cloud storage" command line tool which also supports encrypted backups. By combining `rclone` and `rsync`, encrypted backups is enabled within RsyncOSX. If your primary object is saving encrypted backups on cloud storage services only there is no need for RsyncOSX. I am saving some personal data on remote servers (not cloud storage) and encrypts the data before synchronizing data.
 
 ## Encrypted backups utilizing RcloneOSX and RsyncOSX
 
-The setup below is just an example of setup utilizing my demo of encrypted backups. RcloneOSX is a minor version of RsyncOSX and for simple backups to cloud services it works ok.
+The setup below is just an example of setup utilizing my demo of encrypted backups. RcloneOSX is port of and a minor version of RsyncOSX for synchronizing backups to cloud storages utlizing the `rclone` utility.
 
 In rclone, add a [crypt](https://rclone.org/crypt/) remote. The remote encrypted catalog in `rclone config` is set to `/Volumes/Home/thomas/demoEncryptedrclone`. The cloudservice in `rclone config` is named `demoEncrypted`. In RcloneOSX add source and backup location utilizing the encrypted remote. I have set up rclone to encrypt files, filenames and catalogs by using maximum encryption key length. I have set up RcloneOSX to do encrypted backups of my `demoEncryptedorg` catalog to a locale catalog `demoEncryptedrclone` by utilizing the encryption functionality  within rclone.
 
