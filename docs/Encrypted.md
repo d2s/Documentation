@@ -6,7 +6,7 @@ Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
 
 ## Encrypted backups utilizing RcloneOSX and RsyncOSX
 
-The setup below is just an example of setup utilizing my demo of encrypted backups. RcloneOSX is port of and a minor version of RsyncOSX for synchronizing backups to cloud storages utlizing the `rclone` utility.
+The setup below is just an example of setup utilizing my demo of encrypted backups. RcloneOSX is port of and a minor version of RsyncOSX for synchronizing backups to cloud storages utilizing the `rclone` utility.
 
 In rclone, add a [crypt](https://rclone.org/crypt/) remote. The remote encrypted catalog in `rclone config` is set to `/Volumes/Home/thomas/demoEncryptedrclone`. The cloudservice in `rclone config` is named `demoEncrypted`. In RcloneOSX add source and backup location utilizing the encrypted remote. I have set up rclone to encrypt files, filenames and catalogs by using maximum encryption key length. I have set up RcloneOSX to do encrypted backups of my `demoEncryptedorg` catalog to a locale catalog `demoEncryptedrclone` by utilizing the encryption functionality  within rclone.
 
