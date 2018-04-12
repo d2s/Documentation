@@ -1,6 +1,9 @@
-# Changelog
-
-Index of [RsyncOSX documentation](https://rsyncosx.github.io/Documentation/).
+---
+layout: post
+title:  "Changelog"
+permalink: Changelog
+---
+Index of [RsyncOSX documentation](https://rsyncosx.github.io/).
 
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
@@ -14,7 +17,7 @@ Compared to release 5.2.1 the only new feature within the rc is enabling encrypt
 
 If you are testing this release candidate please report any issues or comments.
 
-See [the encrypted doc](Encrypted.md) for more info.
+See [the encrypted doc](/Encrypted) for more info.
 
 ## Version 5.2.1
 
@@ -26,21 +29,21 @@ The RsyncOSXsched.app is not required to install, it is the [menu app](https://g
 - fixed a bug in schedule
 - some other enhancements, se below..
 
-![](screenshots/5.2.0/appicon.png)
+![](/images/screenshots/5.2.0/appicon.png)
 
 Within the dynamic info view a progress bar informs about the progress. There is a `Select` button to select all tasks with changed files compared to backup catalog.
-![](screenshots/5.2.0/change1.png)
+![](/images/screenshots/5.2.0/change1.png)
 
 A new tab `All profiles` presents key info about all profiles. All columns can be sorted in ascending or descending order. When a column is selected apply filter for search within selected column.
-![](screenshots/5.2.0/change2.png)
+![](/images/screenshots/5.2.0/change2.png)
 `⌘I` collects info about selected task.
-![](screenshots/5.2.0/change3.png)
+![](/images/screenshots/5.2.0/change3.png)
 Sort and filter logs and info about all profiles. Sort ascending, most recent on top.
-![](screenshots/5.2.0/change4.png)
+![](/images/screenshots/5.2.0/change4.png)
 Filter sort. All columns can be sorted and filtered.
-![](screenshots/5.2.0/change5.png)
+![](/images/screenshots/5.2.0/change5.png)
 Sort descending, most recent at bottom.
-![](screenshots/5.2.0/change6.png)
+![](/images/screenshots/5.2.0/change6.png)
 
 ## Version 5.1.1
 
@@ -57,15 +60,12 @@ to execute scheduled backups, the `menu app`is a minimal version of RsyncOSX onl
 ## Version 5.0.0
 
 - released 1 February 2018
-- [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) is the main new feature in this release
+- [snapshot](/Snapshots) is the main new feature in this release
 - enhancements in Quick Backup
 	-	selecting the i-button checks and estimates the number of changed files compared to the remote storage
 	- select which tasks to be executed and press the play button for executing tasks immidialaty
 	- the progress of each task is presented (require an estimate first - the i-button)
 - some minor cleanup in the schedule part
-
-![](screenshots/4.9.9rc/quick3.png)
-![](screenshots/4.9.9rc/quick1.png)
 
 ## Version 4.9.6
 
@@ -80,26 +80,6 @@ to execute scheduled backups, the `menu app`is a minimal version of RsyncOSX onl
 - in parameter view the rsync parameter `--compress` can be toggled on/off
 - sort and filter in **quick backups** and **info about backup locations**
 
-![](screenshots/4.9.5/remoteinfo.png)
-![](screenshots/4.9.5/aboutrsync.png)
-
-In right bottom of main view the version number of the `rsync` utilized in RsyncOSX is shown.
-
-![](screenshots/4.9.5/start.png)
-Select catalogs which should be backed up and close view. If there is a selection the Quick backup view will automatically opens with preselected tasks.
-![](screenshots/4.9.5/remote.png)
-There might be preselected catalogs to be backed up from the info view. Select which tasks to be executed in one go. List is sorted by selecting the appropriate column, by local catalog, remote catalog, remote server or days.
-![](screenshots/4.9.5/quickbackup.png)
-The result from backup tasks in log view.
-![](screenshots/4.9.5/logs.png)
-
-![](screenshots/4.9.5/select.png)
-After selection choose execute and tasks are executed. When task is completed the row is marked completed with a check flag.
-![](screenshots/4.9.5/execute.png)
-Filter and select, filter by column.
-![](screenshots/4.9.5/filter.png)
-![](screenshots/4.9.5/filter2.png)
-
 ## Version 4.9.2
 
 - v4.9.2 released 17 Dec 2017
@@ -112,16 +92,6 @@ Filter and select, filter by column.
 	- `⌘R` - shortcut for immediate execute task
 	- `⌘A` - Abort task
 
-![](screenshots/4.9.2rc/singletask1.png)
-![](screenshots/4.9.2rc/singletask2.png)
-![](screenshots/4.9.2rc/batch.png)
-![](screenshots/4.9.2rc/shortcuts2.png)
-If shortcut `⌘R` is pressed the backup task is executed immidialaty.
-![](screenshots/4.9.2rc/shortcuts1.png)
-Scheduling of tasks. A green mark is shown on a task if there are active schedules. The schedules view shows details about planned tasks.
-![](screenshots/4.9.2rc/schedule2.png)
-![](screenshots/4.9.2rc/schedule1.png)
-
 ## Version 4.9.1
 
 - released 1 Dec 2017
@@ -132,8 +102,6 @@ Scheduling of tasks. A green mark is shown on a task if there are active schedul
 - released 28 Nov 2017
 - new buttons are implemented
 - fixed a typo and some minor fixes
-![](screenshots/4.9.0rc/rsyncosx3.png)
-![](screenshots/4.9.0rc/buttons.png)
 
 ## Version 4.8.6
 
@@ -144,9 +112,6 @@ Scheduling of tasks. A green mark is shown on a task if there are active schedul
 	- the log function appends new logs, be careful not logging all actions
 - fixed some other minor glitches
 - added number of days since last backup in main view
-![](screenshots/4.8.6/main.png)
-![](screenshots/4.8.6/user.png)
-![](screenshots/4.8.6/loggfile.png)
 
 ## Version 4.8.2
 
@@ -157,16 +122,8 @@ Scheduling of tasks. A green mark is shown on a task if there are active schedul
 
 * released 7 Nov 2017
 * this will be the last release for RsyncOSX for some time
-	- I have commenced a new project, the new project [RcloneOSX](https://rsyncosx.github.io/rcloneosx/) is adapting RsyncOSX to utilize [rclone](https://rclone.org)
-	- the [Changelog](https://rsyncosx.github.io/rcloneosx/docs/RcloneOSX/Changelog.html) for the new project
 
-The main focus in the version 4.8.1 is UX-design (user experience). The objective is to make the UX-experience in RsyncOSX as good as possible. Below are some samples of changes to make a better UX-design.
-![](screenshots/4.8.1rc/ux1.png)
-![](screenshots/4.8.1rc/ux2.png)
-![](screenshots/4.8.1rc/ux3.png)
-![](screenshots/4.8.1rc/ux4.png)
-![](screenshots/4.8.1rc/norsync.png)
-
+The main focus in the version 4.8.1 is UX-design (user experience). The objective is to make the UX-experience in RsyncOSX as good as possible.
 ## Version 4.8.0
 
 * released 25 Oct 2017
@@ -177,7 +134,6 @@ The main focus in the version 4.8.1 is UX-design (user experience). The objectiv
 * some other bug fixes as well
 * the .dmg file is built on a mounted NOT APFS (SMB mount) filesystem to avoid problems mounting the .dmg file on non APFS systems
 
-The [intro](https://rsyncosx.github.io/Documentation/docs/Intro.html) page is updated reflecting version 4.8.0.
 
 ## Version 4.7.5
 
@@ -200,27 +156,11 @@ In version 4.5.1, configurations and schedules are kept in memory utilizing sing
 * fixed a bug in setting user selected parameters to rsync (the two first parameters)
 * and fixed other minor bugs as well
 
-View and delete log records or stop scheduled tasks (`⌘L`)from the main view.
-![](screenshots/4.6.5rc/loggs.png)
-Change profile from Schedule view (`⌘P`).
-![](screenshots/4.6.5rc/profile.png)
-Either double click on row or `⌘L` to view and delete log records or stop scheduled tasks from the schedules view.
-![](screenshots/4.6.5rc/loggs2.png)
-Refactor of collecting output from rsync, applies to copy files as well, more efficient. Selects info about 10,000 remote files in less than one second. Info about remote files is utilized by using rsync and it is very efficient.
-![](screenshots/4.6.5rc/copyfiles.png)
-Error handling in batch. As en example just added a parameter which makes rsync produce an error.
-![](screenshots/4.6.5rc/error1.png)
-![](screenshots/4.6.5rc/error2.png)
-An error is discovered, batchview closes and batchwork is aborted.
-![](screenshots/4.6.5rc/error3.png)
-Pressing the Information button informs which error made rsync halt.
-![](screenshots/4.6.5rc/error4.png)
-
 ## Version 4.5.1
 
 Built with Xcode 9 GM.
 
-There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To install this version of rsync please make a catalog in your home directory (or use /usr/local/bin) and make RsyncOSX aware of using the new rsync in [userconfig](https://rsyncosx.github.io/Documentation/docs/UserConfiguration.html).
+There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To install this version of rsync please make a catalog in your home directory (or use /usr/local/bin) and make RsyncOSX aware of using the new rsync in [userconfig](/UserConfiguration).
 
 * released 13 Sept 2017
 * using [SwiftLint](https://github.com/realm/SwiftLint) has caused several and major rewrites in parts of code
@@ -232,10 +172,6 @@ There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To
 * refactor filter (search) functions in logs and copy files
 * fixed a bug causing RsyncOSX to crash if loading new profile during a test for TCP connections
 * added parameter `--max-delete=-1` to secure no execution of task if files will be deleted during run (user selected in setting rsync parameters)
-
-![](screenshots/4.5.0rc/max-delete.png)
-![](screenshots/4.5.0rc/max-delete-2.png)
-
 
 ## Version 4.4.6
 
@@ -249,7 +185,7 @@ There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To
 
 * released 8 June 2017
 	* compiled with latest release 8.3.3 of Xcode (which was released June 2017)
-* Seems like the [logging](Logging.md) problem is partly solved in 30 May 2017 update
+* Seems like the [logging](/Logging) problem is partly solved in 30 May 2017 update
 * Added Abort when real task is executing
 * Refactor of Copy Single files/directory
 	* in userconfig set temporary restore catalog (for single files or directory)
@@ -258,25 +194,18 @@ There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To
 	* double click on row to restore files or directory to temporary (local) catalog
 * Clean up of other parts of code
 
-![](screenshots/4.3.5/abort.png)
-![](screenshots/4.3.5/config.png)
-![](screenshots/4.3.5/remote.png)
-![](screenshots/4.3.5/filelist.png)
-![](screenshots/4.3.5/doubleclick.png)
-![](screenshots/4.3.5/finished.png)
-
 ## Version 4.3.0
 
 * released 8 May 2017
-* assist in setup of [passwordless logins](PasswordlessLogin.md)
-	* see [doc](ssh.md) - documentation in progress
+* assist in setup of [passwordless logins](/PasswordlessLogin)
+	* see [doc](/ssh) - documentation in progress
 * couple of bugfixes
 
 ## Version 4.2.5
 
 **Bug** in version 4.2.5 causes RsyncOSX to crash if RsyncOSX is minimized during execution of a task. Bug is fixed and will be released in version 4.3.0.
 
-**Next** release (version 4.3.0) will probably include some functionality for assisting setup of [passwordless logins](PasswordlessLogin.md). Don't know when it will be released. Summer is coming and further development of RsyncOSX will be slowed down during summer. I am currently working on this release now and (slowly) progressing...
+**Next** release (version 4.3.0) will probably include some functionality for assisting setup of [passwordless logins](/PasswordlessLogin). Don't know when it will be released. Summer is coming and further development of RsyncOSX will be slowed down during summer. I am currently working on this release now and (slowly) progressing...
 
 * released 23 Apr 2017
 * minor bugfixes and cleanup of code
@@ -284,12 +213,7 @@ There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To
 * adjusted the parameters to rsync
 * adjusted the schedule
 
-![](screenshots/4.2.5/parameter.png)
-![](screenshots/4.2.5/mainview.png)
-
 In the parameter to rsync, if `backup` option is selected RsyncOSX adds the directory to the backup catalog (for saving changed and deleted files). Choose either suffix for FreeBSD or Linux. Neither of them works on **local backup** macOS (have to test more). But, if you copy and paste the FreeBSD suffix in a terminal window it works on macOS (it adds the correct timestamp to the changed files in the backup directory).
-
-![](screenshots/4.2.5/schedule.png)
 
 The schedule now informs if a scheduled backup plan is to short ahead. A weekly backup must be at least seven days ahead of current date and time.
 
@@ -304,18 +228,13 @@ The schedule now informs if a scheduled backup plan is to short ahead. A weekly 
 * there is an issue when RsyncOSX counts files to be transferred in *batchmode*, the issue does not introduce any faults (informal only)
 * there is also an issue when RsyncOSX is logging, sometimes RsyncOSX does log 0 files and not the actual number of files and size of transfer (informal only)
 
-![](screenshots/4.1.5rc/batch.png)
-
 ## Version 4.1.0
 
 * released 19 March 2017
 * fixed one bug in parameters to rsync (causing RsyncOSX to crash)
 * new help function - opens relevant html page in browser
 * added new info using rsync version 3.1.2 (number of *new* and *delete* files)
-	* see [user configuration](UserConfiguration.md) how set other version of rsync
-
-![](screenshots/4.1.0/new.png)
-
+	* see [user configuration](/UserConfiguration) how set other version of rsync
 
 ## Version 4.0.0
 
@@ -323,14 +242,11 @@ The schedule now informs if a scheduled backup plan is to short ahead. A weekly 
 * new application icon by Forrest Walter (this is the primary reason why releasing a new version)
 * added new functionality in `Copy files` - double click on source get list of files from remote server
 
-![](screenshots/4.0.0/copy.png)
-
-
 ## Version 3.9.7
 
 Sometimes rsync throws errors and does not execute as expected. Single task is implemented as queue of work (`estimate`, `execute` and `done`). If `estimate` or `execute` fails (by some reason) the user has to be made aware of situation and fix it.
 
-RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notified, error is marked (in red) and work queue is reset if option in userconfig (see below) is set. To test enter a not valid user name for a remote server ([edit task](SingleTask.md) in main view).
+RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notified, error is marked (in red) and work queue is reset if option in userconfig (see below) is set. To test enter a not valid user name for a remote server ([edit task](/SingleTask) in main view).
 
 Other changes:
 
@@ -339,11 +255,6 @@ Other changes:
 - Added reporting any file errors (in profile) to main view.
 - There is also fixed a minor bug in Profiles.
 - In About menu reference to GitHub Pages about Changelog and Documentation of RsyncOSX
-
-See [releases](https://github.com/rsyncOSX/Version3.x/releases) for download.
-
-![Shedules](screenshots/3.9.6rc/config.png)
-![Logs](screenshots/3.9.6rc/error.png)
 
 ## Version 3.9.5
 
@@ -360,10 +271,6 @@ If RsyncOSX crash during startup please delete the schedule and loggfile: `Docum
 	- number of logs in each schedule
 	- manual execution of tasks are logged under start date `1 Jan 1900 00:00`
 - dates are forced to "en_US" localization to prevent RsyncOSX from crashing if the preferred language of macOS is other than english (e.g. Norwegian)
-
-![Shedules](screenshots/3.9.5rc/screen2.png)
-![Logs](screenshots/3.9.5rc/screen1.png)
-
 
 ## Version 3.9.1
 - released 19 January 2017
@@ -527,7 +434,6 @@ What is **NOT** implemented in version 3.0
   - will come in version 3.1.0
 - no detailed logging
   - will come in version 3.1.0
-
 
 ## Changelog prior version 3.0.0
 
