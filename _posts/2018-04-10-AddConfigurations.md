@@ -3,8 +3,6 @@ layout: post
 title:  "Add configurations"
 permalink: AddConfigurations
 ---
-Index of [RsyncOSX documentation](/AboutRsyncOSX).
-
 Adding configurations is easy. A configuration require minimum **Local catalog** and **Remote catalog**. And they cannot be equal (obvious). After entering information about a configuration select the Add button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage when choosing another tab (as Execute or other).
 
 Select **Local catalog** either by *drag and drop*, by *enter text* directly or by *GUI* (press the folder icon). For **Remote catalogs** only drag and drop or GUI for local volumes. For remote server catalogs enter by text only.

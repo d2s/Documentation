@@ -3,8 +3,6 @@ layout: post
 title:  "Reading and writing data to permanent storage"
 permalink: Readwrite
 ---
-Index of [RsyncOSX documentation](/AboutRsyncOSX).
-
 The object [Readwritefiles.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Readwritefiles.swift) decides if data should be read from memory or permanent storage. All data (configurations, schedules and log records, user config) is read from permanent storage utilizing the [NSDictionary](https://developer.apple.com/documentation/foundation/nsdictionary) foundation class.
 
 RsyncOSX configuration file, scheduled tasks which also includes log records and user configuration are plain XML-files ([property list files](https://en.wikipedia.org/wiki/Property_list)). Files are saved in:

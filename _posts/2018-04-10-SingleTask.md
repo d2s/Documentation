@@ -3,8 +3,6 @@ layout: post
 title:  "Executing single tasks"
 permalink: SingleTask
 ---
-Index of [RsyncOSX documentation](/AboutRsyncOSX).
-
 In main view (which is the opening view) tasks can be executed as **single**- and/or **batch** tasks. Execute single tasks requires a couple of **double clicks** : one for **estimation** run and the second for **executing** the real task. The output from rsync is presented after each run (see below).
 
 There are three options for editing after selecting a task in row:

@@ -3,8 +3,6 @@ layout: post
 title:  "User configuration"
 permalink: UserConfiguration
 ---
-Index of [RsyncOSX documentation](/AboutRsyncOSX).
-
 There are only a few parameters to choose in user configuration. The parameters are:
 
  - another version of rsync

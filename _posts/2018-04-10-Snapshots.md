@@ -3,8 +3,6 @@ layout: post
 title:  "Snapshots"
 permalink: Snapshots
 ---
-Index of [RsyncOSX documentation](/AboutRsyncOSX).
-
 ## Some notes about the snapshot feature
 
 The snapshot functionality is new, please read about it before using it.

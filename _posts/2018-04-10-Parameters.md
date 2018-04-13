@@ -3,10 +3,6 @@ layout: post
 title:  "Parameters to rsync"
 permalink: Parameters
 ---
-Index of [RsyncOSX documentation](/AboutRsyncOSX).
-
-## Details about the sample parameters
-
 The website LibreByte has written an article [14 Practical examples of the rsync command](http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/). One of the examples is instructing rsync to store backups of files in a backup folder and rename old files by a date suffix.
 
 
