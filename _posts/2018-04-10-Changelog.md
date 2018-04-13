@@ -29,21 +29,21 @@ The RsyncOSXsched.app is not required to install, it is the [menu app](https://g
 - fixed a bug in schedule
 - some other enhancements, se below..
 
-![](/images/screenshots/5.2.0/appicon.png)
+![](/images/RsyncOSX/5.2.0/appicon.png)
 
 Within the dynamic info view a progress bar informs about the progress. There is a `Select` button to select all tasks with changed files compared to backup catalog.
-![](/images/screenshots/5.2.0/change1.png)
+![](/images/RsyncOSX/5.2.0/change1.png)
 
 A new tab `All profiles` presents key info about all profiles. All columns can be sorted in ascending or descending order. When a column is selected apply filter for search within selected column.
-![](/images/screenshots/5.2.0/change2.png)
+![](/images/RsyncOSX/5.2.0/change2.png)
 `⌘I` collects info about selected task.
-![](/images/screenshots/5.2.0/change3.png)
+![](/images/RsyncOSX/5.2.0/change3.png)
 Sort and filter logs and info about all profiles. Sort ascending, most recent on top.
-![](/images/screenshots/5.2.0/change4.png)
+![](/images/RsyncOSX/5.2.0/change4.png)
 Filter sort. All columns can be sorted and filtered.
-![](/images/screenshots/5.2.0/change5.png)
+![](/images/RsyncOSX/5.2.0/change5.png)
 Sort descending, most recent at bottom.
-![](/images/screenshots/5.2.0/change6.png)
+![](/images/RsyncOSX/5.2.0/change6.png)
 
 ## Version 5.1.1
 

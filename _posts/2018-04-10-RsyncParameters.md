@@ -9,7 +9,7 @@ RsyncOSX implements default parameters which are working fine for simple backup 
 
 RsyncOSX does also facilitate user selected parameters. User selected parameters are stored by each task and set by user, see [user selected parameters](Parameters.md).
 
-![New configurations](/images/screenshots/master/rsync/rsync4.png)
+![New configurations](/images/RsyncOSX/master/rsync/rsync4.png)
 
 ## Standard parameters all tasks
 
