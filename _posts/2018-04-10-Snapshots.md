@@ -3,8 +3,6 @@ layout: post
 title:  "Snapshots"
 permalink: Snapshots
 ---
-## Some notes about the snapshot feature
-
 The snapshot functionality is new, please read about it before using it.
 - snapshots works on both local attached disks and remote hosts
 - standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/catalogtobackup/1`)
