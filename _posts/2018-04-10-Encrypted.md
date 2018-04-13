@@ -3,8 +3,6 @@ layout: post
 title:  "Encrypted backups"
 permalink: Encrypted
 ---
-Index of [RsyncOSX documentation](/AboutRsyncOSX).
-
 `Rsync` does not support encrypted backups by itself. It is probably possible to do encrypted backups utilize filesystems as [encfs](https://github.com/vgough/encfs). [Rclone](https://github.com/ncw/rclone) is "a rsync for cloud storage" command line tool which also supports encrypted backups. By combining `rclone` and `rsync`, encrypted backups is enabled within RsyncOSX. If your primary object is saving encrypted backups on cloud storage services only there is no need for RsyncOSX. I am saving some personal data on remote servers (not cloud storage) and encrypts the data before synchronizing data.
 
 ## Encrypted backups utilizing RcloneOSX and RsyncOSX

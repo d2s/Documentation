@@ -3,10 +3,6 @@ layout: post
 title:  "Schedule task"
 permalink: ScheduleTasks
 ---
-Index of [RsyncOSX documentation](/AboutRsyncOSX).
-
-![](/images/RsyncOSX/master/menuapp/menuapp.png)
-
 A scheduled task is only active within the profile in use. If you add a scheduled task in one profile and change profile, the schedule will be inactive until profile is loaded again.  By selecting a row and choose schedule applies a scheduled backup to a task. There are three choices for schedules :
 
 - `once`
@@ -22,9 +18,9 @@ The stack is a reference only to a configuration (by a hidden key). The user can
 
 When the first scheduled task is _completed_, RsyncOSX checks the next top element of stack. In example the schedule *once* is selected. First scheduled backup is scheduled in one hour.
 
-From version 5.1.1 of RsyncOSX there is the `menu app` for executing scheduled tasks in RsyncOSX. The idea is to add scheduled tasks in RsyncOSX, quit RsyncOSX and let the menu app take care of executing the scheduled tasks.
+From version 5.1.1 of RsyncOSX there is the [menu app](/Menuapp) for executing scheduled tasks in RsyncOSX. The idea is to add scheduled tasks in RsyncOSX, quit RsyncOSX and let the menu app take care of executing the scheduled tasks.
 
-The `menu app` should be started from RsyncOSX. This require paths for both apps to be entered into userconfiguration.  The paths are used for activating the apps from either within RsyncOSX or RsyncOSXsched.
+The [menu app](/Menuapp) should be started from RsyncOSX. This require paths for both apps to be entered into userconfiguration.  The paths are used for activating the apps from either within RsyncOSX or RsyncOSXsched.
 Adding paths for applications automatically enables, if both apps are found, executing scheduled apps in the `menu app`. To disable delete paths.
 
 Only scheduled tasks from the selected profile is active. A flag in RsyncOSX indicates where the scheduled tasks is set to be executed. If both RsyncOSX and the menu app is active at the same time only one of them is allowed to executed scheduled tasks.
