@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This is the documentation of RsyncOSX GUI for `rsync` and RcloneOSX GUI for `rclone`.
 
-### More Information
+### Issues, missing features and enhancements
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Please use the [GitHub repository](https://github.com/rsyncOSX/RsyncOSX) to report any issues or request for new features or enhancements.
