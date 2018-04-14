@@ -3,7 +3,7 @@ layout: post
 title:  "Changelog"
 permalink: Changelog
 ---
-I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](https://github.com/rsyncOSX/Documentation/blob/master/docs/Snapshots.md) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
+I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](/Snapshots) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
 ## Release candidate v5.3.0
 
@@ -21,7 +21,7 @@ See [the encrypted doc](/Encrypted) for more info.
 
 Released 28 March 2018.
 
-The RsyncOSXsched.app is not required to install, it is the [menu app](https://github.com/rsyncOSX/RsyncOSXsched) for scheduled backups.
+The RsyncOSXsched.app is not required to install, it is the [menu app](/Menuapp) for scheduled backups.
 
 - new application icon by [Zsolt Sándor](https://github.com/graphis)
 - fixed a bug in schedule
@@ -47,7 +47,7 @@ Sort descending, most recent at bottom.
 
 Released 27 February 2018
 
-- added a [menu app](https://github.com/rsyncOSX/RsyncOSXsched)
+- added a [menu app](/Menuapp)
 to execute scheduled backups, the `menu app`is a minimal version of RsyncOSX only capable of executing scheduled tasks
 	- all editing of tasks and schedules are within RsyncOSX
 - added notifications when scheduled task is completed
