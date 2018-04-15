@@ -3,7 +3,8 @@ layout: post
 title:  "Snapshots"
 permalink: Snapshots
 ---
-The snapshot functionality is new, please read about it before using it.
+The snapshot feature enables saving changed and deleted files ahead of a new synchronizing task. The snapshot saves the current state of files in a separate directory. Changed and deleted files can be restored utilizing the [copy single files](/CopySingleFiles) feature.
+
 - snapshots works on both local attached disks and remote hosts
 - standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/catalogtobackup/1`)
 - the snapshot feature utilizes the `--link-dest` parameter to rsync, please use either version 3.1.2 or 3.1.3 of [rsync](https://rsync.samba.org/)
