@@ -3,6 +3,7 @@ layout: post
 title:  "Rclone Changelog"
 permalink: RcloneChangelog
 ---
+This is the Changelog for RcloneOSX. RcloneOSX is a "quick and dirty" port of RsyncOSX to utilize `rclone`. I will spend some more time to refactor code and include some more `rclone` enhancements.
 
 ## Version 1.3.6
 

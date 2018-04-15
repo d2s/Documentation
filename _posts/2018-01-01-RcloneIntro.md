@@ -4,7 +4,7 @@ title:  "The main opening view and a short intro to RcloneOSX"
 permalink: RcloneIntro
 ---
 
-This page is a short intro to RcloneOSX and a brief walkthrough of the main functions of RcloneOSX. The intro is based on a early version. There has been updates to the application after the intro was made.
+This page is a short intro to RcloneOSX and a brief walkthrough of the main functions of RcloneOSX. The intro is based on a early version. There has been updates to the application after the intro was made. RcloneOSX is a "quick and dirty" port of RsyncOSX to utilize `rclone`. I will spend some more time to refactor code and include some more `rclone` enhancements.
 
 See [changelog](/RcloneChangelog). See also the [RsyncOSX readme](https://rsyncosx.github.io/AboutRsyncOSX) for more info about how RcloneOSX is working. Most of the functions are equal as RcloneOSX is built by adapting code from RsyncOSX.
 
