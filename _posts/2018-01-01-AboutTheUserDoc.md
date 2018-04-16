@@ -4,7 +4,7 @@ title:  "About the user documentation"
 permalink: AboutTheUserDoc
 ---
 
-This is user documentation is built by utilizing [Jekyll](https://jekyllrb.com/), the built in support for [GitHub Pages](https://pages.github.com/) within Jekyll and the [Markdown](https://en.wikipedia.org/wiki/Markdown) markup language.
+The user documentation is built by utilizing [Jekyll](https://jekyllrb.com/), the built in support for [GitHub Pages](https://pages.github.com/) within Jekyll and the [Markdown](https://en.wikipedia.org/wiki/Markdown) markup language.
 
 GitHub pages generates static html pages of your project at the adress `username.github.io`. By utilizing Jekyll you can within minutes setup webpages for your GitHub project. I forked the Jekyll template [Jekyll-now](https://github.com/barryclark/jekyll-now), renamed and moved all the previous user documentation markdown files to the the form `year-month-day-name.md` within the `_post` catalog. And that is basically what is required to get up and running.
 
