@@ -13,7 +13,7 @@ In rclone, add a [crypt](https://rclone.org/crypt/) remote. The remote encrypted
 
 ### How does it work
 
-RsyncOSX reads the configuration files for RcloneOSX. Within RsyncOSX connect the backup task with RcloneOSX configuration. After connection is set up the task is named `combined`. Execution of a `combined` task first executes the rclone command and then the rsync command. RsyncOSX reads the RcloneOSX config and computes the rclone parameters before executing the rclone command and then the rsync command.
+RsyncOSX reads the configuration files for RcloneOSX. Within RsyncOSX connect the backup task with RcloneOSX configuration. After connection is set up the task is renamed `combined`. Execution of a `combined` task first executes the rclone command and then the rsync command. RsyncOSX reads the RcloneOSX config and computes the rclone parameters before executing the rclone command and then the rsync command.
 
 Enable encrypted backups in RsyncOSX require three initial steps:
 
