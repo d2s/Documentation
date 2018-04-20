@@ -17,6 +17,8 @@ If you are testing this release candidate please report any issues or comments.
 
 See [the encrypted doc](/Encrypted) for more info.
 
+Next version will also enable backups all configurations in one go. RsyncOSX does a check if there are data to be transferred and for those configurations a backup is executed.
+
 ## Version 5.2.1
 
 Released 28 March 2018.
