@@ -13,11 +13,9 @@ Rsync does not support encrypted backups directly. There is another tool `rclone
 
 Compared to release 5.2.1 the only new feature within the rc is enabling encrypted backups by utilizing rclone and rsync. Please read the documents about encrypted backups before testing. There are four images, two dmg files and two pkg files. The pkg files installes the apps in the /Applications catalog.
 
-If you are testing this release candidate please report any issues or comments.
-
 See [the encrypted doc](/Encrypted) for more info.
 
-Next version will also enable backups all configurations in one go. RsyncOSX does a check if there are data to be transferred and for those configurations a backup is executed.
+The next feature is **not** in release candidate but will be in next release. Automatic backups, RsyncOSX does a check if there are data to be transferred and for those configurations a backup is executed.
 
 ## Version 5.2.1
 
