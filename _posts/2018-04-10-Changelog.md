@@ -5,15 +5,15 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](/Snapshots) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
-## Release candidate v5.3.0
+## Version v5.3.1
 
-Updated 22 April 2018
+Released 23 April 2018
 
-Rsync does not support encrypted backups directly. There is another tool `rclone` which does. Based upon the code for RsyncOSX I have developed RcloneOSX, which is a GUI utilizing `rclone`. In test I have combined `rclone` and `rsync` by utilizing RcloneOSX and RsyncOSX to synchronize an encrypted backup to remote servers running OS as FreeBSD, Linux, Solaris and so on. RsyncOSX executes the `rclone` and `rsync` command line tool in one go. The administration of the rclone part is done in RcloneOSX.
+Rsync does not support encrypted backups directly. There is another tool `rclone` which does. By utilizing RsyncOSX and [RcloneOSX](https://github.com/rsyncOSX/rcloneosx) to synchronize encrypted backup to remote servers running OS as FreeBSD, Linux, Solaris and so on. RsyncOSX executes the `rclone` and `rsync` command line tool in one go. The administration of the rclone part is done in [RcloneOSX](https://github.com/rsyncOSX/rcloneosx).
 
-Please read the documents about [encrypted](/Encrypted) backups before testing.  There is also a new feature, [automatic](/Automatic) backups. RsyncOSX does a check if there are data to be transferred or deleted and for those configurations a backup is automatic executed.
+Please read the documents about [encrypted](/Encrypted) backups.
 
-There are four images, two dmg files and two pkg files. The pkg files installes the apps in the /Applications catalog.
+There is also a new feature [automatic](/Automatic) backups. RsyncOSX does a check if there are data to be transferred or deleted and for those configurations a backup is automatic executed.
 
 ## Version 5.2.1
 
@@ -25,21 +25,7 @@ The RsyncOSXsched.app is not required to install, it is the [menu app](/Menuapp)
 - fixed a bug in schedule
 - some other enhancements, se below..
 
-![](/images/RsyncOSX/5.2.0/appicon.png)
-
 Within the dynamic info view a progress bar informs about the progress. There is a `Select` button to select all tasks with changed files compared to backup catalog.
-![](/images/RsyncOSX/5.2.0/change1.png)
-
-A new tab `All profiles` presents key info about all profiles. All columns can be sorted in ascending or descending order. When a column is selected apply filter for search within selected column.
-![](/images/RsyncOSX/5.2.0/change2.png)
-`⌘I` collects info about selected task.
-![](/images/RsyncOSX/5.2.0/change3.png)
-Sort and filter logs and info about all profiles. Sort ascending, most recent on top.
-![](/images/RsyncOSX/5.2.0/change4.png)
-Filter sort. All columns can be sorted and filtered.
-![](/images/RsyncOSX/5.2.0/change5.png)
-Sort descending, most recent at bottom.
-![](/images/RsyncOSX/5.2.0/change6.png)
 
 ## Version 5.1.1
 
