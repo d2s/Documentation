@@ -5,11 +5,11 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](/Snapshots) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
-## Version v5.3.1
+## Version 5.3.1
 
-Released 23 April 2018
+Released 23 April 2018.
 
-Rsync does not support encrypted backups directly. There is another tool `rclone` which does. By utilizing RsyncOSX and [RcloneOSX](https://github.com/rsyncOSX/rcloneosx) to synchronize encrypted backup to remote servers running OS as FreeBSD, Linux, Solaris and so on. RsyncOSX executes the `rclone` and `rsync` command line tool in one go. The administration of the rclone part is done in [RcloneOSX](https://github.com/rsyncOSX/rcloneosx).
+Rsync does not support encrypted backups directly. There is another tool `rclone` which does. By utilizing RsyncOSX and [RcloneOSX](https://github.com/rsyncOSX/rcloneosx) to synchronize encrypted backup to **remote servers** running OS as FreeBSD, Linux, Solaris and so on. RsyncOSX executes the `rclone` and `rsync` command line tool in one go. The administration of the rclone part is done in [RcloneOSX](https://github.com/rsyncOSX/rcloneosx).
 
 Please read the documents about [encrypted](/Encrypted) backups.
 
