@@ -11,9 +11,9 @@ Updated 22 April 2018
 
 Rsync does not support encrypted backups directly. There is another tool `rclone` which does. Based upon the code for RsyncOSX I have developed RcloneOSX, which is a GUI utilizing `rclone`. In test I have combined `rclone` and `rsync` by utilizing RcloneOSX and RsyncOSX to synchronize an encrypted backup to remote servers running OS as FreeBSD, Linux, Solaris and so on. RsyncOSX executes the `rclone` and `rsync` command line tool in one go. The administration of the rclone part is done in RcloneOSX.
 
-Please read the documents about [encrypted](/Encrypted) backups before testing. There are four images, two dmg files and two pkg files. The pkg files installes the apps in the /Applications catalog.
+Please read the documents about [encrypted](/Encrypted) backups before testing.  There is also a new feature, [automatic](/Automatic) backups. RsyncOSX does a check if there are data to be transferred or deleted and for those configurations a backup is automatic executed.
 
-There is also a new feature, [automatic](/Automatic) backups. RsyncOSX does a check if there are data to be transferred or deleted and for those configurations a backup is automatic executed.
+There are four images, two dmg files and two pkg files. The pkg files installes the apps in the /Applications catalog.
 
 ## Version 5.2.1
 
