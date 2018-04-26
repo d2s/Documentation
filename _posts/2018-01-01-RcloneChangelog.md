@@ -3,7 +3,12 @@ layout: post
 title:  "Rclone Changelog"
 permalink: RcloneChangelog
 ---
-This is the Changelog for RcloneOSX. RcloneOSX is a "quick and dirty" port of RsyncOSX to utilize `rclone`. I will spend some more time to refactor code and include some more `rclone` enhancements.
+This is the Changelog for RcloneOSX. RcloneOSX is a "quick and dirty" port of RsyncOSX to utilize `rclone`.  I the next months I will spend some more time to refactor code and include some more `rclone` enhancements.
+
+## Version 1.4.0
+
+- released 23 April 2018
+- minor fix for enable restore of encrypted backups (see [encrypted](/Encrypted) backups in RsyncOSX)
 
 ## Version 1.3.6
 
