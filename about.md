@@ -3,6 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+My name is Thomas and I am the developer of RsyncOSX. The development of RsyncOSX commenced in January 2016 as a project to learn Swift. And I have learned a lot. The codebase for RsyncOSX today is very different from the very start. There has been some refactor of code and the status of codebase today is quite stable. I have a university degree in computing science, but I am not a professional developer. A professional Swift developer would probably written the code somewhat different. To be a professional developer require, in my opinion, to be a developer for full time.
+
+I will continue to improve, enhance and add new functions in RsyncOSX. It is fun to code and I would like all users of RsyncOSX to ask for new functions. Testing is also a challenge and I am not able to test all parts in RsyncOSX ahead of new releases. 
 
 This is the documentation of RsyncOSX GUI for `rsync` and RcloneOSX GUI for `rclone`.
 
