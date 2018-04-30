@@ -5,6 +5,17 @@ permalink: RcloneChangelog
 ---
 This is the Changelog for RcloneOSX. RcloneOSX is a "quick and dirty" port of RsyncOSX to utilize `rclone`.  I the next months I will spend some more time to refactor code and include some more `rclone` enhancements.
 
+## Next version
+
+I´m in process of adapting most of the functions from RsyncOSX into RcloneOSX. Almost all rsync parts in code is converted to rclone. Estimation part works for number of files. Automatic backup works. RcloneOSX checks for all `sync` tasks after new or updated files to transfer and automatically execute the task.
+![Main view](/images/RcloneOSX/v1.5.0/nr1.png)
+![Main view](/images/RcloneOSX/v1.5.0/nr2.png)
+![Main view](/images/RcloneOSX/v1.5.0/nr3.png)
+![Main view](/images/RcloneOSX/v1.5.0/nr4.png)
+![Main view](/images/RcloneOSX/v1.5.0/nr5.png)
+![Main view](/images/RcloneOSX/v1.5.0/nr6.png)
+![Main view](/images/RcloneOSX/v1.5.0/nr7.png)
+
 ## Version 1.4.0
 
 - released 23 April 2018
