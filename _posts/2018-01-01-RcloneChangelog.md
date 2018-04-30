@@ -7,13 +7,21 @@ This is the Changelog for RcloneOSX. RcloneOSX is a "quick and dirty" port of Rs
 
 ## Next version
 
+A release candidate will be released within a few days.
+
 I´m in process of adapting most of the functions from RsyncOSX into RcloneOSX. Almost all rsync parts in code is converted to rclone. Estimation part works for number of files. Automatic backup works. RcloneOSX checks for all `sync` tasks after new or updated files to transfer and automatically execute the task.
+
+Selecting the i-button up right commences a estimation run for `sync` tasks.
 ![Main view](/images/RcloneOSX/v1.5.0/nr1.png)
 ![Main view](/images/RcloneOSX/v1.5.0/nr2.png)
+After estimation run is completed, selecting `Select` button selects tasks with files to sync. Pressing play button again automatically commences the `sync` tasks.
 ![Main view](/images/RcloneOSX/v1.5.0/nr3.png)
+`⌘B` - shortcut for executing automatic backups commences an automatic backup.
 ![Main view](/images/RcloneOSX/v1.5.0/nr4.png)
+Bottom right is a progress bar which display progress each task in progress.
 ![Main view](/images/RcloneOSX/v1.5.0/nr5.png)
 ![Main view](/images/RcloneOSX/v1.5.0/nr6.png)
+The log view.
 ![Main view](/images/RcloneOSX/v1.5.0/nr7.png)
 
 ## Version 1.4.0
