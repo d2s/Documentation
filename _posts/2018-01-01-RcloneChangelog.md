@@ -11,7 +11,7 @@ A release candidate will be released within a few days.
 
 I´m in process of adapting most of the functions from RsyncOSX into RcloneOSX. Almost all rsync parts in code is converted to rclone. Estimation part works for number of files. Automatic backup works. RcloneOSX checks for all `sync` tasks after new or updated files to transfer and automatically execute the task.
 
-Selecting the i-button up right commences a estimation run for `sync` tasks.
+Selecting the i-button up right commences an estimation run for `sync` tasks.
 ![Main view](/images/RcloneOSX/v1.5.0/nr1.png)
 ![Main view](/images/RcloneOSX/v1.5.0/nr2.png)
 After estimation run is completed, selecting `Select` button selects tasks with files to sync. Pressing play button again automatically commences the `sync` tasks.
