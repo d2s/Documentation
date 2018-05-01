@@ -16,6 +16,8 @@ I have tested the following cloud services (enabled through `rclone config`):
 
 All configurations to execute are listed in table. From the main view most actions (edit configurations, adding parameters to rclone, delete configurations) regarding configurations are executed. Configurations can be saved in user selected **profiles**. The **profile** in use is shown in label `Profile: name`.
 
+**Caution:** The screenshots are from an early version. After release of version 1.5.0 screenshots and this intro will be updated.
+
 ## How to execute tasks
 
 There are four ways to execute tasks (`backup` tasks only). Due to how a `restore` works a restore can only be executed by a test run (`--dry-run`) before the real run. This is a precaution (see warning above).
