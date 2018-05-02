@@ -11,9 +11,13 @@ A professional Swift developer would probably written the code somewhat differen
 
 I will continue to improve, enhance and add new functions in RsyncOSX. It is fun to code and I would like all users of RsyncOSX to ask for new functions. Testing is also a challenge and I am not able to test all parts in RsyncOSX ahead of new releases.
 
-### Index to RsyncOSX documentation
+### Applications
 
-Index of [RsyncOSX documentation](/AboutRsyncOSX).
+There are three MacOS applications:
+- [RsyncOSX](/AboutRsyncOSX) a GUI for rsync
+- [A menuapp](/Menuapp) for executing scheduled RsyncOSX tasks
+- [RcloneOSX](/RcloneIntro) a GUI for rclone
+All MacOS apps are compiled with support for macOS 10.11 - 10.13.
 
 ### Issues, missing features and enhancements
 
