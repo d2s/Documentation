@@ -8,7 +8,7 @@ This is the Changelog for RcloneOSX. RcloneOSX is a "quick and dirty" port of Rs
 ## Version 1.5.0 release candidate
 
 There are several enhancements in this rc, see screenshots:
-- released 1 May 2018
+- updated 3 May 2018
 - `⌘I` gets remote info about tasks
 - `⌘B` commence an automatic backup for `sync` tasks with data to sync
 - selecting the i-button commence an estimating run for all `sync` tasks
@@ -17,6 +17,7 @@ There are several enhancements in this rc, see screenshots:
 Selecting the i-button up right commences an estimation run for `sync` tasks.
 ![Main view](/images/RcloneOSX/v1.5.0/nr1.png)
 ![Main view](/images/RcloneOSX/v1.5.0/nr2.png)
+![Main view](/images/RcloneOSX/v1.5.0/nr8.png)
 After estimation run is completed, selecting `Select` button selects tasks with files to sync. Pressing play button again automatically commences the `sync` tasks.
 ![Main view](/images/RcloneOSX/v1.5.0/nr3.png)
 `⌘B` - shortcut for executing automatic backups commences an automatic backup.
