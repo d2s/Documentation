@@ -5,14 +5,13 @@ permalink: RcloneChangelog
 ---
 This is the Changelog for RcloneOSX. RcloneOSX is a "quick and dirty" port of RsyncOSX to utilize `rclone`.  I the next months I will spend some more time to refactor code and include some more `rclone` enhancements.
 
-## Version 1.5.0 release candidate
+## Version 1.5.1 release candidate
 
-There are several enhancements in this rc, see screenshots:
-- updated 3 May 2018
+There are several enhancements in this release:
+- released 6 May 2018
 - `⌘I` gets remote info about tasks
 - `⌘B` commence an automatic backup for `sync` tasks with data to sync
 - selecting the i-button commence an estimating run for all `sync` tasks
-	- for the moment only number of files in estimating
 
 Selecting the i-button up right commences an estimation run for `sync` tasks.
 ![Main view](/images/RcloneOSX/v1.5.0/nr1.png)
