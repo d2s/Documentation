@@ -5,7 +5,7 @@ permalink: RcloneChangelog
 ---
 This is the Changelog for RcloneOSX. RcloneOSX is a "quick and dirty" port of RsyncOSX to utilize `rclone`.  I the next months I will spend some more time to refactor code and include some more `rclone` enhancements.
 
-## Version 1.5.1 release candidate
+## Version 1.5.1
 
 There are several enhancements in this release:
 - released 6 May 2018
