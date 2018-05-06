@@ -15,19 +15,12 @@ There are several enhancements in this release:
 - `⌘B` commence an automatic backup for `sync` tasks with data to sync
 - selecting the i-button commence an estimating run for all `sync` tasks
 
-Selecting the i-button up right commences an estimation run for `sync` tasks.
-![Main view](/images/RcloneOSX/v1.5.0/nr1.png)
-![Main view](/images/RcloneOSX/v1.5.0/nr2.png)
-![Main view](/images/RcloneOSX/v1.5.0/nr8.png)
-After estimation run is completed, selecting `Select` button selects tasks with files to sync. Pressing play button again automatically commences the `sync` tasks.
-![Main view](/images/RcloneOSX/v1.5.0/nr3.png)
-`⌘B` - shortcut for executing automatic backups commences an automatic backup.
-![Main view](/images/RcloneOSX/v1.5.0/nr4.png)
-Bottom right is a progress bar which display progress each task in progress.
-![Main view](/images/RcloneOSX/v1.5.0/nr5.png)
-![Main view](/images/RcloneOSX/v1.5.0/nr6.png)
-The log view.
-![Main view](/images/RcloneOSX/v1.5.0/nr7.png)
+![Main view](/images/RcloneOSX/v1.5.1/nr1.png)
+![Main view](/images/RcloneOSX/v1.5.1/nr2.png)
+![Main view](/images/RcloneOSX/v1.5.1/nr3.png)
+![Main view](/images/RcloneOSX/v1.5.1/nr4.png)
+![Main view](/images/RcloneOSX/v1.5.1/nr5.png)
+![Main view](/images/RcloneOSX/v1.5.1/nr6.png)
 
 ## Version 1.4.0
 
