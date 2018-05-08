@@ -17,7 +17,8 @@ There are three MacOS applications:
 - [RsyncOSX](/AboutRsyncOSX) a GUI for rsync
 - [A menuapp](/Menuapp) for executing scheduled RsyncOSX tasks
 - [RcloneOSX](/RcloneIntro) a GUI for rclone
-All MacOS apps are compiled with support for macOS 10.11 - 10.13.
+
+All three MacOS applications are compiled with support for macOS 10.11 - 10.13.
 
 ### Issues, missing features and enhancements
 
