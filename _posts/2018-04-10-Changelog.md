@@ -7,7 +7,9 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Work in progress
 
-I am working on a new release of the [menu app](/Menuapp) to execute scheduled tasks in **any** profile. Profiles can be selected within the [menu app](/Menuapp) but it keeps track of all scheduled tasks. Will be released sometimes in May 2018.
+I am working on a new release of the [menu app](/Menuapp) to execute scheduled tasks in **any** profile. Profiles can be selected within the [menu app](/Menuapp) but it keeps track of all scheduled tasks. Will be released sometime in May 2018.
+
+A release candidate will be released soon.
 
 ## Version 5.3.1
 
