@@ -7,9 +7,13 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Work in progress
 
-I am working on a new release of the [menu app](/Menuapp) to execute scheduled tasks in **any** profile. Profiles can be selected within the [menu app](/Menuapp) but it keeps track of all scheduled tasks. Will be released sometime in May 2018.
+I am working on a new release of the [menu app](/Menuapp) to execute scheduled tasks in **any** profile. Profiles can be selected within the [menu app](/Menuapp) but it keeps track of **all scheduled** tasks. Will be released sometime in May 2018. A [release candidate](https://github.com/rsyncOSX/RsyncOSXsched/releases) is released. This is a release candidate and please test it before use.
 
-A release candidate will be released soon.
+The menuapp keeps track of **all scheduled** tasks. When a scheduled task is executed the menuapp automatically loads the profile, executes the task and logs the run and result of run.
+
+![Main view](/images/RsyncOSX/menuapp-rc/sched1.png)
+![Main view](/images/RsyncOSX/menuapp-rc/sched2.png)
+![Main view](/images/RsyncOSX/menuapp-rc/sched3.png)
 
 ## Version 5.3.1
 
