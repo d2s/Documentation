@@ -12,6 +12,7 @@ I am working on a new release of the [menu app](/Menuapp) to execute scheduled t
 The menuapp keeps track of **all scheduled** tasks. When a scheduled task is executed the menuapp automatically loads the profile, executes the task and logs the run and result of run.
 
 ![Main view](/images/RsyncOSX/menuapp-rc/sched1.png)
+Select the `Schedules` button opens all profiles with scheduled tasks. Only the first task in each profile is listed. A **double click** on a row selects the profile and shows more info about tasks in profile. 
 ![Main view](/images/RsyncOSX/menuapp-rc/sched2.png)
 ![Main view](/images/RsyncOSX/menuapp-rc/sched3.png)
 
