@@ -7,9 +7,9 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Work in progress
 
-I am working on a new release of the [menu app](/Menuapp) to execute scheduled tasks in **any** profile. Profiles can be selected within the [menu app](/Menuapp) but it keeps track of **all scheduled** tasks. Will be released sometime in May 2018. A [release candidate](https://github.com/rsyncOSX/RsyncOSXsched/releases) is released. This is a release candidate and please test it before use.
+The current version (version 5.3.1) of RsyncOSX seems to be quite stable. There is one minor bug in the Menu app causing a connection between RsyncOSX and RcloneOSX utilizing Encrypted backups to be reset when scheduled tasks are executed from the menu app. There are also some minor tweaks and enhancements which are planned to be released sometime this summer.
 
-The menuapp keeps track of **all scheduled** tasks. When a scheduled task is executed the menuapp automatically loads the profile, executes the task and logs the result of run.
+I am working on a new release of the [menu app](/Menuapp) to execute scheduled tasks in **any** profile. Profiles can be selected within the [menu app](/Menuapp) but it keeps track of **all scheduled** tasks. A [release candidate](https://github.com/rsyncOSX/RsyncOSXsched/releases) is released. This is a release candidate and please test it before use.
 
 ![Main view](/images/RsyncOSX/menuapp-rc/sched1.png)
 Select the `Schedules` button opens all profiles with scheduled tasks. All scheduled task in each profile are listed. A **double click** on a row selects the profile and shows more info about tasks in profile.
