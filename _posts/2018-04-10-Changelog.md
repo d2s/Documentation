@@ -5,16 +5,22 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](/Snapshots) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
-## Work in progress
+## Version 5.3.5 rc
 
-The current version (version 5.3.1) of RsyncOSX seems to be quite stable. There is one minor bug in the Menu app causing a connection between RsyncOSX and RcloneOSX utilizing Encrypted backups to be reset when scheduled tasks are executed from the menu app. There are also some minor tweaks and enhancements which are planned to be released sometime this summer.
+Released 22 May 2018.
 
-I am working on a new release of the [menu app](/Menuapp) to execute scheduled tasks in **any** profile. Profiles can be selected within the [menu app](/Menuapp) but it keeps track of **all scheduled** tasks. A [release candidate](https://github.com/rsyncOSX/RsyncOSXsched/releases) is released. This is a release candidate and please test it before use.
+* some minor bugfixes
+* some minor GUI tweaks
+* some enhancements scheduled tasks
+* some refactor of code
 
-![Main view](/images/RsyncOSX/menuapp-rc/sched1.png)
+I am working on a new release of the [menu app](/Menuapp) to execute scheduled tasks in **any** profile. Profiles can be selected within the [menu app](/Menuapp) but it keeps track of and executes **any scheduled** tasks.
+
+![Main view](/images/RsyncOSX/v5.3.5rc/menuapp.png)
 Select the `Schedules` button opens all profiles with scheduled tasks. All scheduled task in each profile are listed. A **double click** on a row selects the profile and shows more info about tasks in profile.
-![Main view](/images/RsyncOSX/menuapp-rc/sched2.png)
-![Main view](/images/RsyncOSX/menuapp-rc/sched3.png)
+
+The all profiles tab shows the next scheduled task in all profiles.
+![Main view](/images/RsyncOSX/v5.3.5rc/allprofiles.png)
 
 ## Version 5.3.1
 
