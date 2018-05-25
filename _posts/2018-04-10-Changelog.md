@@ -18,9 +18,10 @@ I am working on a new release of the [menu app](/Menuapp) to execute scheduled t
 
 ![Main view](/images/RsyncOSX/v5.3.5rc/menuapp.png)
 Select the `Schedules` button opens all profiles with scheduled tasks. All scheduled task in each profile are listed. A **double click** on a row selects the profile and shows more info about tasks in profile.
-
 The all profiles tab shows the next scheduled task in all profiles.
 ![Main view](/images/RsyncOSX/v5.3.5rc/allprofiles.png)
+The `⌘I` is reimplemented, it collects info about the local and remote catalog.
+![Main view](/images/RsyncOSX/v5.3.5rc/localinfo.png)
 
 ## Version 5.3.1
 
