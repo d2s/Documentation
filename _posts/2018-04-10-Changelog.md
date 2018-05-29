@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.3.5 rc
 
-Updated 25 May 2018.
+Updated 29 May 2018.
 
 * some minor bugfixes
 * some minor GUI tweaks
