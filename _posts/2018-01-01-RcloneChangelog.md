@@ -11,6 +11,8 @@ See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
 A new app icon from [Zsolt Sándor](https://github.com/graphis)
 
+![Main view](/images/RsyncOSX/v5.3.5rc/appicon.png)
+
 ## Version 1.5.1
 
 There are several enhancements in this release:

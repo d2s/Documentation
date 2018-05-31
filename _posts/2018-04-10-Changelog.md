@@ -15,6 +15,8 @@ Updated 31 May 2018.
 * some refactor of code
 * size of app icon is fixed (reduced)
 
+![Main view](/images/RsyncOSX/v5.3.5rc/appicon.png)
+
 I am working on a new release of the [menu app](/Menuapp) to execute scheduled tasks in **any** profile. Profiles can be selected within the [menu app](/Menuapp) but it keeps track of and executes **any scheduled** tasks.
 
 ![Main view](/images/RsyncOSX/v5.3.5rc/menuapp.png)
