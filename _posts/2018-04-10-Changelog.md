@@ -13,7 +13,7 @@ Updated 31 May 2018.
 * some minor GUI tweaks
 * some enhancements scheduled tasks
 * some refactor of code
-* size of app icon is fixed (reduced)
+* size of app icon is fixed (reduced), thx to [Zsolt Sándor](https://github.com/graphis)
 
 ![Main view](/images/RsyncOSX/v5.3.5rc/appicon.png)
 
