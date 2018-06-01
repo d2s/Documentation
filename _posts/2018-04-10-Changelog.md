@@ -5,9 +5,9 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](/Snapshots) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
-## Version 5.3.5 release candidate
+## Version 5.3.5
 
-Updated 31 May 2018.
+Released 1 June 2018.
 
 * some minor bugfixes
 * some minor GUI tweaks
@@ -17,7 +17,7 @@ Updated 31 May 2018.
 
 ![Main view](/images/RsyncOSX/v5.3.5rc/appicon.png)
 
-I am working on a new release of the [menu app](/Menuapp) to execute scheduled tasks in **any** profile. Profiles can be selected within the [menu app](/Menuapp) but it keeps track of and executes **any scheduled** tasks.
+The new release of the [menu app](/Menuapp) executes scheduled tasks in **any** profile. Profiles can be selected within the [menu app](/Menuapp) but it keeps track of and executes **any scheduled** tasks.
 
 ![Main view](/images/RsyncOSX/v5.3.5rc/menuapp.png)
 Select the `Schedules` button opens all profiles with scheduled tasks. All scheduled task in each profile are listed. A **double click** on a row selects the profile and shows more info about tasks in profile.
