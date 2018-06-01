@@ -7,9 +7,11 @@ This is the Changelog for RcloneOSX. RcloneOSX is a port of RsyncOSX to utilize 
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
-## Version 1.5.2 release candidate
+## Version 1.5.2
 
-A new app icon from [Zsolt Sándor](https://github.com/graphis)
+- released 1 July 2018
+- new app icon from [Zsolt Sándor](https://github.com/graphis)
+- some refactor of code
 
 ![Main view](/images/RsyncOSX/v5.3.5rc/appicon.png)
 
