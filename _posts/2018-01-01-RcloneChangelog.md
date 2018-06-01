@@ -12,6 +12,7 @@ See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 - released 1 July 2018
 - new app icon from [Zsolt Sándor](https://github.com/graphis)
 - some refactor of code
+- compiled with latest version of Xcode, version 9.4 (9F1027a)
 
 ![Main view](/images/RsyncOSX/v5.3.5rc/appicon.png)
 
