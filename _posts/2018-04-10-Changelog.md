@@ -14,6 +14,7 @@ Released 1 June 2018.
 * some enhancements scheduled tasks
 * some refactor of code
 * size of app icon is fixed (reduced), thx to [Zsolt Sándor](https://github.com/graphis)
+* compiled with latest version of Xcode, version 9.4 (9F1027a)
 
 ![Main view](/images/RsyncOSX/v5.3.5rc/appicon.png)
 
