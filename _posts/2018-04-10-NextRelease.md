@@ -27,7 +27,7 @@ And for snaphots tasks as well.
 ![](/images/RsyncOSX/v5.4.0/restoresnap.png)
 
 ## Caching
-Caching of estimates. Estimates are forced updates after execution of task.
+Caching of estimates. Estimates are forced updated after execution of task.
 ![](/images/RsyncOSX/v5.4.0/nr1.png)
-Caching of local and remote info one task. As above are forced updated after execution of task.
+Caching of local and remote info one task. As above, estimates are forced updated after execution of task.
 ![](/images/RsyncOSX/v5.4.0/nr2.png)
