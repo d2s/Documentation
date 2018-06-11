@@ -3,10 +3,12 @@ layout: post
 title:  "Next release"
 permalink: NextRelease
 ---
-I am working on next release v5.3.6.
+There will be some enhancements in next version:
+- select and delete log records from the log view
+- the full restore part of backup task will be refactored, creation of the restore part is removed in the rc
+- collecting info from destination is cached
 
 ## Delete log records
-
 Possibility to select log rows for delete.
 ![](/images/RsyncOSX/v5.4.0/nr3.png)
 Filter logs and select filtered logs for delete.
@@ -15,8 +17,9 @@ Confirmation of delete logs.
 ![](/images/RsyncOSX/v5.4.0/nr5.png)
 
 ## Refactor of restore
-
 The restore part will be redesigned. The rsync parameters for full restore is calculated during loading of profile based upon the parameters for backup task.
+- the **backup** radio button shows the actual rsync command for backup task including any parameters
+- the **restore** radio button shows the rsync command for restore
 ![](/images/RsyncOSX/v5.4.0/backup.png)
 ![](/images/RsyncOSX/v5.4.0/restore.png)
 And for snaphots tasks as well.
@@ -24,7 +27,6 @@ And for snaphots tasks as well.
 ![](/images/RsyncOSX/v5.4.0/restoresnap.png)
 
 ## Caching
-
 Caching of estimates. Estimates are forced updates after execution of task.
 ![](/images/RsyncOSX/v5.4.0/nr1.png)
 Caching of local and remote info one task. As above are forced updated after execution of task.
