@@ -18,8 +18,8 @@ Confirmation of delete logs.
 
 ## Refactor of restore
 The restore part will be redesigned. The rsync parameters for full restore is calculated during loading of profile based upon the parameters for backup task.
-- the **backup** radio button shows the actual rsync command for backup task including any parameters
-- the **restore** radio button shows the rsync command for restore
+- the **backup** radio button shows the actual rsync command (**dry-run**)for backup task including any parameters
+- the **restore** radio button shows the rsync command (**dry-run**) for restore
 ![](/images/RsyncOSX/v5.4.0/backup.png)
 ![](/images/RsyncOSX/v5.4.0/restore.png)
 And for snaphots tasks as well.
