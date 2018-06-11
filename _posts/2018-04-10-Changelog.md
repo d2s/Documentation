@@ -11,7 +11,7 @@ I have installed [MacOSX 10.14 Mojave beta](/Mojave) for test and compiling Rsyn
 
 ## Version 5.3.6 release candidate
 
-Released 10 June 2018
+Updated 11 June 2018
 
 See [screenshots](/NextRelease).
 
