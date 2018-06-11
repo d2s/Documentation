@@ -25,6 +25,11 @@ The restore part will be redesigned. The rsync parameters for full restore is ca
 And for snaphots tasks as well.
 ![](/images/RsyncOSX/v5.4.0/backupsnap.png)
 ![](/images/RsyncOSX/v5.4.0/restoresnap.png)
+The new restore is implemented, need some more test before uploaded as release candidate.
+Select the task to restore.
+![](/images/RsyncOSX/v5.4.0/restore1.png)
+The view does an estimate of numbers to transfer, selecting restore button commence the restore process. It is advised to restore to a temporary catalog. To do so copy the original task and set local catalog to the temporary restore catalog. The restore will copy any file in destination to the temporary local restore catalog.
+![](/images/RsyncOSX/v5.4.0/restore2.png)
 
 ## Caching
 Caching of estimates. Estimates are forced updated after execution of task.
