@@ -15,9 +15,7 @@ Updated 12 June 2018
 
 See [screenshots](/NextRelease).
 
-Creating the "restore part" of a task is removed, how to do a full restore will be redesigned. Creating both the "backup" and "restore" part at the same time is not the best way to do it.
-
-Some enhancements in the info part (cache info), select and delete log records and a better check if menu app is installed.
+Creating the "restore part" of a task is removed, how to do a full restore is reimplemented. There are also some enhancements in the info part (cache info), select and delete log records and a better check if menu app is installed.
 
 ## Version 5.3.5
 

@@ -5,7 +5,7 @@ permalink: NextRelease
 ---
 There will be some enhancements in next version:
 - select and delete log records from the log view
-- the full restore part of backup task will be refactored, creation of the restore part is removed in the rc
+- the full restore of a backup task is reimplemented
 - collecting info from destination is cached
 
 ## Delete log records
