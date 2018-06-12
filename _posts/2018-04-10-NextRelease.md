@@ -16,7 +16,7 @@ Filter logs and select filtered logs for delete.
 Confirmation of delete logs.
 ![](/images/RsyncOSX/v5.4.0/nr5.png)
 
-## Refactor of restore
+## Reimplementation of restore
 The new restore is implemented and included in the updated release candidate.
 Select the task to restore.
 ![](/images/RsyncOSX/v5.4.0/restore1.png)
