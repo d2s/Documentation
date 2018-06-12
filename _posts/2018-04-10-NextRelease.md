@@ -20,7 +20,9 @@ Confirmation of delete logs.
 The new restore is implemented and included in the updated release candidate.
 Select the task to restore.
 ![](/images/RsyncOSX/v5.4.0/restore1.png)
-The view does an estimate of numbers to transfer, selecting restore button commence the restore process. **It is advised to restore to a temporary catalog.** To do so copy the original task and set local catalog to the temporary restore catalog. The restore will copy any file in destination to the temporary local restore catalog. To copy a task select the task to restore in the main view. Select the Add tab and within Add tab the Copy button. Change the local catalog to the temporary restore catalog and then, in main view, select the added "restore" task and restore button.
+The view does an estimate of numbers to transfer, selecting restore button commence the restore process. **It is advised to restore a destination to a temporary restore catalog.** To do so copy the original task and set local catalog to the temporary restore catalog. The `restore` will copy all files in destination to the temporary local restore catalog.
+
+To copy a task select the task to restore in the main view. Select the `Add tab` and within Add tab the `Copy` button. Change the `local catalog` to the temporary restore catalog and then, in main view, select the added "restore" task and restore button.
 ![](/images/RsyncOSX/v5.4.0/restore2.png)
 - the **backup** radio button shows the actual rsync command (**dry-run**)for backup task including any parameters
 - the **restore** radio button shows the rsync command (**dry-run**) for restore
