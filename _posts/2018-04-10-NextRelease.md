@@ -20,7 +20,7 @@ Confirmation of delete logs.
 The new restore is implemented and included in the updated release candidate.
 Select the task to restore.
 ![](/images/RsyncOSX/v5.4.0/restore1.png)
-The view does an estimate of numbers to transfer, selecting restore button commence the restore process. **It is advised to restore a destination to a temporary restore catalog.** To do so copy the original task and set local catalog to the temporary restore catalog. The `restore` will copy all files in destination to the temporary local restore catalog.
+The view does an estimate of numbers to transfer, selecting restore button commence the restore process. **It is advised to restore a destination to a temporary restore catalog.** To do so copy the original task and set local catalog to the temporary restore catalog. The `restore` will copy all files in destination to the temporary local restore catalog. **Caution** - this advise only applies to normal backup tasks. For `snapshot` task a restore from the most recent snapshot require to execute a restore by selecting the task. Or add a new task `backup` task with destination from the required snapshot number.
 
 To copy a task select the task to restore in the main view. Select the `Add tab` and within Add tab the `Copy` button. Change the `local catalog` to the temporary restore catalog and then, in main view, select the added "restore" task and restore button.
 ![](/images/RsyncOSX/v5.4.0/restore2.png)
