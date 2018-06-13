@@ -14,7 +14,7 @@ If **Single file** is *on*, RsyncOSX adds backup of single file only. No restore
 
 ### Local and remote catalogs
 
-Local catalog and Remote catalog (if not on remote server) is added either by using *drag and drop* from filemanager or *by GUI* (select the icon) or *by text* only. If enter by text please remember to add the full path. Remote catalogs is entered either by full paths or use the `~` character to expand remote user home catalog (if remote backup catalog is in users home catalog somewhere). See sample configuration below.
+Local catalog and Remote catalog (if not on remote server) is added either by using *drag and drop* from filemanager or *by text* only. If enter by text please remember to add the full path. Remote catalogs is entered either by full paths or use the `~` character to expand remote user home catalog (if remote backup catalog is in users home catalog somewhere). See sample configuration below.
 ![Select](/images/RsyncOSX/master/add/add2.png)
 
 ### Sample configuration
@@ -32,7 +32,7 @@ The screen below is all information about my configuration for a virtual FreeBSD
 
 ### The Add button
 
-Select the `Add new` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume (if the `Single file` is not on). Both the **backup** and **restore** part are added when saving new configurations. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the main view (Execute tab).
+Select the `Add new` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume (if the `Single file` is not on). After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the main view (Execute tab).
 
 If `Single file` is ticked on no trailing character `/` is added and only backup task is added.
 ![Configurations added](/images/RsyncOSX/master/add/add4.png)

@@ -43,7 +43,7 @@ The following features are implemented in RsyncOSX:
   - the user can add parameters to rsync
 - predefined parameters to save backups of changed or deleted files (by using rsync parameters, predefined parameter)
 - manage backup tasks in profiles
-- restore of single files from remote storage
+- either a full restore or restore of single files from remote storage
 - scheduling of backup tasks
   - once, daily or weekly schedules
 - detailed logging of tasks
