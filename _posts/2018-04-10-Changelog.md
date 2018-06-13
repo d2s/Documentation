@@ -13,9 +13,11 @@ I have installed [MacOSX 10.14 Mojave beta](/Mojave) for test and compiling Rsyn
 
 Updated 12 June 2018
 
-See [screenshots](/NextRelease).
+Creating the "restore part" of a task is removed, how to do a full restore is reimplemented. There are also some enhancements in the info part, caching of information, select and delete log records and a better check if menu app is installed:
 
-Creating the "restore part" of a task is removed, how to do a full restore is reimplemented. There are also some enhancements in the info part (cache info), select and delete log records and a better check if menu app is installed.
+- [full restore](/Fullrestore)
+- [logging](/Logging)
+- [caching of information](/Caching)
 
 ## Version 5.3.5
 
