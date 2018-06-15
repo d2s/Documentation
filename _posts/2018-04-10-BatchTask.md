@@ -7,7 +7,7 @@ Only **backup** tasks can be set for execution in batch. All tasks marked for ba
 
 Selecting the `Abort` button (the `Close` button becomes `Abort` button when Execution is selected) aborts any remaining tasks.
 
-![Main view](/images/RsyncOSX/master/batch.png)
+![Main view](/images/RsyncOSX/master/batch/batch.png)
 Batch task during execution. The progress of batch task is updated in table.
 ![Main view](/images/RsyncOSX/master/batch/batch2.png)
 A summarized result of batch task and logs view.
