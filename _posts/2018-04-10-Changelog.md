@@ -11,9 +11,11 @@ I have installed [MacOSX 10.14 Mojave beta](/Mojave) for test and compiling Rsyn
 
 ## Version 5.3.6 release candidate
 
-Updated 12 June 2018
+Updated 16 June 2018
 
-Creating the "restore part" of a task is removed, how to do a full restore is reimplemented. There are also some enhancements in the info part, caching of information, select and delete log records and a better check if menu app is installed:
+Creating the "restore part" of a task is removed, how to do a full restore is reimplemented. There are also some enhancements in the info part, caching of information, select and delete log records and a better check if menu app is installed.
+
+A bug in automatic backups is fixed, the bug causes RsyncOSX to crash if reporting more than 1000 files to be transferred. The bug is due to wrong number formatting.
 
 - [full restore](/Fullrestore)
 - [logging](/Logging)
