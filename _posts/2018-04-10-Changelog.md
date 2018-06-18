@@ -9,17 +9,18 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 I have installed [MacOSX 10.14 Mojave beta](/Mojave) for test and compiling RsyncOSX with Xcode 10 beta. The Dark Mode of MacOSX Mojave is quite exiting.
 
-## Version 5.3.6 release candidate
+## Version 5.3.7
 
-Updated 16 June 2018
+Released 18 June 2018
+
+A **bug** in automatic backups is fixed, the bug causes RsyncOSX to crash if reporting more than 1000 files to be transferred. The bug is due to wrong number formatting.
 
 Creating the "restore part" of a task is removed, how to do a full restore is reimplemented. There are also some enhancements in the info part, caching of information, select and delete log records and a better check if menu app is installed.
-
-A bug in automatic backups is fixed, the bug causes RsyncOSX to crash if reporting more than 1000 files to be transferred. The bug is due to wrong number formatting.
 
 - [full restore](/Fullrestore)
 - [logging](/Logging)
 - [caching of information](/Caching)
+- compiled with latest version of Xcode, version 9.4.1 (9F2000)
 
 ## Version 5.3.5
 
@@ -31,17 +32,6 @@ Released 1 June 2018.
 * some refactor of code
 * size of app icon is fixed (reduced), thx to [Zsolt Sándor](https://github.com/graphis)
 * compiled with latest version of Xcode, version 9.4 (9F1027a)
-
-![Main view](/images/RsyncOSX/v5.3.5rc/appicon.png)
-
-The new release of the [menu app](/Menuapp) executes scheduled tasks in **any** profile. Profiles can be selected within the [menu app](/Menuapp) but it keeps track of and executes **any scheduled** tasks.
-
-![Main view](/images/RsyncOSX/v5.3.5rc/menuapp.png)
-Select the `Schedules` button opens all profiles with scheduled tasks. All scheduled task in each profile are listed. A **double click** on a row selects the profile and shows more info about tasks in profile.
-The all profiles tab shows the next scheduled task in all profiles.
-![Main view](/images/RsyncOSX/v5.3.5rc/allprofiles.png)
-The `⌘I` is reimplemented, it collects info about the local and remote catalog.
-![Main view](/images/RsyncOSX/v5.3.5rc/localinfo.png)
 
 ## Version 5.3.1
 
