@@ -7,6 +7,10 @@ This is the Changelog for RcloneOSX. RcloneOSX is a port of RsyncOSX to utilize 
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
+## Issues
+
+There is an [issue](https://github.com/rsyncOSX/rcloneosx/issues/195) regarding starting RcloneOSX without installing rclone first.
+
 ## Version 1.5.2
 
 - released 1 July 2018
