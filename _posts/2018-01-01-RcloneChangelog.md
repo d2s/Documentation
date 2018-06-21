@@ -7,9 +7,11 @@ This is the Changelog for RcloneOSX. RcloneOSX is a port of RsyncOSX to utilize 
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
-## Issues
+## Version 1.5.4
 
-There is an [issue](https://github.com/rsyncOSX/rcloneosx/issues/195) regarding starting RcloneOSX without installing rclone first.
+- released 21 June 2018
+- fixed a bug (crash) if RcloneOSX is started without installing rclone first
+- some enhancements in logs
 
 ## Version 1.5.2
 
@@ -17,8 +19,6 @@ There is an [issue](https://github.com/rsyncOSX/rcloneosx/issues/195) regarding 
 - new app icon from [Zsolt Sándor](https://github.com/graphis)
 - some refactor of code
 - compiled with latest version of Xcode, version 9.4 (9F1027a)
-
-![Main view](/images/RsyncOSX/v5.3.5rc/appicon.png)
 
 ## Version 1.5.1
 
