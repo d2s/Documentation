@@ -11,7 +11,7 @@ See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
 - released 21 June 2018
 - fixed a bug (crash) if RcloneOSX is started without installing rclone first
-- some enhancements in logs and caching of remote info
+- some enhancements in [logs](/Logging) and caching of remote info
 
 ## Version 1.5.2
 
