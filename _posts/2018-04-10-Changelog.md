@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## MacOSX 10.14 Mojave beta
 
-I have installed [MacOSX 10.14 Mojave beta](/Mojave) for test and compiling RsyncOSX with Xcode 10 beta. The Dark Mode of MacOSX Mojave is quite exiting. If you are testing MacOSX Mojave beta and want to test the Dark Mode on RsyncOSX you might [download](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.3.7) the apps compiled with Xcode 10 beta. The apps are for **test only**.
+I have installed [MacOSX 10.14 Mojave beta](/Mojave) for test and compiling RsyncOSX with Xcode 10 beta. The Dark Mode of MacOSX Mojave is quite exiting.
 
 ## Version 5.3.7
 
