@@ -9,6 +9,22 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 I have installed [MacOSX 10.14 Mojave beta](/Mojave) for test and compiling RsyncOSX with Xcode 10 beta. The Dark Mode of MacOSX Mojave is quite exiting.
 
+## Next version (v5.3.8?)
+
+I am working on some enhancements for next version (no release candidate yet). I couple of minor bugs is fixed as well.
+
+- deleting or adding [temporary path restore](/UserConfiguration) catalog is not working properly
+	- used in Copy Single files
+	- and in new function for full restore (not yet released)
+- first execution of a task is not logged properly
+- some minor refactor of code
+- in automatic backup added percent completed each row
+- added temporary catalog for restore
+- added slider for deleting old snapshots
+
+![](/images/RsyncOSX/5.3.8/tmprestore.png)
+![](/images/RsyncOSX/5.3.8/snapshot.png)
+
 ## Version 5.3.7
 
 Released 18 June 2018
