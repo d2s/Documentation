@@ -3,12 +3,12 @@ layout: post
 title:  "Important notes about rsync and RsyncOSX"
 permalink: HowtoUseRsyncOSX
 ---
+Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files. Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
+
 RsyncOSX is a GUI for the rsync command-line tool. The main use are:
 
 - backup and restore of local files on your Mac to remote servers connected to Internet or local network
 - backup and restore local files on Mac to local storage (attached disks)
-
-Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files. Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
 ```
 Warning: default parameters for rsync is to synchronize the
 source and destination. A "restore" will delete all files in
