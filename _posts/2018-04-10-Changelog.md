@@ -17,7 +17,7 @@ I am working on some enhancements for next version. I couple of minor bugs is fi
 
 - deleting or adding [temporary path restore](/UserConfiguration) catalog is not working properly
 	- used in Copy Single files
-	- and in new function for full restore (not yet released)
+	- and in new function for full restore
 - first execution of a task is not logged properly
 - various minor fixes in GUI here and there
 - some minor refactor of code
