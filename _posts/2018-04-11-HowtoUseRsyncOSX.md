@@ -9,6 +9,7 @@ RsyncOSX is a GUI for the rsync command-line tool. The main use are:
 
 - backup and restore of local files on your Mac to remote servers connected to Internet or local network
 - backup and restore local files on Mac to local storage (attached disks)
+
 ```
 Warning: default parameters for rsync is to synchronize the
 source and destination. A "restore" will delete all files in
@@ -22,7 +23,7 @@ RsyncOSX. Old files in the backup are either replaced with
 new ones or deleted if so is true in source.
 ```
 - **source**: the local volume to be copied
-- **destination**: the remote location where source files and catalogs are copied
+- **destination**: the remote location where source files and catalogs are copied (e.g. backed up)
 
 What about **revisions** or **deleted** files? Either use the [snapshot feature](/Snapshots) or by [backup parameters](/Parameters) to rsync.
 
@@ -35,13 +36,13 @@ The following features are implemented in RsyncOSX:
 - do single backup tasks, synchronize source and destination (backup)
 - do snapshot backups tasks, previous snapshots are saved to restore old or deleted files
 - do quick backups tasks, either single tasks or group of tasks, both synchronize and snapshot tasks
+- do backups utilizing predefined parameters to save changed or deleted files (by using rsync parameters, predefined parameter)
 - do batch tasks, both synchronize and snapshot tasks
 - adding new tasks by drag and drop (for local volumes)
 - tasks my be aborted at any time
 - choose other version of rsync in user configuration
 - user defined rsync parameters
   - the user can add parameters to rsync
-- predefined parameters to save backups of changed or deleted files (by using rsync parameters, predefined parameter)
 - manage backup tasks in profiles
 - either a full restore or restore of single files from remote storage
 - scheduling of backup tasks
