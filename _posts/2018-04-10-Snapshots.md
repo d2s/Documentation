@@ -3,7 +3,7 @@ layout: post
 title:  "Snapshots"
 permalink: Snapshots
 ---
-The snapshot feature enables saving changed and deleted files ahead of a new synchronizing task. The snapshot saves the current state of files in a separate directory. Changed and deleted files can be restored utilizing the [copy single files](/CopySingleFiles) feature.
+The snapshot feature enables saving changed and deleted files ahead of a new synchronizing task. The snapshot saves the current state of files in a separate directory. Changed and deleted files can be restored utilizing the [copy single files](/CopySingleFiles) features. A [full restore](/Fullrestore) copy the last snapshot from remote storage.
 
 - snapshots works on both local attached disks and remote hosts
 - standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/catalogtobackup/1`)
