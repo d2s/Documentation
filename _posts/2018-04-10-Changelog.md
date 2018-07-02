@@ -17,6 +17,7 @@ I am working on some enhancements for next version (no release candidate yet). I
 	- used in Copy Single files
 	- and in new function for full restore (not yet released)
 - first execution of a task is not logged properly
+- various minor fixes in GUI here and there
 - some minor refactor of code
 - in automatic backup added percent completed each row
 - added temporary catalog for restore
