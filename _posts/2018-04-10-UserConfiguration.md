@@ -16,9 +16,9 @@ There are only a few parameters to choose in user configuration. The parameters 
   - preset temporary path for [full restore](/Fullrestore)
 - Scheduled tasks (default on: dispatch, if off: timer)
   - don´t bother to switch, it is only how (technical) scheduled tasks are kicked off
-- **loggfile**
+- **log file**
   - either minimum (last 10 lines) or full logging of output from rsync, be carful not logging everything, the log file might be big
-  - loggfile is `Documents/rsynclog.txt`
+  - log file is `Documents/rsynclog.txt`
   - logging to file is off when RsyncOSX starts
 - **Number of days**
   - in main view tasks older than number of days are marked red

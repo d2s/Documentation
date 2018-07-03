@@ -3,7 +3,7 @@ layout: post
 title:  "Important notes about rsync and RsyncOSX"
 permalink: HowtoUseRsyncOSX
 ---
-Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files. Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
+Rsync is a **file based** synchronization tool. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files. Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
 
 RsyncOSX is a GUI for the rsync command-line tool. The main use are:
 
@@ -34,7 +34,7 @@ There is only one simple answer to the question and the answer is [rsync](https:
 The following features are implemented in RsyncOSX:
 
 - do single backup tasks, synchronize source and destination (backup)
-- do snapshot backups tasks, previous snapshots are saved to restore old or deleted files
+- do snapshot backups tasks, previous snapshots are saved to restore previous versions of or deleted files
 - do quick backups tasks, either single tasks or group of tasks, both synchronize and snapshot tasks
 - do backups utilizing predefined parameters to save changed or deleted files (by using rsync parameters, predefined parameter)
 - do batch tasks, both synchronize and snapshot tasks
@@ -55,7 +55,7 @@ The primary objective for me to write and use RsyncOSX is for storing backup of 
 
 To fully understand and use RsyncOSX I recommend the following:
 
-- you have some understanding of the command-line tool rsync
+- you have some understanding of the command-line tool `rsync`
 - you have some knowledge about running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS
 - you are able to [setup a ssh password-less login](/PasswordlessLogin) between the Mac and the remote server
 
