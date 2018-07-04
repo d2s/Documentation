@@ -11,7 +11,7 @@ I have installed [MacOSX 10.14 Mojave beta](/Mojave) for test and compiling Rsyn
 
 ## Version 5.3.8 release candidate
 
-Released 2 July 2018
+Updated 4 July 2018
 
 I am working on some enhancements for next version. I couple of minor bugs is fixed as well.
 
@@ -24,9 +24,23 @@ I am working on some enhancements for next version. I couple of minor bugs is fi
 - in automatic backup added percent completed each row
 - added temporary catalog for restore
 - added slider for deleting old snapshots
+- collection errors from rsync to view and correct
+	- sometimes rsync throws error and halts execution of task, useful to check which errors is thrown
+
+Temporary path to restore.
 
 ![](/images/RsyncOSX/5.3.8/tmprestore.png)
+
+Delete old snapshots.
+
 ![](/images/RsyncOSX/5.3.8/snapshot.png)
+
+Sometimes rsync throws errors and halts execution.
+
+![](/images/RsyncOSX/5.3.8/error1.png)
+![](/images/RsyncOSX/5.3.8/error2.png)
+![](/images/RsyncOSX/5.3.8/error3.png)
+![](/images/RsyncOSX/5.3.8/error4.png)
 
 ## Version 5.3.7
 
