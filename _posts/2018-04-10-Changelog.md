@@ -24,7 +24,7 @@ I am working on some enhancements for next version. I couple of minor bugs is fi
 - in automatic backup added percent completed each row
 - added temporary catalog for restore
 - added slider for deleting old snapshots
-- collection errors from rsync to view and correct
+- collecting errors from rsync to view and correct
 	- sometimes rsync throws error and halts execution of task, useful to check which errors is thrown
 
 Temporary path to restore.
