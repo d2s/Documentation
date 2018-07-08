@@ -9,9 +9,13 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 I have installed [MacOSX 10.14 Mojave beta](/Mojave) for test and compiling RsyncOSX with Xcode 10 beta. The Dark Mode of MacOSX Mojave is quite exiting.
 
+## Issue with the menu app (RsyncOSXsched)
+
+The current version of menu app (RsyncOSXsched.dmg) does not execute tasks after the Mac is awake from sleep (/Sleep), see [issue](https://github.com/rsyncOSX/RsyncOSX/issues/748). A fix is applied and uploaded in [release candidate](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.3.8rc). There is also a few minor fixes in the RsyncOSX as well.
+
 ## Version 5.3.8 release candidate
 
-Updated 5 July 2018
+Updated 7 July 2018
 
 I am working on some enhancements for next version. I couple of minor bugs is fixed as well.
 
