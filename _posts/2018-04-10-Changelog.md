@@ -30,6 +30,7 @@ I am working on some enhancements for next version. I couple of minor bugs is fi
 - added slider for deleting old snapshots
 - collecting errors from rsync to view and correct
 	- sometimes rsync throws error and halts execution of task, useful to check which errors is thrown
+- added observers in menu app and RsyncOSX notifying when Mac is going to sleep and awake
 
 Temporary path to restore.
 
