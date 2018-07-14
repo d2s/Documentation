@@ -36,6 +36,8 @@ When the old snapshots are deleted, the filesystem takes care of saving the real
 
 ### Create a snapshot task
 
+In the samples below the source catalog is `/Volumes/Home/thomas/GitHub/` and the snapshots of backups are saved on server `10.0.0.57` in catalog `/backup2/RsyncOSX/snapshots/GitHub/`.
+
 Select the snapshots in optional parameters to utilize snapshots. Only the backup part (not restore) is created utilizing snapshots.
 
 ![Main view](/images/RsyncOSX/master/snapshots/createtask.png)
@@ -48,22 +50,20 @@ The rsync command shows the command to be executed. Important: **do not** copy a
 
 ### Snapshot administration
 
-The administration part supports delete of the oldest snapshots, max 5 at each time. After a delete the view is updated to reflect the current number of snapshot catalogs. The rows to be deleted are marked red.
+The administration part supports delete of `n - 1` snapshots. The last snapshot is not deleted. After a delete the view is updated to reflect the current number of snapshot catalogs. The number of snapshots to be deleted are marked red.
 
 ![Main view](/images/RsyncOSX/master/snapshots/delete.png)
 
-### Snapshots on server
-
-The terminal view shows there are two catalogs for snapshots on server.
-
-![Main view](/images/RsyncOSX/master/snapshots/snapshotroot.png)
-
 ## Logs, search and restore
 
-I have not yet design a search and restore special for snapshots. By using the copy files functionality single files or catalogs can be restored from snapshots. Logs are marked with snapshot number.
+A full restore of the latest snapshot by utilizing the full restore. It is recommende to restore to a temporary catalog.
+
+![Main view](/images/RsyncOSX/master/snapshots/fullrestore.png)
+
+By utilizing the copy files functionality single files or catalogs can be restored from snapshots. Logs are marked with snapshot number.
 
 ![Main view](/images/RsyncOSX/master/snapshots/copyfiles1.png)
 
-Filter all files in snapshot #2.
+Filter all files in snapshot #65.
 
 ![Main view](/images/RsyncOSX/master/snapshots/copyfiles2.png)
