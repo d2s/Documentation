@@ -15,7 +15,7 @@ The current version of menu app (RsyncOSXsched.dmg) does not execute tasks after
 
 ## Version 5.3.8 release candidate
 
-Updated 12 July 2018
+Updated 12 July 2018, this version is most likely to be released as version 5.3.9 in a week or two. It depends upon no more tweaks or fixing of errors committed to source.
 
 I am working on some enhancements for next version. I couple of minor bugs is fixed as well.
 

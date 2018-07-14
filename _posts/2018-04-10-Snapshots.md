@@ -3,7 +3,7 @@ layout: post
 title:  "Snapshots"
 permalink: Snapshots
 ---
-The snapshot feature enables saving changed and deleted files ahead of a new synchronizing task. The snapshot saves the current state of files in a separate directory. Changed and deleted files can be restored utilizing the [copy single files](/CopySingleFiles) features. A [full restore](/Fullrestore) copy the last snapshot from remote storage.
+The snapshot feature enables saving changed and deleted files ahead of a new synchronizing task. The snapshot saves the current state of all files in a separate directory ahead of any changes or deletions. Changed and deleted files can then be restored utilizing the [copy single files](/CopySingleFiles) features. The [full restore](/Fullrestore) will copy the **last** snapshot from remote storage to either the source directory or a temporary restore directory.
 
 - snapshots works on both local attached disks and remote hosts
 - standard rsync sync tasks (backup tasks) cannot be *converted* to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/catalogtobackup/1`)
@@ -17,13 +17,17 @@ The snapshot feature enables saving changed and deleted files ahead of a new syn
 
 Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the `--link-dest` parameter to rsync. The rsync parameters for snapshots are:
 
-`--link-dest=~/snapshots/Documents/n-1 /Volumes/Home/user/Documents/ user@remote.server:~/snapshots/Documents/n`
+`--link-dest=~/snapshots/Documents/n-1 \
+/Volumes/Home/user/Documents/ \
+user@remote.server:~/snapshots/Documents/n`
 
-where `n` is the number of snapshots and `/Volumes/Home/user/Documents/` is the source catalog. The source catalog is **never** touched, only read by rsync. The local catalog (the Documents catalog as sample catalog) is:
+where
 
-- `/Volume/home/user/Documents/`
+- `n` is the number of snapshots
+- and `/Volumes/Home/user/Documents/` is the source catalog
+- and the remote catalogs is `~/snapshots/Documents/`
 
-The remote catalogs is `~/snapshots/Documents/` and RsyncOSX creates the snapshots within the remote catalog. The `~` is expanded to the user home catalog on remote server. Utilizing snapshot on local attached disks require full path for remote catalog.
+The source catalog is **never** touched, only read by rsync. RsyncOSX creates the snapshots within the remote catalog. The `~` is expanded to the user home catalog on remote server. Utilizing snapshot on local attached disks require full path for remote catalog.
 
 - `~/snapshots/Documents/1` - snapshot 1
   - a full sync when snapshot is created
