@@ -7,7 +7,7 @@ The automatic feature of RsyncOSX is triggered by `⌘B` shortcut. RsyncOSX exec
 
 The automatic backup can be aborted at any time. The tasks to be executed is equal to tasks selected by [quick backup](/Quickbackup).
 
-Before using this feature check it out by using the [quick backup](/Quickbackup). The `Select` button in [quick backup](/Quickbackup) selects the tasks which is automatically selected and executed.
+Before using this feature check it out by using the quick backup. The `Select` button in quick backup selects the tasks which is automatically selected and executed.
 
 ![ssh](/images/RsyncOSX/master/automatic/automatic1.png)
 ![ssh](/images/RsyncOSX/master/automatic/automatic2.png)
