@@ -13,9 +13,21 @@ I have installed [MacOSX 10.14 Mojave beta](/Mojave) for test and compiling Rsyn
 
 The current version of menu app (RsyncOSXsched.dmg) does not execute tasks after the Mac is awake from sleep (/Sleep), see [issue](https://github.com/rsyncOSX/RsyncOSX/issues/748). A fix is applied and uploaded in [release candidate](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.3.8rc). There is also a few minor fixes in the RsyncOSX as well.
 
+## Plan for release version 5.4.x
+
+There are some enhancements which are planned for release sometime after summer and **after** the next version 5.3.9.
+
+- `--archive` vs `--checksum` `--recursive` parameters
+
+The `--archive` parameter to rsync preserves a lot of attributes of files when synchronizing. It also includes the recursive parameter. When synchronizing files based upon the `--archive` parameter, rsync compares filesize and timestamp to evaluate which files to be synchronized.
+
+`--checksum` `--recursive` parameters forces rsync to recursive evaluate files based upon 128-bit [MD4](https://en.wikipedia.org/wiki/MD4) checksum. Rsync computes the checksum of all files and based upon the checksum, rsync finds all files which are not equal. This is a more time consuming task and it is ideal for verifying a backup.
+
+The plan is to implement the `--checksum` `--recursive` parameters for a few tasks, e.g verify backup. I am not to happy with [copy files](/CopySingleFiles), it should be possible to list only changed or deleted files. And it should be user selected if the user chooses to replace the `--archive` parameter with `--checksum` `--recursive` for backup tasks.
+
 ## Version 5.3.8 release candidate
 
-Updated 12 July 2018, this version is most likely to be released as version 5.3.9 in a week or two. It depends upon no more tweaks or fixing of errors committed to source.
+Updated 12 July 2018, this version will be released as **version 5.3.9** in a week or two.
 
 I am working on some enhancements for next version. I couple of minor bugs is fixed as well.
 
