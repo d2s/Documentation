@@ -9,10 +9,6 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 I have installed [MacOSX 10.14 Mojave beta](/Mojave) for test and compiling RsyncOSX with Xcode 10 beta. The Dark Mode of MacOSX Mojave is quite exiting.
 
-## Issue with the menu app (RsyncOSXsched)
-
-The current version of menu app (RsyncOSXsched.dmg) does not execute tasks after the Mac is awake from sleep (/Sleep), see [issue](https://github.com/rsyncOSX/RsyncOSX/issues/748). A fix is applied and uploaded in [release candidate](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.3.8rc). There is also a few minor fixes in the RsyncOSX as well.
-
 ## Plan for release version 5.4.x
 
 There are some enhancements which are planned for release sometime after summer and **after** the next version 5.3.9.
@@ -25,11 +21,9 @@ The `--archive` parameter to rsync preserves a lot of attributes of files when s
 
 The plan is to implement the `--checksum` `--recursive` parameters for a few tasks, e.g verify backup. I am not to happy with [copy files](/CopySingleFiles), it should be possible to list only changed or deleted files. And it should be user selected if the user chooses to replace the `--archive` parameter with `--checksum` `--recursive` for backup tasks.
 
-## Version 5.3.8 release candidate
+## Version 5.3.9
 
-Updated 12 July 2018, this version will be released as **version 5.3.9** in a week or two.
-
-I am working on some enhancements for next version. I couple of minor bugs is fixed as well.
+Released 22 July 2018
 
 - deleting or adding [temporary path restore](/UserConfiguration) catalog is not working properly
 	- used in Copy Single files
@@ -42,26 +36,11 @@ I am working on some enhancements for next version. I couple of minor bugs is fi
 - added slider for deleting old snapshots
 - collecting errors from rsync to view and correct
 	- sometimes rsync throws error and halts execution of task, useful to check which errors is thrown
-- added observers in menu app and RsyncOSX notifying when Mac is going to sleep and awake
-
-Temporary path to restore.
-
-![](/images/RsyncOSX/5.3.8/tmprestore.png)
-
-Delete old snapshots.
-
-![](/images/RsyncOSX/5.3.8/snapshot.png)
-
-Sometimes rsync throws errors and halts execution.
-
-![](/images/RsyncOSX/5.3.8/error1.png)
-![](/images/RsyncOSX/5.3.8/error2.png)
-![](/images/RsyncOSX/5.3.8/error3.png)
-![](/images/RsyncOSX/5.3.8/error4.png)
+- added observers in **menu app** (RsyncOSXsched) and RsyncOSX notifying when Mac is going to sleep and awake
 
 ## Version 5.3.7
 
-Released 18 June 2018
+Released 18 June 2018.
 
 A **bug** in automatic backups is fixed, the bug causes RsyncOSX to crash if reporting more than 1000 files to be transferred. The bug is due to wrong number formatting.
 
