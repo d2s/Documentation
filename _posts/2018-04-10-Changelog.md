@@ -12,13 +12,13 @@ I have installed [MacOSX 10.14 Mojave beta](/Mojave) for test and compiling Rsyn
 ## Plan for next release version 5.4.x
 
 There are some enhancements which are planned for release sometime after summer and **after** the v5.3.9.
-- `--archive` vs `--checksum` `--recursive` parameters
+- `--archive` vs `--checksum` parameters
 
 The `--archive` parameter to rsync preserves a lot of attributes of files when synchronizing. When synchronizing files based upon the `--archive` parameter, rsync compares filesize and modification time to evaluate which files to be synchronized.
 
-The `--checksum` parameters forces [rsync](https://en.wikipedia.org/wiki/Rsync) to recursive evaluate files based upon 128-bit [MD5](https://en.wikipedia.org/wiki/MD5) checksum. Rsync computes the checksum of all files and based upon the checksum, rsync finds all files which are not equal. This is a more time consuming task and it is best for verifying a backup.
+The `--checksum` parameters forces [rsync](https://en.wikipedia.org/wiki/Rsync) to evaluate files based upon 128-bit [MD5](https://en.wikipedia.org/wiki/MD5) checksum. Rsync computes the checksum of all files and based upon the checksum, rsync finds all files which are not equal. This is a more time consuming task and it is best for verifying a backup.
 
-The plan is to implement the `--checksum` parameters for a few tasks, e.g verify backup. I am not to happy with [copy files](/CopySingleFiles), it should be possible to list only changed and deleted files.
+The plan is to implement the `--checksum` parameters for a few tasks, e.g verify backup. Also I am not to happy with [copy files](/CopySingleFiles), it should be possible to list only changed and deleted files.
 
 ## Version 5.3.9
 
