@@ -20,7 +20,7 @@ The `--checksum` parameters forces [rsync](https://en.wikipedia.org/wiki/Rsync) 
 
 The plan is to implement the `--checksum` parameters for a few tasks, e.g verify backup. Also I am not to happy with [copy files](/CopySingleFiles), it should be possible to list only changed and deleted files.
 
-The view below is initial functions for verify. It is checked in Master, but there are still work to do. No release candidate yet.
+The view is initial functions for verify and it is checked in Master repository. There are still work to do and no release candidate yet.
 
 ![](/images/RsyncOSX/5.4.0/verify.png)
 
