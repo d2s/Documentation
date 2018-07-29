@@ -21,7 +21,7 @@ There are only a few parameters to choose in user configuration. The parameters 
   - log file is `Documents/rsynclog.txt`
   - logging to file is off when RsyncOSX starts
 - **Number of days**
-  - in main view tasks older than number of days are marked red
+  - in Execute view tasks older than number of days are marked red
 - **path RsyncOSX**
 - **path RsyncOSXsched**
   - the path for both apps should be set if scheduled tasks are executed in RsyncOSXsched, green light indicates apps are found in path

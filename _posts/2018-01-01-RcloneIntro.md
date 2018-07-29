@@ -14,7 +14,7 @@ I have tested the following cloud services (enabled through `rclone config`):
 - Microsoft Onedrive
 - Google Drive
 
-All configurations to execute are listed in table. From the main view most actions (edit configurations, adding parameters to rclone, delete configurations) regarding configurations are executed. Configurations can be saved in user selected **profiles**. The **profile** in use is shown in label `Profile: name`.
+All configurations to execute are listed in table. From the Execute view most actions (edit configurations, adding parameters to rclone, delete configurations) regarding configurations are executed. Configurations can be saved in user selected **profiles**. The **profile** in use is shown in label `Profile: name`.
 
 **Caution:** The screenshots are from an early version. After release of version 1.5.0 screenshots and this intro will be updated.
 
@@ -32,12 +32,12 @@ All tasks can be aborted during execution.
 
 ## Executing single tasks
 
-![Main view](/images/RcloneOSX/master/intro/main.png)
-A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in main view. An estimate run is a `--dry-run` execution of rclone. Tasks can also be executed in one go by selecting the batch button
-The result of a estimate run is presented. Next task is *Execute*. *Execute* is the real run as indicated on left side in main view rcloneOSX. Selecting a new row resets the tasks. The pictures show a transfer of about 310 MB of data to Google Drive in about 3 1/2 hours.
-![Main view](/images/RcloneOSX/master/intro/executing.png)
+![Execute view](/images/RcloneOSX/master/intro/main.png)
+A **double click** on row executes the task. Next task is a *Estimate* run as indicated on left in Execute view. An estimate run is a `--dry-run` execution of rclone. Tasks can also be executed in one go by selecting the batch button
+The result of a estimate run is presented. Next task is *Execute*. *Execute* is the real run as indicated on left side in Execute view rcloneOSX. Selecting a new row resets the tasks. The pictures show a transfer of about 310 MB of data to Google Drive in about 3 1/2 hours.
+![Execute view](/images/RcloneOSX/master/intro/executing.png)
 During a real run a progress bar show the progress of backup or restore task. All tasks can be aborted during execution.
-![Main view](/images/RcloneOSX/master/intro/finished.png)
+![Execute view](/images/RcloneOSX/master/intro/finished.png)
 
 ### Batch mode
 
@@ -52,29 +52,29 @@ Tasks are updated with last execution dates.
 ## Adding configurations
 
 It is easy to add new tasks. RcloneOSX shows only (dynamically) added cloud services in rclone config file.
-![Main view](/images/RcloneOSX/master/intro/add.png)
+![Execute view](/images/RcloneOSX/master/intro/add.png)
 
 ## Restore files or catalogs
 
 Search and restore files and catalogs in cloud services.
-![Main view](/images/RcloneOSX/master/intro/restore.png)
+![Execute view](/images/RcloneOSX/master/intro/restore.png)
 
 ## Scheduling tasks
 
 Only **backup** tasks can be scheduled. When a task is scheduled RcloneOSX counts down when task is kicked off. The first scheduled task to be executed is marked green in table and the column `In` shows when task is due for execution.
-![Main view](/images/RcloneOSX/master/intro/schedule.png)
-When a task is executed a dropdown menu is automatically presented in main view.
+![Execute view](/images/RcloneOSX/master/intro/schedule.png)
+When a task is executed a dropdown menu is automatically presented in Execute view.
 
 ## Logging
 
-RcloneOSX is logging all tasks. The user can choose in user configuration, to disable or enable detailed logging. Detailed logging is on as default. In log view all tasks with date, number of files and size transferred is logged. In the main view only date and time for last execution is set.
-![Main view](/images/RcloneOSX/master/intro/logs.png)
+RcloneOSX is logging all tasks. The user can choose in user configuration, to disable or enable detailed logging. Detailed logging is on as default. In log view all tasks with date, number of files and size transferred is logged. In the Execute view only date and time for last execution is set.
+![Execute view](/images/RcloneOSX/master/intro/logs.png)
 Searching (filter) logs shows logrecords by applying the filter.
 
 ## Rclone parameters
 
 The user can pass any parameter to rclone or choose some predefined parameters.
-![Main view](/images/RcloneOSX/master/intro/parameters.png)
+![Execute view](/images/RcloneOSX/master/intro/parameters.png)
 
 ## Profiles
 
@@ -87,7 +87,7 @@ In the profiles menu there are two options:
 - `OK`. Name of new profile must be set in `New profile name` before `OK` button is selected. If `New profile name` is empty the view is closed (not loading a new profile).
 - `Delete` profile. Select profile to be deleted in list of profiles and select `Delete` button to delete.
 - `Default` button selects the default profile.
-![Main view](/images/RcloneOSX/master/intro/profile.png)
+![Execute view](/images/RcloneOSX/master/intro/profile.png)
 
 ### RcloneOSX configuration files
 

@@ -5,8 +5,8 @@ permalink: CopySingleFiles
 ---
 Copy file and volume enables the user to select single file or catalogs for restore to a selected local storage. The _source_ for copy is either _selected row in Execute view_ or if selecting `Select` button drop down list of all backup locations.
 
-* button is labeled `Select` if no location is selected in main view, pressing select pops up a list of backup locations
-* button is labeled `Get files` if location is selected, either in main view or by drop down list (information about source is filled in)
+* button is labeled `Select` if no location is selected in Execute view, pressing select pops up a list of backup locations
+* button is labeled `Get files` if location is selected, either in Execute view or by drop down list (information about source is filled in)
 * if `Reset` button is selected button is labeled `Get source`, if selected list of source is listed in drop list
 
 The temporary path for restoring single file or directory can be set in Configuration. The path can be set to any directory or changed to a other directory for one session only.

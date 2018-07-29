@@ -153,7 +153,7 @@ to execute scheduled backups, the `menu app`is a minimal version of RsyncOSX onl
 	- the logging to file is default off when starting RsyncOSX, status of logging is not saved in userconfiguration
 	- the log function appends new logs, be careful not logging all actions
 - fixed some other minor glitches
-- added number of days since last backup in main view
+- added number of days since last backup in Execute view
 
 ## Version 4.8.2
 
@@ -220,7 +220,7 @@ There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To
 * released 3 July 2017
 * rewrite of code for executing single and batch tasks, reduces the complexity and size of code and it separates the view and model
 * fixed a bug in Schedules some other minor bugs
-* removed test for TCP connections remote servers to a button in main view (no automatic check for connections)
+* removed test for TCP connections remote servers to a button in Execute view (no automatic check for connections)
 
 
 ## Version 4.4.0
@@ -288,13 +288,13 @@ The schedule now informs if a scheduled backup plan is to short ahead. A weekly 
 
 Sometimes rsync throws errors and does not execute as expected. Single task is implemented as queue of work (`estimate`, `execute` and `done`). If `estimate` or `execute` fails (by some reason) the user has to be made aware of situation and fix it.
 
-RsyncOSX checks output from rsync for string *rsync error:*. If found main view is notified, error is marked (in red) and work queue is reset if option in userconfig (see below) is set. To test enter a not valid user name for a remote server ([edit task](/SingleTask) in main view).
+RsyncOSX checks output from rsync for string *rsync error:*. If found Execute view is notified, error is marked (in red) and work queue is reset if option in userconfig (see below) is set. To test enter a not valid user name for a remote server ([edit task](/SingleTask) in Execute view).
 
 Other changes:
 
 - released 2 March 2017
 - some refactor and several cleanup of code
-- Added reporting any file errors (in profile) to main view.
+- Added reporting any file errors (in profile) to Execute view.
 - There is also fixed a minor bug in Profiles.
 - In About menu reference to GitHub Pages about Changelog and Documentation of RsyncOSX
 
@@ -316,7 +316,7 @@ If RsyncOSX crash during startup please delete the schedule and loggfile: `Docum
 
 ## Version 3.9.1
 - released 19 January 2017
-- added a few tweaks regarding radio buttons in main view and deselect row after delete actions
+- added a few tweaks regarding radio buttons in Execute view and deselect row after delete actions
 - moved Add button new configurations into tab view and added some more checks when adding new configurations
 - In Sch
 
@@ -353,7 +353,7 @@ After releasing this version I will not release new versions for some time. I ha
 - split `--backup` parameter and `--suffix` in parameter view
 - refactor of code for rsync parameters and logging
 - speed of sorting and filter logs improved
-- added display both `--dry-run` and `real run` of rsync command in main view
+- added display both `--dry-run` and `real run` of rsync command in Execute view
 
 ## Version 3.6.5
 
@@ -377,9 +377,9 @@ After releasing this version I will not release new versions for some time. I ha
 ## Version 3.5.5
 
 - new image updated **10 November 2016** : some minor GUI tweaks and automatic dismiss after 10 seconds in some of the views
-- new image updated **5 November 2016** : if selecting new profile before background check for connection is completed RsyncOSX might crash, fix is done and new image is uploaded. Background check is executed when main view loads and remote servers not responding is marked red.
+- new image updated **5 November 2016** : if selecting new profile before background check for connection is completed RsyncOSX might crash, fix is done and new image is uploaded. Background check is executed when Execute view loads and remote servers not responding is marked red.
 - released 3 November 2016
-- fixed a couple of bugs in automatic dismiss of popup views (when scheduled backups are running and in main view a popup informs of backup)
+- fixed a couple of bugs in automatic dismiss of popup views (when scheduled backups are running and in Execute view a popup informs of backup)
 - some minor refactor of code
 
 

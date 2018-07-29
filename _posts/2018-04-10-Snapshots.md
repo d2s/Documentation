@@ -47,30 +47,30 @@ In the samples below:
 
 To create a snapshot task set the `snapshots` to on in the optional parameters.
 
-![Main view](/images/RsyncOSX/master/snapshots/createtask.png)
+![Execute view](/images/RsyncOSX/master/snapshots/createtask.png)
 
 ### Ready for next snapshot
 
 The rsync command shows the command to be executed. **Important: do not** copy and paste command for execution within a terminal window. RsyncOSX saves the number `n` to the configuration. The number `n` is the next snapshot number. The number `n` is used when computing the parameter for rsync and is picked up from the configuration.
 
-![Main view](/images/RsyncOSX/master/snapshots/readyforbackup.png)
+![Execute view](/images/RsyncOSX/master/snapshots/readyforbackup.png)
 
 ### Snapshot administration
 
 The administration part supports delete of `n - 1` snapshots. The last snapshot `n` is never deleted. After a delete the view is updated to reflect the current number of snapshot catalogs. The number of snapshots to be deleted are marked red.
 
-![Main view](/images/RsyncOSX/master/snapshots/delete.png)
+![Execute view](/images/RsyncOSX/master/snapshots/delete.png)
 
 ## Logs, search and restore
 
 A full restore of the latest snapshot by utilizing the full restore. It is recommended to restore to a temporary catalog.
 
-![Main view](/images/RsyncOSX/master/snapshots/fullrestore.png)
+![Execute view](/images/RsyncOSX/master/snapshots/fullrestore.png)
 
 By utilizing the copy files functionality single files or catalogs can be restored from snapshots. Logs are marked with snapshot number.
 
-![Main view](/images/RsyncOSX/master/snapshots/copyfiles1.png)
+![Execute view](/images/RsyncOSX/master/snapshots/copyfiles1.png)
 
 Filter all files in snapshot #65.
 
-![Main view](/images/RsyncOSX/master/snapshots/copyfiles2.png)
+![Execute view](/images/RsyncOSX/master/snapshots/copyfiles2.png)

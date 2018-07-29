@@ -28,23 +28,23 @@ A restore of the local encrypted catalog can be verified with `/usr/local/bin/rc
 ### Setup in RcloneOSX
 
 The catalog `/Volumes/Home/thomas/demoEncryptedorg` is the not encrypted source catalog to be backed up. The catalog `/Volumes/Home/thomas/demoEncryptedrclone` is the catalog where rclone is by `rclone config`, setup to encrypt and store whatever is in the source catalog.
-![Main view](/images/RsyncOSX/master/encrypted/rclone1.png)
+![Execute view](/images/RsyncOSX/master/encrypted/rclone1.png)
 After setup in RcloneOSX utlizing the cloudservice `demoEncrypted:`, a dry-run is executed to verify the task.
-![Main view](/images/RsyncOSX/master/encrypted/rclone2.png)
+![Execute view](/images/RsyncOSX/master/encrypted/rclone2.png)
 
 ### Setup in RsyncOSX and connection to RcloneOSX
 
 A task in RsyncOSX is added to sync the encrypted catalog `/Volumes/Home/thomas/demoEncryptedrclone` and synchronize it to a catalog `/mnt/backup2/temp/demoEncryptedserver/` on my freenas.local server at home (as a demo).
-![Main view](/images/RsyncOSX/master/encrypted/rsync1.png)
+![Execute view](/images/RsyncOSX/master/encrypted/rsync1.png)
 After adding the above backup task, a connection between the RsyncOSX task and RcloneOSX task is required.
-![Main view](/images/RsyncOSX/master/encrypted/connect1.png)
+![Execute view](/images/RsyncOSX/master/encrypted/connect1.png)
 A red row indicates that there is a connection. A combined task is marked `combined`.
-![Main view](/images/RsyncOSX/master/encrypted/connect2.png)
+![Execute view](/images/RsyncOSX/master/encrypted/connect2.png)
 Execution of a combined task is done by `⌘R` command after selecting the task.
-![Main view](/images/RsyncOSX/master/encrypted/connect3.png)
+![Execute view](/images/RsyncOSX/master/encrypted/connect3.png)
 The rsync part of task is logged.
-![Main view](/images/RsyncOSX/master/encrypted/log.png)
+![Execute view](/images/RsyncOSX/master/encrypted/log.png)
 
 ### My encrypted Documents catalog
 View of how my Documents catalog looks like encrypted.
-![Main view](/images/RsyncOSX/master/encrypted/documents.png)
+![Execute view](/images/RsyncOSX/master/encrypted/documents.png)

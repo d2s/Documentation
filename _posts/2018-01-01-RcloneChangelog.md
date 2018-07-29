@@ -34,14 +34,14 @@ There are several enhancements in this release:
 - selecting the i-button commence an estimating run for all `sync` tasks
 
 Estimate all sync tasks.
-![Main view](/images/RcloneOSX/v1.5.1/nr1.png)
+![Execute view](/images/RcloneOSX/v1.5.1/nr1.png)
 Automatic backups, finding all tasks with data to transfer.
-![Main view](/images/RcloneOSX/v1.5.1/nr2.png)
-![Main view](/images/RcloneOSX/v1.5.1/nr3.png)
-![Main view](/images/RcloneOSX/v1.5.1/nr4.png)
-![Main view](/images/RcloneOSX/v1.5.1/nr5.png)
+![Execute view](/images/RcloneOSX/v1.5.1/nr2.png)
+![Execute view](/images/RcloneOSX/v1.5.1/nr3.png)
+![Execute view](/images/RcloneOSX/v1.5.1/nr4.png)
+![Execute view](/images/RcloneOSX/v1.5.1/nr5.png)
 `⌘I` gets remote info about task.
-![Main view](/images/RcloneOSX/v1.5.1/nr6.png)
+![Execute view](/images/RcloneOSX/v1.5.1/nr6.png)
 
 ## Version 1.4.0
 
@@ -59,7 +59,7 @@ Automatic backups, finding all tasks with data to transfer.
 
 - released 6 March 2018
 - refactor schedules
-- cleanup of main view
+- cleanup of Execute view
 - notification when scheduled tasks are completed
 
 ## Version 1.3.0
@@ -116,7 +116,7 @@ If a task is executed by shortcut `⌘R`, a select of another row during executi
 	- the logging to file is default off when starting RcloneOSX, status of logging is not saved in userconfiguration
 	- the log function appends new logs, be careful not logging all actions
 - fixed some other minor glitches
-- added number of days since last backup in main view
+- added number of days since last backup in Execute view
 
 ## version 0.2.5
 

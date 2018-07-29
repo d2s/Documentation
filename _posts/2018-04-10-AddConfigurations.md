@@ -8,7 +8,7 @@ Adding configurations is easy. A configuration require minimum **Local catalog**
 Select **Local catalog** either by *drag and drop* or by *enter text* directly. For **Remote catalogs** only drag and drop for local volumes. For remote server catalogs enter by text only.
 
 If **Single file** is *on*, RsyncOSX adds backup of single file only. Use Copy files for search and restore.
-![Main view](/images/RsyncOSX/master/add/add1.png)
+![Execute view](/images/RsyncOSX/master/add/add1.png)
 
 ### Local and remote catalogs
 
@@ -31,7 +31,7 @@ The screen below is all information about my configuration for a virtual FreeBSD
 
 ### The Add button
 
-Select the `Add new` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume (if the `Single file` is not on). After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the main view (Execute tab).
+Select the `Add new` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume (if the `Single file` is not on). After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Execute view (Execute tab).
 
 If `Single file` is ticked on no trailing character `/` is added.
 ![Configurations added](/images/RsyncOSX/master/add/add4.png)
