@@ -11,6 +11,8 @@ Updated 31 July 2018.
 
 - renamed function to `Changed`
 - fixed verify for snapshot tasks
+- if task is selected in Execute view, only logs for selected task is presented in log view
+- fixed preserving sort direction and selection of logs
 
 See [verify](/Verify).
 
