@@ -5,25 +5,38 @@ permalink: UserConfiguration
 ---
 There are only a few parameters to choose in user configuration. The parameters are:
 
- - **v3.1.2 or 3.1.3** of rsync
+### Configurations saved to permanent store
+
+ - 3.1.2 or 3.1.3 of rsync
  	- any version of rsync should work, but only rsync  version 3.1.2, version 3.1.3 protocol version 31 and rsync  version 2.6.9  protocol version 29 are tested and verified
-- **optional path for rsync**
+  - utilizing the [snapshot feature](/Snapshots) require either version 3.1.2 or 3.1.3
+- optional path for rsync
   - if other version of rsync is installed in other path than `/usr/local/bin` it must be set here
- - **detailed logging on or off**
- 	- if detailed logging is **on** all backup tasks are logged, if **off** only last date for task is updated in Execute view
-- **temporary path restore**
+ - detailed logging on or off
+ 	- if detailed logging is on all backup tasks are logged, if off only last date for task is updated in Execute view
+- temporary path restore
   - preset temporary path for [restoring single files or volumes](/CopySingleFiles)
   - preset temporary path for [full restore](/Fullrestore)
 - Scheduled tasks (default on: dispatch, if off: timer)
   - don´t bother to switch, it is only how (technical) scheduled tasks are kicked off
-- **log file**
-  - either minimum (last 10 lines) or full logging of output from rsync, be carful not logging everything, the log file might be big
-  - log file is `Documents/rsynclog.txt`
-  - logging to file is off when RsyncOSX starts
-- **Number of days**
+
+### Log file
+
+Logging is only set for the current session and **not** saved to permanent store.
+
+- either minimum (last 10 lines) or full logging of output from rsync, be carful not logging everything, the log file might be big
+- log file is `Documents/rsynclog.txt`
+- logging to file is off when RsyncOSX starts
+
+### Number of days
+
+- Number of days
   - in Execute view tasks older than number of days are marked red
-- **path RsyncOSX**
-- **path RsyncOSXsched**
+
+### Paths for RsyncOSX and RsyncOSXsched
+
+- path RsyncOSX
+- path RsyncOSXsched
   - the path for both apps should be set if scheduled tasks are executed in RsyncOSXsched, green light indicates apps are found in path
   - see [scheduled backups](/ScheduleTasks) and [menu app](/Menuapp) for more info
 
