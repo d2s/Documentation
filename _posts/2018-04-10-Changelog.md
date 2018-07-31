@@ -7,7 +7,10 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.4.0 release candidate
 
-Released 30 July 2018
+Updated 31 July 2018.
+
+- renamed function to `Changed`
+- fixed verify for snapshot tasks
 
 See [verify](/Verify).
 
