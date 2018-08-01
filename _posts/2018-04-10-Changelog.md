@@ -9,12 +9,18 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 Updated 31 July 2018.
 
+The primary goal for this release is adding [verify](/Verify) of backups. There will also be some other and minor fixes as well.
+
+Fixed in release candidate:
+
 - renamed function to `Changed`
 - fixed verify for snapshot tasks
 - if task is selected in Execute view, only logs for selected task is presented in log view
 - fixed preserving sort direction and selection of logs
 
-See [verify](/Verify).
+Fixed but **not yet** in release candidate
+
+- in [snapshots](/Snapshots) enter number to delete directly
 
 The `--archive` parameter to rsync preserves a lot of attributes of files when synchronizing. When synchronizing files based upon the `--archive` parameter, rsync compares filesize and modification time to evaluate which files to be synchronized.
 
