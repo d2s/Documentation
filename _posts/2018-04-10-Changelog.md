@@ -11,7 +11,7 @@ Updated 2 August 2018.
 
 The primary goal for this release is adding [verify](/Verify) of backups. There will also be some other and minor fixes as well.
 
-Fixed in release candidate:
+Fixed in [release candidate](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.4.0rc):
 
 - renamed function to `Changed`
 - fixed verify for snapshot tasks
