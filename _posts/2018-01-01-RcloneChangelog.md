@@ -12,6 +12,20 @@ I have also implemented [encrypted](/Encrypted) backup in RsyncOSX by utilizing 
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
+## Next version
+
+Updated 9 August 2018.
+
+I have commenced working on a new version of RcloneOSX. Most of the updates are enhancements from RsyncOSX. The updates are in the following functions:
+
+- if task is selected in Execute view, only logs for selected task is presented in log view
+- some enhancements in copy single files
+- implementing a new restore function
+- a more detailed output (user selected) during process
+- and probably some more enhancements as well
+
+A release candidate will be released within some weeks.
+
 ## Version 1.5.4
 
 - released 21 June 2018
