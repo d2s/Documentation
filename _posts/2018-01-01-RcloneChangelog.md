@@ -19,9 +19,9 @@ Updated 9 August 2018.
 I have commenced working on a new version of RcloneOSX. Most of the updates are enhancements from RsyncOSX. The updates are in the following functions:
 
 - if task is selected in Execute view, only logs for selected task is presented in log view
-- some enhancements in copy single files
-- implementing a new restore function
-- a more detailed output (user selected) during process
+- some enhancements in copy single files, fixed a memory leak
+- implementing a new restore function from Execute view
+- a new info view showing output from rclone during execution of single tasks
 - and probably some more enhancements as well
 
 A release candidate will be released within some weeks.
