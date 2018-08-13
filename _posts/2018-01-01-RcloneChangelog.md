@@ -16,13 +16,14 @@ See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
 Released 11 August 2018.
 
-I have commenced working on a new version of RcloneOSX. Most of the updates are enhancements from RsyncOSX. The updates are in the following functions:
+I have commenced working on a new version of RcloneOSX. Most of the updates are enhancements from RsyncOSX. The updates are within the following functions:
 
 - if task is selected in Execute view, only logs for selected task is presented in log view
 - some enhancements in copy single files, fixed a memory leak
 - implementing a new restore function from Execute view
 - a new info view showing output from rclone during execution of single tasks
-- and probably some more enhancements as well
+
+Remote numbers are not yet available in the new `restore` function. Will be implemented before release.
 
 ## Version 1.5.4
 
