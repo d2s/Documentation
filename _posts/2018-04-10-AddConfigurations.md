@@ -3,21 +3,19 @@ layout: post
 title:  "Add configurations"
 permalink: AddConfigurations
 ---
-Adding configurations is easy. A configuration require minimum **Local catalog** and **Remote catalog**. And they should not be equal (obvious). After entering information about a configuration select the Add button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry.
+Adding configurations are easy. A configuration require minimum **Local catalog** and **Remote catalog**. And they should not be equal. After entering information about a configuration select the Add button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry.
 
 Select **Local catalog** either by *drag and drop* or by *enter text* directly. For **Remote catalogs** only drag and drop for local volumes. For remote server catalogs enter by text only.
 
-There are three types of tasks, `synchronize` which is standard, `snapshots` and `single file`. For [snapshots](/Snapshots) see documentation.  If `single file` is selected no trailing character `/` is added. For both synchronize and snapshots task trailing character `/` is added.
+There are three types of tasks, `synchronize` which is standard, `snapshots` and `single file`. For [snapshots](/Snapshots) see documentation.
 
 ![Execute view](/images/RsyncOSX/master/add/add1.png)
 
-### Local and remote catalogs
-
-Local catalog and Remote catalog are added either by using *drag and drop* from filemanager or *by text* only. If enter by text please remember to add the full path. Remote catalogs is entered either by full paths or use the `~` character to expand remote user home catalog. See sample configuration below.
-
 ### Sample configuration
 
-The screen below is all information about my configuration for a virtual FreeBSD instance running on my Macbook Pro.
+Local catalog and Remote catalog are added either by using *drag and drop* from filemanager or *by text* only. If enter by text please remember to add the full path. Remote catalogs is entered either by full paths or use the `~` character to expand remote user home catalog. See sample configuration.
+
+![Execute view](/images/RsyncOSX/master/add/add2.png)
 
 - **Local catalog**: `/Volumes/Home/thomas/Documents/` - my Documents catalog in my home catalog.
 - **Remote catalog**: `~/Documents/` - the backup catalog for user thomas. The `~` is expanded as the home catalog with full path by the remote operating system. The remote catalog might also be added by full path, depends where the backup catalog is placed on remote server.
@@ -28,8 +26,6 @@ The screen below is all information about my configuration for a virtual FreeBSD
 - **rsync daemon**: setting this puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote which takes some more setup. I am not using it myself.
 - **Type**: There are three types of tasks, `synchronize` which is standard, `snapshots` and `single file`.
 
-![Execute view](/images/RsyncOSX/master/add/add2.png)
-
 About remote servers.
 
 ```
@@ -38,11 +34,8 @@ require to setup passwordless logins by ssh-keys.
 ```
 See [passwordless logins](/ssh).
 
-
 ### The Add button
 
-Select the `Add new` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Execute view.
+Select the `Add` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Execute view. Additional parameters to rsync might be added utilizing the `Params` button.
 
 ![Configurations added](/images/RsyncOSX/master/add/add4.png)
-
-Additional parameters to rsync might be added utilizing the `Params` button.

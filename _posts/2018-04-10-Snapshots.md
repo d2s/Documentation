@@ -42,12 +42,12 @@ When the old snapshots are deleted, the filesystem takes care of saving the real
 
 In the samples below:
 
-- the source catalog is `/Volumes/Home/thomas/GitHub/`
-- and the snapshots in catalog `/backup2/RsyncOSX/snapshots/GitHub/` on server `10.0.0.57`
+- the source catalog is `/Volumes/Home/user/Documents/`
+- and the snapshots in catalog `~/Documents/` on server `freenas.local`
 
-To create a snapshot task set the `snapshots` to on in the optional parameters.
+To create a snapshot task select `snapshots` as type.
 
-![Execute view](/images/RsyncOSX/master/snapshots/createtask.png)
+![Execute view](/images/RsyncOSX/master/add/add2.png)
 
 ### Ready for next snapshot
 
