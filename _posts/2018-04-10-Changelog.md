@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.4.0 release candidate
 
-Updated 11 August 2018. The new version will be released within a week or two.
+Updated 15 August 2018. The new version will be released within a week or two.
 
 The primary goal for this release is adding [verify](/Verify) of backups. There will also be some other and minor fixes as well.
 
