@@ -5,27 +5,18 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](/Snapshots) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
-## Version 5.4.0 release candidate
+## Version 5.4.1
 
-Updated 15 August 2018. The new version will be released within a week or two.
+Released 16 August 2018.
 
-The primary goal for this release is adding [verify](/Verify) of backups. There will also be some other and minor fixes as well.
+The primary goal for this release is adding [verify](/Verify) of backups. There are also some other and minor fixes as well.
 
-Fixed in [release candidate](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.4.0rc):
-
-- renamed function to `Changed`
-- fixed verify for snapshot tasks
+- new function [verify](/Verify)
 - if task is selected in Execute view, only logs for selected task is presented in log view
 - fixed preserving sort direction and selection of logs
 - in [snapshots](/Snapshots) enter number of snapshots to delete directly
 - cleaned up in [copy single files](/CopySingleFiles) and fixed a memory leak
 - a new info view showing output from rsync during execution of single tasks
-
-The `--archive` parameter to rsync preserves a lot of attributes of files when synchronizing. When synchronizing files based upon the `--archive` parameter, rsync compares filesize and modification time to evaluate which files to be synchronized.
-
-The `--checksum` parameters forces [rsync](https://en.wikipedia.org/wiki/Rsync) to evaluate files based upon 128-bit [MD5](https://en.wikipedia.org/wiki/MD5) checksum. Rsync computes the checksum of all files and finds all files which are not equal. This is a more time consuming task and it is best for verifying a backup.
-
-![](/images/RsyncOSX/master/verify/verify.png)
 
 ## Version 5.3.9
 
