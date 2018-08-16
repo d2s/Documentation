@@ -17,15 +17,14 @@ The snapshot feature enables saving changed and deleted files ahead of a new syn
 
 Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the `--link-dest` parameter to rsync. The rsync parameters for snapshots are:
 
-`--link-dest=~/snapshots/Documents/n-1 \
-/Volumes/Home/user/Documents/ \
-user@remote.server:~/snapshots/Documents/n`
+`--link-dest=~/snapshots/data/n-1 /Volumes/.../user/data/ user@remote.server:~/snapshots/data/n`
 
 where
 
 - `n` is the number of snapshots
-- and `/Volumes/Home/user/Documents/` is the source catalog
-- and the remote catalogs is `~/snapshots/Documents/`
+- and `/Volumes/.../data/` is the source catalog
+- and the remote catalogs is `~/snapshots/data/`
+  - if remote catalog is a local volume full path must be added
 
 The source catalog is **never** touched, only read by rsync. RsyncOSX creates the snapshots within the remote catalog. The `~` is expanded to the user home catalog on remote server. Utilizing snapshot on local attached disks require full path for remote catalog.
 
@@ -51,7 +50,15 @@ To create a snapshot task select `snapshots` as type.
 
 ### Ready for next snapshot
 
-The rsync command shows the command to be executed. **Important: do not** copy and paste command for execution within a terminal window. RsyncOSX saves the number `n` to the configuration. The number `n` is the next snapshot number. The number `n` is used when computing the parameter for rsync and is picked up from the configuration.
+The rsync command shows the command to be executed.
+
+```
+Important: do not copy and paste command for execution within
+a terminal window. RsyncOSX saves the number n to the
+configuration. The number n is the next snapshot number.
+The number n is used when computing the parameter for rsync
+and is picked up from the configuration.
+```
 
 ![Execute view](/images/RsyncOSX/master/snapshots/readyforbackup.png)
 

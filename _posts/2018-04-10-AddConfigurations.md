@@ -17,14 +17,25 @@ Local catalog and Remote catalog are added either by using *drag and drop* from 
 
 ![Execute view](/images/RsyncOSX/master/add/add2.png)
 
-- **Local catalog**: `/Volumes/Home/thomas/Documents/` - my Documents catalog in my home catalog.
-- **Remote catalog**: `~/Documents/` - the backup catalog for user thomas. The `~` is expanded as the home catalog with full path by the remote operating system. The remote catalog might also be added by full path, depends where the backup catalog is placed on remote server.
-- **Remote username**: `thomas`, username remote server
-- **Remote server**: `freenas.local` either name or IP-adress
-- **ssh port**: if ssh communicates through other than standard `port` it must be set here, port 22 is default port for ssh
-- **ID**: `informal` tag for the configuration
-- **rsync daemon**: setting this puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote which takes some more setup. I am not using it myself.
-- **Type**: There are three types of tasks, `synchronize` which is standard, `snapshots` and `single file`.
+- **Local catalog**: `/Volumes/Home/thomas/Documents/`
+  - my Documents catalog in my home catalog
+  - required field
+- **Remote catalog**: `~/Documents/`
+  - the backup catalog for user thomas. The `~` is expanded as the home catalog with full path by the remote operating system. The remote catalog might also be added by full path, depends where the backup catalog is placed on remote server
+  - the backup catalog might also be a local catalog on a local attached disk
+  - required field
+- **Remote username**: `thomas`
+  - username for login to remote server
+- **Remote server**: `freenas.local`
+  - either server name or IP-adress for remote server
+- **ssh port**:
+  - if ssh communicates through other than standard port it must be set here, port 22 is default port for ssh and not require to set
+- **ID**:
+  - informal tag for the configuration
+- **rsync daemon**:
+  - setting this puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote which takes some more setup. I am not using it myself.
+- **Type**:
+  - There are three types of tasks, `synchronize` which is standard, `snapshots` and `single file`.
 
 About remote servers.
 
