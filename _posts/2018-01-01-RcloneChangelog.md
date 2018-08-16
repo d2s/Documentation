@@ -9,14 +9,11 @@ Rclone is *rsync for cloud storage*. Even if they are somewhat equal they are al
 
 I have also implemented [encrypted](/Encrypted) backup in RsyncOSX by utilizing RcloneOSX.  
 
-
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
-## Version 1.5.5 release candidate
+## Version 1.5.6
 
-Updated 15 August 2018.
-
-I have commenced working on a new version of RcloneOSX. Most of the updates are enhancements from RsyncOSX. The updates are within the following functions:
+Released 16 August 2018.
 
 - if task is selected in Execute view, only logs for selected task is presented in log view
 - some enhancements in copy single files, fixed a memory leak
@@ -25,13 +22,15 @@ I have commenced working on a new version of RcloneOSX. Most of the updates are 
 
 ## Version 1.5.4
 
-- released 21 June 2018
+Released 21 June 2018
+
 - fixed a bug (crash) if RcloneOSX is started without installing rclone first
 - some enhancements in [logs](/Logging) and caching of remote info
 
 ## Version 1.5.2
 
-- released 1 July 2018
+Released 1 July 2018
+
 - new app icon from [Zsolt Sándor](https://github.com/graphis)
 - some refactor of code
 - compiled with latest version of Xcode, version 9.4 (9F1027a)
