@@ -7,7 +7,9 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## macOS Mojave and Xcode 10
 
-Next release, if there are no serious bugs found, will be when macOS Mojave is released. The branch `xcode10` will be the new release when macOS Mojave and Xcode 10 are released. 
+Next release will be when macOS Mojave and Xcode 10 are released. The branch [xcode10](https://github.com/rsyncOSX/RsyncOSX/tree/xcode10) compiles with Xcode 10 beta and executes in beta macOS Mojave. By compiling with Xcode 10 support for the new dark mode is enabled as well.
+
+![Execute view](/images/RsyncOSX/Mojave/rsyncosx.png)
 
 ## Version 5.4.1
 
