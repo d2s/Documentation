@@ -11,6 +11,10 @@ I have also implemented [encrypted](/Encrypted) backup in RsyncOSX by utilizing 
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
+## macOS Mojave and Xcode 10
+
+Next release, if there are no serious bugs found, will be when macOS Mojave is released. The branch `xcode10` will be the new release when macOS Mojave and Xcode 10 are released. 
+
 ## Version 1.5.6
 
 Released 16 August 2018.
