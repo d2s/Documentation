@@ -17,6 +17,17 @@ Next release will be when macOS Mojave and Xcode 10 are released. The branch [xc
 
 ![Execute view](/images/RsyncOSX/mojave/RcloneOSX.png)
 
+## Version 1.5.9 release candidate
+
+Released 29 August 2018.
+
+This is a maintenance release. The following changes are applied:
+
+- a few minor bugfixes
+- added buttons and tooltips for tasks i main menu (top row)
+- changed some of the icons for menu buttons (work in progress)
+- refactor of parts of code
+
 ## Version 1.5.6
 
 Released 16 August 2018.
