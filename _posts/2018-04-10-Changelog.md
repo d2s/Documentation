@@ -20,7 +20,7 @@ This is a maintenance release. The following changes are applied:
 - a few minor bugfixes
 - added buttons and tooltips for tasks i main menu (top row)
 - changed some of the icons for menu buttons (work in progress)
-- refactor of parts of code
+- refactor in parts of code
 
 ## Version 5.4.1
 
