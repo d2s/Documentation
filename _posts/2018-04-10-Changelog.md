@@ -13,11 +13,11 @@ Next release will be when macOS Mojave and Xcode 10 are released. The branch [xc
 
 ## Version 5.4.9 release candidate
 
-Released 29 August 2018.
+Updated 30 August 2018.
 
 This is a maintenance release. The following changes are applied:
 
-- a few minor bugfixes
+- bugfixes
 - added buttons and tooltips for tasks i main menu (top row)
 - changed some of the icons for menu buttons (work in progress)
 - refactor in parts of code
