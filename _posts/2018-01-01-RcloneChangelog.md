@@ -17,16 +17,16 @@ Next release will be when macOS Mojave and Xcode 10 are released. The branch [xc
 
 ![Execute view](/images/RsyncOSX/mojave/RcloneOSX.png)
 
-## Version 1.5.9 release candidate
+## Version 1.6.0
 
-Updated 2 September 2018.
+Released 2 September 2018
 
-This is a maintenance release. The following changes are applied:
+This is a maintenance release, the following changes are applied:
 
-- a new version of rclone (version 1.43) is released, the summary in output from rclone is slightly changed and causes RcloneOSX to crash in restore, a temporary fix is released
-- bugfixes
+- bugfix due to a new version of rclone (version 1.43), the summary in output from rclone is slightly changed and a fix was required
+- some other bugfixes as well
 - added buttons and tooltips for tasks i main menu (top row)
-- changed some of the icons for menu buttons (work in progress)
+- changed some of the icons for menu buttons
 - refactor in parts of code
 
 ## Version 1.5.6
