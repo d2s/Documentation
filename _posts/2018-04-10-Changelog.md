@@ -5,15 +5,11 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. There is, 28 January 2018, a new [version 3.1.3](https://rsync.samba.org/) of rsync. I will include a .dmg file with latest version of rsync for manually install as part of the new releases of RsyncOSX. If you plan to utilize the [snapshot](/Snapshots) feature of RsyncOSX, please use either version 3.1.2 or 3.1.3 of rsync.
 
-## macOS Mojave and Xcode 10
+## Version 5.5.0 release candidate
 
-Next release will be when macOS Mojave and Xcode 10 are released. The branch [xcode10](https://github.com/rsyncOSX/RsyncOSX/tree/xcode10) compiles with Xcode 10 beta and executes in beta macOS Mojave. By compiling with Xcode 10 support for the new dark mode is enabled as well.
+This is most likely the next version of RsyncOSX and RsyncOSXsched. if there are no bugs found during a week or two this will be the next released version 5.5.0, only changing state from release candidate to released.
 
-![Execute view](/images/RsyncOSX/mojave/RsyncOSX.png)
-
-## Version 5.4.9 release candidate
-
-Updated 30 August 2018.
+Released 5 sept 2018.
 
 This is a maintenance release. The following changes are applied:
 
