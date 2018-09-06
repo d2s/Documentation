@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.5.0 release candidate
 
-This is most likely the next version of RsyncOSX and RsyncOSXsched. if there are no bugs found during a week or two this will be the next released version 5.5.0, only changing state from release candidate to released.
+This is most likely the next version of RsyncOSX and RsyncOSXsched. If there are no bugs found during a week or two this will be the next released version 5.5.0, only changing state from release candidate to release.
 
 Released 5 sept 2018.
 
@@ -15,7 +15,7 @@ This is a maintenance release. The following changes are applied:
 
 - bugfixes
 - added buttons and tooltips for tasks i main menu (top row)
-- changed some of the icons for menu buttons (work in progress)
+- changed some of the icons for menu buttons
 - refactor in parts of code
 
 ## Version 5.4.1
