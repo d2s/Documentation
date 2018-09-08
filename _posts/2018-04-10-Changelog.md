@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.5.0
 
-Released 5 sept 2018.
+Released 8 sept 2018.
 
 This is a maintenance release. The following changes are applied:
 
