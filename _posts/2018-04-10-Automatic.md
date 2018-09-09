@@ -3,7 +3,9 @@ layout: post
 title:  "Automatic backups"
 permalink: Automatic
 ---
-The automatic feature of RsyncOSX is triggered by `⌘B` shortcut. RsyncOSX executes a `--dry-run` task for all configurations and execute a backup run for all tasks with data to be transferred or files to be deleted.
+The automatic feature of RsyncOSX is triggered by `⌘B` shortcut or by select the **double arrow**. RsyncOSX executes a `--dry-run` task for all configurations and execute a backup run for all tasks with data to be transferred or files to be deleted.
+
+![](/images/RsyncOSX/master/automatic.png)
 
 The automatic backup can be aborted at any time. The tasks to be executed is equal to tasks selected by [quick backup](/Quickbackup).
 
