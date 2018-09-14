@@ -11,6 +11,13 @@ I have also implemented [encrypted](/Encrypted) backup in RsyncOSX by utilizing 
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
+## Version 1.6.1 release candidate
+
+Released 13 September 2018
+
+- no logging, minimum or full logging enable/disable in user config
+- rclone 1.43.1 is released 
+
 ## Version 1.6.0
 
 Released 2 September 2018
