@@ -9,12 +9,12 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 Released 19 September 2018
 
-Xcode 10 is released and that means support for macOS Mojave Dark Mode. Next release of RsyncOSX will be built by Xcode 10 and released shortly after macOS Mojave is released.
+Xcode 10 is released with support for macOS Mojave and the new Dark Mode. Next release of RsyncOSX will be built by Xcode 10 and released shortly after macOS Mojave is released.
 
 - compiled with support for Dark Mode in macOS Mojave
 - no logging, minimum or full logging enable/disable in user config
 
-Xcode 10 are still complaining about some layout issues (in GUI). It does not affect the operation of the application, but there might be some layout issues. 
+Xcode 10 is still complaining about some GUI issues in code for RsyncOSX. It does not affect the operation of the application, but there might be some layout issues. The GUI issues (missing constraints) will be solved before next release.
 
 ## Version 5.5.0
 
