@@ -11,13 +11,13 @@ I have also implemented [encrypted](/Encrypted) backup in RsyncOSX by utilizing 
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
-## Xcode 10 and version 1.6.2 release candidate
+## Xcode 10, macOS Mojave and version 1.6.2 release candidate
 
-Released 19 September 2018
+Updated 24 September 2018.
 
-Xcode 10 is released with support for macOS Mojave and the new Dark Mode. Next release of RcloneOSX will be built by Xcode 10 and released shortly after macOS Mojave is released.
+MacOS Mojave is released and version 1.6.2 release candidate is built on the released macOS Mojave by Xcode 10.
 
-- compiled with support for Dark Mode in macOS Mojave
+- compiled on macOS Mojave official release by Xcode 10, supports Dark Mode
 - no logging, minimum or full logging enable/disable in user config
 - version 1.43.1 of rclone is released
 
