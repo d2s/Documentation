@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Xcode 10, macOS Mojave and version 5.5.2 release candidate
 
-Updated 24 September 2018.
+Updated 27 September 2018.
 
 MacOS Mojave is released and version 5.5.2 release candidate is built on the released macOS Mojave by Xcode 10.
 
