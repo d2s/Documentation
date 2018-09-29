@@ -7,15 +7,15 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.5.3
 
-Released 29 September 2018
+Released 29 September 2018.
 
-- compiled on macOS Mojave official release by Xcode 10, supports Dark Mode
+- supports macOS Mojave and the new Dark Mode
 - no logging, minimum or full logging enable/disable in user config
 - bugfixes
 
 ## Version 5.5.0
 
-Released 8 sept 2018.
+Released 8 September 2018.
 
 This is a maintenance release. The following changes are applied:
 

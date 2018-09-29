@@ -13,16 +13,16 @@ See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
 ## Version 1.6.3
 
-Released 29 September 2018
+Released 29 September 2018.
 
-- compiled on macOS Mojave official release by Xcode 10, supports Dark Mode
+- supports macOS Mojave and the new Dark Mode
 - no logging, minimum or full logging enable/disable in user config
 - version 1.43.1 of rclone is released
 - bugfixes
 
 ## Version 1.6.0
 
-Released 2 September 2018
+Released 2 September 2018.
 
 This is a maintenance release, the following changes are applied:
 
@@ -43,14 +43,14 @@ Released 16 August 2018.
 
 ## Version 1.5.4
 
-Released 21 June 2018
+Released 21 June 2018.
 
 - fixed a bug (crash) if RcloneOSX is started without installing rclone first
 - some enhancements in [logs](/Logging) and caching of remote info
 
 ## Version 1.5.2
 
-Released 1 July 2018
+Released 1 July 2018.
 
 - new app icon from [Zsolt Sándor](https://github.com/graphis)
 - some refactor of code
@@ -58,8 +58,10 @@ Released 1 July 2018
 
 ## Version 1.5.1
 
+Released 6 May 2018.
+
+
 There are several enhancements in this release:
-- released 6 May 2018
 - `⌘I` gets remote info about tasks
 - `⌘B` commence an automatic backup for `sync` tasks with data to sync
 - selecting the i-button commence an estimating run for all `sync` tasks
