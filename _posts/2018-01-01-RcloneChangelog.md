@@ -5,9 +5,11 @@ permalink: RcloneChangelog
 ---
 This is the Changelog for RcloneOSX. RcloneOSX is a port of RsyncOSX to utilize `rclone`.
 
-Rclone is *rsync for cloud storage*. Even if they are somewhat equal they are also different in many ways. RcloneOSX is built upon the ideas from RsyncOSX. But it is not possible to clone all functions in RsyncOSX to RcloneOSX. I spend most of my time developing RsyncOSX and from time to time some of the functions within RcloneOSX are ported from RsyncOSX. I am quite sure I could do more development in RcloneOSX, but my main focus is RsyncOSX. I am not an advanced user of rclone. I am synchronizing my GitHub catalog to Dropbox and Google.
+Rclone is *rsync for cloud storage*. Even if `rclone` and `rsync` are somewhat equal they are also different in many ways. RcloneOSX is built upon the ideas from RsyncOSX. But it is not possible to clone all functions in RsyncOSX to RcloneOSX. I spend most of my time developing RsyncOSX and from time to time some of the functions are ported from RsyncOSX. I am not an advanced user of `rclone`. My main use of RcloneOSX is  synchronizing my GitHub catalog to Dropbox and Google. I have also implemented [encrypted](https://rsyncosx.github.io/Encrypted) backup in RsyncOSX by utilizing RcloneOSX.
 
-I have also implemented [encrypted](/Encrypted) backup in RsyncOSX by utilizing RcloneOSX.  
+A short [intro](https://rsyncosx.github.io/RcloneIntro) about what RcloneOSX is. **Caution:** the screendumps in the intro are from the first version of RcloneOSX.
+
+During this winter (2018/2019) the functions within RcloneOSX will be enhanced. I need to learn more about rclone before enhancing RcloneOSX.
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
