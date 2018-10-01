@@ -68,16 +68,6 @@ There are several enhancements in this release:
 - `⌘B` commence an automatic backup for `sync` tasks with data to sync
 - selecting the i-button commence an estimating run for all `sync` tasks
 
-Estimate all sync tasks.
-![Execute view](/images/RcloneOSX/v1.5.1/nr1.png)
-Automatic backups, finding all tasks with data to transfer.
-![Execute view](/images/RcloneOSX/v1.5.1/nr2.png)
-![Execute view](/images/RcloneOSX/v1.5.1/nr3.png)
-![Execute view](/images/RcloneOSX/v1.5.1/nr4.png)
-![Execute view](/images/RcloneOSX/v1.5.1/nr5.png)
-`⌘I` gets remote info about task.
-![Execute view](/images/RcloneOSX/v1.5.1/nr6.png)
-
 ## Version 1.4.0
 
 - released 23 April 2018
