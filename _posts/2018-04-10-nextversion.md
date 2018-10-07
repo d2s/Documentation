@@ -5,9 +5,9 @@ permalink: nextversion
 ---
 This is some info about next version of RsyncOSX.
 
-Updated 7 Oct 2018. There is no release candidate yet, but the master branch is updated.
+Updated 7 Oct 2018, there is no release candidate yet, but the master branch is updated.
 
-Name of backup task is changed from `backup` to `synchronize` which is more precise. Name of task are automatically converted.
+Name of backup task is changed from `backup` to `synchronize` which is more precise. Name of task is automatically converted.
 ![](/images/RsyncOSX/master/nextversion/main.png)
 ![](/images/RsyncOSX/master/nextversion/add.png)
 Copy single files or catalogs is redesigned. Remote files can be filtered by search strings in `Search`. By enter remote info in `Remote catalog:` also updates the restore command and result of a restore. The restore catalog can also be changed.
