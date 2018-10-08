@@ -5,7 +5,7 @@ permalink: nextversion
 ---
 This is some info about next version of RsyncOSX.
 
-Updated 7 Oct 2018, there is no release candidate yet, but the master branch is updated.
+Released 8 Oct 2018, version 5.5.4 rc.
 
 Name of backup task is changed from `backup` to `synchronize` which is more precise. Name of task is automatically converted.
 ![](/images/RsyncOSX/master/nextversion/main.png)
