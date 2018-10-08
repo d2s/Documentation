@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.5.4 rc
 
-Released 8 Oct 2018.
+Released 8 Oct 2018. Next release will be sometime in Nov 2018. The rc will be updated from time to time.
 
 Here is some info about what is in [next version](/nextversion).
 
