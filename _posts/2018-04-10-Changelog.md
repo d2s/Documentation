@@ -7,9 +7,11 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.5.4 rc
 
-Updated 13 Oct 2018.
+Updated 14 Oct 2018.
 
-Next release will be sometime in Nov 2018. The rc will be updated from time to time. Here is some info about what is in [next version](/nextversion).
+Next release will be sometime in Nov 2018. The main focus in next release is a few enhancements in copy single files, snapshots and smoke out most of the last bugs causing RsyncOSX a buggy behavior.
+
+The rc will be updated from time to time. Here is some info about what is in [next version](/nextversion).
 
 ## Version 5.5.3
 
