@@ -12,18 +12,18 @@ RsyncOSX is a GUI for the rsync command-line tool. The main use are:
 
 ```
 Warning: default parameters for rsync is to synchronize the
-source and destination. A "restore" will delete all files in
-the source which are not in the destination. The main
+source and the remote (backup). A "restore" will delete all
+files in the source which are not in the remote. The main
 objective to RsyncOSX is to keep source directory and
-destination (backup) directory synchronized. When a source
-directory is backed up, the destination is 100% synchronized
-with the source in the moment the backup task is completed.
-There are no revisions of files in the backup in default
-RsyncOSX. Old files in the backup are either replaced with
+remote directory synchronized. When the source
+directory is backed up, the remote is 100% synchronized
+with the source in the moment the synchronize task is completed.
+There are no revisions of files in the remote in default
+RsyncOSX. Old files in the remote are either replaced with
 new ones or deleted if so is true in source.
 ```
 - **source**: the local volume to be copied
-- **destination**: the remote location where source files and catalogs are copied (e.g. backed up)
+- **remote**: the remote location where source files and catalogs are copied (e.g. backed up)
 
 What about **revisions** and **deleted** files? Either use the [snapshot feature](/Snapshots) or by [backup parameters](/Parameters) to rsync.
 
