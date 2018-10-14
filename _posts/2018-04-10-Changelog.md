@@ -9,7 +9,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 Updated 14 Oct 2018.
 
-Next release will be sometime in Nov 2018. The main focus in next release is a few enhancements in copy single files, snapshots and smoke out the last bugs to make RsyncOSX as stable as possible. During execution of any tasks RsyncOSX can be minimized. I am not able to predict and test for all possible user interactions, but the most common as minimize window and aborting tasks are tested.
+Next release will be sometime in Nov 2018. The main focus in next release is a few enhancements in copy single files, snapshots and smoke out the last bugs to make RsyncOSX as stable as possible. During execution of any tasks RsyncOSX can be minimized. I am not able to predict and test for all possible user interactions, but the most common as minimize RsyncOSX during operations and aborting tasks are tested.
 
 If RsyncOSX does halt or crash during operation there is no damage to files or deletion of files in the `source`. The `source` is only read during normal `synchronize` and `snapshot` tasks. But if you do a **restore** from the `remote` to the `source`, some files in the source might be deleted. This is due to how rsync works in `synchronize` mode.
 
