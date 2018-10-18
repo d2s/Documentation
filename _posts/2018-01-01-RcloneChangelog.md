@@ -13,11 +13,13 @@ To get an idea of how RcloneOSX is working please see the [intro](/Intro) to Rsy
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
-## Version 1.6.4 rc
+## Version 1.6.5
 
-Updated 16 Oct 2018. The [master branch](https://github.com/rsyncOSX/rcloneosx/tree/master) is always updated. You might compile your own updated rc from the master branch.
+Released 18 October 2018.
 
-Next release will be sometime in Nov 2018. The rc will be updated from time to time. The changes in this rc is a few bugfixes and a redesigned Copy Single Files. See also the Copy Files screenshot in [RsyncOSX](/nextversion).
+- rclone 1.44 is released
+- copy files is redesigned
+- some bugfixes as well
 
 ## Version 1.6.3
 
