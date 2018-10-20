@@ -17,10 +17,10 @@ files in the source which are not in the remote. The main
 objective to RsyncOSX is to keep source directory and
 remote directory synchronized. When the source
 directory is backed up, the remote is 100% synchronized
-with the source in the moment the synchronize task is completed.
-There are no revisions of files in the remote in default
-RsyncOSX. Old files in the remote are either replaced with
-new ones or deleted if so is true in source.
+with the source in the moment the synchronize task is
+completed. There are no revisions of files in the remote
+in default RsyncOSX. Old files in the remote are either
+replaced with new ones or deleted if so is true in source.
 ```
 - **source**: the local volume to be copied
 - **remote**: the remote location where source files and catalogs are copied (e.g. backed up)
