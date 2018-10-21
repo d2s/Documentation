@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.5.4 rc
 
-Updated 21 Oct 2018, next release will be by end of Oct or beginning of Nov.
+Updated 21 Oct 2018, next release will be in a couple of days.
 
 The following are changes in the rc:
 - enhanced quick backups
