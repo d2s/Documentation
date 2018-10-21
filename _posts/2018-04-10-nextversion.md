@@ -19,7 +19,5 @@ Copy single files or catalogs is redesigned. Remote files can be filtered by sea
 I am also working on snapshots, added functions for deleting old snapshots by number of days.
 ![](/images/RsyncOSX/master/nextversion/snapnum.png)
 ![](/images/RsyncOSX/master/nextversion/days.png)
-By estimate changes now default selects tasks to be executed.
-![](/images/RsyncOSX/master/nextversion/synch.png)
 It is possible to connect RsyncOSX and RcloneOSX. I have set up RcloneOSX to encrypt a copy of a local catalog. RsyncOSX is set up to copy the encrypted catalog to a remote server. Those two tasks are connected to encrypt data and synchronize updates to a remote server.
 ![](/images/RsyncOSX/master/nextversion/combined.png)
