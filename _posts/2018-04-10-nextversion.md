@@ -3,14 +3,12 @@ layout: post
 title:  "Next version"
 permalink: nextversion
 ---
-This is some info about next version of RsyncOSX.
-
 Updated 21 Oct 2018, version 5.5.4 rc.
 
 Name of backup task is changed from `backup` to `synchronize` which is more precise. Name of task is automatically converted.
 ![](/images/RsyncOSX/master/nextversion/main.png)
 ![](/images/RsyncOSX/master/nextversion/add.png)
-Quickbackup is redesigned. The progress is enabled on each row. Select the marked button to commence a quickbackup.
+Quickbackup is redesigned. Select the marked button to commence a quickbackup.
 ![](/images/RsyncOSX/master/nextversion/quickbackup1.png)
 The quickbackup executes a estimation run and selects all tasks with files to be synchronized. To commence the actual synchronizing select the marked play button. There is a progressview on each row indicating the progress.
 ![](/images/RsyncOSX/master/nextversion/quickbackup2.png)
