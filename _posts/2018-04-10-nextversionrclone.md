@@ -6,8 +6,14 @@ permalink: nextversionrclone
 Released 21 Oct 2018, version 1.6.6 rc.
 
 Quickbackup is redesigned.
+
+Estimate changes, syncing data to Dropbox and Google.
 ![](/images/RsyncOSX/master/nextversionrclone/quickbackup1.png)
+Each row has a progressview indicating progress.
 ![](/images/RsyncOSX/master/nextversionrclone/quickbackup2.png)
+Last row almost done.
 ![](/images/RsyncOSX/master/nextversionrclone/quickbackup3.png)
+The log view.
 ![](/images/RsyncOSX/master/nextversionrclone/quickbackup4.png)
+The main view.
 ![](/images/RsyncOSX/master/nextversionrclone/quickbackup5.png)
