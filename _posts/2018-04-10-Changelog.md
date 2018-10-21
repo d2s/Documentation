@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.5.4 rc
 
-Updated 18 Oct 2018.
+Updated 21 Oct 2018.
 
 The [master branch](https://github.com/rsyncOSX/RsyncOSX/tree/master) is always updated. You might compile your own updated rc from the master branch.
 

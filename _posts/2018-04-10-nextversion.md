@@ -5,8 +5,12 @@ permalink: nextversion
 ---
 This is some info about next version of RsyncOSX.
 
-Updated 18 Oct 2018, version 5.5.4 rc.
+Updated 21 Oct 2018, version 5.5.4 rc.
 
+Quickbackup is redesigned.
+![](/images/RsyncOSX/master/nextversion/quickbackup1.png)
+![](/images/RsyncOSX/master/nextversion/quickbackup2.png)
+![](/images/RsyncOSX/master/nextversion/quickbackup3.png)
 Name of backup task is changed from `backup` to `synchronize` which is more precise. Name of task is automatically converted.
 ![](/images/RsyncOSX/master/nextversion/main.png)
 ![](/images/RsyncOSX/master/nextversion/add.png)
