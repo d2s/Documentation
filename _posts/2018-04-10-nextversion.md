@@ -3,7 +3,7 @@ layout: post
 title:  "Next version"
 permalink: nextversion
 ---
-Updated 21 Oct 2018, version 5.5.4 rc.
+Relased 22 Oct 2018, version 5.5.5.
 
 Name of backup task is changed from `backup` to `synchronize` which is more precise. Name of task is automatically converted.
 ![](/images/RsyncOSX/master/nextversion/main.png)

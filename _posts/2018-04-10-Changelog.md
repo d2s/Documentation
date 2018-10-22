@@ -5,9 +5,9 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs.
 
-## Version 5.5.4 rc
+## Version 5.5.5
 
-Updated 21 Oct 2018, next release will be in a couple of days.
+Relased 22 Oct 2018.
 
 The following are changes in the rc:
 - enhanced quick backups
