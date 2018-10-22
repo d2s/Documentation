@@ -10,7 +10,7 @@ Name of backup task is changed from `backup` to `synchronize` which is more prec
 ![](/images/RsyncOSX/master/nextversion/add.png)
 Quickbackup is redesigned. Select the marked button to commence a quickbackup.
 ![](/images/RsyncOSX/master/nextversion/quickbackup1.png)
-The quickbackup executes a estimation run and selects all tasks with files to be synchronized. To commence the actual synchronizing select the marked play button. There is a progressview on each row indicating the progress.
+The quickbackup executes a estimation run and selects all tasks with files to be synchronized. To commence the actual synchronizing select the marked play button.
 ![](/images/RsyncOSX/master/nextversion/quickbackup2.png)
 There is a progressview on each row indicating the progress.
 ![](/images/RsyncOSX/master/nextversion/quickbackup3.png)
