@@ -9,7 +9,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 Relased 22 Oct 2018.
 
-The following are changes in the rc:
+The following are changes in the release:
 - enhanced quick backups
 - enhanced copy single files
 - enhanced snapshots
