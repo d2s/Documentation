@@ -15,7 +15,7 @@ The following are changes in the rc:
 - enhanced snapshots
 - bugfixes
 
-Here are some screenshots of what is in [next version](/nextversion).
+Here are some screenshots of what is this version  [next version](/nextversion).
 
 I am not able to predict and test for all possible user interactions. If RsyncOSX does halt or crash during operation there is no damage to files or deletion of files in the `source`. The `source` is only read during `synchronize` and `snapshot` tasks.
 
