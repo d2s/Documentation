@@ -5,6 +5,8 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs.
 
+The apps are signed with my Apple ID developer certificate and [notarized](https://support.apple.com/en-us/HT202491) by Apple.
+
 ## Version 5.5.5
 
 Relased 22 Oct 2018.
