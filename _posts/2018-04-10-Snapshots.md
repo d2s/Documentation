@@ -5,7 +5,7 @@ permalink: Snapshots
 ---
 Snapshot is very effective method for saving changed and deleted data. As an example my GitHub local catalog is about 677 MB in size. This is the size of the oldest snapshot. There are 17 snapshots of my GitHub local catalog and all of them is only 994 MB in size including the oldest snapshot.
 ![](/images/RsyncOSX/master/snapshots/snapdemo1.png)
-All 17 snapshots are about 150,000 files and catalogs. Most of them are hardlinks only. If all snapshots was expanded there should be about 16 times more data stored in my NAS. 
+All 17 snapshots are about 150,000 files and catalogs. Most of them are [hardlinks](https://en.wikipedia.org/wiki/Hard_link) only. If all snapshots was expanded there should be about 16 times more data stored in my NAS. Only changed or deleted files are stored. Files which are not changed or deleted are hardlinked only.
 ![](/images/RsyncOSX/master/snapshots/snapdemo2.png)
 The snapshot feature enables saving changed and deleted files ahead of a new synchronizing task. The snapshot saves the current state of all files in a separate directory ahead of any changes or deletions. Changed and deleted files can then be restored utilizing the [copy single files](/CopySingleFiles) features. The [full restore](/Fullrestore) will copy the **last** snapshot from remote storage to either the source directory or a temporary restore directory.
 
