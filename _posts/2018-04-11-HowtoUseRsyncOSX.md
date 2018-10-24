@@ -33,9 +33,9 @@ There is only one simple answer to the question and the answer is [rsync](https:
 
 The following features are implemented in RsyncOSX:
 
-- do single backup tasks, synchronize source and destination (backup)
-- do snapshot backups tasks, previous snapshots are saved to restore previous versions of or deleted files
-- do quick backups tasks, either single tasks or group of tasks, both synchronize and snapshot tasks
+- do single synchronize tasks, synchronize source and destination (backup)
+- do snapshot tasks, previous snapshots are saved to restore previous versions or deleted files
+- do quick synchronize tasks, either single tasks or group of tasks, both synchronize and snapshot tasks
 - do backups utilizing predefined parameters to save changed or deleted files (by using rsync parameters, predefined parameter)
 - do batch tasks, both synchronize and snapshot tasks
 - adding new tasks by drag and drop (for local volumes)
@@ -43,20 +43,8 @@ The following features are implemented in RsyncOSX:
 - choose other version of rsync in user configuration
 - user defined rsync parameters
   - the user can add parameters to rsync
-- manage backup tasks in profiles
+- manage tasks in profiles
 - either a full restore or restore of single files from remote storage
-- scheduling of backup tasks
+- scheduling of tasks
   - once, daily or weekly schedules
 - detailed logging of tasks
-
-## RsyncOSX is not suitable to all users
-
-The primary objective for me to write and use RsyncOSX is for storing backup of local volumes to *low cost remote server* and assist me to keep my *two MacBook desktops in sync*. The remote servers might be running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS. To set up and use all the functionality of RsyncOSX require some computer skills as login to a remote server (from terminal) and set up private and public ssh keys for password-less logins. Some basic understanding of the command-line tool rsync is also recommended.
-
-To fully understand and use RsyncOSX I recommend the following:
-
-- you have some understanding of the command-line tool `rsync`
-- you have some knowledge about running either Linux, Solaris, OpenSolaris, FreeBSD or other BSD based server OS
-- you are able to [setup a ssh password-less login](/PasswordlessLogin) between the Mac and the remote server
-
-There is a short [intro](/Intro) to RsyncOSX.
