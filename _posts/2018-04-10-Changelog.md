@@ -19,7 +19,9 @@ The following are changes in the release:
 
 Here are some screenshots of what is in this [version](/nextversion).
 
-I am not able to predict and test for all possible user interactions. If RsyncOSX does halt or crash during operation there is no damage to files or deletion of files in the `source`. The `source` is only read during `synchronize` and `snapshot` tasks.
+I am not able to predict and test for all possible user interactions. I have tried to smoke out most bugs and make the code as robust as possible. The most common errors are nil pointer errors and not taking care of it if a program variable is not initialized nor has a default value when accessed. I have also tried, by program logic, to verify required input ahead of an action. I believe the last version is robust. RsyncOSX can be minimized during operations and all tasks can be aborted at any time. But there are no guarantee that RsyncOSX will handle all situations.
+
+If RsyncOSX does halt or crash during operation there is no damage to files or deletion of files in the `source`. The `source` is only read during `synchronize` and `snapshot` tasks. And always do a restore to a temporary restore catalog.
 
 ## Version 5.5.3
 
