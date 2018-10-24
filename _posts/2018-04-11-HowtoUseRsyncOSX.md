@@ -36,7 +36,7 @@ The following features are implemented in RsyncOSX:
 - do single synchronize tasks, synchronize source and destination (backup)
 - do snapshot tasks, previous snapshots are saved to restore previous versions or deleted files
 - do quick synchronize tasks, either single tasks or group of tasks, both synchronize and snapshot tasks
-- do backups utilizing predefined parameters to save changed or deleted files (by using rsync parameters, predefined parameter)
+- do synchronize tasks utilizing predefined parameters to rsync to save changed and deleted files
 - do batch tasks, both synchronize and snapshot tasks
 - adding new tasks by drag and drop (for local volumes)
 - tasks my be aborted at any time
