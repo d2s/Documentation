@@ -13,7 +13,7 @@ Go ahead and do the backup. If this is selected RsyncOSX automatically picks the
 
 ![](/images/RsyncOSX/master/quickbackup/menu4.png)
 
-In the information view presents the tasks to execute. 
+The quickbackup executes a estimation run and selects all tasks with files to be synchronized. To commence the actual synchronizing select the marked play button. 
 
 ![Execute view](/images/RsyncOSX/master/quickbackup/quickbackup1.png)
 ![Execute view](/images/RsyncOSX/master/quickbackup/quickbackup2.png)
