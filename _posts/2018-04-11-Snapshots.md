@@ -7,6 +7,9 @@ Snapshot is very effective method for saving changed and deleted data. As an exa
 ![](/images/RsyncOSX/master/snapshots/snapdemo1.png)
 All 17 snapshots are about 150,000 files and catalogs. Most of them are [hardlinks](https://en.wikipedia.org/wiki/Hard_link) only. If all snapshots was expanded there should be about 16 times more data stored in my NAS. Only changed or deleted files are stored. Files which are not changed or deleted are hardlinked only.
 ![](/images/RsyncOSX/master/snapshots/snapdemo2.png)
+
+## Utilizing Snapshots
+
 The snapshot feature enables saving changed and deleted files ahead of a new synchronizing task. The snapshot saves the current state of all files in a separate directory ahead of any changes or deletions. Changed and deleted files can then be restored utilizing the [copy single files](/CopySingleFiles) features. The [full restore](/Fullrestore) will copy the **last** snapshot from remote storage to either the source directory or a temporary restore directory.
 
 - snapshots works on both local attached disks and remote hosts
