@@ -3,10 +3,9 @@ layout: post
 title:  "Next version"
 permalink: nextversionrclone
 ---
-Released 21 Oct 2018, version 1.6.6 rc.
+Updated 28 Oct 2018, version 1.6.6 rc.
 
-Quickbackup is redesigned.
-
+### Quickbackup is redesigned.
 Estimate changes, syncing data to Dropbox and Google.
 ![](/images/RsyncOSX/master/nextversionrclone/quickbackup1.png)
 Each row has a progressview indicating progress.
@@ -17,3 +16,10 @@ The log view.
 ![](/images/RsyncOSX/master/nextversionrclone/quickbackup4.png)
 The main view.
 ![](/images/RsyncOSX/master/nextversionrclone/quickbackup5.png)
+
+### Batch is redesigned.
+Check tasks for batch.
+![](/images/RsyncOSX/master/nextversionrclone/batch1.png)
+Each row has a progressview indicating progress.
+![](/images/RsyncOSX/master/nextversionrclone/batch2.png)
+![](/images/RsyncOSX/master/nextversionrclone/logbatch.png)
