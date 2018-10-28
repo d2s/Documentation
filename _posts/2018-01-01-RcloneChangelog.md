@@ -18,8 +18,9 @@ See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 Released 28 Oct 2018.
 
 The following is changed in the rc:
-- enhanced quick backups
-- enhance batch
+- enhanced quick sync tasks
+- enhance batch tasks
+
 Here are some screenshots of what is in [next version](/nextversionrclone).
 
 ## Version 1.6.5
