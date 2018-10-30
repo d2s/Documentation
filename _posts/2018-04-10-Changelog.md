@@ -7,6 +7,14 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 The apps are signed with my Apple ID developer certificate and [notarized](https://support.apple.com/en-us/HT202491) by Apple.
 
+## Version 5.5.6 rc
+
+Released 30 Oct 2018.
+
+The following is changed in the rc:
+- refactor batch tasks
+- and some minor bugfixes and tweaks (gui)
+
 ## Version 5.5.5
 
 Relased 22 Oct 2018.
