@@ -21,7 +21,7 @@ The following is changed in the rc:
 - enhanced quick sync tasks
 - refactor batch tasks
 - and some minor bugfixes and tweaks
-- the userconfig is refactored, there is still a minor issue editing temporary restore path, utilize userconfig to set temporary restore path
+- the userconfig is refactored and fixed a minor bug
 
 Here are some screenshots of what is in [next version](/nextversionrclone).
 

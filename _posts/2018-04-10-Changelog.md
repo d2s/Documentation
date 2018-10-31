@@ -14,7 +14,7 @@ Updated 31 Oct 2018.
 The following is changed in the rc:
 - refactor batch tasks
 - and some minor bugfixes and tweaks (gui)
-- the userconfig is refactored, there is still a minor issue editing temporary restore path, utilize userconfig to set temporary restore path
+- the userconfig is refactored and fixed a minor bug
 
 ## Version 5.5.5
 
