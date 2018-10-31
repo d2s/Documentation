@@ -9,11 +9,12 @@ The apps are signed with my Apple ID developer certificate and [notarized](https
 
 ## Version 5.5.6 rc
 
-Released 30 Oct 2018.
+Updated 31 Oct 2018.
 
 The following is changed in the rc:
 - refactor batch tasks
 - and some minor bugfixes and tweaks (gui)
+- the userconfig is refactored, there is still a minor issue editing temporary restore path, utilize userconfig to set temporary restore path
 
 ## Version 5.5.5
 

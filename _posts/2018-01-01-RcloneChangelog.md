@@ -15,12 +15,13 @@ See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
 ## Version 1.6.6 rc
 
-Updated 30 Oct 2018.
+Updated 31 Oct 2018.
 
 The following is changed in the rc:
 - enhanced quick sync tasks
 - refactor batch tasks
 - and some minor bugfixes and tweaks
+- the userconfig is refactored, there is still a minor issue editing temporary restore path, utilize userconfig to set temporary restore path
 
 Here are some screenshots of what is in [next version](/nextversionrclone).
 
