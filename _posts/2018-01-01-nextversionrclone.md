@@ -3,7 +3,7 @@ layout: post
 title:  "Next version"
 permalink: nextversionrclone
 ---
-Updated 28 Oct 2018, version 1.6.6 rc.
+Updated 2 Nov 2018, version 1.6.7 rc.
 
 ### Quickbackup is redesigned.
 Estimate changes, syncing data to Dropbox and Google.

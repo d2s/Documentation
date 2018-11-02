@@ -9,12 +9,12 @@ The apps are signed with my Apple ID developer certificate and [notarized](https
 
 ## Version 5.5.6 rc
 
-Updated 31 Oct 2018.
+Updated 2 Nov 2018.
 
 The following is changed in the rc:
 - refactor batch tasks
+- the userconfig is refactored
 - and some minor bugfixes and tweaks (gui)
-- the userconfig is refactored and fixed a minor bug
 
 ## Version 5.5.5
 

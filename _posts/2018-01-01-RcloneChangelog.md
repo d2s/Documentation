@@ -13,15 +13,15 @@ To get an idea of how RcloneOSX is working please see the [intro](/Intro) to Rsy
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
-## Version 1.6.6 rc
+## Version 1.6.7 rc
 
-Updated 31 Oct 2018.
+Updated 2 Nov 2018.
 
 The following is changed in the rc:
 - enhanced quick sync tasks
 - refactor batch tasks
+- the userconfig is refactored
 - and some minor bugfixes and tweaks
-- the userconfig is refactored and fixed a minor bug
 
 Here are some screenshots of what is in [next version](/nextversionrclone).
 
