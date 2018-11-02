@@ -11,7 +11,7 @@ The apps are signed with my Apple ID developer certificate and [notarized](https
 
 Updated 2 Nov 2018.
 
-The following is changed in the rc:
+The following are changes in the rc:
 - refactor batch tasks
 - the userconfig is refactored
 - and some minor bugfixes and tweaks (gui)

@@ -17,7 +17,7 @@ See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
 Updated 2 Nov 2018.
 
-The following is changed in the rc:
+The following are changes in the rc:
 - enhanced quick sync tasks
 - refactor batch tasks
 - the userconfig is refactored
