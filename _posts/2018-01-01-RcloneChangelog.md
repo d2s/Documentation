@@ -13,15 +13,24 @@ To get an idea of how RcloneOSX is working please see the [intro](/Intro) to Rsy
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
-## Version 1.6.7 rc
+## Version 1.6.7
 
-Updated 2 Nov 2018.
+Relased 3 Nov 2018.
 
-The following are changes in the rc:
+The following are changes in the release:
 - enhanced quick sync tasks
 - refactor batch tasks
 - the userconfig is refactored
 - and some minor bugfixes and tweaks
+- the rcloneosx.app is [notarized](https://support.apple.com/en-us/HT202491) by Apple
+
+If you have developertools installed executing the following command will verify the the rcloneosx.app.
+
+```
+xcrun stapler validate no.blogspot.rcloneosx rcloneosx.app
+Processing: /Volumes/Home/thomas/GitHub/RcloneOSX/Build/Products/Release/rcloneosx.app
+The validate action worked!
+```
 
 Here are some screenshots of what is in [next version](/nextversionrclone).
 
