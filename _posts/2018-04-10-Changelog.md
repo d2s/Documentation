@@ -5,7 +5,7 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs.
 
-For more information about About **signing** and **notarizing** of `RsyncOSX.app.app` see [the notarized info](/Notarized).
+For more information about **signing** and **notarizing** of `RsyncOSX.app.app` see [the notarized info](/Notarized).
 
 ## Version 5.5.6 rc
 

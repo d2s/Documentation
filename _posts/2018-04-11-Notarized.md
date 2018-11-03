@@ -7,7 +7,7 @@ Both RsyncOSX and RcloneOSX are signed and [notarized](https://support.apple.com
 
 ## RsyncOSX
 
-The app is signed with my Apple ID developer certificate and [notarized](https://support.apple.com/en-us/HT202491) by Apple. If you have Xcode developer tools installed executing the following command will verify the the RsyncOSX.app.
+The app is signed with my Apple ID developer certificate and notarized by Apple. If you have Xcode developer tools installed executing the following command will verify the the RsyncOSX.app.
 ```
 xcrun stapler validate no.blogspot.RsyncOSX RsyncOSX.app
 Processing: /Volumes/Home/thomas/GitHub/RsyncOSX/Build/Products/Release/RsyncOSX.app
@@ -23,7 +23,7 @@ The english version of it is: "Apple checked it for malicious software and none 
 
 ## RcloneOSX
 
-The app is signed with my Apple ID developer certificate and [notarized](https://support.apple.com/en-us/HT202491) by Apple. If you have Xcode developer tools installed executing the following command will verify the the rcloneosx.app.
+The app is signed with my Apple ID developer certificate and notarized by Apple. If you have Xcode developer tools installed executing the following command will verify the the rcloneosx.app.
 ```
 xcrun stapler validate no.blogspot.rcloneosx rcloneosx.app
 Processing: /Volumes/Home/thomas/GitHub/RcloneOSX/Build/Products/Release/rcloneosx.app
