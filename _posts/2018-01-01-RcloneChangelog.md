@@ -24,12 +24,8 @@ The following are changes in the release:
 - and some minor bugfixes and tweaks
 - the rcloneosx.app is [notarized](https://support.apple.com/en-us/HT202491) by Apple
 
-If you have xcode developer tools installed executing the following command will verify the the rcloneosx.app.
-```
-xcrun stapler validate no.blogspot.rcloneosx rcloneosx.app
-Processing: /Volumes/Home/thomas/GitHub/RcloneOSX/Build/Products/Release/rcloneosx.app
-The validate action worked!
-```
+For more information about About **signing** and **notarizing** of `rclonosx.app` see [the GitHub repository](https://github.com/rsyncOSX/rcloneosx).
+
 Here are some screenshots of what is in [this version](/nextversionrclone).
 
 ## Version 1.6.5
