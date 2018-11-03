@@ -5,16 +5,17 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs.
 
-The apps are signed with my Apple ID developer certificate and [notarized](https://support.apple.com/en-us/HT202491) by Apple.
+For more information about About **signing** and **notarizing** of `RsyncOSX.app.app` see [the GitHub repository](https://github.com/rsyncOSX/RsyncOSX).
 
 ## Version 5.5.6 rc
 
-Updated 2 Nov 2018.
+Updated 3 Nov 2018.
 
 The following are changes in the rc:
 - refactor batch tasks
 - the userconfig is refactored
 - and some minor bugfixes and tweaks (gui)
+- the RsyncOSX.app is [notarized](https://support.apple.com/en-us/HT202491) by Apple
 
 ## Version 5.5.5
 
