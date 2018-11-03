@@ -24,7 +24,7 @@ The following are changes in the release:
 - and some minor bugfixes and tweaks
 - the rcloneosx.app is [notarized](https://support.apple.com/en-us/HT202491) by Apple
 
-For more information about About **signing** and **notarizing** of `rclonosx.app` see [the GitHub repository](https://github.com/rsyncOSX/rcloneosx).
+For more information about About **signing** and **notarizing** of `rclonosx.app` see [the notarized info](/Notarized).
 
 Here are some screenshots of what is in [this version](/nextversionrclone).
 
