@@ -9,7 +9,7 @@ Rclone is *rsync for cloud storage*. Even if `rclone` and `rsync` are somewhat e
 
 I am not an advanced user of `rclone`. My main use of RcloneOSX is  synchronizing my GitHub catalog to Dropbox and Google. I have also implemented [encrypted](/Encrypted) backup in RsyncOSX by utilizing RcloneOSX. During this winter (2018/2019) the functions within RcloneOSX will be enhanced. But I need to learn more about rclone before enhancing RcloneOSX.
 
-To get an idea of how RcloneOSX is working please see the [intro](/Intro) to RsyncOSX. The operation and menus are mostly equal.
+To get an idea of how RcloneOSX is working please see the [intro](/Intro) to RsyncOSX. The operation and menus are mostly equal. The app is signed with my Apple ID developer certificate and [notarized](https://support.apple.com/en-us/HT202491) by Apple.
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
@@ -24,15 +24,13 @@ The following are changes in the release:
 - and some minor bugfixes and tweaks
 - the rcloneosx.app is [notarized](https://support.apple.com/en-us/HT202491) by Apple
 
-If you have developertools installed executing the following command will verify the the rcloneosx.app.
-
+If you have xcode developer tools installed executing the following command will verify the the rcloneosx.app.
 ```
 xcrun stapler validate no.blogspot.rcloneosx rcloneosx.app
 Processing: /Volumes/Home/thomas/GitHub/RcloneOSX/Build/Products/Release/rcloneosx.app
 The validate action worked!
 ```
-
-Here are some screenshots of what is in [next version](/nextversionrclone).
+Here are some screenshots of what is in [this version](/nextversionrclone).
 
 ## Version 1.6.5
 
