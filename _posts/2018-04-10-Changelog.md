@@ -9,7 +9,7 @@ For more information about **signing** and **notarizing** of `RsyncOSX.app.app` 
 
 ## Version 5.5.6 rc
 
-Updated 3 Nov 2018.
+Updated 8 Nov 2018.
 
 The following are changes in the rc:
 - refactor batch tasks
