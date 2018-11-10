@@ -16,7 +16,7 @@ The following are changes in the rc:
 - the userconfig is refactored
 - and some minor bugfixes and tweaks (gui)
 - the RsyncOSX.app is [notarized](https://support.apple.com/en-us/HT202491) by Apple
-- in the All profiles tab info about used and available remote storage (not yet in release candidate)
+- in the All profiles tab info about used and available remote storage (**not yet** in release candidate)
 
 Here are some screenshots of what is in this [version](/nextversion).
 
