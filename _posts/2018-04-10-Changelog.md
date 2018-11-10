@@ -16,6 +16,9 @@ The following are changes in the rc:
 - the userconfig is refactored
 - and some minor bugfixes and tweaks (gui)
 - the RsyncOSX.app is [notarized](https://support.apple.com/en-us/HT202491) by Apple
+- in the All profiles tab info about used and available remote storage (not yet in release candidate)
+
+Here are some screenshots of what is in this [version](/nextversion).
 
 ## Version 5.5.5
 
@@ -26,8 +29,6 @@ The following are changes in the release:
 - enhanced copy single files
 - enhanced snapshots
 - bugfixes
-
-Here are some screenshots of what is in this [version](/nextversion).
 
 I am not able to predict and test for all possible user interactions. I have tried to smoke out most bugs and make the code as robust as possible. The most common errors are nil pointer errors and not taking care of it if a program variable is not initialized nor has a default value when accessed. I have also tried, by program logic, to verify required input ahead of an action. I believe the last version is robust. RsyncOSX can be minimized during operations and all tasks can be aborted at any time. But there are no guarantee that RsyncOSX will handle all situations.
 
