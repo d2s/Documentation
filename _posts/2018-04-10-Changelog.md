@@ -7,6 +7,11 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 For more information about **signing** and **notarizing** of `RsyncOSX.app.app` see [the notarized info](/Notarized).
 
+## Plan for future versions of RsyncOSX
+
+What are the ideas for future versions of RsyncOSX? The folowing are some ideas. 
+- plans for snapshots e.g keep last snapshot a week, month and so on
+
 ## Version 5.5.6 rc
 
 Updated 11 Nov 2018.
@@ -15,7 +20,7 @@ The following are changes in the rc:
 - refactor batch tasks
 - the userconfig is refactored
 - and some minor bugfixes and tweaks (gui)
-- the RsyncOSX.app is [notarized](https://support.apple.com/en-us/HT202491) by Apple
+- the RsyncOSX.app is [notarized](/Notarized)
 - in the All profiles tab info about used and available remote storage
 
 Here are some screenshots of what is in this [version](/nextversion).
