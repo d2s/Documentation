@@ -9,14 +9,14 @@ For more information about **signing** and **notarizing** of `RsyncOSX.app.app` 
 
 ## Version 5.5.6 rc
 
-Updated 8 Nov 2018.
+Updated 11 Nov 2018.
 
 The following are changes in the rc:
 - refactor batch tasks
 - the userconfig is refactored
 - and some minor bugfixes and tweaks (gui)
 - the RsyncOSX.app is [notarized](https://support.apple.com/en-us/HT202491) by Apple
-- in the All profiles tab info about used and available remote storage (**not yet** in release candidate)
+- in the All profiles tab info about used and available remote storage
 
 Here are some screenshots of what is in this [version](/nextversion).
 
