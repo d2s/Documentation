@@ -9,12 +9,12 @@ For more information about **signing** and **notarizing** of `RsyncOSX.app.app` 
 
 ## Plan for future versions of RsyncOSX
 
-What are the ideas for future versions of RsyncOSX? The folowing are some ideas. 
+What are the ideas for future versions of RsyncOSX? The folowing are some ideas.
 - plans for snapshots e.g keep last snapshot a week, month and so on
 
 ## Version 5.5.6 rc
 
-Updated 11 Nov 2018.
+Updated 13 Nov 2018.
 
 The following are changes in the rc:
 - refactor batch tasks

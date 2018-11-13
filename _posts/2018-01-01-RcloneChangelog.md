@@ -13,6 +13,10 @@ To get an idea of how RcloneOSX is working please see the [intro](/Intro) to Rsy
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
+## Version 1.6.8 release candidate
+
+Minor bugfixes and tweaks.
+
 ## Version 1.6.7
 
 Relased 3 Nov 2018.
