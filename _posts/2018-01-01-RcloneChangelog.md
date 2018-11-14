@@ -26,9 +26,7 @@ The following are changes in the release:
 - refactor batch tasks
 - the userconfig is refactored
 - and some minor bugfixes and tweaks
-- the rcloneosx.app is [notarized](https://support.apple.com/en-us/HT202491) by Apple
-
-For more information about **signing** and **notarizing** of `rclonosx.app` see [the notarized info](/Notarized).
+- the rcloneosx.app is [notarized](/Notarized) by Apple
 
 Here are some screenshots of what is in [this version](/nextversionrclone).
 
