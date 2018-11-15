@@ -3,12 +3,12 @@ layout: post
 title:  "Important notes about RsyncOSX  and rsync"
 permalink: HowtoUseRsyncOSX
 ---
-Rsync is a **file based** synchronization tool. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files. Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
+Rsync is a file based synchronization tool. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files. Be sure you understand the basics how rsync works before using RsyncOSX (and rsync).
 
 RsyncOSX is a GUI for the rsync command-line tool. The main use are:
 
-- backup and restore of local files on your Mac to remote servers connected to Internet and local network
-- backup and restore local files on Mac to local storage (attached disks)
+- synchronize and restore of local files on your Mac to remote servers connected to Internet and local network
+- synchronize and restore local files on Mac to local storage (attached disks)
 
 ```
 Warning: default parameters for rsync is to synchronize the
@@ -16,16 +16,16 @@ source and the remote (backup). A "restore" will delete all
 files in the source which are not in the remote. The main
 objective to RsyncOSX is to keep source directory and
 remote directory synchronized. When the source
-directory is backed up, the remote is 100% synchronized
+directory is synchronized, the remote is 100% in sync
 with the source in the moment the synchronize task is
 completed. There are no revisions of files in the remote
 in default RsyncOSX. Old files in the remote are either
 replaced with new ones or deleted if so is true in source.
 ```
-- **source**: the local volume to be copied
-- **remote**: the remote location where source files and catalogs are copied (e.g. backed up)
+- source: the local volume to be synchronized
+- remote: the remote location where source files and catalogs are copied (e.g. backed up)
 
-What about **revisions** and **deleted** files? Either use the [snapshot feature](/Snapshots) or by [backup parameters](/Parameters) to rsync.
+What about revisions and deleted files? Either use the [snapshot feature](/Snapshots) or by [backup parameters](/Parameters) to rsync.
 
 ## Why use RsyncOSX and rsync?
 
