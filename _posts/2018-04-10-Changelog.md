@@ -13,11 +13,11 @@ What are the ideas for future versions of RsyncOSX? The following are some ideas
 - enable plans for snapshots e.g keep last snapshot every week, every month and so on
 - check remote storage capacity from the main view (it is available from the All profiles tab in the last rc)
 
-## Version 5.5.6 rc
+## Version 5.5.7
 
-Updated 13 Nov 2018.
+Released 22 November 2018.
 
-The following are changes in the rc:
+The following are changes in the release:
 - refactor batch tasks
 - the userconfig is refactored
 - and some minor bugfixes and tweaks (gui)
