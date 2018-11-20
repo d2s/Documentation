@@ -8,7 +8,7 @@ The website LibreByte has written an article [14 Practical examples of the rsync
 Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
 - `--parameter=value`
-	- sample `--exclude-from=/Volumes/home/user/Documents/exclude-list.txt`
+	- sample `--exclude-from=/Volumes/home/user/exclude-list.txt`
 - `--parameter`
 	- sample `--stats`, `--dry-run`
 
@@ -23,6 +23,8 @@ You can instruct rsync to save changed and deleted files in a separate backup ca
 
 RsyncOSX does suggest a value for the `--backup-dir` but you might set it to whatever you want.
 
+![](/images/RsyncOSX/master/rsync/rsync.png)
+
 ### Setting suffix on saved files
 
 Rsync can also set a time stamp as suffix on files. This might be useful if there are several revisions of files.
@@ -34,7 +36,6 @@ Rsync can also set a time stamp as suffix on files. This might be useful if ther
 I have experienced some variations regarding the suffix. If you want to use suffix you might try an alternative suffix if the above is not working as expected. If so is true use  instead. You just have to try and see what works
 
 The parameters in picture (below) instructs rsync to save changed files in catalog `../backup_Directory` (relative to destination catalog) and `suffix` the backup file with timestamps. The above is enabled or disabled by select the `backup` button. The user might change the backup catalog. The backup catalog can either be absolute path or relative path. Default backup catalog is `../backup_Directory`.
-![New configurations](/images/RsyncOSX/master/rsync/rsync4.png)
 
 ## RsyncOSX passing userselected parameters to rsync
 
