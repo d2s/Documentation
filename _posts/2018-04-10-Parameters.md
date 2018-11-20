@@ -5,7 +5,6 @@ permalink: Parameters
 ---
 The website LibreByte has written an article [14 Practical examples of the rsync command](http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/). One of the examples is instructing rsync to store backups of files in a backup folder and rename old files by a date suffix.
 
-
 Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
 - `--parameter=value`
@@ -56,25 +55,3 @@ The user can set own parameters by using `user` in dropdown menu. Preset paramet
 - `delete` - delete the parameter
 	- deletes the parameter when `OK` button is selected
 	- or just delete the `value` string
-
-## Sample backup of my 5GB Documents catalog
-
-I am doing regular backups of my Documents catalog. The source code for RsyncOSX is stored in the Documents catalog and `git` is creating a `.git` directory in all catalogs where git is used. I want rsync not to transfer the `.git` directories and `.DS_Store` files created by MacOS.
-
-Selecting the `backup` option and `suffix` for FreeBSD sets the three last parameters. The backup directory, which is saving all versions of changed and deleted files, is set to `../backup` + `_Document` catalog as preselected value.
-
-The `exclude-list.txt` file includes the two lines below to omit all `.git` directories and `.DS_Store` files.
-![New configurations](/images/RsyncOSX/master/rsync/rsync5.png)
-If the backup directory is not created rsync automatically creates it. The `../backup_Documents` is a catalog relative to the destination catalog. The user can specify any catalog as backup catalog. A view of the actual rsync command executed is shown in right bottom of screen. The command can be copied and pasted into a terminal for execution as well.
-![New configurations](/images/RsyncOSX/master/rsync/rsync2.png)
-The screen below is a listing of some of files moved to the backup directory and renamed before new files are transferred from source to destination. My NAS is based on FreeNAS (FreeBSD) and backup of changed files is in catalog `../backup_Documents`.
-![New configurations](/images/RsyncOSX/master/rsync/rsync3.png)
-
-## Sample backup of my 100GB Picture catalog
-
-I am using RsyncOSX to backup my Pictures catalog - about 100GB of raw picture files. I am also using Adobe Lightroom for organizing my Pictures. Adobe Lightroom creates preview of pictures in `Lightroom/Lightroom Catalog Previews.lrdata` catalog. I do not want to backup any previews, only the picture files, Lightroom settings and Lightroom library catalog.
-
-- create a .txt file with the following line `Lightroom/Lightroom Catalog Previews.lrdata`, save the file with name `exclude-list.txt` in the `Pictures` catalog
-- pass the following parameter `--exclude-from=/Volumes/Users/thomas/Pictures/exclude-list.txt` to rsync from the parameter view within RsyncOSX
-![New configurations](/images/RsyncOSX/master/rsync/rsync6.png)
-And that is it. Rsync excludes whatever found in the `--exclude-from` file (including file patterns).
