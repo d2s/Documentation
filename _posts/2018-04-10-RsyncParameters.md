@@ -7,8 +7,6 @@ RsyncOSX implements default parameters which are working fine for simple backup 
 
 RsyncOSX does also facilitate user selected parameters. User selected parameters are stored by each task and set by user, see [user selected parameters](/Parameters).
 
-![New configurations](/images/RsyncOSX/master/rsync/rsync4.png)
-
 ## Standard parameters all tasks
 
 The following parameters are applied to all tasks.
@@ -25,9 +23,8 @@ The following parameters are applied to all tasks.
 The following parameters are for _networked_ tasks only. A networked task is a task where destination is on a remote server, eiher on local LAN or on Internet.
 
 - `--compress`
-	- compress files before transmitting
+	- compress files before transmitting, applies only if remote server
 - `- e ssh`
-	- to ensure rsync tunnels traffic through a ssh-tunnel
+	- to ensure rsync tunnels traffic through a ssh-tunnel, applies only if remote server
 - `-e "ssh -p xxxx"`
-	- choose another port if standard port 22 is not used
-- enable by setting port number in parameters
+	- choose another port if standard port 22 is not used, enable by setting port number in parameters, applies only if remote server
