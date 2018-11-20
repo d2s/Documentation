@@ -12,7 +12,7 @@ Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameter
 - `--parameter`
 	- sample `--stats`, `--dry-run`
 
-See also the [standard parameters](RsyncParameters.md) to rsync.
+See also the [standard parameters](/RsyncParameters) to rsync.
 
 ## Saving changed and deleted files in a backup catalog by parameter to rsync
 

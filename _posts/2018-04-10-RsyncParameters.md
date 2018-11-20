@@ -5,7 +5,7 @@ permalink: RsyncParameters
 ---
 RsyncOSX implements default parameters which are working fine for simple backup and restore tasks. The actual parameters used in tasks is depended upon executing rsync over _network connection_ or not. Which _standard_ parameters to use is computed during startup of application by reading the configuration file.
 
-RsyncOSX does also facilitate user selected parameters. User selected parameters are stored by each task and set by user, see [user selected parameters](/Parameters.md).
+RsyncOSX does also facilitate user selected parameters. User selected parameters are stored by each task and set by user, see [user selected parameters](/Parameters).
 
 ![New configurations](/images/RsyncOSX/master/rsync/rsync4.png)
 
