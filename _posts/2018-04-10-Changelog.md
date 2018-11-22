@@ -7,11 +7,14 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
-## Plan for future versions of RsyncOSX
+## Plan for next version of RsyncOSX
 
-What are the ideas for future versions of RsyncOSX? The following are some ideas.
+What are the ideas for next version of RsyncOSX?
 - enable plans for snapshots e.g keep last snapshot every week, every month and so on
 - check remote storage capacity from the main view (it is available from the All profiles tab in the last rc)
+- remove execute scheduled tasks from RsyncOSX to RsyncOSXsched, planning of scheduled tasks in RsyncOSX
+
+There are a few commits to source after version 5.5.7. Most of the commits are removal of executing scheduled tasks and removal of dead code. I am using [Paul Taykalo swift-scripts](https://github.com/PaulTaykalo/swift-scripts) to find not used code. The above results in less and cleaner code.
 
 ## Version 5.5.7
 
