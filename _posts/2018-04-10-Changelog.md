@@ -19,9 +19,11 @@ There are a few [commits](https://github.com/rsyncOSX/RsyncOSX/compare/v5.5.7...
 ## Prerelease of version 5.6.x
 
 In this prerelease executing scheduled tasks is moved to the [menu app](/Menuapp). There is still work to do before this version will be released. The only changes compared to version 5.5.7 are:
+
 - a lot of cleanup in code (delete of dead code) and
 - move executing of scheduled tasks.
-If both RsyncOSX and RsyncOSXsched (the menu app) is running, RsyncOSX is sending a reload message to the menu app. The menu app keeps track of scheduled task in all profiles.
+
+If both RsyncOSX and RsyncOSXsched (the menu app) is running, RsyncOSX is sending a reload message to the menu app every time there is a change to either a configuration or a schedule. The menu app keeps track of scheduled task in all profiles.
 
 If you are not utilizing scheduled tasks don´t install the RsyncOSXsched app.
 
