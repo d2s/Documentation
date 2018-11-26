@@ -13,6 +13,14 @@ To get an idea of how RcloneOSX is working please see the [intro](/Intro) to Rsy
 
 See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
+## Version 1.6.9 release candidate
+
+Released 26 November 2018.
+
+- a lot of cleanup in code (delete of dead code)
+- in user config tick of for `version 1.43 of rclone` for utilizing rclone versions => 1.43
+- some enhancements in `restore`, restore defaults to temporary restore catalog if set
+
 ## Version 1.6.8
 
 Relased 15 November 2018.
