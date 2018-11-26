@@ -16,7 +16,7 @@ The following parameters are applied to all tasks.
 - `--verbose`
 	- make rsync very outspoken, required for counting files in RsyncOSX
 - `--delete`
-	- delete all files at _destination_ which is not in _source_
+	- delete all files at _destination_ which are not in the _source_
 
 ## Standard parameters networked tasks only
 
