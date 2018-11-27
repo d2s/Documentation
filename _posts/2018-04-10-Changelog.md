@@ -16,6 +16,8 @@ What are the ideas for next version of RsyncOSX?
 
 There are a few [commits](https://github.com/rsyncOSX/RsyncOSX/compare/v5.5.7...master) to source after version 5.5.7. Most of the commits are removal of executing scheduled tasks and removal of dead code. I am using [Paul Taykalo swift-scripts](https://github.com/PaulTaykalo/swift-scripts) to find not used code. The above results in less and cleaner code.
 
+From time to time screenshots in [next version](/nextversion) will be updated.
+
 ## Prerelease of version 5.6.x
 
 In this prerelease executing scheduled tasks is moved to the [menu app](/Menuapp). There is still work to do before this version will be released. The only changes compared to version 5.5.7 are:
