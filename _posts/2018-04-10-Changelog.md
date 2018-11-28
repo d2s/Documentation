@@ -20,9 +20,11 @@ There are a few [commits](https://github.com/rsyncOSX/RsyncOSX/compare/v5.5.7...
 
 Updated 28 November 2018
 
-In this prerelease executing scheduled tasks is moved to the [menu app](/Menuapp). There is still work to do before this version will be released. The only changes compared to version 5.5.7 are:
+To new or existing users, the prerelease is safe to use. The prerelease is signed with my developer certificate but not notarized. Only releases will be notarized.
 
-The only changes compared to version 5.5.7 are:
+In this prerelease executing scheduled tasks is moved to the [menu app](/Menuapp). There is still work to do before this version will be released.
+
+The following changes compared to version 5.5.7 are:
 - a lot of cleanup in code (delete of dead code) and
 - delete code for execution of scheduled tasks, the [menu app](/Menuapp) executes scheduled tasks, add and delete schedules in RsyncOSX
 - some enhancements in `restore` and restore defaults to temporary restore catalog if set in user config
