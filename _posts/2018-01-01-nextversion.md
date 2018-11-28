@@ -3,11 +3,9 @@ layout: post
 title:  "Next version"
 permalink: nextversion
 ---
-The work on snapshots is commenced. Deleting snapshots is now by selecting. In the next release there will be a plan for snapshots. A plan can be keep one snapshot each week, each month and so on. Plans or not yet implemented but will be before a new release.
+The work on snapshots is commenced. Deleting snapshots is now by mark the snapshots or by selecting by number. In the next release there will be a plan for snapshots. A plan can be keep one snapshot each week, each month and so on. Plans or not yet implemented but will be before a new release.
 
-I have cleaned up my own snapshots by utilizing the updated prerelease. Deleting snapshots is a destructive operation and should be performed with care.
-
-My plan was to delete all snapshots and keep only the last snapshot each Sunday and all for last week.
+I have cleaned up my own snapshots by utilizing the updated prerelease. Deleting snapshots is a **destructive** operation and should be performed with care. My plan was to delete most of the snapshots and keep only the last snapshot each Sunday and all for the current week.
 
 ## Selecting snapshots to delete
 
@@ -18,7 +16,7 @@ Select the Snapshots tab and mark snapshots for deletion. I selected snapshots a
 
 ## Selecting logs to delete
 
-After cleaning up snapshots I wanted to delete all logs not required. All logs with `Snap` marked are logs connected to a existing snapshot.
+After cleaning up snapshots I deleted all logs not required. All logs with `Snap` marked are logs connected to a existing snapshot.
 
 ![](/images/RsyncOSX/master/nextversion/keeplogsdocuments.png)
 
@@ -29,6 +27,7 @@ Select all logs for delete and unmark logs connected to a existing snapshot. Del
 The Snapshots view presents all snapshots with linked log record.
 
 ![](/images/RsyncOSX/master/nextversion/afterdeletedocuments.png)
+
 
 ## Number of files deleted
 
