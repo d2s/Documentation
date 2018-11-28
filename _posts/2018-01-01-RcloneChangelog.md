@@ -15,6 +15,8 @@ See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
 ## Version 1.6.9 release candidate
 
+To new or existing users, the release candidate is safe to use. The release candidate is signed with my developer certificate but not notarized. Only releases will be notarized.
+
 Released 26 November 2018.
 
 - a lot of cleanup in code (delete of dead code)

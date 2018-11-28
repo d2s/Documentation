@@ -20,7 +20,7 @@ There are a few [commits](https://github.com/rsyncOSX/RsyncOSX/compare/v5.5.7...
 
 Updated 28 November 2018
 
-To new or existing users, the prerelease is safe to use. The prerelease is signed with my developer certificate but not notarized. Only releases will be notarized.
+To new or existing users, the prerelease is safe to use. The prerelease is signed with my developer certificate but not notarized. Only releases is be notarized.
 
 In this prerelease executing scheduled tasks is moved to the [menu app](/Menuapp). There is still work to do before this version will be released.
 
