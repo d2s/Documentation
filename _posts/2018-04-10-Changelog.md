@@ -16,9 +16,9 @@ What are the ideas for next version of RsyncOSX?
 
 There are a few [commits](https://github.com/rsyncOSX/RsyncOSX/compare/v5.5.7...master) to source after version 5.5.7. Most of the commits are removal of executing scheduled tasks and removal of dead code. I am using [Paul Taykalo swift-scripts](https://github.com/PaulTaykalo/swift-scripts) to find not used code. The above results in less and cleaner code.
 
-From time to time screenshots in [next version](/nextversion) will be updated.
-
 ## Prerelease of version 5.6.x
+
+Updated 28 November 2018
 
 In this prerelease executing scheduled tasks is moved to the [menu app](/Menuapp). There is still work to do before this version will be released. The only changes compared to version 5.5.7 are:
 
@@ -26,10 +26,13 @@ The only changes compared to version 5.5.7 are:
 - a lot of cleanup in code (delete of dead code) and
 - delete code for execution of scheduled tasks, the [menu app](/Menuapp) executes scheduled tasks, add and delete schedules in RsyncOSX
 - some enhancements in `restore` and restore defaults to temporary restore catalog if set in user config
+- some enhancements in cleaning (deleting) snapshots and log records, see [next version](/nextversion)
 
 If both RsyncOSX and RsyncOSXsched (the menu app) is running, RsyncOSX is sending a reload message to the menu app every time there is a change to either a configuration or a schedule. The menu app keeps track of scheduled task in all profiles.
 
 If you are not utilizing scheduled tasks don´t install the RsyncOSXsched app.
+
+From time to time screenshots in [next version](/nextversion) will be updated.
 
 ## Version 5.5.7
 
