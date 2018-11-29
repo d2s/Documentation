@@ -14,7 +14,7 @@ Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameter
 
 See also the [standard parameters](/RsyncParameters) to rsync.
 
-## Saving changed and deleted files in a backup catalog by parameter to rsync
+## Backup catalog by parameter to rsync
 
 You can instruct rsync to save changed and deleted files in a separate backup catalog ahead of the change. This feature is utilized by setting the following parameters:
 
