@@ -16,13 +16,13 @@ Select the Snapshots tab and mark snapshots for deletion. I selected snapshots a
 
 ## Selecting logs to delete
 
-After cleaning up snapshots I deleted all logs not required. All logs with `Snap` marked are logs connected to a existing snapshot.
-
-![](/images/RsyncOSX/master/nextversion/keeplogsdocuments.png)
-
-Select all logs for delete and unmark logs connected to a existing snapshot. Delete logs not required.
+After cleaning up snapshots I deleted all logs not required. All logs with `Snap` marked are logs connected to a existing snapshot. I just select delete all and then unmark those logs for existing snapshots.
 
 ![](/images/RsyncOSX/master/nextversion/deletelogsdocuments.png)
+
+After delete, log records connected to a existing snapshots are not deleted.
+
+![](/images/RsyncOSX/master/nextversion/keeplogsdocuments.png)
 
 The Snapshots view presents all snapshots with linked log record.
 
