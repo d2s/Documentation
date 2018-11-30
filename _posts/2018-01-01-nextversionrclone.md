@@ -3,23 +3,18 @@ layout: post
 title:  "Next version"
 permalink: nextversionrclone
 ---
-Updated 2 Nov 2018, version 1.6.7 rc.
+Updated 30 Nov 2018, version 1.6.9 rc.
 
-### Quickbackup is redesigned.
-Estimate changes, syncing data to Dropbox and Google.
-![](/images/RsyncOSX/master/nextversionrclone/quickbackup1.png)
-Each row has a progressview indicating progress.
-![](/images/RsyncOSX/master/nextversionrclone/quickbackup2.png)
-Last row almost done.
-![](/images/RsyncOSX/master/nextversionrclone/quickbackup3.png)
-The log view.
-![](/images/RsyncOSX/master/nextversionrclone/quickbackup4.png)
-The main view.
-![](/images/RsyncOSX/master/nextversionrclone/quickbackup5.png)
+Estimating of remote numbers of files and size of files takes time. My experience of rclone is still very limited and it might be some parameters to set for speed up the estimating.
 
-### Batch is redesigned.
-Check tasks for batch.
-![](/images/RsyncOSX/master/nextversionrclone/batch1.png)
-Each row has a progressview indicating progress.
-![](/images/RsyncOSX/master/nextversionrclone/batch2.png)
-![](/images/RsyncOSX/master/nextversionrclone/logbatch.png)
+![](/images/RsyncOSX/master/nextversionrclone/estimating.png)
+![](/images/RsyncOSX/master/nextversionrclone/complete.png)
+
+If view is closed and opened again RcloneOSX loads previous estimations.
+
+![](/images/RsyncOSX/master/nextversionrclone/cache.png)
+
+User config and version 1.43 or newer of rclone.
+
+![](/images/RsyncOSX/master/nextversionrclone/userconfig.png)
+![](/images/RsyncOSX/master/nextversionrclone/about.png)
