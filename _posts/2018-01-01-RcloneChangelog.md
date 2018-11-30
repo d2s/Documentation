@@ -24,7 +24,8 @@ Updated 30 November 2018.
 - a lot of cleanup in code (delete of dead code)
 - in user config tick of for `version 1.43 of rclone` for utilizing rclone versions => 1.43
 - some enhancements in `restore`, restore defaults to temporary restore catalog if set
-- estimating remote numbers and size are now included in quick backup, see [screenshots](/nextversionrclone)
+- estimating remote numbers and size are now included in quick backup
+- see some[screenshots](/nextversionrclone) of new rc
 
 ## Version 1.6.8
 
