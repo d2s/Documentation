@@ -18,3 +18,10 @@ User config and version 1.43 or newer of rclone.
 
 ![](/images/RsyncOSX/master/nextversionrclone/userconfig.png)
 ![](/images/RsyncOSX/master/nextversionrclone/about.png)
+
+## Notifications and log
+
+RcloneOSX issues a notification every time a scheduled task is executed.
+
+![](/images/RsyncOSX/master/nextversionrclone/notifications.png)
+![](/images/RsyncOSX/master/nextversionrclone/log.png)
