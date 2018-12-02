@@ -3,7 +3,6 @@ layout: post
 title:  "Next version"
 permalink: nextversionrclone
 ---
-Updated 2 December 2018, version 1.6.9 rc.
 
 Estimating of remote numbers of files and size of files takes time. My experience of rclone is still very limited and it might be some parameters to set for speed up the estimating.
 

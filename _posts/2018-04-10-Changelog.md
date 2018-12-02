@@ -18,7 +18,7 @@ There are a few [commits](https://github.com/rsyncOSX/RsyncOSX/compare/v5.5.7...
 
 ## Prerelease of version 5.6.x
 
-Updated 28 November 2018
+Updated 2 December 2018
 
 To new or existing users, the prerelease is safe to use. The prerelease is signed with my developer certificate but not notarized. Only releases is be notarized.
 
@@ -29,6 +29,7 @@ The following changes compared to version 5.5.7 are:
 - delete code for execution of scheduled tasks, the [menu app](/Menuapp) executes scheduled tasks, add and delete schedules in RsyncOSX
 - some enhancements in `restore` and restore defaults to temporary restore catalog if set in user config
 - some enhancements in cleaning (deleting) snapshots and log records, see [next version](/nextversion)
+- a couple of bugfixes in quick and batch tasks
 
 If both RsyncOSX and RsyncOSXsched (the menu app) is running, RsyncOSX is sending a reload message to the menu app every time there is a change to either a configuration or a schedule. The menu app keeps track of scheduled task in all profiles.
 
