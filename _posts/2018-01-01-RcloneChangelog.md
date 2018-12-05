@@ -15,7 +15,7 @@ See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
 ## Version 1.6.9 release candidate
 
-To new or existing users, the release candidate is safe to use. The release candidate is signed with my developer certificate but not notarized. Only releases will be notarized.
+The release candidate is signed with my developer certificate but not notarized. Only releases will be [notarized](/Notarized).
 
 There is a new version 1.45 of rclone. If you are using version 1.45 of rclone you should download this rc to get correct info about number of files to synchronize. There was a change in output from version 1.43 of rclone. This is set in userconfig of RcloneOSX.
 
