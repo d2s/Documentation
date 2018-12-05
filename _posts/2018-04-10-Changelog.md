@@ -3,28 +3,15 @@ layout: post
 title:  "Changelog"
 permalink: Changelog
 ---
-I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs.
+I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
-For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
-
-## Plan for next version of RsyncOSX
-
-What are the ideas for next version of RsyncOSX?
-- enable plans for snapshots e.g keep last snapshot every week, every month and so on
-- check remote storage capacity from the main view (it is available from the All profiles tab in the last rc)
-- remove execute scheduled tasks from RsyncOSX to RsyncOSXsched, add and delete scheduled tasks in RsyncOSX
-
-There are a few [commits](https://github.com/rsyncOSX/RsyncOSX/compare/v5.5.7...master) to source after version 5.5.7. Most of the commits are removal of executing scheduled tasks and removal of dead code. I am using [Paul Taykalo swift-scripts](https://github.com/PaulTaykalo/swift-scripts) to find not used code. The above results in less and cleaner code.
-
-## Prerelease of version 5.6.x
+## Version 5.6.0 release candidate
 
 Updated 5 December 2018
 
-To new or existing users, the prerelease is safe to use. The prerelease is signed with my developer certificate but not notarized. Only releases is be notarized.
+To new or existing users, the rc is safe to use. The rc is signed with my developer certificate but not notarized. Only releases is be notarized. I have bought a new Mac Mini (i7) and used this rc to restore about 120 GB of data from my [NAS](/DIYNAS) at home. Next to work on is **plans for snapshots**. A plan for snapshot is a template for which snapshots to keep and which to delete.
 
-I have bought a new Mac Mini (i7) and used this rc to restore about 120 GB of data from my[NAS](/DIYNAS) at home. Next to work on is plans for snapshots. A plan for snapshot is a template for which snapshots to keep and which to delete. 
-
-In this prerelease executing scheduled tasks is moved to the [menu app](/Menuapp). There is still work to do before this version will be released.
+In this prerelease executing scheduled tasks is moved to the [menu app](/Menuapp).
 
 The following changes compared to version 5.5.7 are:
 - a lot of cleanup in code (delete of dead code) and
