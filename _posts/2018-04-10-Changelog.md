@@ -11,7 +11,7 @@ Updated 5 December 2018
 
 The rc is signed with my developer certificate but not notarized. Only releases is [notarized](/Notarized). I have bought a new Mac Mini (i7) and used this rc to restore about 120 GB of data from my [NAS](/DIYNAS) at home. Next to work on is **plans for snapshots**. A plan for snapshot is a template for which snapshots to keep and which to delete.
 
-In this prerelease executing scheduled tasks is moved to the [menu app](/Menuapp).
+In this rc executing scheduled tasks is moved to the [menu app](/Menuapp).
 
 The following changes compared to version 5.5.7 are:
 - a lot of cleanup in code (delete of dead code) and
