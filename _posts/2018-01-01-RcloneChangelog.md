@@ -19,7 +19,7 @@ To new or existing users, the release candidate is safe to use. The release cand
 
 There is a new version 1.45 of rclone. If you are using version 1.45 of rclone you should download this rc to get correct info about number of files to synchronize. There was a change in output from version 1.43 of rclone. This is set in userconfig of RcloneOSX.
 
-Updated 2 December 2018.
+Updated 5 December 2018.
 
 - a lot of cleanup in code (delete of dead code)
 - in user config tick of for `version 1.43 of rclone` for utilizing rclone versions => 1.43
