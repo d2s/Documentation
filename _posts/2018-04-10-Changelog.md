@@ -9,7 +9,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 Updated 5 December 2018
 
-To new or existing users, the rc is safe to use. The rc is signed with my developer certificate but not notarized. Only releases is be notarized. I have bought a new Mac Mini (i7) and used this rc to restore about 120 GB of data from my [NAS](/DIYNAS) at home. Next to work on is **plans for snapshots**. A plan for snapshot is a template for which snapshots to keep and which to delete.
+The rc is signed with my developer certificate but not notarized. Only releases is [notarized](/Notarized). I have bought a new Mac Mini (i7) and used this rc to restore about 120 GB of data from my [NAS](/DIYNAS) at home. Next to work on is **plans for snapshots**. A plan for snapshot is a template for which snapshots to keep and which to delete.
 
 In this prerelease executing scheduled tasks is moved to the [menu app](/Menuapp).
 
