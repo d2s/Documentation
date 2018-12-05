@@ -14,7 +14,7 @@ The rc is signed with my developer certificate but not notarized. Only releases 
 In this rc executing scheduled tasks is moved to the [menu app](/Menuapp).
 
 The following changes compared to version 5.5.7 are:
-- a lot of cleanup in code (delete of dead code) and
+- a lot of cleanup in code (delete of dead code)
 - delete code for execution of scheduled tasks, the [menu app](/Menuapp) executes scheduled tasks, add and delete schedules in RsyncOSX
 - some enhancements in `restore` and restore defaults to temporary restore catalog if set in user config
 - some enhancements in cleaning (deleting) snapshots and log records, see [next version](/nextversion)
