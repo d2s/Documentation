@@ -15,7 +15,7 @@ The following changes compared to version 5.5.7 are:
 - a lot of cleanup in code (delete of dead code)
 - delete code for execution of scheduled tasks, the [menu app](/Menuapp) executes scheduled tasks, add and delete schedules in RsyncOSX
 - some enhancements in `restore` and restore defaults to temporary restore catalog if set in user config
-- some enhancements in cleaning (deleting) snapshots and log records, see [next version](/nextversion)
+- some enhancements in cleaning (deleting) snapshots and log records
 - and as always some bugfixes
 
 If both RsyncOSX and RsyncOSXsched (the menu app) is running, RsyncOSX is sending a reload message to the menu app every time there is a change to either a configuration or a schedule. The menu app keeps track of scheduled task in all profiles.
