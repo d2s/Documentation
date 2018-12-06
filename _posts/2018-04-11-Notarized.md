@@ -5,6 +5,12 @@ permalink: Notarized
 ---
  RsyncOSX and RcloneOSX are signed with my Apple ID developer certificate and [notarized](https://support.apple.com/en-us/HT202491) by Apple. This means both apps are verified and checked for not containing malicious code. It ensures the users that the apps are clean and that they are working together with Apples Gatekeeper technology. A message from Apple is issued when opening either a new or updated application the first time.
 
+ The following apps are signed and notarized:
+
+ - RsyncOSX
+ - RsyncOSXsched
+ - RcloneOSX
+
 ## RsyncOSX
 
 This is the message when opening a downloaded version.
@@ -17,6 +23,20 @@ If you have Xcode developer tools installed executing the following command `xcr
 ```
 xcrun stapler validate no.blogspot.RsyncOSX RsyncOSX.app
 Processing: /Volumes/Home/thomas/GitHub/RsyncOSX/Build/Products/Release/RsyncOSX.app
+The validate action worked!
+```
+## RsyncOSXsched (the menu app)
+
+This is the message when opening a downloaded version.
+
+![](/images/RsyncOSX/master/notarize/verifyRsyncOSXsched.png)
+
+The message is in Norwegian: "Apple har sjekket programmet uten å finne ondsinnet programvare."  The english version of it is: "Apple checked it for malicious software and none was detected."
+
+If you have Xcode developer tools installed executing the following command `xcrun stapler validate no.blogspot.RsyncOSXsched RsyncOSXsched.app` will verify the RsyncOSX.app.
+```
+xcrun stapler validate no.blogspot.RsyncOSXsched RsyncOSXsched.app
+Processing: /Volumes/Home/thomas/GitHub/RsyncOSXsched/Build/Products/Release/RsyncOSXsched.app
 The validate action worked!
 ```
 
