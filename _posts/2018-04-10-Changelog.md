@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.6.1
 
-Released 6 December 2018
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.6.1) 6 December 2018
 
 In this release executing scheduled tasks is **moved** to the [menu app](/Menuapp).
 
