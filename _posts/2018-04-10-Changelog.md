@@ -5,26 +5,24 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
-## Version 5.6.0 release candidate
+## Version 5.6.1
 
-Updated 5 December 2018
+Released 6 December 2018
 
-The rc is signed with my developer certificate but not notarized. Only releases is [notarized](/Notarized). I have bought a new Mac Mini (i7) and used this rc to restore about 120 GB of data from my [NAS](/DIYNAS) at home. Next to work on is **plans for snapshots**. A plan for snapshot is a template for which snapshots to keep and which to delete.
-
-In this rc executing scheduled tasks is moved to the [menu app](/Menuapp).
+In this release executing scheduled tasks is **moved** to the [menu app](/Menuapp).
 
 The following changes compared to version 5.5.7 are:
 - a lot of cleanup in code (delete of dead code)
 - delete code for execution of scheduled tasks, the [menu app](/Menuapp) executes scheduled tasks, add and delete schedules in RsyncOSX
 - some enhancements in `restore` and restore defaults to temporary restore catalog if set in user config
 - some enhancements in cleaning (deleting) snapshots and log records, see [next version](/nextversion)
-- a couple of bugfixes in quick and batch tasks
+- and as always some bugfixes
 
 If both RsyncOSX and RsyncOSXsched (the menu app) is running, RsyncOSX is sending a reload message to the menu app every time there is a change to either a configuration or a schedule. The menu app keeps track of scheduled task in all profiles.
 
 If you are not utilizing scheduled tasks don´t install the RsyncOSXsched app.
 
-From time to time screenshots in [next version](/nextversion) will be updated.
+**Next release** will include **plans for snapshots**. A plan for snapshot is a template for which snapshots to keep and which to delete.
 
 ## Version 5.5.7
 
