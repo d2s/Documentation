@@ -17,16 +17,19 @@ See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
 The release candidate is signed with my developer certificate but not notarized. Only releases will be [notarized](/Notarized).
 
+The scheduling part is removed from RcloneOSX. It was based upon an early version of scheduling in RsyncOSX. But the scheduling in RsyncOSX is moved to a menu app and I am not able to do so for the RcloneOSX. The scheduling was not working as it should be in RcloneOSX and I don´t have time to develop it further.
+
 There is a new version 1.45 of rclone. If you are using version 1.45 of rclone you should download this rc to get correct info about number of files to synchronize. There was a change in output from version 1.43 of rclone. This is set in userconfig of RcloneOSX.
 
-Updated 5 December 2018.
+Updated 7 December 2018.
 
 - a lot of cleanup in code (delete of dead code)
 - in user config tick of for `version 1.43 of rclone` for utilizing rclone versions => 1.43
 - some enhancements in `restore`, restore defaults to temporary restore catalog if set
 - estimating remote numbers and size are now included in quick backup
 - see some [screenshots](/nextversionrclone) of new rc
-- fixed a bug in schedules and batch
+- fixed a bug in batch
+- removed scheduling in RcloneOSX
 
 ## Version 1.6.8
 
