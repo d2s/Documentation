@@ -17,7 +17,7 @@ See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
 
 Released 7 December 2018.
 
-The **scheduling part is removed** from RcloneOSX. It was based upon an early version of scheduling in RsyncOSX. But the scheduling in RsyncOSX is moved to a menu app and I am not able to do so for the RcloneOSX. The scheduling was not working as it should in RcloneOSX and I don´t have time to develop it further.
+The **scheduling part is removed** from RcloneOSX. It was based upon an previous version of scheduling in [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX). The scheduling in RsyncOSX is moved to a [menu app](https://github.com/rsyncOSX/RsyncOSXsched) and I am not able to do so for the RcloneOSX. The scheduling was not working as it should in RcloneOSX and I don´t have time to develop it further. That is the main reason for removing it in RcloneOSX.
 
 There is a new version 1.45 of rclone. If you are using version 1.45 of rclone you should download this version to get correct info about number of files to synchronize. There was a change in output from version 1.43 of rclone. This is set in userconfig of RcloneOSX.
 
