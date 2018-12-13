@@ -15,7 +15,7 @@ The following plan is in test (by choosing the button `Plan`). The plan is split
 
 - in the current week (this week): keep all snapshots
   - snapshots are marked with `this week`
-- in the current month (this month): for all weeks except this the current week keep all snapshots each Sunday
+- in the current month (this month): for all weeks in the current month exclude current week, keep all snapshots each Sunday
   - snapshots marked for delete are marked `this month`
 
 **Previous months**:
