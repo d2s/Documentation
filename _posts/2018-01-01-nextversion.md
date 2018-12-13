@@ -9,7 +9,7 @@ Deleting snapshots is a **destructive** operation and should be performed with c
 
 ![](/images/RsyncOSX/master/nextversion/plan1.png)
 
-The following plan is in test (by choosing the button `Plan`). The plan is split into three parts, this week, this month and previous months. Selection the button `Plan` only evaluates and suggests which snapshots to delete based upon the plan.
+The following plan is in test (by choosing the button `Plan`). The plan is split into three parts, this week, this month and previous months. Selecting the button `Plan` only evaluates and suggests which snapshots to delete based upon the plan.
 
 **This week and month**:
 
