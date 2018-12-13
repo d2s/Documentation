@@ -5,11 +5,9 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
-## Next version
+## Version 5.6.2 release candidate
 
 I have commenced work on next version of RsyncOSX. The major enhancement in this release is enabling plans for snapshots. A plan for a snapshot is which snapshots to keep and which to delete. See next [version](/nextversion) for some details.
-
-The rc is **not yet** released.
 
 ## Version 5.6.1
 
