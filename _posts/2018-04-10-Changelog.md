@@ -7,6 +7,8 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.6.2 release candidate
 
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.6.2rc) 13 December 2018.
+
 I have commenced work on next version of RsyncOSX. The major enhancement in this release is enabling plans for snapshots. A plan for a snapshot is which snapshots to keep and which to delete. See next [version](/nextversion) for some details.
 
 ## Version 5.6.1
