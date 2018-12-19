@@ -7,7 +7,7 @@ The work on snapshots is commenced. Deleting snapshots is now by mark the snapsh
 
 Deleting snapshots is a **destructive** operation and should be performed with care.
 
-![](/images/RsyncOSX/master/nextversion/plan1.png)
+![](/images/RsyncOSX/master/nextversion/plan.png)
 
 The following plan is in test (by choosing the button `Plan`). The plan is split into three parts, this week, this month and previous months. Selecting the button `Plan` only evaluates and suggests which snapshots to delete based upon the plan.
 
@@ -23,6 +23,9 @@ The following plan is in test (by choosing the button `Plan`). The plan is split
 - in previous months: keep snapshots last Sunday each month.
   - snapshots marked for delete are marked `prev months`
 
-![](/images/RsyncOSX/master/nextversion/plan2.png)
-
 To delete the suggested snapshots press the `Delete` button.
+
+In the Add view querying for remote capacity is added. The query get info from configurations as listed in main view. After adding a new task the query also includes the new task. The query only works for **online remote** servers. In the example the server 10.0.0.57 is not available.
+
+![](/images/RsyncOSX/master/nextversion/capacity1.png)
+![](/images/RsyncOSX/master/nextversion/capacity2.png)
