@@ -11,11 +11,15 @@ I am not an advanced user of `rclone`. My main use of RcloneOSX is  synchronizin
 
 To get an idea of how RcloneOSX is working please see the [intro](/Intro) to RsyncOSX. The operation and menus are mostly equal. The app is signed with my Apple ID developer certificate and [notarized](/Notarized) by Apple.
 
-See [releases](https://github.com/rsyncOSX/rcloneosx/releases) for download.
+## Version 1.7.1 release candidate
+
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.7.1rc) 21 December 2018.
+
+Fixed some minor bugs, further cleanup in code. 
 
 ## Version 1.7.0
 
-Released 7 December 2018.
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.7.0) 7 December 2018.
 
 The **scheduling part is removed** from RcloneOSX. It was based upon an previous version of scheduling in [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX). The scheduling in RsyncOSX is moved to a [menu app](https://github.com/rsyncOSX/RsyncOSXsched) and I am not able to do so for the RcloneOSX. The scheduling was not working as it should in RcloneOSX and I don´t have time to develop it further. That is the main reason for removing it in RcloneOSX.
 
