@@ -7,9 +7,21 @@ The work on snapshots is commenced. Deleting snapshots is now by mark the snapsh
 
 Deleting snapshots is a **destructive** operation and should be performed with care.
 
-![](/images/RsyncOSX/master/nextversion/plan.png)
+The `Plan` button is available after selecting a task and RsyncOSX has collected info about snapshots from remote server. In the views below the first snapshot is 28 Oct 2018 which is the last Sunday in October. The last snapshot is 26 December.
+
+![](/images/RsyncOSX/master/nextversion/plan1.png)
+![](/images/RsyncOSX/master/nextversion/plan2.png)
 
 The following plan is in test (by choosing the button `Plan`). The plan is split into three parts, this week, this month and previous months. Selecting the button `Plan` only evaluates and suggests which snapshots to delete based upon the plan.
+
+**Snapshots to keep**
+
+All snapshots to keep are either `this week` or `a Sunday`.  
+
+**Previous months**:
+
+- in previous months: keep snapshots last Sunday each month.
+  - snapshots marked for delete are marked `prev months`
 
 **This week and month**:
 
@@ -18,14 +30,10 @@ The following plan is in test (by choosing the button `Plan`). The plan is split
 - in the current month (this month): for all weeks in the current month exclude current week, keep all snapshots each Sunday
   - snapshots marked for delete are marked `this month`
 
-**Previous months**:
-
-- in previous months: keep snapshots last Sunday each month.
-  - snapshots marked for delete are marked `prev months`
-
 To delete the suggested snapshots press the `Delete` button.
+
+**Remote capacity**
 
 In the Add view querying for remote capacity is added. The query get info from configurations as listed in main view. After adding a new task the query also includes the new task. The query only works for **online remote** servers. In the example the server 10.0.0.57 is not available.
 
-![](/images/RsyncOSX/master/nextversion/capacity1.png)
-![](/images/RsyncOSX/master/nextversion/capacity2.png)
+![](/images/RsyncOSX/master/nextversion/capacity.png)
