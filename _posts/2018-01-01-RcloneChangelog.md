@@ -15,7 +15,10 @@ To get an idea of how RcloneOSX is working please see the [intro](/Intro) to Rsy
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.7.1rc) 21 December 2018.
 
-Fixed some minor bugs, further cleanup in code. 
+Fixed some minor bugs, further cleanup in code. New version of will be released in January 2019.
+
+RcloneOSX will be enhanced in 2019. Today RcloneOSX is a tool for backup and restore only. I dont know yet which rclone functions to include. I need to learn more about the tool itself.
+
 
 ## Version 1.7.0
 
