@@ -20,7 +20,7 @@ The snapshot feature enables saving changed and deleted files ahead of a new syn
     - see [RsyncOSX Readme](https://github.com/rsyncOSX/RsyncOSX) if you want to compile rsync yourself
 - use copy files function for restore of single files or catalogs
 
-## How does the snapshots works?
+## How does the snapshots work?
 
 Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the `--link-dest` parameter to rsync. The rsync parameters for snapshots are:
 
