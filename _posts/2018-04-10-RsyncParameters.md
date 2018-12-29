@@ -21,11 +21,11 @@ The following parameters are applied to all tasks.
 
 ## Standard parameters networked tasks only
 
-The following parameters are for _networked_ tasks only. A networked task is a task where destination is on a remote server, eiher on local LAN or on Internet.
+The following parameters are for networked tasks only. A networked task is a task where destination is on a remote server, either on local LAN or on Internet.
 
 - `--compress`
 	- compress files before transmitting, applies only if remote server
 - `- e ssh`
 	- to ensure rsync tunnels traffic through a ssh-tunnel, applies only if there is a remote server
-- `-e "ssh -p nn"`
-	- choose another port `nn` if standard port 22 is not used, enable by setting port number in parameters, applies only if remote server
+- `-e "ssh -p nnnn"`
+	- choose another port `nnnn` if standard port 22 is not used, enable by setting port number in parameters, applies only if remote server
