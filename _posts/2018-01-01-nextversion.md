@@ -3,7 +3,6 @@ layout: post
 title:  "Next version"
 permalink: nextversion
 ---
-The work on snapshots is commenced. Deleting snapshots is now by mark the snapshots or by selecting by number. In the next release there will be a plan for snapshots. A plan can be keep one snapshot each week, each month and so on. Plans or not yet implemented but will be before a new release.
 
 Deleting snapshots is a **destructive** operation and should be performed with care.
 
@@ -20,7 +19,7 @@ The following plan is in test. The plan is split into three parts, this week, th
 
 **Snapshots to keep**
 
-All snapshots to keep are marked either `this week` or as `a Sunday`. `a Sunday` is either this month (not this week) or previous months.
+All snapshots to keep are marked either `this week` or as `Sunday`. `Sunday` is either this month (not this week) or previous months.
 
 **Previous months**:
 

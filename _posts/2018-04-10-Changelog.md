@@ -5,15 +5,11 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
-## Version 5.6.2 release candidate
+## Version 5.6.2
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.6.2rc) 31 December 2018.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.6.2) 1 January 2019.
 
-A bug in plan for snapshots is fixed. 
-
-I have commenced work on next version of RsyncOSX. The major enhancement in this release is enabling plans for snapshots. A plan for a snapshot is which snapshots to keep and which to delete. See next [version](/nextversion) for some details.
-
-New version of will be released in January 2019.
+This is a maintenance release: cleanup in code, minor bugfixes and plan for snapshots. See [next version](/nextversion) for some details.
 
 ## Version 5.6.1
 
