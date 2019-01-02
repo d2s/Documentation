@@ -25,7 +25,7 @@ RsyncOSX does suggest a value for the `--backup-dir` but you might set it to wha
 
 ![](/images/RsyncOSX/master/rsync/rsync.png)
 
-### Setting suffix on saved files
+### Suffix on changed and deleted files
 
 Rsync can also set a time stamp as suffix on files. This might be useful if there are several revisions of files.
 
@@ -43,16 +43,10 @@ The user can set own parameters by using `user` in dropdown menu. Preset paramet
 
 - `user` - _user selected_ parameter
 	- RsyncOSX passes whatever set by user to rsync, parameters must be either `--parameter=value` or `--parameter`
+- `delete` - delete the parameter
+		- deletes the parameter when `OK` button is selected
+		- or just delete the `value` string
 - `--stats` - produces some more statistics
 	- parameter is forced on in dry-ryn to collect info about run
-- `--backup` - instructs rsync to backup changed files
-	- remember rsync is set to synchronize the source and destination folder (see [how to use RsyncOSX](HowtoUseRsyncOSX.md)), by setting this parameter instructs rsync to store changed files
-- `--backup-dir` - where to store changed or deleted files before rsync synchronize source and destination
-- `--exclude-from` - path to file which stores file patterns to **exclude** from rsync backup
-- `--include-from` - path to file which store file patterns to **include** from rsync backup
-- `--files-from` - path to file which store what to backup
-- `--max-size` - set max size of files to backup
-	- sample `--max-size=5MB` , files with size bigger than 5 megabyte (MB) are omitted
-- `delete` - delete the parameter
-	- deletes the parameter when `OK` button is selected
-	- or just delete the `value` string
+
+For other parameters to rsync please see the [rsync docs](https://download.samba.org/pub/rsync/rsync.html).
