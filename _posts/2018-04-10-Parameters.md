@@ -3,9 +3,8 @@ layout: post
 title:  "Parameters to rsync"
 permalink: Parameters
 ---
-The website LibreByte has written an article [14 Practical examples of the rsync command](http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/). One of the examples is instructing rsync to store backups of files in a backup folder and rename old files by a date suffix.
 
-Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
+The website LibreByte has written an article [16 Practical examples of the rsync command](http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/). One of the examples is instructing rsync to store backups of files in a backup folder and rename old files by a date suffix. Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
 - `--parameter=value`
 	- sample `--exclude-from=/Volumes/home/user/exclude-list.txt`
@@ -20,8 +19,7 @@ You can instruct rsync to save changed and deleted files in a separate backup ca
 
 - `--backup` parameter instructs rsync to save changed files
 - `--backup-dir` parameter where to save changed or deleted files before rsync synchronize source and destination
-
-RsyncOSX does suggest a value for the `--backup-dir` but you might set it to whatever you want.
+	- RsyncOSX does suggest a value for the `--backup-dir` but you might set it to whatever you want
 
 ![](/images/RsyncOSX/master/rsync/rsync.png)
 
@@ -29,7 +27,7 @@ RsyncOSX does suggest a value for the `--backup-dir` but you might set it to wha
 
 Rsync can also set a time stamp as suffix on files. This might be useful if there are several revisions of files.
 
-- `--suffix` parameter set suffix on files, suffix can be set on files together with the `--backup`parameter. One suffix might rename files which are either deleted or replaced newer files with a trailing date and time stamp.
+- `--suffix` parameter set suffix on files, suffix can be set on files together with the `--backup` parameter. One suffix might rename files which are either deleted or replaced newer files with a trailing date and time stamp.
 	- sample suffix <code>--suffix= _\`date +'%Y-%m-%d.%H.%M'` </code> (works on FreeBSD)
 	- sample suffix <code>--suffix= _$(date +%Y-%m-%d.%H.%M)`</code> (works on Linux)
 
@@ -41,7 +39,7 @@ The parameters in picture (below) instructs rsync to save changed files in catal
 
 The user can set own parameters by using `user` in dropdown menu. Preset parameters are:
 
-- `user` - _user selected_ parameter
+- `user` - user selected parameter
 	- RsyncOSX passes whatever set by user to rsync, parameters must be either `--parameter=value` or `--parameter`
 - `delete` - delete the parameter
 		- deletes the parameter when `OK` button is selected
