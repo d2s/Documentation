@@ -23,7 +23,7 @@ in default RsyncOSX. Old files in the remote are either
 replaced with new ones or deleted if so is true in source.
 ```
 - source: the local volume to be synchronized
-- remote: the remote location where source files and catalogs are copied (e.g. backed up)
+- remote: the remote location where source files and catalogs are copied
 
 What about revisions and deleted files? Either use the [snapshot feature](/Snapshots) or by [backup parameters](/Parameters) to rsync.
 
