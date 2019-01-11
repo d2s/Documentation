@@ -13,9 +13,10 @@ Configurations can be saved in user selected **profiles**. The profile in use is
 
 aRsyncGUI is a sandboxed macOS app and the first to do is ask for permission to read the users home catalog. The first time the user starts the app a view asking for allow.
 
-First to do is open a terminal and `cd` and `mkdir .ssh`. This creates the .ssh catalog which is required for enabling ssh passwordless logins to remote servers. After creating the `.ssh` catalog and start aRsyncGUI you are asked to allow aRsyncGUI to access the home catalog. Caution: you might have to change the selected catalog to the home catalog. 
+First to do is open a terminal and `cd` and `mkdir .ssh`. This creates the .ssh catalog which is required for enabling ssh passwordless logins to remote servers. After creating the `.ssh` catalog and start aRsyncGUI you are asked to allow aRsyncGUI to access the home catalog. **Caution**: you might have to change the selected catalog to the home catalog (e.g. `thomas`) before closing view with Allow.
 
 ![](/images/RsyncOSX/master/aRsyncGUIIntro/allow.png)
+The view shows which catalogs are granted access.
 ![](/images/RsyncOSX/master/aRsyncGUIIntro/main5.png)
 
 ## Where to start?
@@ -32,15 +33,15 @@ Go back to the `Execute` tab, select the task and you are ready to go.
 
 ## Type of tasks
 
-There are **three** types of how to synchronize source and destination (backup):
+There  **two** types of how to synchronize source and destination (backup):
 
 (1) **synchronize** source and backup location, any changed and deleted files in backup location will either be overwritten or deleted
   - this is the standard synchronize task in aRsyncGUI, after execution source and destination (backup) is 100% in sync if there are no `--exclude` parameters to rsync
   - an `--exclude` parameter instructs rsync to disregard files, catalogs and patterns included in the parameter
 
-(2) **snapshot**  tasks, a [snapshot](/Snapshots) of previous synchronize task is stored before a new task is executed, number of snapshots are user defined, copy deleted or previous versions of files from snapshots
+(2) **synchronize** and **save changed** and **deleted** files in a separate backup catalog by adding a [parameters](/Parameters) to rsync
 
-(3) **synchronize** and **save changed** and **deleted** files in a separate backup catalog by adding a [parameters](/Parameters) to rsync
+For the moment snapshot tasks is not possible in aRsyncGUI, see [the aRsyncGUI Changelog](/aRsyncGUIChangelog).
 
 ## How to execute any type of tasks
 
@@ -70,8 +71,6 @@ First select **one** task in Execute view, applies to (1) and (2) below.
 ![](/images/RsyncOSX/master/aRsyncGUIIntro/menu3.png)
 
 - tasks which are marked for batch are selected
-
-(6) **schedule** a task, scheduled tasks are executed according to date and time, either once, daily or weekly
 
 ## YouTube videos (of aRsyncGUI)
 
