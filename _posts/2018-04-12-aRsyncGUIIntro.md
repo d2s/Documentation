@@ -13,20 +13,20 @@ Configurations can be saved in user selected **profiles**. The profile in use is
 
 aRsyncGUI is a sandboxed macOS app and the first to do is ask for permission to read the users home catalog. The first time the user starts the app a view asking for allow.
 
-![](/images/aRsyncGUI/master/aRsyncGUIIntro/allow.png)
-![](/images/aRsyncGUI/master/aRsyncGUIIntro/main5.png)
+![](/images/RsyncOSX/master/aRsyncGUIIntro/allow.png)
+![](/images/RsyncOSX/master/aRsyncGUIIntro/main5.png)
 
 ## Where to start?
 
 You can get up and running in just a few clicks. Open aRsyncGUI and select the `Add` tab.
-![](/images/aRsyncGUI/master/aRsyncGUIIntro/main1.png)
+![](/images/RsyncOSX/master/aRsyncGUIIntro/main1.png)
 In the `Add` tab, as an example, add the Documents catalog as source and the tmp catalog as remote. This will setup a task to synchronize (backup) all content of the Documents to the tmp catalog. The tmp catalog can be an attached disk. Use drag and drop from Finder to add data.
 
 Select `Add` button to add task.
-![](/images/aRsyncGUI/master/aRsyncGUIIntro/main2.png)
-![](/images/aRsyncGUI/master/aRsyncGUIIntro/main3.png)
+![](/images/RsyncOSX/master/aRsyncGUIIntro/main2.png)
+![](/images/RsyncOSX/master/aRsyncGUIIntro/main3.png)
 Go back to the `Execute` tab, select the task and you are ready to go.
-![](/images/aRsyncGUI/master/aRsyncGUIIntro/main4.png)
+![](/images/RsyncOSX/master/aRsyncGUIIntro/main4.png)
 
 ## Type of tasks
 
@@ -44,7 +44,7 @@ There are **three** types of how to synchronize source and destination (backup):
 
 All tasks can be **aborted** at any time by selecting the stop button.
 
-![](/images/aRsyncGUI/master/aRsyncGUIIntro/menu1.png)
+![](/images/RsyncOSX/master/aRsyncGUIIntro/menu1.png)
 
 First select **one** task in Execute view, applies to (1) and (2) below.
 
@@ -55,17 +55,17 @@ First select **one** task in Execute view, applies to (1) and (2) below.
 
 (3) **`⌘B`** (execute all tasks now) - shortcut for **automatic executing** backups or by select the double arrow, the command checks tasks for files to be synchronized and automatically executes those tasks
 
-![](/images/aRsyncGUI/master/aRsyncGUIIntro/menu4.png)
+![](/images/RsyncOSX/master/aRsyncGUIIntro/menu4.png)
 
 (4) **quick backup**, select the marked arrow button in menu bar
 
-![](/images/aRsyncGUI/master/aRsyncGUIIntro/menu2.png)
+![](/images/RsyncOSX/master/aRsyncGUIIntro/menu2.png)
 
 - start with dynamic view of local vs remote storage, automatically selecting tasks with files to be synchronized
 
 (5) mark backup tasks for **batch**, select the marked arrow button in menu bar
 
-![](/images/aRsyncGUI/master/aRsyncGUIIntro/menu3.png)
+![](/images/RsyncOSX/master/aRsyncGUIIntro/menu3.png)
 
 - tasks which are marked for batch are selected
 
