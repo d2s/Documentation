@@ -3,7 +3,7 @@ layout: post
 title:  "A short intro to aRsyncGUI"
 permalink: aRsyncGUIIntro
 ---
-This page is a short intro to aRsyncGUI. For more details about the various functions of aRsyncGUI please see the [documentation](/AboutaRsyncGUI) about each function. Also be sure you understand  [the basics](/HowtoUseaRsyncGUI)  about how rsync works before using aRsyncGUI and rsync.
+This page is a short intro to aRsyncGUI. For more details about the various functions of aRsyncGUI please see the [documentation](/AboutaRsyncGUI) (RsyncOSX) about each function. Also be sure you understand  [the basics](/HowtoUseaRsyncGUI) (RsyncOSX) about how rsync works before using aRsyncGUI and rsync.
 
 All configurations to execute are listed in table. From the Execute view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed.
 
@@ -12,6 +12,8 @@ Configurations can be saved in user selected **profiles**. The profile in use is
 ## When you start
 
 aRsyncGUI is a sandboxed macOS app and the first to do is ask for permission to read the users home catalog. The first time the user starts the app a view asking for allow.
+
+First to do is open a terminal and `cd` and `mkdir .ssh`. This creates the .ssh catalog which is required for enabling ssh passwordless logins to remote servers. After creating the `.ssh` catalog and start aRsyncGUI you are asked to allow aRsyncGUI to access the home catalog. Caution: you might have to change the selected catalog to the home catalog. 
 
 ![](/images/RsyncOSX/master/aRsyncGUIIntro/allow.png)
 ![](/images/RsyncOSX/master/aRsyncGUIIntro/main5.png)
