@@ -13,11 +13,7 @@ Configurations can be saved in user selected **profiles**. The profile in use is
 
 aRsyncGUI is a sandboxed macOS app and the first to do is ask for permission to read the users home catalog. The first time the user starts the app a view asking for allow.
 
-First to do is open a terminal and `cd` and `mkdir .ssh`. This creates the .ssh catalog which is required for enabling ssh passwordless logins to remote servers. After creating the `.ssh` catalog and start aRsyncGUI you are asked to allow aRsyncGUI to access the home catalog. **Caution**: you might have to change the selected catalog to the home catalog (e.g. `thomas`) before closing view with Allow.
-
-![](/images/RsyncOSX/master/aRsyncGUIIntro/allow.png)
-The view shows which catalogs are granted access.
-![](/images/RsyncOSX/master/aRsyncGUIIntro/main5.png)
+The first time you start aRsyncGUI there are a few actions to do before using the app and remote servers. Please see the [start aRsyncGUI for the first time](/aRsyncGUIfirststart)
 
 ## Where to start?
 
