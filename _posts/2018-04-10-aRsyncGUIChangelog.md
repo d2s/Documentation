@@ -9,7 +9,7 @@ Rsync is a file-based synchronization and backup tool. There is no custom soluti
 
 ### Apple App Sandboxing technology
 
-Apple has the [App Sandboxing technology](https://developer.apple.com/app-sandboxing/) for protecting the user for malicious software. To release a macOS app on Apple Mac App Store require the app to execute inside a sandbox. This repository is a fork of RsyncOSX to enable aRsyncGUI to execute inside a sandbox and perhaps be released on the Mac App Store.
+Apple has the [App Sandboxing technology](https://developer.apple.com/app-sandboxing/) for protecting the user for malicious software. To release a macOS app on Apple Mac App Store require the app to execute inside a sandbox. This repository is a fork of RsyncOSX to enable aRsyncGUI to execute inside a sandbox and to be released on the Mac App Store.
 
 The name of the app is due to Apple naming conventions for apps released on the Mac App Store.
 
