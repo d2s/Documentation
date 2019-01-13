@@ -9,11 +9,13 @@ This guide is primary for executing synchronizing tasks to remote servers. This 
 
 ### Firs steps setting up passwordless logins for rsync
 
-See [manual setup of passwordless logins](/PasswordlessLogin) for info. Setting up passwordless logins is not required if this works before using aRsyncGUI. It is required that ssh certificates is utilizing the `.ssh` catalog in the users root catalog.
+See [manual setup of passwordless logins](/PasswordlessLogin) for info. Setting up passwordless logins is not required if this works before using aRsyncGUI. But it is **required** that ssh is utilizing the `.ssh` catalog in the users home root catalog.
 
 ### Create private and public ssh certificates
 
-If you plan utilizing aRsyncGUI with remote servers it is required to setup passwordless logins. Ssh saves by default, private ssh-keys in `.ssh` catalog on root. You need to assist aRsyncGUI a little bit. Open a terminal and `cd` to root and `mkdir .ssh` to create the catalog.
+If you plan utilizing aRsyncGUI with **remote servers** it is required to setup passwordless logins. Ssh saves by default, private ssh-keys in `.ssh` catalog on root. You need to assist aRsyncGUI a little bit. Open a terminal and `cd` to root and `mkdir .ssh` to create the catalog.
+
+If you only plan utilizing aRsyncGUIn with local attached volumes you might skip setup of passwordless logins.
 
 ![](/images/RsyncOSX/master/aRsyncGUIfirststart/main0.png)
 
@@ -44,10 +46,11 @@ After the synchronizing task is entered go back to the `Ssh` tab and let aRsyncG
 
 Select the `Remote` button and choose the correct remote server. Choose `Terminal.app` to open a terminal and copy and paste the three lines in that order into the terminal.
 
-The last action to do is select the `Check rsa` and `Check dsa` to verify and set correct permissions on the remote `.ssh` catalog and public ssh-keys.
-
 ![](/images/RsyncOSX/master/aRsyncGUIfirststart/main7.png)
 ![](/images/RsyncOSX/master/aRsyncGUIfirststart/main8.png)
+
+The last action to do is select the `Check rsa` and `Check dsa` to verify and set correct permissions on the remote `.ssh` catalog and public ssh-keys.
+
 ![](/images/RsyncOSX/master/aRsyncGUIfirststart/main9.png)
 
 ### Ready for first synchronizing tasks

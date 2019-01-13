@@ -17,19 +17,19 @@ The first time you start aRsyncGUI there are a few actions to do before using th
 
 ## Where to start?
 
-You can get up and running in just a few clicks. Open aRsyncGUI and select the `Add` tab.
-![](/images/RsyncOSX/master/aRsyncGUIIntro/main1.png)
-In the `Add` tab, as an example, add the Documents catalog as source and the tmp catalog as remote. This will setup a task to synchronize (backup) all content of the Documents to the tmp catalog. The tmp catalog can be an attached disk. Use drag and drop from Finder to add data.
+You can get up and running in just a few clicks. Open RsyncOSX and select the `Add` tab.
+![](/images/RsyncOSX/master/intro/main1.png)
+In the `Add` tab, as an example, add the Documents catalog as source and the `/Volumes/backup/Documents` catalog as remote. This will setup a task to synchronize (backup) all content of the Documents to the attached `backup` volume in catalog `Documents`. Use drag and drop from Finder to add data.
 
 Select `Add` button to add task.
-![](/images/RsyncOSX/master/aRsyncGUIIntro/main2.png)
-![](/images/RsyncOSX/master/aRsyncGUIIntro/main3.png)
+![](/images/RsyncOSX/master/intro/main2.png)
+![](/images/RsyncOSX/master/intro/main3.png)
 Go back to the `Execute` tab, select the task and you are ready to go.
-![](/images/RsyncOSX/master/aRsyncGUIIntro/main4.png)
+![](/images/RsyncOSX/master/intro/main4.png)
 
 ## Type of tasks
 
-There  **two** types of how to synchronize source and destination (backup):
+There  are **two** types of how to synchronize source and destination (backup):
 
 (1) **synchronize** source and backup location, any changed and deleted files in backup location will either be overwritten or deleted
   - this is the standard synchronize task in aRsyncGUI, after execution source and destination (backup) is 100% in sync if there are no `--exclude` parameters to rsync
