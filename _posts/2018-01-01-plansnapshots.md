@@ -40,9 +40,3 @@ The `Plan` button is available after selecting a task and RsyncOSX has collected
 
 ![](/images/RsyncOSX/master/plansnapshots/plan1.png)
 ![](/images/RsyncOSX/master/plansnapshots/plan2.png)
-
-**Remote capacity**
-
-In the Add view querying for remote capacity is added. The query get info from configurations as listed in main view. After adding a new task the query also includes the new task. The query only works for **online remote** servers. In the screenshot the server 10.0.0.57 is not available.
-
-![](/images/RsyncOSX/master/plansnapshots/capacity.png)
