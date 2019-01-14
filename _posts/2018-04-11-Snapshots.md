@@ -4,8 +4,11 @@ title:  "Snapshots"
 permalink: Snapshots
 ---
 Snapshot is very effective method for saving changed and deleted data. As an example my GitHub local catalog is about 677 MB in size. This is the size of the oldest snapshot. There are 17 snapshots of my GitHub local catalog and all of them are only 994 MB in size including the oldest snapshot.
+
 ![](/images/RsyncOSX/master/snapshots/snapdemo1.png)
+
 All 17 snapshots are about 150,000 files and catalogs. Most of them are [hardlinks](https://en.wikipedia.org/wiki/Hard_link) only. If all snapshots was expanded there should be about 16 times more data stored in my NAS. Only changed or deleted files are stored. Files which are not changed or deleted are hardlinked only.
+
 ![](/images/RsyncOSX/master/snapshots/snapdemo2.png)
 
 ## Snapshot administration
@@ -48,20 +51,7 @@ When the old snapshots are deleted, the filesystem takes care of saving the real
 
 ### Create a snapshot task
 
-In the samples below:
-
-- the source catalog is `/Volumes/Home/user/Documents/`
-- and the snapshots in catalog `~/Documents/` on server `freenas.local`
-
-To create a snapshot task select `snapshots` as type.
-
-![Execute view](/images/RsyncOSX/master/add/add2.png)
-
-### Ready for next snapshot
-
-The rsync command shows the command to be executed.
-
-![Execute view](/images/RsyncOSX/master/snapshots/readyforbackup.png)
+To create a snapshot task select `snapshots` as type in `Add` tab.
 
 ```
 Important: do not copy and paste command for execution within
@@ -74,16 +64,6 @@ and is picked up from the configuration.
 
 Delete old snapshots by [plan](/Plansnapshots). Snapshots can also be deleted by `n -1 ` snapshots. The last snapshot `n` is never deleted.
 
-## Logs, search and restore
+## Restore
 
-A full restore of the latest snapshot by utilizing the full restore. It is recommended to restore to a temporary catalog.
-
-![Execute view](/images/RsyncOSX/master/snapshots/fullrestore.png)
-
-By utilizing the copy files functionality single files or catalogs can be restored from snapshots. Logs are marked with snapshot number.
-
-![Execute view](/images/RsyncOSX/master/snapshots/copyfiles1.png)
-
-Filter all files in snapshot #65.
-
-![Execute view](/images/RsyncOSX/master/snapshots/copyfiles2.png)
+A full restore of the latest snapshot by utilizing the full restore. It is recommended to restore to a temporary catalog. By utilizing the copy files functionality single files or catalogs can be restored from any snapshot. Logs are marked with snapshot number.
