@@ -3,7 +3,7 @@ layout: post
 title:  "A short intro to aRsyncGUI"
 permalink: aRsyncGUIIntro
 ---
-This page is a short intro to aRsyncGUI. For more details about the various functions of aRsyncGUI please see the [documentation](/AboutaRsyncGUI) (RsyncOSX) about each function. Also be sure you understand  [the basics](/HowtoUseaRsyncGUI) (RsyncOSX) about how rsync works before using aRsyncGUI and rsync.
+This page is a short intro to aRsyncGUI. For more details about the various functions of aRsyncGUI please see the [documentation](/AboutaRsyncGUI) (RsyncOSX) about each function. Also be sure you understand [the basics](/HowtoUseRsyncOSX) (RsyncOSX) about how rsync works before using aRsyncGUI and rsync.
 
 All configurations to execute are listed in table. From the Execute view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed.
 
