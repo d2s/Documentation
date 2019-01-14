@@ -5,17 +5,15 @@ permalink: aRsyncGUIfirststart
 ---
 This page is a short guide what to do when first start of aRsyncGUI. For more details about the various functions of aRsyncGUI please see the [documentation](/AboutaRsyncGUI) (RsyncOSX) about each function. Also be sure you understand  [the basics](/HowtoUseaRsyncGUI) (RsyncOSX) about how rsync works before using aRsyncGUI and rsync.
 
-This guide is primary for executing synchronizing tasks to remote servers. This version does not yet support snapshot tasks. If you want to utilize [snapshot tasks](/Snapshots) please use RsyncOSX instead.
+This guide is primary for executing synchronizing tasks to **remote servers**. This version does not yet support snapshot tasks. If you want to utilize [snapshot tasks](/Snapshots) please use RsyncOSX instead. If you plan only utilizing aRsyncGUI on local attached volumes you can skip this guid.
 
 ### Firs steps setting up passwordless logins for rsync
 
-See [manual setup of passwordless logins](/PasswordlessLogin) for info. Setting up passwordless logins is not required if this works before using aRsyncGUI. But it is **required** that ssh is utilizing the `.ssh` catalog in the users home root catalog.
+See [manual setup of passwordless logins](/PasswordlessLogin) for info. Setting up passwordless logins is not required if this works before using aRsyncGUI. It is **required** that ssh is utilizing the `.ssh` catalog in the users home root catalog.
 
 ### Create private and public ssh certificates
 
 If you plan utilizing aRsyncGUI with **remote servers** it is required to setup passwordless logins. Ssh saves by default, private ssh-keys in `.ssh` catalog on root. You need to assist aRsyncGUI a little bit. Open a terminal and `cd` to root and `mkdir .ssh` to create the catalog.
-
-If you only plan utilizing aRsyncGUIn with local attached volumes you might skip setup of passwordless logins.
 
 ![](/images/RsyncOSX/master/aRsyncGUIfirststart/main0.png)
 
@@ -23,7 +21,7 @@ If you don´t do the above creating the ssh keypair by utiling the ssh assistent
 
 ![](/images/RsyncOSX/master/aRsyncGUIfirststart/main1.png)
 
-After creating the `.ssh` catalog (before starting aRsyncGUI) the app asks for permission to access the root catalog. Before choosing `Allow` select the root catalog.
+After creating the `.ssh` catalog (before starting aRsyncGUI) the app asks for permission to access the root catalog. Before choosing `Allow` select your home root catalog.
 
 ![](/images/RsyncOSX/master/aRsyncGUIfirststart/main2.png)
 
