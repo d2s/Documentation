@@ -3,7 +3,7 @@ layout: post
 title:  "Scheduled task"
 permalink: ScheduleTasks
 ---
-The [menu app](/Menuapp) to RsyncOSX is responsible for executing scheduled tasks. Adding and deleting scheduled tasks are done within RsyncOSX. By selecting a row and choose schedule applies a scheduled. All schedules is set to start at selected date.
+The [menu app](/Menuapp) to RsyncOSX is responsible for **executing scheduled tasks**. Adding and deleting scheduled tasks are done within RsyncOSX. By selecting a row and choose schedule applies a scheduled. All schedules is set to start at selected date.
 
 The menu app is reloading the schedules after each scheduled task is completed. By reloading the schedules all changes is also applied to the menu app.
 
@@ -12,9 +12,9 @@ There are three choices for schedules:
 - `once`
 	- is executed _once_ at date and time given
 - `daily`
-	- is executed _every 24-hour_
+	- is executed _every 24-hour_ from a selected date
 - `weekly`
-	- as for daily, but _every 7 day_
+	- as for daily, but _every 7 day_ from a selected date
 
 Select task (row), set the start date and time and select the schedule (once, daily or weekly) to set up a schedule. The schedule is a stack of tasks. The top most element is the first task to be executed. RsyncOSX keeps track of the first task only. All other scheduled tasks remains on stack until popped of.
 

@@ -50,7 +50,4 @@ In right corner down the version of rsync utilized is presented.
 
 ### No rsync i path
 
-The views below is what happens if a not valid rsync path is set. An error is presented in bottom of user configuration.
-![](/images/RsyncOSX/master/userconfig/user2.png)
-If there still is a missing rsync in optional path no execution of tasks is allowed (it gives no meaning of executing a task without a rsync).
-![](/images/RsyncOSX/master/userconfig/user4.png)
+If there is a not valid rsync path is set an error is presented in bottom of user configuration. If there still is a missing rsync in optional path no execution of tasks is allowed (it gives no meaning of executing a task without a rsync).
