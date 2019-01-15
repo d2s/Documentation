@@ -5,11 +5,11 @@ permalink: aRsyncGUIfirststart
 ---
 This page is a short guide what to do when first start of aRsyncGUI. For more details about the various functions of aRsyncGUI please see the [documentation](/AboutaRsyncGUI) (RsyncOSX) about each function. Also be sure you understand  [the basics](/HowtoUseaRsyncGUI) (RsyncOSX) about how rsync works before using aRsyncGUI and rsync.
 
-This guide is primary for executing synchronizing tasks to **remote servers**. This version does not yet support snapshot tasks. If you want to utilize [snapshot tasks](/Snapshots) please use RsyncOSX instead. If you plan only utilizing aRsyncGUI on local attached volumes you can skip this guid.
+This guide is primarily for executing synchronizing tasks to **remote servers**. This version does not yet support snapshot tasks. If you want to utilize [snapshot tasks](/Snapshots) please use RsyncOSX instead. If you plan only utilizing aRsyncGUI on local attached volumes you can skip this guid.
 
 ### Firs steps setting up passwordless logins for rsync
 
-See [manual setup of passwordless logins](/PasswordlessLogin) for info. Setting up passwordless logins is not required if this works before using aRsyncGUI. It is **required** that ssh is utilizing the `.ssh` catalog in the users home root catalog.
+See [manual setup of passwordless logins](/PasswordlessLogin) or the [RsyncOSX guide](/ssh) for info. Setting up passwordless logins is not required if this works before using aRsyncGUI. It is **required** that ssh is utilizing the `.ssh` catalog in the users home root catalog.
 
 ### Create private and public ssh certificates
 

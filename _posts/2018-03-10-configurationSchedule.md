@@ -9,8 +9,6 @@ Manually executed task is stamped with `dateStart = 01 Jan 1900 00:00` (US-forma
 
 The above is used to group log records e.g in [table view](/ScheduleTasks).
 
-![Execute view](/images/RsyncOSX/master/scheduling/schedule4.png)
-
 A log record is constructed by number of files, size of transferred files in time (`58 files : 5.04 MB in 2.50 seconds`) as reported from rsync. The output from rsync is checked and all numbers are copied from the rsync output. Every log record is linked to its parent schedule by the function `computeKey`.
 
 A log record is appended to the schedule record as a `NSMutableDictionary`.
