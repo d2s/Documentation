@@ -3,25 +3,25 @@ layout: post
 title:  "First time start RsyncGUI"
 permalink: RsyncGUIfirststart
 ---
-This page is a short guide what to do when first start of aRsyncGUI. For more details about the various functions of aRsyncGUI please see the [documentation](/AboutaRsyncGUI) (RsyncOSX) about each function. Also be sure you understand  [the basics](/HowtoUseaRsyncGUI) (RsyncOSX) about how rsync works before using aRsyncGUI and rsync.
+This page is a short guide what to do when first start of RsyncGUI. For more details about the various functions of RsyncGUI please see the [documentation](/AboutRsyncGUI) (RsyncOSX) about each function. Also be sure you understand  [the basics](/HowtoUseRsyncGUI) (RsyncOSX) about how rsync works before using RsyncGUI and rsync.
 
-This guide is primarily for executing synchronizing tasks to **remote servers**. This version does not yet support snapshot tasks. If you want to utilize [snapshot tasks](/Snapshots) please use RsyncOSX instead. If you plan only utilizing aRsyncGUI on local attached volumes you can skip this guid.
+This guide is primarily for executing synchronizing tasks to **remote servers**. This version does not yet support snapshot tasks. If you want to utilize [snapshot tasks](/Snapshots) please use RsyncOSX instead. If you plan only utilizing RsyncGUI on local attached volumes you can skip this guid.
 
 ### Firs steps setting up passwordless logins for rsync
 
-See [manual setup of passwordless logins](/PasswordlessLogin) or the [RsyncOSX guide](/ssh) for info. Setting up passwordless logins is not required if this works before using aRsyncGUI. It is **required** that ssh is utilizing the `.ssh` catalog in the users home root catalog.
+See [manual setup of passwordless logins](/PasswordlessLogin) or the [RsyncOSX guide](/ssh) for info. Setting up passwordless logins is not required if this works before using RsyncGUI. It is **required** that ssh is utilizing the `.ssh` catalog in the users home root catalog.
 
 ### Create private and public ssh certificates
 
-If you plan utilizing aRsyncGUI with **remote servers** it is required to setup passwordless logins. Ssh saves by default, private ssh-keys in `.ssh` catalog on root. You need to assist aRsyncGUI a little bit. Open a terminal and `cd` to root and `mkdir .ssh` to create the catalog.
+If you plan utilizing RsyncGUI with **remote servers** it is required to setup passwordless logins. Ssh saves by default, private ssh-keys in `.ssh` catalog on root. You need to assist RsyncGUI a little bit. Open a terminal and `cd` to root and `mkdir .ssh` to create the catalog.
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/main0.png)
 
-If you don´t do the above creating the ssh keypair by utiling the ssh assistent in aRsyncGUI will not work.
+If you don´t do the above creating the ssh keypair by utiling the ssh assistent in RsyncGUI will not work.
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/main1.png)
 
-After creating the `.ssh` catalog (before starting aRsyncGUI) the app asks for permission to access the root catalog. Before choosing `Allow` select your home root catalog.
+After creating the `.ssh` catalog (before starting RsyncGUI) the app asks for permission to access the root catalog. Before choosing `Allow` select your home root catalog.
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/main2.png)
 
@@ -38,7 +38,7 @@ Then it is time to add a synchronizing task with a remote destination.
 
 ### Transferring public ssh certificates
 
-After the synchronizing task is entered go back to the `Ssh` tab and let aRsyncGUI assist you in transferring the public ssh-keys to the remote server.
+After the synchronizing task is entered go back to the `Ssh` tab and let RsyncGUI assist you in transferring the public ssh-keys to the remote server.
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/main6.png)
 

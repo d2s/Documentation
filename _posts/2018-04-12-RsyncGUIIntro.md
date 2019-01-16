@@ -3,7 +3,7 @@ layout: post
 title:  "A short intro to RsyncGUI"
 permalink: RsyncGUIIntro
 ---
-This page is a short intro to aRsyncGUI. For more details about the various functions of aRsyncGUI please see the [documentation](/AboutaRsyncGUI) (RsyncOSX) about each function. Also be sure you understand [the basics](/HowtoUseRsyncOSX) (RsyncOSX) about how rsync works before using aRsyncGUI and rsync.
+This page is a short intro to RsyncGUI. For more details about the various functions of RsyncGUI please see the [documentation](/AboutRsyncGUI) (RsyncOSX) about each function. Also be sure you understand [the basics](/HowtoUseRsyncOSX) (RsyncOSX) about how rsync works before using RsyncGUI and rsync.
 
 All configurations to execute are listed in table. From the Execute view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed.
 
@@ -11,13 +11,13 @@ Configurations can be saved in user selected **profiles**. The profile in use is
 
 ## When you start
 
-aRsyncGUI is a sandboxed macOS app and the first to do is ask for permission to read the users home catalog. The first time the user starts the app a view asking for allow.
+RsyncGUI is a sandboxed macOS app and the first to do is ask for permission to read the users home catalog. The first time the user starts the app a view asking for allow.
 
-The first time you start aRsyncGUI there are a few actions to do before using the app and remote servers. Please see the [start aRsyncGUI for the first time](/aRsyncGUIfirststart).
+The first time you start RsyncGUI there are a few actions to do before using the app and remote servers. Please see the [start RsyncGUI for the first time](/RsyncGUIfirststart).
 
 ## Where to start?
 
-You can get up and running in just a few clicks. Open aRsyncGUI and select the `Add` tab.
+You can get up and running in just a few clicks. Open RsyncGUI and select the `Add` tab.
 ![](/images/RsyncOSX/master/intro/main1.png)
 In the `Add` tab, as an example, add the Documents catalog as source and the `/Volumes/backup/Documents` catalog as remote. This will setup a task to synchronize (backup) all content of the Documents to the attached `backup` volume in catalog `Documents`. Use drag and drop from Finder to add data.
 
@@ -32,12 +32,12 @@ Go back to the `Execute` tab, select the task and you are ready to go.
 There  are **two** types of how to synchronize source and destination (backup):
 
 (1) **synchronize** source and backup location, any changed and deleted files in backup location will either be overwritten or deleted
-  - this is the standard synchronize task in aRsyncGUI, after execution source and destination (backup) is 100% in sync if there are no `--exclude` parameters to rsync
+  - this is the standard synchronize task in RsyncGUI, after execution source and destination (backup) is 100% in sync if there are no `--exclude` parameters to rsync
   - an `--exclude` parameter instructs rsync to disregard files, catalogs and patterns included in the parameter
 
 (2) **synchronize** and **save changed** and **deleted** files in a separate backup catalog by adding a [parameters](/Parameters) to rsync
 
-For the moment snapshot tasks is not possible in aRsyncGUI, see [the aRsyncGUI Changelog](/aRsyncGUIChangelog).
+For the moment snapshot tasks is not possible in RsyncGUI, see [the RsyncGUI Changelog](/RsyncGUIChangelog).
 
 ## How to execute any type of tasks
 
@@ -68,9 +68,9 @@ First select **one** task in Execute view, applies to (1) and (2) below.
 
 - tasks which are marked for batch are selected
 
-## YouTube videos (of aRsyncGUI)
+## YouTube videos (of RsyncGUI)
 
-There are four short YouTube videos of aRsyncGUI:
+There are four short YouTube videos of RsyncGUI:
 
 - adding and executing the [first backup](https://youtu.be/8oe1lKgiDx8)
 - doing a full [restore](https://youtu.be/-R6n_8fl6Ls) to a temporary local restore catalogs
