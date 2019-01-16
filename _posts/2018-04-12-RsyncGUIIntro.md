@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "A short intro to aRsyncGUI"
-permalink: aRsyncGUIIntro
+title:  "A short intro to RsyncGUI"
+permalink: RsyncGUIIntro
 ---
 This page is a short intro to aRsyncGUI. For more details about the various functions of aRsyncGUI please see the [documentation](/AboutaRsyncGUI) (RsyncOSX) about each function. Also be sure you understand [the basics](/HowtoUseRsyncOSX) (RsyncOSX) about how rsync works before using aRsyncGUI and rsync.
 

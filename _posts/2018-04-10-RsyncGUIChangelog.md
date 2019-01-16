@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "aRsyncGUI Changelog"
-permalink: aRsyncGUIChangelog
+title:  "RsyncGUI Changelog"
+permalink: RsyncGUIChangelog
 ---
 aRsyncGUI is compiled with support for macOS Sierra version 10.12 - macOS Mojave version 10.14. The application is implemented in Swift 4 by using Xcode 10.
 
