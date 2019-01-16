@@ -9,7 +9,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.6.2) 1 January 2019.
 
-This is a maintenance release: cleanup in code, minor bugfixes and plan for snapshots. See [next version](/nextversion) for some details.
+This is a maintenance release: cleanup in code, minor bugfixes and [plan](/Plansnapshots) for snapshots.
 
 ## Version 5.6.1
 
