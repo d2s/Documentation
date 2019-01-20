@@ -9,18 +9,21 @@ This guide is primarily for executing synchronizing tasks to **remote servers**.
 
 ### First start of RsyncGUI
 
-The first action required when starting RsyncGUI for the first time is to allow RsyncGUI to access the root home catalog. Before choosing `Allow` select your home root catalog.
-
+The first action required when starting RsyncGUI for the first time is to allow RsyncGUI to access the root home catalog. Before choosing `Allow` select your root home catalog.
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/main2.png)
 
-### Firs steps setting up passwordless logins for rsync
+### If you plan utilizing remote servers
+
+If you plan utilizing remote servers the following steps are required. It is only required if you have not setup the ssh private and public key-pair before. The private ssh keys are created and saved in `.ssh` catalog in your root home catalog.
+
+### First steps setting up passwordless logins for rsync
 
 See [manual setup of passwordless logins](/PasswordlessLogin) or the [RsyncOSX guide](/ssh) for info. Setting up passwordless logins is not required if this works before using RsyncGUI. It is **required** that ssh is utilizing the `.ssh` catalog in the users home root catalog.
 
 ### Create private and public ssh certificates
 
-If you plan utilizing RsyncGUI with **remote servers** it is required to setup passwordless logins. Ssh saves by default, private ssh-keys in `.ssh` catalog on root. RsyncGUI can assist you creating both the `.ssh` catalog and private and public key pair. If this is created **before** using RsyncGUI this action is not required.
+Ssh saves by default, private ssh-keys in `.ssh` catalog on root of your home catalog. RsyncGUI can assist you creating both the `.ssh` catalog and private and public key pair. If this is created **before** using RsyncGUI this action is not required.
 
 Select the `Ssh` tab and create both keys.
 
