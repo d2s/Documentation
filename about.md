@@ -17,7 +17,8 @@ If you like using RsyncOSX or RcloneOSX please consider giving me a star on the 
 
 There are three MacOS applications:
 - [RsyncOSX](/AboutRsyncOSX) a GUI for rsync
-- [A menuapp](/Menuapp) for executing scheduled RsyncOSX tasks
+- [The menuapp](/Menuapp) for executing scheduled RsyncOSX tasks
+- [RsyncGUI](/RsyncGUIChangelog) an Apple Sandboxed version of RsyncOSX
 - [RcloneOSX](/RcloneIntro) a GUI for rclone
 
 All three MacOS applications are compiled with support for macOS 10.11 - 10.14.
