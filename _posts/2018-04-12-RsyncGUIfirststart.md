@@ -3,7 +3,7 @@ layout: post
 title:  "First time start RsyncGUI"
 permalink: RsyncGUIfirststart
 ---
-This page is a short guide what to do when first start of RsyncGUI. For more details about the various functions of RsyncGUI please see the [documentation](/AboutRsyncGUI) (RsyncOSX) about each function. Also be sure you understand  [the basics](/HowtoUseRsyncGUI) (RsyncOSX) about how rsync works before using RsyncGUI and rsync.
+This page is a short guide what to do when first start of RsyncGUI. For more details about the various functions of RsyncGUI please see the [documentation](/AboutRsyncOSX) (RsyncOSX) about each function. Also be sure you understand  [the basics](/HowtoUseRsyncOSX) (RsyncOSX) about how rsync works before using RsyncGUI and rsync.
 
 This guide is primarily for executing synchronizing tasks to **remote servers**. This version does not yet support snapshot tasks. If you want to utilize [snapshot tasks](/Snapshots) please use RsyncOSX instead. If you plan only utilizing RsyncGUI on local attached volumes you can skip this guid.
 
