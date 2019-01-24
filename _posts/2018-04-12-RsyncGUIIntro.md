@@ -17,7 +17,7 @@ The first time you start RsyncGUI there are a few actions to do before using the
 
 ## Where to start?
 
-You can get up and running in just a few clicks. Open RsyncGUI and select the `Add` tab.
+You can get up and running in just a few clicks. Open RsyncGUI and select the `Add` tab. Use the GUI to select any local and attached volumes. If not RsyncGUI will ask for permission to access these catalogs after entering.
 ![](/images/RsyncOSX/master/intro/main1.png)
 In the `Add` tab, as an example, add the Documents catalog as source and the `/Volumes/backup/Documents` catalog as remote. This will setup a task to synchronize (backup) all content of the Documents to the attached `backup` volume in catalog `Documents`. Use drag and drop from Finder to add data.
 
