@@ -17,7 +17,7 @@ The app is working but there are still work to do regarding how the user to enab
 
 ## Version 1.0.0
 
-The app is released on Apple Mac App Store 25 January 2019.
+The app is [released](https://itunes.apple.com/us/app/rsyncgui/id1449707783?l=nb&ls=1&mt=12) on Apple Mac App Store 24 January 2019.
 
 RsyncGUI is a sandboxed version of RsyncOSX. There are a few limitations compared to RsyncOSX. Due to limitations within the Sandbox technology executing third party command line utilities is not allowed.
 
