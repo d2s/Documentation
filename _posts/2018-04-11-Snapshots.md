@@ -13,7 +13,7 @@ All 17 snapshots are about 150,000 files and catalogs. Most of them are [hardlin
 
 ## Snapshot administration
 
-Deleting snapshots see last on page. Deleting snapshots is a **destructive** operation and should be performed with care.
+Deleting snapshots is a **destructive** operation and should be performed with care. More info about deleting snapshots see last in page.
 
 ## Utilizing Snapshots
 
