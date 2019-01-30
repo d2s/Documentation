@@ -5,6 +5,19 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
+## Next versions
+
+Apple has released Xcode 10.12 beta and beta Swift 5. There is fixed one bug causing RsyncOSX to crash if other versions than 2.6.9, 3.1.2 or 3.1.3 of rsync is used. This applies to both local rsync and remote rsync if remote servers is utilized.
+
+The following fixes and enhancements will be part of next release:
+
+- compiled by new release of Xcode and adapted to Swift 5
+- fixed bug if non supported versions of rsync is utilized
+- added new plan for deleting snapshots, there is now two plans
+- some other minor enhancements as well
+
+There will be a release candidate sometime in February.
+
 ## Version 5.6.2
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.6.2) 1 January 2019.
