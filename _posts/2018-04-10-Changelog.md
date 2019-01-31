@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Next version
 
-Apple has released Xcode 10.12 beta and beta Swift 5. There is fixed one bug causing RsyncOSX to crash if other versions than 2.6.9, 3.1.2 or 3.1.3 of rsync is used. This applies to both local rsync and remote rsync if remote servers is utilized.
+Apple has released Xcode 10.2 beta and beta Swift 5. There is fixed one bug causing RsyncOSX to crash if other versions than 2.6.9, 3.1.2 or 3.1.3 of rsync is used. This applies to both local rsync and remote rsync if remote servers is utilized.
 
 The following fixes and enhancements will be part of next release:
 
