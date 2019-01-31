@@ -14,6 +14,8 @@ The following fixes and enhancements will be part of next release:
 - compiled by new release of Xcode and adapted to Swift 5
 - fixed bug if non supported versions of rsync is utilized
 - added new plan for deleting snapshots, there is now two plans
+	- plan 1: keeps last Sunday previous months, every Sunday this mont and all snapshots this week
+	- plan 2: keeps all Sundays previous months, every Sunday this mont and all snapshots this week
 - some other minor enhancements as well
 
 There will be a release candidate sometime in February.
