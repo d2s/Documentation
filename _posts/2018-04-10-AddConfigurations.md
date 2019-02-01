@@ -17,7 +17,7 @@ Local catalog and Remote catalog are added either by using *drag and drop* from 
 
 ![Execute view](/images/RsyncOSX/master/add/add2.png)
 
-- **Local catalog**: `/Volumes/Home/thomas/Documents/`
+- **Local catalog**: `/Users/thomas/Documents/`
   - my Documents catalog in my home catalog
   - required field
 - **Remote catalog**: `~/Documents/`
@@ -26,7 +26,7 @@ Local catalog and Remote catalog are added either by using *drag and drop* from 
   - required field
 - **Remote username**: `thomas`
   - username for login to remote server
-- **Remote server**: `freenas.local`
+- **Remote server**: `10.0.0.57`
   - either server name or IP-adress for remote server
 - **ssh port**:
   - if ssh communicates through other than standard port it must be set here, port 22 is default port for ssh and not require to set
@@ -45,8 +45,4 @@ require to setup passwordless logins by ssh-keys.
 ```
 See [passwordless logins](/ssh).
 
-### The Add button
-
 Select the `Add` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Execute view. Additional parameters to rsync might be added utilizing the `Params` button.
-
-![Configurations added](/images/RsyncOSX/master/add/add4.png)
