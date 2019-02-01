@@ -15,6 +15,8 @@ There are three types of tasks, `synchronize` which is standard, `snapshots` and
 
 Local catalog and Remote catalog are added either by using *drag and drop* from filemanager or *by text* only. If enter by text please remember to add the full path. Remote catalogs is entered either by full paths or use the `~` character to expand remote user home catalog. See sample configuration.
 
+The `Capacity` button query remote storage all configurations about available storage space. Only valid for remote hosts. 
+
 ![Execute view](/images/RsyncOSX/master/add/add2.png)
 
 - **Local catalog**: `/Users/thomas/Documents/`
