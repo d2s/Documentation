@@ -7,6 +7,8 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.7.0 release candidate
 
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.7.0rc) 2 February 2019.
+
 There is fixed one bug causing RsyncOSX to crash if other versions than 2.6.9, 3.1.2 or 3.1.3 of rsync is used. This applies to both local rsync and remote rsync if remote servers is utilized.
 
 The following fixes and enhancements will be part of next release:
@@ -16,6 +18,8 @@ The following fixes and enhancements will be part of next release:
 	- plan 1: keeps last Sunday previous months, every Sunday this mont and all snapshots this week
 	- plan 2: keeps all Sundays previous months, every Sunday this mont and all snapshots this week
 - some other minor enhancements as well
+
+This will be the last version compiled and released with current released version of Xcode and Swift. Xcode 10.2 and Swift 5 are out as beta and most likely will be released within some months.
 
 ## Version 5.6.2
 
