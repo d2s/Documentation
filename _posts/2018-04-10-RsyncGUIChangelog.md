@@ -9,11 +9,11 @@ Rsync is a file-based synchronization and backup tool. There is no custom soluti
 
 ### Apple App Sandboxing technology
 
-Apple has the [App Sandboxing technology](https://developer.apple.com/app-sandboxing/) for protecting the user for malicious software. To release a macOS app on Apple Mac App Store require the app to execute inside a sandbox. This repository is a fork of RsyncOSX to enable RsyncGUI to execute inside a sandbox and to be released on the Mac App Store.
+Apple has the [App Sandboxing technology](https://developer.apple.com/app-sandboxing/) for protecting the user for malicious software. To release a macOS app on Apple Mac App Store require the app to execute inside a sandbox. This repository is a fork of RsyncOSX to enable RsyncGUI to execute inside a sandbox.
 
-The name of the app is due to Apple naming conventions for apps released on the Mac App Store.
+## Version 1.0.1
 
-The app is working but there are still work to do regarding how the user to enable access of files outside the sandbox. Much of the work is based upon this [Sandbox code](https://github.com/regexident/Sandbox). The user has to allow the app to read all catalogs and if remote servers is utilized rsync must be allowed to read the private ssh certificates.
+Some minor bugfixes after initial release.
 
 ## Version 1.0.0
 
