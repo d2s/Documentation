@@ -15,7 +15,8 @@ If you like using RsyncOSX or RcloneOSX please consider giving me a star on the 
 
 ### Applications
 
-There are three MacOS applications:
+There are four MacOS applications:
+
 - [RsyncOSX](/AboutRsyncOSX) a GUI for rsync
 - [The menuapp](/Menuapp) for executing scheduled RsyncOSX tasks
 - [RsyncGUI](/RsyncGUIChangelog) an Apple Sandboxed version of RsyncOSX
