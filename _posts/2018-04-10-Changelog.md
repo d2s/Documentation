@@ -21,6 +21,8 @@ The following fixes and enhancements will be part of next release:
 
 This will be the last version compiled and released with current released version of Xcode and Swift. Xcode 10.2 and Swift 5 are out as beta and most likely will be released within some months.
 
+Update 4 February 2019: in next release candidate (not yet released), which day of week regarding plan 1 and plan 2 can be selected.
+
 ## Version 5.6.2
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.6.2) 1 January 2019.
