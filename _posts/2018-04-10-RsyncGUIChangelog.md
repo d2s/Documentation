@@ -17,7 +17,7 @@ Utilizing **snapshots** in RsyncGUI is for the moment **not possible** due to bu
 
 Utilizing **scheduled** task is not implemented in RsyncGUI.
 
-If you need either of them please use RsyncOSX.
+If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
 ## Version 1.0.1
 
