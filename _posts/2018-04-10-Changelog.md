@@ -13,7 +13,7 @@ There is fixed one bug causing RsyncOSX to crash if other versions than 2.6.9, 3
 
 The following fixes and enhancements will be part of next release:
 
-- fixed bug if non supported versions of rsync is utilized
+- fixed bug if not supported versions of rsync is utilized
 - added new plans for deleting snapshots, there is now two plans
 	- last: keeps **last** selected day previous months, last selected day this mont and all snapshots this week
 	- every: keeps **all** last selected day previous months, every selected day this mont and all snapshots this week
