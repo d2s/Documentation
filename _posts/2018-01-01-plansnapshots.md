@@ -14,7 +14,7 @@ Selecting the button `Plan` only evaluates and suggests which snapshots to delet
 
 **Snapshots to keep**
 
-All snapshots to keep are tagged `this week`, `Sunday this month` or `last Sunday month`.
+All snapshots to keep are tagged `this week`, `Day this month` or `last Day month`. `Day` is selectable in user configuration and one of seven Days.
 
 **This week and month**:
 
@@ -22,21 +22,17 @@ All snapshots to keep are tagged `this week`, `Sunday this month` or `last Sunda
   - snapshots are tagged with `this week`
 - in the current month (this month): for all weeks in the current month exclude current week, keep all snapshots each Sunday
   - snapshots marked for delete are tagged `this month`
-  - snapshots to keep are tagged `Sunday this month`
+  - snapshots to keep are tagged `Day this month`
 
 To delete the suggested snapshots press the `Delete` button.
 
 **Previous months**:
 
-- in previous months: keep snapshots last Sunday each month.
+- in previous months: keep snapshots either last `Day` each previous month or every `Day` in previous month.
   - snapshots marked for delete are tagged `prev months`
-  - snapshots to keep are tagged `last Sunday month`
+  - snapshots to keep are tagged `last Day month` or `Day prev month`
 
-The `Plan` button is available after selecting a task and RsyncOSX has collected info about snapshots from remote server. The following snapshots are **not** marked for delete (see rules below).
-* 28 October 2018 is the last Sunday in October
-* 25 November 2018 is the last Sunday in November
-* 2, 9, 16 and 23 December 2018 are all Sundays in `this month`
-* 24, 25 and 26 December are days in this week.
+The `Plan` button is available after selecting a task and RsyncOSX has collected info about snapshots from remote server.
 
-![](/images/RsyncOSX/master/plansnapshots/plan1.png)
-![](/images/RsyncOSX/master/plansnapshots/plan2.png)
+![](/images/RsyncOSX/master/plansnapshots/last.png)
+![](/images/RsyncOSX/master/plansnapshots/every.png)
