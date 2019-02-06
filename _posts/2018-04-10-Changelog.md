@@ -14,9 +14,10 @@ There is fixed one bug causing RsyncOSX to crash if other versions than 2.6.9, 3
 The following fixes and enhancements will be part of next release:
 
 - fixed bug if non supported versions of rsync is utilized
-- added new plan for deleting snapshots, there is now two plans
-	- last: keeps last Sunday previous months, every Sunday this mont and all snapshots this week
-	- every: keeps all Sundays previous months, every Sunday this mont and all snapshots this week
+- added new plans for deleting snapshots, there is now two plans
+	- last: keeps **last** selected day previous months, every selected day this mont and all snapshots this week
+	- every: keeps **all** last selected day previous months, every selected day this mont and all snapshots this week
+	- selected day in user configuration
 - some other minor enhancements as well
 
 This will be the last version compiled and released with current released version of Xcode and Swift. Xcode 10.2 and Swift 5 are out as beta and most likely will be released within some months.
