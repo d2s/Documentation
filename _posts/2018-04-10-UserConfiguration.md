@@ -37,6 +37,10 @@ Logging is saved to permanent store.
 - Number of days
   - in Execute view tasks older than number of days are marked red
 
+### Snapshot day of week to keep
+
+- The day of week to keep when selecting a plan for deleting snapshots
+
 ### Paths for RsyncOSX and RsyncOSXsched
 
 - path RsyncOSX

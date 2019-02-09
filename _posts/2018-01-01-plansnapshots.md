@@ -10,13 +10,13 @@ The plan for delete and keep snapshots is split into three parts:
 - this month
 - previous months
 
-Selecting the button `Plan` only evaluates and suggests which snapshots to delete based upon the plan. Deleting snapshots is a **destructive** operation and should be performed with care.
+Selecting a plan, either `last` or `every` only evaluates and suggests which snapshots to delete based upon the plan. Deleting snapshots is a **destructive** operation and should be performed with care.
 
-**Snapshots to keep**
+### Snapshots to keep
 
 All snapshots to keep are tagged `this week`, `Day this month` or `last Day month`. `Day` is selectable in user configuration and one of seven Days.
 
-**This week and month**:
+### This week and month:
 
 - in the current week (this week): keep all snapshots
   - snapshots are tagged with `this week`
@@ -26,13 +26,18 @@ All snapshots to keep are tagged `this week`, `Day this month` or `last Day mont
 
 To delete the suggested snapshots press the `Delete` button.
 
-**Previous months**:
+### Previous months:
 
 - in previous months: keep snapshots either last `Day` each previous month or every `Day` in previous month.
   - snapshots marked for delete are tagged `prev months`
   - snapshots to keep are tagged `last Day month` or `Day prev month`
 
-The `Plan` button is available after selecting a task and RsyncOSX has collected info about snapshots from remote server.
+Selecting a plan is available after selecting a task and RsyncOSX has collected info about snapshots from remote server.
+
+Plan `last`, choosen day is Sunday:
 
 ![](/images/RsyncOSX/master/plansnapshots/last.png)
+
+Plan `every`, choosen day is Sunday:
+
 ![](/images/RsyncOSX/master/plansnapshots/every.png)
