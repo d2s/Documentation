@@ -4,7 +4,7 @@ title:  "Plan for snapshots"
 permalink: Plansnapshots
 ---
 
-The plan for delete and keep snapshots is split into three parts:
+The plans for delete and keep snapshots are split into three parts:
 
 - this week
 - this month
@@ -14,7 +14,12 @@ Selecting a plan, either `last` or `every` only evaluates and suggests which sna
 
 ### Snapshots to keep
 
-All snapshots to keep are tagged `this week`, `Day this month` or `last Day month`. `Day` is selectable in user configuration and one of seven Days.
+All snapshots to keep are tagged:
+- `this week`
+- `Day this month`
+- `last Day month`.
+
+`Day` is selectable in user configuration and one of seven Days.
 
 ### This week and month:
 
