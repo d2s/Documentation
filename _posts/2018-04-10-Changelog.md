@@ -5,6 +5,17 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
+## Version 5.7.3
+
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.7.3) 16 February 2019.
+
+The following are included in the release:
+
+- fixed a [bug](https://github.com/rsyncOSX/RsyncOSX/issues/1061) in user selected parameters to rsync
+- added function for [remove](https://github.com/rsyncOSX/RsyncOSX/issues/1059) the "-e ssh" flag, seems to be required if using RsyncOSX and ReadyNAS utilizing rsync daemon on server side
+
+
+
 ## Version 5.7.1
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.7.1) 6 February 2019.
