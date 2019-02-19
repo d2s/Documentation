@@ -3,13 +3,11 @@ layout: post
 title:  "User configuration"
 permalink: UserConfiguration
 ---
-There are only a few parameters to choose in user configuration.
+There are only a few parameters to choose in user configuration. Configurations are saved to permanent store.
 
 ![](/images/RsyncOSX/master/userconfig/user.png)
 
-The parameters are:
-
-### Configurations saved to permanent store
+## Rsync, paths and Logging
 
  - 3.1.2 or 3.1.3 of rsync
    	- any version of rsync should work, but only rsync  version 3.1.2, version 3.1.3 protocol version 31 and rsync  version 2.6.9  protocol version 29 are tested and verified
@@ -24,7 +22,9 @@ The parameters are:
 - Scheduled tasks (default on: dispatch, if off: timer)
     - don´t bother to switch, it is only how (technical) scheduled tasks are kicked off
 
-### Log file
+If there is a not valid rsync path is set an error is presented in bottom of user configuration. If there still is missing rsync in optional path no execution of tasks is allowed.
+
+## Logging to file
 
 Logging is saved to permanent store.
 
@@ -32,12 +32,12 @@ Logging is saved to permanent store.
 - log file is `Documents/rsynclog.txt`
 - logging to file is off when RsyncOSX starts
 
-### Number of days
+## Number of days
 
 - Number of days
   - in Execute view tasks older than number of days are marked red
 
-### Snapshot day of week to keep
+## Snapshot day of week to keep
 
 - The day of week to keep when selecting a plan for deleting snapshots
 
@@ -53,5 +53,3 @@ If the user selects another version of rsync, RsyncOSX does check if there is a 
 In right corner down the version of rsync utilized is presented.
 
 ### No rsync i path
-
-If there is a not valid rsync path is set an error is presented in bottom of user configuration. If there still is a missing rsync in optional path no execution of tasks is allowed (it gives no meaning of executing a task without a rsync).
