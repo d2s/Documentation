@@ -7,7 +7,7 @@ There are only a few parameters to choose in user configuration. Configurations 
 
 ![](/images/RsyncOSX/master/userconfig/user.png)
 
-## Rsync, paths and Logging
+## Rsync, paths and logging
 
  - 3.1.2 or 3.1.3 of rsync
    	- any version of rsync should work, but only rsync  version 3.1.2, version 3.1.3 protocol version 31 and rsync  version 2.6.9  protocol version 29 are tested and verified
@@ -39,17 +39,12 @@ Logging is saved to permanent store.
 
 ## Snapshot day of week to keep
 
-- The day of week to keep when selecting a plan for deleting snapshots
+- The day of week to keep when selecting a [plan](/Plansnapshots) for deleting snapshots
 
 ### Paths for RsyncOSX and RsyncOSXsched
 
 - path RsyncOSX
 - path RsyncOSXsched
   - the path for both apps should be set if scheduled tasks are executed in RsyncOSXsched, green light indicates apps are found in path
-  - see [scheduled backups](/ScheduleTasks) and [menu app](/Menuapp) for more info
 
-If the user selects another version of rsync, RsyncOSX does check if there is a rsync in path set by user. If there is no rsync in path RsyncOSX will not execute any tasks.
-
-In right corner down the version of rsync utilized is presented.
-
-### No rsync i path
+See [scheduled backups](/ScheduleTasks) and [menu app](/Menuapp) for more info.
