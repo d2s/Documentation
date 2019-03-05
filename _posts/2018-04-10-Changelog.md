@@ -5,6 +5,18 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
+## Next version 5.8.x
+
+The following are plans for next version:
+
+![](/images/RsyncOSX/master/nextversion/nextversion.png)
+
+- released by next version Xcode 10.12 and Swift 5
+- quit RsyncOSX by red button upper left main window
+- view all profiles and configurations by menu button (moved from tab view)
+- backup now and automatic backup my be executed from any view (tab) by menu buttons
+- some clean up of code 
+
 ## Version 5.7.3
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.7.3) 16 February 2019.
