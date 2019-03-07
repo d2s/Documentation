@@ -11,11 +11,11 @@ The following are plans for next version:
 
 ![](/images/RsyncOSX/master/nextversion/nextversion.png)
 
-- released by next version Xcode 10.12 and Swift 5
+- next version will be released when next version of Xcode 10.12 and Swift 5 are released by Apple
 - quit RsyncOSX by red button upper left main window
 - view all profiles and configurations by menu button (moved from tab view)
-- backup now and automatic backup my be executed from any view (tab) by menu buttons
-- some clean up of code 
+- backup now and automatic backup my be executed from any view (tab) by menu buttons or shortcuts
+- some clean up of code
 
 ## Version 5.7.3
 
