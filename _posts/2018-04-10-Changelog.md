@@ -19,6 +19,7 @@ The following are in this rc:
 - view all profiles and configurations by menu button (moved from tab view)
 - backup now and automatic backup my be executed from any view (tab) by menu buttons or shortcuts
 - clean up of code
+- RsyncOSX center itself in view first start
 
 ## Version 5.7.3
 
