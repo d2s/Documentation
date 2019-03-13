@@ -16,6 +16,7 @@ The following are in this rc:
 - built by Xcode 10.12 beta 4, Swift 5 beta
 - next version will be released when next version of Xcode 10.12 and Swift 5 are released by Apple
 - quit RsyncOSX by red button upper left main window
+- RsyncOSX center itself in screen when started
 - view all profiles and configurations by menu button (moved from tab view)
 - backup now and automatic backup my be executed from any view (tab) by menu buttons or shortcuts
 - clean up of code
