@@ -25,7 +25,7 @@ The following are in this rc:
 - view all profiles and configurations by menu button (moved from tab view)
 - backup now and automatic backup my be executed from any view (tab) by menu buttons or shortcuts
 - clean up of code
-- RcloneOSX center itself in view first start
+- RcloneOSX center itself in screen when started
 
 ## Version 1.7.5
 
