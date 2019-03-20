@@ -18,7 +18,7 @@ The following are in this rc:
 ![](/images/RsyncOSX/master/nextversionrclone/nextversion.png)
 
 - the rc is not notarized, only signed
-- released 13 March 2019
+- updated 19 March 2019
 - built by Xcode 10.12 beta 4, Swift 5 beta
 - next version will be released when next version of Xcode 10.12 and Swift 5 are released by Apple
 - quit RcloneOSX by red button upper left main window
@@ -26,6 +26,7 @@ The following are in this rc:
 - backup now and automatic backup my be executed from any view (tab) by menu buttons or shortcuts
 - clean up of code
 - RcloneOSX center itself in screen when started
+- configuration is available by shortcut `⌘,` (Preferences)
 
 ## Version 1.7.5
 
