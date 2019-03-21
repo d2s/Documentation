@@ -11,20 +11,16 @@ I am not an advanced user of `rclone`. My main use of RcloneOSX is  synchronizin
 
 To get an idea of how RcloneOSX is working please see the [intro](/Intro) to RsyncOSX. The operation and menus are mostly equal. The app is signed with my Apple ID developer certificate and [notarized](/Notarized) by Apple.
 
-## Version 1.8.0 release candidate
+## Version 1.8.1
 
-The following are in this rc:
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.8.1) 21 March 2019.
 
 ![](/images/RsyncOSX/master/nextversionrclone/nextversion.png)
 
-- the rc is not notarized, only signed
-- updated 19 March 2019
-- built by Xcode 10.12 beta 4, Swift 5 beta
-- next version will be released when next version of Xcode 10.12 and Swift 5 are released by Apple
 - quit RcloneOSX by red button upper left main window
 - view all profiles and configurations by menu button (moved from tab view)
 - backup now and automatic backup my be executed from any view (tab) by menu buttons or shortcuts
-- clean up of code
+- clean up of code, some minor bugfixes
 - RcloneOSX center itself in screen when started
 - configuration is available by shortcut `⌘,` (Preferences)
 
