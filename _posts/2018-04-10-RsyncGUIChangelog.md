@@ -19,6 +19,20 @@ Utilizing **scheduled** task is not implemented in RsyncGUI.
 
 If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 1.1.0
+
+This version is in process of review and release by Apple (29 March 2019)
+
+![](/images/RsyncOSX/master/nextversion/nextversion.png)
+
+- quit RsyncGUI by red button upper left main window
+- RsyncGUI center itself in screen when started
+- view all profiles and configurations by menu button (moved from tab view)
+- backup now and automatic backup my be executed from any view (tab) by menu buttons or shortcuts
+- clean up of code and some bugfixes
+- configuration is available by shortcut `⌘,` (Preferences)
+- built by last release of Xcode 10.2
+
 ## Version 1.0.1
 
 Version 1.0.1 is released 4 February 2019. Some minor bugfixes after initial release.
