@@ -10,11 +10,11 @@ RsyncOSX stores its configurations, schedules, log records and user configuratio
 
 Default profile stores all configurations in:
 
-* `Documents/Rsync/macserialnumber/configRsync.plist`
+- `Documents/Rsync/macserialnumber/configRsync.plist`
 
 If profile is utilized:
 
-* `Documents/Rsync/macserialnumber/profile/configRsync.plist`
+- `Documents/Rsync/macserialnumber/profile/configRsync.plist`
 
 where profile is a sub catalog.
 
@@ -22,16 +22,16 @@ where profile is a sub catalog.
 
 Default profile stores all Schedules and log records in:
 
-* `Documents/Rsync/macserialnumber/scheduleRsync.plist`
+- `Documents/Rsync/macserialnumber/scheduleRsync.plist`
 
 If profile is utilized:
 
-* `Documents/Rsync/macserialnumber/profile/scheduleRsync.plist`
+- `Documents/Rsync/macserialnumber/profile/scheduleRsync.plist`
 
 ### User configurations
 
 The user configurations is stored in:
 
-* `Documents/Rsync/macserialnumber/config.plist`.
+- `Documents/Rsync/macserialnumber/config.plist`.
 
 The user settings applies to all profiles.
