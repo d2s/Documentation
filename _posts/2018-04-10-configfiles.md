@@ -12,7 +12,7 @@ Default profile stores all configurations in:
 
 * `Documents/Rsync/macserialnumber/configRsync.plist`
 
-If profile are utilized:
+If profile is utilized:
 
 * `Documents/Rsync/macserialnumber/profile/configRsync.plist`
 
@@ -24,7 +24,7 @@ Default profile stores all Schedules and log records in:
 
 * `Documents/Rsync/macserialnumber/scheduleRsync.plist`
 
-If profile are utilized:
+If profile is utilized:
 
 * `Documents/Rsync/macserialnumber/profile/scheduleRsync.plist`
 
@@ -32,6 +32,6 @@ If profile are utilized:
 
 The user configurations is stored in:
 
-`Documents/Rsync/macserialnumber/config.plist`.
+* `Documents/Rsync/macserialnumber/config.plist`.
 
 The user settings applies to all profiles.
