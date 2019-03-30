@@ -4,7 +4,7 @@ title:  "RsyncOSX config files"
 permalink: configfiles
 ---
 
-RsyncOSX stores its configurations, schedule- and logs and user configuration as [property list files](https://en.wikipedia.org/wiki/Property_list). There are three kinds of files and all are stored in the Documents/Rsync catalog. RsyncOSX evaluates the computer mac serial number at startup and all files are stored in `Documents/Rsync/macserialnumber`
+RsyncOSX stores its configurations, schedules, log records and user configuration as [property list files](https://en.wikipedia.org/wiki/Property_list). There are three kinds of files and all are stored in the Documents/Rsync catalog. RsyncOSX evaluates the computer mac serial number at startup and all files are stored in `Documents/Rsync/macserialnumber`
 
 ### Configuration files
 
