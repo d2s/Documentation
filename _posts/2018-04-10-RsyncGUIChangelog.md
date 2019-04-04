@@ -21,7 +21,7 @@ If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/Rsy
 
 ## Version 1.1.0
 
-This version is in process of review and release by Apple (29 March 2019)
+This version is in process of review and release by Apple, submitted for approval 4 April 2019.
 
 ![](/images/RsyncOSX/master/nextversion/nextversion.png)
 
@@ -32,6 +32,7 @@ This version is in process of review and release by Apple (29 March 2019)
 - clean up of code and some bugfixes
 - configuration is available by shortcut `⌘,` (Preferences)
 - built by last release of Xcode 10.2
+- removed code for snapshots (due to stock version of rsync in macOS)
 
 ## Version 1.0.1
 
