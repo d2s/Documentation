@@ -15,6 +15,10 @@ What am I working on for next version?
 - fixed a bug i rsync parameters (adding possibility to remove `--delete` parameter to rsync)
 - added possibility to execute a selected tasks now in RsyncOSXsched app (menu app)
 
+![](/images/RsyncOSX/master/nextversion/nr3.png)
+![](/images/RsyncOSX/master/nextversion/nr2.png)
+![](/images/RsyncOSX/master/nextversion/nr1.png)
+
 ## Version 5.8.1
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.8.1) 21 March 2019.
