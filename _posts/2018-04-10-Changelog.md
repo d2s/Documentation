@@ -5,7 +5,7 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
-## Next version (5.8.5)..
+## Release candidate
 
 What am I working on for next version?
 
@@ -13,7 +13,7 @@ What am I working on for next version?
 - some refactor and cleanup of code
 - cleanup of GUIs
 - fixed a bug i rsync parameters (adding possibility to remove `--delete` parameter to rsync)
-- adding possibility to execute all tasks now in RsyncOSXsched app
+- added possibility to execute a selected tasks now in RsyncOSXsched app (menu app)
 
 ## Version 5.8.1
 
