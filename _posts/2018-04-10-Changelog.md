@@ -10,14 +10,16 @@ I am using the application on a daily basis and it evolves during my own use. Su
 What am I working on for next version?
 
 - in snapshots save day and plan on each snapshot task
-- some refactor and cleanup of code
-- cleanup of GUIs
+- cleanup of GUI snapshots and copy files
 - fixed a bug i rsync parameters (adding possibility to remove `--delete` parameter to rsync)
 - added possibility to execute a selected tasks now in RsyncOSXsched app (menu app)
+- some refactor and cleanup of code
+
 
 ![](/images/RsyncOSX/master/nextversion/nr3.png)
-![](/images/RsyncOSX/master/nextversion/nr2.png)
 ![](/images/RsyncOSX/master/nextversion/nr1.png)
+![](/images/RsyncOSX/master/nextversion/nr2.png)
+![](/images/RsyncOSX/master/nextversion/nr4.png)
 
 ## Version 5.8.1
 
