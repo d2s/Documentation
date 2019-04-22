@@ -7,13 +7,13 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Next version (5.8.5)
 
-What am I working on for next version?
+I am working on the next version and it will probably be released sometime in May 2019. The master branch is updated with changes. The following are new features and updates in next version.
 
 - in snapshots save day and plan on each snapshot task
 - cleanup of GUI snapshots and copy files
-- fixed a bug i rsync parameters (adding possibility to remove `--delete` parameter to rsync)
-- added possibility to execute a selected tasks now in RsyncOSXsched app (menu app)
-- added possibility to autoexecute tasks in RsyncOSXsched app (menu app) when local disk is attached 
+- fixed a bug i rsync parameters, now all default parameters might be deleted
+- added possibility to execute a selected tasks `Now` in RsyncOSXsched app (menu app)
+- added possibility to auto execute tasks in RsyncOSXsched app (menu app) when local disk is attached
 - some refactor and cleanup of code
 
 ![](/images/RsyncOSX/master/nextversion/nr3.png)
