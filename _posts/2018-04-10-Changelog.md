@@ -16,9 +16,13 @@ I am working on the next version and it will probably be released sometime in Ma
 - added possibility to auto execute tasks in RsyncOSXsched app (menu app) when local disk is attached
 - some refactor and cleanup of code
 
+Snapshots, save day and plan on each snapshot task
 ![](/images/RsyncOSX/master/nextversion/nr3.png)
+Cleanup of GUI
 ![](/images/RsyncOSX/master/nextversion/nr1.png)
+Remove all default rsync parameters
 ![](/images/RsyncOSX/master/nextversion/nr2.png)
+Execute a task now in menu app, enable automatic execution of local tasks when local volume is mounted
 ![](/images/RsyncOSX/master/nextversion/nr4.png)
 
 ## Version 5.8.1
