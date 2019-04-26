@@ -24,6 +24,7 @@ Remove all default rsync parameters
 ![](/images/RsyncOSX/master/nextversion/nr2.png)
 Execute a task now in menu app, enable automatic execution of local tasks when local volume is mounted
 ![](/images/RsyncOSX/master/nextversion/nr4.png)
+![](/images/RsyncOSX/master/nextversion/nr5.png)
 
 ## Version 5.8.1
 
