@@ -16,7 +16,7 @@ I am working on the next version and it will probably be released sometime in Ma
 - added possibility to auto execute tasks in RsyncOSXsched app (menu app) when local disk is attached
 - some refactor and cleanup of code
 
-[StringKe](https://github.com/StringKe) has commenced translating next version of RsyncOSX to Chinese. Probably next version will be released in English and Chinese releases.
+[StringKe](https://github.com/StringKe) has commenced translating next version of RsyncOSX to Chinese. Next version will be released in English and Chinese translations (and maybe Norwegian as well).
 
 Snapshots, save day and plan on each snapshot task
 ![](/images/RsyncOSX/master/nextversion/nr3.png)
