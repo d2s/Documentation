@@ -16,8 +16,14 @@ I am working on the next version and it will probably be released sometime in Ma
 - added possibility to auto execute tasks in RsyncOSXsched app (menu app) when local disk is attached
 - some refactor and cleanup of code
 - localization of RsyncOSX
-	- [StringKe](https://github.com/StringKe) has commenced translating RsyncOSX to Chinese
-	- I have translated RsyncOSX to Norwegian
+	- RsyncOSX is translated to Norwegian
+	- volunteers for translating to other languages are wanted
+
+### Localization
+
+RsyncOSX is in progress for being translated to Norwegian. If there are volunteers for translating to other languages please create an issue for this. Translating RsyncOSX is done by utilizing the [Xlifftool](https://github.com/remuslazar/osx-xliff-tool). I will generate the required xliff file for translating.
+
+### Some screenshots
 
 Snapshots, save day and plan on each snapshot task
 ![](/images/RsyncOSX/master/nextversion/nr3.png)
