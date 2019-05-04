@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Next version (5.8.5)
 
-I am working on the next version and it will probably be released sometime in May 2019. The master branch is updated with changes. The following are new features and updates in next version.
+I am working on the next version and it will be released in May 2019. The master branch is updated with changes. The following are new features and updates in next version.
 
 - in snapshots save day and plan on each snapshot task
 - cleanup of GUI snapshots and copy files
@@ -21,7 +21,7 @@ I am working on the next version and it will probably be released sometime in Ma
 
 ### Localization
 
-RsyncOSX is in progress for being translated to Norwegian. If there are volunteers for translating to other languages please create an issue for this. Translating RsyncOSX is done by utilizing the [Xlifftool](https://github.com/remuslazar/osx-xliff-tool). I will generate the required xliff file for translating.
+During translation of RsyncOSX to Norwegian, RsyncOSX is prepared for translation to other languages as well. If there are volunteers for translating to other languages (e.g German, French, Spanish) please create an issue for this. Translating RsyncOSX is done by utilizing the [Xlifftool](https://github.com/remuslazar/osx-xliff-tool). I will generate the required xliff file for translating.
 
 ### Some screenshots
 
