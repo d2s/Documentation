@@ -15,14 +15,10 @@ I am working on the next version and it will be released in May 2019. The master
 - added possibility to execute a selected tasks `Now` in RsyncOSXsched app (menu app)
 - added possibility to auto execute tasks in RsyncOSXsched app (menu app) when local disk is attached
 - some refactor and cleanup of code
-- localization
-	- RsyncOSX and RsyncOSXsched is prepared for localization
-	- both are translated to Norwegian
+- [localization](/Localization)
+	- RsyncOSX and RsyncOSXsched are prepared for localization
+	- both are translated to English and Norwegian
 	- volunteers for translating to other languages are wanted (there is work on Chinese translation)
-
-### Localization
-
-During translation of RsyncOSX to Norwegian, RsyncOSX is prepared for translation to other languages as well. If there are volunteers for translating to other languages (e.g German, French, Spanish) please create an issue for this. Translating RsyncOSX is done by utilizing the [Xlifftool](https://github.com/remuslazar/osx-xliff-tool). I will generate the required xliff file for translating.
 
 ### Some screenshots
 
