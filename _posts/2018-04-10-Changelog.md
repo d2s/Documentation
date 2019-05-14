@@ -21,7 +21,7 @@ I am working on the next version and it will be released in late May 2019. The f
 	- RsyncOSX and RsyncOSXsched are prepared for localization
 	- both are translated to English and Norwegian
 	- volunteers for translating to other languages are wanted
-	- [StringKe](https://github.com/StringKe) is in progress of translating RsyncOSX to Chinese, the release candidate is updated with Chinese translation, there is still some work to do regarding Chinese translation..
+	- [StringKe](https://github.com/StringKe) is in progress of translating RsyncOSX to Chinese (simplified), the release candidate is updated with Chinese (simplified) translation, there is still some work to do regarding the Chinese (simplified) translation..
 
 ### Some screenshots
 
