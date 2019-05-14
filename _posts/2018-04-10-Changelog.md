@@ -7,6 +7,8 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.8.5 - release candidate
 
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.8.5rc) 14 May 2019.
+
 I am working on the next version and it will be released in late May 2019. The following are new features and updates in the coming version.
 
 - in snapshots save day and plan on each snapshot task
@@ -19,7 +21,7 @@ I am working on the next version and it will be released in late May 2019. The f
 	- RsyncOSX and RsyncOSXsched are prepared for localization
 	- both are translated to English and Norwegian
 	- volunteers for translating to other languages are wanted
-	- [StringKe](https://github.com/StringKe) is in progress of translating RsyncOSX to Chinese, the release candidate will be updated with Chinese translation when completed
+	- [StringKe](https://github.com/StringKe) is in progress of translating RsyncOSX to Chinese, the release candidate is updated with Chinese translation, there is still some work to do regarding Chinese translation..
 
 ### Some screenshots
 
