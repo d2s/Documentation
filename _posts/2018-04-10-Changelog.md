@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.8.5 - release candidate
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.8.5rc) 14 May 2019.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.8.5rc) 16 May 2019.
 
 I am working on the next version and it will be released in late May 2019. The following are new features and updates in the coming version.
 
@@ -19,9 +19,10 @@ I am working on the next version and it will be released in late May 2019. The f
 - some refactor and cleanup of code
 - [localization](/Localization)
 	- RsyncOSX and RsyncOSXsched are prepared for localization
-	- both are translated to English and Norwegian
+	- RsyncOSX is translated to Chinese (Simplified) and Norwegian (default language is English)
+	- the Chinese (Simplified) translating by [StringKe](https://github.com/StringKe)
+	- RsyncOSXsched is translated to Norwegian (default language is English)
 	- volunteers for translating to other languages are wanted
-	- [StringKe](https://github.com/StringKe) is in progress of translating RsyncOSX to Chinese (simplified), the release candidate is updated with Chinese (simplified) translation, there is still some work to do regarding the Chinese (simplified) translation..
 
 ### Some screenshots
 
