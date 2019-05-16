@@ -5,11 +5,11 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
-## Version 5.8.5 - release candidate
+## Version 5.8.6
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.8.5rc) 16 May 2019.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.8.6) 16 May 2019.
 
-I am working on the next version and it will be released in late May 2019. The following are new features and updates in the coming version.
+The following are new features and updates in version 5.8.6.
 
 - in snapshots save day and plan on each snapshot task
 - cleanup of GUI snapshots and copy files
