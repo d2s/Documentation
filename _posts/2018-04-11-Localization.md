@@ -3,9 +3,10 @@ layout: post
 title:  "Localization"
 permalink: Localization
 ---
-From version 5.8.5 RsyncOSX and the menu app RsyncOSXsched is prepared for localization. RsyncOSX is translated to Chinese (Simplified) and Norwegian. Default language is English. RsyncOSXsched is translated to Norwegian.
+From version 5.8.6 RsyncOSX and the menu app RsyncOSXsched are prepared for localization. RsyncOSX is translated to Chinese (Simplified) and Norwegian, RsyncOSXsched is translated to Norwegian. Default language for both is English
 
-The Chinese (Simplified) translation by [StringKe](https://github.com/StringKe), the Norwegian by myself.
+- the Chinese (Simplified) translation by [StringKe](https://github.com/StringKe),
+- the Norwegian translation by myself
 
 Volunteers are wanted for translating to other languages (e.g German, French, Spanish). Please create an issue for this if you have possibility to translate.
 
