@@ -3,17 +3,11 @@ layout: post
 title:  "Snapshots"
 permalink: Snapshots
 ---
-Snapshot is very effective method for saving changed and deleted data. As an example my GitHub local catalog is about 677 MB in size. This is the size of the oldest snapshot. There are 17 snapshots of my GitHub local catalog and all of them are only 994 MB in size including the oldest snapshot.
-
-![](/images/RsyncOSX/master/snapshots/snapdemo1.png)
-
-All 17 snapshots are about 150,000 files and catalogs. Most of them are [hardlinks](https://en.wikipedia.org/wiki/Hard_link) only. If all snapshots was expanded there should be about 16 times more data stored on my NAS. Only changed or deleted files are stored. Files which are not changed or deleted are hardlinked only.
-
-![](/images/RsyncOSX/master/snapshots/snapdemo2.png)
+Snapshot is very effective method for saving changed and deleted data. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted data are saved in a snapshot.
 
 ## Snapshot administration - delete and keep snapshots
 
-Deleting snapshots is a **destructive** operation and should be performed with care. It is important to have a plan about which snapshots to keep and which snapshots to delete. RsyncOSX utilizes a simple plan for delete and keep snapshots. The is based upon three parts:
+Deleting snapshots is a **destructive** operation and should be performed with care. It is important to have a plan about which snapshots to keep and which to delete. RsyncOSX utilizes a simple plan for delete and keep snapshots. The is based upon three parts:
 
 - the current week
 - the current month
@@ -22,7 +16,6 @@ Deleting snapshots is a **destructive** operation and should be performed with c
 In current and previous months the user has to select which day of week to keep. Default day is Sunday. See [plan](/Plansnapshots) for more info about plans.
 
 The user can also select by hand, which snapshots to keep and delete.
-
 
 ## Utilizing Snapshots
 
