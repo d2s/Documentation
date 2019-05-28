@@ -3,7 +3,7 @@ layout: post
 title:  "Snapshots"
 permalink: Snapshots
 ---
-Snapshot is very effective method for saving changed and deleted data. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted data are saved in a snapshot.
+Snapshot is an effective method for saving changed and deleted data. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted data are saved as separate files in a snapshot. Files which are not changed are  hardlinks to the original file in the snapshot.
 
 ## Snapshot administration - delete and keep snapshots
 
