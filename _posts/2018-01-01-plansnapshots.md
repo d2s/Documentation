@@ -18,10 +18,12 @@ All snapshots are tagged:
 
 - `this week`
 - `this month`
+- `last Day month`
+- `Day prev months`
 - `Day this month`
 - `prev months`
 
-`Day` is selectable in user configuration and one of seven Days.
+where `Day` is selectable and a weekday.
 
 ### This week and month:
 
