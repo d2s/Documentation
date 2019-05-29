@@ -10,12 +10,13 @@ Snapshot is an effective method for saving changed and deleted data. Snapshot ut
 Deleting snapshots is a **destructive** operation and should be performed with care. It is important to have a plan about which snapshots to keep and which to delete. RsyncOSX utilizes a simple plan for delete and keep snapshots. The is based upon three parts:
 
 - the current week
+  - keep all snapshots
 - the current month
+  - keep snapshots for selected Day of week, e.g all snapshots every Sunday this month
 - previous months (and years)
+  - keep snapshots for either last or all selected Day of week
 
-In current and previous months the user has to select which day of week to keep. Default day is Sunday. See [plan](/Plansnapshots) for more info about plans.
-
-The user can also select by hand, which snapshots to keep and delete.
+Snapshots which does not follow plan are automatically marked for deletions. 
 
 ## Utilizing Snapshots
 
