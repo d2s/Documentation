@@ -12,6 +12,7 @@ The following are fixes which are pushed to the master repository but not yet bu
 - fixed a bug in search logs, the search was not localized
 - enhanced the info for snapshot administration, see below
 - some localization fixes (Norwegian)
+- removed possibility for encrypted backups linked with RcloneOSX
 
 ![](/images/RsyncOSX/master/nextversion/updatedplan.png)
 
