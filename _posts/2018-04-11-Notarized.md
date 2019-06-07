@@ -11,6 +11,8 @@ permalink: Notarized
  - RsyncOSXsched
  - RcloneOSX
 
+ Important: from macOS 10.15 Catalina, notarization is required by default for all software. RsyncOSX is signed and notarized and a new signed and notarized release will be available shortly after release of macOS 10.15.
+
 ## RsyncOSX
 
 This is the message when opening a downloaded version.
