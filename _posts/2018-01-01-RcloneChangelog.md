@@ -11,6 +11,12 @@ I am not an advanced user of `rclone`. My main use of RcloneOSX is  synchronizin
 
 To get an idea of how RcloneOSX is working please see the [intro](/Intro) to RsyncOSX. The operation and menus are mostly equal. The app is signed with my Apple ID developer certificate and [notarized](/Notarized) by Apple.
 
+## Version 1.9.0
+
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.0) 13 June 2019.
+
+- this is a maintenance release, some minor bugfixes and cleanup in code
+
 ## Version 1.8.1
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.8.1) 21 March 2019.
