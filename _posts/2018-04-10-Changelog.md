@@ -13,6 +13,7 @@ The following are fixes which are pushed to the master repository but not yet bu
 - enhanced the info for snapshot administration, see below
 - some localization fixes (Norwegian)
 - removed possibility for encrypted backups linked with RcloneOSX
+- fixed a couple of memory leaks
 
 ![](/images/RsyncOSX/master/nextversion/updatedplan.png)
 
