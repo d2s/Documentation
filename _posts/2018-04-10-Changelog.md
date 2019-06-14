@@ -5,9 +5,11 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
-## Updates to master repository - but not released
+## Version 5.9.0 release candidate
 
-The following are fixes which are pushed to the master repository but not yet built for new release.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 14 June 2019.
+
+The following are fixes in rc:
 
 - fixed a bug in search logs, the search was not localized
 - enhanced the info for snapshot administration, see below
