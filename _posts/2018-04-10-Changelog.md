@@ -9,13 +9,14 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 14 June 2019.
 
-The following are fixes in rc:
+The following are changes in rc:
 
 - fixed a bug in search logs, the search was not localized
 - enhanced the info for snapshot administration, see below
 - some localization fixes (Norwegian)
 - removed possibility for encrypted backups linked with RcloneOSX
 - fixed a couple of memory leaks
+- refactor of code and cleanup
 
 ![](/images/RsyncOSX/master/nextversion/updatedplan.png)
 
