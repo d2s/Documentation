@@ -7,9 +7,9 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.9.0 release candidate
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 14 June 2019.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 18 June 2019.
 
-The following are changes in rc:
+The following are changes in the release candidate:
 
 - fixed a bug in search logs, the search was not localized
 - enhanced the info for snapshot administration, see below
