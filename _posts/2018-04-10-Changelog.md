@@ -18,6 +18,8 @@ The following are changes in the release candidate:
 - fixed a couple of memory leaks
 - refactor of code and cleanup
 
+This is work in progress, but the app is still stable. Next version of RsyncOSX will be released after summer 2019 sometime.
+
 ![](/images/RsyncOSX/master/nextversion/updatedplan.png)
 
 ## Version 5.8.6
