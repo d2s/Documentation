@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.9.0 release candidate
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 18 June 2019.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 30 June 2019.
 
 The following are changes in the release candidate:
 
@@ -18,7 +18,7 @@ The following are changes in the release candidate:
 - fixed a couple of memory leaks
 - refactor of code and cleanup
 
-This is work in progress, but the app is still stable. Next version of RsyncOSX will be released after summer 2019 sometime.
+This is work in progress, but the app is still stable. Next release is planned after summer 2019. This is most likely last rc before next release.
 
 ![](/images/RsyncOSX/master/nextversion/updatedplan.png)
 
