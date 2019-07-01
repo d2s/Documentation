@@ -23,9 +23,3 @@ The stack is a reference only to a configuration (by a hidden key). The user can
 The [menu app](/Menuapp) should be started from RsyncOSX. This require paths for both apps to be entered into [userconfiguration](/UserConfiguration).  The paths are used for activating the apps from either within RsyncOSX or RsyncOSXsched.
 
 The yellow flag in column `Sched` indicates there are active scheduled tasks. The flag is either yellow or green. Green is next task within one hour.
-![](/images/RsyncOSX/master/schedule/schedule1.png)
-![](/images/RsyncOSX/master/schedule/schedule2.png)
-
-![](/images/RsyncOSX/master/schedule/schedule3.png)
-Double click on row brings up details about schedules and logs for one task. Scheduled tasks can either be stopped or deleted
-![](/images/RsyncOSX/master/schedule/schedule4.png)
