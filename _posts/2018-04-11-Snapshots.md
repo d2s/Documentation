@@ -16,11 +16,11 @@ Deleting snapshots is a **destructive** operation and should be performed with c
 - previous months (and years)
   - keep snapshots for either last or all selected Day of week
 
-Snapshots which does not follow plan are automatically marked for deletions. 
+Snapshots which does not follow plan are automatically marked for deletions.
 
 ## Utilizing Snapshots
 
-The snapshot feature enables saving changed and deleted files ahead of a new synchronizing task. The snapshot saves the current state of all files in a separate directory ahead of any changes or deletions. Changed and deleted files can then be restored utilizing the [copy single files](/CopySingleFiles) features. The [full restore](/Fullrestore) will copy the **last** snapshot from remote storage to either the source directory or a temporary restore directory.
+The snapshot feature enables saving changed and deleted files ahead of a new synchronizing task. The snapshot saves the current state of all files in a separate directory ahead of any changes or deletions. Changed and deleted files can then be restored utilizing the copy single files features. The [full restore](/Fullrestore) will copy the **last** snapshot from remote storage to either the source directory or a temporary restore directory.
 
 - snapshots works on either local attached disks and remote hosts
 - standard rsync synchronize tasks cannot be converted to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/data/1`)

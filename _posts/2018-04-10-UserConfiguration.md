@@ -17,7 +17,7 @@ There are only a few parameters to choose in user configuration. Configurations 
 - detailed logging on or off
    	- if detailed logging is on all backup tasks are logged, if off only last date for task is updated in Execute view
 - temporary path restore
-    - preset temporary path for [restoring single files or volumes](/CopySingleFiles)
+    - preset temporary path for restoring single files or volumes
     - preset temporary path for [full restore](/Fullrestore)
 - Scheduled tasks (default on: dispatch, if off: timer)
     - don´t bother to switch, it is only how (technical) scheduled tasks are kicked off
