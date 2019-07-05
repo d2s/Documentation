@@ -29,16 +29,4 @@ If the user deletes a task any scheduled operations are deleted as well.
 
 When a scheduled task is executing the user is not allowed to manually execute a task. RsyncOSX does also notify in view when a scheduled task is executing.
 
-There are two methods for executing scheduled tasks, either by using a `DispatchQueue` or a `OperationQueue`. A [factory](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/OperationFactory.swift) creates the object based on the user settings.
-
-#### DispatchQueue
-
-[DispatchQueue](https://developer.apple.com/documentation/dispatch/dispatchqueue)
-- [operation object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ExecuteTaskDispatch.swift)
-- [dispatch queue](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperationDispatch.swift)
-
-#### OperationQueue
-
-[OperationQueue](https://developer.apple.com/documentation/foundation/operationqueue)
-- [operation object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ExecuteTaskTimer.swift)
-- [queue object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ScheduleOperationTimer.swift)
+There are two methods for executing scheduled tasks, either by using a [DispatchQueue](https://developer.apple.com/documentation/dispatch/dispatchqueue) or a [OperationQueue](https://developer.apple.com/documentation/foundation/operationqueue).
