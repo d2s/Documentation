@@ -12,16 +12,15 @@ I am using the application on a daily basis and it evolves during my own use. Su
 The following are changes in the release candidate:
 
 - fixed a bug in search logs, the search was not localized
-- enhanced the info for snapshot administration, see below
+- enhanced the info for snapshot administration
 - some localization fixes (Norwegian)
 - removed possibility for encrypted backups linked with RcloneOSX
 - fixed a couple of memory leaks
 - refactor of code and cleanup
 - some GUI adjustments
+- the [master branch](https://github.com/rsyncOSX/RsyncOSX) is updated when changes are tested and considered stable
 
 This is work in progress, but the app is still stable. Next release is planned after summer 2019. This is most likely last rc before next release.
-
-![](/images/RsyncOSX/master/nextversion/updatedplan.png)
 
 ## Version 5.8.6
 
@@ -433,7 +432,7 @@ The schedule now informs if a scheduled backup plan is to short ahead. A weekly 
 * fixed one bug in parameters to rsync (causing RsyncOSX to crash)
 * new help function - opens relevant html page in browser
 * added new info using rsync version 3.1.2 (number of *new* and *delete* files)
-	* see [user configuration](/UserConfiguration) how set other version of rsync
+	* see user configuration how set other version of rsync
 
 ## Version 4.0.0
 
@@ -481,7 +480,7 @@ If RsyncOSX crash during startup please delete the schedule and loggfile: `Docum
 After releasing this version I will not release new versions for some time. I have to focus on my new job (start 2 January 2017) for some time. I will continue to develop RsyncOSX in the future, but the number of new releases will drop compared to 2016.
 
 - fixed bug in profiles
-- added an alternative suffix (in [parameters](Parameters.md) to rsync)
+- added an alternative suffix (in parameters to rsync)
 - added delete log rows in log view
 - even more cleanup of code
 
@@ -525,7 +524,7 @@ After releasing this version I will not release new versions for some time. I ha
 ## Version 3.6.1
 
 - released 15 November 2016
-- [logs part](Logging.md) is changed, text search for **remote server**, **local catalog** or **executed date/time**
+- logs part is changed, text search for **remote server**, **local catalog** or **executed date/time**
 - there is a bug in deleting ssh-port - **fixed**
 - there is a bug in enabling Profiles menu when RsyncOSX is started on a Mac for the first time (Profiles menu is not enabled) - **fixed**
 - sometimes output from rsync is set to **nil** (in RsyncOSX), doing an unwrap of nil value causes RsyncOSX to crash - **fixed**
