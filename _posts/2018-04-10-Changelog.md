@@ -18,7 +18,7 @@ The following are changes in the release candidate:
 - fixed a couple of memory leaks
 - refactor of code and cleanup
 - some GUI adjustments
-- some adjustments in search (loggs and all profiles)
+- some adjustments in search and sort (in logs and all profiles)
 - the [master branch](https://github.com/rsyncOSX/RsyncOSX) is updated when changes are tested and considered stable
 
 This is work in progress, but the app is still stable. Next release is planned after summer 2019. This is most likely last rc before next release.
