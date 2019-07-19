@@ -21,7 +21,7 @@ The following are changes in the release candidate:
 - some adjustments in search and sort (in logs and all profiles)
 - the [master branch](https://github.com/rsyncOSX/RsyncOSX) is updated when changes are tested and considered stable
 
-This is work in progress, but the app is still stable. Next release is planned after summer 2019.
+This is work in progress, but the app is still stable. A new and [notarized release](/Notarized) is planned after summer 2019.
 
 ## Version 5.8.6
 
