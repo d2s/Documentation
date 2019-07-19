@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.9.0 release candidate
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 5 July 2019.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 19 July 2019.
 
 The following are changes in the release candidate:
 
@@ -21,7 +21,7 @@ The following are changes in the release candidate:
 - some adjustments in search and sort (in logs and all profiles)
 - the [master branch](https://github.com/rsyncOSX/RsyncOSX) is updated when changes are tested and considered stable
 
-This is work in progress, but the app is still stable. Next release is planned after summer 2019. This is most likely last rc before next release.
+This is work in progress, but the app is still stable. Next release is planned after summer 2019.
 
 ## Version 5.8.6
 
