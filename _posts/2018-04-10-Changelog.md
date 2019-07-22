@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.9.0 release candidate
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 19 July 2019.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 19 July 2019. The release candidate is signed but not notarized.
 
 The following are changes in the release candidate:
 

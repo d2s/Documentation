@@ -13,7 +13,7 @@ To get an idea of how RcloneOSX is working please see the [intro](/Intro) to Rsy
 
 ## Version 1.9.1 release candidate
 
-[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.1) 21 July 2019.
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.1) 21 July 2019. The release candidate is signed but not notarized.
 
 - fixed a couple of memory leaks
 - some GUI adjustments
