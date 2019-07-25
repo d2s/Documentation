@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Rsync daemon"
+title:  "Rsync daemon setup"
 permalink: Rsyncdaemon
 ---
 It is advised to utilize ssh keys for setup of password less logins for rsync. But it is possible to setup rsync and password less login by utilize a rsync daemon setup.
 
+With a few tweaks it is possible to get RsyncOSX working with rsync daemon. Be aware of not utilizing ssh, transfer of data is not encrypted. This is probably not a problem on a local network, but I would not advise it on a public network (depends on what data is synchronized).
 
-With a few tweaks I managed to get RsyncOSX working with rsync daemon.. Be aware of not utilizing ssh, transfer of data is not encrypted.. probably not a problem on a local network, but I would not advise it on a public network (depends on what data is synchronized).. There is no need for adding some code to RsyncOSX..
+The sample setup below is based upon a Ubuntu 19.04 server. How to get the rsync daemon up and running on the Ubuntu server is **not** part of this document. The rsync daemon on the server is setup to listen on port 873.
 
-I installed a Ubuntu 19.04 server, added a:
 ```
 /etc/rsyncd.conf
 pid file = /var/run/rsyncd.pid
@@ -27,20 +27,20 @@ secrets file = /etc/rsyncd.secrets
 ```
 The following tweaks in RsyncOSX
 
-Prefix username rsync://
+Prefix username `rsync://username`
 
 ![rsyncdaemon](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon1.png)
 
-Add a full path to the file with password (rsync will complain if it is not chmod 600)
+Add a full path to the file with password. Rsync will complain if it is not chmod 600. Also remove the `-e ssh` parameter.
 
 ![rsyncdaemon](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon2.png)
 
-With the above setup I was able to push and pull data utilizing RsyncOSX and a rsync daemon setup..
+With the above setup I was able to push and pull data utilizing RsyncOSX and a rsync daemon setup. The following commands for push and pull files are:
 
 Push files (synchronize or backup)
 
-/Users/thomas/bin/rsync --archive --verbose --compress --delete --password-file=/Users/thomas/passord.txt --exclude=.git --dry-run --stats /Users/thomas/GitHub/ rsync://thomas@10.0.0.41:/files/
+`/Users/thomas/bin/rsync --archive --verbose --compress --delete --password-file=/Users/thomas/passord.txt --exclude=.git --dry-run --stats /Users/thomas/GitHub/ rsync://thomas@10.0.0.41:/files/`
 
 Pull files (restore)
 
-/Users/thomas/bin/rsync --archive --verbose --compress --delete --password-file=/Users/thomas/passord.txt --exclude=.git --dry-run --stats rsync://thomas@10.0.0.41:/files/ /Users/thomas/GitHub/
+`/Users/thomas/bin/rsync --archive --verbose --compress --delete --password-file=/Users/thomas/passord.txt --exclude=.git --dry-run --stats rsync://thomas@10.0.0.41:/files/ /Users/thomas/GitHub/`
