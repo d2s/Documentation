@@ -20,6 +20,7 @@ The following are changes in the release candidate:
 - some GUI adjustments
 - some adjustments in search and sort (in logs and all profiles)
 - the [master branch](https://github.com/rsyncOSX/RsyncOSX) is updated when changes are tested and considered stable
+- the Chinese (Simplified) translation will be updated in new release (not in the release candidate)
 
 This is work in progress, but the app is still stable. A new and [notarized release](/Notarized) is planned after summer 2019.
 
