@@ -7,10 +7,11 @@ It is advised to utilize ssh keys for setup of password less logins for rsync. B
 
 With a few tweaks it is possible to get RsyncOSX working with rsync daemon. Be aware of not utilizing ssh, transfer of data is not encrypted. This is probably not a problem on a local network, but I would not advise it on a public network (depends on what data is synchronized).
 
-The sample setup below is based upon a Ubuntu 19.04 server. How to get the rsync daemon up and running on the Ubuntu server is **not** part of this document. The rsync daemon on the server is setup to listen on port 873.
+The sample setup below is based upon a Ubuntu 19.04 server. How to get the rsync daemon up and running on the Ubuntu server is **not** part of this document. The rsync daemon on the server is setup to listen on port 873. It is also advised that the versions of rsync are equal on both client and server.
+
+The following lines are created on the server side in file: `/etc/rsyncd.conf`
 
 ```
-/etc/rsyncd.conf
 pid file = /var/run/rsyncd.pid
 lock file = /var/run/rsync.lock
 log file = /var/log/rsync.log
@@ -25,13 +26,14 @@ timeout = 300
 auth users = thomas
 secrets file = /etc/rsyncd.secrets
 ```
-The following tweaks in RsyncOSX
 
-Prefix username `rsync://username`
+The `files` in `[files]` is used in the setup. The following tweaks in RsyncOSX:
+
+- prefix username `rsync://username`
 
 ![rsyncdaemon](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon1.png)
 
-Add a full path to the file with password. Rsync will complain if it is not chmod 600. Also remove the `-e ssh` parameter.
+- add a full path to the file with password. Rsync will complain if it is not chmod 600. Also remove the `-e ssh` parameter.
 
 ![rsyncdaemon](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon2.png)
 
