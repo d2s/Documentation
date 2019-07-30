@@ -13,10 +13,11 @@ To get an idea of how RcloneOSX is working please see the [intro](/Intro) to Rsy
 
 ## Version 1.9.1 release candidate
 
-[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.1) 21 July 2019. The release candidate is signed but not notarized.
+[Updated](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.1) 30 July 2019. The release candidate is signed but not notarized.
 
 - fixed a couple of memory leaks
 - some GUI adjustments
+- fixed a bug in delete logs and save logs to permanent store
 - some adjustments in search and sort (in logs and all profiles)
 
 A new and [notarized release](/Notarized) is planned after summer 2019.

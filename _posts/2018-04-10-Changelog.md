@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.9.0 release candidate
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 19 July 2019. The release candidate is signed but not notarized.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 30 July 2019. The release candidate is signed but not notarized.
 
 The following are changes in the release candidate:
 
@@ -18,7 +18,7 @@ The following are changes in the release candidate:
 - fixed a couple of memory leaks
 - refactor of code and cleanup
 - some GUI adjustments
-- fixed a bug in delete logs and write logs to permanent store
+- fixed a bug in delete logs and save logs to permanent store
 - some adjustments in search and sort (in logs and all profiles)
 - the [master branch](https://github.com/rsyncOSX/RsyncOSX) is updated when changes are tested and considered stable
 - the Chinese (Simplified) translation will be updated in new release (not in the release candidate)
