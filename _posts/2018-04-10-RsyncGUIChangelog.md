@@ -19,6 +19,14 @@ Utilizing **scheduled** task is not implemented in RsyncGUI.
 
 If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 1.6.0
+
+This version is approved for release on Apple Mac Store 2 August 2019.
+
+- some GUI adjustments
+- fixed a bug in delete logs and save logs to permanent store
+- some adjustments in search and sort (in logs and all profiles)
+
 ## Version 1.5.0
 
 This version is approved for release on Apple Mac Store 27 June 2019.
