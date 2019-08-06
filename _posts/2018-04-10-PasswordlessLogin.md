@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "Passwordless logins"
+title:  "Passwordless logins by ssh-keys"
 permalink: PasswordlessLogin
 ---
-Backup to offsite or remote backup locations (servers) requires some more setup. By using rsync from command-line it prompts for login ID and password. There is, as far as I know, no solution for passing login credentials to rsync command-line tool by parameter. But ssh has possibility to enable **passwordless** logins by using ssh generated private and public key-pair.
 
-Using [ssh-keys](https://wiki.archlinux.org/index.php/SSH_keys) is in general considered more safe than standard password solutions (single factor authentication). Ssh-keys is based upon [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography).
-
-To enable passwordless login by using ssh you must use `ssh-keygen` to create a private and public key-pair. For my second Macbook I also create a private and public key by `ssh-keygen`. The second public key is appended to both remote servers file `authorized_keys`. That is it.
+To enable passwordless login by using ssh you must use `ssh-keygen` to create a private and public key-pair. The method below is a manually setup. [RsyncOSX does also assist in setting up ssh-keys.](/ssh)
 
 ## Step by step procedure
 

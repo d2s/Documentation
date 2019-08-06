@@ -15,7 +15,7 @@ There are three types of tasks, `synchronize` which is standard, `snapshots` and
 
 Local catalog and Remote catalog are added either by using *drag and drop* from filemanager or *by text* only. If enter by text please remember to add the full path. Remote catalogs is entered either by full paths or use the `~` character to expand remote user home catalog. See sample configuration.
 
-The `Capacity` button query remote storage all configurations about available storage space. Only valid for remote hosts. 
+The `Capacity` button query remote storage all configurations about available storage space. Only valid for remote hosts.
 
 ![Execute view](/images/RsyncOSX/master/add/add2.png)
 
@@ -29,15 +29,21 @@ The `Capacity` button query remote storage all configurations about available st
 - **Remote username**: `thomas`
   - username for login to remote server
 - **Remote server**: `10.0.0.57`
-  - either server name or IP-adress for remote server
+  - either server name or IP-address for remote server
+- **ID**:
+    - informal tag for the configuration
 - **ssh port**:
   - if ssh communicates through other than standard port it must be set here, port 22 is default port for ssh and not require to set
-- **ID**:
-  - informal tag for the configuration
-- **rsync daemon**:
-  - setting this puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote which takes some more setup. I am not using it myself.
 - **Type**:
-  - There are three types of tasks, `synchronize` which is standard, `snapshots` and `single file`.
+    - There are three types of tasks, `synchronize` which is standard, `snapshots` and `single file`.
+
+### Rsync daemon setup
+
+There are a some possibilities to enable a rsync daemon setup. This require some more setup which is not part of this documentation.
+
+- **rsync daemon**:
+  - setting this puts a double colon `::` in address parameter to rsync, It forces rsync to use the rsync daemon remote
+  - there is also possible to [tweak the standard setup to utilize rsync daemon](/Rsyncdaemon)
 
 About remote servers.
 
