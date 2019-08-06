@@ -13,6 +13,6 @@ Using [ssh-keys](https://wiki.archlinux.org/index.php/SSH_keys) is in general co
 
 There is also possible to setup RsyncOSX utilizing a **rsync daemon** setup for synchronizing files to remote servers.
 
-- this is a special setup and require some [tweaking](/Rsyncdaemon).
+- this is a special setup and require some [tweaking](/Rsyncdaemon)
 
 Rsync is reading a local file with password information when connecting to the server side rsync daemon.
