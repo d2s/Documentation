@@ -25,7 +25,7 @@ The following parameters are for networked tasks only. A networked task is a tas
 
 - `--compress`
 	- compress files before transmitting, applies only if remote server
-- `- e ssh`
+- `-e ssh`
 	- to ensure rsync tunnels traffic through a ssh-tunnel, applies only if there is a remote server
 - `-e "ssh -p nn"`
 	- choose another port `nn` if standard port 22 is not used, enable by setting port number in parameters, applies only if remote server
