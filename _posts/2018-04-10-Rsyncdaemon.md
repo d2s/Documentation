@@ -46,3 +46,12 @@ Push files (synchronize or backup)
 Pull files (restore)
 
 `/Users/thomas/bin/rsync --archive --verbose --compress --delete --password-file=/Users/thomas/passord.txt --exclude=.git --dry-run --stats rsync://thomas@10.0.0.41:/files/ /Users/thomas/GitHub/`
+
+### An alternative rsync daemon setup
+
+By utilizing the double colon `::`, a slightly different syntax does the same.  
+
+![rsyncdaemon](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon3.png)
+![rsyncdaemon](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon4.png)
+
+`/Users/thomas/bin/rsync --archive --verbose --compress --delete --password-file=/Users/thomas/passord.txt --exclude=.git --dry-run --stats /Users/thomas/GitHub/ thomas@172.16.239.135::files/`
