@@ -5,7 +5,7 @@ permalink: Rsyncdaemon
 ---
 It is advised to utilize ssh keys for setup of password less logins for rsync. But it is possible to setup rsync and password less login by utilize a rsync daemon setup.
 
-With a few tweaks it is possible to get RsyncOSX working with rsync daemon. Be aware of not utilizing ssh, transfer of data is not encrypted. This is probably not a problem on a local network, but I would not advise it on a public network (depends on what data is synchronized).
+With a few tweaks it is possible to get RsyncOSX working with rsync daemon. Be aware of not utilizing ssh, transfer of data is **not** encrypted. This is might not a problem on a local network, but I would not advise it on a public network (depends on what data is synchronized).
 
 The sample setup below is based upon a Ubuntu 19.04 server. How to get the rsync daemon up and running on the Ubuntu server is **not** part of this document. The rsync daemon on the server is setup to listen on port 873. It is also advised that the versions of rsync are equal on both client and server.
 
@@ -49,7 +49,7 @@ Pull files (restore)
 
 ### An alternative rsync daemon setup
 
-By utilizing the double colon `::` a slightly different syntax does the same.  
+By utilizing the double colon `::` is a slightly different syntax which does the same.  
 
 ![rsyncdaemon](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon3.png)
 ![rsyncdaemon](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon4.png)

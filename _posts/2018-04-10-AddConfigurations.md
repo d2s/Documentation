@@ -39,13 +39,13 @@ The `Capacity` button query remote storage all configurations about available st
 
 ### Rsync daemon setup
 
-There are a some possibilities to enable a rsync daemon setup. This require some more setup which is not part of this documentation.
-
 - **rsync daemon**:
-  - setting this puts a double colon `::` in address parameter to rsync, It forces rsync to use the rsync daemon remote
-  - there is also possible to [tweak the standard setup to utilize rsync daemon](/Rsyncdaemon)
 
-About remote servers.
+Enabling rsync daemon puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote. There are [two possible setup for using the rsync daemon](/Rsyncdaemon).
+
+Utilizing a rsync daemon setup does **not** encrypt the transfer between client and server. To encrypt the transfer require tunneling traffic in a ssh protocol. 
+
+### About remote servers
 
 ```
 Utilizing remote servers as backup destinations
