@@ -3,18 +3,18 @@ layout: post
 title:  "Passwordless logins to remote servers"
 permalink: Remotelogins
 ---
-There are two ways to setup passwordless logins to a remote computer. RsyncOSX supports both. It is advised to use the first because it is considered more secure.
+There are two ways to setup passwordless logins to a **remote server**. RsyncOSX supports both. It is advised to use the first because it is considered more secure.
 
 ### ssh, ssh-keys and encrypted protocol
 
-By utilizing rsync and ssh (the `-e ssh` parameter to rsync) enables **passwordless** logins to **remote servers** by ssh private and public key-pair.
+By utilizing `ssh` enables **passwordless** logins to remote servers by ssh private and public key-pair.
 
-Using [ssh-keys](https://wiki.archlinux.org/index.php/SSH_keys) is in general considered more safe than standard password solutions (single factor authentication). Ssh-keys is based upon [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography).
+Using [ssh-keys](https://wiki.archlinux.org/index.php/SSH_keys) is in general considered more safe than standard password solutions (single factor authentication). ssh-keys is based upon [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography).
 
 - RsyncOSX can assist you [in setting up passwordless logins](/ssh)
 - or you can [enable passwordless logins manually](/PasswordlessLogin)
 
-Rsync transfer data between client and server by tunneling transfer of data in a encrypted ssh tunnel.
+Rsync transfer data between client and server by tunneling transfer of data in an encrypted ssh tunnel.
 
 ### rsync daemon, not encrypted protocol
 
