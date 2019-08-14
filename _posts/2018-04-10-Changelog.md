@@ -21,6 +21,7 @@ The following are changes in the release candidate:
 - removed possibility for encrypted backups linked with RcloneOSX
 - fixed a couple of memory leaks
 - refactor of code and cleanup
+- enhanced awareness if remote servers are not available
 - the [master branch](https://github.com/rsyncOSX/RsyncOSX) is updated when changes are tested and considered stable
 
 This is work in progress, but the app is still stable. A new and [notarized release](/Notarized) is planned after summer 2019.
