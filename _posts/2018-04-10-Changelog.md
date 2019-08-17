@@ -5,9 +5,11 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
-## Version 5.9.0 release candidate
+## Version 5.9.1 release candidate
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.0rc) 8 August 2019. The release candidate is signed but not notarized.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.1rc) 17 August 2019. The release candidate is signed but not notarized. Next release of RsyncOSX will be when macOS 10.15 Catalina is released. Next release will be build by Xcode 11 and both signed and notarized. **Important** - from macOS 10.15 Catalina, notarization is required by default for all software.
+
+The major part of in this release are refactor and cleanup in code. Refactor of code is mostly for decouple of code and make the code easier for maintenance.
 
 The following are changes in the release candidate:
 
@@ -24,7 +26,7 @@ The following are changes in the release candidate:
 - enhanced awareness if remote servers are not available
 - the [master branch](https://github.com/rsyncOSX/RsyncOSX) is updated when changes are tested and considered stable
 
-This is work in progress, but the app is still stable. A new and [notarized release](/Notarized) is planned after summer 2019.
+A new and [notarized release](/Notarized) is planned after release of macOS 10.15 Catalina.
 
 ## Version 5.8.6
 
