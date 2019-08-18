@@ -13,7 +13,7 @@ The major part in this release are refactor and cleanup in code. Refactor of cod
 
 Known **issues** in the release candidate :
 
-- the `batch` execution sometimes reports there is "nothing to do", for execution of several tasks please use the quick backup feature..
+- the `automatic execution` (double arrow or shortcut `⌘B`) sometimes reports "There seems to be nothing to do..." when it is files to be synchronized, for execution of several tasks please use the quick backup feature..
 
 The following are changes in the release candidate:
 
