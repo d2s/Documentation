@@ -11,6 +11,10 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 The major part in this release are refactor and cleanup in code. Refactor of code is mostly for decouple of code and make the code easier for maintenance.
 
+Known **issues** in the release candidate :
+
+- the `batch` execution sometimes reports there is "nothing to do", for execution of several tasks please use the quick backup feature..
+
 The following are changes in the release candidate:
 
 - enhanced the info for snapshot administration
