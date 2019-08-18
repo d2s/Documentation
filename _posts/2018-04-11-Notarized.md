@@ -5,7 +5,7 @@ permalink: Notarized
 ---
  RsyncOSX and RcloneOSX are signed with my Apple ID developer certificate and [notarized](https://support.apple.com/en-us/HT202491) by Apple. This means both apps are verified and checked for not containing malicious code. It ensures the users that the apps are clean and that they are working together with Apples Gatekeeper technology. A message from Apple is issued when opening either a new or updated application the first time.
 
- From macOS 10.15 Catalina, [notarize is required for all software](https://developer.apple.com/documentation/security/notarizing_your_app_before_distribution).
+ From macOS 10.15 Catalina, [notarizing is required for all software](https://developer.apple.com/documentation/security/notarizing_your_app_before_distribution).
 
  The following apps are signed and notarized:
 
