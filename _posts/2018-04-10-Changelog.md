@@ -9,7 +9,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 [Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.1rc) 22 August 2019. The release candidate is signed but not notarized. Next release of RsyncOSX will be when macOS 10.15 Catalina is released. Next release will be build by Xcode 11, signed and notarized. **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
 
-The major part in this release are refactor and cleanup in code. Refactor of code is mostly for decouple of code and make the code easier for maintenance.
+The major part in this release are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance.
 
 The update **fixes** an issue in `automatic execution` (double arrow or shortcut `⌘B`), it reports "There seems to be nothing to do..." when there are files to be synchronized - this is now fixed. There was also a bug in removal of the `--delete` parameter - this is fixed in the last (22 Aug) updated release candidate.
 
@@ -19,6 +19,7 @@ The following are changes in the release candidate:
 - a few GUI adjustments
 - fixed a bug in search logs, the search was not localized
 - fixed a bug in delete logs and save logs to permanent store
+- fixed a bug in removal of `--delete` parameter
 - some adjustments in search and sort (in logs and all profiles)
 - some localization fixes Norwegian
 - some localization fixes Chinese (Simplified)
