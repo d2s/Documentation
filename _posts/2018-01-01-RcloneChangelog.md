@@ -15,10 +15,13 @@ To get an idea of how RcloneOSX is working please see the [intro](/Intro) to Rsy
 
 [Updated](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.1) 30 July 2019. The release candidate is signed but not notarized. Next release of RcloneOSX will be when macOS 10.15 Catalina is released. Next release will be build by Xcode 11, signed and notarized. **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
 
+The major part in this release are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RcloneOSX easier for maintenance.
+
 - fixed a couple of memory leaks
-- some GUI adjustments
+- a few GUI adjustments
 - fixed a bug in delete logs and save logs to permanent store
 - some adjustments in search and sort (in logs and all profiles)
+- refactor of code and cleanup
 
 ## Version 1.9.0
 
