@@ -7,20 +7,18 @@ This is the Changelog for RcloneOSX. RcloneOSX is a port of RsyncOSX to utilize 
 
 Rclone is *rsync for cloud storage*. Even if `rclone` and `rsync` are somewhat equal they are also in many ways different. RcloneOSX is built upon the ideas from RsyncOSX. But it is not easy to clone all functions in RsyncOSX to RcloneOSX. I spend most of my time developing RsyncOSX. From time to time some of the functions are ported to RcloneOSX from RsyncOSX.
 
-I am not an advanced user of `rclone`. My main use of RcloneOSX is  synchronizing my GitHub catalog to Dropbox and Google. I have also implemented [encrypted](/Encrypted) backup in RsyncOSX by utilizing RcloneOSX. During this winter (2018/2019) the functions within RcloneOSX will be enhanced. But I need to learn more about rclone before enhancing RcloneOSX.
+I am not an advanced user of `rclone`. My main use of RcloneOSX is  synchronizing my GitHub catalog to cloud storage Dropbox and Google.
 
 To get an idea of how RcloneOSX is working please see the [intro](/Intro) to RsyncOSX. The operation and menus are mostly equal. The app is signed with my Apple ID developer certificate and [notarized](/Notarized) by Apple.
 
 ## Version 1.9.1 release candidate
 
-[Updated](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.1) 30 July 2019. The release candidate is signed but not notarized.
+[Updated](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.1) 30 July 2019. The release candidate is signed but not notarized. Next release of RcloneOSX will be when macOS 10.15 Catalina is released. Next release will be build by Xcode 11, signed and notarized. **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
 
 - fixed a couple of memory leaks
 - some GUI adjustments
 - fixed a bug in delete logs and save logs to permanent store
 - some adjustments in search and sort (in logs and all profiles)
-
-A new and [notarized release](/Notarized) is planned after summer 2019.
 
 ## Version 1.9.0
 
