@@ -21,7 +21,7 @@ If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/Rsy
 
 ## Version 1.7.0
 
-This version is released for approval and release on Apple Mac Store 28 August 2019.
+TThis version is approved for release on Apple Mac Store 29 August 2019.
 
 The **major effort** in this release are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncGUI easier for maintenance and enhancements.
 
