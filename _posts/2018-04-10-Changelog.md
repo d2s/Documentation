@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.9.1 release candidate
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.1rc) 22 August 2019. The release candidate is signed but not notarized. Next version of RsyncOSX will be when macOS 10.15 Catalina is released. Next version will be build by Xcode 11, signed and notarized. **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.1rc) 22 August 2019. The release candidate is signed but **not** notarized. Next version of RsyncOSX will be when macOS 10.15 Catalina is released. Next version will be build by Xcode 11, signed and notarized. **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
 
 The major part in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance.
 
