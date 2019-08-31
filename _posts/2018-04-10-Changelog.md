@@ -7,9 +7,9 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.9.1 release candidate
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.1rc) 22 August 2019. The release candidate is signed but not notarized. Next release of RsyncOSX will be when macOS 10.15 Catalina is released. Next release will be build by Xcode 11, signed and notarized. **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.1rc) 22 August 2019. The release candidate is signed but not notarized. Next version of RsyncOSX will be when macOS 10.15 Catalina is released. Next version will be build by Xcode 11, signed and notarized. **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
 
-The major part in this release are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance.
+The major part in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance.
 
 The update **fixes** an issue in `automatic execution` (double arrow or shortcut `⌘B`), it reports "There seems to be nothing to do..." when there are files to be synchronized - this is now fixed. There was also a bug in removal of the `--delete` parameter - this is fixed in the last (22 Aug) updated release candidate.
 
