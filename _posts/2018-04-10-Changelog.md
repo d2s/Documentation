@@ -9,7 +9,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 [Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.1rc) 22 August 2019. The release candidate is signed but **not** notarized. Next version of RsyncOSX will be when macOS 10.15 Catalina is released. Next version will be build by Xcode 11, signed and notarized. **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
 
-The major part in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance. I am also deleting not used code. The command `wc  -l *.swift` in the source catalog of RsyncOSX counts number of lines and swift classes and structs. There are about 200 classes and 15,000 lines of code in RsyncOSX now.
+The major part in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance. I am also deleting not used code. The commands `ls *.swift | wc -l` and `wc -l *.swift` in the source catalog of RsyncOSX counts number of lines and swift classes and structs. There are about 120 classes and 15,000 lines of code in RsyncOSX now.
 
 The following are changes in the release candidate:
 
