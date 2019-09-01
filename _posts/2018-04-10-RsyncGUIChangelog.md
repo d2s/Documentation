@@ -23,7 +23,7 @@ If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/Rsy
 
 This version is approved for release on Apple Mac Store 29 August 2019.
 
-The **major effort** in this release are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncGUI easier for maintenance and enhancements.
+The major part in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncGUI easier for maintenance. I am also deleting not used code. The command `wc  -l *.swift` in the source catalog of RsyncGUI counts number of lines and swift classes and structs. There are about 200 classes and 12,600 lines of code in RsyncGUI now.
 
 - fixed a couple of memory leaks
 - a few GUI adjustments
