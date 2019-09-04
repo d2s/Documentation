@@ -13,7 +13,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 The release candidate is **signed and notarized** to secure it is working when users are upgrading to macOS 10.15 Catalina.
 
-The major part in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance. I am also deleting not used code. The commands `ls *.swift | wc -l` and `wc -l *.swift` in the source catalog of RsyncOSX counts number of lines and swift classes and structs. There are about 120 classes and 15,000 lines of code in RsyncOSX now.
+The major part in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance. I am also deleting not used code.
 
 The following are changes in the release candidate:
 
