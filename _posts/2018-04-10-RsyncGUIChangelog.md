@@ -21,7 +21,7 @@ If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/Rsy
 
 ## Version 1.7.2
 
-Uploaded for approval on Apple Mac Store 7 September 2019.
+This version is approved for release on Apple Mac Store 7 September 2019.
 
 - a few bugfixes
 
