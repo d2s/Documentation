@@ -15,6 +15,8 @@ The release candidate is **signed and notarized** to secure it is working when u
 
 The major part in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance. I am also deleting not used code.
 
+**There is a bug in the release candidate about adding scheduled backups - for the moment adding new schedules is not possible. The bug will be fixed before release of next version.**
+
 The following are changes in the release candidate:
 
 - enhanced the info for snapshot administration
