@@ -5,17 +5,13 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
-## Version 5.9.2 release candidate
+## Version 5.9.3
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.2rc) 3 September 2019. The release candidate is **signed and notarized**. Next version of RsyncOSX will be built by Xcode 11 on macOS 10.15 Catalina after they are released.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.3) 12 September 2019. The release is **signed and notarized**. This version is built by Xcode 11GM (Gold Master).
 
 **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
 
-The release candidate is **signed and notarized** to secure it is working when users are upgrading to macOS 10.15 Catalina.
-
-The major part in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance. I am also deleting not used code.
-
-**There is a bug in the release candidate about adding scheduled backups - for the moment adding new schedules is not possible. The bug is fixed and will be released in next version.**
+The major part (80%) in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance.
 
 The following are changes in the release candidate:
 
