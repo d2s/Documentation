@@ -11,7 +11,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
 
-The major part (80%) in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance.
+The major part (about 80%) in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance.
 
 The following are changes in the release:
 
