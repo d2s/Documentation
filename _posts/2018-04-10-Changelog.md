@@ -13,7 +13,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 The major part (80%) in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RsyncOSX easier for maintenance.
 
-The following are changes in the release candidate:
+The following are changes in the release:
 
 - enhanced the info for snapshot administration
 - a few GUI adjustments
