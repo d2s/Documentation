@@ -7,7 +7,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Version 5.9.3
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.3) 12 September 2019. The release is **signed and notarized**. This version is built by Xcode 11GM (Gold Master).
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.3) 12 September 2019. The release is **signed and notarized**. This version is built by [Xcode 11GM (Gold Master)](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_release_notes).
 
 **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
 
