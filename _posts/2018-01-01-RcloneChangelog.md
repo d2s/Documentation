@@ -11,15 +11,13 @@ I am not an advanced user of `rclone`. My main use of RcloneOSX is  synchronizin
 
 To get an idea of how RcloneOSX is working please see the [intro](/Intro) to RsyncOSX. The operation and menus are mostly equal. The app is signed with my Apple ID developer certificate and [notarized](/Notarized) by Apple.
 
-## Version 1.9.1 release candidate
+## Version 1.9.2
 
-[Updated](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.1) 3 September 2019. The release candidate is **signed and notarized**. Next version of RcloneOSX will be built by Xcode 11 on macOS 10.15 Catalina after they are released.
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.2) 14 September 2019. The release is **signed and notarized**. This version is built by [Xcode 11GM (Gold Master)](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_release_notes).
 
 **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
 
-The release candidate is **signed and notarized** to secure it is working when users are upgrading to macOS 10.15 Catalina.
-
-The **major effort** in this release are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RcloneOSX easier for maintenance and enhancements.
+The major part (about 80%) in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RcloneOSX easier for maintenance.
 
 - fixed a couple of memory leaks
 - a few GUI adjustments
