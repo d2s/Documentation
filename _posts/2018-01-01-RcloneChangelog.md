@@ -11,6 +11,15 @@ I am not an advanced user of `rclone`. My main use of RcloneOSX is  synchronizin
 
 To get an idea of how RcloneOSX is working please see the [intro](/Intro) to RsyncOSX. The operation and menus are mostly equal. The app is signed with my Apple ID developer certificate and [notarized](/Notarized) by Apple.
 
+## Version 1.9.3
+
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.3) 21 September 2019. The release is **signed and notarized**. This version is built by [Xcode 11)](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_release_notes).
+
+**Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
+
+- fixed a bug in delete logs
+
+
 ## Version 1.9.2
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.2) 14 September 2019. The release is **signed and notarized**. This version is built by [Xcode 11GM (Gold Master)](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_release_notes).
