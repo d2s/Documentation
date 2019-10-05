@@ -13,7 +13,7 @@ To get an idea of how RcloneOSX is working please see the [intro](/Intro) to Rsy
 
 ## Version 1.9.4
 
-[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.4) 4 October 2019. The release is **signed and notarized**. This version is built by [Xcode 11)](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_release_notes).
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.4) 4 October 2019. The release is **signed and notarized**. This version is built by Xcode 11 on macOS Catalina GM.
 
 **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
 
