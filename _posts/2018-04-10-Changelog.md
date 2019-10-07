@@ -5,6 +5,10 @@ permalink: Changelog
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
+## macOS Catalina
+
+If you are installing on macOS Catalina and utilize a local version of rsync, execute the `rsync` utility in a terminal window before using RsyncOSX. There is a process of granting access for the `rsync` utility before using it by RsyncOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RsyncOSX. 
+
 ## Version 5.9.3
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.3) 12 September 2019. The release is **signed and notarized**. This version is built by [Xcode 11GM (Gold Master)](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_release_notes).
