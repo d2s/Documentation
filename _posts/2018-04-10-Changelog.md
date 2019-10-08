@@ -7,7 +7,13 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## macOS Catalina
 
-If you are installing on macOS Catalina and utilize a local version of rsync, execute the `rsync` utility in a terminal window before using RsyncOSX. There is a process of granting access for the `rsync` utility before using it by RsyncOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RsyncOSX. 
+If you are installing on macOS Catalina and utilize a local version of rsync, execute the `rsync` utility in a terminal window before using RsyncOSX. There is a process of granting access for the `rsync` utility before using it by RsyncOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RsyncOSX.
+
+## Version 5.9.4
+
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.3) 8 October 2019
+
+The only changes compared to 5.9.3 is this version is built on release macOS Catalina by Xcode 11.1. MacOS Catalina and Xcode 11.1 was released 7 Oct 2019.
 
 ## Version 5.9.3
 
