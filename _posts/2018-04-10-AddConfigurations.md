@@ -36,21 +36,7 @@ The `Capacity` button query remote storage all configurations about available st
   - if ssh communicates through other than standard port it must be set here, port 22 is default port for ssh and not require to set
 - **Type**:
     - There are three types of tasks, `synchronize` which is standard, `snapshots` and `single file`.
-
-### Rsync daemon setup
-
 - **rsync daemon**:
-
-Enabling rsync daemon puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote. There are [two possible setup for using the rsync daemon](/Rsyncdaemon).
-
-Utilizing a rsync daemon setup does **not** encrypt the transfer between client and server. To encrypt the transfer require tunneling traffic in a ssh protocol. 
-
-### About remote servers
-
-```
-Utilizing remote servers as backup destinations
-require to setup passwordless logins by ssh-keys.
-```
-See [passwordless logins](/ssh).
+    Enabling rsync daemon puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote. There are [two possible setup for using the rsync daemon](/Rsyncdaemon). Utilizing a rsync daemon setup does **not** encrypt the transfer between client and server. To encrypt the transfer require tunneling traffic in a ssh protocol. [See how to setup ssh passwordless logins](/Remotelogins).
 
 Select the `Add` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Execute view. Additional parameters to rsync might be added utilizing the `Params` button.
