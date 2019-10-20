@@ -11,6 +11,14 @@ If you are installing on macOS Catalina and utilize a local version of rsync, ex
 
 If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS Catalina ask for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start on the macOS Catalina.
 
+## Next version 6.0.0
+
+20 October 2019.
+
+I am working on next version. Further cleanup in code is always a priority. Refactor of the `Restore` part is more or less completed. Some adjustments of `Snapshots` administration are in progress. And other parts of RsyncOSX are also considered for some polish.
+
+I don´t know when next version will be released, but the master branch (GitHub) is updated from time to time. Before a new release there will be a release candidate.
+
 ## Version 5.9.4
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.9.3) 8 October 2019
