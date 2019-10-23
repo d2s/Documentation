@@ -13,11 +13,18 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 ## Next version 6.0.0
 
-20 October 2019.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.0.0) 23 October 2019.
 
 I am working on next version. Further cleanup in code is always a priority. Refactor of the `Restore` part is more or less completed. Some adjustments of `Snapshots` administration are in progress. And other parts of RsyncOSX are also considered for some polish.
 
-I don´t know when next version will be released, but the master branch (GitHub) is updated from time to time. Before a new release there will be a release candidate.
+The release candidate is notarized and signed. The major changes in the release candidate are:
+
+- refactor or restore (the restore view is now a tabview)
+- some adjustments in Copy Files
+- some adjustments in administration of Snapshots
+- further refactor and cleanup in code
+
+I don´t know when next version will be released, but the master branch (GitHub) is updated from time to time.
 
 ## Version 5.9.4
 
