@@ -19,7 +19,7 @@ I am working on next version. Further cleanup in code is always a priority. Refa
 
 The release candidate is notarized and signed. The major changes in the release candidate are:
 
-- refactor or restore (the restore view is now a tabview)
+- refactor of restore (the restore view is now a tabview)
 - some adjustments in Copy Files
 - some adjustments in administration of Snapshots
 - further refactor and cleanup in code
