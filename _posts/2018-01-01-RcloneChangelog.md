@@ -13,7 +13,15 @@ To get an idea of how RcloneOSX is working please see the [intro](/Intro) to Rsy
 
 ## macOS Catalina
 
-If you are installing on macOS Catalina, execute the `rclone` utility in a terminal window before using RcloneOSX. There is a process of granting access for the `rclone` utility before using it by RcloneOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RcloneOSX. 
+If you are installing on macOS Catalina, execute the `rclone` utility in a terminal window before using RcloneOSX. There is a process of granting access for the `rclone` utility before using it by RcloneOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RcloneOSX.
+
+## Version 2.0.0
+
+28 October 2019
+
+I am currently working on next version. The restore part is refactored. Parts of code are refactored as well. Most of the work is based upon next version of RsyncOSX and RsyncGUI.
+
+I don´t know when this version will be released. Probably by end of November 2019.
 
 ## Version 1.9.4
 
