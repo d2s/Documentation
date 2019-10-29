@@ -19,12 +19,13 @@ The **updated release candidate** is only an update of the Chinese translation.
 
 I am working on next version. Further cleanup in code is always a priority. Refactor of the `Restore` part is more or less completed. Some adjustments of `Snapshots` administration are in progress. And other parts of RsyncOSX are also considered for some polish.
 
-The release candidate is notarized and signed. The major changes in the release candidate are:
+The release candidate is **signed and notarized**. The major changes in the release candidate are:
 
 - refactor of restore (the restore view is now a tabview)
 - some adjustments in Copy Files
 - some adjustments in administration of Snapshots
 - further refactor and cleanup in code
+- update of Chinese translation (and some updates in the Norwegian translation as well)
 
 I don´t know when next version will be released, but the master branch (GitHub) is updated from time to time.
 
