@@ -13,7 +13,9 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 ## Next version 6.0.0
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.0.0) 23 October 2019.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.0.0) 29 October 2019.
+
+The **updated release candidate** is only an update of the Chinese translation.
 
 I am working on next version. Further cleanup in code is always a priority. Refactor of the `Restore` part is more or less completed. Some adjustments of `Snapshots` administration are in progress. And other parts of RsyncOSX are also considered for some polish.
 
