@@ -19,6 +19,8 @@ If you are installing on macOS Catalina, execute the `rclone` utility in a termi
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.0.0rc) 31 October 2019.
 
+There is one known bug in the rc: dont start quick backup from the restore view, it will not start or close the view. It will be fixed within a couple of days.
+
 The release candidate is **signed and notarized**. The major changes in the release candidate are:
 
 - the restore part is refactored
