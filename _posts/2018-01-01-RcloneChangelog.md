@@ -17,13 +17,14 @@ If you are installing on macOS Catalina, execute the `rclone` utility in a termi
 
 ## Version 2.0.0 release candidate
 
-30 October 2019
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.0.0rc) 31 October 2019.
 
-I am currently working on next version. The restore part is refactored. Parts of code are refactored as well. Most of the work is based upon next version of RsyncOSX and RsyncGUI.
+The release candidate is **signed and notarized**. The major changes in the release candidate are:
 
-I don´t know when this version will be released. Probably by end of November 2019.
-
-Getting closer to a release candidate. Master branch is updated, some more testing is required before a release candidate is uploaded.
+- the restore part is refactored
+- some other parts of code are refactored as well
+- the copy single files are adjusted
+- a few bugfixes
 
 ## Version 1.9.4
 
