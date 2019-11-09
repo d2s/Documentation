@@ -15,16 +15,16 @@ To get an idea of how RcloneOSX is working please see the [intro](/Intro) to Rsy
 
 If you are installing on macOS Catalina, execute the `rclone` utility in a terminal window before using RcloneOSX. There is a process of granting access for the `rclone` utility before using it by RcloneOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RcloneOSX.
 
-## Version 2.0.0 release candidate
+## Version 2.0.1
 
-[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.0.0rc) 31 October 2019.
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.0.1) 9 November 2019.
 
-The release candidate is **signed and notarized**. The major changes in the release candidate are:
+The release is **signed and notarized**. The major changes in the release are:
 
 - the restore part is refactored
 - some other parts of code are refactored as well
 - the copy single files are adjusted
-- a few bugfixes
+- a few bugfixes and refactor of internal parts in code
 
 ## Version 1.9.4
 
