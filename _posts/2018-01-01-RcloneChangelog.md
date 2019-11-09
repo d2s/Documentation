@@ -24,7 +24,7 @@ The release is **signed and notarized**. The major changes in the release are:
 - the restore part is refactored
 - some other parts of code are refactored as well
 - the copy single files are adjusted
-- a few bugfixes and refactor of internal parts in code
+- a few bugfixes
 
 ## Version 1.9.4
 
