@@ -19,6 +19,12 @@ Utilizing **scheduled** task is not implemented in RsyncGUI.
 
 If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 1.8.1
+
+This version is approved for release on Apple Mac Store 9 November 2019.
+
+- a few internal updates and fixes
+
 ## Version 1.8.0
 
 This version is approved for release on Apple Mac Store 24 October 2019.
