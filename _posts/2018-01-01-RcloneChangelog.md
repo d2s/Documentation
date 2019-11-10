@@ -3,13 +3,13 @@ layout: post
 title:  "Rclone Changelog"
 permalink: RcloneChangelog
 ---
-This is the Changelog for RcloneOSX. RcloneOSX is a port of RsyncOSX to utilize `rclone`.
+This is the Changelog for RcloneOSX.
 
-Rclone is *rsync for cloud storage*. Even if `rclone` and `rsync` are somewhat equal they are also in many ways different. RcloneOSX is built upon the ideas from RsyncOSX. But it is not easy to clone all functions in RsyncOSX to RcloneOSX. I spend most of my time developing RsyncOSX. From time to time some of the functions are ported to RcloneOSX from RsyncOSX.
+Rclone is **rsync for cloud storage**. Even if `rclone` and `rsync` are somewhat equal they are also in many ways different. RcloneOSX is utilizing `rclone` for **synchronizing** and **backup** of files to a number of cloud services. RcloneOSX utilizes rclone copy, sync, move and check commands.
 
-I am not an advanced user of `rclone`. My main use of RcloneOSX is  synchronizing my GitHub catalog to cloud storage Dropbox and Google.
+I spend most of my time developing RsyncOSX. From time to time some of the functions are ported to RcloneOSX from RsyncOSX.
 
-To get an idea of how RcloneOSX is working please see the [intro](/Intro) to RsyncOSX. The operation and menus are mostly equal. The app is signed with my Apple ID developer certificate and [notarized](/Notarized) by Apple.
+The app is signed with my Apple ID developer certificate and [notarized](/Notarized) by Apple.
 
 ## macOS Catalina
 
