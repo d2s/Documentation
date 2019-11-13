@@ -9,7 +9,7 @@ This guide is primarily for executing synchronizing tasks to **remote servers**.
 
 ### First start of RsyncGUI
 
-The first action required when starting RsyncGUI for the first time is to allow RsyncGUI to access the root home catalog. Before choosing `Allow` select your root home catalog.
+The first action required when starting RsyncGUI for the first time is to allow RsyncGUI to access the root home catalog. **Before choosing `Allow` select root of the home catalog.**
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/main2.png)
 
