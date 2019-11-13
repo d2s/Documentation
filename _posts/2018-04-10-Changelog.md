@@ -11,23 +11,17 @@ If you are installing on macOS Catalina and utilize a local version of rsync, ex
 
 If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS Catalina ask for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start on the macOS Catalina.
 
-## Next version 6.0.0
+## Version 6.0.1
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.0.0) 29 October 2019.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.0.1) 10 November 2019.
 
-The **updated release candidate** is only an update of the Chinese translation.
-
-I am working on next version. Further cleanup in code is always a priority. Refactor of the `Restore` part is more or less completed. Some adjustments of `Snapshots` administration are in progress. And other parts of RsyncOSX are also considered for some polish.
-
-The release candidate is **signed and notarized**. The major changes in the release candidate are:
+The release is **signed and notarized**. The major changes are:
 
 - refactor of restore (the restore view is now a tabview)
 - some adjustments in Copy Files
 - some adjustments in administration of Snapshots
 - further refactor and cleanup in code
 - update of Chinese translation (and some updates in the Norwegian translation as well)
-
-I don´t know when next version will be released, but the master branch (GitHub) is updated from time to time.
 
 ## Version 5.9.4
 
