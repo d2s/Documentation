@@ -3,13 +3,19 @@ layout: post
 title:  "Changelog"
 permalink: Changelog
 ---
-I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. Please add an [Issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding any requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
+I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. [Please add an issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
 ## RsyncOSX on macOS Catalina
 
 If you are installing on macOS Catalina and utilize a local version of rsync, execute the `rsync` utility in a terminal window before using RsyncOSX. There is a process of granting access for the `rsync` utility before using it by RsyncOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RsyncOSX.
 
 If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS Catalina ask for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start on the macOS Catalina.
+
+## Next version
+
+I have commenced working on next version. Refactor of the scheduling part is in progress. Cleaning up of code is always important. Development of RsyncOSX started for more than three years ago as a personal project to learn Swift. RsyncOSX today is a mature and stable application. I will continue to develop RsyncOSX in the future to make sure it is stable and available on the latest version of macOS and a few previous versions as well.
+
+If you have any suggestions for enhancements or if you discover bugs, [please report an issue](https://github.com/rsyncOSX/RsyncOSX/issues).
 
 ## Version 6.0.1
 
