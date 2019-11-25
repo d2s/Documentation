@@ -3,11 +3,19 @@ layout: post
 title:  "RsyncGUI Changelog"
 permalink: RsyncGUIChangelog
 ---
-RsyncGUI is compiled with support for macOS El Capitan version 10.11 - macOS Mojave version 10.14. The application is implemented in Swift 5 by using Xcode 10.
+RsyncGUI is a sandboxed macOS app compiled with support for **macOS El Capitan version 10.11 - macOS Mojave version 10.15**. The application is implemented in Swift 5 by using Xcode 11.
 
 Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncGUI (and rsync) at any time and still have access to all synchronized files.
 
 The [App Sandboxing technology](https://developer.apple.com/app-sandboxing/) is a technology for protecting the user for malicious software. To release a macOS app on Apple Mac App Store require the app to execute inside a sandbox. RsyncGUI is an adapted version of [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) to execute inside a sandbox. There are a few limitations compared to RsyncOSX.
+
+### Please read this
+
+Is RsyncGUI easy to use or a backup tool for the average user? If you have some understanding of how to use rsync, it is helpful for understand the use of RsyncGUI. If you don't know what rsync is I recommend to read about rsync before commencing use of RsyncGUI.
+
+RsyncGUI is not developed to be an easy synchronize and backup tool. The main purpose is to ease the use of rsync and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers. The UX might be difficult to understand if you don't know rsync.
+
+If your plan is to use RsyncGUI as your main tool for backup of files, please investigate and understand the limits of RsyncGUI and rsync. RsyncGUI is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
 ## Limitations
 
