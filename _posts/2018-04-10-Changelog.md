@@ -25,6 +25,8 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 I have commenced working on next version. Refactor of the scheduling part is in progress. Cleaning up of code is always important. Development of RsyncOSX started for more than three years ago as a personal project to learn Swift. RsyncOSX today is a mature and stable application. I will continue to develop RsyncOSX in the future to make sure it is stable and available on the latest version of macOS and a few previous versions as well.
 
+[Some screenshots of enhancements in next version](/nextversion).
+
 If you have any suggestions for enhancements or if you discover bugs, [please report an issue](https://github.com/rsyncOSX/RsyncOSX/issues).
 
 ## Version 6.0.1
@@ -86,20 +88,6 @@ The following are new features and updates in version 5.8.6.
 	- the Chinese (Simplified) translating by [StringKe](https://github.com/StringKe)
 	- RsyncOSXsched is translated to Norwegian (default language is English)
 	- volunteers for translating to other languages are wanted
-
-### Some screenshots
-
-Snapshots, save day and plan on each snapshot task
-![](/images/RsyncOSX/master/nextversion/nr3.png)
-Cleanup of GUI
-![](/images/RsyncOSX/master/nextversion/nr1.png)
-Remove all default rsync parameters
-![](/images/RsyncOSX/master/nextversion/nr2.png)
-Main view in Chinese.
-![](/images/RsyncOSX/master/localization/chi1.png)
-Execute a task now in menu app, enable automatic execution of local tasks when local volume is mounted
-![](/images/RsyncOSX/master/nextversion/nr4.png)
-![](/images/RsyncOSX/master/nextversion/nr5.png)
 
 ## Version 5.8.1
 
