@@ -15,3 +15,6 @@ Also by setting `check data` in userconfig, RsyncOSX checks for duplicate config
 
 ![](/images/RsyncOSX/master/nextversion/3.png)
 ![](/images/RsyncOSX/master/nextversion/4.png)
+
+Some GUI changes in the menu app. There will probably be some changes before release next year.
+![](/images/RsyncOSX/master/nextversion/5.png)
