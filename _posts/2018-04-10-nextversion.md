@@ -12,6 +12,6 @@ Logs are stored by configuration and schedule. There has been a bug in storing l
 Do a reload of profile and schedule data is checked.
 ![](/images/RsyncOSX/master/nextversion/2.png)
 Also by setting `check data` in userconfig, RsyncOSX checks for duplicate configurations adding new.
-
 ![](/images/RsyncOSX/master/nextversion/3.png)
-![](/images/RsyncOSX/master/nextversion/4.png)
+The menu app (RsyncOSXsched) is minimized.
+![](/images/RsyncOSX/master/nextversion/5.png)
