@@ -21,7 +21,9 @@ RsyncOSX supports synchronize files and snapshots of files. It is important you 
 
 If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of RsyncOSX and rsync. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
-## Next version
+## Version 6.0.5 release candidate
+
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.0.1) 5 December 2019.
 
 I have commenced working on next version. Refactor of the scheduling part is in progress. Cleaning up of code is always important. Development of RsyncOSX started for more than three years ago as a personal project to learn Swift. RsyncOSX today is a mature and stable application. I will continue to develop RsyncOSX in the future to make sure it is stable and available on the latest version of macOS and a few previous versions as well.
 
