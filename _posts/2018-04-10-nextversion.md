@@ -3,7 +3,7 @@ layout: post
 title:  "Next version"
 permalink: nextversion
 ---
-Updated 5 December 2019
+Updated 10 December 2019
 
 Version 6.0.5 release candidate, will be released sometime in Q1 next year.
 
