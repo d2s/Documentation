@@ -26,7 +26,7 @@ The `syncremote` task is a kind of restore. The task synchronize a remote catalo
 
 ## New parameter
 
-You can add a date to the backup catalog. The date is set as current date.
+You can add a date to the backup catalog. The date is set as current date. Add `+$date` to the `backup_catalog+$date`.
 
 ![](/images/RsyncOSX/master/nextversion/9.png)
 
