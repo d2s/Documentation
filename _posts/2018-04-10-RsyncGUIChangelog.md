@@ -11,13 +11,11 @@ The [App Sandboxing technology](https://developer.apple.com/app-sandboxing/) is 
 
 ### Limitations of RsyncGUI
 
-RsyncGUI is **not** developed to be an easy synchronize and backup tool. The main purpose is to ease the use of rsync and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers.
+RsyncGUI is not developed to be an easy synchronize and backup tool. The main purpose is to ease the use of rsync and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers.
 
-The UI might be difficult to understand if you don't know rsync.
+The UI might be difficult to understand if you don't know `rsync`. If you don't know what `rsync` is I recommend to read about it before commencing use of RsyncGUI. It is not required to know it but it will ease the use and understanding of RsyncGUI.
 
-Is RsyncGUI easy to use or a backup tool for the average user? If you have some understanding of how to use rsync, it is helpful for understand the use of RsyncGUI. If you don't know what rsync is I recommend to read about rsync before commencing use of RsyncGUI.
-
-If your plan is to use RsyncGUI as your main tool for backup of files, please investigate and understand the limits of RsyncGUI and rsync. RsyncGUI is quite powerful, but it is might not the primary backup tool for the average user of macOS.
+If your plan is to use RsyncGUI as your main tool for backup of files, please investigate and understand the limits of it. RsyncGUI is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
 ## Old version of rsync
 
