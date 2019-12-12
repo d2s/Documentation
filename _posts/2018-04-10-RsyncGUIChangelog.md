@@ -9,21 +9,21 @@ Rsync is a file-based synchronization and backup tool. There is no custom soluti
 
 The [App Sandboxing technology](https://developer.apple.com/app-sandboxing/) is a technology for protecting the user for malicious software. To release a macOS app on Apple Mac App Store require the app to execute inside a sandbox. RsyncGUI is an adapted version of [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) to execute inside a sandbox. There are a few limitations compared to RsyncOSX.
 
-### Please read this
+### Limitations of RsyncGUI
+
+RsyncGUI is **not** developed to be an easy synchronize and backup tool. The main purpose is to ease the use of rsync and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers.
+
+The UI might be difficult to understand if you don't know rsync.
 
 Is RsyncGUI easy to use or a backup tool for the average user? If you have some understanding of how to use rsync, it is helpful for understand the use of RsyncGUI. If you don't know what rsync is I recommend to read about rsync before commencing use of RsyncGUI.
 
-RsyncGUI is not developed to be an easy synchronize and backup tool. The main purpose is to ease the use of rsync and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers. The UX might be difficult to understand if you don't know rsync.
-
 If your plan is to use RsyncGUI as your main tool for backup of files, please investigate and understand the limits of RsyncGUI and rsync. RsyncGUI is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
-## Limitations
+## Old version of rsync
 
 The default version of `rsync` in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version [2.6.9](https://download.samba.org/pub/rsync/src/rsync-2.6.9-NEWS) was released in nov 2006. The current release of rsync is version [3.1.3](https://download.samba.org/pub/rsync/src/rsync-3.1.3-NEWS) protocol 31 released 28 January 2018.
 
-Utilizing **snapshots** in RsyncGUI is **not possible** due to bugs in default version version 2.6.9 of rsync in macOS. It is not allowed due to the sandbox to execute an updated and another version of rsync in e.g `/usr/local/bin`.
-
-Utilizing **scheduled** task is not implemented in RsyncGUI.
+Utilizing **snapshots** in RsyncGUI is **not possible** due to bugs in default version version 2.6.9 of rsync in macOS. It is not allowed due to the sandbox to execute an updated and another version of rsync in e.g `/usr/local/bin`. Utilizing **scheduled** task is not implemented in RsyncGUI.
 
 If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
