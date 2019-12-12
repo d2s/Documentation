@@ -9,11 +9,13 @@ All configurations to execute are listed in table. From the Execute view most ac
 
 Configurations can be saved in user selected **profiles**. The profile in use is shown in label `Profile: profilname`. Information about **new or delete** files and **numbers remote** of directories are only available if version 3.x of rsync is used.
 
-## Please read this
+### Limitations of RsyncGUI
+
+RsyncGUI is **not** developed to be an easy synchronize and backup tool. The main purpose is to ease the use of rsync and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers.
+
+The UI might be difficult to understand if you don't know rsync.
 
 Is RsyncGUI easy to use or a backup tool for the average user? If you have some understanding of how to use rsync, it is helpful for understand the use of RsyncGUI. If you don't know what rsync is I recommend to read about rsync before commencing use of RsyncGUI.
-
-RsyncGUI is not developed to be an easy synchronize and backup tool. The main purpose is to ease the use of rsync and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers. The UX might be difficult to understand if you don't know rsync.
 
 If your plan is to use RsyncGUI as your main tool for backup of files, please investigate and understand the limits of RsyncGUI and rsync. RsyncGUI is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
