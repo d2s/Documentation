@@ -19,7 +19,7 @@ The following are changes in the rc. There are no bugfixes (none reported).
 
 ## New task
 
-The `syncremote` task is a kind of restore. The task synchronize a remote catalog to a local catalog on your Mac.
+The `syncremote` task is a kind of restore. The task synchronize a remote catalog to a local catalog on your Mac. Remote server is required for `syncremote`.
 
 ![](/images/RsyncOSX/master/nextversion/7.png)
 ![](/images/RsyncOSX/master/nextversion/8.png)
