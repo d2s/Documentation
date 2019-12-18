@@ -23,7 +23,7 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 ## Version 6.0.5 release candidate
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.0.1) 10 December 2019.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.0.1) 10 December 2019. The release candidate is signed and notarized.
 
 I have commenced working on next version. Cleaning up of code is always important. Development of RsyncOSX started for more than three years ago as a personal project to learn Swift. RsyncOSX today is a mature and stable application. I will continue to develop RsyncOSX to make sure it is stable and available on the latest version of macOS and a few previous versions as well.
 
