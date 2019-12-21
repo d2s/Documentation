@@ -27,6 +27,14 @@ Utilizing **snapshots** in RsyncGUI is **not possible** due to bugs in default v
 
 If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 1.8.5
+
+This version is sent for approval and release on Apple Mac Store 21 December 2019
+
+- a few bugfixes
+- cleanup of GUI
+- new task `syncremote` which synchronize a remote source to local storage on Mac, the task require a remote server
+
 ## Version 1.8.1
 
 This version is approved for release on Apple Mac Store 9 November 2019.
