@@ -15,8 +15,6 @@ RsyncGUI is not developed to be an easy synchronize and backup tool. The main pu
 
 If your plan is to use RsyncGUI as your main tool for backup of files, please investigate and understand the limits of it. RsyncGUI is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
-RsyncGUI does **not** support either scheduling of tasks or snapshots. Use RsyncOSX if scheduling and snapshots are required.
-
 ## Old version of rsync
 
 The default version of `rsync` in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version [2.6.9](https://download.samba.org/pub/rsync/src/rsync-2.6.9-NEWS) was released in nov 2006. The current release of rsync is version [3.1.3](https://download.samba.org/pub/rsync/src/rsync-3.1.3-NEWS) protocol 31 released 28 January 2018.
