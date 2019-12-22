@@ -27,7 +27,7 @@ If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/Rsy
 
 ## Version 1.8.5
 
-This version is sent for approval and release on Apple Mac Store 21 December 2019
+This version is approved for release on Apple Mac Store 22 December 2019.
 
 - a few bugfixes
 - cleanup of GUI
