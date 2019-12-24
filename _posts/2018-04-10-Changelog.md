@@ -21,13 +21,20 @@ RsyncOSX supports synchronize and snapshots of files.
 
 If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
-## Version 6.0.5 release candidate
+## Version 6.1.0
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.0.1) 10 December 2019. The release candidate is signed and notarized.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.1.0) 24 December 2019.
 
-I have commenced working on next version. Cleaning up of code is always important. Development of RsyncOSX started for more than three years ago as a personal project to learn Swift. RsyncOSX today is a mature and stable application. I will continue to develop RsyncOSX to make sure it is stable and available on the latest version of macOS and a few previous versions as well.
+The release is **signed and notarized**.
 
-[Some screenshots of enhancements in next version](/nextversion).
+- added new type of task `syncremote`
+- added possibility to remove the trailing `/` when adding tasks, if you remove the trailing `/` be sure you understand what it means
+- added parameter to set `$date` on backup folder
+- refactor of schedule
+- check of schedule logs
+- minimized GUI of the menu app
+
+[See some screenshot of changes](/nextversion).
 
 If you have any suggestions for enhancements or if you discover bugs, [please report an issue](https://github.com/rsyncOSX/RsyncOSX/issues).
 

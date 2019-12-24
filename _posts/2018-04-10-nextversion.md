@@ -3,19 +3,7 @@ layout: post
 title:  "Next version"
 permalink: nextversion
 ---
-Updated 10 December 2019
-
-Version 6.0.5 release candidate, will be released sometime in Q1 next year.
-
-The following are changes in the rc. There are no bugfixes (none reported).
-
-- added new type of task `syncremote`
-- added possibility to remove the trailing `/` when adding tasks, if you remove the trailing `/` be sure you understand what it means
-- added parameter to set `$date` on backup folder
-- refactor of schedule
-- check of schedule logs
-- minimized GUI of the menu app
-
+Released 24 December 2019
 
 ## New task
 
