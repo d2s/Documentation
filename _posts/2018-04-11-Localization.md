@@ -3,19 +3,23 @@ layout: post
 title:  "Localization"
 permalink: Localization
 ---
-From version 5.8.6 RsyncOSX and the menu app RsyncOSXsched are prepared for localization. RsyncOSX is translated to Chinese (Simplified) and Norwegian, RsyncOSXsched is translated to Norwegian. Default language for both is English
+From version > 6.1.0  RsyncOSX and the menu app RsyncOSXsched are prepared for localization. RsyncOSX is translated to Chinese (Simplified) and Norwegian, RsyncOSXsched is translated to Norwegian. Default language for both is English
 
-- the Chinese (Simplified) translation by [StringKe](https://github.com/StringKe),
-- the Norwegian translation by myself
+
+[RsyncOSX speaks new languages](https://rsyncosx.github.io/Localization). RsyncOSX is localized to:
+- Chinese (Simplified) -  by [StringKe](https://github.com/StringKe)
+- German - by [Andre](https://github.com/andre68723) (is completed but not yet released)
+- Norwegian - by me
+- English - by me, the base language of RsyncOSX
 
 Volunteers are wanted for translating to other languages (e.g German, French, Spanish). Please create an issue for this if you have possibility to translate.
 
-Translating RsyncOSX is done by utilizing the [Xlifftool](https://github.com/remuslazar/osx-xliff-tool). The tool reads a xliff file for translating, see last image for screenshot of tool. Translating RsyncOSX to a new language is done by spending two or three hours for some days.
+Localization is done by utilizing [Crowdin](https://crowdin.com/project/rsyncosx) to translate the xliff files which are imported into Xcode after translating. Xcode then creates the required language strings. [Crowdin is free for open source projects](https://crowdin.com/page/open-source-project-setup-request).
 
-Main view in English, Chinese (Simplified) and Norwegian.
-![](/images/RsyncOSX/master/localization/eng1.png)
-![](/images/RsyncOSX/master/localization/chi1.png)
-![](/images/RsyncOSX/master/localization/nor1.png)
+The German translation is work in progress. The Chinese (Simplified) and Norwegian translations are also being updated. A new updated release will be available in January 2020.
 
-The xliff tool.
-![](/images/RsyncOSX/master/localization/xliff.png)
+Main view in English, Chinese (Simplified), German and Norwegian.
+![](/images/RsyncOSX/master/localization/en.png)
+![](/images/RsyncOSX/master/localization/zh-Hans.png)
+![](/images/RsyncOSX/master/localization/de.png)
+![](/images/RsyncOSX/master/localization/nb.png)
