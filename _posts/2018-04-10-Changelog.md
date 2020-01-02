@@ -25,6 +25,8 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 [Uploaded](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.1.0) 2 January 2020.
 
+The release candidate is **signed and notarized**.
+
 The main update in this release is German localization. There are some GUI changes as well because of the localization.
 
 ## Version 6.1.0
