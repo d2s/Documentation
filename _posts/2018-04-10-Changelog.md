@@ -27,7 +27,7 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 The release candidate is **signed and notarized**.
 
-The main update in this release is German and French localization. There are some GUI changes as well because of the localization.
+The main update in this release are German and French localization. There are some GUI changes as well because of the localization.
 
 ## Version 6.1.0
 
