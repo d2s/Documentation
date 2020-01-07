@@ -17,7 +17,7 @@ Volunteers are wanted for translating to other languages (e.g German, French, Sp
 
 Localization is done by utilizing [Crowdin](https://crowdin.com/project/rsyncosx) to translate the xliff files which are imported into Xcode after translating. Xcode then creates the required language strings. [Crowdin is free for open source projects](https://crowdin.com/page/open-source-project-setup-request).
 
-The German translation is work in progress. The Chinese (Simplified) and Norwegian translations are also being updated. A new updated release will be available in January 2020.
+A new updated release will be available by end of January 2020.
 
 Main view in English, Chinese (Simplified), German, Norwegian and French.
 ![](/images/RsyncOSX/master/localization/en.png)
