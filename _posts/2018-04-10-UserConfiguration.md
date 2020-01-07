@@ -3,7 +3,7 @@ layout: post
 title:  "User configuration"
 permalink: UserConfiguration
 ---
-There are only a few parameters to choose in user configuration. Configurations are saved to permanent store.
+There are only a few parameters to choose in user configuration. Configurations are saved to permanent store. This applies for version greater than 6.1.0 of RsyncOSX.
 
 ![](/images/RsyncOSX/master/userconfig/user.png)
 
@@ -25,6 +25,8 @@ If there is a not valid rsync path is set an error is presented in bottom of use
 - Automatic execution of local configurations
 - path RsyncOSX
 - path RsyncOSXsched
+
+If both apps are installed in `/Applications` there is no need for setting paths.
 
 ## Logging
 
