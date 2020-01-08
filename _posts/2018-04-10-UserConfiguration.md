@@ -26,7 +26,7 @@ If there is a not valid rsync path is set an error is presented in bottom of use
 - path RsyncOSX
 - path RsyncOSXsched
 
-If both apps are installed in `/Applications` there is no need for setting paths.
+If both apps are installed in `/Applications` there is no need for setting paths. Automatic execution of local configurations enables the menu app to automatically execute synchronize operations when local volumes are mounted.
 
 ## Logging
 
@@ -50,6 +50,15 @@ Logging is saved to permanent store.
 
 - Check data
 
+The schedule part is refactored. Select a configuration and all schedules are listed. Schedules can be stopped and deleted. Logs can be deleted. Logs are stored by configuration and schedule. There has been a bug in storing logs which creates more records than necessary. By setting `check data`, RsyncOSX will clean up. The `check data` flag is **not** persistent and have to be set each time.
+![](/images/RsyncOSX/master/userconfig/data1.png)
+Do a reload of profile and schedule data is checked.
+![](/images/RsyncOSX/master/userconfig/data2.png)
+
 ## Environment
 
 - Enable environment
+
+It is possible to enter an environment variable to the process which executes the synchronize task. An example of such is :
+
+`"SSH_AUTH_SOCK": "/Users/username/.gnupg/S.gpg-agent.ssh"`
