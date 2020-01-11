@@ -21,17 +21,20 @@ RsyncOSX supports synchronize and snapshots of files.
 
 If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
-## Version 6.1.1 release candidate
+## Version 6.1.5
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.1.0) 7 January 2020.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.1.5) 11 January 2020.
 
-The release candidate is **signed and notarized**.
+The release is **signed and notarized**.
 
-The main update in this release are German and French localization. There are some GUI changes as well because of the localization.
+- added German and French localization
+- fixed a minor bug
+- added input control in add configurations
+- some GUI changes due to new localization
 
 ## Version 6.1.0
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.1.0) 24 December 2019.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.1.0) 24 December 2019.
 
 The release is **signed and notarized**.
 
