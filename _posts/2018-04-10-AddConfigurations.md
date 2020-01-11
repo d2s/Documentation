@@ -7,7 +7,7 @@ Adding configurations are easy. A configuration require minimum **Local catalog*
 
 Select **Local catalog** either by *drag and drop* or by *enter text* directly. For **Remote catalogs** only drag and drop for local volumes. For remote server catalogs enter by text only.
 
-There are three types of tasks, `synchronize` which is standard, `snapshots` and `single file`. For [snapshots](/Snapshots) see documentation.
+There are four types of tasks, `synchronize` which is standard, `snapshots`, `syncremote` and `single file`. For [snapshots](/Snapshots) see documentation.
 
 ![Execute view](/images/RsyncOSX/master/add/add1.png)
 
@@ -35,7 +35,7 @@ The `Capacity` button query remote storage all configurations about available st
 - **ssh port**:
   - if ssh communicates through other than standard port it must be set here, port 22 is default port for ssh and not require to set
 - **Type**:
-    - There are three types of tasks, `synchronize` which is standard, `snapshots` and `single file`.
+    - There are four types of tasks, `synchronize` which is standard, `snapshots`, `syncremote` and `single file`.
 - **rsync daemon**:
     Enabling rsync daemon puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote. There are [two possible setup for using the rsync daemon](/Rsyncdaemon). Utilizing a rsync daemon setup does **not** encrypt the transfer between client and server. To encrypt the transfer require tunneling traffic in a ssh protocol. [See how to setup ssh passwordless logins](/Remotelogins).
 
