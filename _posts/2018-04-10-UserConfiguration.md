@@ -3,7 +3,7 @@ layout: post
 title:  "User configuration"
 permalink: UserConfiguration
 ---
-There are only a few parameters to choose in user configuration. Configurations are saved to permanent store. This applies for version greater than 6.1.0 of RsyncOSX.
+There are only a few parameters to choose in user configuration. Configurations are saved to permanent store. This applies for version 6.1.5 or greater of RsyncOSX.
 
 ![](/images/RsyncOSX/master/userconfig/user.png)
 
