@@ -7,7 +7,7 @@ It is advised to utilize ssh keys for setup of password less logins for rsync. B
 
 With a few tweaks it is possible to get RsyncOSX working with rsync daemon. Be aware of not utilizing ssh, transfer of data is **not** encrypted. This is might not a problem on a local network, but I would not advise it on a public network (depends on what data is synchronized).
 
-The sample setup below is based upon a Ubuntu 19.04 server. How to get the rsync daemon up and running on the Ubuntu server is **not** part of this document. The rsync daemon on the server is setup to listen on port 873. It is also advised that the versions of rsync are equal on both client and server.
+The sample setup below is based upon a Ubuntu 19.04 server. How to get the rsync daemon up and running on the Ubuntu server is **not** part of this document. The rsync daemon on the server is setup to listen on port 873. It is also advised that the versions of rsync are equal on both client and server. There are two solutions for enabling a rsync daemon connection. For both setup of `/etc/rsyncd.conf` serverside is required.
 
 The following lines are created on the server side in file: `/etc/rsyncd.conf`
 
@@ -27,7 +27,9 @@ auth users = thomas
 secrets file = /etc/rsyncd.secrets
 ```
 
-The `files` in `[files]` is used in the setup. The following tweaks in RsyncOSX:
+The `files` in `[files]` is used in the setup.
+
+### Prefix username in RsyncOSX
 
 - prefix username `rsync://username`
 
@@ -47,7 +49,7 @@ Pull files (restore)
 
 `/Users/thomas/bin/rsync --archive --verbose --compress --delete --password-file=/Users/thomas/passord.txt --exclude=.git --dry-run --stats rsync://thomas@10.0.0.41:/files/ /Users/thomas/GitHub/`
 
-### An alternative rsync daemon setup
+### Double colon ::
 
 By utilizing the double colon `::` is a slightly different syntax which does the same.  
 
