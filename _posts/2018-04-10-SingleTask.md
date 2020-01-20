@@ -3,7 +3,7 @@ layout: post
 title:  "Executing single tasks"
 permalink: SingleTask
 ---
-In Execute view (which is the opening view) tasks can be executed as **single**- and/or **batch** tasks. Execute single tasks requires a couple of **double clicks** : one for **estimation** run and the second for **executing** the real task. The output from rsync is presented after each run.
+In Execute view (which is the opening view) tasks can be executed as **single**- and/or **batch** tasks. Execute single tasks requires a couple of double clicks: one for **estimation** run and the second for **executing** the real task. The output from rsync is presented after each run.
 
 ![](/images/RsyncOSX/master/singletask/singletask.png)
 
@@ -14,8 +14,6 @@ There are three options for editing after selecting a task in row:
 - Delete task
 
 After selecting a row choosing one of the above pops up a new view according to selection. Select `Edit` task to editing basic information about task. Select `Delete` task to delete the selected row (task).
-
-The TCP-button does a background check of TCP-connections. Red rows after a TCP-check indicates that there are no contact with remote server.
 
 ## Execute single tasks
 
@@ -30,7 +28,3 @@ The actual rsync command to be executed is shown below right corner in view. It 
 If Abort is pressed any executing task is aborted. After estimate run is completed and result is checked, a real run is executed by selecting the Execute button again. If you select another row after estimation a new estimation run must be completed.
 The logg shows result of task. The latest log on top.
 Selecting `Abort` aborts the current task.
-
-### Edit task
-
-To edit a task select row (task) and choose `Edit` button.
