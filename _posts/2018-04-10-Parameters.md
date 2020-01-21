@@ -25,11 +25,10 @@ You can instruct rsync to save changed and deleted files in a separate backup ca
 
 ### Suffix on changed and deleted files
 
-Rsync can also set a time stamp as suffix on files. This might be useful if there are several revisions of files.
+Rsync can also set a time stamp as suffix on files. This might be useful if there are several revisions of files. The `--suffix` parameter set suffix on files, suffix can be set on files together with the `--backup` parameter. One suffix might rename files which are either deleted or replaced newer files with a trailing date and time stamp.
 
-- `--suffix` parameter set suffix on files, suffix can be set on files together with the `--backup` parameter. One suffix might rename files which are either deleted or replaced newer files with a trailing date and time stamp.
-	- sample suffix <code>--suffix= _\`date +'%Y-%m-%d.%H.%M'` </code> (works on FreeBSD)
-	- sample suffix <code>--suffix= _$(date +%Y-%m-%d.%H.%M)`</code> (works on Linux)
+- sample suffix FreeBSD <code>--suffix= _\`date +'%Y-%m-%d.%H.%M'`</code>
+- sample suffix Linux <code>--suffix= _$(date +%Y-%m-%d.%H.%M)`</code>
 
 I have experienced some variations regarding the suffix. If you want to use suffix you might try an alternative suffix if the above is not working as expected. If so is true use  instead. You just have to try and see what works
 
