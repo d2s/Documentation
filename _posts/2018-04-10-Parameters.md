@@ -34,7 +34,7 @@ I have experienced some variations regarding the suffix. If you want to use suff
 
 The parameters in picture (below) instructs rsync to save changed files in catalog `../backup_Directory` (relative to destination catalog) and `suffix` the backup file with timestamps. The above is enabled or disabled by select the `backup` button. The user might change the backup catalog. The backup catalog can either be absolute path or relative path. Default backup catalog is `../backup_Directory`.
 
-## RsyncOSX passing userselected parameters to rsync
+## Passing user selected parameters to rsync
 
 The user can set own parameters by using `user` in dropdown menu. Preset parameters are:
 
@@ -43,7 +43,5 @@ The user can set own parameters by using `user` in dropdown menu. Preset paramet
 - `delete` - delete the parameter
 		- deletes the parameter when `OK` button is selected
 		- or just delete the `value` string
-- `--stats` - produces some more statistics
-	- parameter is forced on in dry-ryn to collect info about run
 
 For other parameters to rsync please see the [rsync docs](https://download.samba.org/pub/rsync/rsync.html).
