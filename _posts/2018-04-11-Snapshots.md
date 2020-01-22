@@ -16,11 +16,11 @@ Deleting snapshots is a **destructive** operation and should be performed with c
 - previous months (and years)
   - keep the snapshot in the last week of month for selected Day of week, e.g the last Sunday in the month
 
-Snapshots which does not follow plan are automatically marked for deleting. To actually delete the marked snapshots require to select the `Delete` button. 
+Snapshots which does not follow plan are automatically marked for deleting. To actually delete the marked snapshots require to select the `Delete` button.
 
 ## Utilizing Snapshots
 
-The snapshot feature enables saving changed and deleted files ahead of a new synchronizing task. The snapshot saves the current state of all files in a separate directory ahead of any changes or deletions. Changed and deleted files can then be restored utilizing the copy single files features. The [full restore](/Fullrestore) will copy the **last** snapshot from remote storage to either the source directory or a temporary restore directory.
+The snapshot feature enables saving changed and deleted files ahead of a new synchronizing task. The snapshot saves the current state of all files in a separate directory ahead of any changes or deletions. Changed and deleted files can then be restored utilizing the copy single files features. A restore will copy the **last** snapshot from remote storage to either the source directory or a temporary restore directory.
 
 - snapshots works on either local attached disks and remote hosts
 - standard rsync synchronize tasks cannot be converted to snapshots, creating snapshots starts with a full sync in the first snapshot catalog (`~/snapshots/data/1`)
@@ -55,7 +55,6 @@ When the old snapshots are deleted, the filesystem takes care of saving the real
 ### Create a snapshot task
 
 To create a snapshot task select `snapshots` as type in `Add` tab.
-
 ```
 Important: do not copy and paste command for execution within
 a terminal window. RsyncOSX saves the number n to the
@@ -63,7 +62,3 @@ configuration. The number n is the next snapshot number.
 The number n is used when computing the parameter for rsync
 and is picked up from the configuration.
 ```
-
-## Restore
-
-A full restore of the latest snapshot by utilizing the full restore. It is recommended to restore to a temporary catalog. By utilizing the copy files functionality single files or catalogs can be restored from any snapshot. Logs are marked with snapshot number.
