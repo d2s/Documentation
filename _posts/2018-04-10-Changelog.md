@@ -23,7 +23,9 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 ## Version 6.1.6 release candidate
 
-There are several minor changes and enhancements in this release candidate. The most noticeable is the possibility to select another profile direct from the main view. And there are also some other minor changes which improves the usability of RsyncOSX. The release candidate is stable and next release will be sometime in February. 
+There are several minor changes and enhancements in this release candidate. The most noticeable is the possibility to select another profile direct from the main view. And there are also some other minor changes which improves the usability of RsyncOSX. The release candidate is stable and next release will be sometime in February.
+
+The release candidate is signed and notarized.
 
 ## Version 6.1.5
 
