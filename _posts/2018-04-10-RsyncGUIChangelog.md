@@ -91,8 +91,6 @@ This version is approved for release on Apple Mac Store 27 June 2019.
 
 This version is approved for release on Apple Mac Store 4 April 2019.
 
-![](/images/RsyncOSX/master/nextversion/nextversion.png)
-
 - quit RsyncGUI by red button upper left main window
 - RsyncGUI center itself in screen when started
 - view all profiles and configurations by menu button (moved from tab view)
