@@ -23,6 +23,13 @@ Utilizing **snapshots** in RsyncGUI is **not possible** due to bugs in default v
 
 If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 1.8.9
+
+This version is approved for release on Apple Mac Store 28 January 2020.
+
+- a few enhancements and fixes
+- select other profile from Execute view
+
 ## Version 1.8.5
 
 This version is approved for release on Apple Mac Store 22 December 2019.
