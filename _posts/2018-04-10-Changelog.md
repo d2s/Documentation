@@ -27,7 +27,7 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 The release is **signed and notarized**.
 
-There are a few minor changes and enhancements in this release. The most noticeable is the possibility to select another profile direct from the main, schedule and snapshot view. And there are also some other minor changes which improves the usability of RsyncOSX. Localisations are updated as well.
+There are a few minor changes and enhancements in this release. The most noticeable change is the possibility to select another profile direct from the main, schedule and snapshot view (not from the profile dropdown menu). There are also some other minor changes which improves the usability of RsyncOSX. localization are updated as well.
 
 ## Version 6.1.5
 
