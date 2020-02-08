@@ -9,9 +9,9 @@ There are only a few parameters to choose in user configuration. Configurations 
 
 ## Rsync
 
- - 3.1.2 or 3.1.3 rsync - set optional path in NOT in /usr/local/bin
+ - 3.1.2 or 3.1.3 rsync - set optional path in **not** in `/usr/local/bin`
    	- any version of rsync should work, but only rsync  version 3.1.2, version 3.1.3 protocol version 31 and rsync  version 2.6.9  protocol version 29 are tested and verified
-    - utilizing the [snapshot feature](/Snapshots) require either version 3.1.2 or 3.1.3
+    - [utilizing the snapshot feature](/Snapshots) require either version 3.1.2 or 3.1.3 of rsync
 - optional path for rsync:
     - if other version of rsync is installed in other path than `/usr/local/bin` it must be set here
 - temporary path restore:
@@ -50,9 +50,6 @@ Logging is saved to permanent store.
 - Check data
 
 The schedule part is refactored. Select a configuration and all schedules are listed. Schedules can be stopped and deleted. Logs can be deleted. Logs are stored by configuration and schedule. There has been a bug in storing logs which creates more records than necessary. By setting `check data`, RsyncOSX will clean up. The `check data` flag is **not** persistent and have to be set each time.
-![](/images/RsyncOSX/master/userconfig/data1.png)
-Do a reload of profile and schedule data is checked.
-![](/images/RsyncOSX/master/userconfig/data2.png)
 
 ## Environment
 
@@ -64,4 +61,4 @@ It is possible to enter an environment variable to the process which executes th
 
 ## Halt on error
 
-If RsyncOSX discover `error` in output from rsync, operation will terminate if checked. Normally this should be not checked.
+If RsyncOSX discover `error` in output from rsync, operation will terminate if checked. Normally this should not be checked.
