@@ -23,7 +23,9 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 ## Next version of RsyncOSX
 
-Sometime in March 2020 there will be a new release. I am not to happy about how the Restore single files and the Full restore is designed. Those two views will be combined into one view and the user can select either full or partly restore. 
+Sometime in March 2020 there will be a new release. I am not to happy about how the Restore single files and the Full restore is designed. Those two views will be combined into one view and the user can select either full or partly restore. There is also a couple of other enhancements which are coming into this release.
+
+Thew master branch is updated with changes.
 
 ## Version 6.1.7
 
