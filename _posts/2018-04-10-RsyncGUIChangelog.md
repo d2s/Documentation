@@ -26,7 +26,7 @@ If you need either of them please use [RsyncOSX](https://github.com/rsyncOSX/Rsy
 
 ## Version 1.9.0
 
-The app is submitted for release on Apple Mac Store 17 February 2020.
+This version is approved for release on Apple Mac Store 18 February 2020.
 
 - redesign of the Restore view
 - some bugfixes
