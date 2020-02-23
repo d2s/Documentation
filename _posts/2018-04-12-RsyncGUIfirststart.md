@@ -3,9 +3,11 @@ layout: post
 title:  "First time start RsyncGUI"
 permalink: RsyncGUIfirststart
 ---
-This is a short guide what to do when first start of **RsyncGUI**, the App Store version (Sandboxed) of RsyncOSX. For more details about the various functions of RsyncGUI please see the [documentation](/AboutRsyncOSX) (RsyncOSX) about each function.
+This is a short guide what to do when first start of **RsyncGUI**, the App Store version (Sandboxed) of RsyncOSX. This guide is primarily for executing synchronizing tasks to **remote servers**. It includes how to setup passwordless login to remote server.
 
-This guide is primarily for executing synchronizing tasks to **remote servers**. This version does not yet support snapshot tasks. If you want to utilize [snapshot tasks](/Snapshots) please use RsyncOSX instead. If you plan only utilizing RsyncGUI on local attached volumes you can skip this guide.
+RsyncGUI support only default version of `rsync` which is included in macOS. The default version of `rsync` in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version 2.6.9 was released in nov 2006. This version of `rsync` does not support snapshot tasks. If you want to utilize [snapshot tasks](/Snapshots) please use RsyncOSX instead.
+
+If you plan only utilizing RsyncGUI on local attached volumes you can skip this guide.
 
 ### First start of RsyncGUI
 
