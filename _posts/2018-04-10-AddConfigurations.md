@@ -3,7 +3,7 @@ layout: post
 title:  "Add configurations"
 permalink: AddConfigurations
 ---
-Adding configurations are easy. A configuration require minimum **Local catalog** and **Remote catalog**. And they should not be equal. After entering information about a configuration select the Add button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry.
+Adding a configuration is easy. A configuration require minimum a **Local catalog** and a **Remote catalog**. After entering information about a configuration select the Add button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry.
 
 Select **Local catalog** either by *drag and drop* or by *enter text* directly. For **Remote catalogs** only drag and drop for local volumes. For remote server catalogs enter by text only.
 
@@ -39,4 +39,4 @@ The `Capacity` button query remote storage all configurations about available st
 - **rsync daemon**:
     Enabling rsync daemon puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote. There are [two possible setup for using the rsync daemon](/Rsyncdaemon). Utilizing a rsync daemon setup does **not** encrypt the transfer between client and server. To encrypt the transfer require tunneling traffic in a ssh protocol. [See how to setup ssh passwordless logins](/Remotelogins).
 
-Select the `Add` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Execute view. Additional parameters to rsync might be added utilizing the `Params` button.
+Select the `Add` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Execute view. Additional parameters to rsync might be added utilizing the `Parameter` button.
