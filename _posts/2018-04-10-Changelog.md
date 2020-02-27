@@ -21,14 +21,15 @@ RsyncOSX supports synchronize and snapshots of files.
 
 If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
-## Next version of RsyncOSX
+## Version 6.2.0
 
-Sometime in March 2020 there will be a new release. I am not to happy about how the Restore single files and the Full restore is designed. Those two views will be combined into one view and the user can select either full or by file restore. There is also a couple of other enhancements which are coming into this release.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.0) 27 February 2020.
 
-The master branch is updated with changes. The view is how the new restore is.
+The release is **signed and notarized**.
 
-![](/images/RsyncOSX/master/nextversion/restore.png)
-
+- restore single files and the full restore are combined
+- cleaned up some other views as well
+- cleaned (refactor) up some code
 
 ## Version 6.1.7
 
