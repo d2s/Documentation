@@ -31,7 +31,7 @@ If both apps are installed in `/Applications` there is no need for setting paths
 ## Logging
 
 - detailed logging on or off
-   	- if detailed logging is on all backup tasks are logged, if off only last date for task is updated in Execute view
+   	- if detailed logging is on all backup tasks are logged, if off only last date for task is updated in Synchronize view
 
 ## Logging to file
 
@@ -43,7 +43,7 @@ Logging is saved to permanent store.
 ## Number of days
 
 - Number of days
-  - in Execute view tasks older than number of days are marked red
+  - in Synchronize view tasks older than number of days are marked red
 
 ## Check data when loading
 

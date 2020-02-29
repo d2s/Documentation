@@ -171,9 +171,9 @@ This is a maintenance release, the following changes are applied:
 
 Released 16 August 2018.
 
-- if task is selected in Execute view, only logs for selected task is presented in log view
+- if task is selected in Synchronize view, only logs for selected task is presented in log view
 - some enhancements in copy single files, fixed a memory leak
-- implementing a new restore function from Execute view
+- implementing a new restore function from Synchronize view
 - a new info view showing output from rclone during execution of single tasks
 
 ## Version 1.5.4
@@ -217,7 +217,7 @@ There are several enhancements in this release:
 
 - released 6 March 2018
 - refactor schedules
-- cleanup of Execute view
+- cleanup of Synchronize view
 - notification when scheduled tasks are completed
 
 ## Version 1.3.0
@@ -274,7 +274,7 @@ If a task is executed by shortcut `⌘R`, a select of another row during executi
 	- the logging to file is default off when starting RcloneOSX, status of logging is not saved in userconfiguration
 	- the log function appends new logs, be careful not logging all actions
 - fixed some other minor glitches
-- added number of days since last backup in Execute view
+- added number of days since last backup in Synchronize view
 
 ## version 0.2.5
 

@@ -42,7 +42,7 @@ This version is approved for release on Apple Mac Store 18 February 2020.
 This version is approved for release on Apple Mac Store 28 January 2020.
 
 - a few enhancements and fixes
-- select other profile from Execute view
+- select other profile from Synchronize view
 
 ## Version 1.8.5
 
