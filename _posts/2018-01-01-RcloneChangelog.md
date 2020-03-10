@@ -14,9 +14,15 @@ The app is signed with my Apple ID developer certificate and [notarized](/Notari
 
 If you are installing on macOS Catalina, execute the `rclone` utility in a terminal window before using RcloneOSX. There is a process of granting access for the `rclone` utility before using it by RcloneOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RcloneOSX.
 
+## Version 2.1.1
+
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.1.1) 10 March 2020.
+
+- fixed a bug in full restore
+
 ## Version 2.1.0
 
-[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.0.6) 9 March 2020.
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.1.0) 9 March 2020.
 
 Redesign of restore files, refactor of code and some bugfixes are the main objectives in this release.
 
