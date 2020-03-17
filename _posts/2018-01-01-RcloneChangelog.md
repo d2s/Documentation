@@ -28,9 +28,6 @@ For the moment there is no active development of RcloneOSX. I will continue to c
 
 Redesign of restore files, refactor of code and some bugfixes are the main objectives in this release.
 
-![](/images/RsyncOSX/master/nextversion/main.png)
-![](/images/RsyncOSX/master/nextversion/restore.png)
-
 ## Version 2.0.6
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.0.6) 11 January 2020.
@@ -74,7 +71,6 @@ The release is **signed and notarized**. The major changes in the release are:
 **Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
 
 - fixed a bug in delete logs
-
 
 ## Version 1.9.2
 
