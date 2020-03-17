@@ -6,13 +6,15 @@ permalink: RcloneChangelog
 
 Rclone is **rsync for cloud storage**. Even if `rclone` and `rsync` are somewhat equal they are also in many ways different. RcloneOSX is utilizing `rclone` for **synchronizing** and **backup** of files to a number of cloud services. RcloneOSX utilizes rclone copy, sync, move and check commands.
 
-I spend most of my time developing RsyncOSX. From time to time some of the functions are ported to RcloneOSX from RsyncOSX.
-
 The app is signed with my Apple ID developer certificate and [notarized](/Notarized) by Apple.
 
 ## macOS Catalina
 
 If you are installing on macOS Catalina, execute the `rclone` utility in a terminal window before using RcloneOSX. There is a process of granting access for the `rclone` utility before using it by RcloneOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RcloneOSX.
+
+## Development, bugfixes and coming versions of macOS
+
+For the moment there is no active development of RcloneOSX. I will continue to compile, notarize and sign RcloneOSX for new versions of macOS and fix serious bugs. I will also refactor and enhance the code when required. But there will not be any new functions. My main effort in the future is to continue development of RsyncOSX and RsyncGUI.
 
 ## Version 2.1.1
 
