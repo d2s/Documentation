@@ -18,7 +18,7 @@ For the moment there is no active development of RcloneOSX. I will continue to c
 
 ## Next version
 
-There will be released a new "maintenance version" in a few weeks. Batch is removed and replaced with multiple selection of tasks to execute. 
+There will be released a "maintenance release" in a few weeks. Batch is removed and replaced with multiple selection of tasks to execute.
 
 ## Version 2.1.1
 
