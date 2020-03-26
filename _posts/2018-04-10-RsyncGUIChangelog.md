@@ -24,6 +24,13 @@ Utilizing **snapshots** in RsyncGUI is **not possible** due a bug in default ver
 
 If you need either of them, please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 2.0.0
+
+This version was released for approval on Apple Mac Store 26 March 2020.
+
+- batch is replaced with multiple selection of rows for executing
+- minor GUI tweaks and cleanup
+
 ## Version 1.9.1
 
 This version is approved for release on Apple Mac Store 27 February 2020.
