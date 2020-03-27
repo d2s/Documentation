@@ -26,7 +26,7 @@ If you need either of them, please use [RsyncOSX](https://github.com/rsyncOSX/Rs
 
 ## Version 2.0.0
 
-This version was released for approval on Apple Mac Store 26 March 2020.
+This version is approved for release on Apple Mac Store 26 March 2020.
 
 - batch is replaced with multiple selection of rows for executing
 - minor GUI tweaks and cleanup
