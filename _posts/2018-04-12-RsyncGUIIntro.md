@@ -9,9 +9,18 @@ Configurations can be saved in user selected **profiles**. The profile in use is
 
 ### Some words about RsyncGUI
 
-RsyncGUI is not developed to be an easy synchronize and backup tool. The main purpose is to ease the use of `rsync` and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers. The UI might also be difficult to understand or complex if you don't know what `rsync` is. It is not required to know `rsync` but it will ease the use and understanding of RsyncGUI. But it is though, possible to use RsyncGUI by just adding a source and remote backup catalog using default parameters.
+RsyncGUI is **not developed to be an easy synchronize and backup tool**. The main purpose is to ease the use of `rsync` and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers. The UI might also be difficult to understand or complex if you don't know what `rsync` is. It is not required to know `rsync` but it will ease the use and understanding of RsyncGUI. But it is though, possible to use RsyncGUI by just adding a source and remote backup catalog using default parameters.
 
 If your plan is to use RsyncGUI as your main tool for backup of files, please investigate and understand the limits of it. RsyncGUI is quite powerful, but it is might not the primary backup tool for the average user of macOS.
+
+**Caution**: before a real execution of a task please execute an estimation run. An estimation run is started by selecting a task and the stat light is yellow. A double click on the task does a simulated run and displays which files to be transferred. Please pay attention to the info in the display when the simulate run is completed. A drop down display presents the result.
+
+Ready for an estimation run. A double click on row executes the estimation run.
+![](/images/RsyncOSX/master/intro/simulate.png)
+Estimation run completed, dropdown presents result.
+![](/images/RsyncOSX/master/intro/display.png)
+Ready for real run. A double click on row actually executes the task.
+![](/images/RsyncOSX/master/intro/realrun.png)
 
 ## When you start
 
@@ -33,15 +42,16 @@ Go back to the `Execute` tab, select the task and you are ready to go.
 
 ## Type of tasks
 
-There  are **two** types of how to synchronize source and destination (backup):
+There  are **three** types of how to synchronize source and destination (backup):
 
 (1) **synchronize** source and backup location, any changed and deleted files in backup location will either be overwritten or deleted
   - this is the standard synchronize task in RsyncGUI, after execution source and destination (backup) is 100% in sync if there are no `--exclude` parameters to rsync
   - an `--exclude` parameter instructs rsync to disregard files, catalogs and patterns included in the parameter
+(2) **syncremote** which synchronize a **remote** source to your local Mac.
+  - please pay attention before using this task, if you syncremote an empty source it will delete all local files
+(3) **synchronize** and **save changed** and **deleted** files in a separate backup catalog by adding a [parameters](/Parameters) to rsync
 
-(2) **synchronize** and **save changed** and **deleted** files in a separate backup catalog by adding a [parameters](/Parameters) to rsync
-
-For the moment snapshot tasks is not possible in RsyncGUI, see [the RsyncGUI Changelog](/RsyncGUIChangelog).
+Snapshot tasks is not possible in RsyncGUI, see [the RsyncGUI Changelog](/RsyncGUIChangelog).
 
 ## How to execute any type of tasks
 
