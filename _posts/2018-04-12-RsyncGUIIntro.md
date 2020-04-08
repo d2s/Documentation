@@ -3,9 +3,7 @@ layout: post
 title:  "A short intro to RsyncGUI"
 permalink: RsyncGUIIntro
 ---
-This page is a short intro to **RsyncGUI**, the App Store version (Sandboxed) of RsyncOSX. For more details about the various functions of RsyncGUI please see the [documentation](/AboutRsyncOSX) (RsyncOSX) about each function. All configurations to execute are listed in table. From the Synchronize view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed.
-
-Configurations can be saved in user selected **profiles**. The profile in use is shown in label `Profile: profilname`. Information about **new or delete** files and **numbers remote** of directories are only available if version 3.x of rsync is used.
+**Caution:** this is for [RsyncGUI](https://github.com/rsyncOSX/RsyncGUI) (not RsyncOSX), the Apple Mac App Store version of RsyncOSX.
 
 ### Some words about RsyncGUI
 
