@@ -3,7 +3,7 @@ layout: post
 title:  "A short intro to RsyncGUI"
 permalink: RsyncGUIIntro
 ---
-Please see caution about using RsyncGUI at bottom of page. There is also [a first start intro](/RsyncGUIfirststart) about RsyncGUI.
+Please see caution about using RsyncGUI at bottom of this page. There is also [a first start intro](/RsyncGUIfirststart) about RsyncGUI.
 
 ### Some words about RsyncGUI
 
@@ -11,11 +11,9 @@ RsyncGUI is **not developed to be an easy synchronize and backup tool**. The mai
 
 If your plan is to use RsyncGUI as your main tool for backup of files, please investigate and understand the limits of it. RsyncGUI is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
-## When you start
+## When you start RsyncGUI for the first time
 
-RsyncGUI is a sandboxed macOS app and the first to do is ask for permission to read the users home catalog. The first time the user starts the app a view asking for allow.
-
-The first time you start RsyncGUI there are a few actions to do before using the app and remote servers. Please see the [start RsyncGUI for the first time](/RsyncGUIfirststart).
+RsyncGUI is a sandboxed macOS app and the first to do is to grant RsyncGUI permission to read the users home catalog. When RsyncGUI is started for the first time, it asks for permission to access your home catalog. Please see the [start RsyncGUI for the first time](/RsyncGUIfirststart).
 
 ## Where to start?
 
