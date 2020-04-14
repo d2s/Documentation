@@ -3,22 +3,14 @@ layout: post
 title:  "A short intro to RsyncGUI"
 permalink: RsyncGUIIntro
 ---
-**Caution:** this is for [RsyncGUI](https://github.com/rsyncOSX/RsyncGUI) (not RsyncOSX), the Apple Mac App Store version of RsyncOSX.
+
+See caution about using RsyncGUI bottom of page. There is also [a first start intro](/RsyncGUIfirststart) about RsyncGUI.
 
 ### Some words about RsyncGUI
 
 RsyncGUI is **not developed to be an easy synchronize and backup tool**. The main purpose is to ease the use of `rsync` and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers. The UI might also be difficult to understand or complex if you don't know what `rsync` is. It is not required to know `rsync` but it will ease the use and understanding of RsyncGUI. But it is though, possible to use RsyncGUI by just adding a source and remote backup catalog using default parameters.
 
 If your plan is to use RsyncGUI as your main tool for backup of files, please investigate and understand the limits of it. RsyncGUI is quite powerful, but it is might not the primary backup tool for the average user of macOS.
-
-**Caution**: before a real execution of a task please execute an estimation run. An estimation run is started by selecting a task and the stat light is yellow. A double click on the task does a simulated run and displays which files to be transferred. Please pay attention to the info in the display when the simulate run is completed. A drop down display presents the result.
-
-Ready for an estimation run. A double click on row executes the estimation run.
-![](/images/RsyncOSX/master/intro/simulate.png)
-Estimation run completed, dropdown presents result.
-![](/images/RsyncOSX/master/intro/display.png)
-Ready for real run. A double click on row actually executes the task.
-![](/images/RsyncOSX/master/intro/realrun.png)
 
 ## When you start
 
@@ -82,9 +74,13 @@ First select **one** task in Synchronize view, applies to (1) and (2) below.
 
 - tasks which are marked for batch are selected
 
-## YouTube videos (of RsyncGUI)
+## Caution about RsyncGUI
 
-There are four short YouTube videos of RsyncGUI:
+Before a real execution of a task please execute an estimation run. An estimation run is started by selecting a task and the stat light is yellow. A double click on the task does a simulated run and displays which files to be transferred. Please pay attention to the info in the display when the simulate run is completed. A drop down display presents the result.
 
-- adding and executing the [first backup](https://youtu.be/8oe1lKgiDx8)
-- doing a full [restore](https://youtu.be/-R6n_8fl6Ls) to a temporary local restore catalogs
+Ready for an estimation run. A double click on row executes the estimation run.
+![](/images/RsyncOSX/master/intro/simulate.png)
+Estimation run completed, dropdown presents result.
+![](/images/RsyncOSX/master/intro/display.png)
+Ready for real run. A double click on row actually executes the task.
+![](/images/RsyncOSX/master/intro/realrun.png)
