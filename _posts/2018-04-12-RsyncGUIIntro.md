@@ -3,8 +3,7 @@ layout: post
 title:  "A short intro to RsyncGUI"
 permalink: RsyncGUIIntro
 ---
-
-See caution about using RsyncGUI bottom of page. There is also [a first start intro](/RsyncGUIfirststart) about RsyncGUI.
+Please see caution about using RsyncGUI at bottom of page. There is also [a first start intro](/RsyncGUIfirststart) about RsyncGUI.
 
 ### Some words about RsyncGUI
 
