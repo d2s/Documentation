@@ -23,13 +23,19 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 ## Version 6.2.5 release candidate
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.0) 29 March 2020.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.0) 14 April 2020.
+
+The release candidate will be ready for release in beginning of May 2020.
 
 - batch is removed and replaced with multiple selection of tasks to execute
 - Italian localization added
 - clean up of GUIs and code
+- refactor of the Restore part
+- updated the GUI of menu app (for executing scheduled tasks)
 
 ![](/images/RsyncOSX/master/nextversion/italian.png)
+![](/images/RsyncOSX/master/nextversion/restore.png)
+![](/images/RsyncOSX/master/nextversion/schedule.png)
 
 ## Version 6.2.0
 
