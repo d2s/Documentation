@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Executing single tasks"
+title:  "Executing single tasks, edit tasks"
 permalink: SingleTask
 ---
 In Synchronize view (which is the opening view) tasks can be executed as **singletasks**. Execute single tasks requires a couple of double clicks: one for **estimation** run and the second for **executing** the real task. The output from rsync is presented after each run.
 ![](/images/RsyncOSX/master/singletask/singletask.png)
 There are three options for editing after selecting a task in row:
-- Edit task
-- Parameters (to rsync, see [parameters](/Parameters))
-- Delete task
+- edit task
+- parameters (to rsync, see [parameters](/Parameters))
+- delete task
 After selecting a row choosing one of the above pops up a new view according to selection. Select `Edit` task to editing basic information about task. Select `Delete` task to delete the selected row (task).
 
 ## Execute single tasks
