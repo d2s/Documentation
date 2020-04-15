@@ -7,6 +7,7 @@ There are two options for executing quick synchronize tasks, either estimate and
 - execute synchronizing task directly
 - do an estimate first and select
 The quickbackup executes a estimation run and selects all tasks with files to be synchronized. To commence the actual synchronizing select the marked play button.
+
 ![](/images/RsyncOSX/master/quickbackup/quickbackup1.png)
 ![](/images/RsyncOSX/master/quickbackup/quickbackup2.png)
 ![](/images/RsyncOSX/master/quickbackup/quickbackup3.png)
