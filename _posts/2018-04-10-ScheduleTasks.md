@@ -20,6 +20,6 @@ Select task (row), set the start date and time and select the schedule (once, da
 
 The stack is a reference only to a configuration (by a hidden key). The user can change anything regarding a configuration up to the moment the task is executed by schedule. If a configuration is deleted all scheduled tasks connected to configuration is deleted as well.
 
-The [menu app](/Menuapp) should be started from RsyncOSX. This require paths for both apps to be entered into [userconfiguration](/UserConfiguration).  The paths are used for activating the apps from either within RsyncOSX or RsyncOSXsched.
+The [menu app](/Menuapp) should be started from RsyncOSX.
 
 The yellow flag in column `Sched` indicates there are active scheduled tasks. The flag is either yellow or green. Green is next task within one hour.
