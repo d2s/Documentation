@@ -32,6 +32,7 @@ The release candidate will be ready for release in beginning of May 2020.
 - clean up of GUIs and code
 - refactor of the Restore part
 - updated the GUI of menu app (for executing scheduled tasks)
+- logging rsync errors to file (not yet in release candidate, but in code)
 
 ![](/images/RsyncOSX/master/nextversion/italian.png)
 ![](/images/RsyncOSX/master/nextversion/restore.png)
