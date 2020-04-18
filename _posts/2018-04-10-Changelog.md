@@ -3,6 +3,8 @@ layout: post
 title:  "Changelog"
 permalink: Changelog
 ---
+From April 2020 RsyncOSX documentation is [moved to Netlify](https://rsyncosx.netlify.app/). The Jekyll based docs are not updated.
+
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. [Please add an issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/Notarized).
 
 ## RsyncOSX on macOS Catalina

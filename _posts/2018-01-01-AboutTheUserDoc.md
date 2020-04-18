@@ -3,6 +3,7 @@ layout: post
 title:  "About the user documentation"
 permalink: AboutTheUserDoc
 ---
+From April 2020 RsyncOSX documentation is [moved to Netlify](https://rsyncosx.netlify.app/). The Jekyll based docs are not updated.
 
 The user documentation is built by utilizing [Jekyll](https://jekyllrb.com/), the built in support for [GitHub Pages](https://pages.github.com/) within Jekyll and the [Markdown](https://en.wikipedia.org/wiki/Markdown) markup language.
 
