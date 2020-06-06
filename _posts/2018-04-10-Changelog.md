@@ -31,7 +31,7 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 The update includes a more robust check of the user selected ssh keypath and identity file.
 
-The only change in this rc is user selected ssh keypath and identity file. Please see info about [user selected ssh keypath and identity file](https://rsyncosx.netlify.app/ssh/).
+The only change in this rc is user selected ssh keypath and identity file. Please see info about [user selected ssh keypath and identity file](/ssh/).
 
 Users of version 6.3.0 who does not require user selected ssh keypath and identity file should not update. The release candidate is signed and notarized.
 
