@@ -1,26 +1,57 @@
 ---
 layout: post
 title:  "RcloneOSX changelog"
-permalink: RcloneChangelog
+permalink: rclonechangelog
 ---
-
-Rclone is **rsync for cloud storage**. Even if `rclone` and `rsync` are somewhat equal they are also in many ways different. RcloneOSX is utilizing `rclone` for **synchronizing** and **backup** of files to a number of cloud services. RcloneOSX utilizes rclone copy, sync, move and check commands.
+Rclone is **rsync for cloud storage**. Even if rclone and rsync are somewhat equal they are also in many ways different. RcloneOSX is utilizing rclone for **synchronizing** and **backup** of files to a number of cloud services. RcloneOSX utilizes rclone copy, sync, move and check commands.
 
 The app is signed with my Apple ID developer certificate and [notarized](/Notarized) by Apple.
 
 ## macOS Catalina
 
-If you are installing on macOS Catalina, execute the `rclone` utility in a terminal window before using RcloneOSX. There is a process of granting access for the `rclone` utility before using it by RcloneOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RcloneOSX.
+If you are installing on macOS Catalina, execute the rclone utility in a terminal window before using RcloneOSX. There is a process of granting access for the rclone utility before using it by RcloneOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RcloneOSX.
 
 ## Development, bugfixes and coming versions of macOS
 
 For the moment there is no active development of RcloneOSX. I will continue to compile, notarize and sign RcloneOSX for new versions of macOS and fix serious bugs. I will also refactor and enhance the code when required. But there will not be any new functions. My main effort in the future is to continue development of RsyncOSX and RsyncGUI.
+
+## Version 2.2.0
+
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.2.0) 17 May 2020.
+
+- added counting numbers in quick backup
+- added clean logfile in view output from rsync
+- some minor fixes and cleanups
+
+Shasum:
+```
+rcloneosx 2.2.0.dmg: 88a587d89085b741af4cf5f8e366cf31749aebda
+```
+
+## Version 2.1.9
+
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.1.9) 4 May 2020.
+
+- a few minor bugfixes
+- copy and paste output from rclone to macOS clipboard
+- logging rclone errors to logfile
+- view logfile in view for rclone output
+
+Shasum:
+```
+rcloneosx.2.1.9.dmg: 8f2f8281c6bf08d6a6387679c759d35411c02c73
+```
 
 ## Version 2.1.5
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.1.5) 27 March 2020.
 
 This is a "maintenance release". Batch is removed and replaced with multiple selection of tasks to execute.
+
+Shasum:
+```
+RcloneOSX-2.1.5.dmg: c3c70473d2db49e5f1e59b1b243a7cef6faa3408
+```
 
 ## Version 2.1.1
 
@@ -109,7 +140,7 @@ The major part (about 80%) in this version are refactor and cleanup in code. Ref
 - backup now and automatic backup my be executed from any view (tab) by menu buttons or shortcuts
 - clean up of code, some minor bugfixes
 - RcloneOSX center itself in screen when started
-- configuration is available by shortcut `⌘,` (Preferences)
+- configuration is available by shortcut ⌘, (Preferences)
 
 ## Version 1.7.5
 
@@ -132,8 +163,8 @@ The **scheduling part is removed** from RcloneOSX. It was based upon an previous
 There is a new version 1.45 of rclone. If you are using version 1.45 of rclone you should download this version to get correct info about number of files to synchronize. There was a change in output from version 1.43 of rclone. This is set in userconfig of RcloneOSX.
 
 - a lot of cleanup in code (delete of dead code)
-- in user config tick of for `version 1.43 of rclone` for utilizing rclone versions => 1.43
-- some enhancements in `restore`, restore defaults to temporary restore catalog if set
+- in user config tick of for version 1.43 of rclone for utilizing rclone versions => 1.43
+- some enhancements in restore, restore defaults to temporary restore catalog if set
 - estimating remote numbers and size are now included in quick backup
 - fixed a bug in batch and some other bug fixes as well
 - remove of scheduling
@@ -216,9 +247,9 @@ Released 6 May 2018.
 
 
 There are several enhancements in this release:
-- `⌘I` gets remote info about tasks
-- `⌘B` commence an automatic backup for `sync` tasks with data to sync
-- selecting the i-button commence an estimating run for all `sync` tasks
+- ⌘I gets remote info about tasks
+- ⌘B commence an automatic backup for sync tasks with data to sync
+- selecting the i-button commence an estimating run for all sync tasks
 
 ## Version 1.4.0
 
@@ -265,14 +296,14 @@ Scheduling tasks is disabled in this update. Schedules might be setup but it is 
 - focus on GUI single tasks and batch
 - adding several shortcuts
 	- after selecting a row the following shortcuts are effective
-	- `⌘E` - shortcut for edit task
-	- `⌘O` - shortcut for rclone parameters to task
-	- `⌘D` - shortcut for delete task
-	- `⌘R` - shortcut for immediate execute task, executing
+	- ⌘E - shortcut for edit task
+	- ⌘O - shortcut for rclone parameters to task
+	- ⌘D - shortcut for delete task
+	- ⌘R - shortcut for immediate execute task, executing
 	task by shortcut seems to be more effective compared execute by batch and single tasks
-	- `⌘A` - Abort task
+	- ⌘A - Abort task
 
-If a task is executed by shortcut `⌘R`, a select of another row during execution will terminate (abort) the current task. Scheduled task also might be aborted by selection the stop symbol.
+If a task is executed by shortcut ⌘R, a select of another row during execution will terminate (abort) the current task. Scheduled task also might be aborted by selection the stop symbol.
 
 ## Version 1.1.1
 
@@ -289,7 +320,7 @@ If a task is executed by shortcut `⌘R`, a select of another row during executi
 
 - released 24 Nov 2017
 - logging result after execution of tasks is fixed
-- added possibility of logging, either minimum or full, output from rsync to loggfile in `Documents/rclonelog.txt`
+- added possibility of logging, either minimum or full, output from rsync to loggfile in Documents/rclonelog.txt
 	- the logging to file is default off when starting RcloneOSX, status of logging is not saved in userconfiguration
 	- the log function appends new logs, be careful not logging all actions
 - fixed some other minor glitches
@@ -310,35 +341,35 @@ If a task is executed by shortcut `⌘R`, a select of another row during executi
 ## Next version 0.1.5
 
 * released 13 Nov 2017
-* color rows in main table (`check` task in blue and `move` tasks in red)
+* color rows in main table (check task in blue and move tasks in red)
 * initial statistics and numbers are working
-* only tasks `sync`, `copy` and `move` adding logs
+* only tasks sync, copy and move adding logs
 
 ## Version 0.0.3
 
 * released 11 Nov 2017
 * fixed a couple of bugs
-* added command `check`
-* only `sync`and `copy` tasks allowed executing in batch and by schedule
-  - command `move` may cause some unwanted effects when executed, always do a `--dry-run` before executing
-  - executing single tasks is always a two step task, first a `--dry-run` and then the real task after inspecting the result of the `--dry-run` task
+* added command check
+* only syncand copy tasks allowed executing in batch and by schedule
+  - command move may cause some unwanted effects when executed, always do a --dry-run before executing
+  - executing single tasks is always a two step task, first a --dry-run and then the real task after inspecting the result of the --dry-run task
 
 ## Version 0.0.2
 
 * released 10 Nov 2017
-* more fixes and enhancements, all commands as `copy`, `sync` and `move` are implemented
+* more fixes and enhancements, all commands as copy, sync and move are implemented
 * still alfa release, but most functions work
 * still work to do regarding numbers and statistics
 
 ## Version 0.0.1
 
-By a couple of hours work with RcloneOSX I managed to do a `rclone copy` of a local directory to remote directory at Dropbox and Microsoft Onedrive. The Numbers part does not work yet because the output from `rclone` is quite different compared to `rsync`. Below are some screenshots from testing.
+By a couple of hours work with RcloneOSX I managed to do a rclone copy of a local directory to remote directory at Dropbox and Microsoft Onedrive. The Numbers part does not work yet because the output from rclone is quite different compared to rsync. Below are some screenshots from testing.
 
-Adding cloud services is done by using the command line interface `rclone config`.
+Adding cloud services is done by using the command line interface rclone config.
 
 ### What is working v0.0.1
 
-* only `rclone copy`
+* only rclone copy
   - verified with Dropbox and Microsoft Onedrive, expect others to work as well
 * adding and executing single tasks
 * batch tasks
@@ -351,8 +382,8 @@ Adding cloud services is done by using the command line interface `rclone config
 ### What is not working v0.0.1
 
 * numbers and statistics of transferred data
-* for the moment only `rclone copy`
+* for the moment only rclone copy
   - my knowlegde about rclone and its use is growing every day...
-* no gui for `rclone config`
+* no gui for rclone config
   - don't know if is possible to make a GUI for setting up rclone
   - for the moment investigating this issue is put on hold

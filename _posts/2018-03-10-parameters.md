@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Parameters"
-permalink: Parameters
+permalink: parameters
 ---
 RsyncOSX utilizes the object [RsyncParameters.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/RsyncParameters.swift) to analyze and set whatever parameters to rsync the user sets. There are no check of parameters set for rsync is correct. If the user enters bad parameters RsyncOSX passes bad parameters to rsync.
 
