@@ -3,7 +3,7 @@ layout: post
 title:  "Scheduled task"
 permalink: scheduletasks
 ---
-The [menu app](/menuapp/) to RsyncOSX is responsible for executing scheduled tasks. Adding and deleting scheduled tasks are done within RsyncOSX. By selecting a row and choose schedule applies a scheduled. All schedules is set to start at selected date.
+The [menu app](/menuapp) to RsyncOSX is responsible for executing scheduled tasks. Adding and deleting scheduled tasks are done within RsyncOSX. By selecting a row and choose schedule applies a scheduled. All schedules is set to start at selected date.
 
 The menu app is reloading the schedules after each scheduled task is completed. By reloading the schedules all changes is also applied to the menu app.
 

@@ -21,7 +21,7 @@ If your plan is to use RsyncGUI as your main tool for backup of files, please in
 
 ## When you start RsyncGUI for the first time
 
-RsyncGUI is a sandboxed macOS app and the first to do is to grant RsyncGUI permission to read the users home catalog. When RsyncGUI is started for the first time, it asks for permission to access your home catalog. Please see the [start RsyncGUI for the first time](/RsyncGUIfirststart).
+RsyncGUI is a sandboxed macOS app and the first to do is to grant RsyncGUI permission to read the users home catalog. When RsyncGUI is started for the first time, it asks for permission to access your home catalog. Please see the [start RsyncGUI for the first time](/rsyncguifirststart).
 
 ## Where to start?
 
