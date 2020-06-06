@@ -3,11 +3,11 @@ layout: post
 title:  "Changelog"
 permalink: changelog
 ---
-I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. [Please add an issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/notarized/).
+I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. [Please add an issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/notarized).
 
 ### Signing and notarizing
 
-Also see [signing and notarized of RsyncOSX](/notarized/). All releases of RsyncOSX are signed and notarized.
+Also see [signing and notarized of RsyncOSX](/notarized). All releases of RsyncOSX are signed and notarized.
 
 ### RsyncOSX on macOS Catalina
 
@@ -31,7 +31,7 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 The update includes a more robust check of the user selected ssh keypath and identity file.
 
-The only change in this rc is user selected ssh keypath and identity file. Please see info about [user selected ssh keypath and identity file](/ssh/).
+The only change in this rc is user selected ssh keypath and identity file. Please see info about [user selected ssh keypath and identity file](/ssh).
 
 Users of version 6.3.0 who does not require user selected ssh keypath and identity file should not update. The release candidate is signed and notarized.
 
@@ -165,7 +165,7 @@ The following are new features and updates in version 5.8.6.
 - added possibility to execute a selected tasks Now in RsyncOSXsched app (menu app)
 - added possibility to auto execute tasks in RsyncOSXsched app (menu app) when local disk is attached
 - some refactor and cleanup of code
-- [localization](/localization/)
+- [localization](/localization)
 	- RsyncOSX and RsyncOSXsched are prepared for localization
 	- RsyncOSX is translated to Chinese (Simplified) and Norwegian (default language is English)
 	- the Chinese (Simplified) translating by [StringKe](https://github.com/StringKe)
@@ -217,17 +217,17 @@ This will be the last version compiled and released with current released versio
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.6.2) 1 January 2019.
 
-This is a maintenance release: cleanup in code, minor bugfixes and [plan](/plansnapshots/) for snapshots.
+This is a maintenance release: cleanup in code, minor bugfixes and [plan](/plansnapshots) for snapshots.
 
 ### Version 5.6.1
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v5.6.1) 6 December 2018
 
-In this release executing scheduled tasks is **moved** to the [menu app](/menuapp/).
+In this release executing scheduled tasks is **moved** to the [menu app](/menuapp).
 
 The following changes compared to version 5.5.7 are:
 - a lot of cleanup in code (delete of dead code)
-- delete code for execution of scheduled tasks, the [menu app](/menuapp/) executes scheduled tasks, add and delete schedules in RsyncOSX
+- delete code for execution of scheduled tasks, the [menu app](/menuapp) executes scheduled tasks, add and delete schedules in RsyncOSX
 - some enhancements in restore and restore defaults to temporary restore catalog if set in user config
 - some enhancements in cleaning (deleting) snapshots and log records
 - and as always some bugfixes
@@ -246,10 +246,10 @@ The following are changes in the release:
 - refactor batch tasks
 - the userconfig is refactored
 - and some minor bugfixes and tweaks (gui)
-- the RsyncOSX.app is [notarized](/notarized/)
+- the RsyncOSX.app is [notarized](/notarized)
 - in the All profiles tab info about used and available remote storage
 
-Here are some screenshots of what is in this [version](/nextversion/).
+Here are some screenshots of what is in this [version](/nextversion).
 
 ### Version 5.5.5
 
@@ -288,20 +288,20 @@ This is a maintenance release. The following changes are applied:
 
 Released 16 August 2018.
 
-The primary goal for this release is adding [verify](/verify/) of backups. There are also some other and minor fixes as well.
+The primary goal for this release is adding [verify](/verify) of backups. There are also some other and minor fixes as well.
 
-- new function [verify](/verify/)
+- new function [verify](/verify)
 - if task is selected in Synchronize view, only logs for selected task is presented in log view
 - fixed preserving sort direction and selection of logs
-- in [snapshots](/snapshots/) enter number of snapshots to delete directly
-- cleaned up in [copy single files](/copysinglefiles/) and fixed a memory leak
+- in [snapshots](/snapshots) enter number of snapshots to delete directly
+- cleaned up in [copy single files](/copysinglefiles) and fixed a memory leak
 - a new info view showing output from rsync during execution of single tasks
 
 ### Version 5.3.9
 
 Released 22 July 2018
 
-- deleting or adding [temporary path restore](/userconfiguration/) catalog is not working properly
+- deleting or adding [temporary path restore](/userconfiguration) catalog is not working properly
 	- used in Copy Single files
 	- and in new function for full restore
 - first execution of a task is not logged properly
@@ -322,9 +322,9 @@ A **bug** in automatic backups is fixed, the bug causes RsyncOSX to crash if rep
 
 Creating the "restore part" of a task is removed, how to do a full restore is reimplemented. There are also some enhancements in the info part, caching of information, select and delete log records and a better check if menu app is installed.
 
-- [full restore](/fullrestore/)
-- [logging](/logging/)
-- [caching of information](/caching/)
+- [full restore](/fullrestore)
+- [logging](/logging)
+- [caching of information](/caching)
 - compiled with latest version of Xcode, version 9.4.1 (9F2000)
 
 ### Version 5.3.5
@@ -364,7 +364,7 @@ Within the dynamic info view a progress bar informs about the progress. There is
 
 Released 27 February 2018
 
-- added a [menu app](/Menuapp)
+- added a [menu app](/menuapp)
 to execute scheduled backups, the menu appis a minimal version of RsyncOSX only capable of executing scheduled tasks
 	- all editing of tasks and schedules are within RsyncOSX
 - added notifications when scheduled task is completed
@@ -375,7 +375,7 @@ to execute scheduled backups, the menu appis a minimal version of RsyncOSX only 
 ### Version 5.0.0
 
 - released 1 February 2018
-- [snapshot](/Snapshots) is the main new feature in this release
+- [snapshot](/snapshots) is the main new feature in this release
 - enhancements in Quick Backup
 	-	selecting the i-button checks and estimates the number of changed files compared to the remote storage
 	- select which tasks to be executed and press the play button for executing tasks immidialaty
