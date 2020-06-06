@@ -27,4 +27,4 @@ RsyncOSX is also released as [RsyncGUI](https://itunes.apple.com/us/app/rsyncgui
 
 ### My own NAS setup
 
-I have setup up my own [NAS](/diynas/). I am doing backups by using RsyncOSX and sharing out disk by AFP and SMB.
+I have setup up my own [NAS](/diynas). I am doing backups by using RsyncOSX and sharing out disk by AFP and SMB.

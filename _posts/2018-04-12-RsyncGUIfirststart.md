@@ -19,7 +19,7 @@ If you plan utilizing remote servers the following steps are required. It is onl
 
 ### First steps setting up passwordless logins for rsync
 
-See [how to setup passwordless logins](/remotelogins/) for info.
+See [how to setup passwordless logins](/remotelogins) for info.
 
 ### Create private and public ssh certificates
 
