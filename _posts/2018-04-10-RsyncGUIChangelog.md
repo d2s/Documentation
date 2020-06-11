@@ -23,6 +23,13 @@ Utilizing **snapshots** in RsyncGUI is **not possible** due a bug in default ver
 
 If you need either of them, please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 2.1.5
+
+This version is released for approval on Apple Mac Store 11 June 2020. The ssh part of RsynGUI is changed, [see ssh](/ssh).
+
+- the user can add a user selected ssh keypath and identityfile
+- RsyncGUI can assist in creating rsa based ssh keypair
+
 ## Version 2.1.1
 
 This version is approved for release on Apple Mac Store 17 May 2020.
@@ -30,7 +37,6 @@ This version is approved for release on Apple Mac Store 17 May 2020.
 - added counting numbers in quick backup
 - added clean logfile in view output from rsync
 - some minor fixes and cleanups
-
 
 ## Version 2.1.0
 
