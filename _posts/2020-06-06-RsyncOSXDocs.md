@@ -53,4 +53,4 @@ Using RsyncOSX for synchronize files to remote servers require some setup. It is
 
 ### Source code and compile
 
-- some info [about the source code and how to compile RsyncOSX](/source)
+- some info [about the source code and how to compile RsyncOSX](/compile)
