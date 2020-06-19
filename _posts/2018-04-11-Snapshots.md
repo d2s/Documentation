@@ -3,7 +3,9 @@ layout: post
 title:  "Snapshots"
 permalink: snapshots
 ---
-Snapshot is an effective method for saving changed and deleted data. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted data are saved as separate files in a snapshot. Files which are not changed are  hardlinks to the original file in the snapshot.
+Utilizing snapshot is an effective method for restore of previous versions of data and deleted files. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted files are saved as separate files in a snapshot. Files which are not changed are hardlinks to the original file.
+
+If a `file.txt` is saved in snapshot number one and never changed or deleted, the file `file.txt` in the latest snapshot is just a hardlink to the original file. If the `file.txt` is deleted from the first snapshot, the filesystem takes care of updating and where to save the original file as part of the delete operation.  
 
 ## What is a snapshots?
 
@@ -26,12 +28,11 @@ RsyncOSX creates the snapshots within the remote catalog. The ~ is expanded to t
   - a full sync when snapshot is created
 - `~/snapshots/2` - snapshot two
   - the next snapshots saves the changed files and makes hard links for files not changed
-  - `~/snapshots/n-1` - snapshot n
-    - n-1 is the latest snapshot saved to disk
+- ...
+- `~/snapshots/n-1` - snapshot n
+  - n-1 is the latest snapshot saved to disk
 - `~/snapshots/n` - snapshot n
   - n is the latest snapshot to be saved
-
-When the old snapshots are deleted, the filesystem takes care of saving the real files which are hard linked.
 
 ## Create a snapshot
 
