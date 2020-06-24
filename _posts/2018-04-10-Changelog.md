@@ -31,19 +31,11 @@ See info about [the latest version of rsync in install](/rsyncosx).
 
 ### Version 6.3.1 release candidate
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) 11 June 2020
-
-- 11 June, the update includes some localization updates and some minor fixes
-- 30 May, the update includes a more robust check of the user selected ssh keypath and identity file.
-
-The only change in this rc is user selected ssh keypath and identity file. Please see info about [user selected ssh keypath and identity file](/ssh).
-
-Users of version 6.3.0 who does not require user selected ssh keypath and identity file should not update. The release candidate is signed and notarized.
+What is [in next release](/nextrelease)? Please read before using. The release candidate is as stabel as the released version. There are a few changes in code,
 
 Shasums
-
 ```
-RsyncOSX 6.3.1.dmg: 8e3cba25efcd6368eeb29cc2ff660bcaf23aa3b3
+RsyncOSX 6.3.1.dmg: 983907dc70f142360d28c4572ea8a2c5284062ff
 RsyncOSXsched 6.3.1.dmg: dc4ccffc8792152a0f28314cf070fdb678dfbf24
 ```
 
