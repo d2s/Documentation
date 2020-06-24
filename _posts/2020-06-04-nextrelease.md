@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Next release of RsyncOSX."@
+title:  "Next release of RsyncOSX."
 permalink: nextrelease
 ---
 There are som changes to how the ssh part of RsyncOSX is implemented. First of all it is enabled a global, user selected ssh keypath and identity file. If utilized the global values is set in user config. And the global values only applies to tasks with remote servers.
